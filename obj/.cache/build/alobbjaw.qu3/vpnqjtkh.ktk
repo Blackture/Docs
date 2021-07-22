@@ -1,0 +1,63 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="TheInvaders.html" name="" title="TheInvaders">TheInvaders</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="TheInvaders.AgentLinkMover.html" name="" title="AgentLinkMover">AgentLinkMover</a>
+                          </li>
+                          <li>
+                              <a href="TheInvaders.Character.html" name="" title="Character">Character</a>
+                          </li>
+                          <li>
+                              <a href="TheInvaders.ControlMapping.html" name="" title="ControlMapping">ControlMapping</a>
+                          </li>
+                          <li>
+                              <a href="TheInvaders.ControlMapping.UNIT_MODE.html" name="" title="ControlMapping.UNIT_MODE">ControlMapping.UNIT_MODE</a>
+                          </li>
+                          <li>
+                              <a href="TheInvaders.GameUUIDManager.html" name="" title="GameUUIDManager">GameUUIDManager</a>
+                          </li>
+                          <li>
+                              <a href="TheInvaders.OffMeshLinkMoveMethod.html" name="" title="OffMeshLinkMoveMethod">OffMeshLinkMoveMethod</a>
+                          </li>
+                          <li>
+                              <a href="TheInvaders.Player.html" name="" title="Player">Player</a>
+                          </li>
+                          <li>
+                              <a href="TheInvaders.Storage-1.html" name="" title="Storage&lt;T&gt;">Storage&lt;T&gt;</a>
+                          </li>
+                          <li>
+                              <a href="TheInvaders.Trader.html" name="" title="Trader">Trader</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="UnityTemplateProjects.html" name="" title="UnityTemplateProjects">UnityTemplateProjects</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="UnityTemplateProjects.SimpleCameraController.html" name="" title="SimpleCameraController">SimpleCameraController</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

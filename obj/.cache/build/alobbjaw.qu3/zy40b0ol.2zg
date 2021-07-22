@@ -1,0 +1,107 @@
+﻿
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <a>Conceptual</a>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Reference</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="../planningToolAPI/PlanningTool.html" name="" title="PlanningTool">PlanningTool</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Form1.html" name="" title="Form1">Form1</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Form1.TYPE.html" name="" title="Form1.TYPE">Form1.TYPE</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Saver-1.html" name="" title="Saver&lt;T&gt;">Saver&lt;T&gt;</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="../planningToolAPI/PlanningTool.Licenses.html" name="" title="PlanningTool.Licenses">PlanningTool.Licenses</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Licenses.AddLicense.html" name="" title="AddLicense">AddLicense</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Licenses.EditLicense.html" name="" title="EditLicense">EditLicense</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Licenses.License.html" name="" title="License">License</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Licenses.Login.html" name="" title="Login">Login</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Licenses.Project.html" name="" title="Project">Project</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Licenses.RemoveLicense.html" name="" title="RemoveLicense">RemoveLicense</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Licenses.User.html" name="" title="User">User</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="../planningToolAPI/PlanningTool.Storage.html" name="" title="PlanningTool.Storage">PlanningTool.Storage</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.AddFilm.html" name="" title="AddFilm">AddFilm</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.AddGenre.html" name="" title="AddGenre">AddGenre</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.EditByID.html" name="" title="EditByID">EditByID</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.Film.html" name="" title="Film">Film</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.Film.F_GENRE.html" name="" title="Film.F_GENRE">Film.F_GENRE</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.RemFilm.html" name="" title="RemFilm">RemFilm</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.RemGenre.html" name="" title="RemGenre">RemGenre</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.Storage.html" name="" title="Storage">Storage</a>
+                                    </li>
+                                    <li>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.StorageItem.html" name="" title="StorageItem">StorageItem</a>
+                                    </li>
+                              </ul>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
