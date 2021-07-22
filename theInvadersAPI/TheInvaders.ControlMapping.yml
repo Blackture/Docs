@@ -1,0 +1,989 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.ControlMapping
+  commentId: T:TheInvaders.ControlMapping
+  id: ControlMapping
+  parent: TheInvaders
+  children:
+  - TheInvaders.ControlMapping.back
+  - TheInvaders.ControlMapping.forward
+  - TheInvaders.ControlMapping.GetUnitMode(TheInvaders.ControlMapping.UNIT_MODE@)
+  - TheInvaders.ControlMapping.left
+  - TheInvaders.ControlMapping.MoveInput(System.Single@,System.Single@)
+  - TheInvaders.ControlMapping.right
+  - TheInvaders.ControlMapping.ScrollSensivity
+  - TheInvaders.ControlMapping.UnitAction
+  - TheInvaders.ControlMapping.UnitDeselect
+  - TheInvaders.ControlMapping.Zoom(System.Single@)
+  - TheInvaders.ControlMapping.zoom01
+  - TheInvaders.ControlMapping.Zoom02
+  - TheInvaders.ControlMapping.ZoomAxis
+  - TheInvaders.ControlMapping.zoomViaAxis
+  langs:
+  - csharp
+  - vb
+  name: ControlMapping
+  nameWithType: ControlMapping
+  fullName: TheInvaders.ControlMapping
+  type: Class
+  source:
+    id: ControlMapping
+    path: ''
+    startLine: 1264
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static class ControlMapping
+    content.vb: Public Module ControlMapping
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: TheInvaders.ControlMapping.zoomViaAxis
+  commentId: F:TheInvaders.ControlMapping.zoomViaAxis
+  id: zoomViaAxis
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: zoomViaAxis
+  nameWithType: ControlMapping.zoomViaAxis
+  fullName: TheInvaders.ControlMapping.zoomViaAxis
+  type: Field
+  source:
+    id: zoomViaAxis
+    path: ''
+    startLine: 1273
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static bool zoomViaAxis
+    return:
+      type: System.Boolean
+    content.vb: Public Shared zoomViaAxis As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.ZoomAxis
+  commentId: P:TheInvaders.ControlMapping.ZoomAxis
+  id: ZoomAxis
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: ZoomAxis
+  nameWithType: ControlMapping.ZoomAxis
+  fullName: TheInvaders.ControlMapping.ZoomAxis
+  type: Property
+  source:
+    id: ZoomAxis
+    path: ''
+    startLine: 1274
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static string ZoomAxis { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property ZoomAxis As String
+  overload: TheInvaders.ControlMapping.ZoomAxis*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TheInvaders.ControlMapping.zoom01
+  commentId: F:TheInvaders.ControlMapping.zoom01
+  id: zoom01
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: zoom01
+  nameWithType: ControlMapping.zoom01
+  fullName: TheInvaders.ControlMapping.zoom01
+  type: Field
+  source:
+    id: zoom01
+    path: ''
+    startLine: 1284
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  summary: "\nfor key-combination\n"
+  example: []
+  syntax:
+    content: public static KeyCode? zoom01
+    return:
+      type: System.Nullable{KeyCode}
+    content.vb: Public Shared zoom01 As KeyCode?
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.Zoom02
+  commentId: P:TheInvaders.ControlMapping.Zoom02
+  id: Zoom02
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: Zoom02
+  nameWithType: ControlMapping.Zoom02
+  fullName: TheInvaders.ControlMapping.Zoom02
+  type: Property
+  source:
+    id: Zoom02
+    path: ''
+    startLine: 1296
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  summary: "\nfor plus and minus key\n"
+  example: []
+  syntax:
+    content: public static KeyCode[] Zoom02 { get; set; }
+    parameters: []
+    return:
+      type: KeyCode[]
+    content.vb: Public Shared Property Zoom02 As KeyCode()
+  overload: TheInvaders.ControlMapping.Zoom02*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.UnitDeselect
+  commentId: F:TheInvaders.ControlMapping.UnitDeselect
+  id: UnitDeselect
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: UnitDeselect
+  nameWithType: ControlMapping.UnitDeselect
+  fullName: TheInvaders.ControlMapping.UnitDeselect
+  type: Field
+  source:
+    id: UnitDeselect
+    path: ''
+    startLine: 1307
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  summary: "\nsecond key to deselect with the next click\n"
+  example: []
+  syntax:
+    content: public static KeyCode UnitDeselect
+    return:
+      type: KeyCode
+    content.vb: Public Shared UnitDeselect As KeyCode
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.UnitAction
+  commentId: P:TheInvaders.ControlMapping.UnitAction
+  id: UnitAction
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: UnitAction
+  nameWithType: ControlMapping.UnitAction
+  fullName: TheInvaders.ControlMapping.UnitAction
+  type: Property
+  source:
+    id: UnitAction
+    path: ''
+    startLine: 1313
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  summary: "\nButton name (Fire1 = LeftMouseButton)\n"
+  example: []
+  syntax:
+    content: public static int UnitAction { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property UnitAction As Integer
+  overload: TheInvaders.ControlMapping.UnitAction*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TheInvaders.ControlMapping.forward
+  commentId: F:TheInvaders.ControlMapping.forward
+  id: forward
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: forward
+  nameWithType: ControlMapping.forward
+  fullName: TheInvaders.ControlMapping.forward
+  type: Field
+  source:
+    id: forward
+    path: ''
+    startLine: 1318
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static KeyCode forward
+    return:
+      type: KeyCode
+    content.vb: Public Shared forward As KeyCode
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.left
+  commentId: F:TheInvaders.ControlMapping.left
+  id: left
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: left
+  nameWithType: ControlMapping.left
+  fullName: TheInvaders.ControlMapping.left
+  type: Field
+  source:
+    id: left
+    path: ''
+    startLine: 1319
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static KeyCode left
+    return:
+      type: KeyCode
+    content.vb: Public Shared left As KeyCode
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.back
+  commentId: F:TheInvaders.ControlMapping.back
+  id: back
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: back
+  nameWithType: ControlMapping.back
+  fullName: TheInvaders.ControlMapping.back
+  type: Field
+  source:
+    id: back
+    path: ''
+    startLine: 1320
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static KeyCode back
+    return:
+      type: KeyCode
+    content.vb: Public Shared back As KeyCode
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.right
+  commentId: F:TheInvaders.ControlMapping.right
+  id: right
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: right
+  nameWithType: ControlMapping.right
+  fullName: TheInvaders.ControlMapping.right
+  type: Field
+  source:
+    id: right
+    path: ''
+    startLine: 1321
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static KeyCode right
+    return:
+      type: KeyCode
+    content.vb: Public Shared right As KeyCode
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.ScrollSensivity
+  commentId: P:TheInvaders.ControlMapping.ScrollSensivity
+  id: ScrollSensivity
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: ScrollSensivity
+  nameWithType: ControlMapping.ScrollSensivity
+  fullName: TheInvaders.ControlMapping.ScrollSensivity
+  type: Property
+  source:
+    id: ScrollSensivity
+    path: ''
+    startLine: 1324
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static int ScrollSensivity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ScrollSensivity As Integer
+  overload: TheInvaders.ControlMapping.ScrollSensivity*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.ControlMapping.Zoom(System.Single@)
+  commentId: M:TheInvaders.ControlMapping.Zoom(System.Single@)
+  id: Zoom(System.Single@)
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: Zoom(out Single)
+  nameWithType: ControlMapping.Zoom(out Single)
+  fullName: TheInvaders.ControlMapping.Zoom(out System.Single)
+  type: Method
+  source:
+    id: Zoom
+    path: ''
+    startLine: 1326
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static bool Zoom(out float z)
+    parameters:
+    - id: z
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function Zoom(ByRef z As Single) As Boolean
+  overload: TheInvaders.ControlMapping.Zoom*
+  nameWithType.vb: ControlMapping.Zoom(ByRef Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TheInvaders.ControlMapping.Zoom(ByRef System.Single)
+  name.vb: Zoom(ByRef Single)
+- uid: TheInvaders.ControlMapping.MoveInput(System.Single@,System.Single@)
+  commentId: M:TheInvaders.ControlMapping.MoveInput(System.Single@,System.Single@)
+  id: MoveInput(System.Single@,System.Single@)
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: MoveInput(out Single, out Single)
+  nameWithType: ControlMapping.MoveInput(out Single, out Single)
+  fullName: TheInvaders.ControlMapping.MoveInput(out System.Single, out System.Single)
+  type: Method
+  source:
+    id: MoveInput
+    path: ''
+    startLine: 1358
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static bool MoveInput(out float h, out float v)
+    parameters:
+    - id: h
+      type: System.Single
+    - id: v
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function MoveInput(ByRef h As Single, ByRef v As Single) As Boolean
+  overload: TheInvaders.ControlMapping.MoveInput*
+  nameWithType.vb: ControlMapping.MoveInput(ByRef Single, ByRef Single)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TheInvaders.ControlMapping.MoveInput(ByRef System.Single, ByRef System.Single)
+  name.vb: MoveInput(ByRef Single, ByRef Single)
+- uid: TheInvaders.ControlMapping.GetUnitMode(TheInvaders.ControlMapping.UNIT_MODE@)
+  commentId: M:TheInvaders.ControlMapping.GetUnitMode(TheInvaders.ControlMapping.UNIT_MODE@)
+  id: GetUnitMode(TheInvaders.ControlMapping.UNIT_MODE@)
+  parent: TheInvaders.ControlMapping
+  langs:
+  - csharp
+  - vb
+  name: GetUnitMode(out ControlMapping.UNIT_MODE)
+  nameWithType: ControlMapping.GetUnitMode(out ControlMapping.UNIT_MODE)
+  fullName: TheInvaders.ControlMapping.GetUnitMode(out TheInvaders.ControlMapping.UNIT_MODE)
+  type: Method
+  source:
+    id: GetUnitMode
+    path: ''
+    startLine: 1371
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static bool GetUnitMode(out ControlMapping.UNIT_MODE mode)
+    parameters:
+    - id: mode
+      type: TheInvaders.ControlMapping.UNIT_MODE
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function GetUnitMode(ByRef mode As ControlMapping.UNIT_MODE) As Boolean
+  overload: TheInvaders.ControlMapping.GetUnitMode*
+  nameWithType.vb: ControlMapping.GetUnitMode(ByRef ControlMapping.UNIT_MODE)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TheInvaders.ControlMapping.GetUnitMode(ByRef TheInvaders.ControlMapping.UNIT_MODE)
+  name.vb: GetUnitMode(ByRef ControlMapping.UNIT_MODE)
+references:
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TheInvaders.ControlMapping.ZoomAxis*
+  commentId: Overload:TheInvaders.ControlMapping.ZoomAxis
+  name: ZoomAxis
+  nameWithType: ControlMapping.ZoomAxis
+  fullName: TheInvaders.ControlMapping.ZoomAxis
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Nullable{KeyCode}
+  commentId: T:System.Nullable{KeyCode}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<KeyCode>
+  nameWithType: Nullable<KeyCode>
+  fullName: System.Nullable<KeyCode>
+  nameWithType.vb: Nullable(Of KeyCode)
+  fullName.vb: System.Nullable(Of KeyCode)
+  name.vb: Nullable(Of KeyCode)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: KeyCode
+    name: KeyCode
+    nameWithType: KeyCode
+    fullName: KeyCode
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: KeyCode
+    name: KeyCode
+    nameWithType: KeyCode
+    fullName: KeyCode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.ControlMapping.Zoom02*
+  commentId: Overload:TheInvaders.ControlMapping.Zoom02
+  name: Zoom02
+  nameWithType: ControlMapping.Zoom02
+  fullName: TheInvaders.ControlMapping.Zoom02
+- uid: KeyCode[]
+  isExternal: true
+  name: KeyCode[]
+  nameWithType: KeyCode[]
+  fullName: KeyCode[]
+  nameWithType.vb: KeyCode()
+  fullName.vb: KeyCode()
+  name.vb: KeyCode()
+  spec.csharp:
+  - uid: KeyCode
+    name: KeyCode
+    nameWithType: KeyCode
+    fullName: KeyCode
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: KeyCode
+    name: KeyCode
+    nameWithType: KeyCode
+    fullName: KeyCode
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: KeyCode
+  isExternal: true
+  name: KeyCode
+  nameWithType: KeyCode
+  fullName: KeyCode
+- uid: TheInvaders.ControlMapping.UnitAction*
+  commentId: Overload:TheInvaders.ControlMapping.UnitAction
+  name: UnitAction
+  nameWithType: ControlMapping.UnitAction
+  fullName: TheInvaders.ControlMapping.UnitAction
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TheInvaders.ControlMapping.ScrollSensivity*
+  commentId: Overload:TheInvaders.ControlMapping.ScrollSensivity
+  name: ScrollSensivity
+  nameWithType: ControlMapping.ScrollSensivity
+  fullName: TheInvaders.ControlMapping.ScrollSensivity
+- uid: TheInvaders.ControlMapping.Zoom*
+  commentId: Overload:TheInvaders.ControlMapping.Zoom
+  name: Zoom
+  nameWithType: ControlMapping.Zoom
+  fullName: TheInvaders.ControlMapping.Zoom
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: TheInvaders.ControlMapping.MoveInput*
+  commentId: Overload:TheInvaders.ControlMapping.MoveInput
+  name: MoveInput
+  nameWithType: ControlMapping.MoveInput
+  fullName: TheInvaders.ControlMapping.MoveInput
+- uid: TheInvaders.ControlMapping.GetUnitMode*
+  commentId: Overload:TheInvaders.ControlMapping.GetUnitMode
+  name: GetUnitMode
+  nameWithType: ControlMapping.GetUnitMode
+  fullName: TheInvaders.ControlMapping.GetUnitMode
+- uid: TheInvaders.ControlMapping.UNIT_MODE
+  commentId: T:TheInvaders.ControlMapping.UNIT_MODE
+  parent: TheInvaders
+  name: ControlMapping.UNIT_MODE
+  nameWithType: ControlMapping.UNIT_MODE
+  fullName: TheInvaders.ControlMapping.UNIT_MODE

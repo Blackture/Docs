@@ -1,0 +1,185 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prototype.NetworkLobby.LobbyTopPanel
+  commentId: T:Prototype.NetworkLobby.LobbyTopPanel
+  id: LobbyTopPanel
+  parent: Prototype.NetworkLobby
+  children:
+  - Prototype.NetworkLobby.LobbyTopPanel.isDisplayed
+  - Prototype.NetworkLobby.LobbyTopPanel.isInGame
+  - Prototype.NetworkLobby.LobbyTopPanel.panelImage
+  - Prototype.NetworkLobby.LobbyTopPanel.ToggleVisibility(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: LobbyTopPanel
+  nameWithType: LobbyTopPanel
+  fullName: Prototype.NetworkLobby.LobbyTopPanel
+  type: Class
+  source:
+    id: LobbyTopPanel
+    path: ''
+    startLine: 1105
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: 'public class LobbyTopPanel : MonoBehaviour'
+    content.vb: >-
+      Public Class LobbyTopPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Prototype.NetworkLobby.LobbyTopPanel.isInGame
+  commentId: F:Prototype.NetworkLobby.LobbyTopPanel.isInGame
+  id: isInGame
+  parent: Prototype.NetworkLobby.LobbyTopPanel
+  langs:
+  - csharp
+  - vb
+  name: isInGame
+  nameWithType: LobbyTopPanel.isInGame
+  fullName: Prototype.NetworkLobby.LobbyTopPanel.isInGame
+  type: Field
+  source:
+    id: isInGame
+    path: ''
+    startLine: 1107
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public bool isInGame
+    return:
+      type: System.Boolean
+    content.vb: Public isInGame As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyTopPanel.isDisplayed
+  commentId: F:Prototype.NetworkLobby.LobbyTopPanel.isDisplayed
+  id: isDisplayed
+  parent: Prototype.NetworkLobby.LobbyTopPanel
+  langs:
+  - csharp
+  - vb
+  name: isDisplayed
+  nameWithType: LobbyTopPanel.isDisplayed
+  fullName: Prototype.NetworkLobby.LobbyTopPanel.isDisplayed
+  type: Field
+  source:
+    id: isDisplayed
+    path: ''
+    startLine: 1109
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: protected bool isDisplayed
+    return:
+      type: System.Boolean
+    content.vb: Protected isDisplayed As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Prototype.NetworkLobby.LobbyTopPanel.panelImage
+  commentId: F:Prototype.NetworkLobby.LobbyTopPanel.panelImage
+  id: panelImage
+  parent: Prototype.NetworkLobby.LobbyTopPanel
+  langs:
+  - csharp
+  - vb
+  name: panelImage
+  nameWithType: LobbyTopPanel.panelImage
+  fullName: Prototype.NetworkLobby.LobbyTopPanel.panelImage
+  type: Field
+  source:
+    id: panelImage
+    path: ''
+    startLine: 1110
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: protected Image panelImage
+    return:
+      type: Image
+    content.vb: Protected panelImage As Image
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Prototype.NetworkLobby.LobbyTopPanel.ToggleVisibility(System.Boolean)
+  commentId: M:Prototype.NetworkLobby.LobbyTopPanel.ToggleVisibility(System.Boolean)
+  id: ToggleVisibility(System.Boolean)
+  parent: Prototype.NetworkLobby.LobbyTopPanel
+  langs:
+  - csharp
+  - vb
+  name: ToggleVisibility(Boolean)
+  nameWithType: LobbyTopPanel.ToggleVisibility(Boolean)
+  fullName: Prototype.NetworkLobby.LobbyTopPanel.ToggleVisibility(System.Boolean)
+  type: Method
+  source:
+    id: ToggleVisibility
+    path: ''
+    startLine: 1130
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public void ToggleVisibility(bool visible)
+    parameters:
+    - id: visible
+      type: System.Boolean
+    content.vb: Public Sub ToggleVisibility(visible As Boolean)
+  overload: Prototype.NetworkLobby.LobbyTopPanel.ToggleVisibility*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Prototype.NetworkLobby
+  commentId: N:Prototype.NetworkLobby
+  name: Prototype.NetworkLobby
+  nameWithType: Prototype.NetworkLobby
+  fullName: Prototype.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Image
+  commentId: '!:Image'
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Prototype.NetworkLobby.LobbyTopPanel.ToggleVisibility*
+  commentId: Overload:Prototype.NetworkLobby.LobbyTopPanel.ToggleVisibility
+  name: ToggleVisibility
+  nameWithType: LobbyTopPanel.ToggleVisibility
+  fullName: Prototype.NetworkLobby.LobbyTopPanel.ToggleVisibility

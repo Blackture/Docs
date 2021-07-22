@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Kill
+  commentId: T:DevilsHunt.Kill
+  id: Kill
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Kill.#ctor(DevilsHunt.IKill.KillTypes)
+  - DevilsHunt.Kill.IsSold
+  - DevilsHunt.Kill.KillType
+  langs:
+  - csharp
+  - vb
+  name: Kill
+  nameWithType: Kill
+  fullName: DevilsHunt.Kill
+  type: Class
+  source:
+    id: Kill
+    path: ''
+    startLine: 1868
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Kill : IKill
+    content.vb: >-
+      <Serializable>
+
+      Public Class Kill
+          Implements IKill
+  inheritance:
+  - System.Object
+  implements:
+  - DevilsHunt.IKill
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Kill.KillType
+  commentId: P:DevilsHunt.Kill.KillType
+  id: KillType
+  parent: DevilsHunt.Kill
+  langs:
+  - csharp
+  - vb
+  name: KillType
+  nameWithType: Kill.KillType
+  fullName: DevilsHunt.Kill.KillType
+  type: Property
+  source:
+    id: KillType
+    path: ''
+    startLine: 1872
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public IKill.KillTypes KillType { get; }
+    parameters: []
+    return:
+      type: DevilsHunt.IKill.KillTypes
+    content.vb: Public ReadOnly Property KillType As IKill.KillTypes
+  overload: DevilsHunt.Kill.KillType*
+  implements:
+  - DevilsHunt.IKill.KillType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Kill.IsSold
+  commentId: P:DevilsHunt.Kill.IsSold
+  id: IsSold
+  parent: DevilsHunt.Kill
+  langs:
+  - csharp
+  - vb
+  name: IsSold
+  nameWithType: Kill.IsSold
+  fullName: DevilsHunt.Kill.IsSold
+  type: Property
+  source:
+    id: IsSold
+    path: ''
+    startLine: 1880
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool IsSold { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsSold As Boolean
+  overload: DevilsHunt.Kill.IsSold*
+  implements:
+  - DevilsHunt.IKill.IsSold
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Kill.#ctor(DevilsHunt.IKill.KillTypes)
+  commentId: M:DevilsHunt.Kill.#ctor(DevilsHunt.IKill.KillTypes)
+  id: '#ctor(DevilsHunt.IKill.KillTypes)'
+  parent: DevilsHunt.Kill
+  langs:
+  - csharp
+  - vb
+  name: Kill(IKill.KillTypes)
+  nameWithType: Kill.Kill(IKill.KillTypes)
+  fullName: DevilsHunt.Kill.Kill(DevilsHunt.IKill.KillTypes)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1890
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Kill(IKill.KillTypes type)
+    parameters:
+    - id: type
+      type: DevilsHunt.IKill.KillTypes
+    content.vb: Public Sub New(type As IKill.KillTypes)
+  overload: DevilsHunt.Kill.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: DevilsHunt.IKill
+  commentId: T:DevilsHunt.IKill
+  parent: DevilsHunt
+  name: IKill
+  nameWithType: IKill
+  fullName: DevilsHunt.IKill
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevilsHunt.Kill.KillType*
+  commentId: Overload:DevilsHunt.Kill.KillType
+  name: KillType
+  nameWithType: Kill.KillType
+  fullName: DevilsHunt.Kill.KillType
+- uid: DevilsHunt.IKill.KillType
+  commentId: P:DevilsHunt.IKill.KillType
+  parent: DevilsHunt.IKill
+  name: KillType
+  nameWithType: IKill.KillType
+  fullName: DevilsHunt.IKill.KillType
+- uid: DevilsHunt.IKill.KillTypes
+  commentId: T:DevilsHunt.IKill.KillTypes
+  parent: DevilsHunt
+  name: IKill.KillTypes
+  nameWithType: IKill.KillTypes
+  fullName: DevilsHunt.IKill.KillTypes
+- uid: DevilsHunt.Kill.IsSold*
+  commentId: Overload:DevilsHunt.Kill.IsSold
+  name: IsSold
+  nameWithType: Kill.IsSold
+  fullName: DevilsHunt.Kill.IsSold
+- uid: DevilsHunt.IKill.IsSold
+  commentId: P:DevilsHunt.IKill.IsSold
+  parent: DevilsHunt.IKill
+  name: IsSold
+  nameWithType: IKill.IsSold
+  fullName: DevilsHunt.IKill.IsSold
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DevilsHunt.Kill.#ctor*
+  commentId: Overload:DevilsHunt.Kill.#ctor
+  name: Kill
+  nameWithType: Kill.Kill
+  fullName: DevilsHunt.Kill.Kill

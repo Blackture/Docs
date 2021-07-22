@@ -1,0 +1,416 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.FieldSelection
+  commentId: T:DevilsHunt.FieldSelection
+  id: FieldSelection
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.FieldSelection.DevilGUI
+  - DevilsHunt.FieldSelection.EMarksGUI
+  - DevilsHunt.FieldSelection.FieldQuestion
+  - DevilsHunt.FieldSelection.Finished
+  - DevilsHunt.FieldSelection.HospitalPrefab
+  - DevilsHunt.FieldSelection.Init(DevilsHunt.Player)
+  - DevilsHunt.FieldSelection.InitSkip(DevilsHunt.Player)
+  - DevilsHunt.FieldSelection.MessengerPrefab
+  - DevilsHunt.FieldSelection.PhotoGUI
+  - DevilsHunt.FieldSelection.RobotGUI
+  - DevilsHunt.FieldSelection.Select(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FieldSelection
+  nameWithType: FieldSelection
+  fullName: DevilsHunt.FieldSelection
+  type: Class
+  source:
+    id: FieldSelection
+    path: ''
+    startLine: 701
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: 'public class FieldSelection : MonoBehaviour'
+    content.vb: >-
+      Public Class FieldSelection
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.FieldSelection.MessengerPrefab
+  commentId: F:DevilsHunt.FieldSelection.MessengerPrefab
+  id: MessengerPrefab
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: MessengerPrefab
+  nameWithType: FieldSelection.MessengerPrefab
+  fullName: DevilsHunt.FieldSelection.MessengerPrefab
+  type: Field
+  source:
+    id: MessengerPrefab
+    path: ''
+    startLine: 705
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject MessengerPrefab
+    return:
+      type: GameObject
+    content.vb: Public MessengerPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.HospitalPrefab
+  commentId: F:DevilsHunt.FieldSelection.HospitalPrefab
+  id: HospitalPrefab
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: HospitalPrefab
+  nameWithType: FieldSelection.HospitalPrefab
+  fullName: DevilsHunt.FieldSelection.HospitalPrefab
+  type: Field
+  source:
+    id: HospitalPrefab
+    path: ''
+    startLine: 706
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject HospitalPrefab
+    return:
+      type: GameObject
+    content.vb: Public HospitalPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.DevilGUI
+  commentId: F:DevilsHunt.FieldSelection.DevilGUI
+  id: DevilGUI
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: DevilGUI
+  nameWithType: FieldSelection.DevilGUI
+  fullName: DevilsHunt.FieldSelection.DevilGUI
+  type: Field
+  source:
+    id: DevilGUI
+    path: ''
+    startLine: 707
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject DevilGUI
+    return:
+      type: GameObject
+    content.vb: Public DevilGUI As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.EMarksGUI
+  commentId: F:DevilsHunt.FieldSelection.EMarksGUI
+  id: EMarksGUI
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: EMarksGUI
+  nameWithType: FieldSelection.EMarksGUI
+  fullName: DevilsHunt.FieldSelection.EMarksGUI
+  type: Field
+  source:
+    id: EMarksGUI
+    path: ''
+    startLine: 708
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject EMarksGUI
+    return:
+      type: GameObject
+    content.vb: Public EMarksGUI As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.PhotoGUI
+  commentId: F:DevilsHunt.FieldSelection.PhotoGUI
+  id: PhotoGUI
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: PhotoGUI
+  nameWithType: FieldSelection.PhotoGUI
+  fullName: DevilsHunt.FieldSelection.PhotoGUI
+  type: Field
+  source:
+    id: PhotoGUI
+    path: ''
+    startLine: 709
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject PhotoGUI
+    return:
+      type: GameObject
+    content.vb: Public PhotoGUI As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.RobotGUI
+  commentId: F:DevilsHunt.FieldSelection.RobotGUI
+  id: RobotGUI
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: RobotGUI
+  nameWithType: FieldSelection.RobotGUI
+  fullName: DevilsHunt.FieldSelection.RobotGUI
+  type: Field
+  source:
+    id: RobotGUI
+    path: ''
+    startLine: 710
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject RobotGUI
+    return:
+      type: GameObject
+    content.vb: Public RobotGUI As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.FieldQuestion
+  commentId: F:DevilsHunt.FieldSelection.FieldQuestion
+  id: FieldQuestion
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: FieldQuestion
+  nameWithType: FieldSelection.FieldQuestion
+  fullName: DevilsHunt.FieldSelection.FieldQuestion
+  type: Field
+  source:
+    id: FieldQuestion
+    path: ''
+    startLine: 711
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject FieldQuestion
+    return:
+      type: GameObject
+    content.vb: Public FieldQuestion As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.Finished
+  commentId: P:DevilsHunt.FieldSelection.Finished
+  id: Finished
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: Finished
+  nameWithType: FieldSelection.Finished
+  fullName: DevilsHunt.FieldSelection.Finished
+  type: Property
+  source:
+    id: Finished
+    path: ''
+    startLine: 713
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool Finished { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Finished As Boolean
+  overload: DevilsHunt.FieldSelection.Finished*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.FieldSelection.Init(DevilsHunt.Player)
+  commentId: M:DevilsHunt.FieldSelection.Init(DevilsHunt.Player)
+  id: Init(DevilsHunt.Player)
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: Init(Player)
+  nameWithType: FieldSelection.Init(Player)
+  fullName: DevilsHunt.FieldSelection.Init(DevilsHunt.Player)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 732
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Init(Player p)
+    parameters:
+    - id: p
+      type: DevilsHunt.Player
+    content.vb: Public Sub Init(p As Player)
+  overload: DevilsHunt.FieldSelection.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.InitSkip(DevilsHunt.Player)
+  commentId: M:DevilsHunt.FieldSelection.InitSkip(DevilsHunt.Player)
+  id: InitSkip(DevilsHunt.Player)
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: InitSkip(Player)
+  nameWithType: FieldSelection.InitSkip(Player)
+  fullName: DevilsHunt.FieldSelection.InitSkip(DevilsHunt.Player)
+  type: Method
+  source:
+    id: InitSkip
+    path: ''
+    startLine: 747
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void InitSkip(Player p)
+    parameters:
+    - id: p
+      type: DevilsHunt.Player
+    content.vb: Public Sub InitSkip(p As Player)
+  overload: DevilsHunt.FieldSelection.InitSkip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.FieldSelection.Select(System.String)
+  commentId: M:DevilsHunt.FieldSelection.Select(System.String)
+  id: Select(System.String)
+  parent: DevilsHunt.FieldSelection
+  langs:
+  - csharp
+  - vb
+  name: Select(String)
+  nameWithType: FieldSelection.Select(String)
+  fullName: DevilsHunt.FieldSelection.Select(System.String)
+  type: Method
+  source:
+    id: Select
+    path: ''
+    startLine: 762
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Select(string fieldName)
+    parameters:
+    - id: fieldName
+      type: System.String
+    content.vb: Public Sub Select(fieldName As String)
+  overload: DevilsHunt.FieldSelection.Select*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: DevilsHunt.FieldSelection.Finished*
+  commentId: Overload:DevilsHunt.FieldSelection.Finished
+  name: Finished
+  nameWithType: FieldSelection.Finished
+  fullName: DevilsHunt.FieldSelection.Finished
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DevilsHunt.FieldSelection.Init*
+  commentId: Overload:DevilsHunt.FieldSelection.Init
+  name: Init
+  nameWithType: FieldSelection.Init
+  fullName: DevilsHunt.FieldSelection.Init
+- uid: DevilsHunt.Player
+  commentId: T:DevilsHunt.Player
+  parent: DevilsHunt
+  name: Player
+  nameWithType: Player
+  fullName: DevilsHunt.Player
+- uid: DevilsHunt.FieldSelection.InitSkip*
+  commentId: Overload:DevilsHunt.FieldSelection.InitSkip
+  name: InitSkip
+  nameWithType: FieldSelection.InitSkip
+  fullName: DevilsHunt.FieldSelection.InitSkip
+- uid: DevilsHunt.FieldSelection.Select*
+  commentId: Overload:DevilsHunt.FieldSelection.Select
+  name: Select
+  nameWithType: FieldSelection.Select
+  fullName: DevilsHunt.FieldSelection.Select
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

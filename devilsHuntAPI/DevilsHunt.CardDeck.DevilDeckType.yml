@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.CardDeck.DevilDeckType
+  commentId: T:DevilsHunt.CardDeck.DevilDeckType
+  id: CardDeck.DevilDeckType
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.CardDeck.DevilDeckType.Devils
+  - DevilsHunt.CardDeck.DevilDeckType.HardDevils
+  langs:
+  - csharp
+  - vb
+  name: CardDeck.DevilDeckType
+  nameWithType: CardDeck.DevilDeckType
+  fullName: DevilsHunt.CardDeck.DevilDeckType
+  type: Enum
+  source:
+    id: DevilDeckType
+    path: ''
+    startLine: 231
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public enum DevilDeckType
+    content.vb: Public Enum DevilDeckType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DevilsHunt.CardDeck.DevilDeckType.Devils
+  commentId: F:DevilsHunt.CardDeck.DevilDeckType.Devils
+  id: Devils
+  parent: DevilsHunt.CardDeck.DevilDeckType
+  langs:
+  - csharp
+  - vb
+  name: Devils
+  nameWithType: CardDeck.DevilDeckType.Devils
+  fullName: DevilsHunt.CardDeck.DevilDeckType.Devils
+  type: Field
+  source:
+    id: Devils
+    path: ''
+    startLine: 233
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: Devils = 0
+    return:
+      type: DevilsHunt.CardDeck.DevilDeckType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DevilsHunt.CardDeck.DevilDeckType.HardDevils
+  commentId: F:DevilsHunt.CardDeck.DevilDeckType.HardDevils
+  id: HardDevils
+  parent: DevilsHunt.CardDeck.DevilDeckType
+  langs:
+  - csharp
+  - vb
+  name: HardDevils
+  nameWithType: CardDeck.DevilDeckType.HardDevils
+  fullName: DevilsHunt.CardDeck.DevilDeckType.HardDevils
+  type: Field
+  source:
+    id: HardDevils
+    path: ''
+    startLine: 234
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: HardDevils = 1
+    return:
+      type: DevilsHunt.CardDeck.DevilDeckType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: DevilsHunt.CardDeck.DevilDeckType
+  commentId: T:DevilsHunt.CardDeck.DevilDeckType
+  parent: DevilsHunt
+  name: CardDeck.DevilDeckType
+  nameWithType: CardDeck.DevilDeckType
+  fullName: DevilsHunt.CardDeck.DevilDeckType

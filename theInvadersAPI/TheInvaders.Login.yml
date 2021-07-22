@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Login
+  commentId: N:TheInvaders.Login
+  id: TheInvaders.Login
+  children:
+  - TheInvaders.Login.LoginData
+  - TheInvaders.Login.LoginEvents
+  - TheInvaders.Login.LoginManager
+  - TheInvaders.Login.LoginManager.CameraManager
+  - TheInvaders.Login.UserData
+  langs:
+  - csharp
+  - vb
+  name: TheInvaders.Login
+  nameWithType: TheInvaders.Login
+  fullName: TheInvaders.Login
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TheInvaders.Login.LoginData
+  commentId: T:TheInvaders.Login.LoginData
+  parent: TheInvaders.Login
+  name: LoginData
+  nameWithType: LoginData
+  fullName: TheInvaders.Login.LoginData
+- uid: TheInvaders.Login.LoginEvents
+  commentId: T:TheInvaders.Login.LoginEvents
+  parent: TheInvaders.Login
+  name: LoginEvents
+  nameWithType: LoginEvents
+  fullName: TheInvaders.Login.LoginEvents
+- uid: TheInvaders.Login.LoginManager
+  commentId: T:TheInvaders.Login.LoginManager
+  name: LoginManager
+  nameWithType: LoginManager
+  fullName: TheInvaders.Login.LoginManager
+- uid: TheInvaders.Login.LoginManager.CameraManager
+  commentId: T:TheInvaders.Login.LoginManager.CameraManager
+  parent: TheInvaders.Login
+  name: LoginManager.CameraManager
+  nameWithType: LoginManager.CameraManager
+  fullName: TheInvaders.Login.LoginManager.CameraManager
+- uid: TheInvaders.Login.UserData
+  commentId: T:TheInvaders.Login.UserData
+  parent: TheInvaders.Login
+  name: UserData
+  nameWithType: UserData
+  fullName: TheInvaders.Login.UserData
+- uid: TheInvaders.Login
+  commentId: N:TheInvaders.Login
+  name: TheInvaders.Login
+  nameWithType: TheInvaders.Login
+  fullName: TheInvaders.Login

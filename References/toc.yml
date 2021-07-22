@@ -1,0 +1,10 @@
+- name: Articles
+  href: ../articles/toc.yml
+- name: References
+  items:
+  - name: The Invaders
+    href: ../theInvadersAPI/toc.yml
+  - name: Planning Tool
+    href: ../planningToolAPI/toc.yml
+  - name: Devils Hunt API
+    href: ../devilsHuntAPI/toc.yml

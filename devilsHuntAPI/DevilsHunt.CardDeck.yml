@@ -1,0 +1,678 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.CardDeck
+  commentId: T:DevilsHunt.CardDeck
+  id: CardDeck
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.CardDeck.GetDevilCards(DevilsHunt.CardDeck.DevilDeckType)
+  - DevilsHunt.CardDeck.GetExclamationMarks
+  - DevilsHunt.CardDeck.GetPhotoCards
+  - DevilsHunt.CardDeck.Shuffle(System.Collections.Generic.List{DevilsHunt.PhotoCard})
+  langs:
+  - csharp
+  - vb
+  name: CardDeck
+  nameWithType: CardDeck
+  fullName: DevilsHunt.CardDeck
+  type: Class
+  source:
+    id: CardDeck
+    path: ''
+    startLine: 228
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class CardDeck
+    content.vb: >-
+      <Serializable>
+
+      Public Class CardDeck
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.CardDeck.GetDevilCards(DevilsHunt.CardDeck.DevilDeckType)
+  commentId: M:DevilsHunt.CardDeck.GetDevilCards(DevilsHunt.CardDeck.DevilDeckType)
+  id: GetDevilCards(DevilsHunt.CardDeck.DevilDeckType)
+  parent: DevilsHunt.CardDeck
+  langs:
+  - csharp
+  - vb
+  name: GetDevilCards(CardDeck.DevilDeckType)
+  nameWithType: CardDeck.GetDevilCards(CardDeck.DevilDeckType)
+  fullName: DevilsHunt.CardDeck.GetDevilCards(DevilsHunt.CardDeck.DevilDeckType)
+  type: Method
+  source:
+    id: GetDevilCards
+    path: ''
+    startLine: 237
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public static List<Devil> GetDevilCards(CardDeck.DevilDeckType type)
+    parameters:
+    - id: type
+      type: DevilsHunt.CardDeck.DevilDeckType
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.Devil}
+    content.vb: Public Shared Function GetDevilCards(type As CardDeck.DevilDeckType) As List(Of Devil)
+  overload: DevilsHunt.CardDeck.GetDevilCards*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DevilsHunt.CardDeck.GetExclamationMarks
+  commentId: M:DevilsHunt.CardDeck.GetExclamationMarks
+  id: GetExclamationMarks
+  parent: DevilsHunt.CardDeck
+  langs:
+  - csharp
+  - vb
+  name: GetExclamationMarks()
+  nameWithType: CardDeck.GetExclamationMarks()
+  fullName: DevilsHunt.CardDeck.GetExclamationMarks()
+  type: Method
+  source:
+    id: GetExclamationMarks
+    path: ''
+    startLine: 281
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public static List<ExclamationMarks> GetExclamationMarks()
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.ExclamationMarks}
+    content.vb: Public Shared Function GetExclamationMarks As List(Of ExclamationMarks)
+  overload: DevilsHunt.CardDeck.GetExclamationMarks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DevilsHunt.CardDeck.GetPhotoCards
+  commentId: M:DevilsHunt.CardDeck.GetPhotoCards
+  id: GetPhotoCards
+  parent: DevilsHunt.CardDeck
+  langs:
+  - csharp
+  - vb
+  name: GetPhotoCards()
+  nameWithType: CardDeck.GetPhotoCards()
+  fullName: DevilsHunt.CardDeck.GetPhotoCards()
+  type: Method
+  source:
+    id: GetPhotoCards
+    path: ''
+    startLine: 297
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public static List<PhotoCard> GetPhotoCards()
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.PhotoCard}
+    content.vb: Public Shared Function GetPhotoCards As List(Of PhotoCard)
+  overload: DevilsHunt.CardDeck.GetPhotoCards*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DevilsHunt.CardDeck.Shuffle(System.Collections.Generic.List{DevilsHunt.PhotoCard})
+  commentId: M:DevilsHunt.CardDeck.Shuffle(System.Collections.Generic.List{DevilsHunt.PhotoCard})
+  id: Shuffle(System.Collections.Generic.List{DevilsHunt.PhotoCard})
+  parent: DevilsHunt.CardDeck
+  langs:
+  - csharp
+  - vb
+  name: Shuffle(List<PhotoCard>)
+  nameWithType: CardDeck.Shuffle(List<PhotoCard>)
+  fullName: DevilsHunt.CardDeck.Shuffle(System.Collections.Generic.List<DevilsHunt.PhotoCard>)
+  type: Method
+  source:
+    id: Shuffle
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public static List<PhotoCard> Shuffle(List<PhotoCard> deckToShuffle)
+    parameters:
+    - id: deckToShuffle
+      type: System.Collections.Generic.List{DevilsHunt.PhotoCard}
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.PhotoCard}
+    content.vb: Public Shared Function Shuffle(deckToShuffle As List(Of PhotoCard)) As List(Of PhotoCard)
+  overload: DevilsHunt.CardDeck.Shuffle*
+  nameWithType.vb: CardDeck.Shuffle(List(Of PhotoCard))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: DevilsHunt.CardDeck.Shuffle(System.Collections.Generic.List(Of DevilsHunt.PhotoCard))
+  name.vb: Shuffle(List(Of PhotoCard))
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevilsHunt.CardDeck.GetDevilCards*
+  commentId: Overload:DevilsHunt.CardDeck.GetDevilCards
+  name: GetDevilCards
+  nameWithType: CardDeck.GetDevilCards
+  fullName: DevilsHunt.CardDeck.GetDevilCards
+- uid: DevilsHunt.CardDeck.DevilDeckType
+  commentId: T:DevilsHunt.CardDeck.DevilDeckType
+  parent: DevilsHunt
+  name: CardDeck.DevilDeckType
+  nameWithType: CardDeck.DevilDeckType
+  fullName: DevilsHunt.CardDeck.DevilDeckType
+- uid: System.Collections.Generic.List{DevilsHunt.Devil}
+  commentId: T:System.Collections.Generic.List{DevilsHunt.Devil}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Devil>
+  nameWithType: List<Devil>
+  fullName: System.Collections.Generic.List<DevilsHunt.Devil>
+  nameWithType.vb: List(Of Devil)
+  fullName.vb: System.Collections.Generic.List(Of DevilsHunt.Devil)
+  name.vb: List(Of Devil)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DevilsHunt.Devil
+    name: Devil
+    nameWithType: Devil
+    fullName: DevilsHunt.Devil
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DevilsHunt.Devil
+    name: Devil
+    nameWithType: Devil
+    fullName: DevilsHunt.Devil
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DevilsHunt.CardDeck.GetExclamationMarks*
+  commentId: Overload:DevilsHunt.CardDeck.GetExclamationMarks
+  name: GetExclamationMarks
+  nameWithType: CardDeck.GetExclamationMarks
+  fullName: DevilsHunt.CardDeck.GetExclamationMarks
+- uid: System.Collections.Generic.List{DevilsHunt.ExclamationMarks}
+  commentId: T:System.Collections.Generic.List{DevilsHunt.ExclamationMarks}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ExclamationMarks>
+  nameWithType: List<ExclamationMarks>
+  fullName: System.Collections.Generic.List<DevilsHunt.ExclamationMarks>
+  nameWithType.vb: List(Of ExclamationMarks)
+  fullName.vb: System.Collections.Generic.List(Of DevilsHunt.ExclamationMarks)
+  name.vb: List(Of ExclamationMarks)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DevilsHunt.ExclamationMarks
+    name: ExclamationMarks
+    nameWithType: ExclamationMarks
+    fullName: DevilsHunt.ExclamationMarks
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DevilsHunt.ExclamationMarks
+    name: ExclamationMarks
+    nameWithType: ExclamationMarks
+    fullName: DevilsHunt.ExclamationMarks
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DevilsHunt.CardDeck.GetPhotoCards*
+  commentId: Overload:DevilsHunt.CardDeck.GetPhotoCards
+  name: GetPhotoCards
+  nameWithType: CardDeck.GetPhotoCards
+  fullName: DevilsHunt.CardDeck.GetPhotoCards
+- uid: System.Collections.Generic.List{DevilsHunt.PhotoCard}
+  commentId: T:System.Collections.Generic.List{DevilsHunt.PhotoCard}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PhotoCard>
+  nameWithType: List<PhotoCard>
+  fullName: System.Collections.Generic.List<DevilsHunt.PhotoCard>
+  nameWithType.vb: List(Of PhotoCard)
+  fullName.vb: System.Collections.Generic.List(Of DevilsHunt.PhotoCard)
+  name.vb: List(Of PhotoCard)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DevilsHunt.PhotoCard
+    name: PhotoCard
+    nameWithType: PhotoCard
+    fullName: DevilsHunt.PhotoCard
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DevilsHunt.PhotoCard
+    name: PhotoCard
+    nameWithType: PhotoCard
+    fullName: DevilsHunt.PhotoCard
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DevilsHunt.CardDeck.Shuffle*
+  commentId: Overload:DevilsHunt.CardDeck.Shuffle
+  name: Shuffle
+  nameWithType: CardDeck.Shuffle
+  fullName: DevilsHunt.CardDeck.Shuffle

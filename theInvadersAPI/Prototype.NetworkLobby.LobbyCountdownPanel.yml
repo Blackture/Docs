@@ -1,0 +1,86 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prototype.NetworkLobby.LobbyCountdownPanel
+  commentId: T:Prototype.NetworkLobby.LobbyCountdownPanel
+  id: LobbyCountdownPanel
+  parent: Prototype.NetworkLobby
+  children:
+  - Prototype.NetworkLobby.LobbyCountdownPanel.UIText
+  langs:
+  - csharp
+  - vb
+  name: LobbyCountdownPanel
+  nameWithType: LobbyCountdownPanel
+  fullName: Prototype.NetworkLobby.LobbyCountdownPanel
+  type: Class
+  source:
+    id: LobbyCountdownPanel
+    path: ''
+    startLine: 20
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: 'public class LobbyCountdownPanel : MonoBehaviour'
+    content.vb: >-
+      Public Class LobbyCountdownPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Prototype.NetworkLobby.LobbyCountdownPanel.UIText
+  commentId: F:Prototype.NetworkLobby.LobbyCountdownPanel.UIText
+  id: UIText
+  parent: Prototype.NetworkLobby.LobbyCountdownPanel
+  langs:
+  - csharp
+  - vb
+  name: UIText
+  nameWithType: LobbyCountdownPanel.UIText
+  fullName: Prototype.NetworkLobby.LobbyCountdownPanel.UIText
+  type: Field
+  source:
+    id: UIText
+    path: ''
+    startLine: 22
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public Text UIText
+    return:
+      type: Text
+    content.vb: Public UIText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Prototype.NetworkLobby
+  commentId: N:Prototype.NetworkLobby
+  name: Prototype.NetworkLobby
+  nameWithType: Prototype.NetworkLobby
+  fullName: Prototype.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Text
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text

@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Structure.InhabitedStructure
+  commentId: N:TheInvaders.Planets.Structure.InhabitedStructure
+  id: TheInvaders.Planets.Structure.InhabitedStructure
+  children:
+  - TheInvaders.Planets.Structure.InhabitedStructure.Farm
+  - TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure`1
+  - TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1
+  - TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1.TYPE
+  - TheInvaders.Planets.Structure.InhabitedStructure.Town
+  - TheInvaders.Planets.Structure.InhabitedStructure.Village
+  langs:
+  - csharp
+  - vb
+  name: TheInvaders.Planets.Structure.InhabitedStructure
+  nameWithType: TheInvaders.Planets.Structure.InhabitedStructure
+  fullName: TheInvaders.Planets.Structure.InhabitedStructure
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TheInvaders.Planets.Structure.InhabitedStructure.Farm
+  commentId: T:TheInvaders.Planets.Structure.InhabitedStructure.Farm
+  name: Farm
+  nameWithType: Farm
+  fullName: TheInvaders.Planets.Structure.InhabitedStructure.Farm
+- uid: TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure`1
+  commentId: T:TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure`1
+  name: IInhabitedStructure<T>
+  nameWithType: IInhabitedStructure<T>
+  fullName: TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure<T>
+  nameWithType.vb: IInhabitedStructure(Of T)
+  fullName.vb: TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure(Of T)
+  name.vb: IInhabitedStructure(Of T)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure`1
+    name: IInhabitedStructure
+    nameWithType: IInhabitedStructure
+    fullName: TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure`1
+    name: IInhabitedStructure
+    nameWithType: IInhabitedStructure
+    fullName: TheInvaders.Planets.Structure.InhabitedStructure.IInhabitedStructure
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1
+  commentId: T:TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1
+  name: InhabitedStructure<T>
+  nameWithType: InhabitedStructure<T>
+  fullName: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure<T>
+  nameWithType.vb: InhabitedStructure(Of T)
+  fullName.vb: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure(Of T)
+  name.vb: InhabitedStructure(Of T)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1
+    name: InhabitedStructure
+    nameWithType: InhabitedStructure
+    fullName: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1
+    name: InhabitedStructure
+    nameWithType: InhabitedStructure
+    fullName: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1.TYPE
+  commentId: T:TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1.TYPE
+  parent: TheInvaders.Planets.Structure.InhabitedStructure
+  name: InhabitedStructure.TYPE<>
+  nameWithType: InhabitedStructure.TYPE<>
+  fullName: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure.TYPE<>
+  nameWithType.vb: InhabitedStructure.TYPE(Of )
+  fullName.vb: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure.TYPE(Of )
+  name.vb: InhabitedStructure.TYPE(Of )
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1.TYPE
+    name: InhabitedStructure.TYPE
+    nameWithType: InhabitedStructure.TYPE
+    fullName: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure.TYPE
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure`1.TYPE
+    name: InhabitedStructure.TYPE
+    nameWithType: InhabitedStructure.TYPE
+    fullName: TheInvaders.Planets.Structure.InhabitedStructure.InhabitedStructure.TYPE
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structure.InhabitedStructure.Town
+  commentId: T:TheInvaders.Planets.Structure.InhabitedStructure.Town
+  name: Town
+  nameWithType: Town
+  fullName: TheInvaders.Planets.Structure.InhabitedStructure.Town
+- uid: TheInvaders.Planets.Structure.InhabitedStructure.Village
+  commentId: T:TheInvaders.Planets.Structure.InhabitedStructure.Village
+  name: Village
+  nameWithType: Village
+  fullName: TheInvaders.Planets.Structure.InhabitedStructure.Village
+- uid: TheInvaders.Planets.Structure.InhabitedStructure
+  commentId: N:TheInvaders.Planets.Structure.InhabitedStructure
+  name: TheInvaders.Planets.Structure.InhabitedStructure
+  nameWithType: TheInvaders.Planets.Structure.InhabitedStructure
+  fullName: TheInvaders.Planets.Structure.InhabitedStructure

@@ -1,0 +1,1369 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Player
+  commentId: T:DevilsHunt.Player
+  id: Player
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Player.#ctor(System.String,InputField,Button)
+  - DevilsHunt.Player.CanShop
+  - DevilsHunt.Player.DataBtn
+  - DevilsHunt.Player.Defense
+  - DevilsHunt.Player.Effects
+  - DevilsHunt.Player.Ep
+  - DevilsHunt.Player.GetExpectedEp
+  - DevilsHunt.Player.GetExpectedMoney
+  - DevilsHunt.Player.GetRobots
+  - DevilsHunt.Player.GetWeaponCount
+  - DevilsHunt.Player.Inventory
+  - DevilsHunt.Player.Kills
+  - DevilsHunt.Player.Money
+  - DevilsHunt.Player.Name
+  - DevilsHunt.Player.PhotoCards
+  - DevilsHunt.Player.PlayerCount
+  - DevilsHunt.Player.PlayerName
+  - DevilsHunt.Player.SkillTree
+  - DevilsHunt.Player.Strength
+  - DevilsHunt.Player.SuspendRounds
+  - DevilsHunt.Player.WeaponCount
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: Player
+  fullName: DevilsHunt.Player
+  type: Class
+  source:
+    id: Player
+    path: ''
+    startLine: 2017
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Player
+    content.vb: >-
+      <Serializable>
+
+      Public Class Player
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Player.Money
+  commentId: P:DevilsHunt.Player.Money
+  id: Money
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Money
+  nameWithType: Player.Money
+  fullName: DevilsHunt.Player.Money
+  type: Property
+  source:
+    id: Money
+    path: ''
+    startLine: 2021
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int Money { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Money As Integer
+  overload: DevilsHunt.Player.Money*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.Ep
+  commentId: P:DevilsHunt.Player.Ep
+  id: Ep
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Ep
+  nameWithType: Player.Ep
+  fullName: DevilsHunt.Player.Ep
+  type: Property
+  source:
+    id: Ep
+    path: ''
+    startLine: 2030
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int Ep { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Ep As Integer
+  overload: DevilsHunt.Player.Ep*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.Strength
+  commentId: P:DevilsHunt.Player.Strength
+  id: Strength
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Strength
+  nameWithType: Player.Strength
+  fullName: DevilsHunt.Player.Strength
+  type: Property
+  source:
+    id: Strength
+    path: ''
+    startLine: 2039
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int Strength { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Strength As Integer
+  overload: DevilsHunt.Player.Strength*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.Defense
+  commentId: P:DevilsHunt.Player.Defense
+  id: Defense
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Defense
+  nameWithType: Player.Defense
+  fullName: DevilsHunt.Player.Defense
+  type: Property
+  source:
+    id: Defense
+    path: ''
+    startLine: 2048
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int Defense { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Defense As Integer
+  overload: DevilsHunt.Player.Defense*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.WeaponCount
+  commentId: P:DevilsHunt.Player.WeaponCount
+  id: WeaponCount
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: WeaponCount
+  nameWithType: Player.WeaponCount
+  fullName: DevilsHunt.Player.WeaponCount
+  type: Property
+  source:
+    id: WeaponCount
+    path: ''
+    startLine: 2057
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int WeaponCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property WeaponCount As Integer
+  overload: DevilsHunt.Player.WeaponCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Player.SuspendRounds
+  commentId: P:DevilsHunt.Player.SuspendRounds
+  id: SuspendRounds
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: SuspendRounds
+  nameWithType: Player.SuspendRounds
+  fullName: DevilsHunt.Player.SuspendRounds
+  type: Property
+  source:
+    id: SuspendRounds
+    path: ''
+    startLine: 2064
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int SuspendRounds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SuspendRounds As Integer
+  overload: DevilsHunt.Player.SuspendRounds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.Kills
+  commentId: P:DevilsHunt.Player.Kills
+  id: Kills
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Kills
+  nameWithType: Player.Kills
+  fullName: DevilsHunt.Player.Kills
+  type: Property
+  source:
+    id: Kills
+    path: ''
+    startLine: 2075
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public List<IKill> Kills { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.IKill}
+    content.vb: Public Property Kills As List(Of IKill)
+  overload: DevilsHunt.Player.Kills*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.Name
+  commentId: F:DevilsHunt.Player.Name
+  id: Name
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Player.Name
+  fullName: DevilsHunt.Player.Name
+  type: Field
+  source:
+    id: Name
+    path: ''
+    startLine: 2086
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public InputField Name
+    return:
+      type: InputField
+    content.vb: >-
+      <NonSerialized>
+
+      Public Name As InputField
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.DataBtn
+  commentId: F:DevilsHunt.Player.DataBtn
+  id: DataBtn
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: DataBtn
+  nameWithType: Player.DataBtn
+  fullName: DevilsHunt.Player.DataBtn
+  type: Field
+  source:
+    id: DataBtn
+    path: ''
+    startLine: 2088
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public Button DataBtn
+    return:
+      type: Button
+    content.vb: >-
+      <NonSerialized>
+
+      Public DataBtn As Button
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.PlayerName
+  commentId: P:DevilsHunt.Player.PlayerName
+  id: PlayerName
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: PlayerName
+  nameWithType: Player.PlayerName
+  fullName: DevilsHunt.Player.PlayerName
+  type: Property
+  source:
+    id: PlayerName
+    path: ''
+    startLine: 2091
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public string PlayerName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property PlayerName As String
+  overload: DevilsHunt.Player.PlayerName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Player.PlayerCount
+  commentId: P:DevilsHunt.Player.PlayerCount
+  id: PlayerCount
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: PlayerCount
+  nameWithType: Player.PlayerCount
+  fullName: DevilsHunt.Player.PlayerCount
+  type: Property
+  source:
+    id: PlayerCount
+    path: ''
+    startLine: 2099
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public static int PlayerCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property PlayerCount As Integer
+  overload: DevilsHunt.Player.PlayerCount*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: DevilsHunt.Player.CanShop
+  commentId: P:DevilsHunt.Player.CanShop
+  id: CanShop
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: CanShop
+  nameWithType: Player.CanShop
+  fullName: DevilsHunt.Player.CanShop
+  type: Property
+  source:
+    id: CanShop
+    path: ''
+    startLine: 2113
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool CanShop { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanShop As Boolean
+  overload: DevilsHunt.Player.CanShop*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.SkillTree
+  commentId: P:DevilsHunt.Player.SkillTree
+  id: SkillTree
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: SkillTree
+  nameWithType: Player.SkillTree
+  fullName: DevilsHunt.Player.SkillTree
+  type: Property
+  source:
+    id: SkillTree
+    path: ''
+    startLine: 2124
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public SkillTree SkillTree { get; }
+    parameters: []
+    return:
+      type: DevilsHunt.SkillTree
+    content.vb: Public ReadOnly Property SkillTree As SkillTree
+  overload: DevilsHunt.Player.SkillTree*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Player.Effects
+  commentId: P:DevilsHunt.Player.Effects
+  id: Effects
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Effects
+  nameWithType: Player.Effects
+  fullName: DevilsHunt.Player.Effects
+  type: Property
+  source:
+    id: Effects
+    path: ''
+    startLine: 2132
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public List<Effect> Effects { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.Effect}
+    content.vb: Public Property Effects As List(Of Effect)
+  overload: DevilsHunt.Player.Effects*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.PhotoCards
+  commentId: P:DevilsHunt.Player.PhotoCards
+  id: PhotoCards
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: PhotoCards
+  nameWithType: Player.PhotoCards
+  fullName: DevilsHunt.Player.PhotoCards
+  type: Property
+  source:
+    id: PhotoCards
+    path: ''
+    startLine: 2143
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public List<PhotoCard> PhotoCards { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.PhotoCard}
+    content.vb: Public Property PhotoCards As List(Of PhotoCard)
+  overload: DevilsHunt.Player.PhotoCards*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.Inventory
+  commentId: P:DevilsHunt.Player.Inventory
+  id: Inventory
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Inventory
+  nameWithType: Player.Inventory
+  fullName: DevilsHunt.Player.Inventory
+  type: Property
+  source:
+    id: Inventory
+    path: ''
+    startLine: 2154
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public List<Item> Inventory { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.Item}
+    content.vb: Public ReadOnly Property Inventory As List(Of Item)
+  overload: DevilsHunt.Player.Inventory*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Player.#ctor(System.String,InputField,Button)
+  commentId: M:DevilsHunt.Player.#ctor(System.String,InputField,Button)
+  id: '#ctor(System.String,InputField,Button)'
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: Player(String, InputField, Button)
+  nameWithType: Player.Player(String, InputField, Button)
+  fullName: DevilsHunt.Player.Player(System.String, InputField, Button)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2161
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Player(string inName, InputField iName, Button dataBtn)
+    parameters:
+    - id: inName
+      type: System.String
+    - id: iName
+      type: InputField
+    - id: dataBtn
+      type: Button
+    content.vb: Public Sub New(inName As String, iName As InputField, dataBtn As Button)
+  overload: DevilsHunt.Player.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.GetExpectedMoney
+  commentId: M:DevilsHunt.Player.GetExpectedMoney
+  id: GetExpectedMoney
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: GetExpectedMoney()
+  nameWithType: Player.GetExpectedMoney()
+  fullName: DevilsHunt.Player.GetExpectedMoney()
+  type: Method
+  source:
+    id: GetExpectedMoney
+    path: ''
+    startLine: 2187
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int GetExpectedMoney()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetExpectedMoney As Integer
+  overload: DevilsHunt.Player.GetExpectedMoney*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.GetExpectedEp
+  commentId: M:DevilsHunt.Player.GetExpectedEp
+  id: GetExpectedEp
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: GetExpectedEp()
+  nameWithType: Player.GetExpectedEp()
+  fullName: DevilsHunt.Player.GetExpectedEp()
+  type: Method
+  source:
+    id: GetExpectedEp
+    path: ''
+    startLine: 2207
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int GetExpectedEp()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetExpectedEp As Integer
+  overload: DevilsHunt.Player.GetExpectedEp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.GetRobots
+  commentId: M:DevilsHunt.Player.GetRobots
+  id: GetRobots
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: GetRobots()
+  nameWithType: Player.GetRobots()
+  fullName: DevilsHunt.Player.GetRobots()
+  type: Method
+  source:
+    id: GetRobots
+    path: ''
+    startLine: 2227
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public List<Item> GetRobots()
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.Item}
+    content.vb: Public Function GetRobots As List(Of Item)
+  overload: DevilsHunt.Player.GetRobots*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Player.GetWeaponCount
+  commentId: M:DevilsHunt.Player.GetWeaponCount
+  id: GetWeaponCount
+  parent: DevilsHunt.Player
+  langs:
+  - csharp
+  - vb
+  name: GetWeaponCount()
+  nameWithType: Player.GetWeaponCount()
+  fullName: DevilsHunt.Player.GetWeaponCount()
+  type: Method
+  source:
+    id: GetWeaponCount
+    path: ''
+    startLine: 2237
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int GetWeaponCount()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetWeaponCount As Integer
+  overload: DevilsHunt.Player.GetWeaponCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevilsHunt.Player.Money*
+  commentId: Overload:DevilsHunt.Player.Money
+  name: Money
+  nameWithType: Player.Money
+  fullName: DevilsHunt.Player.Money
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DevilsHunt.Player.Ep*
+  commentId: Overload:DevilsHunt.Player.Ep
+  name: Ep
+  nameWithType: Player.Ep
+  fullName: DevilsHunt.Player.Ep
+- uid: DevilsHunt.Player.Strength*
+  commentId: Overload:DevilsHunt.Player.Strength
+  name: Strength
+  nameWithType: Player.Strength
+  fullName: DevilsHunt.Player.Strength
+- uid: DevilsHunt.Player.Defense*
+  commentId: Overload:DevilsHunt.Player.Defense
+  name: Defense
+  nameWithType: Player.Defense
+  fullName: DevilsHunt.Player.Defense
+- uid: DevilsHunt.Player.WeaponCount*
+  commentId: Overload:DevilsHunt.Player.WeaponCount
+  name: WeaponCount
+  nameWithType: Player.WeaponCount
+  fullName: DevilsHunt.Player.WeaponCount
+- uid: DevilsHunt.Player.SuspendRounds*
+  commentId: Overload:DevilsHunt.Player.SuspendRounds
+  name: SuspendRounds
+  nameWithType: Player.SuspendRounds
+  fullName: DevilsHunt.Player.SuspendRounds
+- uid: DevilsHunt.Player.Kills*
+  commentId: Overload:DevilsHunt.Player.Kills
+  name: Kills
+  nameWithType: Player.Kills
+  fullName: DevilsHunt.Player.Kills
+- uid: System.Collections.Generic.List{DevilsHunt.IKill}
+  commentId: T:System.Collections.Generic.List{DevilsHunt.IKill}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IKill>
+  nameWithType: List<IKill>
+  fullName: System.Collections.Generic.List<DevilsHunt.IKill>
+  nameWithType.vb: List(Of IKill)
+  fullName.vb: System.Collections.Generic.List(Of DevilsHunt.IKill)
+  name.vb: List(Of IKill)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DevilsHunt.IKill
+    name: IKill
+    nameWithType: IKill
+    fullName: DevilsHunt.IKill
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DevilsHunt.IKill
+    name: IKill
+    nameWithType: IKill
+    fullName: DevilsHunt.IKill
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: InputField
+  isExternal: true
+  name: InputField
+  nameWithType: InputField
+  fullName: InputField
+- uid: Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: DevilsHunt.Player.PlayerName*
+  commentId: Overload:DevilsHunt.Player.PlayerName
+  name: PlayerName
+  nameWithType: Player.PlayerName
+  fullName: DevilsHunt.Player.PlayerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DevilsHunt.Player.PlayerCount*
+  commentId: Overload:DevilsHunt.Player.PlayerCount
+  name: PlayerCount
+  nameWithType: Player.PlayerCount
+  fullName: DevilsHunt.Player.PlayerCount
+- uid: DevilsHunt.Player.CanShop*
+  commentId: Overload:DevilsHunt.Player.CanShop
+  name: CanShop
+  nameWithType: Player.CanShop
+  fullName: DevilsHunt.Player.CanShop
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DevilsHunt.Player.SkillTree*
+  commentId: Overload:DevilsHunt.Player.SkillTree
+  name: SkillTree
+  nameWithType: Player.SkillTree
+  fullName: DevilsHunt.Player.SkillTree
+- uid: DevilsHunt.SkillTree
+  commentId: T:DevilsHunt.SkillTree
+  parent: DevilsHunt
+  name: SkillTree
+  nameWithType: SkillTree
+  fullName: DevilsHunt.SkillTree
+- uid: DevilsHunt.Player.Effects*
+  commentId: Overload:DevilsHunt.Player.Effects
+  name: Effects
+  nameWithType: Player.Effects
+  fullName: DevilsHunt.Player.Effects
+- uid: System.Collections.Generic.List{DevilsHunt.Effect}
+  commentId: T:System.Collections.Generic.List{DevilsHunt.Effect}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Effect>
+  nameWithType: List<Effect>
+  fullName: System.Collections.Generic.List<DevilsHunt.Effect>
+  nameWithType.vb: List(Of Effect)
+  fullName.vb: System.Collections.Generic.List(Of DevilsHunt.Effect)
+  name.vb: List(Of Effect)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DevilsHunt.Effect
+    name: Effect
+    nameWithType: Effect
+    fullName: DevilsHunt.Effect
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DevilsHunt.Effect
+    name: Effect
+    nameWithType: Effect
+    fullName: DevilsHunt.Effect
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DevilsHunt.Player.PhotoCards*
+  commentId: Overload:DevilsHunt.Player.PhotoCards
+  name: PhotoCards
+  nameWithType: Player.PhotoCards
+  fullName: DevilsHunt.Player.PhotoCards
+- uid: System.Collections.Generic.List{DevilsHunt.PhotoCard}
+  commentId: T:System.Collections.Generic.List{DevilsHunt.PhotoCard}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PhotoCard>
+  nameWithType: List<PhotoCard>
+  fullName: System.Collections.Generic.List<DevilsHunt.PhotoCard>
+  nameWithType.vb: List(Of PhotoCard)
+  fullName.vb: System.Collections.Generic.List(Of DevilsHunt.PhotoCard)
+  name.vb: List(Of PhotoCard)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DevilsHunt.PhotoCard
+    name: PhotoCard
+    nameWithType: PhotoCard
+    fullName: DevilsHunt.PhotoCard
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DevilsHunt.PhotoCard
+    name: PhotoCard
+    nameWithType: PhotoCard
+    fullName: DevilsHunt.PhotoCard
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DevilsHunt.Player.Inventory*
+  commentId: Overload:DevilsHunt.Player.Inventory
+  name: Inventory
+  nameWithType: Player.Inventory
+  fullName: DevilsHunt.Player.Inventory
+- uid: System.Collections.Generic.List{DevilsHunt.Item}
+  commentId: T:System.Collections.Generic.List{DevilsHunt.Item}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Item>
+  nameWithType: List<Item>
+  fullName: System.Collections.Generic.List<DevilsHunt.Item>
+  nameWithType.vb: List(Of Item)
+  fullName.vb: System.Collections.Generic.List(Of DevilsHunt.Item)
+  name.vb: List(Of Item)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DevilsHunt.Item
+    name: Item
+    nameWithType: Item
+    fullName: DevilsHunt.Item
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DevilsHunt.Item
+    name: Item
+    nameWithType: Item
+    fullName: DevilsHunt.Item
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: DevilsHunt.Player.#ctor*
+  commentId: Overload:DevilsHunt.Player.#ctor
+  name: Player
+  nameWithType: Player.Player
+  fullName: DevilsHunt.Player.Player
+- uid: DevilsHunt.Player.GetExpectedMoney*
+  commentId: Overload:DevilsHunt.Player.GetExpectedMoney
+  name: GetExpectedMoney
+  nameWithType: Player.GetExpectedMoney
+  fullName: DevilsHunt.Player.GetExpectedMoney
+- uid: DevilsHunt.Player.GetExpectedEp*
+  commentId: Overload:DevilsHunt.Player.GetExpectedEp
+  name: GetExpectedEp
+  nameWithType: Player.GetExpectedEp
+  fullName: DevilsHunt.Player.GetExpectedEp
+- uid: DevilsHunt.Player.GetRobots*
+  commentId: Overload:DevilsHunt.Player.GetRobots
+  name: GetRobots
+  nameWithType: Player.GetRobots
+  fullName: DevilsHunt.Player.GetRobots
+- uid: DevilsHunt.Player.GetWeaponCount*
+  commentId: Overload:DevilsHunt.Player.GetWeaponCount
+  name: GetWeaponCount
+  nameWithType: Player.GetWeaponCount
+  fullName: DevilsHunt.Player.GetWeaponCount

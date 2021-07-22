@@ -1,0 +1,681 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Effect
+  commentId: T:DevilsHunt.Effect
+  id: Effect
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Effect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  - DevilsHunt.Effect.AllTwoFights
+  - DevilsHunt.Effect.Apply(DevilsHunt.Player,System.Boolean)
+  - DevilsHunt.Effect.Defense
+  - DevilsHunt.Effect.HasUseLimit
+  - DevilsHunt.Effect.Strength
+  - DevilsHunt.Effect.Update(DevilsHunt.Player,GameObject)
+  - DevilsHunt.Effect.UseLimit
+  langs:
+  - csharp
+  - vb
+  name: Effect
+  nameWithType: Effect
+  fullName: DevilsHunt.Effect
+  type: Class
+  source:
+    id: Effect
+    path: ''
+    startLine: 459
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Effect
+    content.vb: >-
+      <Serializable>
+
+      Public Class Effect
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Effect.HasUseLimit
+  commentId: P:DevilsHunt.Effect.HasUseLimit
+  id: HasUseLimit
+  parent: DevilsHunt.Effect
+  langs:
+  - csharp
+  - vb
+  name: HasUseLimit
+  nameWithType: Effect.HasUseLimit
+  fullName: DevilsHunt.Effect.HasUseLimit
+  type: Property
+  source:
+    id: HasUseLimit
+    path: ''
+    startLine: 463
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool HasUseLimit { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasUseLimit As Boolean
+  overload: DevilsHunt.Effect.HasUseLimit*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Effect.Strength
+  commentId: P:DevilsHunt.Effect.Strength
+  id: Strength
+  parent: DevilsHunt.Effect
+  langs:
+  - csharp
+  - vb
+  name: Strength
+  nameWithType: Effect.Strength
+  fullName: DevilsHunt.Effect.Strength
+  type: Property
+  source:
+    id: Strength
+    path: ''
+    startLine: 475
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int Strength { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Strength As Integer
+  overload: DevilsHunt.Effect.Strength*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Effect.Defense
+  commentId: P:DevilsHunt.Effect.Defense
+  id: Defense
+  parent: DevilsHunt.Effect
+  langs:
+  - csharp
+  - vb
+  name: Defense
+  nameWithType: Effect.Defense
+  fullName: DevilsHunt.Effect.Defense
+  type: Property
+  source:
+    id: Defense
+    path: ''
+    startLine: 481
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int Defense { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Defense As Integer
+  overload: DevilsHunt.Effect.Defense*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Effect.UseLimit
+  commentId: P:DevilsHunt.Effect.UseLimit
+  id: UseLimit
+  parent: DevilsHunt.Effect
+  langs:
+  - csharp
+  - vb
+  name: UseLimit
+  nameWithType: Effect.UseLimit
+  fullName: DevilsHunt.Effect.UseLimit
+  type: Property
+  source:
+    id: UseLimit
+    path: ''
+    startLine: 487
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int UseLimit { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property UseLimit As Integer
+  overload: DevilsHunt.Effect.UseLimit*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Effect.AllTwoFights
+  commentId: P:DevilsHunt.Effect.AllTwoFights
+  id: AllTwoFights
+  parent: DevilsHunt.Effect
+  langs:
+  - csharp
+  - vb
+  name: AllTwoFights
+  nameWithType: Effect.AllTwoFights
+  fullName: DevilsHunt.Effect.AllTwoFights
+  type: Property
+  source:
+    id: AllTwoFights
+    path: ''
+    startLine: 495
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool AllTwoFights { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property AllTwoFights As Boolean
+  overload: DevilsHunt.Effect.AllTwoFights*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Effect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  commentId: M:DevilsHunt.Effect.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)'
+  parent: DevilsHunt.Effect
+  langs:
+  - csharp
+  - vb
+  name: Effect(Int32, Int32, Int32, Int32, Int32, Boolean)
+  nameWithType: Effect.Effect(Int32, Int32, Int32, Int32, Int32, Boolean)
+  fullName: DevilsHunt.Effect.Effect(System.Int32, System.Int32, System.Int32, System.Int32, System.Int32, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 503
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Effect(int uLimit = 0, int m = 0, int e = 0, int s = 0, int d = 0, bool all2Rounds = false)
+    parameters:
+    - id: uLimit
+      type: System.Int32
+    - id: m
+      type: System.Int32
+    - id: e
+      type: System.Int32
+    - id: s
+      type: System.Int32
+    - id: d
+      type: System.Int32
+    - id: all2Rounds
+      type: System.Boolean
+    content.vb: Public Sub New(uLimit As Integer = 0, m As Integer = 0, e As Integer = 0, s As Integer = 0, d As Integer = 0, all2Rounds As Boolean = False)
+  overload: DevilsHunt.Effect.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Effect.Apply(DevilsHunt.Player,System.Boolean)
+  commentId: M:DevilsHunt.Effect.Apply(DevilsHunt.Player,System.Boolean)
+  id: Apply(DevilsHunt.Player,System.Boolean)
+  parent: DevilsHunt.Effect
+  langs:
+  - csharp
+  - vb
+  name: Apply(Player, Boolean)
+  nameWithType: Effect.Apply(Player, Boolean)
+  fullName: DevilsHunt.Effect.Apply(DevilsHunt.Player, System.Boolean)
+  type: Method
+  source:
+    id: Apply
+    path: ''
+    startLine: 522
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool Apply(Player player, bool item)
+    parameters:
+    - id: player
+      type: DevilsHunt.Player
+    - id: item
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Function Apply(player As Player, item As Boolean) As Boolean
+  overload: DevilsHunt.Effect.Apply*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Effect.Update(DevilsHunt.Player,GameObject)
+  commentId: M:DevilsHunt.Effect.Update(DevilsHunt.Player,GameObject)
+  id: Update(DevilsHunt.Player,GameObject)
+  parent: DevilsHunt.Effect
+  langs:
+  - csharp
+  - vb
+  name: Update(Player, GameObject)
+  nameWithType: Effect.Update(Player, GameObject)
+  fullName: DevilsHunt.Effect.Update(DevilsHunt.Player, GameObject)
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 540
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public static void Update(Player player, GameObject main)
+    parameters:
+    - id: player
+      type: DevilsHunt.Player
+    - id: main
+      type: GameObject
+    content.vb: Public Shared Sub Update(player As Player, main As GameObject)
+  overload: DevilsHunt.Effect.Update*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevilsHunt.Effect.HasUseLimit*
+  commentId: Overload:DevilsHunt.Effect.HasUseLimit
+  name: HasUseLimit
+  nameWithType: Effect.HasUseLimit
+  fullName: DevilsHunt.Effect.HasUseLimit
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DevilsHunt.Effect.Strength*
+  commentId: Overload:DevilsHunt.Effect.Strength
+  name: Strength
+  nameWithType: Effect.Strength
+  fullName: DevilsHunt.Effect.Strength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DevilsHunt.Effect.Defense*
+  commentId: Overload:DevilsHunt.Effect.Defense
+  name: Defense
+  nameWithType: Effect.Defense
+  fullName: DevilsHunt.Effect.Defense
+- uid: DevilsHunt.Effect.UseLimit*
+  commentId: Overload:DevilsHunt.Effect.UseLimit
+  name: UseLimit
+  nameWithType: Effect.UseLimit
+  fullName: DevilsHunt.Effect.UseLimit
+- uid: DevilsHunt.Effect.AllTwoFights*
+  commentId: Overload:DevilsHunt.Effect.AllTwoFights
+  name: AllTwoFights
+  nameWithType: Effect.AllTwoFights
+  fullName: DevilsHunt.Effect.AllTwoFights
+- uid: DevilsHunt.Effect.#ctor*
+  commentId: Overload:DevilsHunt.Effect.#ctor
+  name: Effect
+  nameWithType: Effect.Effect
+  fullName: DevilsHunt.Effect.Effect
+- uid: DevilsHunt.Effect.Apply*
+  commentId: Overload:DevilsHunt.Effect.Apply
+  name: Apply
+  nameWithType: Effect.Apply
+  fullName: DevilsHunt.Effect.Apply
+- uid: DevilsHunt.Player
+  commentId: T:DevilsHunt.Player
+  parent: DevilsHunt
+  name: Player
+  nameWithType: Player
+  fullName: DevilsHunt.Player
+- uid: DevilsHunt.Effect.Update*
+  commentId: Overload:DevilsHunt.Effect.Update
+  name: Update
+  nameWithType: Effect.Update
+  fullName: DevilsHunt.Effect.Update
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

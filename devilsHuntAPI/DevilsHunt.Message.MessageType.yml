@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Message.MessageType
+  commentId: T:DevilsHunt.Message.MessageType
+  id: Message.MessageType
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Message.MessageType.Error
+  - DevilsHunt.Message.MessageType.Info
+  - DevilsHunt.Message.MessageType.Success
+  - DevilsHunt.Message.MessageType.Warning
+  langs:
+  - csharp
+  - vb
+  name: Message.MessageType
+  nameWithType: Message.MessageType
+  fullName: DevilsHunt.Message.MessageType
+  type: Enum
+  source:
+    id: MessageType
+    path: ''
+    startLine: 1927
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public enum MessageType
+    content.vb: Public Enum MessageType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DevilsHunt.Message.MessageType.Error
+  commentId: F:DevilsHunt.Message.MessageType.Error
+  id: Error
+  parent: DevilsHunt.Message.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: Message.MessageType.Error
+  fullName: DevilsHunt.Message.MessageType.Error
+  type: Field
+  source:
+    id: Error
+    path: ''
+    startLine: 1929
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: Error = 0
+    return:
+      type: DevilsHunt.Message.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DevilsHunt.Message.MessageType.Info
+  commentId: F:DevilsHunt.Message.MessageType.Info
+  id: Info
+  parent: DevilsHunt.Message.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: Message.MessageType.Info
+  fullName: DevilsHunt.Message.MessageType.Info
+  type: Field
+  source:
+    id: Info
+    path: ''
+    startLine: 1930
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: Info = 1
+    return:
+      type: DevilsHunt.Message.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DevilsHunt.Message.MessageType.Warning
+  commentId: F:DevilsHunt.Message.MessageType.Warning
+  id: Warning
+  parent: DevilsHunt.Message.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: Message.MessageType.Warning
+  fullName: DevilsHunt.Message.MessageType.Warning
+  type: Field
+  source:
+    id: Warning
+    path: ''
+    startLine: 1931
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: Warning = 2
+    return:
+      type: DevilsHunt.Message.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DevilsHunt.Message.MessageType.Success
+  commentId: F:DevilsHunt.Message.MessageType.Success
+  id: Success
+  parent: DevilsHunt.Message.MessageType
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: Message.MessageType.Success
+  fullName: DevilsHunt.Message.MessageType.Success
+  type: Field
+  source:
+    id: Success
+    path: ''
+    startLine: 1932
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: Success = 3
+    return:
+      type: DevilsHunt.Message.MessageType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: DevilsHunt.Message.MessageType
+  commentId: T:DevilsHunt.Message.MessageType
+  parent: DevilsHunt
+  name: Message.MessageType
+  nameWithType: Message.MessageType
+  fullName: DevilsHunt.Message.MessageType

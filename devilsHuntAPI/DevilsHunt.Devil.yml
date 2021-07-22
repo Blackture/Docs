@@ -1,0 +1,659 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Devil
+  commentId: T:DevilsHunt.Devil
+  id: Devil
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Devil.#ctor(System.Boolean)
+  - DevilsHunt.Devil.#ctor(System.Int32,System.Int32,System.Boolean)
+  - DevilsHunt.Devil.Defense
+  - DevilsHunt.Devil.IsHard
+  - DevilsHunt.Devil.isOpponentPlayer
+  - DevilsHunt.Devil.Name
+  - DevilsHunt.Devil.Player
+  - DevilsHunt.Devil.Strength
+  langs:
+  - csharp
+  - vb
+  name: Devil
+  nameWithType: Devil
+  fullName: DevilsHunt.Devil
+  type: Class
+  source:
+    id: Devil
+    path: ''
+    startLine: 385
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Devil
+    content.vb: >-
+      <Serializable>
+
+      Public Class Devil
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Devil.isOpponentPlayer
+  commentId: F:DevilsHunt.Devil.isOpponentPlayer
+  id: isOpponentPlayer
+  parent: DevilsHunt.Devil
+  langs:
+  - csharp
+  - vb
+  name: isOpponentPlayer
+  nameWithType: Devil.isOpponentPlayer
+  fullName: DevilsHunt.Devil.isOpponentPlayer
+  type: Field
+  source:
+    id: isOpponentPlayer
+    path: ''
+    startLine: 388
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public readonly bool isOpponentPlayer
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly isOpponentPlayer As Boolean
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Devil.Player
+  commentId: P:DevilsHunt.Devil.Player
+  id: Player
+  parent: DevilsHunt.Devil
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: Devil.Player
+  fullName: DevilsHunt.Devil.Player
+  type: Property
+  source:
+    id: Player
+    path: ''
+    startLine: 391
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Player Player { get; }
+    parameters: []
+    return:
+      type: DevilsHunt.Player
+    content.vb: Public ReadOnly Property Player As Player
+  overload: DevilsHunt.Devil.Player*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Devil.IsHard
+  commentId: P:DevilsHunt.Devil.IsHard
+  id: IsHard
+  parent: DevilsHunt.Devil
+  langs:
+  - csharp
+  - vb
+  name: IsHard
+  nameWithType: Devil.IsHard
+  fullName: DevilsHunt.Devil.IsHard
+  type: Property
+  source:
+    id: IsHard
+    path: ''
+    startLine: 408
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool IsHard { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsHard As Boolean
+  overload: DevilsHunt.Devil.IsHard*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Devil.Strength
+  commentId: P:DevilsHunt.Devil.Strength
+  id: Strength
+  parent: DevilsHunt.Devil
+  langs:
+  - csharp
+  - vb
+  name: Strength
+  nameWithType: Devil.Strength
+  fullName: DevilsHunt.Devil.Strength
+  type: Property
+  source:
+    id: Strength
+    path: ''
+    startLine: 414
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int Strength { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Strength As Integer
+  overload: DevilsHunt.Devil.Strength*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Devil.Defense
+  commentId: P:DevilsHunt.Devil.Defense
+  id: Defense
+  parent: DevilsHunt.Devil
+  langs:
+  - csharp
+  - vb
+  name: Defense
+  nameWithType: Devil.Defense
+  fullName: DevilsHunt.Devil.Defense
+  type: Property
+  source:
+    id: Defense
+    path: ''
+    startLine: 421
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int Defense { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Defense As Integer
+  overload: DevilsHunt.Devil.Defense*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Devil.Name
+  commentId: P:DevilsHunt.Devil.Name
+  id: Name
+  parent: DevilsHunt.Devil
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Devil.Name
+  fullName: DevilsHunt.Devil.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 428
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: DevilsHunt.Devil.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Devil.#ctor(System.Int32,System.Int32,System.Boolean)
+  commentId: M:DevilsHunt.Devil.#ctor(System.Int32,System.Int32,System.Boolean)
+  id: '#ctor(System.Int32,System.Int32,System.Boolean)'
+  parent: DevilsHunt.Devil
+  langs:
+  - csharp
+  - vb
+  name: Devil(Int32, Int32, Boolean)
+  nameWithType: Devil.Devil(Int32, Int32, Boolean)
+  fullName: DevilsHunt.Devil.Devil(System.Int32, System.Int32, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 436
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Devil(int s, int d, bool hard)
+    parameters:
+    - id: s
+      type: System.Int32
+    - id: d
+      type: System.Int32
+    - id: hard
+      type: System.Boolean
+    content.vb: Public Sub New(s As Integer, d As Integer, hard As Boolean)
+  overload: DevilsHunt.Devil.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Devil.#ctor(System.Boolean)
+  commentId: M:DevilsHunt.Devil.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: DevilsHunt.Devil
+  langs:
+  - csharp
+  - vb
+  name: Devil(Boolean)
+  nameWithType: Devil.Devil(Boolean)
+  fullName: DevilsHunt.Devil.Devil(System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 445
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Devil(bool hard)
+    parameters:
+    - id: hard
+      type: System.Boolean
+    content.vb: Public Sub New(hard As Boolean)
+  overload: DevilsHunt.Devil.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DevilsHunt.Devil.Player*
+  commentId: Overload:DevilsHunt.Devil.Player
+  name: Player
+  nameWithType: Devil.Player
+  fullName: DevilsHunt.Devil.Player
+- uid: DevilsHunt.Player
+  commentId: T:DevilsHunt.Player
+  parent: DevilsHunt
+  name: Player
+  nameWithType: Player
+  fullName: DevilsHunt.Player
+- uid: DevilsHunt.Devil.IsHard*
+  commentId: Overload:DevilsHunt.Devil.IsHard
+  name: IsHard
+  nameWithType: Devil.IsHard
+  fullName: DevilsHunt.Devil.IsHard
+- uid: DevilsHunt.Devil.Strength*
+  commentId: Overload:DevilsHunt.Devil.Strength
+  name: Strength
+  nameWithType: Devil.Strength
+  fullName: DevilsHunt.Devil.Strength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DevilsHunt.Devil.Defense*
+  commentId: Overload:DevilsHunt.Devil.Defense
+  name: Defense
+  nameWithType: Devil.Defense
+  fullName: DevilsHunt.Devil.Defense
+- uid: DevilsHunt.Devil.Name*
+  commentId: Overload:DevilsHunt.Devil.Name
+  name: Name
+  nameWithType: Devil.Name
+  fullName: DevilsHunt.Devil.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DevilsHunt.Devil.#ctor*
+  commentId: Overload:DevilsHunt.Devil.#ctor
+  name: Devil
+  nameWithType: Devil.Devil
+  fullName: DevilsHunt.Devil.Devil

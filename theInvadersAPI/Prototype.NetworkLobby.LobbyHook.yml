@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prototype.NetworkLobby.LobbyHook
+  commentId: T:Prototype.NetworkLobby.LobbyHook
+  id: LobbyHook
+  parent: Prototype.NetworkLobby
+  children:
+  - Prototype.NetworkLobby.LobbyHook.OnLobbyServerSceneLoadedForPlayer(NetworkManager,GameObject,GameObject)
+  langs:
+  - csharp
+  - vb
+  name: LobbyHook
+  nameWithType: LobbyHook
+  fullName: Prototype.NetworkLobby.LobbyHook
+  type: Class
+  source:
+    id: LobbyHook
+    path: ''
+    startLine: 35
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: 'public abstract class LobbyHook : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class LobbyHook
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Prototype.NetworkLobby.LobbyHook.OnLobbyServerSceneLoadedForPlayer(NetworkManager,GameObject,GameObject)
+  commentId: M:Prototype.NetworkLobby.LobbyHook.OnLobbyServerSceneLoadedForPlayer(NetworkManager,GameObject,GameObject)
+  id: OnLobbyServerSceneLoadedForPlayer(NetworkManager,GameObject,GameObject)
+  parent: Prototype.NetworkLobby.LobbyHook
+  langs:
+  - csharp
+  - vb
+  name: OnLobbyServerSceneLoadedForPlayer(NetworkManager, GameObject, GameObject)
+  nameWithType: LobbyHook.OnLobbyServerSceneLoadedForPlayer(NetworkManager, GameObject, GameObject)
+  fullName: Prototype.NetworkLobby.LobbyHook.OnLobbyServerSceneLoadedForPlayer(NetworkManager, GameObject, GameObject)
+  type: Method
+  source:
+    id: OnLobbyServerSceneLoadedForPlayer
+    path: ''
+    startLine: 37
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public virtual void OnLobbyServerSceneLoadedForPlayer(NetworkManager manager, GameObject lobbyPlayer, GameObject gamePlayer)
+    parameters:
+    - id: manager
+      type: NetworkManager
+    - id: lobbyPlayer
+      type: GameObject
+    - id: gamePlayer
+      type: GameObject
+    content.vb: Public Overridable Sub OnLobbyServerSceneLoadedForPlayer(manager As NetworkManager, lobbyPlayer As GameObject, gamePlayer As GameObject)
+  overload: Prototype.NetworkLobby.LobbyHook.OnLobbyServerSceneLoadedForPlayer*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Prototype.NetworkLobby
+  commentId: N:Prototype.NetworkLobby
+  name: Prototype.NetworkLobby
+  nameWithType: Prototype.NetworkLobby
+  fullName: Prototype.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prototype.NetworkLobby.LobbyHook.OnLobbyServerSceneLoadedForPlayer*
+  commentId: Overload:Prototype.NetworkLobby.LobbyHook.OnLobbyServerSceneLoadedForPlayer
+  name: OnLobbyServerSceneLoadedForPlayer
+  nameWithType: LobbyHook.OnLobbyServerSceneLoadedForPlayer
+  fullName: Prototype.NetworkLobby.LobbyHook.OnLobbyServerSceneLoadedForPlayer
+- uid: NetworkManager
+  commentId: '!:NetworkManager'
+  isExternal: true
+  name: NetworkManager
+  nameWithType: NetworkManager
+  fullName: NetworkManager
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

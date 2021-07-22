@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.IKill
+  commentId: T:DevilsHunt.IKill
+  id: IKill
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.IKill.IsSold
+  - DevilsHunt.IKill.KillType
+  langs:
+  - csharp
+  - vb
+  name: IKill
+  nameWithType: IKill
+  fullName: DevilsHunt.IKill
+  type: Interface
+  source:
+    id: IKill
+    path: ''
+    startLine: 1897
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public interface IKill
+    content.vb: Public Interface IKill
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: DevilsHunt.IKill.KillType
+  commentId: P:DevilsHunt.IKill.KillType
+  id: KillType
+  parent: DevilsHunt.IKill
+  langs:
+  - csharp
+  - vb
+  name: KillType
+  nameWithType: IKill.KillType
+  fullName: DevilsHunt.IKill.KillType
+  type: Property
+  source:
+    id: KillType
+    path: ''
+    startLine: 1905
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: IKill.KillTypes KillType { get; }
+    parameters: []
+    return:
+      type: DevilsHunt.IKill.KillTypes
+    content.vb: ReadOnly Property KillType As IKill.KillTypes
+  overload: DevilsHunt.IKill.KillType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: DevilsHunt.IKill.IsSold
+  commentId: P:DevilsHunt.IKill.IsSold
+  id: IsSold
+  parent: DevilsHunt.IKill
+  langs:
+  - csharp
+  - vb
+  name: IsSold
+  nameWithType: IKill.IsSold
+  fullName: DevilsHunt.IKill.IsSold
+  type: Property
+  source:
+    id: IsSold
+    path: ''
+    startLine: 1910
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: bool IsSold { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsSold As Boolean
+  overload: DevilsHunt.IKill.IsSold*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: DevilsHunt.IKill.KillType*
+  commentId: Overload:DevilsHunt.IKill.KillType
+  name: KillType
+  nameWithType: IKill.KillType
+  fullName: DevilsHunt.IKill.KillType
+- uid: DevilsHunt.IKill.KillTypes
+  commentId: T:DevilsHunt.IKill.KillTypes
+  parent: DevilsHunt
+  name: IKill.KillTypes
+  nameWithType: IKill.KillTypes
+  fullName: DevilsHunt.IKill.KillTypes
+- uid: DevilsHunt.IKill.IsSold*
+  commentId: Overload:DevilsHunt.IKill.IsSold
+  name: IsSold
+  nameWithType: IKill.IsSold
+  fullName: DevilsHunt.IKill.IsSold
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prototype.NetworkLobby.LobbyInfoPanel
+  commentId: T:Prototype.NetworkLobby.LobbyInfoPanel
+  id: LobbyInfoPanel
+  parent: Prototype.NetworkLobby
+  children:
+  - Prototype.NetworkLobby.LobbyInfoPanel.buttonText
+  - Prototype.NetworkLobby.LobbyInfoPanel.Display(System.String,System.String,UnityEngine.Events.UnityAction)
+  - Prototype.NetworkLobby.LobbyInfoPanel.infoText
+  - Prototype.NetworkLobby.LobbyInfoPanel.singleButton
+  langs:
+  - csharp
+  - vb
+  name: LobbyInfoPanel
+  nameWithType: LobbyInfoPanel
+  fullName: Prototype.NetworkLobby.LobbyInfoPanel
+  type: Class
+  source:
+    id: LobbyInfoPanel
+    path: ''
+    startLine: 49
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: 'public class LobbyInfoPanel : MonoBehaviour'
+    content.vb: >-
+      Public Class LobbyInfoPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Prototype.NetworkLobby.LobbyInfoPanel.infoText
+  commentId: F:Prototype.NetworkLobby.LobbyInfoPanel.infoText
+  id: infoText
+  parent: Prototype.NetworkLobby.LobbyInfoPanel
+  langs:
+  - csharp
+  - vb
+  name: infoText
+  nameWithType: LobbyInfoPanel.infoText
+  fullName: Prototype.NetworkLobby.LobbyInfoPanel.infoText
+  type: Field
+  source:
+    id: infoText
+    path: ''
+    startLine: 51
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public Text infoText
+    return:
+      type: Text
+    content.vb: Public infoText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyInfoPanel.buttonText
+  commentId: F:Prototype.NetworkLobby.LobbyInfoPanel.buttonText
+  id: buttonText
+  parent: Prototype.NetworkLobby.LobbyInfoPanel
+  langs:
+  - csharp
+  - vb
+  name: buttonText
+  nameWithType: LobbyInfoPanel.buttonText
+  fullName: Prototype.NetworkLobby.LobbyInfoPanel.buttonText
+  type: Field
+  source:
+    id: buttonText
+    path: ''
+    startLine: 52
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public Text buttonText
+    return:
+      type: Text
+    content.vb: Public buttonText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyInfoPanel.singleButton
+  commentId: F:Prototype.NetworkLobby.LobbyInfoPanel.singleButton
+  id: singleButton
+  parent: Prototype.NetworkLobby.LobbyInfoPanel
+  langs:
+  - csharp
+  - vb
+  name: singleButton
+  nameWithType: LobbyInfoPanel.singleButton
+  fullName: Prototype.NetworkLobby.LobbyInfoPanel.singleButton
+  type: Field
+  source:
+    id: singleButton
+    path: ''
+    startLine: 53
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public Button singleButton
+    return:
+      type: Button
+    content.vb: Public singleButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyInfoPanel.Display(System.String,System.String,UnityEngine.Events.UnityAction)
+  commentId: M:Prototype.NetworkLobby.LobbyInfoPanel.Display(System.String,System.String,UnityEngine.Events.UnityAction)
+  id: Display(System.String,System.String,UnityEngine.Events.UnityAction)
+  parent: Prototype.NetworkLobby.LobbyInfoPanel
+  langs:
+  - csharp
+  - vb
+  name: Display(String, String, UnityEngine.Events.UnityAction)
+  nameWithType: LobbyInfoPanel.Display(String, String, UnityEngine.Events.UnityAction)
+  fullName: Prototype.NetworkLobby.LobbyInfoPanel.Display(System.String, System.String, UnityEngine.Events.UnityAction)
+  type: Method
+  source:
+    id: Display
+    path: ''
+    startLine: 55
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public void Display(string info, string buttonInfo, UnityEngine.Events.UnityAction buttonClbk)
+    parameters:
+    - id: info
+      type: System.String
+    - id: buttonInfo
+      type: System.String
+    - id: buttonClbk
+      type: UnityEngine.Events.UnityAction
+    content.vb: Public Sub Display(info As String, buttonInfo As String, buttonClbk As UnityEngine.Events.UnityAction)
+  overload: Prototype.NetworkLobby.LobbyInfoPanel.Display*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Prototype.NetworkLobby
+  commentId: N:Prototype.NetworkLobby
+  name: Prototype.NetworkLobby
+  nameWithType: Prototype.NetworkLobby
+  fullName: Prototype.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Text
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Prototype.NetworkLobby.LobbyInfoPanel.Display*
+  commentId: Overload:Prototype.NetworkLobby.LobbyInfoPanel.Display
+  name: Display
+  nameWithType: LobbyInfoPanel.Display
+  fullName: Prototype.NetworkLobby.LobbyInfoPanel.Display
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.Events.UnityAction
+  commentId: '!:UnityEngine.Events.UnityAction'
+  isExternal: true
+  name: UnityEngine.Events.UnityAction
+  nameWithType: UnityEngine.Events.UnityAction
+  fullName: UnityEngine.Events.UnityAction

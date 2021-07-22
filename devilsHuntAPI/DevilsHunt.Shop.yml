@@ -1,0 +1,804 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Shop
+  commentId: T:DevilsHunt.Shop
+  id: Shop
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Shop.#ctor
+  - DevilsHunt.Shop.Buy(DevilsHunt.Item)
+  - DevilsHunt.Shop.Canvas
+  - DevilsHunt.Shop.ItemPrefab
+  - DevilsHunt.Shop.Items
+  - DevilsHunt.Shop.main
+  - DevilsHunt.Shop.Open
+  - DevilsHunt.Shop.shop
+  - DevilsHunt.Shop.ShopPrefab
+  - DevilsHunt.Shop.UpdateShop
+  langs:
+  - csharp
+  - vb
+  name: Shop
+  nameWithType: Shop
+  fullName: DevilsHunt.Shop
+  type: Class
+  source:
+    id: Shop
+    path: ''
+    startLine: 2421
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Shop
+    content.vb: >-
+      <Serializable>
+
+      Public Class Shop
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Shop.ShopPrefab
+  commentId: F:DevilsHunt.Shop.ShopPrefab
+  id: ShopPrefab
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: ShopPrefab
+  nameWithType: Shop.ShopPrefab
+  fullName: DevilsHunt.Shop.ShopPrefab
+  type: Field
+  source:
+    id: ShopPrefab
+    path: ''
+    startLine: 2425
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public GameObject ShopPrefab
+    return:
+      type: GameObject
+    content.vb: >-
+      <NonSerialized>
+
+      Public ShopPrefab As GameObject
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.Canvas
+  commentId: F:DevilsHunt.Shop.Canvas
+  id: Canvas
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: Canvas
+  nameWithType: Shop.Canvas
+  fullName: DevilsHunt.Shop.Canvas
+  type: Field
+  source:
+    id: Canvas
+    path: ''
+    startLine: 2425
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public GameObject Canvas
+    return:
+      type: GameObject
+    content.vb: >-
+      <NonSerialized>
+
+      Public Canvas As GameObject
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.main
+  commentId: F:DevilsHunt.Shop.main
+  id: main
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: main
+  nameWithType: Shop.main
+  fullName: DevilsHunt.Shop.main
+  type: Field
+  source:
+    id: main
+    path: ''
+    startLine: 2425
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public GameObject main
+    return:
+      type: GameObject
+    content.vb: >-
+      <NonSerialized>
+
+      Public main As GameObject
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.ItemPrefab
+  commentId: F:DevilsHunt.Shop.ItemPrefab
+  id: ItemPrefab
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: ItemPrefab
+  nameWithType: Shop.ItemPrefab
+  fullName: DevilsHunt.Shop.ItemPrefab
+  type: Field
+  source:
+    id: ItemPrefab
+    path: ''
+    startLine: 2425
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public GameObject ItemPrefab
+    return:
+      type: GameObject
+    content.vb: >-
+      <NonSerialized>
+
+      Public ItemPrefab As GameObject
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.shop
+  commentId: F:DevilsHunt.Shop.shop
+  id: shop
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: shop
+  nameWithType: Shop.shop
+  fullName: DevilsHunt.Shop.shop
+  type: Field
+  source:
+    id: shop
+    path: ''
+    startLine: 2425
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public GameObject shop
+    return:
+      type: GameObject
+    content.vb: >-
+      <NonSerialized>
+
+      Public shop As GameObject
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.Items
+  commentId: P:DevilsHunt.Shop.Items
+  id: Items
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: Shop.Items
+  fullName: DevilsHunt.Shop.Items
+  type: Property
+  source:
+    id: Items
+    path: ''
+    startLine: 2441
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public List<Item> Items { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{DevilsHunt.Item}
+    content.vb: Public Property Items As List(Of Item)
+  overload: DevilsHunt.Shop.Items*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.#ctor
+  commentId: M:DevilsHunt.Shop.#ctor
+  id: '#ctor'
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: Shop()
+  nameWithType: Shop.Shop()
+  fullName: DevilsHunt.Shop.Shop()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2528
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Shop()
+    content.vb: Public Sub New
+  overload: DevilsHunt.Shop.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.Buy(DevilsHunt.Item)
+  commentId: M:DevilsHunt.Shop.Buy(DevilsHunt.Item)
+  id: Buy(DevilsHunt.Item)
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: Buy(Item)
+  nameWithType: Shop.Buy(Item)
+  fullName: DevilsHunt.Shop.Buy(DevilsHunt.Item)
+  type: Method
+  source:
+    id: Buy
+    path: ''
+    startLine: 2533
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Buy(Item item)
+    parameters:
+    - id: item
+      type: DevilsHunt.Item
+    content.vb: Public Sub Buy(item As Item)
+  overload: DevilsHunt.Shop.Buy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.UpdateShop
+  commentId: M:DevilsHunt.Shop.UpdateShop
+  id: UpdateShop
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: UpdateShop()
+  nameWithType: Shop.UpdateShop()
+  fullName: DevilsHunt.Shop.UpdateShop()
+  type: Method
+  source:
+    id: UpdateShop
+    path: ''
+    startLine: 2551
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void UpdateShop()
+    content.vb: Public Sub UpdateShop
+  overload: DevilsHunt.Shop.UpdateShop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Shop.Open
+  commentId: M:DevilsHunt.Shop.Open
+  id: Open
+  parent: DevilsHunt.Shop
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: Shop.Open()
+  fullName: DevilsHunt.Shop.Open()
+  type: Method
+  source:
+    id: Open
+    path: ''
+    startLine: 2601
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Open()
+    content.vb: Public Sub Open
+  overload: DevilsHunt.Shop.Open*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: DevilsHunt.Shop.Items*
+  commentId: Overload:DevilsHunt.Shop.Items
+  name: Items
+  nameWithType: Shop.Items
+  fullName: DevilsHunt.Shop.Items
+- uid: System.Collections.Generic.List{DevilsHunt.Item}
+  commentId: T:System.Collections.Generic.List{DevilsHunt.Item}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Item>
+  nameWithType: List<Item>
+  fullName: System.Collections.Generic.List<DevilsHunt.Item>
+  nameWithType.vb: List(Of Item)
+  fullName.vb: System.Collections.Generic.List(Of DevilsHunt.Item)
+  name.vb: List(Of Item)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DevilsHunt.Item
+    name: Item
+    nameWithType: Item
+    fullName: DevilsHunt.Item
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DevilsHunt.Item
+    name: Item
+    nameWithType: Item
+    fullName: DevilsHunt.Item
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: DevilsHunt.Shop.#ctor*
+  commentId: Overload:DevilsHunt.Shop.#ctor
+  name: Shop
+  nameWithType: Shop.Shop
+  fullName: DevilsHunt.Shop.Shop
+- uid: DevilsHunt.Shop.Buy*
+  commentId: Overload:DevilsHunt.Shop.Buy
+  name: Buy
+  nameWithType: Shop.Buy
+  fullName: DevilsHunt.Shop.Buy
+- uid: DevilsHunt.Item
+  commentId: T:DevilsHunt.Item
+  parent: DevilsHunt
+  name: Item
+  nameWithType: Item
+  fullName: DevilsHunt.Item
+- uid: DevilsHunt.Shop.UpdateShop*
+  commentId: Overload:DevilsHunt.Shop.UpdateShop
+  name: UpdateShop
+  nameWithType: Shop.UpdateShop
+  fullName: DevilsHunt.Shop.UpdateShop
+- uid: DevilsHunt.Shop.Open*
+  commentId: Overload:DevilsHunt.Shop.Open
+  name: Open
+  nameWithType: Shop.Open
+  fullName: DevilsHunt.Shop.Open

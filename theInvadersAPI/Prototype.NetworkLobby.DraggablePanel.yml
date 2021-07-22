@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prototype.NetworkLobby.DraggablePanel
+  commentId: T:Prototype.NetworkLobby.DraggablePanel
+  id: DraggablePanel
+  parent: Prototype.NetworkLobby
+  children:
+  - Prototype.NetworkLobby.DraggablePanel.OnDrag(PointerEventData)
+  langs:
+  - csharp
+  - vb
+  name: DraggablePanel
+  nameWithType: DraggablePanel
+  fullName: Prototype.NetworkLobby.DraggablePanel
+  type: Class
+  source:
+    id: DraggablePanel
+    path: ''
+    startLine: 6
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: 'public class DraggablePanel : MonoBehaviour, IDragHandler'
+    content.vb: >-
+      Public Class DraggablePanel
+          Inherits MonoBehaviour
+          Implements IDragHandler
+  inheritance:
+  - System.Object
+  implements:
+  - IDragHandler
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Prototype.NetworkLobby.DraggablePanel.OnDrag(PointerEventData)
+  commentId: M:Prototype.NetworkLobby.DraggablePanel.OnDrag(PointerEventData)
+  id: OnDrag(PointerEventData)
+  parent: Prototype.NetworkLobby.DraggablePanel
+  langs:
+  - csharp
+  - vb
+  name: OnDrag(PointerEventData)
+  nameWithType: DraggablePanel.OnDrag(PointerEventData)
+  fullName: Prototype.NetworkLobby.DraggablePanel.OnDrag(PointerEventData)
+  type: Method
+  source:
+    id: OnDrag
+    path: ''
+    startLine: 8
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public void OnDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: PointerEventData
+    content.vb: Public Sub OnDrag(eventData As PointerEventData)
+  overload: Prototype.NetworkLobby.DraggablePanel.OnDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Prototype.NetworkLobby
+  commentId: N:Prototype.NetworkLobby
+  name: Prototype.NetworkLobby
+  nameWithType: Prototype.NetworkLobby
+  fullName: Prototype.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IDragHandler
+  commentId: '!:IDragHandler'
+  isExternal: true
+  name: IDragHandler
+  nameWithType: IDragHandler
+  fullName: IDragHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Prototype.NetworkLobby.DraggablePanel.OnDrag*
+  commentId: Overload:Prototype.NetworkLobby.DraggablePanel.OnDrag
+  name: OnDrag
+  nameWithType: DraggablePanel.OnDrag
+  fullName: Prototype.NetworkLobby.DraggablePanel.OnDrag
+- uid: PointerEventData
+  commentId: '!:PointerEventData'
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData

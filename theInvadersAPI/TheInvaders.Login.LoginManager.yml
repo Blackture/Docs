@@ -1,0 +1,269 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Login.LoginManager
+  commentId: T:TheInvaders.Login.LoginManager
+  id: LoginManager
+  parent: TheInvaders.Login
+  children:
+  - TheInvaders.Login.LoginManager.cameraManager
+  - TheInvaders.Login.LoginManager.GetUser(System.String,System.String)
+  - TheInvaders.Login.LoginManager.OnEndLogin(TheInvaders.Login.LoginData)
+  langs:
+  - csharp
+  - vb
+  name: LoginManager
+  nameWithType: LoginManager
+  fullName: TheInvaders.Login.LoginManager
+  type: Class
+  source:
+    id: LoginManager
+    path: ''
+    startLine: 2467
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Login
+  syntax:
+    content: 'public class LoginManager : LoginEvents'
+    content.vb: >-
+      Public Class LoginManager
+          Inherits LoginEvents
+  inheritance:
+  - System.Object
+  - TheInvaders.Login.LoginEvents
+  inheritedMembers:
+  - TheInvaders.Login.LoginEvents.EndLogin
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.Login.LoginManager.cameraManager
+  commentId: F:TheInvaders.Login.LoginManager.cameraManager
+  id: cameraManager
+  parent: TheInvaders.Login.LoginManager
+  langs:
+  - csharp
+  - vb
+  name: cameraManager
+  nameWithType: LoginManager.cameraManager
+  fullName: TheInvaders.Login.LoginManager.cameraManager
+  type: Field
+  source:
+    id: cameraManager
+    path: ''
+    startLine: 2470
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Login
+  syntax:
+    content: public LoginManager.CameraManager cameraManager
+    return:
+      type: TheInvaders.Login.LoginManager.CameraManager
+    content.vb: Public cameraManager As LoginManager.CameraManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.Login.LoginManager.GetUser(System.String,System.String)
+  commentId: M:TheInvaders.Login.LoginManager.GetUser(System.String,System.String)
+  id: GetUser(System.String,System.String)
+  parent: TheInvaders.Login.LoginManager
+  langs:
+  - csharp
+  - vb
+  name: GetUser(String, String)
+  nameWithType: LoginManager.GetUser(String, String)
+  fullName: TheInvaders.Login.LoginManager.GetUser(System.String, System.String)
+  type: Method
+  source:
+    id: GetUser
+    path: ''
+    startLine: 2520
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Login
+  syntax:
+    content: public async Task<LoginData> GetUser(string email, string pw)
+    parameters:
+    - id: email
+      type: System.String
+    - id: pw
+      type: System.String
+    return:
+      type: Task{TheInvaders.Login.LoginData}
+    content.vb: Public Function GetUser(email As String, pw As String) As Task(Of LoginData)
+  overload: TheInvaders.Login.LoginManager.GetUser*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.Login.LoginManager.OnEndLogin(TheInvaders.Login.LoginData)
+  commentId: M:TheInvaders.Login.LoginManager.OnEndLogin(TheInvaders.Login.LoginData)
+  id: OnEndLogin(TheInvaders.Login.LoginData)
+  parent: TheInvaders.Login.LoginManager
+  langs:
+  - csharp
+  - vb
+  name: OnEndLogin(LoginData)
+  nameWithType: LoginManager.OnEndLogin(LoginData)
+  fullName: TheInvaders.Login.LoginManager.OnEndLogin(TheInvaders.Login.LoginData)
+  type: Method
+  source:
+    id: OnEndLogin
+    path: ''
+    startLine: 2605
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Login
+  syntax:
+    content: public void OnEndLogin(LoginData data)
+    parameters:
+    - id: data
+      type: TheInvaders.Login.LoginData
+    content.vb: Public Sub OnEndLogin(data As LoginData)
+  overload: TheInvaders.Login.LoginManager.OnEndLogin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders.Login
+  commentId: N:TheInvaders.Login
+  name: TheInvaders.Login
+  nameWithType: TheInvaders.Login
+  fullName: TheInvaders.Login
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TheInvaders.Login.LoginEvents
+  commentId: T:TheInvaders.Login.LoginEvents
+  parent: TheInvaders.Login
+  name: LoginEvents
+  nameWithType: LoginEvents
+  fullName: TheInvaders.Login.LoginEvents
+- uid: TheInvaders.Login.LoginEvents.EndLogin
+  commentId: P:TheInvaders.Login.LoginEvents.EndLogin
+  parent: TheInvaders.Login.LoginEvents
+  name: EndLogin
+  nameWithType: LoginEvents.EndLogin
+  fullName: TheInvaders.Login.LoginEvents.EndLogin
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.Login.LoginManager.CameraManager
+  commentId: T:TheInvaders.Login.LoginManager.CameraManager
+  parent: TheInvaders.Login
+  name: LoginManager.CameraManager
+  nameWithType: LoginManager.CameraManager
+  fullName: TheInvaders.Login.LoginManager.CameraManager
+- uid: TheInvaders.Login.LoginManager.GetUser*
+  commentId: Overload:TheInvaders.Login.LoginManager.GetUser
+  name: GetUser
+  nameWithType: LoginManager.GetUser
+  fullName: TheInvaders.Login.LoginManager.GetUser
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{TheInvaders.Login.LoginData}
+  commentId: '!:Task{TheInvaders.Login.LoginData}'
+  definition: Task`1
+  name: Task<LoginData>
+  nameWithType: Task<LoginData>
+  fullName: Task<TheInvaders.Login.LoginData>
+  nameWithType.vb: Task(Of LoginData)
+  fullName.vb: Task(Of TheInvaders.Login.LoginData)
+  name.vb: Task(Of LoginData)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TheInvaders.Login.LoginData
+    name: LoginData
+    nameWithType: LoginData
+    fullName: TheInvaders.Login.LoginData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TheInvaders.Login.LoginData
+    name: LoginData
+    nameWithType: LoginData
+    fullName: TheInvaders.Login.LoginData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Login.LoginManager.OnEndLogin*
+  commentId: Overload:TheInvaders.Login.LoginManager.OnEndLogin
+  name: OnEndLogin
+  nameWithType: LoginManager.OnEndLogin
+  fullName: TheInvaders.Login.LoginManager.OnEndLogin
+- uid: TheInvaders.Login.LoginData
+  commentId: T:TheInvaders.Login.LoginData
+  parent: TheInvaders.Login
+  name: LoginData
+  nameWithType: LoginData
+  fullName: TheInvaders.Login.LoginData

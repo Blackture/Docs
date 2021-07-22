@@ -1,0 +1,48 @@
+### YamlMime:TableOfContent
+- uid: DevilsHunt
+  name: DevilsHunt
+  items:
+  - uid: DevilsHunt.CardDeck
+    name: CardDeck
+  - uid: DevilsHunt.CardDeck.DevilDeckType
+    name: CardDeck.DevilDeckType
+  - uid: DevilsHunt.Devil
+    name: Devil
+  - uid: DevilsHunt.Effect
+    name: Effect
+  - uid: DevilsHunt.ExclamationMarks
+    name: ExclamationMarks
+  - uid: DevilsHunt.FieldSelection
+    name: FieldSelection
+  - uid: DevilsHunt.Game
+    name: Game
+  - uid: DevilsHunt.IKill
+    name: IKill
+  - uid: DevilsHunt.IKill.KillTypes
+    name: IKill.KillTypes
+  - uid: DevilsHunt.Inventory
+    name: Inventory
+  - uid: DevilsHunt.Item
+    name: Item
+  - uid: DevilsHunt.Kill
+    name: Kill
+  - uid: DevilsHunt.Message
+    name: Message
+  - uid: DevilsHunt.Message.MessageType
+    name: Message.MessageType
+  - uid: DevilsHunt.PhotoCard
+    name: PhotoCard
+  - uid: DevilsHunt.Player
+    name: Player
+  - uid: DevilsHunt.Score
+    name: Score
+  - uid: DevilsHunt.Shop
+    name: Shop
+  - uid: DevilsHunt.Skill
+    name: Skill
+  - uid: DevilsHunt.SkillTree
+    name: SkillTree
+  - uid: DevilsHunt.SkillTreePanel
+    name: SkillTreePanel
+  - uid: DevilsHunt.TJGame
+    name: TJGame

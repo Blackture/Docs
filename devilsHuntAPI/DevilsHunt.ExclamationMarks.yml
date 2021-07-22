@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.ExclamationMarks
+  commentId: T:DevilsHunt.ExclamationMarks
+  id: ExclamationMarks
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.ExclamationMarks.#ctor(System.String,System.String,DevilsHunt.Effect,System.Boolean)
+  - DevilsHunt.ExclamationMarks.ApplyEffect
+  - DevilsHunt.ExclamationMarks.Description
+  - DevilsHunt.ExclamationMarks.Effect
+  - DevilsHunt.ExclamationMarks.GoTO
+  - DevilsHunt.ExclamationMarks.Name
+  langs:
+  - csharp
+  - vb
+  name: ExclamationMarks
+  nameWithType: ExclamationMarks
+  fullName: DevilsHunt.ExclamationMarks
+  type: Class
+  source:
+    id: ExclamationMarks
+    path: ''
+    startLine: 630
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ExclamationMarks
+    content.vb: >-
+      <Serializable>
+
+      Public Class ExclamationMarks
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.ExclamationMarks.Effect
+  commentId: P:DevilsHunt.ExclamationMarks.Effect
+  id: Effect
+  parent: DevilsHunt.ExclamationMarks
+  langs:
+  - csharp
+  - vb
+  name: Effect
+  nameWithType: ExclamationMarks.Effect
+  fullName: DevilsHunt.ExclamationMarks.Effect
+  type: Property
+  source:
+    id: Effect
+    path: ''
+    startLine: 647
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Effect Effect { get; }
+    parameters: []
+    return:
+      type: DevilsHunt.Effect
+    content.vb: Public ReadOnly Property Effect As Effect
+  overload: DevilsHunt.ExclamationMarks.Effect*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.ExclamationMarks.Name
+  commentId: P:DevilsHunt.ExclamationMarks.Name
+  id: Name
+  parent: DevilsHunt.ExclamationMarks
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ExclamationMarks.Name
+  fullName: DevilsHunt.ExclamationMarks.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 655
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: DevilsHunt.ExclamationMarks.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.ExclamationMarks.Description
+  commentId: P:DevilsHunt.ExclamationMarks.Description
+  id: Description
+  parent: DevilsHunt.ExclamationMarks
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ExclamationMarks.Description
+  fullName: DevilsHunt.ExclamationMarks.Description
+  type: Property
+  source:
+    id: Description
+    path: ''
+    startLine: 663
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Description As String
+  overload: DevilsHunt.ExclamationMarks.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.ExclamationMarks.GoTO
+  commentId: P:DevilsHunt.ExclamationMarks.GoTO
+  id: GoTO
+  parent: DevilsHunt.ExclamationMarks
+  langs:
+  - csharp
+  - vb
+  name: GoTO
+  nameWithType: ExclamationMarks.GoTO
+  fullName: DevilsHunt.ExclamationMarks.GoTO
+  type: Property
+  source:
+    id: GoTO
+    path: ''
+    startLine: 671
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool GoTO { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property GoTO As Boolean
+  overload: DevilsHunt.ExclamationMarks.GoTO*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.ExclamationMarks.#ctor(System.String,System.String,DevilsHunt.Effect,System.Boolean)
+  commentId: M:DevilsHunt.ExclamationMarks.#ctor(System.String,System.String,DevilsHunt.Effect,System.Boolean)
+  id: '#ctor(System.String,System.String,DevilsHunt.Effect,System.Boolean)'
+  parent: DevilsHunt.ExclamationMarks
+  langs:
+  - csharp
+  - vb
+  name: ExclamationMarks(String, String, Effect, Boolean)
+  nameWithType: ExclamationMarks.ExclamationMarks(String, String, Effect, Boolean)
+  fullName: DevilsHunt.ExclamationMarks.ExclamationMarks(System.String, System.String, DevilsHunt.Effect, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 678
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public ExclamationMarks(string n, string d, Effect fx, bool goToCommand = false)
+    parameters:
+    - id: n
+      type: System.String
+    - id: d
+      type: System.String
+    - id: fx
+      type: DevilsHunt.Effect
+    - id: goToCommand
+      type: System.Boolean
+    content.vb: Public Sub New(n As String, d As String, fx As Effect, goToCommand As Boolean = False)
+  overload: DevilsHunt.ExclamationMarks.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.ExclamationMarks.ApplyEffect
+  commentId: M:DevilsHunt.ExclamationMarks.ApplyEffect
+  id: ApplyEffect
+  parent: DevilsHunt.ExclamationMarks
+  langs:
+  - csharp
+  - vb
+  name: ApplyEffect()
+  nameWithType: ExclamationMarks.ApplyEffect()
+  fullName: DevilsHunt.ExclamationMarks.ApplyEffect()
+  type: Method
+  source:
+    id: ApplyEffect
+    path: ''
+    startLine: 686
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void ApplyEffect()
+    content.vb: Public Sub ApplyEffect
+  overload: DevilsHunt.ExclamationMarks.ApplyEffect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevilsHunt.ExclamationMarks.Effect*
+  commentId: Overload:DevilsHunt.ExclamationMarks.Effect
+  name: Effect
+  nameWithType: ExclamationMarks.Effect
+  fullName: DevilsHunt.ExclamationMarks.Effect
+- uid: DevilsHunt.Effect
+  commentId: T:DevilsHunt.Effect
+  parent: DevilsHunt
+  name: Effect
+  nameWithType: Effect
+  fullName: DevilsHunt.Effect
+- uid: DevilsHunt.ExclamationMarks.Name*
+  commentId: Overload:DevilsHunt.ExclamationMarks.Name
+  name: Name
+  nameWithType: ExclamationMarks.Name
+  fullName: DevilsHunt.ExclamationMarks.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DevilsHunt.ExclamationMarks.Description*
+  commentId: Overload:DevilsHunt.ExclamationMarks.Description
+  name: Description
+  nameWithType: ExclamationMarks.Description
+  fullName: DevilsHunt.ExclamationMarks.Description
+- uid: DevilsHunt.ExclamationMarks.GoTO*
+  commentId: Overload:DevilsHunt.ExclamationMarks.GoTO
+  name: GoTO
+  nameWithType: ExclamationMarks.GoTO
+  fullName: DevilsHunt.ExclamationMarks.GoTO
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DevilsHunt.ExclamationMarks.#ctor*
+  commentId: Overload:DevilsHunt.ExclamationMarks.#ctor
+  name: ExclamationMarks
+  nameWithType: ExclamationMarks.ExclamationMarks
+  fullName: DevilsHunt.ExclamationMarks.ExclamationMarks
+- uid: DevilsHunt.ExclamationMarks.ApplyEffect*
+  commentId: Overload:DevilsHunt.ExclamationMarks.ApplyEffect
+  name: ApplyEffect
+  nameWithType: ExclamationMarks.ApplyEffect
+  fullName: DevilsHunt.ExclamationMarks.ApplyEffect

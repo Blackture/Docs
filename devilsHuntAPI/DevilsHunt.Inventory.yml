@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Inventory
+  commentId: T:DevilsHunt.Inventory
+  id: Inventory
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Inventory.ItemPrefab
+  - DevilsHunt.Inventory.main
+  langs:
+  - csharp
+  - vb
+  name: Inventory
+  nameWithType: Inventory
+  fullName: DevilsHunt.Inventory
+  type: Class
+  source:
+    id: Inventory
+    path: ''
+    startLine: 1728
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: 'public class Inventory : MonoBehaviour'
+    content.vb: >-
+      Public Class Inventory
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Inventory.main
+  commentId: F:DevilsHunt.Inventory.main
+  id: main
+  parent: DevilsHunt.Inventory
+  langs:
+  - csharp
+  - vb
+  name: main
+  nameWithType: Inventory.main
+  fullName: DevilsHunt.Inventory.main
+  type: Field
+  source:
+    id: main
+    path: ''
+    startLine: 1730
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject main
+    return:
+      type: GameObject
+    content.vb: Public main As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Inventory.ItemPrefab
+  commentId: F:DevilsHunt.Inventory.ItemPrefab
+  id: ItemPrefab
+  parent: DevilsHunt.Inventory
+  langs:
+  - csharp
+  - vb
+  name: ItemPrefab
+  nameWithType: Inventory.ItemPrefab
+  fullName: DevilsHunt.Inventory.ItemPrefab
+  type: Field
+  source:
+    id: ItemPrefab
+    path: ''
+    startLine: 1731
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject ItemPrefab
+    return:
+      type: GameObject
+    content.vb: Public ItemPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

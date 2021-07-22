@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Inventory.Item
+  commentId: T:TheInvaders.Inventory.Item
+  id: Item
+  parent: TheInvaders.Inventory
+  children:
+  - TheInvaders.Inventory.Item.Count
+  - TheInvaders.Inventory.Item.Icon
+  - TheInvaders.Inventory.Item.Name
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: Item
+  fullName: TheInvaders.Inventory.Item
+  type: Class
+  source:
+    id: Item
+    path: ''
+    startLine: 2237
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventory
+  syntax:
+    content: 'public abstract class Item : IItem'
+    content.vb: >-
+      Public MustInherit Class Item
+          Implements IItem
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TheInvaders.Inventory.Resource
+  implements:
+  - TheInvaders.Inventory.IItem
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TheInvaders.Inventory.Item.Name
+  commentId: P:TheInvaders.Inventory.Item.Name
+  id: Name
+  parent: TheInvaders.Inventory.Item
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Item.Name
+  fullName: TheInvaders.Inventory.Item.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 2245
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventory
+  summary: "\nThis represents the item name as a <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public string Name { get; protected set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: TheInvaders.Inventory.Item.Name*
+  implements:
+  - TheInvaders.Inventory.IItem.Name
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: TheInvaders.Inventory.Item.Icon
+  commentId: P:TheInvaders.Inventory.Item.Icon
+  id: Icon
+  parent: TheInvaders.Inventory.Item
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: Item.Icon
+  fullName: TheInvaders.Inventory.Item.Icon
+  type: Property
+  source:
+    id: Icon
+    path: ''
+    startLine: 2253
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventory
+  summary: "\nThis represents the icon of the item as a <see cref=\"!:Sprite\"></see>\n"
+  example: []
+  syntax:
+    content: public Sprite Icon { get; protected set; }
+    parameters: []
+    return:
+      type: Sprite
+    content.vb: Public Property Icon As Sprite
+  overload: TheInvaders.Inventory.Item.Icon*
+  implements:
+  - TheInvaders.Inventory.IItem.Icon
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: TheInvaders.Inventory.Item.Count
+  commentId: P:TheInvaders.Inventory.Item.Count
+  id: Count
+  parent: TheInvaders.Inventory.Item
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Item.Count
+  fullName: TheInvaders.Inventory.Item.Count
+  type: Property
+  source:
+    id: Count
+    path: ''
+    startLine: 2261
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventory
+  summary: "\nThis represents the count of the item as a <xref href=\"System.Int32\" data-throw-if-not-resolved=\"false\"></xref>. No values below 0 will get set\n"
+  example: []
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: TheInvaders.Inventory.Item.Count*
+  implements:
+  - TheInvaders.Inventory.IItem.Count
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders.Inventory
+  commentId: N:TheInvaders.Inventory
+  name: TheInvaders.Inventory
+  nameWithType: TheInvaders.Inventory
+  fullName: TheInvaders.Inventory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TheInvaders.Inventory.IItem
+  commentId: T:TheInvaders.Inventory.IItem
+  parent: TheInvaders.Inventory
+  name: IItem
+  nameWithType: IItem
+  fullName: TheInvaders.Inventory.IItem
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: TheInvaders.Inventory.Item.Name*
+  commentId: Overload:TheInvaders.Inventory.Item.Name
+  name: Name
+  nameWithType: Item.Name
+  fullName: TheInvaders.Inventory.Item.Name
+- uid: TheInvaders.Inventory.IItem.Name
+  commentId: P:TheInvaders.Inventory.IItem.Name
+  parent: TheInvaders.Inventory.IItem
+  name: Name
+  nameWithType: IItem.Name
+  fullName: TheInvaders.Inventory.IItem.Name
+- uid: TheInvaders.Inventory.Item.Icon*
+  commentId: Overload:TheInvaders.Inventory.Item.Icon
+  name: Icon
+  nameWithType: Item.Icon
+  fullName: TheInvaders.Inventory.Item.Icon
+- uid: TheInvaders.Inventory.IItem.Icon
+  commentId: P:TheInvaders.Inventory.IItem.Icon
+  parent: TheInvaders.Inventory.IItem
+  name: Icon
+  nameWithType: IItem.Icon
+  fullName: TheInvaders.Inventory.IItem.Icon
+- uid: Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TheInvaders.Inventory.Item.Count*
+  commentId: Overload:TheInvaders.Inventory.Item.Count
+  name: Count
+  nameWithType: Item.Count
+  fullName: TheInvaders.Inventory.Item.Count
+- uid: TheInvaders.Inventory.IItem.Count
+  commentId: P:TheInvaders.Inventory.IItem.Count
+  parent: TheInvaders.Inventory.IItem
+  name: Count
+  nameWithType: IItem.Count
+  fullName: TheInvaders.Inventory.IItem.Count

@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Message
+  commentId: T:DevilsHunt.Message
+  id: Message
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Message.Init(System.String)
+  - DevilsHunt.Message.Init(System.String,DevilsHunt.Message.MessageType)
+  - DevilsHunt.Message.Init(System.String,DevilsHunt.Message.MessageType,System.Single)
+  - DevilsHunt.Message.Init(System.String,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: Message
+  fullName: DevilsHunt.Message
+  type: Class
+  source:
+    id: Message
+    path: ''
+    startLine: 1925
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: 'public class Message : MonoBehaviour'
+    content.vb: >-
+      Public Class Message
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Message.Init(System.String,DevilsHunt.Message.MessageType)
+  commentId: M:DevilsHunt.Message.Init(System.String,DevilsHunt.Message.MessageType)
+  id: Init(System.String,DevilsHunt.Message.MessageType)
+  parent: DevilsHunt.Message
+  langs:
+  - csharp
+  - vb
+  name: Init(String, Message.MessageType)
+  nameWithType: Message.Init(String, Message.MessageType)
+  fullName: DevilsHunt.Message.Init(System.String, DevilsHunt.Message.MessageType)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 1935
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Init(string msg, Message.MessageType messageType)
+    parameters:
+    - id: msg
+      type: System.String
+    - id: messageType
+      type: DevilsHunt.Message.MessageType
+    content.vb: Public Sub Init(msg As String, messageType As Message.MessageType)
+  overload: DevilsHunt.Message.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Message.Init(System.String,DevilsHunt.Message.MessageType,System.Single)
+  commentId: M:DevilsHunt.Message.Init(System.String,DevilsHunt.Message.MessageType,System.Single)
+  id: Init(System.String,DevilsHunt.Message.MessageType,System.Single)
+  parent: DevilsHunt.Message
+  langs:
+  - csharp
+  - vb
+  name: Init(String, Message.MessageType, Single)
+  nameWithType: Message.Init(String, Message.MessageType, Single)
+  fullName: DevilsHunt.Message.Init(System.String, DevilsHunt.Message.MessageType, System.Single)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 1952
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Init(string msg, Message.MessageType messageType, float t)
+    parameters:
+    - id: msg
+      type: System.String
+    - id: messageType
+      type: DevilsHunt.Message.MessageType
+    - id: t
+      type: System.Single
+    content.vb: Public Sub Init(msg As String, messageType As Message.MessageType, t As Single)
+  overload: DevilsHunt.Message.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Message.Init(System.String,System.Single)
+  commentId: M:DevilsHunt.Message.Init(System.String,System.Single)
+  id: Init(System.String,System.Single)
+  parent: DevilsHunt.Message
+  langs:
+  - csharp
+  - vb
+  name: Init(String, Single)
+  nameWithType: Message.Init(String, Single)
+  fullName: DevilsHunt.Message.Init(System.String, System.Single)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 1969
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Init(string msg, float t)
+    parameters:
+    - id: msg
+      type: System.String
+    - id: t
+      type: System.Single
+    content.vb: Public Sub Init(msg As String, t As Single)
+  overload: DevilsHunt.Message.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Message.Init(System.String)
+  commentId: M:DevilsHunt.Message.Init(System.String)
+  id: Init(System.String)
+  parent: DevilsHunt.Message
+  langs:
+  - csharp
+  - vb
+  name: Init(String)
+  nameWithType: Message.Init(String)
+  fullName: DevilsHunt.Message.Init(System.String)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 1976
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Init(string msg)
+    parameters:
+    - id: msg
+      type: System.String
+    content.vb: Public Sub Init(msg As String)
+  overload: DevilsHunt.Message.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevilsHunt.Message.Init*
+  commentId: Overload:DevilsHunt.Message.Init
+  name: Init
+  nameWithType: Message.Init
+  fullName: DevilsHunt.Message.Init
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DevilsHunt.Message.MessageType
+  commentId: T:DevilsHunt.Message.MessageType
+  parent: DevilsHunt
+  name: Message.MessageType
+  nameWithType: Message.MessageType
+  fullName: DevilsHunt.Message.MessageType
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

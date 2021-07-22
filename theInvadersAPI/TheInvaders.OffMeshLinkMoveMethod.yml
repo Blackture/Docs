@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.OffMeshLinkMoveMethod
+  commentId: T:TheInvaders.OffMeshLinkMoveMethod
+  id: OffMeshLinkMoveMethod
+  parent: TheInvaders
+  children:
+  - TheInvaders.OffMeshLinkMoveMethod.Curve
+  - TheInvaders.OffMeshLinkMoveMethod.NormalSpeed
+  - TheInvaders.OffMeshLinkMoveMethod.Parabola
+  - TheInvaders.OffMeshLinkMoveMethod.Teleport
+  langs:
+  - csharp
+  - vb
+  name: OffMeshLinkMoveMethod
+  nameWithType: OffMeshLinkMoveMethod
+  fullName: TheInvaders.OffMeshLinkMoveMethod
+  type: Enum
+  source:
+    id: OffMeshLinkMoveMethod
+    path: ''
+    startLine: 1152
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public enum OffMeshLinkMoveMethod
+    content.vb: Public Enum OffMeshLinkMoveMethod
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TheInvaders.OffMeshLinkMoveMethod.Teleport
+  commentId: F:TheInvaders.OffMeshLinkMoveMethod.Teleport
+  id: Teleport
+  parent: TheInvaders.OffMeshLinkMoveMethod
+  langs:
+  - csharp
+  - vb
+  name: Teleport
+  nameWithType: OffMeshLinkMoveMethod.Teleport
+  fullName: TheInvaders.OffMeshLinkMoveMethod.Teleport
+  type: Field
+  source:
+    id: Teleport
+    path: ''
+    startLine: 1154
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: Teleport = 0
+    return:
+      type: TheInvaders.OffMeshLinkMoveMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.OffMeshLinkMoveMethod.NormalSpeed
+  commentId: F:TheInvaders.OffMeshLinkMoveMethod.NormalSpeed
+  id: NormalSpeed
+  parent: TheInvaders.OffMeshLinkMoveMethod
+  langs:
+  - csharp
+  - vb
+  name: NormalSpeed
+  nameWithType: OffMeshLinkMoveMethod.NormalSpeed
+  fullName: TheInvaders.OffMeshLinkMoveMethod.NormalSpeed
+  type: Field
+  source:
+    id: NormalSpeed
+    path: ''
+    startLine: 1155
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: NormalSpeed = 1
+    return:
+      type: TheInvaders.OffMeshLinkMoveMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.OffMeshLinkMoveMethod.Parabola
+  commentId: F:TheInvaders.OffMeshLinkMoveMethod.Parabola
+  id: Parabola
+  parent: TheInvaders.OffMeshLinkMoveMethod
+  langs:
+  - csharp
+  - vb
+  name: Parabola
+  nameWithType: OffMeshLinkMoveMethod.Parabola
+  fullName: TheInvaders.OffMeshLinkMoveMethod.Parabola
+  type: Field
+  source:
+    id: Parabola
+    path: ''
+    startLine: 1156
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: Parabola = 2
+    return:
+      type: TheInvaders.OffMeshLinkMoveMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.OffMeshLinkMoveMethod.Curve
+  commentId: F:TheInvaders.OffMeshLinkMoveMethod.Curve
+  id: Curve
+  parent: TheInvaders.OffMeshLinkMoveMethod
+  langs:
+  - csharp
+  - vb
+  name: Curve
+  nameWithType: OffMeshLinkMoveMethod.Curve
+  fullName: TheInvaders.OffMeshLinkMoveMethod.Curve
+  type: Field
+  source:
+    id: Curve
+    path: ''
+    startLine: 1157
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: Curve = 3
+    return:
+      type: TheInvaders.OffMeshLinkMoveMethod
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders
+- uid: TheInvaders.OffMeshLinkMoveMethod
+  commentId: T:TheInvaders.OffMeshLinkMoveMethod
+  parent: TheInvaders
+  name: OffMeshLinkMoveMethod
+  nameWithType: OffMeshLinkMoveMethod
+  fullName: TheInvaders.OffMeshLinkMoveMethod

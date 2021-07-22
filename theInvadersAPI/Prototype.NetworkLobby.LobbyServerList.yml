@@ -1,0 +1,450 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prototype.NetworkLobby.LobbyServerList
+  commentId: T:Prototype.NetworkLobby.LobbyServerList
+  id: LobbyServerList
+  parent: Prototype.NetworkLobby
+  children:
+  - Prototype.NetworkLobby.LobbyServerList.ChangePage(System.Int32)
+  - Prototype.NetworkLobby.LobbyServerList.currentPage
+  - Prototype.NetworkLobby.LobbyServerList.lobbyManager
+  - Prototype.NetworkLobby.LobbyServerList.noServerFound
+  - Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean,System.String,List{MatchInfoSnapshot})
+  - Prototype.NetworkLobby.LobbyServerList.previousPage
+  - Prototype.NetworkLobby.LobbyServerList.RequestPage(System.Int32)
+  - Prototype.NetworkLobby.LobbyServerList.serverEntryPrefab
+  - Prototype.NetworkLobby.LobbyServerList.serverListRect
+  langs:
+  - csharp
+  - vb
+  name: LobbyServerList
+  nameWithType: LobbyServerList
+  fullName: Prototype.NetworkLobby.LobbyServerList
+  type: Class
+  source:
+    id: LobbyServerList
+    path: ''
+    startLine: 1025
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: 'public class LobbyServerList : MonoBehaviour'
+    content.vb: >-
+      Public Class LobbyServerList
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Prototype.NetworkLobby.LobbyServerList.lobbyManager
+  commentId: F:Prototype.NetworkLobby.LobbyServerList.lobbyManager
+  id: lobbyManager
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: lobbyManager
+  nameWithType: LobbyServerList.lobbyManager
+  fullName: Prototype.NetworkLobby.LobbyServerList.lobbyManager
+  type: Field
+  source:
+    id: lobbyManager
+    path: ''
+    startLine: 1027
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public LobbyManager lobbyManager
+    return:
+      type: LobbyManager
+    content.vb: Public lobbyManager As LobbyManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyServerList.serverListRect
+  commentId: F:Prototype.NetworkLobby.LobbyServerList.serverListRect
+  id: serverListRect
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: serverListRect
+  nameWithType: LobbyServerList.serverListRect
+  fullName: Prototype.NetworkLobby.LobbyServerList.serverListRect
+  type: Field
+  source:
+    id: serverListRect
+    path: ''
+    startLine: 1029
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public RectTransform serverListRect
+    return:
+      type: RectTransform
+    content.vb: Public serverListRect As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyServerList.serverEntryPrefab
+  commentId: F:Prototype.NetworkLobby.LobbyServerList.serverEntryPrefab
+  id: serverEntryPrefab
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: serverEntryPrefab
+  nameWithType: LobbyServerList.serverEntryPrefab
+  fullName: Prototype.NetworkLobby.LobbyServerList.serverEntryPrefab
+  type: Field
+  source:
+    id: serverEntryPrefab
+    path: ''
+    startLine: 1030
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public GameObject serverEntryPrefab
+    return:
+      type: GameObject
+    content.vb: Public serverEntryPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyServerList.noServerFound
+  commentId: F:Prototype.NetworkLobby.LobbyServerList.noServerFound
+  id: noServerFound
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: noServerFound
+  nameWithType: LobbyServerList.noServerFound
+  fullName: Prototype.NetworkLobby.LobbyServerList.noServerFound
+  type: Field
+  source:
+    id: noServerFound
+    path: ''
+    startLine: 1031
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public GameObject noServerFound
+    return:
+      type: GameObject
+    content.vb: Public noServerFound As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyServerList.currentPage
+  commentId: F:Prototype.NetworkLobby.LobbyServerList.currentPage
+  id: currentPage
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: currentPage
+  nameWithType: LobbyServerList.currentPage
+  fullName: Prototype.NetworkLobby.LobbyServerList.currentPage
+  type: Field
+  source:
+    id: currentPage
+    path: ''
+    startLine: 1033
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: protected int currentPage
+    return:
+      type: System.Int32
+    content.vb: Protected currentPage As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Prototype.NetworkLobby.LobbyServerList.previousPage
+  commentId: F:Prototype.NetworkLobby.LobbyServerList.previousPage
+  id: previousPage
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: previousPage
+  nameWithType: LobbyServerList.previousPage
+  fullName: Prototype.NetworkLobby.LobbyServerList.previousPage
+  type: Field
+  source:
+    id: previousPage
+    path: ''
+    startLine: 1034
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: protected int previousPage
+    return:
+      type: System.Int32
+    content.vb: Protected previousPage As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean,System.String,List{MatchInfoSnapshot})
+  commentId: M:Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean,System.String,List{MatchInfoSnapshot})
+  id: OnGUIMatchList(System.Boolean,System.String,List{MatchInfoSnapshot})
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: OnGUIMatchList(Boolean, String, List<MatchInfoSnapshot>)
+  nameWithType: LobbyServerList.OnGUIMatchList(Boolean, String, List<MatchInfoSnapshot>)
+  fullName: Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean, System.String, List<MatchInfoSnapshot>)
+  type: Method
+  source:
+    id: OnGUIMatchList
+    path: ''
+    startLine: 1052
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public void OnGUIMatchList(bool success, string extendedInfo, List<MatchInfoSnapshot> matches)
+    parameters:
+    - id: success
+      type: System.Boolean
+    - id: extendedInfo
+      type: System.String
+    - id: matches
+      type: List{MatchInfoSnapshot}
+    content.vb: Public Sub OnGUIMatchList(success As Boolean, extendedInfo As String, matches As List(Of MatchInfoSnapshot))
+  overload: Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList*
+  nameWithType.vb: LobbyServerList.OnGUIMatchList(Boolean, String, List(Of MatchInfoSnapshot))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean, System.String, List(Of MatchInfoSnapshot))
+  name.vb: OnGUIMatchList(Boolean, String, List(Of MatchInfoSnapshot))
+- uid: Prototype.NetworkLobby.LobbyServerList.ChangePage(System.Int32)
+  commentId: M:Prototype.NetworkLobby.LobbyServerList.ChangePage(System.Int32)
+  id: ChangePage(System.Int32)
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: ChangePage(Int32)
+  nameWithType: LobbyServerList.ChangePage(Int32)
+  fullName: Prototype.NetworkLobby.LobbyServerList.ChangePage(System.Int32)
+  type: Method
+  source:
+    id: ChangePage
+    path: ''
+    startLine: 1080
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public void ChangePage(int dir)
+    parameters:
+    - id: dir
+      type: System.Int32
+    content.vb: Public Sub ChangePage(dir As Integer)
+  overload: Prototype.NetworkLobby.LobbyServerList.ChangePage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyServerList.RequestPage(System.Int32)
+  commentId: M:Prototype.NetworkLobby.LobbyServerList.RequestPage(System.Int32)
+  id: RequestPage(System.Int32)
+  parent: Prototype.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: RequestPage(Int32)
+  nameWithType: LobbyServerList.RequestPage(Int32)
+  fullName: Prototype.NetworkLobby.LobbyServerList.RequestPage(System.Int32)
+  type: Method
+  source:
+    id: RequestPage
+    path: ''
+    startLine: 1091
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public void RequestPage(int page)
+    parameters:
+    - id: page
+      type: System.Int32
+    content.vb: Public Sub RequestPage(page As Integer)
+  overload: Prototype.NetworkLobby.LobbyServerList.RequestPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Prototype.NetworkLobby
+  commentId: N:Prototype.NetworkLobby
+  name: Prototype.NetworkLobby
+  nameWithType: Prototype.NetworkLobby
+  fullName: Prototype.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: LobbyManager
+  commentId: T:LobbyManager
+  name: LobbyManager
+  nameWithType: LobbyManager
+  fullName: LobbyManager
+- uid: RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList*
+  commentId: Overload:Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList
+  name: OnGUIMatchList
+  nameWithType: LobbyServerList.OnGUIMatchList
+  fullName: Prototype.NetworkLobby.LobbyServerList.OnGUIMatchList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: List{MatchInfoSnapshot}
+  commentId: '!:List{MatchInfoSnapshot}'
+  definition: List`1
+  name: List<MatchInfoSnapshot>
+  nameWithType: List<MatchInfoSnapshot>
+  fullName: List<MatchInfoSnapshot>
+  nameWithType.vb: List(Of MatchInfoSnapshot)
+  fullName.vb: List(Of MatchInfoSnapshot)
+  name.vb: List(Of MatchInfoSnapshot)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: MatchInfoSnapshot
+    name: MatchInfoSnapshot
+    nameWithType: MatchInfoSnapshot
+    fullName: MatchInfoSnapshot
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: MatchInfoSnapshot
+    name: MatchInfoSnapshot
+    nameWithType: MatchInfoSnapshot
+    fullName: MatchInfoSnapshot
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Prototype.NetworkLobby.LobbyServerList.ChangePage*
+  commentId: Overload:Prototype.NetworkLobby.LobbyServerList.ChangePage
+  name: ChangePage
+  nameWithType: LobbyServerList.ChangePage
+  fullName: Prototype.NetworkLobby.LobbyServerList.ChangePage
+- uid: Prototype.NetworkLobby.LobbyServerList.RequestPage*
+  commentId: Overload:Prototype.NetworkLobby.LobbyServerList.RequestPage
+  name: RequestPage
+  nameWithType: LobbyServerList.RequestPage
+  fullName: Prototype.NetworkLobby.LobbyServerList.RequestPage

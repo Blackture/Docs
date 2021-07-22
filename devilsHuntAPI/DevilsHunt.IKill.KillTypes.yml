@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.IKill.KillTypes
+  commentId: T:DevilsHunt.IKill.KillTypes
+  id: IKill.KillTypes
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.IKill.KillTypes.EasyDevil
+  - DevilsHunt.IKill.KillTypes.HardDevil
+  langs:
+  - csharp
+  - vb
+  name: IKill.KillTypes
+  nameWithType: IKill.KillTypes
+  fullName: DevilsHunt.IKill.KillTypes
+  type: Enum
+  source:
+    id: KillTypes
+    path: ''
+    startLine: 1899
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public enum KillTypes
+    content.vb: Public Enum KillTypes
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: DevilsHunt.IKill.KillTypes.EasyDevil
+  commentId: F:DevilsHunt.IKill.KillTypes.EasyDevil
+  id: EasyDevil
+  parent: DevilsHunt.IKill.KillTypes
+  langs:
+  - csharp
+  - vb
+  name: EasyDevil
+  nameWithType: IKill.KillTypes.EasyDevil
+  fullName: DevilsHunt.IKill.KillTypes.EasyDevil
+  type: Field
+  source:
+    id: EasyDevil
+    path: ''
+    startLine: 1901
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: EasyDevil = 0
+    return:
+      type: DevilsHunt.IKill.KillTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: DevilsHunt.IKill.KillTypes.HardDevil
+  commentId: F:DevilsHunt.IKill.KillTypes.HardDevil
+  id: HardDevil
+  parent: DevilsHunt.IKill.KillTypes
+  langs:
+  - csharp
+  - vb
+  name: HardDevil
+  nameWithType: IKill.KillTypes.HardDevil
+  fullName: DevilsHunt.IKill.KillTypes.HardDevil
+  type: Field
+  source:
+    id: HardDevil
+    path: ''
+    startLine: 1902
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: HardDevil = 1
+    return:
+      type: DevilsHunt.IKill.KillTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: DevilsHunt.IKill.KillTypes
+  commentId: T:DevilsHunt.IKill.KillTypes
+  parent: DevilsHunt
+  name: IKill.KillTypes
+  nameWithType: IKill.KillTypes
+  fullName: DevilsHunt.IKill.KillTypes

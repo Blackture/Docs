@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.SkillTreePanel
+  commentId: T:DevilsHunt.SkillTreePanel
+  id: SkillTreePanel
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.SkillTreePanel.BuySkill(System.String)
+  - DevilsHunt.SkillTreePanel.Close
+  - DevilsHunt.SkillTreePanel.main
+  langs:
+  - csharp
+  - vb
+  name: SkillTreePanel
+  nameWithType: SkillTreePanel
+  fullName: DevilsHunt.SkillTreePanel
+  type: Class
+  source:
+    id: SkillTreePanel
+    path: ''
+    startLine: 2882
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: 'public class SkillTreePanel : MonoBehaviour'
+    content.vb: >-
+      Public Class SkillTreePanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.SkillTreePanel.main
+  commentId: F:DevilsHunt.SkillTreePanel.main
+  id: main
+  parent: DevilsHunt.SkillTreePanel
+  langs:
+  - csharp
+  - vb
+  name: main
+  nameWithType: SkillTreePanel.main
+  fullName: DevilsHunt.SkillTreePanel.main
+  type: Field
+  source:
+    id: main
+    path: ''
+    startLine: 2884
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject main
+    return:
+      type: GameObject
+    content.vb: Public main As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.SkillTreePanel.BuySkill(System.String)
+  commentId: M:DevilsHunt.SkillTreePanel.BuySkill(System.String)
+  id: BuySkill(System.String)
+  parent: DevilsHunt.SkillTreePanel
+  langs:
+  - csharp
+  - vb
+  name: BuySkill(String)
+  nameWithType: SkillTreePanel.BuySkill(String)
+  fullName: DevilsHunt.SkillTreePanel.BuySkill(System.String)
+  type: Method
+  source:
+    id: BuySkill
+    path: ''
+    startLine: 2898
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void BuySkill(string skill)
+    parameters:
+    - id: skill
+      type: System.String
+    content.vb: Public Sub BuySkill(skill As String)
+  overload: DevilsHunt.SkillTreePanel.BuySkill*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.SkillTreePanel.Close
+  commentId: M:DevilsHunt.SkillTreePanel.Close
+  id: Close
+  parent: DevilsHunt.SkillTreePanel
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: SkillTreePanel.Close()
+  fullName: DevilsHunt.SkillTreePanel.Close()
+  type: Method
+  source:
+    id: Close
+    path: ''
+    startLine: 3140
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: DevilsHunt.SkillTreePanel.Close*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: DevilsHunt.SkillTreePanel.BuySkill*
+  commentId: Overload:DevilsHunt.SkillTreePanel.BuySkill
+  name: BuySkill
+  nameWithType: SkillTreePanel.BuySkill
+  fullName: DevilsHunt.SkillTreePanel.BuySkill
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DevilsHunt.SkillTreePanel.Close*
+  commentId: Overload:DevilsHunt.SkillTreePanel.Close
+  name: Close
+  nameWithType: SkillTreePanel.Close
+  fullName: DevilsHunt.SkillTreePanel.Close

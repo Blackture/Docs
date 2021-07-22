@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Prototype.NetworkLobby.LobbyServerEntry
+  commentId: T:Prototype.NetworkLobby.LobbyServerEntry
+  id: LobbyServerEntry
+  parent: Prototype.NetworkLobby
+  children:
+  - Prototype.NetworkLobby.LobbyServerEntry.joinButton
+  - Prototype.NetworkLobby.LobbyServerEntry.Populate(MatchInfoSnapshot,LobbyManager,Color)
+  - Prototype.NetworkLobby.LobbyServerEntry.serverInfoText
+  - Prototype.NetworkLobby.LobbyServerEntry.slotInfo
+  langs:
+  - csharp
+  - vb
+  name: LobbyServerEntry
+  nameWithType: LobbyServerEntry
+  fullName: Prototype.NetworkLobby.LobbyServerEntry
+  type: Class
+  source:
+    id: LobbyServerEntry
+    path: ''
+    startLine: 987
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: 'public class LobbyServerEntry : MonoBehaviour'
+    content.vb: >-
+      Public Class LobbyServerEntry
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Prototype.NetworkLobby.LobbyServerEntry.serverInfoText
+  commentId: F:Prototype.NetworkLobby.LobbyServerEntry.serverInfoText
+  id: serverInfoText
+  parent: Prototype.NetworkLobby.LobbyServerEntry
+  langs:
+  - csharp
+  - vb
+  name: serverInfoText
+  nameWithType: LobbyServerEntry.serverInfoText
+  fullName: Prototype.NetworkLobby.LobbyServerEntry.serverInfoText
+  type: Field
+  source:
+    id: serverInfoText
+    path: ''
+    startLine: 989
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public Text serverInfoText
+    return:
+      type: Text
+    content.vb: Public serverInfoText As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyServerEntry.slotInfo
+  commentId: F:Prototype.NetworkLobby.LobbyServerEntry.slotInfo
+  id: slotInfo
+  parent: Prototype.NetworkLobby.LobbyServerEntry
+  langs:
+  - csharp
+  - vb
+  name: slotInfo
+  nameWithType: LobbyServerEntry.slotInfo
+  fullName: Prototype.NetworkLobby.LobbyServerEntry.slotInfo
+  type: Field
+  source:
+    id: slotInfo
+    path: ''
+    startLine: 990
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public Text slotInfo
+    return:
+      type: Text
+    content.vb: Public slotInfo As Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyServerEntry.joinButton
+  commentId: F:Prototype.NetworkLobby.LobbyServerEntry.joinButton
+  id: joinButton
+  parent: Prototype.NetworkLobby.LobbyServerEntry
+  langs:
+  - csharp
+  - vb
+  name: joinButton
+  nameWithType: LobbyServerEntry.joinButton
+  fullName: Prototype.NetworkLobby.LobbyServerEntry.joinButton
+  type: Field
+  source:
+    id: joinButton
+    path: ''
+    startLine: 991
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public Button joinButton
+    return:
+      type: Button
+    content.vb: Public joinButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Prototype.NetworkLobby.LobbyServerEntry.Populate(MatchInfoSnapshot,LobbyManager,Color)
+  commentId: M:Prototype.NetworkLobby.LobbyServerEntry.Populate(MatchInfoSnapshot,LobbyManager,Color)
+  id: Populate(MatchInfoSnapshot,LobbyManager,Color)
+  parent: Prototype.NetworkLobby.LobbyServerEntry
+  langs:
+  - csharp
+  - vb
+  name: Populate(MatchInfoSnapshot, LobbyManager, Color)
+  nameWithType: LobbyServerEntry.Populate(MatchInfoSnapshot, LobbyManager, Color)
+  fullName: Prototype.NetworkLobby.LobbyServerEntry.Populate(MatchInfoSnapshot, LobbyManager, Color)
+  type: Method
+  source:
+    id: Populate
+    path: ''
+    startLine: 993
+  assemblies:
+  - cs.temp.dll
+  namespace: Prototype.NetworkLobby
+  syntax:
+    content: public void Populate(MatchInfoSnapshot match, LobbyManager lobbyManager, Color c)
+    parameters:
+    - id: match
+      type: MatchInfoSnapshot
+    - id: lobbyManager
+      type: LobbyManager
+    - id: c
+      type: Color
+    content.vb: Public Sub Populate(match As MatchInfoSnapshot, lobbyManager As LobbyManager, c As Color)
+  overload: Prototype.NetworkLobby.LobbyServerEntry.Populate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Prototype.NetworkLobby
+  commentId: N:Prototype.NetworkLobby
+  name: Prototype.NetworkLobby
+  nameWithType: Prototype.NetworkLobby
+  fullName: Prototype.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Text
+  isExternal: true
+  name: Text
+  nameWithType: Text
+  fullName: Text
+- uid: Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Prototype.NetworkLobby.LobbyServerEntry.Populate*
+  commentId: Overload:Prototype.NetworkLobby.LobbyServerEntry.Populate
+  name: Populate
+  nameWithType: LobbyServerEntry.Populate
+  fullName: Prototype.NetworkLobby.LobbyServerEntry.Populate
+- uid: MatchInfoSnapshot
+  commentId: '!:MatchInfoSnapshot'
+  isExternal: true
+  name: MatchInfoSnapshot
+  nameWithType: MatchInfoSnapshot
+  fullName: MatchInfoSnapshot
+- uid: LobbyManager
+  commentId: T:LobbyManager
+  name: LobbyManager
+  nameWithType: LobbyManager
+  fullName: LobbyManager
+- uid: Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color

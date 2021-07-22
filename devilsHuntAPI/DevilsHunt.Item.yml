@@ -1,0 +1,635 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Item
+  commentId: T:DevilsHunt.Item
+  id: Item
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Item.#ctor(System.String,DevilsHunt.Effect,System.Int32,System.Int32)
+  - DevilsHunt.Item.#ctor(System.String,System.Int32,System.Int32)
+  - DevilsHunt.Item.Effect
+  - DevilsHunt.Item.EpCosts
+  - DevilsHunt.Item.IsRobot
+  - DevilsHunt.Item.MoneyCosts
+  - DevilsHunt.Item.Name
+  langs:
+  - csharp
+  - vb
+  name: Item
+  nameWithType: Item
+  fullName: DevilsHunt.Item
+  type: Class
+  source:
+    id: Item
+    path: ''
+    startLine: 1800
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Item
+    content.vb: >-
+      <Serializable>
+
+      Public Class Item
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Item.Name
+  commentId: P:DevilsHunt.Item.Name
+  id: Name
+  parent: DevilsHunt.Item
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Item.Name
+  fullName: DevilsHunt.Item.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1804
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: DevilsHunt.Item.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Item.Effect
+  commentId: P:DevilsHunt.Item.Effect
+  id: Effect
+  parent: DevilsHunt.Item
+  langs:
+  - csharp
+  - vb
+  name: Effect
+  nameWithType: Item.Effect
+  fullName: DevilsHunt.Item.Effect
+  type: Property
+  source:
+    id: Effect
+    path: ''
+    startLine: 1812
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Effect Effect { get; }
+    parameters: []
+    return:
+      type: DevilsHunt.Effect
+    content.vb: Public ReadOnly Property Effect As Effect
+  overload: DevilsHunt.Item.Effect*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Item.MoneyCosts
+  commentId: P:DevilsHunt.Item.MoneyCosts
+  id: MoneyCosts
+  parent: DevilsHunt.Item
+  langs:
+  - csharp
+  - vb
+  name: MoneyCosts
+  nameWithType: Item.MoneyCosts
+  fullName: DevilsHunt.Item.MoneyCosts
+  type: Property
+  source:
+    id: MoneyCosts
+    path: ''
+    startLine: 1821
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int MoneyCosts { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property MoneyCosts As Integer
+  overload: DevilsHunt.Item.MoneyCosts*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Item.EpCosts
+  commentId: P:DevilsHunt.Item.EpCosts
+  id: EpCosts
+  parent: DevilsHunt.Item
+  langs:
+  - csharp
+  - vb
+  name: EpCosts
+  nameWithType: Item.EpCosts
+  fullName: DevilsHunt.Item.EpCosts
+  type: Property
+  source:
+    id: EpCosts
+    path: ''
+    startLine: 1827
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int EpCosts { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property EpCosts As Integer
+  overload: DevilsHunt.Item.EpCosts*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Item.IsRobot
+  commentId: P:DevilsHunt.Item.IsRobot
+  id: IsRobot
+  parent: DevilsHunt.Item
+  langs:
+  - csharp
+  - vb
+  name: IsRobot
+  nameWithType: Item.IsRobot
+  fullName: DevilsHunt.Item.IsRobot
+  type: Property
+  source:
+    id: IsRobot
+    path: ''
+    startLine: 1835
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public bool IsRobot { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsRobot As Boolean
+  overload: DevilsHunt.Item.IsRobot*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.Item.#ctor(System.String,DevilsHunt.Effect,System.Int32,System.Int32)
+  commentId: M:DevilsHunt.Item.#ctor(System.String,DevilsHunt.Effect,System.Int32,System.Int32)
+  id: '#ctor(System.String,DevilsHunt.Effect,System.Int32,System.Int32)'
+  parent: DevilsHunt.Item
+  langs:
+  - csharp
+  - vb
+  name: Item(String, Effect, Int32, Int32)
+  nameWithType: Item.Item(String, Effect, Int32, Int32)
+  fullName: DevilsHunt.Item.Item(System.String, DevilsHunt.Effect, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1842
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Item(string n, Effect fx, int mC, int eC)
+    parameters:
+    - id: n
+      type: System.String
+    - id: fx
+      type: DevilsHunt.Effect
+    - id: mC
+      type: System.Int32
+    - id: eC
+      type: System.Int32
+    content.vb: Public Sub New(n As String, fx As Effect, mC As Integer, eC As Integer)
+  overload: DevilsHunt.Item.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Item.#ctor(System.String,System.Int32,System.Int32)
+  commentId: M:DevilsHunt.Item.#ctor(System.String,System.Int32,System.Int32)
+  id: '#ctor(System.String,System.Int32,System.Int32)'
+  parent: DevilsHunt.Item
+  langs:
+  - csharp
+  - vb
+  name: Item(String, Int32, Int32)
+  nameWithType: Item.Item(String, Int32, Int32)
+  fullName: DevilsHunt.Item.Item(System.String, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1851
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Item(string n, int mC, int eC)
+    parameters:
+    - id: n
+      type: System.String
+    - id: mC
+      type: System.Int32
+    - id: eC
+      type: System.Int32
+    content.vb: Public Sub New(n As String, mC As Integer, eC As Integer)
+  overload: DevilsHunt.Item.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: DevilsHunt.Item.Name*
+  commentId: Overload:DevilsHunt.Item.Name
+  name: Name
+  nameWithType: Item.Name
+  fullName: DevilsHunt.Item.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DevilsHunt.Item.Effect*
+  commentId: Overload:DevilsHunt.Item.Effect
+  name: Effect
+  nameWithType: Item.Effect
+  fullName: DevilsHunt.Item.Effect
+- uid: DevilsHunt.Effect
+  commentId: T:DevilsHunt.Effect
+  parent: DevilsHunt
+  name: Effect
+  nameWithType: Effect
+  fullName: DevilsHunt.Effect
+- uid: DevilsHunt.Item.MoneyCosts*
+  commentId: Overload:DevilsHunt.Item.MoneyCosts
+  name: MoneyCosts
+  nameWithType: Item.MoneyCosts
+  fullName: DevilsHunt.Item.MoneyCosts
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: DevilsHunt.Item.EpCosts*
+  commentId: Overload:DevilsHunt.Item.EpCosts
+  name: EpCosts
+  nameWithType: Item.EpCosts
+  fullName: DevilsHunt.Item.EpCosts
+- uid: DevilsHunt.Item.IsRobot*
+  commentId: Overload:DevilsHunt.Item.IsRobot
+  name: IsRobot
+  nameWithType: Item.IsRobot
+  fullName: DevilsHunt.Item.IsRobot
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DevilsHunt.Item.#ctor*
+  commentId: Overload:DevilsHunt.Item.#ctor
+  name: Item
+  nameWithType: Item.Item
+  fullName: DevilsHunt.Item.Item

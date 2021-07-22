@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Inventory.InventoryDisplay
+  commentId: T:TheInvaders.Inventory.InventoryDisplay
+  id: InventoryDisplay
+  parent: TheInvaders.Inventory
+  children:
+  - TheInvaders.Inventory.InventoryDisplay.UpdateDisplay(TheInvaders.Player)
+  langs:
+  - csharp
+  - vb
+  name: InventoryDisplay
+  nameWithType: InventoryDisplay
+  fullName: TheInvaders.Inventory.InventoryDisplay
+  type: Class
+  source:
+    id: InventoryDisplay
+    path: ''
+    startLine: 2206
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventory
+  syntax:
+    content: 'public class InventoryDisplay : MonoBehaviour'
+    content.vb: >-
+      Public Class InventoryDisplay
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.Inventory.InventoryDisplay.UpdateDisplay(TheInvaders.Player)
+  commentId: M:TheInvaders.Inventory.InventoryDisplay.UpdateDisplay(TheInvaders.Player)
+  id: UpdateDisplay(TheInvaders.Player)
+  parent: TheInvaders.Inventory.InventoryDisplay
+  langs:
+  - csharp
+  - vb
+  name: UpdateDisplay(Player)
+  nameWithType: InventoryDisplay.UpdateDisplay(Player)
+  fullName: TheInvaders.Inventory.InventoryDisplay.UpdateDisplay(TheInvaders.Player)
+  type: Method
+  source:
+    id: UpdateDisplay
+    path: ''
+    startLine: 2218
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventory
+  syntax:
+    content: public void UpdateDisplay(Player p)
+    parameters:
+    - id: p
+      type: TheInvaders.Player
+    content.vb: Public Sub UpdateDisplay(p As Player)
+  overload: TheInvaders.Inventory.InventoryDisplay.UpdateDisplay*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders.Inventory
+  commentId: N:TheInvaders.Inventory
+  name: TheInvaders.Inventory
+  nameWithType: TheInvaders.Inventory
+  fullName: TheInvaders.Inventory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.Inventory.InventoryDisplay.UpdateDisplay*
+  commentId: Overload:TheInvaders.Inventory.InventoryDisplay.UpdateDisplay
+  name: UpdateDisplay
+  nameWithType: InventoryDisplay.UpdateDisplay
+  fullName: TheInvaders.Inventory.InventoryDisplay.UpdateDisplay
+- uid: TheInvaders.Player
+  commentId: T:TheInvaders.Player
+  parent: TheInvaders
+  name: Player
+  nameWithType: Player
+  fullName: TheInvaders.Player
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders

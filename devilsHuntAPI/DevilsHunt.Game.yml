@@ -1,0 +1,1157 @@
+### YamlMime:ManagedReference
+items:
+- uid: DevilsHunt.Game
+  commentId: T:DevilsHunt.Game
+  id: Game
+  parent: DevilsHunt
+  children:
+  - DevilsHunt.Game.data
+  - DevilsHunt.Game.EndGame(System.String,System.String[])
+  - DevilsHunt.Game.EndGUI
+  - DevilsHunt.Game.Exit
+  - DevilsHunt.Game.ExitButton
+  - DevilsHunt.Game.ExitQuestion
+  - DevilsHunt.Game.fileObject
+  - DevilsHunt.Game.inventory
+  - DevilsHunt.Game.itemPrefab
+  - DevilsHunt.Game.Load(DevilsHunt.Score)
+  - DevilsHunt.Game.loadPrefab
+  - DevilsHunt.Game.messenger
+  - DevilsHunt.Game.name1
+  - DevilsHunt.Game.name2
+  - DevilsHunt.Game.name3
+  - DevilsHunt.Game.name4
+  - DevilsHunt.Game.newTurn
+  - DevilsHunt.Game.next
+  - DevilsHunt.Game.OpenLoad
+  - DevilsHunt.Game.OpenSavePanel
+  - DevilsHunt.Game.playerToggle1
+  - DevilsHunt.Game.playerToggle2
+  - DevilsHunt.Game.playerToggle3
+  - DevilsHunt.Game.playerToggle4
+  - DevilsHunt.Game.ReloadButton
+  - DevilsHunt.Game.Save(System.String)
+  - DevilsHunt.Game.savePrefab
+  - DevilsHunt.Game.scorePrefab
+  - DevilsHunt.Game.secondarySkillsObject
+  - DevilsHunt.Game.shopObject
+  - DevilsHunt.Game.start
+  - DevilsHunt.Game.StartGame
+  - DevilsHunt.Game.StartGame(DevilsHunt.TJGame,System.Boolean)
+  - DevilsHunt.Game.TJGame
+  langs:
+  - csharp
+  - vb
+  name: Game
+  nameWithType: Game
+  fullName: DevilsHunt.Game
+  type: Class
+  source:
+    id: Game
+    path: ''
+    startLine: 1476
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: 'public class Game : MonoBehaviour'
+    content.vb: >-
+      Public Class Game
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: DevilsHunt.Game.playerToggle1
+  commentId: F:DevilsHunt.Game.playerToggle1
+  id: playerToggle1
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: playerToggle1
+  nameWithType: Game.playerToggle1
+  fullName: DevilsHunt.Game.playerToggle1
+  type: Field
+  source:
+    id: playerToggle1
+    path: ''
+    startLine: 1479
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Toggle playerToggle1
+    return:
+      type: Toggle
+    content.vb: Public playerToggle1 As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.playerToggle2
+  commentId: F:DevilsHunt.Game.playerToggle2
+  id: playerToggle2
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: playerToggle2
+  nameWithType: Game.playerToggle2
+  fullName: DevilsHunt.Game.playerToggle2
+  type: Field
+  source:
+    id: playerToggle2
+    path: ''
+    startLine: 1480
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Toggle playerToggle2
+    return:
+      type: Toggle
+    content.vb: Public playerToggle2 As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.playerToggle3
+  commentId: F:DevilsHunt.Game.playerToggle3
+  id: playerToggle3
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: playerToggle3
+  nameWithType: Game.playerToggle3
+  fullName: DevilsHunt.Game.playerToggle3
+  type: Field
+  source:
+    id: playerToggle3
+    path: ''
+    startLine: 1481
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Toggle playerToggle3
+    return:
+      type: Toggle
+    content.vb: Public playerToggle3 As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.playerToggle4
+  commentId: F:DevilsHunt.Game.playerToggle4
+  id: playerToggle4
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: playerToggle4
+  nameWithType: Game.playerToggle4
+  fullName: DevilsHunt.Game.playerToggle4
+  type: Field
+  source:
+    id: playerToggle4
+    path: ''
+    startLine: 1482
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Toggle playerToggle4
+    return:
+      type: Toggle
+    content.vb: Public playerToggle4 As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.name1
+  commentId: F:DevilsHunt.Game.name1
+  id: name1
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: name1
+  nameWithType: Game.name1
+  fullName: DevilsHunt.Game.name1
+  type: Field
+  source:
+    id: name1
+    path: ''
+    startLine: 1484
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public InputField name1
+    return:
+      type: InputField
+    content.vb: Public name1 As InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.name2
+  commentId: F:DevilsHunt.Game.name2
+  id: name2
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: name2
+  nameWithType: Game.name2
+  fullName: DevilsHunt.Game.name2
+  type: Field
+  source:
+    id: name2
+    path: ''
+    startLine: 1485
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public InputField name2
+    return:
+      type: InputField
+    content.vb: Public name2 As InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.name3
+  commentId: F:DevilsHunt.Game.name3
+  id: name3
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: name3
+  nameWithType: Game.name3
+  fullName: DevilsHunt.Game.name3
+  type: Field
+  source:
+    id: name3
+    path: ''
+    startLine: 1486
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public InputField name3
+    return:
+      type: InputField
+    content.vb: Public name3 As InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.name4
+  commentId: F:DevilsHunt.Game.name4
+  id: name4
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: name4
+  nameWithType: Game.name4
+  fullName: DevilsHunt.Game.name4
+  type: Field
+  source:
+    id: name4
+    path: ''
+    startLine: 1487
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public InputField name4
+    return:
+      type: InputField
+    content.vb: Public name4 As InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.start
+  commentId: F:DevilsHunt.Game.start
+  id: start
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: Game.start
+  fullName: DevilsHunt.Game.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 1489
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Button start
+    return:
+      type: Button
+    content.vb: Public start As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.data
+  commentId: F:DevilsHunt.Game.data
+  id: data
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: data
+  nameWithType: Game.data
+  fullName: DevilsHunt.Game.data
+  type: Field
+  source:
+    id: data
+    path: ''
+    startLine: 1491
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Button[] data
+    return:
+      type: Button[]
+    content.vb: Public data As Button()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.next
+  commentId: F:DevilsHunt.Game.next
+  id: next
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: next
+  nameWithType: Game.next
+  fullName: DevilsHunt.Game.next
+  type: Field
+  source:
+    id: next
+    path: ''
+    startLine: 1493
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public Button next
+    return:
+      type: Button
+    content.vb: Public next As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.ExitQuestion
+  commentId: F:DevilsHunt.Game.ExitQuestion
+  id: ExitQuestion
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: ExitQuestion
+  nameWithType: Game.ExitQuestion
+  fullName: DevilsHunt.Game.ExitQuestion
+  type: Field
+  source:
+    id: ExitQuestion
+    path: ''
+    startLine: 1495
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject ExitQuestion
+    return:
+      type: GameObject
+    content.vb: Public ExitQuestion As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.fileObject
+  commentId: F:DevilsHunt.Game.fileObject
+  id: fileObject
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: fileObject
+  nameWithType: Game.fileObject
+  fullName: DevilsHunt.Game.fileObject
+  type: Field
+  source:
+    id: fileObject
+    path: ''
+    startLine: 1497
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject fileObject
+    return:
+      type: GameObject
+    content.vb: Public fileObject As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.inventory
+  commentId: F:DevilsHunt.Game.inventory
+  id: inventory
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: inventory
+  nameWithType: Game.inventory
+  fullName: DevilsHunt.Game.inventory
+  type: Field
+  source:
+    id: inventory
+    path: ''
+    startLine: 1498
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject inventory
+    return:
+      type: GameObject
+    content.vb: Public inventory As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.shopObject
+  commentId: F:DevilsHunt.Game.shopObject
+  id: shopObject
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: shopObject
+  nameWithType: Game.shopObject
+  fullName: DevilsHunt.Game.shopObject
+  type: Field
+  source:
+    id: shopObject
+    path: ''
+    startLine: 1500
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject shopObject
+    return:
+      type: GameObject
+    content.vb: Public shopObject As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.itemPrefab
+  commentId: F:DevilsHunt.Game.itemPrefab
+  id: itemPrefab
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: itemPrefab
+  nameWithType: Game.itemPrefab
+  fullName: DevilsHunt.Game.itemPrefab
+  type: Field
+  source:
+    id: itemPrefab
+    path: ''
+    startLine: 1501
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject itemPrefab
+    return:
+      type: GameObject
+    content.vb: Public itemPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.secondarySkillsObject
+  commentId: F:DevilsHunt.Game.secondarySkillsObject
+  id: secondarySkillsObject
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: secondarySkillsObject
+  nameWithType: Game.secondarySkillsObject
+  fullName: DevilsHunt.Game.secondarySkillsObject
+  type: Field
+  source:
+    id: secondarySkillsObject
+    path: ''
+    startLine: 1503
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject secondarySkillsObject
+    return:
+      type: GameObject
+    content.vb: Public secondarySkillsObject As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.newTurn
+  commentId: F:DevilsHunt.Game.newTurn
+  id: newTurn
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: newTurn
+  nameWithType: Game.newTurn
+  fullName: DevilsHunt.Game.newTurn
+  type: Field
+  source:
+    id: newTurn
+    path: ''
+    startLine: 1505
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject newTurn
+    return:
+      type: GameObject
+    content.vb: Public newTurn As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.messenger
+  commentId: F:DevilsHunt.Game.messenger
+  id: messenger
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: messenger
+  nameWithType: Game.messenger
+  fullName: DevilsHunt.Game.messenger
+  type: Field
+  source:
+    id: messenger
+    path: ''
+    startLine: 1507
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject messenger
+    return:
+      type: GameObject
+    content.vb: Public messenger As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.scorePrefab
+  commentId: F:DevilsHunt.Game.scorePrefab
+  id: scorePrefab
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: scorePrefab
+  nameWithType: Game.scorePrefab
+  fullName: DevilsHunt.Game.scorePrefab
+  type: Field
+  source:
+    id: scorePrefab
+    path: ''
+    startLine: 1509
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject scorePrefab
+    return:
+      type: GameObject
+    content.vb: Public scorePrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.loadPrefab
+  commentId: F:DevilsHunt.Game.loadPrefab
+  id: loadPrefab
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: loadPrefab
+  nameWithType: Game.loadPrefab
+  fullName: DevilsHunt.Game.loadPrefab
+  type: Field
+  source:
+    id: loadPrefab
+    path: ''
+    startLine: 1510
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject loadPrefab
+    return:
+      type: GameObject
+    content.vb: Public loadPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.savePrefab
+  commentId: F:DevilsHunt.Game.savePrefab
+  id: savePrefab
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: savePrefab
+  nameWithType: Game.savePrefab
+  fullName: DevilsHunt.Game.savePrefab
+  type: Field
+  source:
+    id: savePrefab
+    path: ''
+    startLine: 1511
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject savePrefab
+    return:
+      type: GameObject
+    content.vb: Public savePrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.EndGUI
+  commentId: F:DevilsHunt.Game.EndGUI
+  id: EndGUI
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: EndGUI
+  nameWithType: Game.EndGUI
+  fullName: DevilsHunt.Game.EndGUI
+  type: Field
+  source:
+    id: EndGUI
+    path: ''
+    startLine: 1513
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public GameObject EndGUI
+    return:
+      type: GameObject
+    content.vb: Public EndGUI As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.TJGame
+  commentId: F:DevilsHunt.Game.TJGame
+  id: TJGame
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: TJGame
+  nameWithType: Game.TJGame
+  fullName: DevilsHunt.Game.TJGame
+  type: Field
+  source:
+    id: TJGame
+    path: ''
+    startLine: 1516
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public TJGame TJGame
+    return:
+      type: DevilsHunt.TJGame
+    content.vb: Public TJGame As TJGame
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.StartGame
+  commentId: M:DevilsHunt.Game.StartGame
+  id: StartGame
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: StartGame()
+  nameWithType: Game.StartGame()
+  fullName: DevilsHunt.Game.StartGame()
+  type: Method
+  source:
+    id: StartGame
+    path: ''
+    startLine: 1557
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void StartGame()
+    content.vb: Public Sub StartGame
+  overload: DevilsHunt.Game.StartGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.StartGame(DevilsHunt.TJGame,System.Boolean)
+  commentId: M:DevilsHunt.Game.StartGame(DevilsHunt.TJGame,System.Boolean)
+  id: StartGame(DevilsHunt.TJGame,System.Boolean)
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: StartGame(TJGame, Boolean)
+  nameWithType: Game.StartGame(TJGame, Boolean)
+  fullName: DevilsHunt.Game.StartGame(DevilsHunt.TJGame, System.Boolean)
+  type: Method
+  source:
+    id: StartGame
+    path: ''
+    startLine: 1584
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void StartGame(TJGame tJGame, bool hasMoved)
+    parameters:
+    - id: tJGame
+      type: DevilsHunt.TJGame
+    - id: hasMoved
+      type: System.Boolean
+    content.vb: Public Sub StartGame(tJGame As TJGame, hasMoved As Boolean)
+  overload: DevilsHunt.Game.StartGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.OpenSavePanel
+  commentId: M:DevilsHunt.Game.OpenSavePanel
+  id: OpenSavePanel
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: OpenSavePanel()
+  nameWithType: Game.OpenSavePanel()
+  fullName: DevilsHunt.Game.OpenSavePanel()
+  type: Method
+  source:
+    id: OpenSavePanel
+    path: ''
+    startLine: 1611
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void OpenSavePanel()
+    content.vb: Public Sub OpenSavePanel
+  overload: DevilsHunt.Game.OpenSavePanel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.OpenLoad
+  commentId: M:DevilsHunt.Game.OpenLoad
+  id: OpenLoad
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: OpenLoad()
+  nameWithType: Game.OpenLoad()
+  fullName: DevilsHunt.Game.OpenLoad()
+  type: Method
+  source:
+    id: OpenLoad
+    path: ''
+    startLine: 1630
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void OpenLoad()
+    content.vb: Public Sub OpenLoad
+  overload: DevilsHunt.Game.OpenLoad*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.Load(DevilsHunt.Score)
+  commentId: M:DevilsHunt.Game.Load(DevilsHunt.Score)
+  id: Load(DevilsHunt.Score)
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: Load(Score)
+  nameWithType: Game.Load(Score)
+  fullName: DevilsHunt.Game.Load(DevilsHunt.Score)
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 1651
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Load(Score score)
+    parameters:
+    - id: score
+      type: DevilsHunt.Score
+    content.vb: Public Sub Load(score As Score)
+  overload: DevilsHunt.Game.Load*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.Save(System.String)
+  commentId: M:DevilsHunt.Game.Save(System.String)
+  id: Save(System.String)
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: Save(String)
+  nameWithType: Game.Save(String)
+  fullName: DevilsHunt.Game.Save(System.String)
+  type: Method
+  source:
+    id: Save
+    path: ''
+    startLine: 1656
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Save(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub Save(name As String)
+  overload: DevilsHunt.Game.Save*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.ExitButton
+  commentId: M:DevilsHunt.Game.ExitButton
+  id: ExitButton
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: ExitButton()
+  nameWithType: Game.ExitButton()
+  fullName: DevilsHunt.Game.ExitButton()
+  type: Method
+  source:
+    id: ExitButton
+    path: ''
+    startLine: 1678
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void ExitButton()
+    content.vb: Public Sub ExitButton
+  overload: DevilsHunt.Game.ExitButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.Exit
+  commentId: M:DevilsHunt.Game.Exit
+  id: Exit
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: Exit()
+  nameWithType: Game.Exit()
+  fullName: DevilsHunt.Game.Exit()
+  type: Method
+  source:
+    id: Exit
+    path: ''
+    startLine: 1686
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void Exit()
+    content.vb: Public Sub Exit
+  overload: DevilsHunt.Game.Exit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.ReloadButton
+  commentId: M:DevilsHunt.Game.ReloadButton
+  id: ReloadButton
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: ReloadButton()
+  nameWithType: Game.ReloadButton()
+  fullName: DevilsHunt.Game.ReloadButton()
+  type: Method
+  source:
+    id: ReloadButton
+    path: ''
+    startLine: 1691
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void ReloadButton()
+    content.vb: Public Sub ReloadButton
+  overload: DevilsHunt.Game.ReloadButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: DevilsHunt.Game.EndGame(System.String,System.String[])
+  commentId: M:DevilsHunt.Game.EndGame(System.String,System.String[])
+  id: EndGame(System.String,System.String[])
+  parent: DevilsHunt.Game
+  langs:
+  - csharp
+  - vb
+  name: EndGame(String, String[])
+  nameWithType: Game.EndGame(String, String[])
+  fullName: DevilsHunt.Game.EndGame(System.String, System.String[])
+  type: Method
+  source:
+    id: EndGame
+    path: ''
+    startLine: 1704
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public void EndGame(string winnerName, string[] other)
+    parameters:
+    - id: winnerName
+      type: System.String
+    - id: other
+      type: System.String[]
+    content.vb: Public Sub EndGame(winnerName As String, other As String())
+  overload: DevilsHunt.Game.EndGame*
+  nameWithType.vb: Game.EndGame(String, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DevilsHunt.Game.EndGame(System.String, System.String())
+  name.vb: EndGame(String, String())
+references:
+- uid: DevilsHunt
+  commentId: N:DevilsHunt
+  name: DevilsHunt
+  nameWithType: DevilsHunt
+  fullName: DevilsHunt
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Toggle
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: Toggle
+- uid: InputField
+  isExternal: true
+  name: InputField
+  nameWithType: InputField
+  fullName: InputField
+- uid: Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Button[]
+  isExternal: true
+  name: Button[]
+  nameWithType: Button[]
+  fullName: Button[]
+  nameWithType.vb: Button()
+  fullName.vb: Button()
+  name.vb: Button()
+  spec.csharp:
+  - uid: Button
+    name: Button
+    nameWithType: Button
+    fullName: Button
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Button
+    name: Button
+    nameWithType: Button
+    fullName: Button
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: DevilsHunt.TJGame
+  commentId: T:DevilsHunt.TJGame
+  parent: DevilsHunt
+  name: TJGame
+  nameWithType: TJGame
+  fullName: DevilsHunt.TJGame
+- uid: DevilsHunt.Game.StartGame*
+  commentId: Overload:DevilsHunt.Game.StartGame
+  name: StartGame
+  nameWithType: Game.StartGame
+  fullName: DevilsHunt.Game.StartGame
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: DevilsHunt.Game.OpenSavePanel*
+  commentId: Overload:DevilsHunt.Game.OpenSavePanel
+  name: OpenSavePanel
+  nameWithType: Game.OpenSavePanel
+  fullName: DevilsHunt.Game.OpenSavePanel
+- uid: DevilsHunt.Game.OpenLoad*
+  commentId: Overload:DevilsHunt.Game.OpenLoad
+  name: OpenLoad
+  nameWithType: Game.OpenLoad
+  fullName: DevilsHunt.Game.OpenLoad
+- uid: DevilsHunt.Game.Load*
+  commentId: Overload:DevilsHunt.Game.Load
+  name: Load
+  nameWithType: Game.Load
+  fullName: DevilsHunt.Game.Load
+- uid: DevilsHunt.Score
+  commentId: T:DevilsHunt.Score
+  parent: DevilsHunt
+  name: Score
+  nameWithType: Score
+  fullName: DevilsHunt.Score
+- uid: DevilsHunt.Game.Save*
+  commentId: Overload:DevilsHunt.Game.Save
+  name: Save
+  nameWithType: Game.Save
+  fullName: DevilsHunt.Game.Save
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: DevilsHunt.Game.ExitButton*
+  commentId: Overload:DevilsHunt.Game.ExitButton
+  name: ExitButton
+  nameWithType: Game.ExitButton
+  fullName: DevilsHunt.Game.ExitButton
+- uid: DevilsHunt.Game.Exit*
+  commentId: Overload:DevilsHunt.Game.Exit
+  name: Exit
+  nameWithType: Game.Exit
+  fullName: DevilsHunt.Game.Exit
+- uid: DevilsHunt.Game.ReloadButton*
+  commentId: Overload:DevilsHunt.Game.ReloadButton
+  name: ReloadButton
+  nameWithType: Game.ReloadButton
+  fullName: DevilsHunt.Game.ReloadButton
+- uid: DevilsHunt.Game.EndGame*
+  commentId: Overload:DevilsHunt.Game.EndGame
+  name: EndGame
+  nameWithType: Game.EndGame
+  fullName: DevilsHunt.Game.EndGame
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
