@@ -1,0 +1,449 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.NetworkLobby.LobbyServerList
+  commentId: T:TheInvaders.NetworkLobby.LobbyServerList
+  id: LobbyServerList
+  parent: TheInvaders.NetworkLobby
+  children:
+  - TheInvaders.NetworkLobby.LobbyServerList.ChangePage(System.Int32)
+  - TheInvaders.NetworkLobby.LobbyServerList.currentPage
+  - TheInvaders.NetworkLobby.LobbyServerList.lobbyManager
+  - TheInvaders.NetworkLobby.LobbyServerList.noServerFound
+  - TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean,System.String,List{TheInvaders.MatchData})
+  - TheInvaders.NetworkLobby.LobbyServerList.previousPage
+  - TheInvaders.NetworkLobby.LobbyServerList.RequestPage(System.Int32)
+  - TheInvaders.NetworkLobby.LobbyServerList.serverEntryPrefab
+  - TheInvaders.NetworkLobby.LobbyServerList.serverListRect
+  langs:
+  - csharp
+  - vb
+  name: LobbyServerList
+  nameWithType: LobbyServerList
+  fullName: TheInvaders.NetworkLobby.LobbyServerList
+  type: Class
+  source:
+    id: LobbyServerList
+    path: ''
+    startLine: 683
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: 'public class LobbyServerList : MonoBehaviour'
+    content.vb: >-
+      Public Class LobbyServerList
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.NetworkLobby.LobbyServerList.lobbyManager
+  commentId: F:TheInvaders.NetworkLobby.LobbyServerList.lobbyManager
+  id: lobbyManager
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: lobbyManager
+  nameWithType: LobbyServerList.lobbyManager
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.lobbyManager
+  type: Field
+  source:
+    id: lobbyManager
+    path: ''
+    startLine: 685
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public LobbyManager lobbyManager
+    return:
+      type: TheInvaders.NetworkLobby.LobbyManager
+    content.vb: Public lobbyManager As LobbyManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyServerList.serverListRect
+  commentId: F:TheInvaders.NetworkLobby.LobbyServerList.serverListRect
+  id: serverListRect
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: serverListRect
+  nameWithType: LobbyServerList.serverListRect
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.serverListRect
+  type: Field
+  source:
+    id: serverListRect
+    path: ''
+    startLine: 687
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public RectTransform serverListRect
+    return:
+      type: RectTransform
+    content.vb: Public serverListRect As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyServerList.serverEntryPrefab
+  commentId: F:TheInvaders.NetworkLobby.LobbyServerList.serverEntryPrefab
+  id: serverEntryPrefab
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: serverEntryPrefab
+  nameWithType: LobbyServerList.serverEntryPrefab
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.serverEntryPrefab
+  type: Field
+  source:
+    id: serverEntryPrefab
+    path: ''
+    startLine: 688
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public GameObject serverEntryPrefab
+    return:
+      type: GameObject
+    content.vb: Public serverEntryPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyServerList.noServerFound
+  commentId: F:TheInvaders.NetworkLobby.LobbyServerList.noServerFound
+  id: noServerFound
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: noServerFound
+  nameWithType: LobbyServerList.noServerFound
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.noServerFound
+  type: Field
+  source:
+    id: noServerFound
+    path: ''
+    startLine: 689
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public GameObject noServerFound
+    return:
+      type: GameObject
+    content.vb: Public noServerFound As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyServerList.currentPage
+  commentId: F:TheInvaders.NetworkLobby.LobbyServerList.currentPage
+  id: currentPage
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: currentPage
+  nameWithType: LobbyServerList.currentPage
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.currentPage
+  type: Field
+  source:
+    id: currentPage
+    path: ''
+    startLine: 691
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: protected int currentPage
+    return:
+      type: System.Int32
+    content.vb: Protected currentPage As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TheInvaders.NetworkLobby.LobbyServerList.previousPage
+  commentId: F:TheInvaders.NetworkLobby.LobbyServerList.previousPage
+  id: previousPage
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: previousPage
+  nameWithType: LobbyServerList.previousPage
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.previousPage
+  type: Field
+  source:
+    id: previousPage
+    path: ''
+    startLine: 692
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: protected int previousPage
+    return:
+      type: System.Int32
+    content.vb: Protected previousPage As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean,System.String,List{TheInvaders.MatchData})
+  commentId: M:TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean,System.String,List{TheInvaders.MatchData})
+  id: OnGUIMatchList(System.Boolean,System.String,List{TheInvaders.MatchData})
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: OnGUIMatchList(Boolean, String, List<MatchData>)
+  nameWithType: LobbyServerList.OnGUIMatchList(Boolean, String, List<MatchData>)
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean, System.String, List<TheInvaders.MatchData>)
+  type: Method
+  source:
+    id: OnGUIMatchList
+    path: ''
+    startLine: 710
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public void OnGUIMatchList(bool success, string extendedInfo, List<MatchData> matches)
+    parameters:
+    - id: success
+      type: System.Boolean
+    - id: extendedInfo
+      type: System.String
+    - id: matches
+      type: List{TheInvaders.MatchData}
+    content.vb: Public Sub OnGUIMatchList(success As Boolean, extendedInfo As String, matches As List(Of MatchData))
+  overload: TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList*
+  nameWithType.vb: LobbyServerList.OnGUIMatchList(Boolean, String, List(Of MatchData))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean, System.String, List(Of TheInvaders.MatchData))
+  name.vb: OnGUIMatchList(Boolean, String, List(Of MatchData))
+- uid: TheInvaders.NetworkLobby.LobbyServerList.ChangePage(System.Int32)
+  commentId: M:TheInvaders.NetworkLobby.LobbyServerList.ChangePage(System.Int32)
+  id: ChangePage(System.Int32)
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: ChangePage(Int32)
+  nameWithType: LobbyServerList.ChangePage(Int32)
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.ChangePage(System.Int32)
+  type: Method
+  source:
+    id: ChangePage
+    path: ''
+    startLine: 736
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public void ChangePage(int dir)
+    parameters:
+    - id: dir
+      type: System.Int32
+    content.vb: Public Sub ChangePage(dir As Integer)
+  overload: TheInvaders.NetworkLobby.LobbyServerList.ChangePage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyServerList.RequestPage(System.Int32)
+  commentId: M:TheInvaders.NetworkLobby.LobbyServerList.RequestPage(System.Int32)
+  id: RequestPage(System.Int32)
+  parent: TheInvaders.NetworkLobby.LobbyServerList
+  langs:
+  - csharp
+  - vb
+  name: RequestPage(Int32)
+  nameWithType: LobbyServerList.RequestPage(Int32)
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.RequestPage(System.Int32)
+  type: Method
+  source:
+    id: RequestPage
+    path: ''
+    startLine: 747
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public void RequestPage(int page)
+    parameters:
+    - id: page
+      type: System.Int32
+    content.vb: Public Sub RequestPage(page As Integer)
+  overload: TheInvaders.NetworkLobby.LobbyServerList.RequestPage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders.NetworkLobby
+  commentId: N:TheInvaders.NetworkLobby
+  name: TheInvaders.NetworkLobby
+  nameWithType: TheInvaders.NetworkLobby
+  fullName: TheInvaders.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.NetworkLobby.LobbyManager
+  commentId: T:TheInvaders.NetworkLobby.LobbyManager
+  parent: TheInvaders.NetworkLobby
+  name: LobbyManager
+  nameWithType: LobbyManager
+  fullName: TheInvaders.NetworkLobby.LobbyManager
+- uid: RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList*
+  commentId: Overload:TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList
+  name: OnGUIMatchList
+  nameWithType: LobbyServerList.OnGUIMatchList
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: List{TheInvaders.MatchData}
+  commentId: '!:List{TheInvaders.MatchData}'
+  definition: List`1
+  name: List<MatchData>
+  nameWithType: List<MatchData>
+  fullName: List<TheInvaders.MatchData>
+  nameWithType.vb: List(Of MatchData)
+  fullName.vb: List(Of TheInvaders.MatchData)
+  name.vb: List(Of MatchData)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TheInvaders.MatchData
+    name: MatchData
+    nameWithType: MatchData
+    fullName: TheInvaders.MatchData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TheInvaders.MatchData
+    name: MatchData
+    nameWithType: MatchData
+    fullName: TheInvaders.MatchData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.NetworkLobby.LobbyServerList.ChangePage*
+  commentId: Overload:TheInvaders.NetworkLobby.LobbyServerList.ChangePage
+  name: ChangePage
+  nameWithType: LobbyServerList.ChangePage
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.ChangePage
+- uid: TheInvaders.NetworkLobby.LobbyServerList.RequestPage*
+  commentId: Overload:TheInvaders.NetworkLobby.LobbyServerList.RequestPage
+  name: RequestPage
+  nameWithType: LobbyServerList.RequestPage
+  fullName: TheInvaders.NetworkLobby.LobbyServerList.RequestPage

@@ -18,7 +18,7 @@ items:
   source:
     id: LoginManager
     path: ''
-    startLine: 2467
+    startLine: 4029
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Login
@@ -52,7 +52,7 @@ items:
   source:
     id: cameraManager
     path: ''
-    startLine: 2470
+    startLine: 4032
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Login
@@ -79,7 +79,7 @@ items:
   source:
     id: GetUser
     path: ''
-    startLine: 2520
+    startLine: 4082
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Login
@@ -113,7 +113,7 @@ items:
   source:
     id: OnEndLogin
     path: ''
-    startLine: 2605
+    startLine: 4167
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Login

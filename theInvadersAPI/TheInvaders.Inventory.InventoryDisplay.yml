@@ -16,7 +16,7 @@ items:
   source:
     id: InventoryDisplay
     path: ''
-    startLine: 2206
+    startLine: 3768
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -47,7 +47,7 @@ items:
   source:
     id: UpdateDisplay
     path: ''
-    startLine: 2218
+    startLine: 3780
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory

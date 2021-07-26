@@ -25,7 +25,7 @@ items:
   source:
     id: HexagonalField
     path: ''
-    startLine: 2789
+    startLine: 4271
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -56,7 +56,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 2825
+    startLine: 4307
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -92,7 +92,7 @@ items:
   source:
     id: AxialCoord
     path: ''
-    startLine: 2832
+    startLine: 4314
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -123,7 +123,7 @@ items:
   source:
     id: IsPlayerLocation
     path: ''
-    startLine: 2835
+    startLine: 4317
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -154,7 +154,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 2842
+    startLine: 4324
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -185,7 +185,7 @@ items:
   source:
     id: Instance
     path: ''
-    startLine: 2849
+    startLine: 4331
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -216,7 +216,7 @@ items:
   source:
     id: CreateHexagonalField
     path: ''
-    startLine: 2885
+    startLine: 4367
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -255,7 +255,7 @@ items:
   source:
     id: SetValid
     path: ''
-    startLine: 2912
+    startLine: 4394
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -284,7 +284,7 @@ items:
   source:
     id: GetPlayer
     path: ''
-    startLine: 2928
+    startLine: 4410
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -312,7 +312,7 @@ items:
   source:
     id: RemovePlayer
     path: ''
-    startLine: 2932
+    startLine: 4414
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -338,7 +338,7 @@ items:
   source:
     id: SetPlayer
     path: ''
-    startLine: 2936
+    startLine: 4418
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets

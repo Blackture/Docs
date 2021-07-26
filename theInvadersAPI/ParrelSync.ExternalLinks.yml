@@ -1,0 +1,525 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParrelSync.ExternalLinks
+  commentId: T:ParrelSync.ExternalLinks
+  id: ExternalLinks
+  parent: ParrelSync
+  children:
+  - ParrelSync.ExternalLinks.CustomArgumentHelpLink
+  - ParrelSync.ExternalLinks.FAQ
+  - ParrelSync.ExternalLinks.GitHubHome
+  - ParrelSync.ExternalLinks.GitHubIssue
+  - ParrelSync.ExternalLinks.Releases
+  - ParrelSync.ExternalLinks.RemoteVersionURL
+  langs:
+  - csharp
+  - vb
+  name: ExternalLinks
+  nameWithType: ExternalLinks
+  fullName: ParrelSync.ExternalLinks
+  type: Class
+  source:
+    id: ExternalLinks
+    path: ''
+    startLine: 1697
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public class ExternalLinks
+    content.vb: Public Class ExternalLinks
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ParrelSync.ExternalLinks.RemoteVersionURL
+  commentId: F:ParrelSync.ExternalLinks.RemoteVersionURL
+  id: RemoteVersionURL
+  parent: ParrelSync.ExternalLinks
+  langs:
+  - csharp
+  - vb
+  name: RemoteVersionURL
+  nameWithType: ExternalLinks.RemoteVersionURL
+  fullName: ParrelSync.ExternalLinks.RemoteVersionURL
+  type: Field
+  source:
+    id: RemoteVersionURL
+    path: ''
+    startLine: 1699
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public const string RemoteVersionURL = "https://raw.githubusercontent.com/VeriorPies/ParrelSync/master/VERSION.txt"
+    return:
+      type: System.String
+    content.vb: Public Const RemoteVersionURL As String = "https://raw.githubusercontent.com/VeriorPies/ParrelSync/master/VERSION.txt"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: ParrelSync.ExternalLinks.Releases
+  commentId: F:ParrelSync.ExternalLinks.Releases
+  id: Releases
+  parent: ParrelSync.ExternalLinks
+  langs:
+  - csharp
+  - vb
+  name: Releases
+  nameWithType: ExternalLinks.Releases
+  fullName: ParrelSync.ExternalLinks.Releases
+  type: Field
+  source:
+    id: Releases
+    path: ''
+    startLine: 1700
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public const string Releases = "https://github.com/VeriorPies/ParrelSync/releases"
+    return:
+      type: System.String
+    content.vb: Public Const Releases As String = "https://github.com/VeriorPies/ParrelSync/releases"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: ParrelSync.ExternalLinks.CustomArgumentHelpLink
+  commentId: F:ParrelSync.ExternalLinks.CustomArgumentHelpLink
+  id: CustomArgumentHelpLink
+  parent: ParrelSync.ExternalLinks
+  langs:
+  - csharp
+  - vb
+  name: CustomArgumentHelpLink
+  nameWithType: ExternalLinks.CustomArgumentHelpLink
+  fullName: ParrelSync.ExternalLinks.CustomArgumentHelpLink
+  type: Field
+  source:
+    id: CustomArgumentHelpLink
+    path: ''
+    startLine: 1701
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public const string CustomArgumentHelpLink = "https://github.com/VeriorPies/ParrelSync/wiki/Argument"
+    return:
+      type: System.String
+    content.vb: Public Const CustomArgumentHelpLink As String = "https://github.com/VeriorPies/ParrelSync/wiki/Argument"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: ParrelSync.ExternalLinks.GitHubHome
+  commentId: F:ParrelSync.ExternalLinks.GitHubHome
+  id: GitHubHome
+  parent: ParrelSync.ExternalLinks
+  langs:
+  - csharp
+  - vb
+  name: GitHubHome
+  nameWithType: ExternalLinks.GitHubHome
+  fullName: ParrelSync.ExternalLinks.GitHubHome
+  type: Field
+  source:
+    id: GitHubHome
+    path: ''
+    startLine: 1703
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public const string GitHubHome = "https://github.com/VeriorPies/ParrelSync/"
+    return:
+      type: System.String
+    content.vb: Public Const GitHubHome As String = "https://github.com/VeriorPies/ParrelSync/"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: ParrelSync.ExternalLinks.GitHubIssue
+  commentId: F:ParrelSync.ExternalLinks.GitHubIssue
+  id: GitHubIssue
+  parent: ParrelSync.ExternalLinks
+  langs:
+  - csharp
+  - vb
+  name: GitHubIssue
+  nameWithType: ExternalLinks.GitHubIssue
+  fullName: ParrelSync.ExternalLinks.GitHubIssue
+  type: Field
+  source:
+    id: GitHubIssue
+    path: ''
+    startLine: 1704
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public const string GitHubIssue = "https://github.com/VeriorPies/ParrelSync/issues"
+    return:
+      type: System.String
+    content.vb: Public Const GitHubIssue As String = "https://github.com/VeriorPies/ParrelSync/issues"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: ParrelSync.ExternalLinks.FAQ
+  commentId: F:ParrelSync.ExternalLinks.FAQ
+  id: FAQ
+  parent: ParrelSync.ExternalLinks
+  langs:
+  - csharp
+  - vb
+  name: FAQ
+  nameWithType: ExternalLinks.FAQ
+  fullName: ParrelSync.ExternalLinks.FAQ
+  type: Field
+  source:
+    id: FAQ
+    path: ''
+    startLine: 1705
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public const string FAQ = "https://github.com/VeriorPies/ParrelSync/wiki/Troubleshooting-&-FAQs"
+    return:
+      type: System.String
+    content.vb: Public Const FAQ As String = "https://github.com/VeriorPies/ParrelSync/wiki/Troubleshooting-&-FAQs"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: ParrelSync
+  commentId: N:ParrelSync
+  name: ParrelSync
+  nameWithType: ParrelSync
+  fullName: ParrelSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

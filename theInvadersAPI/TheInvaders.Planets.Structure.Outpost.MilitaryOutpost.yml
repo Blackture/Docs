@@ -16,7 +16,7 @@ items:
   source:
     id: MilitaryOutpost
     path: ''
-    startLine: 3447
+    startLine: 4929
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.Outpost
@@ -62,7 +62,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3449
+    startLine: 4931
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.Outpost

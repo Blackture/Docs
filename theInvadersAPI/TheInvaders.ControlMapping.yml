@@ -29,7 +29,7 @@ items:
   source:
     id: ControlMapping
     path: ''
-    startLine: 1264
+    startLine: 2374
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -67,7 +67,7 @@ items:
   source:
     id: zoomViaAxis
     path: ''
-    startLine: 1273
+    startLine: 2383
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -96,7 +96,7 @@ items:
   source:
     id: ZoomAxis
     path: ''
-    startLine: 1274
+    startLine: 2384
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -129,7 +129,7 @@ items:
   source:
     id: zoom01
     path: ''
-    startLine: 1284
+    startLine: 2394
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -160,7 +160,7 @@ items:
   source:
     id: Zoom02
     path: ''
-    startLine: 1296
+    startLine: 2406
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -195,7 +195,7 @@ items:
   source:
     id: UnitDeselect
     path: ''
-    startLine: 1307
+    startLine: 2417
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -226,7 +226,7 @@ items:
   source:
     id: UnitAction
     path: ''
-    startLine: 1313
+    startLine: 2423
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -261,7 +261,7 @@ items:
   source:
     id: forward
     path: ''
-    startLine: 1318
+    startLine: 2428
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -290,7 +290,7 @@ items:
   source:
     id: left
     path: ''
-    startLine: 1319
+    startLine: 2429
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -319,7 +319,7 @@ items:
   source:
     id: back
     path: ''
-    startLine: 1320
+    startLine: 2430
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -348,7 +348,7 @@ items:
   source:
     id: right
     path: ''
-    startLine: 1321
+    startLine: 2431
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -377,7 +377,7 @@ items:
   source:
     id: ScrollSensivity
     path: ''
-    startLine: 1324
+    startLine: 2434
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -410,7 +410,7 @@ items:
   source:
     id: Zoom
     path: ''
-    startLine: 1326
+    startLine: 2436
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -446,7 +446,7 @@ items:
   source:
     id: MoveInput
     path: ''
-    startLine: 1358
+    startLine: 2468
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -484,7 +484,7 @@ items:
   source:
     id: GetUnitMode
     path: ''
-    startLine: 1371
+    startLine: 2481
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders

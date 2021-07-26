@@ -1,0 +1,710 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.SerializedMatchData
+  commentId: T:TheInvaders.SerializedMatchData
+  id: SerializedMatchData
+  parent: TheInvaders
+  children:
+  - TheInvaders.SerializedMatchData._id
+  - TheInvaders.SerializedMatchData.CreateInstance(Vector3[],Transform[],Transform[])
+  - TheInvaders.SerializedMatchData.EndMatch
+  - TheInvaders.SerializedMatchData.isMatchActive
+  - TheInvaders.SerializedMatchData.matchTime
+  - TheInvaders.SerializedMatchData.playerPositionsBF
+  - TheInvaders.SerializedMatchData.playerPositionsHF
+  - TheInvaders.SerializedMatchData.playerRotationsBF
+  - TheInvaders.SerializedMatchData.QuaternionToData(Quaternion)
+  - TheInvaders.SerializedMatchData.Receive
+  - TheInvaders.SerializedMatchData.Send
+  - TheInvaders.SerializedMatchData.Set(Vector3[],Transform[],Transform[])
+  - TheInvaders.SerializedMatchData.unitPositions
+  - TheInvaders.SerializedMatchData.unitRotations
+  - TheInvaders.SerializedMatchData.Vector3ToData(Vector3)
+  langs:
+  - csharp
+  - vb
+  name: SerializedMatchData
+  nameWithType: SerializedMatchData
+  fullName: TheInvaders.SerializedMatchData
+  type: Class
+  source:
+    id: SerializedMatchData
+    path: ''
+    startLine: 3026
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SerializedMatchData : ScriptableObject
+    content.vb: >-
+      <Serializable>
+
+      Public Class SerializedMatchData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.SerializedMatchData._id
+  commentId: F:TheInvaders.SerializedMatchData._id
+  id: _id
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: _id
+  nameWithType: SerializedMatchData._id
+  fullName: TheInvaders.SerializedMatchData._id
+  type: Field
+  source:
+    id: _id
+    path: ''
+    startLine: 3030
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public ObjectId _id
+    return:
+      type: ObjectId
+    content.vb: Public _id As ObjectId
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.matchTime
+  commentId: F:TheInvaders.SerializedMatchData.matchTime
+  id: matchTime
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: matchTime
+  nameWithType: SerializedMatchData.matchTime
+  fullName: TheInvaders.SerializedMatchData.matchTime
+  type: Field
+  source:
+    id: matchTime
+    path: ''
+    startLine: 3031
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public double matchTime
+    return:
+      type: System.Double
+    content.vb: Public matchTime As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.playerPositionsHF
+  commentId: F:TheInvaders.SerializedMatchData.playerPositionsHF
+  id: playerPositionsHF
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: playerPositionsHF
+  nameWithType: SerializedMatchData.playerPositionsHF
+  fullName: TheInvaders.SerializedMatchData.playerPositionsHF
+  type: Field
+  source:
+    id: playerPositionsHF
+    path: ''
+    startLine: 3033
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public double[][] playerPositionsHF
+    return:
+      type: System.Double[][]
+    content.vb: Public playerPositionsHF As Double()()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.playerPositionsBF
+  commentId: F:TheInvaders.SerializedMatchData.playerPositionsBF
+  id: playerPositionsBF
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: playerPositionsBF
+  nameWithType: SerializedMatchData.playerPositionsBF
+  fullName: TheInvaders.SerializedMatchData.playerPositionsBF
+  type: Field
+  source:
+    id: playerPositionsBF
+    path: ''
+    startLine: 3035
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public double[][] playerPositionsBF
+    return:
+      type: System.Double[][]
+    content.vb: Public playerPositionsBF As Double()()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.playerRotationsBF
+  commentId: F:TheInvaders.SerializedMatchData.playerRotationsBF
+  id: playerRotationsBF
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: playerRotationsBF
+  nameWithType: SerializedMatchData.playerRotationsBF
+  fullName: TheInvaders.SerializedMatchData.playerRotationsBF
+  type: Field
+  source:
+    id: playerRotationsBF
+    path: ''
+    startLine: 3036
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public double[][] playerRotationsBF
+    return:
+      type: System.Double[][]
+    content.vb: Public playerRotationsBF As Double()()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.unitPositions
+  commentId: F:TheInvaders.SerializedMatchData.unitPositions
+  id: unitPositions
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: unitPositions
+  nameWithType: SerializedMatchData.unitPositions
+  fullName: TheInvaders.SerializedMatchData.unitPositions
+  type: Field
+  source:
+    id: unitPositions
+    path: ''
+    startLine: 3038
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public double[][] unitPositions
+    return:
+      type: System.Double[][]
+    content.vb: Public unitPositions As Double()()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.unitRotations
+  commentId: F:TheInvaders.SerializedMatchData.unitRotations
+  id: unitRotations
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: unitRotations
+  nameWithType: SerializedMatchData.unitRotations
+  fullName: TheInvaders.SerializedMatchData.unitRotations
+  type: Field
+  source:
+    id: unitRotations
+    path: ''
+    startLine: 3039
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public double[][] unitRotations
+    return:
+      type: System.Double[][]
+    content.vb: Public unitRotations As Double()()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.isMatchActive
+  commentId: F:TheInvaders.SerializedMatchData.isMatchActive
+  id: isMatchActive
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: isMatchActive
+  nameWithType: SerializedMatchData.isMatchActive
+  fullName: TheInvaders.SerializedMatchData.isMatchActive
+  type: Field
+  source:
+    id: isMatchActive
+    path: ''
+    startLine: 3041
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public bool isMatchActive
+    return:
+      type: System.Boolean
+    content.vb: Public isMatchActive As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.CreateInstance(Vector3[],Transform[],Transform[])
+  commentId: M:TheInvaders.SerializedMatchData.CreateInstance(Vector3[],Transform[],Transform[])
+  id: CreateInstance(Vector3[],Transform[],Transform[])
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance(Vector3[], Transform[], Transform[])
+  nameWithType: SerializedMatchData.CreateInstance(Vector3[], Transform[], Transform[])
+  fullName: TheInvaders.SerializedMatchData.CreateInstance(Vector3[], Transform[], Transform[])
+  type: Method
+  source:
+    id: CreateInstance
+    path: ''
+    startLine: 3043
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static SerializedMatchData CreateInstance(Vector3[] playerPositionsHF, Transform[] playersBF, Transform[] unitsBF)
+    parameters:
+    - id: playerPositionsHF
+      type: Vector3[]
+    - id: playersBF
+      type: Transform[]
+    - id: unitsBF
+      type: Transform[]
+    return:
+      type: TheInvaders.SerializedMatchData
+    content.vb: Public Shared Function CreateInstance(playerPositionsHF As Vector3(), playersBF As Transform(), unitsBF As Transform()) As SerializedMatchData
+  overload: TheInvaders.SerializedMatchData.CreateInstance*
+  nameWithType.vb: SerializedMatchData.CreateInstance(Vector3(), Transform(), Transform())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TheInvaders.SerializedMatchData.CreateInstance(Vector3(), Transform(), Transform())
+  name.vb: CreateInstance(Vector3(), Transform(), Transform())
+- uid: TheInvaders.SerializedMatchData.Set(Vector3[],Transform[],Transform[])
+  commentId: M:TheInvaders.SerializedMatchData.Set(Vector3[],Transform[],Transform[])
+  id: Set(Vector3[],Transform[],Transform[])
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: Set(Vector3[], Transform[], Transform[])
+  nameWithType: SerializedMatchData.Set(Vector3[], Transform[], Transform[])
+  fullName: TheInvaders.SerializedMatchData.Set(Vector3[], Transform[], Transform[])
+  type: Method
+  source:
+    id: Set
+    path: ''
+    startLine: 3052
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public void Set(Vector3[] playerPositionsHF, Transform[] playersBF, Transform[] unitsBF)
+    parameters:
+    - id: playerPositionsHF
+      type: Vector3[]
+    - id: playersBF
+      type: Transform[]
+    - id: unitsBF
+      type: Transform[]
+    content.vb: Public Sub Set(playerPositionsHF As Vector3(), playersBF As Transform(), unitsBF As Transform())
+  overload: TheInvaders.SerializedMatchData.Set*
+  nameWithType.vb: SerializedMatchData.Set(Vector3(), Transform(), Transform())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TheInvaders.SerializedMatchData.Set(Vector3(), Transform(), Transform())
+  name.vb: Set(Vector3(), Transform(), Transform())
+- uid: TheInvaders.SerializedMatchData.EndMatch
+  commentId: M:TheInvaders.SerializedMatchData.EndMatch
+  id: EndMatch
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: EndMatch()
+  nameWithType: SerializedMatchData.EndMatch()
+  fullName: TheInvaders.SerializedMatchData.EndMatch()
+  type: Method
+  source:
+    id: EndMatch
+    path: ''
+    startLine: 3072
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public void EndMatch()
+    content.vb: Public Sub
+  overload: TheInvaders.SerializedMatchData.EndMatch*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.Send
+  commentId: M:TheInvaders.SerializedMatchData.Send
+  id: Send
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: Send()
+  nameWithType: SerializedMatchData.Send()
+  fullName: TheInvaders.SerializedMatchData.Send()
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 3078
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public void Send()
+    content.vb: Public Sub Send
+  overload: TheInvaders.SerializedMatchData.Send*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.Receive
+  commentId: M:TheInvaders.SerializedMatchData.Receive
+  id: Receive
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: Receive()
+  nameWithType: SerializedMatchData.Receive()
+  fullName: TheInvaders.SerializedMatchData.Receive()
+  type: Method
+  source:
+    id: Receive
+    path: ''
+    startLine: 3086
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public async Task Receive()
+    return:
+      type: Task
+    content.vb: Public Function Receive As Task
+  overload: TheInvaders.SerializedMatchData.Receive*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.SerializedMatchData.Vector3ToData(Vector3)
+  commentId: M:TheInvaders.SerializedMatchData.Vector3ToData(Vector3)
+  id: Vector3ToData(Vector3)
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: Vector3ToData(Vector3)
+  nameWithType: SerializedMatchData.Vector3ToData(Vector3)
+  fullName: TheInvaders.SerializedMatchData.Vector3ToData(Vector3)
+  type: Method
+  source:
+    id: Vector3ToData
+    path: ''
+    startLine: 3151
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  summary: "\nConverts a vector3 to a double array\n"
+  example: []
+  syntax:
+    content: public static double[] Vector3ToData(Vector3 vector3)
+    parameters:
+    - id: vector3
+      type: Vector3
+      description: ''
+    return:
+      type: System.Double[]
+      description: A double array of the vector3
+    content.vb: Public Shared Function Vector3ToData(vector3 As Vector3) As Double()
+  overload: TheInvaders.SerializedMatchData.Vector3ToData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.SerializedMatchData.QuaternionToData(Quaternion)
+  commentId: M:TheInvaders.SerializedMatchData.QuaternionToData(Quaternion)
+  id: QuaternionToData(Quaternion)
+  parent: TheInvaders.SerializedMatchData
+  langs:
+  - csharp
+  - vb
+  name: QuaternionToData(Quaternion)
+  nameWithType: SerializedMatchData.QuaternionToData(Quaternion)
+  fullName: TheInvaders.SerializedMatchData.QuaternionToData(Quaternion)
+  type: Method
+  source:
+    id: QuaternionToData
+    path: ''
+    startLine: 3160
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  summary: "\nConverts a quaternion to a double array\n"
+  example: []
+  syntax:
+    content: public static double[] QuaternionToData(Quaternion quaternion)
+    parameters:
+    - id: quaternion
+      type: Quaternion
+      description: ''
+    return:
+      type: System.Double[]
+      description: A double array of the quaternion
+    content.vb: Public Shared Function QuaternionToData(quaternion As Quaternion) As Double()
+  overload: TheInvaders.SerializedMatchData.QuaternionToData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ObjectId
+  isExternal: true
+  name: ObjectId
+  nameWithType: ObjectId
+  fullName: ObjectId
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Double[][]
+  isExternal: true
+  name: Double[][]
+  nameWithType: Double[][]
+  fullName: System.Double[][]
+  nameWithType.vb: Double()()
+  fullName.vb: System.Double()()
+  name.vb: Double()()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TheInvaders.SerializedMatchData.CreateInstance*
+  commentId: Overload:TheInvaders.SerializedMatchData.CreateInstance
+  name: CreateInstance
+  nameWithType: SerializedMatchData.CreateInstance
+  fullName: TheInvaders.SerializedMatchData.CreateInstance
+- uid: Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Transform[]
+  isExternal: true
+  name: Transform[]
+  nameWithType: Transform[]
+  fullName: Transform[]
+  nameWithType.vb: Transform()
+  fullName.vb: Transform()
+  name.vb: Transform()
+  spec.csharp:
+  - uid: Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TheInvaders.SerializedMatchData
+  commentId: T:TheInvaders.SerializedMatchData
+  parent: TheInvaders
+  name: SerializedMatchData
+  nameWithType: SerializedMatchData
+  fullName: TheInvaders.SerializedMatchData
+- uid: TheInvaders.SerializedMatchData.Set*
+  commentId: Overload:TheInvaders.SerializedMatchData.Set
+  name: Set
+  nameWithType: SerializedMatchData.Set
+  fullName: TheInvaders.SerializedMatchData.Set
+- uid: TheInvaders.SerializedMatchData.EndMatch*
+  commentId: Overload:TheInvaders.SerializedMatchData.EndMatch
+  name: EndMatch
+  nameWithType: SerializedMatchData.EndMatch
+  fullName: TheInvaders.SerializedMatchData.EndMatch
+- uid: TheInvaders.SerializedMatchData.Send*
+  commentId: Overload:TheInvaders.SerializedMatchData.Send
+  name: Send
+  nameWithType: SerializedMatchData.Send
+  fullName: TheInvaders.SerializedMatchData.Send
+- uid: TheInvaders.SerializedMatchData.Receive*
+  commentId: Overload:TheInvaders.SerializedMatchData.Receive
+  name: Receive
+  nameWithType: SerializedMatchData.Receive
+  fullName: TheInvaders.SerializedMatchData.Receive
+- uid: Task
+  commentId: '!:Task'
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: TheInvaders.SerializedMatchData.Vector3ToData*
+  commentId: Overload:TheInvaders.SerializedMatchData.Vector3ToData
+  name: Vector3ToData
+  nameWithType: SerializedMatchData.Vector3ToData
+  fullName: TheInvaders.SerializedMatchData.Vector3ToData
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TheInvaders.SerializedMatchData.QuaternionToData*
+  commentId: Overload:TheInvaders.SerializedMatchData.QuaternionToData
+  name: QuaternionToData
+  nameWithType: SerializedMatchData.QuaternionToData
+  fullName: TheInvaders.SerializedMatchData.QuaternionToData
+- uid: Quaternion
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Quaternion

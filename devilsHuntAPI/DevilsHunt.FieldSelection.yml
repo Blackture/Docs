@@ -34,6 +34,7 @@ items:
     content: 'public class FieldSelection : MonoBehaviour'
     content.vb: >-
       Public Class FieldSelection
+
           Inherits MonoBehaviour
   inheritance:
   - System.Object

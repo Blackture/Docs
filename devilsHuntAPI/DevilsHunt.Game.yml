@@ -57,6 +57,7 @@ items:
     content: 'public class Game : MonoBehaviour'
     content.vb: >-
       Public Class Game
+
           Inherits MonoBehaviour
   inheritance:
   - System.Object

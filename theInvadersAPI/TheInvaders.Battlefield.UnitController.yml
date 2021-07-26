@@ -20,7 +20,7 @@ items:
   source:
     id: UnitController
     path: ''
-    startLine: 2041
+    startLine: 3603
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -53,7 +53,7 @@ items:
   source:
     id: character
     path: ''
-    startLine: 2068
+    startLine: 3630
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -80,7 +80,7 @@ items:
   source:
     id: Repositioned
     path: ''
-    startLine: 2071
+    startLine: 3633
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -111,7 +111,7 @@ items:
   source:
     id: Duration
     path: ''
-    startLine: 2115
+    startLine: 3677
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -144,7 +144,7 @@ items:
   source:
     id: IsActive
     path: ''
-    startLine: 2121
+    startLine: 3683
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -177,7 +177,7 @@ items:
   source:
     id: LerpTo
     path: ''
-    startLine: 2149
+    startLine: 3711
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield

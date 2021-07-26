@@ -5,6 +5,7 @@ items:
   id: GameUUIDManager
   parent: TheInvaders
   children:
+  - TheInvaders.GameUUIDManager.database
   - TheInvaders.GameUUIDManager.GetUser(ObjectId)
   - TheInvaders.GameUUIDManager.HasAccess
   - TheInvaders.GameUUIDManager.instance
@@ -22,7 +23,7 @@ items:
   source:
     id: GameUUIDManager
     path: ''
-    startLine: 1405
+    startLine: 2515
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -53,15 +54,44 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 1407
+    startLine: 2517
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
   syntax:
-    content: public GameUUIDManager instance
+    content: public static GameUUIDManager instance
     return:
       type: TheInvaders.GameUUIDManager
-    content.vb: Public instance As GameUUIDManager
+    content.vb: Public Shared instance As GameUUIDManager
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.GameUUIDManager.database
+  commentId: F:TheInvaders.GameUUIDManager.database
+  id: database
+  parent: TheInvaders.GameUUIDManager
+  langs:
+  - csharp
+  - vb
+  name: database
+  nameWithType: GameUUIDManager.database
+  fullName: TheInvaders.GameUUIDManager.database
+  type: Field
+  source:
+    id: database
+    path: ''
+    startLine: 2523
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public IMongoDatabase database
+    return:
+      type: IMongoDatabase
+    content.vb: Public database As IMongoDatabase
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -80,7 +110,7 @@ items:
   source:
     id: UsrData
     path: ''
-    startLine: 1417
+    startLine: 2527
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -88,7 +118,7 @@ items:
     content: public UserData UsrData { get; }
     parameters: []
     return:
-      type: UserData
+      type: TheInvaders.UserData
     content.vb: Public ReadOnly Property UsrData As UserData
   overload: TheInvaders.GameUUIDManager.UsrData*
   modifiers.csharp:
@@ -111,7 +141,7 @@ items:
   source:
     id: UpdateUser
     path: ''
-    startLine: 1428
+    startLine: 2538
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -137,7 +167,7 @@ items:
   source:
     id: LoadUser
     path: ''
-    startLine: 1434
+    startLine: 2544
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -167,7 +197,7 @@ items:
   source:
     id: HasAccess
     path: ''
-    startLine: 1469
+    startLine: 2580
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -195,7 +225,7 @@ items:
   source:
     id: IsUserRegistered
     path: ''
-    startLine: 1503
+    startLine: 2614
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -227,7 +257,7 @@ items:
   source:
     id: GetUser
     path: ''
-    startLine: 1518
+    startLine: 2629
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -237,7 +267,7 @@ items:
     - id: id
       type: ObjectId
     return:
-      type: Task{UserData}
+      type: Task{TheInvaders.UserData}
     content.vb: Public Function GetUser(id As ObjectId) As Task(Of UserData)
   overload: TheInvaders.GameUUIDManager.GetUser*
   modifiers.csharp:
@@ -270,17 +300,23 @@ references:
   name: GameUUIDManager
   nameWithType: GameUUIDManager
   fullName: TheInvaders.GameUUIDManager
+- uid: IMongoDatabase
+  commentId: '!:IMongoDatabase'
+  isExternal: true
+  name: IMongoDatabase
+  nameWithType: IMongoDatabase
+  fullName: IMongoDatabase
 - uid: TheInvaders.GameUUIDManager.UsrData*
   commentId: Overload:TheInvaders.GameUUIDManager.UsrData
   name: UsrData
   nameWithType: GameUUIDManager.UsrData
   fullName: TheInvaders.GameUUIDManager.UsrData
-- uid: UserData
-  commentId: '!:UserData'
-  isExternal: true
+- uid: TheInvaders.UserData
+  commentId: T:TheInvaders.UserData
+  parent: TheInvaders
   name: UserData
   nameWithType: UserData
-  fullName: UserData
+  fullName: TheInvaders.UserData
 - uid: TheInvaders.GameUUIDManager.UpdateUser*
   commentId: Overload:TheInvaders.GameUUIDManager.UpdateUser
   name: UpdateUser
@@ -426,14 +462,14 @@ references:
   name: ObjectId
   nameWithType: ObjectId
   fullName: ObjectId
-- uid: Task{UserData}
-  commentId: '!:Task{UserData}'
+- uid: Task{TheInvaders.UserData}
+  commentId: '!:Task{TheInvaders.UserData}'
   definition: Task`1
   name: Task<UserData>
   nameWithType: Task<UserData>
-  fullName: Task<UserData>
+  fullName: Task<TheInvaders.UserData>
   nameWithType.vb: Task(Of UserData)
-  fullName.vb: Task(Of UserData)
+  fullName.vb: Task(Of TheInvaders.UserData)
   name.vb: Task(Of UserData)
   spec.csharp:
   - uid: Task`1
@@ -444,11 +480,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: UserData
+  - uid: TheInvaders.UserData
     name: UserData
     nameWithType: UserData
-    fullName: UserData
-    isExternal: true
+    fullName: TheInvaders.UserData
   - name: '>'
     nameWithType: '>'
     fullName: '>'
@@ -461,11 +496,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: UserData
+  - uid: TheInvaders.UserData
     name: UserData
     nameWithType: UserData
-    fullName: UserData
-    isExternal: true
+    fullName: TheInvaders.UserData
   - name: )
     nameWithType: )
     fullName: )

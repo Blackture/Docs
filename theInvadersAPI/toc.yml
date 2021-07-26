@@ -1,27 +1,39 @@
 ### YamlMime:TableOfContent
-- uid: Prototype.NetworkLobby
-  name: Prototype.NetworkLobby
+- uid: ParrelSync
+  name: ParrelSync
   items:
-  - uid: Prototype.NetworkLobby.DraggablePanel
-    name: DraggablePanel
-  - uid: Prototype.NetworkLobby.LobbyCountdownPanel
-    name: LobbyCountdownPanel
-  - uid: Prototype.NetworkLobby.LobbyHook
-    name: LobbyHook
-  - uid: Prototype.NetworkLobby.LobbyInfoPanel
-    name: LobbyInfoPanel
-  - uid: Prototype.NetworkLobby.LobbyMainMenu
-    name: LobbyMainMenu
-  - uid: Prototype.NetworkLobby.LobbyPlayer
-    name: LobbyPlayer
-  - uid: Prototype.NetworkLobby.LobbyPlayerList
-    name: LobbyPlayerList
-  - uid: Prototype.NetworkLobby.LobbyServerEntry
-    name: LobbyServerEntry
-  - uid: Prototype.NetworkLobby.LobbyServerList
-    name: LobbyServerList
-  - uid: Prototype.NetworkLobby.LobbyTopPanel
-    name: LobbyTopPanel
+  - uid: ParrelSync.BoolPreference
+    name: BoolPreference
+  - uid: ParrelSync.ClonesManager
+    name: ClonesManager
+  - uid: ParrelSync.ClonesManagerWindow
+    name: ClonesManagerWindow
+  - uid: ParrelSync.EditorQuit
+    name: EditorQuit
+  - uid: ParrelSync.ExternalLinks
+    name: ExternalLinks
+  - uid: ParrelSync.FileUtilities
+    name: FileUtilities
+  - uid: ParrelSync.ParrelSyncAssetModificationProcessor
+    name: ParrelSyncAssetModificationProcessor
+  - uid: ParrelSync.Preferences
+    name: Preferences
+  - uid: ParrelSync.Project
+    name: Project
+- uid: ParrelSync.NonCore
+  name: ParrelSync.NonCore
+  items:
+  - uid: ParrelSync.NonCore.AskFeedbackDialog
+    name: AskFeedbackDialog
+  - uid: ParrelSync.NonCore.OtherMenuItem
+    name: OtherMenuItem
+  - uid: ParrelSync.NonCore.ValidateCopiedFoldersIntegrity
+    name: ValidateCopiedFoldersIntegrity
+- uid: ParrelSync.Update
+  name: ParrelSync.Update
+  items:
+  - uid: ParrelSync.Update.UpdateChecker
+    name: UpdateChecker
 - uid: TheInvaders
   name: TheInvaders
   items:
@@ -35,15 +47,23 @@
     name: ControlMapping.UNIT_MODE
   - uid: TheInvaders.GameUUIDManager
     name: GameUUIDManager
+  - uid: TheInvaders.MatchData
+    name: MatchData
+  - uid: TheInvaders.MatchManager
+    name: MatchManager
   - uid: TheInvaders.OffMeshLinkMoveMethod
     name: OffMeshLinkMoveMethod
   - uid: TheInvaders.Player
     name: Player
+  - uid: TheInvaders.SerializedMatchData
+    name: SerializedMatchData
   - uid: TheInvaders.Storage`1
     name: Storage<T>
     name.vb: Storage(Of T)
   - uid: TheInvaders.Trader
     name: Trader
+  - uid: TheInvaders.UserData
+    name: UserData
 - uid: TheInvaders.Battlefield
   name: TheInvaders.Battlefield
   items:
@@ -81,8 +101,33 @@
     name: LoginManager
   - uid: TheInvaders.Login.LoginManager.CameraManager
     name: LoginManager.CameraManager
-  - uid: TheInvaders.Login.UserData
-    name: UserData
+- uid: TheInvaders.NetworkLobby
+  name: TheInvaders.NetworkLobby
+  items:
+  - uid: TheInvaders.NetworkLobby.DraggablePanel
+    name: DraggablePanel
+  - uid: TheInvaders.NetworkLobby.LobbyCountdownPanel
+    name: LobbyCountdownPanel
+  - uid: TheInvaders.NetworkLobby.LobbyHook
+    name: LobbyHook
+  - uid: TheInvaders.NetworkLobby.LobbyInfoPanel
+    name: LobbyInfoPanel
+  - uid: TheInvaders.NetworkLobby.LobbyMainMenu
+    name: LobbyMainMenu
+  - uid: TheInvaders.NetworkLobby.LobbyManager
+    name: LobbyManager
+  - uid: TheInvaders.NetworkLobby.LobbyManager.BackButtonDelegate
+    name: LobbyManager.BackButtonDelegate
+  - uid: TheInvaders.NetworkLobby.LobbyPlayer
+    name: LobbyPlayer
+  - uid: TheInvaders.NetworkLobby.LobbyPlayerList
+    name: LobbyPlayerList
+  - uid: TheInvaders.NetworkLobby.LobbyServerEntry
+    name: LobbyServerEntry
+  - uid: TheInvaders.NetworkLobby.LobbyServerList
+    name: LobbyServerList
+  - uid: TheInvaders.NetworkLobby.LobbyTopPanel
+    name: LobbyTopPanel
 - uid: TheInvaders.Planets
   name: TheInvaders.Planets
   items:

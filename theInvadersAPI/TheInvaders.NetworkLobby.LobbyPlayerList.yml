@@ -1,0 +1,511 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList
+  commentId: T:TheInvaders.NetworkLobby.LobbyPlayerList
+  id: LobbyPlayerList
+  parent: TheInvaders.NetworkLobby
+  children:
+  - TheInvaders.NetworkLobby.LobbyPlayerList._instance
+  - TheInvaders.NetworkLobby.LobbyPlayerList._layout
+  - TheInvaders.NetworkLobby.LobbyPlayerList._players
+  - TheInvaders.NetworkLobby.LobbyPlayerList.addButtonRow
+  - TheInvaders.NetworkLobby.LobbyPlayerList.AddPlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  - TheInvaders.NetworkLobby.LobbyPlayerList.DisplayDirectServerWarning(System.Boolean)
+  - TheInvaders.NetworkLobby.LobbyPlayerList.OnEnable
+  - TheInvaders.NetworkLobby.LobbyPlayerList.playerListContentTransform
+  - TheInvaders.NetworkLobby.LobbyPlayerList.PlayerListModified
+  - TheInvaders.NetworkLobby.LobbyPlayerList.RemovePlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  - TheInvaders.NetworkLobby.LobbyPlayerList.warningDirectPlayServer
+  langs:
+  - csharp
+  - vb
+  name: LobbyPlayerList
+  nameWithType: LobbyPlayerList
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList
+  type: Class
+  source:
+    id: LobbyPlayerList
+    path: ''
+    startLine: 595
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: 'public class LobbyPlayerList : MonoBehaviour'
+    content.vb: >-
+      Public Class LobbyPlayerList
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList._instance
+  commentId: F:TheInvaders.NetworkLobby.LobbyPlayerList._instance
+  id: _instance
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: _instance
+  nameWithType: LobbyPlayerList._instance
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList._instance
+  type: Field
+  source:
+    id: _instance
+    path: ''
+    startLine: 597
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public static LobbyPlayerList _instance
+    return:
+      type: TheInvaders.NetworkLobby.LobbyPlayerList
+    content.vb: Public Shared _instance As LobbyPlayerList
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.playerListContentTransform
+  commentId: F:TheInvaders.NetworkLobby.LobbyPlayerList.playerListContentTransform
+  id: playerListContentTransform
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: playerListContentTransform
+  nameWithType: LobbyPlayerList.playerListContentTransform
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.playerListContentTransform
+  type: Field
+  source:
+    id: playerListContentTransform
+    path: ''
+    startLine: 599
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public RectTransform playerListContentTransform
+    return:
+      type: RectTransform
+    content.vb: Public playerListContentTransform As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.warningDirectPlayServer
+  commentId: F:TheInvaders.NetworkLobby.LobbyPlayerList.warningDirectPlayServer
+  id: warningDirectPlayServer
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: warningDirectPlayServer
+  nameWithType: LobbyPlayerList.warningDirectPlayServer
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.warningDirectPlayServer
+  type: Field
+  source:
+    id: warningDirectPlayServer
+    path: ''
+    startLine: 600
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public GameObject warningDirectPlayServer
+    return:
+      type: GameObject
+    content.vb: Public warningDirectPlayServer As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.addButtonRow
+  commentId: F:TheInvaders.NetworkLobby.LobbyPlayerList.addButtonRow
+  id: addButtonRow
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: addButtonRow
+  nameWithType: LobbyPlayerList.addButtonRow
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.addButtonRow
+  type: Field
+  source:
+    id: addButtonRow
+    path: ''
+    startLine: 601
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public Transform addButtonRow
+    return:
+      type: Transform
+    content.vb: Public addButtonRow As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList._layout
+  commentId: F:TheInvaders.NetworkLobby.LobbyPlayerList._layout
+  id: _layout
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: _layout
+  nameWithType: LobbyPlayerList._layout
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList._layout
+  type: Field
+  source:
+    id: _layout
+    path: ''
+    startLine: 603
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: protected VerticalLayoutGroup _layout
+    return:
+      type: VerticalLayoutGroup
+    content.vb: Protected _layout As VerticalLayoutGroup
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList._players
+  commentId: F:TheInvaders.NetworkLobby.LobbyPlayerList._players
+  id: _players
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: _players
+  nameWithType: LobbyPlayerList._players
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList._players
+  type: Field
+  source:
+    id: _players
+    path: ''
+    startLine: 604
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: protected List<LobbyPlayer> _players
+    return:
+      type: List{TheInvaders.NetworkLobby.LobbyPlayer}
+    content.vb: Protected _players As List(Of LobbyPlayer)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.OnEnable
+  commentId: M:TheInvaders.NetworkLobby.LobbyPlayerList.OnEnable
+  id: OnEnable
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: LobbyPlayerList.OnEnable()
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 606
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public void OnEnable()
+    content.vb: Public Sub OnEnable
+  overload: TheInvaders.NetworkLobby.LobbyPlayerList.OnEnable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.DisplayDirectServerWarning(System.Boolean)
+  commentId: M:TheInvaders.NetworkLobby.LobbyPlayerList.DisplayDirectServerWarning(System.Boolean)
+  id: DisplayDirectServerWarning(System.Boolean)
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: DisplayDirectServerWarning(Boolean)
+  nameWithType: LobbyPlayerList.DisplayDirectServerWarning(Boolean)
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.DisplayDirectServerWarning(System.Boolean)
+  type: Method
+  source:
+    id: DisplayDirectServerWarning
+    path: ''
+    startLine: 612
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public void DisplayDirectServerWarning(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub DisplayDirectServerWarning(enabled As Boolean)
+  overload: TheInvaders.NetworkLobby.LobbyPlayerList.DisplayDirectServerWarning*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.AddPlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  commentId: M:TheInvaders.NetworkLobby.LobbyPlayerList.AddPlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  id: AddPlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: AddPlayer(LobbyPlayer)
+  nameWithType: LobbyPlayerList.AddPlayer(LobbyPlayer)
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.AddPlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  type: Method
+  source:
+    id: AddPlayer
+    path: ''
+    startLine: 627
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public void AddPlayer(LobbyPlayer player)
+    parameters:
+    - id: player
+      type: TheInvaders.NetworkLobby.LobbyPlayer
+    content.vb: Public Sub AddPlayer(player As LobbyPlayer)
+  overload: TheInvaders.NetworkLobby.LobbyPlayerList.AddPlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.RemovePlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  commentId: M:TheInvaders.NetworkLobby.LobbyPlayerList.RemovePlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  id: RemovePlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: RemovePlayer(LobbyPlayer)
+  nameWithType: LobbyPlayerList.RemovePlayer(LobbyPlayer)
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.RemovePlayer(TheInvaders.NetworkLobby.LobbyPlayer)
+  type: Method
+  source:
+    id: RemovePlayer
+    path: ''
+    startLine: 640
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public void RemovePlayer(LobbyPlayer player)
+    parameters:
+    - id: player
+      type: TheInvaders.NetworkLobby.LobbyPlayer
+    content.vb: Public Sub RemovePlayer(player As LobbyPlayer)
+  overload: TheInvaders.NetworkLobby.LobbyPlayerList.RemovePlayer*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.PlayerListModified
+  commentId: M:TheInvaders.NetworkLobby.LobbyPlayerList.PlayerListModified
+  id: PlayerListModified
+  parent: TheInvaders.NetworkLobby.LobbyPlayerList
+  langs:
+  - csharp
+  - vb
+  name: PlayerListModified()
+  nameWithType: LobbyPlayerList.PlayerListModified()
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.PlayerListModified()
+  type: Method
+  source:
+    id: PlayerListModified
+    path: ''
+    startLine: 646
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.NetworkLobby
+  syntax:
+    content: public void PlayerListModified()
+    content.vb: Public Sub PlayerListModified
+  overload: TheInvaders.NetworkLobby.LobbyPlayerList.PlayerListModified*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders.NetworkLobby
+  commentId: N:TheInvaders.NetworkLobby
+  name: TheInvaders.NetworkLobby
+  nameWithType: TheInvaders.NetworkLobby
+  fullName: TheInvaders.NetworkLobby
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList
+  commentId: T:TheInvaders.NetworkLobby.LobbyPlayerList
+  parent: TheInvaders.NetworkLobby
+  name: LobbyPlayerList
+  nameWithType: LobbyPlayerList
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList
+- uid: RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: VerticalLayoutGroup
+  commentId: '!:VerticalLayoutGroup'
+  isExternal: true
+  name: VerticalLayoutGroup
+  nameWithType: VerticalLayoutGroup
+  fullName: VerticalLayoutGroup
+- uid: List{TheInvaders.NetworkLobby.LobbyPlayer}
+  commentId: '!:List{TheInvaders.NetworkLobby.LobbyPlayer}'
+  definition: List`1
+  name: List<LobbyPlayer>
+  nameWithType: List<LobbyPlayer>
+  fullName: List<TheInvaders.NetworkLobby.LobbyPlayer>
+  nameWithType.vb: List(Of LobbyPlayer)
+  fullName.vb: List(Of TheInvaders.NetworkLobby.LobbyPlayer)
+  name.vb: List(Of LobbyPlayer)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TheInvaders.NetworkLobby.LobbyPlayer
+    name: LobbyPlayer
+    nameWithType: LobbyPlayer
+    fullName: TheInvaders.NetworkLobby.LobbyPlayer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TheInvaders.NetworkLobby.LobbyPlayer
+    name: LobbyPlayer
+    nameWithType: LobbyPlayer
+    fullName: TheInvaders.NetworkLobby.LobbyPlayer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.OnEnable*
+  commentId: Overload:TheInvaders.NetworkLobby.LobbyPlayerList.OnEnable
+  name: OnEnable
+  nameWithType: LobbyPlayerList.OnEnable
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.OnEnable
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.DisplayDirectServerWarning*
+  commentId: Overload:TheInvaders.NetworkLobby.LobbyPlayerList.DisplayDirectServerWarning
+  name: DisplayDirectServerWarning
+  nameWithType: LobbyPlayerList.DisplayDirectServerWarning
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.DisplayDirectServerWarning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.AddPlayer*
+  commentId: Overload:TheInvaders.NetworkLobby.LobbyPlayerList.AddPlayer
+  name: AddPlayer
+  nameWithType: LobbyPlayerList.AddPlayer
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.AddPlayer
+- uid: TheInvaders.NetworkLobby.LobbyPlayer
+  commentId: T:TheInvaders.NetworkLobby.LobbyPlayer
+  parent: TheInvaders.NetworkLobby
+  name: LobbyPlayer
+  nameWithType: LobbyPlayer
+  fullName: TheInvaders.NetworkLobby.LobbyPlayer
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.RemovePlayer*
+  commentId: Overload:TheInvaders.NetworkLobby.LobbyPlayerList.RemovePlayer
+  name: RemovePlayer
+  nameWithType: LobbyPlayerList.RemovePlayer
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.RemovePlayer
+- uid: TheInvaders.NetworkLobby.LobbyPlayerList.PlayerListModified*
+  commentId: Overload:TheInvaders.NetworkLobby.LobbyPlayerList.PlayerListModified
+  name: PlayerListModified
+  nameWithType: LobbyPlayerList.PlayerListModified
+  fullName: TheInvaders.NetworkLobby.LobbyPlayerList.PlayerListModified

@@ -25,6 +25,7 @@ items:
     content: 'public class Inventory : MonoBehaviour'
     content.vb: >-
       Public Class Inventory
+
           Inherits MonoBehaviour
   inheritance:
   - System.Object

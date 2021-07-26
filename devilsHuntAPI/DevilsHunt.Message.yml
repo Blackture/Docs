@@ -27,6 +27,7 @@ items:
     content: 'public class Message : MonoBehaviour'
     content.vb: >-
       Public Class Message
+
           Inherits MonoBehaviour
   inheritance:
   - System.Object

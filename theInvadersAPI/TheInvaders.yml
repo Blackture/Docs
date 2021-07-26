@@ -9,10 +9,14 @@ items:
   - TheInvaders.ControlMapping
   - TheInvaders.ControlMapping.UNIT_MODE
   - TheInvaders.GameUUIDManager
+  - TheInvaders.MatchData
+  - TheInvaders.MatchManager
   - TheInvaders.OffMeshLinkMoveMethod
   - TheInvaders.Player
+  - TheInvaders.SerializedMatchData
   - TheInvaders.Storage`1
   - TheInvaders.Trader
+  - TheInvaders.UserData
   langs:
   - csharp
   - vb
@@ -57,6 +61,17 @@ references:
   name: GameUUIDManager
   nameWithType: GameUUIDManager
   fullName: TheInvaders.GameUUIDManager
+- uid: TheInvaders.MatchData
+  commentId: T:TheInvaders.MatchData
+  name: MatchData
+  nameWithType: MatchData
+  fullName: TheInvaders.MatchData
+- uid: TheInvaders.MatchManager
+  commentId: T:TheInvaders.MatchManager
+  parent: TheInvaders
+  name: MatchManager
+  nameWithType: MatchManager
+  fullName: TheInvaders.MatchManager
 - uid: TheInvaders.Player
   commentId: T:TheInvaders.Player
   parent: TheInvaders
@@ -99,11 +114,23 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: TheInvaders.SerializedMatchData
+  commentId: T:TheInvaders.SerializedMatchData
+  parent: TheInvaders
+  name: SerializedMatchData
+  nameWithType: SerializedMatchData
+  fullName: TheInvaders.SerializedMatchData
 - uid: TheInvaders.Trader
   commentId: T:TheInvaders.Trader
   name: Trader
   nameWithType: Trader
   fullName: TheInvaders.Trader
+- uid: TheInvaders.UserData
+  commentId: T:TheInvaders.UserData
+  parent: TheInvaders
+  name: UserData
+  nameWithType: UserData
+  fullName: TheInvaders.UserData
 - uid: TheInvaders
   commentId: N:TheInvaders
   name: TheInvaders

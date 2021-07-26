@@ -23,7 +23,7 @@ items:
   source:
     id: Character
     path: ''
-    startLine: 1232
+    startLine: 2342
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -63,7 +63,7 @@ items:
   source:
     id: armor
     path: ''
-    startLine: 1234
+    startLine: 2344
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -90,7 +90,7 @@ items:
   source:
     id: health
     path: ''
-    startLine: 1235
+    startLine: 2345
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -117,7 +117,7 @@ items:
   source:
     id: maxMoveDistance
     path: ''
-    startLine: 1236
+    startLine: 2346
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -144,7 +144,7 @@ items:
   source:
     id: Armor
     path: ''
-    startLine: 1238
+    startLine: 2348
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -175,7 +175,7 @@ items:
   source:
     id: Health
     path: ''
-    startLine: 1239
+    startLine: 2349
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -206,7 +206,7 @@ items:
   source:
     id: MaxMoveDistance
     path: ''
-    startLine: 1240
+    startLine: 2350
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -237,7 +237,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1242
+    startLine: 2352
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -270,7 +270,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1249
+    startLine: 2359
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders

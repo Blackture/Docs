@@ -18,7 +18,7 @@ items:
   source:
     id: Town
     path: ''
-    startLine: 3363
+    startLine: 4845
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure
@@ -66,7 +66,7 @@ items:
   source:
     id: UnitsQuantity
     path: ''
-    startLine: 3370
+    startLine: 4852
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure
@@ -100,7 +100,7 @@ items:
   source:
     id: Traders
     path: ''
-    startLine: 3374
+    startLine: 4856
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure
@@ -134,7 +134,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3384
+    startLine: 4866
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure

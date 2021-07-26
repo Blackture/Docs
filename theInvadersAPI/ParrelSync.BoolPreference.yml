@@ -1,0 +1,534 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParrelSync.BoolPreference
+  commentId: T:ParrelSync.BoolPreference
+  id: BoolPreference
+  parent: ParrelSync
+  children:
+  - ParrelSync.BoolPreference.#ctor(System.String,System.Boolean)
+  - ParrelSync.BoolPreference.ClearValue
+  - ParrelSync.BoolPreference.defaultValue
+  - ParrelSync.BoolPreference.key
+  - ParrelSync.BoolPreference.Value
+  langs:
+  - csharp
+  - vb
+  name: BoolPreference
+  nameWithType: BoolPreference
+  fullName: ParrelSync.BoolPreference
+  type: Class
+  source:
+    id: BoolPreference
+    path: ''
+    startLine: 1747
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  summary: "\nTo add value caching for <see cref=\"!:EditorPrefs\"></see> functions\n"
+  example: []
+  syntax:
+    content: public class BoolPreference
+    content.vb: Public Class BoolPreference
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ParrelSync.BoolPreference.key
+  commentId: P:ParrelSync.BoolPreference.key
+  id: key
+  parent: ParrelSync.BoolPreference
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: BoolPreference.key
+  fullName: ParrelSync.BoolPreference.key
+  type: Property
+  source:
+    id: key
+    path: ''
+    startLine: 1749
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public string key { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property key As String
+  overload: ParrelSync.BoolPreference.key*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: ParrelSync.BoolPreference.defaultValue
+  commentId: P:ParrelSync.BoolPreference.defaultValue
+  id: defaultValue
+  parent: ParrelSync.BoolPreference
+  langs:
+  - csharp
+  - vb
+  name: defaultValue
+  nameWithType: BoolPreference.defaultValue
+  fullName: ParrelSync.BoolPreference.defaultValue
+  type: Property
+  source:
+    id: defaultValue
+    path: ''
+    startLine: 1750
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public bool defaultValue { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property defaultValue As Boolean
+  overload: ParrelSync.BoolPreference.defaultValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: ParrelSync.BoolPreference.#ctor(System.String,System.Boolean)
+  commentId: M:ParrelSync.BoolPreference.#ctor(System.String,System.Boolean)
+  id: '#ctor(System.String,System.Boolean)'
+  parent: ParrelSync.BoolPreference
+  langs:
+  - csharp
+  - vb
+  name: BoolPreference(String, Boolean)
+  nameWithType: BoolPreference.BoolPreference(String, Boolean)
+  fullName: ParrelSync.BoolPreference.BoolPreference(System.String, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1751
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public BoolPreference(string key, bool defaultValue)
+    parameters:
+    - id: key
+      type: System.String
+    - id: defaultValue
+      type: System.Boolean
+    content.vb: Public Sub New(key As String, defaultValue As Boolean)
+  overload: ParrelSync.BoolPreference.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: ParrelSync.BoolPreference.Value
+  commentId: P:ParrelSync.BoolPreference.Value
+  id: Value
+  parent: ParrelSync.BoolPreference
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: BoolPreference.Value
+  fullName: ParrelSync.BoolPreference.Value
+  type: Property
+  source:
+    id: Value
+    path: ''
+    startLine: 1759
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public bool Value { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Value As Boolean
+  overload: ParrelSync.BoolPreference.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: ParrelSync.BoolPreference.ClearValue
+  commentId: M:ParrelSync.BoolPreference.ClearValue
+  id: ClearValue
+  parent: ParrelSync.BoolPreference
+  langs:
+  - csharp
+  - vb
+  name: ClearValue()
+  nameWithType: BoolPreference.ClearValue()
+  fullName: ParrelSync.BoolPreference.ClearValue()
+  type: Method
+  source:
+    id: ClearValue
+    path: ''
+    startLine: 1779
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  syntax:
+    content: public void ClearValue()
+    content.vb: Public Sub ClearValue
+  overload: ParrelSync.BoolPreference.ClearValue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: ParrelSync
+  commentId: N:ParrelSync
+  name: ParrelSync
+  nameWithType: ParrelSync
+  fullName: ParrelSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ParrelSync.BoolPreference.key*
+  commentId: Overload:ParrelSync.BoolPreference.key
+  name: key
+  nameWithType: BoolPreference.key
+  fullName: ParrelSync.BoolPreference.key
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: ParrelSync.BoolPreference.defaultValue*
+  commentId: Overload:ParrelSync.BoolPreference.defaultValue
+  name: defaultValue
+  nameWithType: BoolPreference.defaultValue
+  fullName: ParrelSync.BoolPreference.defaultValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: ParrelSync.BoolPreference.#ctor*
+  commentId: Overload:ParrelSync.BoolPreference.#ctor
+  name: BoolPreference
+  nameWithType: BoolPreference.BoolPreference
+  fullName: ParrelSync.BoolPreference.BoolPreference
+- uid: ParrelSync.BoolPreference.Value*
+  commentId: Overload:ParrelSync.BoolPreference.Value
+  name: Value
+  nameWithType: BoolPreference.Value
+  fullName: ParrelSync.BoolPreference.Value
+- uid: ParrelSync.BoolPreference.ClearValue*
+  commentId: Overload:ParrelSync.BoolPreference.ClearValue
+  name: ClearValue
+  nameWithType: BoolPreference.ClearValue
+  fullName: ParrelSync.BoolPreference.ClearValue

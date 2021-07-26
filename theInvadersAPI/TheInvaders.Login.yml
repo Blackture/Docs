@@ -8,7 +8,6 @@ items:
   - TheInvaders.Login.LoginEvents
   - TheInvaders.Login.LoginManager
   - TheInvaders.Login.LoginManager.CameraManager
-  - TheInvaders.Login.UserData
   langs:
   - csharp
   - vb
@@ -42,12 +41,6 @@ references:
   name: LoginManager.CameraManager
   nameWithType: LoginManager.CameraManager
   fullName: TheInvaders.Login.LoginManager.CameraManager
-- uid: TheInvaders.Login.UserData
-  commentId: T:TheInvaders.Login.UserData
-  parent: TheInvaders.Login
-  name: UserData
-  nameWithType: UserData
-  fullName: TheInvaders.Login.UserData
 - uid: TheInvaders.Login
   commentId: N:TheInvaders.Login
   name: TheInvaders.Login

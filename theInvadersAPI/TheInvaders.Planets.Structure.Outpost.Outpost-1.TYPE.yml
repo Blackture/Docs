@@ -17,7 +17,7 @@ items:
   source:
     id: TYPE
     path: ''
-    startLine: 3462
+    startLine: 4944
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.Outpost
@@ -47,7 +47,7 @@ items:
   source:
     id: SCIENTIFIC
     path: ''
-    startLine: 3464
+    startLine: 4946
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.Outpost
@@ -77,7 +77,7 @@ items:
   source:
     id: MILITARY
     path: ''
-    startLine: 3465
+    startLine: 4947
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.Outpost

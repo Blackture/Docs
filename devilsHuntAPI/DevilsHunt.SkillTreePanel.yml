@@ -26,6 +26,7 @@ items:
     content: 'public class SkillTreePanel : MonoBehaviour'
     content.vb: >-
       Public Class SkillTreePanel
+
           Inherits MonoBehaviour
   inheritance:
   - System.Object

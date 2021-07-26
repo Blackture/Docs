@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParrelSync
+  commentId: N:ParrelSync
+  id: ParrelSync
+  children:
+  - ParrelSync.BoolPreference
+  - ParrelSync.ClonesManager
+  - ParrelSync.ClonesManagerWindow
+  - ParrelSync.EditorQuit
+  - ParrelSync.ExternalLinks
+  - ParrelSync.FileUtilities
+  - ParrelSync.ParrelSyncAssetModificationProcessor
+  - ParrelSync.Preferences
+  - ParrelSync.Project
+  langs:
+  - csharp
+  - vb
+  name: ParrelSync
+  nameWithType: ParrelSync
+  fullName: ParrelSync
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: ParrelSync.ClonesManager
+  commentId: T:ParrelSync.ClonesManager
+  name: ClonesManager
+  nameWithType: ClonesManager
+  fullName: ParrelSync.ClonesManager
+- uid: ParrelSync.ClonesManagerWindow
+  commentId: T:ParrelSync.ClonesManagerWindow
+  name: ClonesManagerWindow
+  nameWithType: ClonesManagerWindow
+  fullName: ParrelSync.ClonesManagerWindow
+- uid: ParrelSync.ExternalLinks
+  commentId: T:ParrelSync.ExternalLinks
+  name: ExternalLinks
+  nameWithType: ExternalLinks
+  fullName: ParrelSync.ExternalLinks
+- uid: ParrelSync.FileUtilities
+  commentId: T:ParrelSync.FileUtilities
+  name: FileUtilities
+  nameWithType: FileUtilities
+  fullName: ParrelSync.FileUtilities
+- uid: ParrelSync.BoolPreference
+  commentId: T:ParrelSync.BoolPreference
+  parent: ParrelSync
+  name: BoolPreference
+  nameWithType: BoolPreference
+  fullName: ParrelSync.BoolPreference
+- uid: ParrelSync.Preferences
+  commentId: T:ParrelSync.Preferences
+  name: Preferences
+  nameWithType: Preferences
+  fullName: ParrelSync.Preferences
+- uid: ParrelSync.Project
+  commentId: T:ParrelSync.Project
+  parent: ParrelSync
+  name: Project
+  nameWithType: Project
+  fullName: ParrelSync.Project
+- uid: ParrelSync.EditorQuit
+  commentId: T:ParrelSync.EditorQuit
+  name: EditorQuit
+  nameWithType: EditorQuit
+  fullName: ParrelSync.EditorQuit
+- uid: ParrelSync.ParrelSyncAssetModificationProcessor
+  commentId: T:ParrelSync.ParrelSyncAssetModificationProcessor
+  name: ParrelSyncAssetModificationProcessor
+  nameWithType: ParrelSyncAssetModificationProcessor
+  fullName: ParrelSync.ParrelSyncAssetModificationProcessor
+- uid: ParrelSync
+  commentId: N:ParrelSync
+  name: ParrelSync
+  nameWithType: ParrelSync
+  fullName: ParrelSync

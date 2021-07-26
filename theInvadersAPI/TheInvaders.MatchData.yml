@@ -1,0 +1,567 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.MatchData
+  commentId: T:TheInvaders.MatchData
+  id: MatchData
+  parent: TheInvaders
+  children:
+  - TheInvaders.MatchData.DataToQuaternion(System.Double[])
+  - TheInvaders.MatchData.DataToVector3(System.Double[])
+  - TheInvaders.MatchData.EndGame
+  - TheInvaders.MatchData.matchTime
+  - TheInvaders.MatchData.playerPositionsHF
+  - TheInvaders.MatchData.playerTransformsBF
+  - TheInvaders.MatchData.Receive
+  - TheInvaders.MatchData.Send
+  - TheInvaders.MatchData.serializedInstance
+  - TheInvaders.MatchData.unitTransformsBF
+  langs:
+  - csharp
+  - vb
+  name: MatchData
+  nameWithType: MatchData
+  fullName: TheInvaders.MatchData
+  type: Class
+  source:
+    id: MatchData
+    path: ''
+    startLine: 2677
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class MatchData : ScriptableObject
+    content.vb: >-
+      <Serializable>
+
+      Public Class MatchData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.MatchData.serializedInstance
+  commentId: F:TheInvaders.MatchData.serializedInstance
+  id: serializedInstance
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: serializedInstance
+  nameWithType: MatchData.serializedInstance
+  fullName: TheInvaders.MatchData.serializedInstance
+  type: Field
+  source:
+    id: serializedInstance
+    path: ''
+    startLine: 2681
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public SerializedMatchData serializedInstance
+    return:
+      type: TheInvaders.SerializedMatchData
+    content.vb: Public serializedInstance As SerializedMatchData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.MatchData.matchTime
+  commentId: F:TheInvaders.MatchData.matchTime
+  id: matchTime
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: matchTime
+  nameWithType: MatchData.matchTime
+  fullName: TheInvaders.MatchData.matchTime
+  type: Field
+  source:
+    id: matchTime
+    path: ''
+    startLine: 2683
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public double matchTime
+    return:
+      type: System.Double
+    content.vb: Public matchTime As Double
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.MatchData.playerPositionsHF
+  commentId: F:TheInvaders.MatchData.playerPositionsHF
+  id: playerPositionsHF
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: playerPositionsHF
+  nameWithType: MatchData.playerPositionsHF
+  fullName: TheInvaders.MatchData.playerPositionsHF
+  type: Field
+  source:
+    id: playerPositionsHF
+    path: ''
+    startLine: 2685
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public Vector3[] playerPositionsHF
+    return:
+      type: Vector3[]
+    content.vb: Public playerPositionsHF As Vector3()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.MatchData.playerTransformsBF
+  commentId: F:TheInvaders.MatchData.playerTransformsBF
+  id: playerTransformsBF
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: playerTransformsBF
+  nameWithType: MatchData.playerTransformsBF
+  fullName: TheInvaders.MatchData.playerTransformsBF
+  type: Field
+  source:
+    id: playerTransformsBF
+    path: ''
+    startLine: 2687
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public Transform[] playerTransformsBF
+    return:
+      type: Transform[]
+    content.vb: Public playerTransformsBF As Transform()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.MatchData.unitTransformsBF
+  commentId: F:TheInvaders.MatchData.unitTransformsBF
+  id: unitTransformsBF
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: unitTransformsBF
+  nameWithType: MatchData.unitTransformsBF
+  fullName: TheInvaders.MatchData.unitTransformsBF
+  type: Field
+  source:
+    id: unitTransformsBF
+    path: ''
+    startLine: 2689
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public Transform[] unitTransformsBF
+    return:
+      type: Transform[]
+    content.vb: Public unitTransformsBF As Transform()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.MatchData.EndGame
+  commentId: M:TheInvaders.MatchData.EndGame
+  id: EndGame
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: EndGame()
+  nameWithType: MatchData.EndGame()
+  fullName: TheInvaders.MatchData.EndGame()
+  type: Method
+  source:
+    id: EndGame
+    path: ''
+    startLine: 2691
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public void EndGame()
+    content.vb: Public Sub
+  overload: TheInvaders.MatchData.EndGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.MatchData.Send
+  commentId: M:TheInvaders.MatchData.Send
+  id: Send
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: Send()
+  nameWithType: MatchData.Send()
+  fullName: TheInvaders.MatchData.Send()
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 2700
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public void Send()
+    content.vb: Public Sub Send
+  overload: TheInvaders.MatchData.Send*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.MatchData.Receive
+  commentId: M:TheInvaders.MatchData.Receive
+  id: Receive
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: Receive()
+  nameWithType: MatchData.Receive()
+  fullName: TheInvaders.MatchData.Receive()
+  type: Method
+  source:
+    id: Receive
+    path: ''
+    startLine: 2716
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public async Task<bool> Receive()
+    return:
+      type: Task{System.Boolean}
+    content.vb: Public Function Receive As Task(Of Boolean)
+  overload: TheInvaders.MatchData.Receive*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.MatchData.DataToQuaternion(System.Double[])
+  commentId: M:TheInvaders.MatchData.DataToQuaternion(System.Double[])
+  id: DataToQuaternion(System.Double[])
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: DataToQuaternion(Double[])
+  nameWithType: MatchData.DataToQuaternion(Double[])
+  fullName: TheInvaders.MatchData.DataToQuaternion(System.Double[])
+  type: Method
+  source:
+    id: DataToQuaternion
+    path: ''
+    startLine: 2820
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static Quaternion DataToQuaternion(double[] quaternion)
+    parameters:
+    - id: quaternion
+      type: System.Double[]
+    return:
+      type: Quaternion
+    content.vb: Public Shared Function DataToQuaternion(quaternion As Double()) As Quaternion
+  overload: TheInvaders.MatchData.DataToQuaternion*
+  nameWithType.vb: MatchData.DataToQuaternion(Double())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TheInvaders.MatchData.DataToQuaternion(System.Double())
+  name.vb: DataToQuaternion(Double())
+- uid: TheInvaders.MatchData.DataToVector3(System.Double[])
+  commentId: M:TheInvaders.MatchData.DataToVector3(System.Double[])
+  id: DataToVector3(System.Double[])
+  parent: TheInvaders.MatchData
+  langs:
+  - csharp
+  - vb
+  name: DataToVector3(Double[])
+  nameWithType: MatchData.DataToVector3(Double[])
+  fullName: TheInvaders.MatchData.DataToVector3(System.Double[])
+  type: Method
+  source:
+    id: DataToVector3
+    path: ''
+    startLine: 2824
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static Vector3 DataToVector3(double[] vector3)
+    parameters:
+    - id: vector3
+      type: System.Double[]
+    return:
+      type: Vector3
+    content.vb: Public Shared Function DataToVector3(vector3 As Double()) As Vector3
+  overload: TheInvaders.MatchData.DataToVector3*
+  nameWithType.vb: MatchData.DataToVector3(Double())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: TheInvaders.MatchData.DataToVector3(System.Double())
+  name.vb: DataToVector3(Double())
+references:
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.SerializedMatchData
+  commentId: T:TheInvaders.SerializedMatchData
+  parent: TheInvaders
+  name: SerializedMatchData
+  nameWithType: SerializedMatchData
+  fullName: TheInvaders.SerializedMatchData
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Transform[]
+  isExternal: true
+  name: Transform[]
+  nameWithType: Transform[]
+  fullName: Transform[]
+  nameWithType.vb: Transform()
+  fullName.vb: Transform()
+  name.vb: Transform()
+  spec.csharp:
+  - uid: Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TheInvaders.MatchData.EndGame*
+  commentId: Overload:TheInvaders.MatchData.EndGame
+  name: EndGame
+  nameWithType: MatchData.EndGame
+  fullName: TheInvaders.MatchData.EndGame
+- uid: TheInvaders.MatchData.Send*
+  commentId: Overload:TheInvaders.MatchData.Send
+  name: Send
+  nameWithType: MatchData.Send
+  fullName: TheInvaders.MatchData.Send
+- uid: TheInvaders.MatchData.Receive*
+  commentId: Overload:TheInvaders.MatchData.Receive
+  name: Receive
+  nameWithType: MatchData.Receive
+  fullName: TheInvaders.MatchData.Receive
+- uid: Task{System.Boolean}
+  commentId: '!:Task{System.Boolean}'
+  definition: Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.MatchData.DataToQuaternion*
+  commentId: Overload:TheInvaders.MatchData.DataToQuaternion
+  name: DataToQuaternion
+  nameWithType: MatchData.DataToQuaternion
+  fullName: TheInvaders.MatchData.DataToQuaternion
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Quaternion
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Quaternion
+- uid: TheInvaders.MatchData.DataToVector3*
+  commentId: Overload:TheInvaders.MatchData.DataToVector3
+  name: DataToVector3
+  nameWithType: MatchData.DataToVector3
+  fullName: TheInvaders.MatchData.DataToVector3
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3

@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: ParrelSync.ClonesManagerWindow
+  commentId: T:ParrelSync.ClonesManagerWindow
+  id: ClonesManagerWindow
+  parent: ParrelSync
+  children:
+  - ParrelSync.ClonesManagerWindow.isCloneCreated
+  langs:
+  - csharp
+  - vb
+  name: ClonesManagerWindow
+  nameWithType: ClonesManagerWindow
+  fullName: ParrelSync.ClonesManagerWindow
+  type: Class
+  source:
+    id: ClonesManagerWindow
+    path: ''
+    startLine: 1505
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  summary: "\nClones manager Unity editor window\n"
+  example: []
+  syntax:
+    content: 'public class ClonesManagerWindow : EditorWindow'
+    content.vb: >-
+      Public Class ClonesManagerWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: ParrelSync.ClonesManagerWindow.isCloneCreated
+  commentId: P:ParrelSync.ClonesManagerWindow.isCloneCreated
+  id: isCloneCreated
+  parent: ParrelSync.ClonesManagerWindow
+  langs:
+  - csharp
+  - vb
+  name: isCloneCreated
+  nameWithType: ClonesManagerWindow.isCloneCreated
+  fullName: ParrelSync.ClonesManagerWindow.isCloneCreated
+  type: Property
+  source:
+    id: isCloneCreated
+    path: ''
+    startLine: 1510
+  assemblies:
+  - cs.temp.dll
+  namespace: ParrelSync
+  summary: "\nReturns true if project clone exists.\n"
+  example: []
+  syntax:
+    content: public bool isCloneCreated { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isCloneCreated As Boolean
+  overload: ParrelSync.ClonesManagerWindow.isCloneCreated*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: ParrelSync
+  commentId: N:ParrelSync
+  name: ParrelSync
+  nameWithType: ParrelSync
+  fullName: ParrelSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ParrelSync.ClonesManagerWindow.isCloneCreated*
+  commentId: Overload:ParrelSync.ClonesManagerWindow.isCloneCreated
+  name: isCloneCreated
+  nameWithType: ClonesManagerWindow.isCloneCreated
+  fullName: ParrelSync.ClonesManagerWindow.isCloneCreated
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

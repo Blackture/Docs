@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.MatchManager
+  commentId: T:TheInvaders.MatchManager
+  id: MatchManager
+  parent: TheInvaders
+  children:
+  - TheInvaders.MatchManager.instance
+  - TheInvaders.MatchManager.matchesCollection
+  langs:
+  - csharp
+  - vb
+  name: MatchManager
+  nameWithType: MatchManager
+  fullName: TheInvaders.MatchManager
+  type: Class
+  source:
+    id: MatchManager
+    path: ''
+    startLine: 2841
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: 'public class MatchManager : MonoBehaviour'
+    content.vb: >-
+      Public Class MatchManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.MatchManager.instance
+  commentId: F:TheInvaders.MatchManager.instance
+  id: instance
+  parent: TheInvaders.MatchManager
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: MatchManager.instance
+  fullName: TheInvaders.MatchManager.instance
+  type: Field
+  source:
+    id: instance
+    path: ''
+    startLine: 2843
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static MatchManager instance
+    return:
+      type: TheInvaders.MatchManager
+    content.vb: Public Shared instance As MatchManager
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: TheInvaders.MatchManager.matchesCollection
+  commentId: F:TheInvaders.MatchManager.matchesCollection
+  id: matchesCollection
+  parent: TheInvaders.MatchManager
+  langs:
+  - csharp
+  - vb
+  name: matchesCollection
+  nameWithType: MatchManager.matchesCollection
+  fullName: TheInvaders.MatchManager.matchesCollection
+  type: Field
+  source:
+    id: matchesCollection
+    path: ''
+    startLine: 2845
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public static IMongoCollection<BsonDocument> matchesCollection
+    return:
+      type: IMongoCollection{BsonDocument}
+    content.vb: Public Shared matchesCollection As IMongoCollection(Of BsonDocument)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.MatchManager
+  commentId: T:TheInvaders.MatchManager
+  parent: TheInvaders
+  name: MatchManager
+  nameWithType: MatchManager
+  fullName: TheInvaders.MatchManager
+- uid: IMongoCollection{BsonDocument}
+  commentId: '!:IMongoCollection{BsonDocument}'
+  definition: IMongoCollection`1
+  name: IMongoCollection<BsonDocument>
+  nameWithType: IMongoCollection<BsonDocument>
+  fullName: IMongoCollection<BsonDocument>
+  nameWithType.vb: IMongoCollection(Of BsonDocument)
+  fullName.vb: IMongoCollection(Of BsonDocument)
+  name.vb: IMongoCollection(Of BsonDocument)
+  spec.csharp:
+  - uid: IMongoCollection`1
+    name: IMongoCollection
+    nameWithType: IMongoCollection
+    fullName: IMongoCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BsonDocument
+    name: BsonDocument
+    nameWithType: BsonDocument
+    fullName: BsonDocument
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IMongoCollection`1
+    name: IMongoCollection
+    nameWithType: IMongoCollection
+    fullName: IMongoCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BsonDocument
+    name: BsonDocument
+    nameWithType: BsonDocument
+    fullName: BsonDocument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IMongoCollection`1
+  commentId: '!:IMongoCollection`1'
+  isExternal: true
+  name: IMongoCollection<>
+  nameWithType: IMongoCollection<>
+  fullName: IMongoCollection<>
+  nameWithType.vb: IMongoCollection(Of )
+  fullName.vb: IMongoCollection(Of )
+  name.vb: IMongoCollection(Of )
+  spec.csharp:
+  - uid: IMongoCollection`1
+    name: IMongoCollection
+    nameWithType: IMongoCollection
+    fullName: IMongoCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IMongoCollection`1
+    name: IMongoCollection
+    nameWithType: IMongoCollection
+    fullName: IMongoCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

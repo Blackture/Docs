@@ -1,15 +1,27 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/patri/Downloads/docfx/~Desktop/Docs",
+  "source_base_path": "C:/Users/patri/Desktop/docfx/~Desktop/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "oEJOhvjEZ0V7PDk/irmw5IDfV7YEd2bzZumifkGz1hc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
     {
       "type": "Toc",
       "source_relative_path": "References/toc.yml",
       "output": {
         ".html": {
           "relative_path": "References/toc.html",
-          "hash": "YUAM9L+cu2qaVAvFkgnRlQ/0uS9ope8aUVevMRE+a5c="
+          "hash": "uAm6C2RBC4BOytcTozMZhfpUO2fBLYL212GYMJQxqWg="
         }
       },
       "is_incremental": false,
@@ -21,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/devilsHunt/get_started.html",
-          "hash": "1sMeIRv3M8U9sjdr5naNXZks5jLdAsJ9I+RfNtjHxlM="
+          "hash": "yWzyImI4zwwLyPhqC5dbzPq5kpJel+plv9zlsROghS4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "RrQubaE0qtN5woEq48tu9/d1YIniK7ywZ2cabTHo6y4="
+          "hash": "il1covK9UN6E8OQfNiM0YaSJaskGOKfHvkXbsfdSaPc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/planningTool/get_started.html",
-          "hash": "50lhQBB1E6zpG/QexP2/tUrq/rWicNHRTpaUPpp/dRw="
+          "hash": "n3GJ8VjYk0HMlp3wZzhXTXHjBRGBGNgrCdvJQRgmFYk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/theInvaders/get_started.html",
-          "hash": "jqLUHf3T5Y4RwF610wZ5WqDtzDcGgd3WLPyZyq93bf4="
+          "hash": "ohaSgH68pkvf9R0Ar/0/IIlox+simYpi7XE8uT56MNw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Cg5/NjJOXUHOoGi2BhmKeU/eEcacjJ8yrEoGnDxnacU="
+          "hash": "9sJPDocod3aKdMvqertra34HfpFgs/XL4FiEQMnj/xA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Form1.TYPE.html",
-          "hash": "9YPDg1z2BWKuw7enRKQRctJ00mucA5ubhVUX29RVXgg="
+          "hash": "ugSJh27VGpGsWGspfVsa+Dt1gto6YVv+uErBIFltQJM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Form1.html",
-          "hash": "Rai9USyqN4wk16RtquvbhzwFxbR4n9ZBUg9j7soZ1Mg="
+          "hash": "0CBrCmq5VEsNqCjq39JLIV1Wl60SBaDNxjG+IqYNd3g="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +393,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.AddLicense.html",
-          "hash": "O1c3TPWhsFzsisdCSPiSQzkpSCz59gRCzUno9W6vFhY="
+          "hash": "sRRTmur5od0ZsCl2zsZOnborTxyssa9DXwEqPGtTqCM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -393,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.EditLicense.html",
-          "hash": "knS5T0jho8N337pNn8v060W/JtFgkjAK4q2b88FEN/M="
+          "hash": "RzsgDKoGQQL8kZPYcEqLz7Dkb6qMNgP6mXp3PclCesk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.License.html",
-          "hash": "EMOD1w9LeeE1IdzmAASH+Y63rYcU1epWSQZAlGDtbI4="
+          "hash": "dy/+Q4uQLDp6qjYV7xpkan0mMnPkcQu+0NwtFxALk9o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.Login.html",
-          "hash": "GIbl46LOzO7zPPsBFcXu4zgW/y6oD9pQ/1z7yXYEoMM="
+          "hash": "6r+m8Aii1l6KxwrGvge+RNg/J1101Ed7b5acntWHhms="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.Project.html",
-          "hash": "PIkJYb/oNr5qnDesub7ZfcvE1vjilVkhSyzYlYB/Rd4="
+          "hash": "6np+1tcjQaz3O7XhrZCkp8PT8x//O+e/wp+OKU77uQ4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +453,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.RemoveLicense.html",
-          "hash": "SMUin6Qp/5DSUJf0pjkOu7THXxugt+d3THU/7/SkX8A="
+          "hash": "BqgFBZBCtx3nR3TtHbH315FPbNfDnbU5EmEDLRHGx8s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.User.html",
-          "hash": "LuHM3Wm5dBP+T8D2i7wVk+NqcS2JN9D3b35pGAXIf+A="
+          "hash": "TJ6EnWeJpDYHDoZEILVYjTvNx052UcSIqyEsiVeD3UA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -468,7 +480,7 @@
           "hash": "L2p1rOhAUi+soX7KUt/vtu5bgJfPxe54hVkK8CTN1Xg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Saver-1.html",
-          "hash": "HE38hUg2LwnHBzq/01b8q1i8NKtHYcyg5sN4u1FW3lU="
+          "hash": "gCUeTRudZUOTuM1u5iVtli+75VvNkoy1vk5zSkf9rE0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.AddFilm.html",
-          "hash": "k1zdQJUeNhS+wFto0A+yTqCrP5AI0Zu5qJNr1yukVkw="
+          "hash": "xyo/61LcrrTcbg05aUewA7bvR2i4oOeNjxHs+G9nK3Y="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.AddGenre.html",
-          "hash": "gx0e2E5L+e9aQtsyOph49d4MP6TDSzIBGplet7D0A3Q="
+          "hash": "9CaZYrWbODdEXVJ3PiUonPFvywkvMt6sGz1Cu8+OlIE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.EditByID.html",
-          "hash": "85AJ5VhbzSafbp39AetnA17d84s3wJb9/p1QrCHvyBs="
+          "hash": "m6uozi13qxLbqyBMUesrqkHbVOm3UDQSSXE0BG1Ot00="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +537,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.Film.F_GENRE.html",
-          "hash": "KudZmqoCLF2BHxG/GUNx5frHohRDTxoQ3m/C1+o0tUQ="
+          "hash": "ZeTT4JUGJgjNG0/pgVmwVwi18a8vhQOkxvgnIegbJn4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -537,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.Film.html",
-          "hash": "mky6wnzO7pDQXK4BO0Lmryiig7tm27cAmWp/fgb7Ad4="
+          "hash": "FFlOifOmn4AkR8R67TO0xjSEucmyzhJC05VkRZcyI2w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -549,10 +561,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.RemFilm.html",
-          "hash": "qqIqpFMACLT9So//DdP/8eOnf8j/ruUq1T67zFHYY6E="
+          "hash": "62hSZa5QgHfPN7epDz0GVZi9DbuyMwr01NeKPwSzBHA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -561,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.RemGenre.html",
-          "hash": "VrsVqXEuTcoCXCUW/0UmUpE1giKM9zVnAW06ZHriDAE="
+          "hash": "2CbVs1CGfRon/u5Yi90ae9lEZ9JRKvhSrTCOHHJSEV8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -573,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.Storage.html",
-          "hash": "YJ+iznCeRhadrFQqSOVUt6dqmIVn+3R3oSa2RJnZz10="
+          "hash": "wwoSOnQ7/0HrdfGaUeS6fw3k1oAWg4eM9xUrs+AIwpg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -585,10 +597,10 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.StorageItem.html",
-          "hash": "TzXl8iDtHPXthl7m/vESpTfCocFRiUHRl/Yjc1VTtno="
+          "hash": "jorERkIsM7FIfWwkVBmQOaVnKilIu9Ri6jqUOH2WXHc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -600,7 +612,7 @@
           "hash": "vuRIseVyYH2aHfaaesCbWMPNTX5uFC6CT+eFk3c+n0A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -612,7 +624,7 @@
           "hash": "W6rsX4KKMn7PnxHXfXyw+O8qRFAvc3nuXD4G978DMCU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -621,142 +633,202 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/index.html",
-          "hash": "uhjceZzK+ym2ptJ1JJ9IjXNENKe8KaTNm5dHVIJZEpk="
+          "hash": "CeFYemKrELULtxxbYuuL5QhuKJYncj975pbGA8qBroM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.DraggablePanel.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.BoolPreference.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.DraggablePanel.html",
-          "hash": "iJQ7Bq0k59z37hrBC9mafwsGOdOy9K6e1Am4bnbtPdk="
+          "relative_path": "theInvadersAPI/ParrelSync.BoolPreference.html",
+          "hash": "SvaM2Q5ELYQwENEHiXMGhdN7A9z0L3ykH/9ddJRxgrU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyCountdownPanel.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.ClonesManager.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyCountdownPanel.html",
-          "hash": "swAbH8MqKgEZTuHN/9+JZOP73YojxzKabe++daLWeIU="
+          "relative_path": "theInvadersAPI/ParrelSync.ClonesManager.html",
+          "hash": "Xjs+pvp9+0RCnXii63TKKlkzzN056syDi+WitHX979A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyHook.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.ClonesManagerWindow.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyHook.html",
-          "hash": "V4GD3dppmSRolGinH1lb0xue3iEmAZHhpWgGxYH8Iog="
+          "relative_path": "theInvadersAPI/ParrelSync.ClonesManagerWindow.html",
+          "hash": "/1+vCect8yMo79WFuWwTnTU5fp/ohud8q+UxQqGCfzk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyInfoPanel.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.EditorQuit.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyInfoPanel.html",
-          "hash": "OkKKpK/EuXcJYCHjP+bvsLAebb+FabT/rbz920ejjjI="
+          "relative_path": "theInvadersAPI/ParrelSync.EditorQuit.html",
+          "hash": "VhUpYOMtZdJ3zloYhN2ysRoj5HcGZnLcV1jE2yGxgOs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyMainMenu.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.ExternalLinks.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyMainMenu.html",
-          "hash": "RcCWmroWH09DidHZ1isoTGFs8xxWNy5rLzAYMlhrjxQ="
+          "relative_path": "theInvadersAPI/ParrelSync.ExternalLinks.html",
+          "hash": "dnjkVryK3mcRRFEx0rS4l5t4ISOqgVFtJ3XfGdMJmhU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyPlayer.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.FileUtilities.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyPlayer.html",
-          "hash": "vAy4vYKmB/5dF/TfsSL1EBn4uc5J1XeZEY1UGaSrdMM="
+          "relative_path": "theInvadersAPI/ParrelSync.FileUtilities.html",
+          "hash": "aEvEAqfNkP/70dgn0z8w/u9IvuiEhFmKpMWruXkSbUU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyPlayerList.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.NonCore.AskFeedbackDialog.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyPlayerList.html",
-          "hash": "n6Ry3A+mXVJg3snvj8tjoEx12zoIUdzVFJVUJG/YC/Y="
+          "relative_path": "theInvadersAPI/ParrelSync.NonCore.AskFeedbackDialog.html",
+          "hash": "AYBiZ70JsBfKuY0OpqnAGo9we4lmAmGNuR1O9LzKAf4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyServerEntry.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.NonCore.OtherMenuItem.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyServerEntry.html",
-          "hash": "mc+zQ0+fISip0kDcAEYTp6a4l9iwc+KA4G8+woTf2n8="
+          "relative_path": "theInvadersAPI/ParrelSync.NonCore.OtherMenuItem.html",
+          "hash": "r00h28Xcy/8s6u5LGD7Bf4ka9JjmMRpc2hQfusLg23A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyServerList.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.NonCore.ValidateCopiedFoldersIntegrity.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyServerList.html",
-          "hash": "1ukhSYSRlhHMl4XpdXo00qJaumzECjv/9D4n9kg0QxQ="
+          "relative_path": "theInvadersAPI/ParrelSync.NonCore.ValidateCopiedFoldersIntegrity.html",
+          "hash": "kBE/5zPnhRmQyG/KmZYuyjD47doBuNXtHjeKJz1BCSM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyTopPanel.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.NonCore.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.LobbyTopPanel.html",
-          "hash": "XXdlGbR+8QHQm6awdbOc5YVweh2Z4O1bCRQ0IwIEAbw="
+          "relative_path": "theInvadersAPI/ParrelSync.NonCore.html",
+          "hash": "9iv6SBf+4AQSw+qpNqS/nesv5U4oRVAHdp6nDcRjiBc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/Prototype.NetworkLobby.yml",
+      "source_relative_path": "theInvadersAPI/ParrelSync.ParrelSyncAssetModificationProcessor.yml",
       "output": {
         ".html": {
-          "relative_path": "theInvadersAPI/Prototype.NetworkLobby.html",
-          "hash": "9cKgeQ/MZHvs0kXAUXdAMJQisUNAF0nYl+yJFt7A2Yg="
+          "relative_path": "theInvadersAPI/ParrelSync.ParrelSyncAssetModificationProcessor.html",
+          "hash": "znYfVqAgDnGh8AwGuekGn+00/qiJL6Wrz5Uo3zuitlg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/ParrelSync.Preferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/ParrelSync.Preferences.html",
+          "hash": "TTTsJSISyHhqd9onBWEk3CMSXEwMZzkayHKRuuSP160="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/ParrelSync.Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/ParrelSync.Project.html",
+          "hash": "vDGHQGiOdDFCSNI9ADlsQHCOmhkD4mWNIYn5vzilrx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/ParrelSync.Update.UpdateChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/ParrelSync.Update.UpdateChecker.html",
+          "hash": "vuGrORFq1xydm/SLOypJObIWc0esRxOYJOoi1LUzfkQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/ParrelSync.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/ParrelSync.Update.html",
+          "hash": "OCNAwVQio63lq1CpaYfevXod6TITWOW+iYn2SMd7Dag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/ParrelSync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/ParrelSync.html",
+          "hash": "2JY+lxCceT3fIDAkh/IPNCV3C44ZSkwXovMQLSHfoRY="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -768,7 +840,7 @@
           "hash": "CahO7LKQ9V7aNAV2aespczpk3O9iJWZdCeCN0nG98QY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -780,7 +852,7 @@
           "hash": "ZYbkJ6jmiXTRSSaDLk8aCIPk1GzYEWyj+LDfCFLUCoo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -792,7 +864,7 @@
           "hash": "oOQG30SNlWIYjVdcwBqVSD1R1aoq4M/hWTujsxLkYCQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -804,7 +876,7 @@
           "hash": "12TCzyN/2zKKn7MyHTaqVQ5KkFNhQ0X8xxuYbC/8z0A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -816,7 +888,7 @@
           "hash": "LrNXE6aNz3gTt61XQWobgVp3GhXyOw5le9C0ic5tNC0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -828,7 +900,7 @@
           "hash": "tgwjdSVTQ/0/BU7dm6ckLOc9boVoltNDs6D51M5c+jY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -840,7 +912,7 @@
           "hash": "AoAbplBGIDijVLRRH3wXJmHlTp5+rEQxHOjbpwYnX6k="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -852,7 +924,7 @@
           "hash": "70O/+TaTN1rtonExiYPMWom9cd6t11xyz42nvuvV5CU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -861,10 +933,10 @@
       "output": {
         ".html": {
           "relative_path": "theInvadersAPI/TheInvaders.GameUUIDManager.html",
-          "hash": "yTXq6XW4Em9DSI4kJ8MRWDHcqKabho2psoTPhffMvpI="
+          "hash": "2Pk9I4Z+O4IgKytRjv3PmuV/G20VASdO9UvVrHnhfII="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -876,7 +948,7 @@
           "hash": "mW2I056lqhoPnCe3ch2HznI3QErE3/WHdRNZwFbHMTA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -888,7 +960,7 @@
           "hash": "IO0aoH9q2HBjN6isJXBtDn8Wef4F3YXTXYUYt+N5KjI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -900,7 +972,7 @@
           "hash": "6HC29MEIRjt8LxErfwH+K9AN+pR2Fbu7Jnk+UXIH4Hg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -912,7 +984,7 @@
           "hash": "u2cT3pZPv6iwz4iNpq+KE2XbafI6KikQivX7MwHi3E4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -924,7 +996,7 @@
           "hash": "IgSdXsGqaTymSpjAeC7pYqtIodJk157MoQ5Fcl8I2ac="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -936,7 +1008,7 @@
           "hash": "ODSevk5xwca2PVEWaPn39yE2C9IIBcTmbFEGT7X7KUk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -948,7 +1020,7 @@
           "hash": "zRyNemn/8Ki/ebAghviX8V0sda/7lcN1ZlbPrI5KYpg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -960,7 +1032,7 @@
           "hash": "Uj41ARldl5m9/4/L2VXSR4gHaWq57Y0KTOuXhdr6gmI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -972,7 +1044,7 @@
           "hash": "h5Sd/scP3voG6tkjjdKwxD329EV1mEXfxNEXKXf8zWk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -984,7 +1056,7 @@
           "hash": "K7fnsOLvSHTiXpPAXawN9T9y+hD1Zde4oiEu1FC+XX4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -996,7 +1068,7 @@
           "hash": "S8YSYGeMYD+zJQ9O7ueXYMn3fTTd+dTQJe0m71xdea8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1008,19 +1080,7 @@
           "hash": "mA5ZdyCs8i75NBdyt+GPHUNUXFRcJGYIvMHtj7FrwXg="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "theInvadersAPI/TheInvaders.Login.UserData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "theInvadersAPI/TheInvaders.Login.UserData.html",
-          "hash": "/fTlBCp6sxMIiIFOpUi1UcXC13omC30hwZxyxLwevTg="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1029,10 +1089,190 @@
       "output": {
         ".html": {
           "relative_path": "theInvadersAPI/TheInvaders.Login.html",
-          "hash": "CB8ZIVqEZS8YJL6d+cEUtcs0yswf4lYfTjd73s3Bpuk="
+          "hash": "4ju+2r3SUo/j3WmSWP+ATFYkKUIOtn1/4J7C8IndAqI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.MatchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.MatchData.html",
+          "hash": "YgN4GlE7Z128pU9YLYCJpW4Mf5ldrmKEsESdR7i7kkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.MatchManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.MatchManager.html",
+          "hash": "5hfIvmvPLFD6xpAekA4E+Hn6pwWWYa8Qbm4oNXR5exA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.DraggablePanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.DraggablePanel.html",
+          "hash": "RfnxqG8jW7EpL5zAtkrOLcCF5G2HypOv7AvbK3L8ako="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyCountdownPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyCountdownPanel.html",
+          "hash": "MYb1wShGlPcWPXuBYFdQariF5kfPY7S2HsVMEu7A6D0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyHook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyHook.html",
+          "hash": "nuy4boOQaPpZ5ecpJ/+FyoQCVhIjvufQrrDwwnMgAoA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyInfoPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyInfoPanel.html",
+          "hash": "dUk7/rjq9yJdwi4d6pqGNs9kkLWfV65NBWy+qen1pHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyMainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyMainMenu.html",
+          "hash": "6DEJN3L4Ifzm7OfFTA3axMeHGsxWtfi2vw69C+RUsqU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyManager.BackButtonDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyManager.BackButtonDelegate.html",
+          "hash": "wrdqdWOedOfLrgkxjJwGCYFs5Ax5ZqIhSni8o+Any8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyManager.html",
+          "hash": "Ik8/Pr03axzVepN1N7tFDG3/OyDLpqhbcZFf9lq81qk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyPlayer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyPlayer.html",
+          "hash": "womgWTHSKAVVMN9nZqEHNew6/iyJO6Nng02LDcgXwgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyPlayerList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyPlayerList.html",
+          "hash": "xAaMQIcUklq9+QkjX3Nk1lixuoGvHqRM2eV+J4VLpeE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyServerEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyServerEntry.html",
+          "hash": "8D5Qh3nigEo87O/rzdYxv2RGa46u7uUrqoPT9nIYqXE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyServerList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyServerList.html",
+          "hash": "rOxKkyr0Tc1GSmXy2ikmnBf19F2CDI1luM2LH/OjZ2Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyTopPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.LobbyTopPanel.html",
+          "hash": "CxKlB75BQl0HnbsmNrVH2uPUbYLCG7Pn/k0lwN5IQgk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.NetworkLobby.html",
+          "hash": "S6Q1uBy0Ue39wYndJp9Y823M/MCCT52vgI7qZtp2f0A="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1044,7 +1284,7 @@
           "hash": "9wOsOV70Nb0R/vI3MEwUBgnLiTX3pTIq2MfulK2SZyI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1056,7 +1296,7 @@
           "hash": "mYRmx1TCyhFP2cCrCVQCyCbg0pbl38t3PmYF9x+6ZRY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1068,7 +1308,7 @@
           "hash": "YH7Xc2JRcdkumQY3lDwkYgQ3Nd4gVbG8KY3uo1ypl1o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1080,7 +1320,7 @@
           "hash": "xQqPlaXkvOy+SSZQkgAv+jcjDm5z7q/d0VtdSHwF6RU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1092,7 +1332,7 @@
           "hash": "JMuOSV5uMeywm3Ue7+eDMKvsp/3ueTd3ixI32+pQ/i8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1104,7 +1344,7 @@
           "hash": "6dXBV6jde2+IWrNYlNRulmQf+Yw8IGJF0UvuxalEr8U="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1116,7 +1356,7 @@
           "hash": "itC7it10ORtgw0XIhylSrJZy5AmyVpJY3+DDOKH0XR0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1128,7 +1368,7 @@
           "hash": "vpLFaIKZGV9RZomK83Znnv8/s5FGQdoJmrfE6G7fdNk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1140,7 +1380,7 @@
           "hash": "YtsVeavn7S8dz/QCLziNKPJWuTfT9aRfG9CxNAq87qY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1152,7 +1392,7 @@
           "hash": "74E00XbR5j1J7OGZEDgai0QbBFGy6LWtYZiy+HwsddU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1164,7 +1404,7 @@
           "hash": "OzOen+9wayCBridvTrNvXYTxVRmpJP3ZHK4lk0w5asE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1176,7 +1416,7 @@
           "hash": "qXyG4s0CT5chgzSqjoXFoiiYKOG8gGx6pD8LgssPbZQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1188,7 +1428,7 @@
           "hash": "YFaD+MfmOmUsK8+6Z6HQqC7JkzGhD0wFIdwyVegsAnA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1200,7 +1440,7 @@
           "hash": "8OaGWwyk0Zap11M/GXsN3VxKtLNAWWkKAFRlGyqQalM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1212,7 +1452,7 @@
           "hash": "59L2Voy3hQ0H2Fy+cMXcrS+cAO0sZdcqAb7tOxrrlIY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1224,7 +1464,7 @@
           "hash": "EYGQGf+B48k2GAJAPFfhkCeqr78nHWVoKFRLuQchrs4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1236,7 +1476,7 @@
           "hash": "s1RCNfGgX970N9wNcsaR+nCfeCWEAUXDkEu0Tjopj+A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1248,7 +1488,7 @@
           "hash": "oeBcdNJMa6+vEZyu/gS4XhOSgD91QhLQIToTh++9s+o="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1260,7 +1500,7 @@
           "hash": "LiY9ofR+Ts3XpJiVnX/MOozPBZNqzjt7165EqSw5FTU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1272,7 +1512,7 @@
           "hash": "EtWKoP7Mwb59sTMwEPnQt19eewkby4vge/r5psm4W0k="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1284,7 +1524,7 @@
           "hash": "AeUNITAeUiTcBFW9+glsIMQdSunnM1X1hi/2kqgAoN0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1296,7 +1536,7 @@
           "hash": "CrXGdbdd2HP9QPFM+07ANrheImgOeJjU3cL/VG57An8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1308,7 +1548,7 @@
           "hash": "uS91sVkRjOeYLJLOYAAJbEaeh1A3qhoxqhGwDZ9L9o8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1320,7 +1560,7 @@
           "hash": "H08dt6KzH4gSOq5w+VMIrCSTMqAbbUHOHsf72CpvveM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1332,7 +1572,19 @@
           "hash": "brCbLWrLGuZ9jV/F4TSP+pll8+9KnTF3k3Ul8j79ku8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.SerializedMatchData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.SerializedMatchData.html",
+          "hash": "KRkmHdwL9s/vCjocu3DgZkjfaA0HMFhmOHpIEEsAjlM="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1344,7 +1596,7 @@
           "hash": "baqsN95HqPDJHZWG/1M9tndc0qFEIhSMYsFzo6DazvE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1356,7 +1608,19 @@
           "hash": "K464OUBhGGaucRbv0kiOkhrsv6OrwmUt68CK/WYw/Rk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "theInvadersAPI/TheInvaders.UserData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "theInvadersAPI/TheInvaders.UserData.html",
+          "hash": "9fqDLtrMApS6s7G7svx+dwO6RFtjFC3AVpF4GDxcilE="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1365,10 +1629,10 @@
       "output": {
         ".html": {
           "relative_path": "theInvadersAPI/TheInvaders.html",
-          "hash": "JCj8sUTSmCkFZiI0AimM1OeRy6eDj8Ob+ZMEPybvj4k="
+          "hash": "MJrzANe/cOOFh7oDzq6Gl0vWqUVOU6q9ObEaREFmSRs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1387,23 +1651,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 6
+          "total_file_count": 7,
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 107,
-          "skipped_file_count": 84
+          "total_file_count": 128,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
@@ -1416,8 +1682,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

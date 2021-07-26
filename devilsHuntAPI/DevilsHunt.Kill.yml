@@ -31,6 +31,7 @@ items:
       <Serializable>
 
       Public Class Kill
+
           Implements IKill
   inheritance:
   - System.Object

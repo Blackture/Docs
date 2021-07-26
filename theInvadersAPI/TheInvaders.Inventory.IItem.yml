@@ -18,7 +18,7 @@ items:
   source:
     id: IItem
     path: ''
-    startLine: 2192
+    startLine: 3754
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -45,7 +45,7 @@ items:
   source:
     id: Icon
     path: ''
-    startLine: 2194
+    startLine: 3756
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -74,7 +74,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2195
+    startLine: 3757
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -103,7 +103,7 @@ items:
   source:
     id: Count
     path: ''
-    startLine: 2196
+    startLine: 3758
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
