@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameUUIDManager
+    <title>Class LobbyServerList
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameUUIDManager
+    <meta name="title" content="Class LobbyServerList
    ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,34 +68,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TheInvaders.GameUUIDManager">
+            <article class="content wrap" id="_content" data-uid="TheInvaders.NetworkLobby.LobbyServerList">
   
   
-  <h1 id="TheInvaders_GameUUIDManager" data-uid="TheInvaders.GameUUIDManager" class="text-break">Class GameUUIDManager
+  <h1 id="TheInvaders_NetworkLobby_LobbyServerList" data-uid="TheInvaders.NetworkLobby.LobbyServerList" class="text-break">Class LobbyServerList
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">GameUUIDManager</span></div>
+    <div class="level1"><span class="xref">LobbyServerList</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="TheInvaders.html">TheInvaders</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TheInvaders.NetworkLobby.html">TheInvaders.NetworkLobby</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="TheInvaders_GameUUIDManager_syntax">Syntax</h5>
+  <h5 id="TheInvaders_NetworkLobby_LobbyServerList_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameUUIDManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class LobbyServerList : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="TheInvaders_GameUUIDManager_database" data-uid="TheInvaders.GameUUIDManager.database">database</h4>
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_currentPage" data-uid="TheInvaders.NetworkLobby.LobbyServerList.currentPage">currentPage</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IMongoDatabase database</code></pre>
+    <pre><code class="lang-csharp hljs">protected int currentPage</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -107,19 +107,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IMongoDatabase</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="TheInvaders_GameUUIDManager_instance" data-uid="TheInvaders.GameUUIDManager.instance">instance</h4>
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_lobbyManager" data-uid="TheInvaders.NetworkLobby.LobbyServerList.lobbyManager">lobbyManager</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameUUIDManager instance</code></pre>
+    <pre><code class="lang-csharp hljs">public LobbyManager lobbyManager</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,24 +131,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="TheInvaders.GameUUIDManager.html">GameUUIDManager</a></td>
+        <td><a class="xref" href="TheInvaders.NetworkLobby.LobbyManager.html">LobbyManager</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="TheInvaders_GameUUIDManager_UsrData_" data-uid="TheInvaders.GameUUIDManager.UsrData*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_UsrData" data-uid="TheInvaders.GameUUIDManager.UsrData">UsrData</h4>
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_noServerFound" data-uid="TheInvaders.NetworkLobby.LobbyServerList.noServerFound">noServerFound</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserData UsrData { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public GameObject noServerFound</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -158,7 +155,79 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="TheInvaders.UserData.html">UserData</a></td>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_previousPage" data-uid="TheInvaders.NetworkLobby.LobbyServerList.previousPage">previousPage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int previousPage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_serverEntryPrefab" data-uid="TheInvaders.NetworkLobby.LobbyServerList.serverEntryPrefab">serverEntryPrefab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject serverEntryPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_serverListRect" data-uid="TheInvaders.NetworkLobby.LobbyServerList.serverListRect">serverListRect</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform serverListRect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -167,13 +236,13 @@
   </h3>
   
   
-  <a id="TheInvaders_GameUUIDManager_GetUser_" data-uid="TheInvaders.GameUUIDManager.GetUser*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_GetUser_ObjectId_" data-uid="TheInvaders.GameUUIDManager.GetUser(ObjectId)">GetUser(ObjectId)</h4>
+  <a id="TheInvaders_NetworkLobby_LobbyServerList_ChangePage_" data-uid="TheInvaders.NetworkLobby.LobbyServerList.ChangePage*"></a>
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_ChangePage_System_Int32_" data-uid="TheInvaders.NetworkLobby.LobbyServerList.ChangePage(System.Int32)">ChangePage(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;UserData&gt; GetUser(ObjectId id)</code></pre>
+    <pre><code class="lang-csharp hljs">public void ChangePage(int dir)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,61 +255,58 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObjectId</span></td>
-        <td><span class="parametername">id</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="TheInvaders.UserData.html">UserData</a>&gt;</td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">dir</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="TheInvaders_GameUUIDManager_HasAccess_" data-uid="TheInvaders.GameUUIDManager.HasAccess*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_HasAccess" data-uid="TheInvaders.GameUUIDManager.HasAccess">HasAccess()</h4>
+  <a id="TheInvaders_NetworkLobby_LobbyServerList_OnGUIMatchList_" data-uid="TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList*"></a>
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_OnGUIMatchList_System_Boolean_System_String_List_TheInvaders_MatchData__" data-uid="TheInvaders.NetworkLobby.LobbyServerList.OnGUIMatchList(System.Boolean,System.String,List{TheInvaders.MatchData})">OnGUIMatchList(Boolean, String, List&lt;MatchData&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool HasAccess()</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnGUIMatchList(bool success, string extendedInfo, List&lt;MatchData&gt; matches)</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">success</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">extendedInfo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="TheInvaders.MatchData.html">MatchData</a>&gt;</td>
+        <td><span class="parametername">matches</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="TheInvaders_GameUUIDManager_IsUserRegistered_" data-uid="TheInvaders.GameUUIDManager.IsUserRegistered*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_IsUserRegistered_LoginData_" data-uid="TheInvaders.GameUUIDManager.IsUserRegistered(LoginData)">IsUserRegistered(LoginData)</h4>
+  <a id="TheInvaders_NetworkLobby_LobbyServerList_RequestPage_" data-uid="TheInvaders.NetworkLobby.LobbyServerList.RequestPage*"></a>
+  <h4 id="TheInvaders_NetworkLobby_LobbyServerList_RequestPage_System_Int32_" data-uid="TheInvaders.NetworkLobby.LobbyServerList.RequestPage(System.Int32)">RequestPage(Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;List&lt;object&gt;&gt; IsUserRegistered(LoginData data)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RequestPage(int page)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -253,64 +319,12 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">LoginData</span></td>
-        <td><span class="parametername">data</span></td>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">page</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="TheInvaders_GameUUIDManager_LoadUser_" data-uid="TheInvaders.GameUUIDManager.LoadUser*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_LoadUser_LoginData_" data-uid="TheInvaders.GameUUIDManager.LoadUser(LoginData)">LoadUser(LoginData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async void LoadUser(LoginData data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">LoginData</span></td>
-        <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="TheInvaders_GameUUIDManager_UpdateUser_" data-uid="TheInvaders.GameUUIDManager.UpdateUser*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_UpdateUser" data-uid="TheInvaders.GameUUIDManager.UpdateUser">UpdateUser()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateUser()</code></pre>
-  </div>
 </article>
           </div>
           

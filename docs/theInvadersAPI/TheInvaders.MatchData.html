@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameUUIDManager
+    <title>Class MatchData
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameUUIDManager
+    <meta name="title" content="Class MatchData
    ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -68,34 +68,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TheInvaders.GameUUIDManager">
+            <article class="content wrap" id="_content" data-uid="TheInvaders.MatchData">
   
   
-  <h1 id="TheInvaders_GameUUIDManager" data-uid="TheInvaders.GameUUIDManager" class="text-break">Class GameUUIDManager
+  <h1 id="TheInvaders_MatchData" data-uid="TheInvaders.MatchData" class="text-break">Class MatchData
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">GameUUIDManager</span></div>
+    <div class="level1"><span class="xref">MatchData</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="TheInvaders.html">TheInvaders</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="TheInvaders_GameUUIDManager_syntax">Syntax</h5>
+  <h5 id="TheInvaders_MatchData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameUUIDManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class MatchData : ScriptableObject</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="TheInvaders_GameUUIDManager_database" data-uid="TheInvaders.GameUUIDManager.database">database</h4>
+  <h4 id="TheInvaders_MatchData_matchTime" data-uid="TheInvaders.MatchData.matchTime">matchTime</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IMongoDatabase database</code></pre>
+    <pre><code class="lang-csharp hljs">public double matchTime</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -107,19 +108,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IMongoDatabase</span></td>
+        <td><span class="xref">System.Double</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="TheInvaders_GameUUIDManager_instance" data-uid="TheInvaders.GameUUIDManager.instance">instance</h4>
+  <h4 id="TheInvaders_MatchData_playerPositionsHF" data-uid="TheInvaders.MatchData.playerPositionsHF">playerPositionsHF</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameUUIDManager instance</code></pre>
+    <pre><code class="lang-csharp hljs">public Vector3[] playerPositionsHF</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,24 +132,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="TheInvaders.GameUUIDManager.html">GameUUIDManager</a></td>
+        <td><span class="xref">Vector3</span>[]</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="TheInvaders_GameUUIDManager_UsrData_" data-uid="TheInvaders.GameUUIDManager.UsrData*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_UsrData" data-uid="TheInvaders.GameUUIDManager.UsrData">UsrData</h4>
+  <h4 id="TheInvaders_MatchData_playerTransformsBF" data-uid="TheInvaders.MatchData.playerTransformsBF">playerTransformsBF</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UserData UsrData { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Transform[] playerTransformsBF</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -158,7 +156,55 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="TheInvaders.UserData.html">UserData</a></td>
+        <td><span class="xref">Transform</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TheInvaders_MatchData_serializedInstance" data-uid="TheInvaders.MatchData.serializedInstance">serializedInstance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerializedMatchData serializedInstance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TheInvaders.SerializedMatchData.html">SerializedMatchData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TheInvaders_MatchData_unitTransformsBF" data-uid="TheInvaders.MatchData.unitTransformsBF">unitTransformsBF</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform[] unitTransformsBF</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span>[]</td>
         <td></td>
       </tr>
     </tbody>
@@ -167,13 +213,13 @@
   </h3>
   
   
-  <a id="TheInvaders_GameUUIDManager_GetUser_" data-uid="TheInvaders.GameUUIDManager.GetUser*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_GetUser_ObjectId_" data-uid="TheInvaders.GameUUIDManager.GetUser(ObjectId)">GetUser(ObjectId)</h4>
+  <a id="TheInvaders_MatchData_DataToQuaternion_" data-uid="TheInvaders.MatchData.DataToQuaternion*"></a>
+  <h4 id="TheInvaders_MatchData_DataToQuaternion_System_Double___" data-uid="TheInvaders.MatchData.DataToQuaternion(System.Double[])">DataToQuaternion(Double[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;UserData&gt; GetUser(ObjectId id)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Quaternion DataToQuaternion(double[] quaternion)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,8 +232,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObjectId</span></td>
-        <td><span class="parametername">id</span></td>
+        <td><span class="xref">System.Double</span>[]</td>
+        <td><span class="parametername">quaternion</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -202,45 +248,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<a class="xref" href="TheInvaders.UserData.html">UserData</a>&gt;</td>
+        <td><span class="xref">Quaternion</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="TheInvaders_GameUUIDManager_HasAccess_" data-uid="TheInvaders.GameUUIDManager.HasAccess*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_HasAccess" data-uid="TheInvaders.GameUUIDManager.HasAccess">HasAccess()</h4>
+  <a id="TheInvaders_MatchData_DataToVector3_" data-uid="TheInvaders.MatchData.DataToVector3*"></a>
+  <h4 id="TheInvaders_MatchData_DataToVector3_System_Double___" data-uid="TheInvaders.MatchData.DataToVector3(System.Double[])">DataToVector3(Double[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool HasAccess()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="TheInvaders_GameUUIDManager_IsUserRegistered_" data-uid="TheInvaders.GameUUIDManager.IsUserRegistered*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_IsUserRegistered_LoginData_" data-uid="TheInvaders.GameUUIDManager.IsUserRegistered(LoginData)">IsUserRegistered(LoginData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;List&lt;object&gt;&gt; IsUserRegistered(LoginData data)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3 DataToVector3(double[] vector3)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -253,8 +274,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">LoginData</span></td>
-        <td><span class="parametername">data</span></td>
+        <td><span class="xref">System.Double</span>[]</td>
+        <td><span class="parametername">vector3</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -269,47 +290,55 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">List</span>&lt;<span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="xref">Vector3</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="TheInvaders_GameUUIDManager_LoadUser_" data-uid="TheInvaders.GameUUIDManager.LoadUser*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_LoadUser_LoginData_" data-uid="TheInvaders.GameUUIDManager.LoadUser(LoginData)">LoadUser(LoginData)</h4>
+  <a id="TheInvaders_MatchData_EndGame_" data-uid="TheInvaders.MatchData.EndGame*"></a>
+  <h4 id="TheInvaders_MatchData_EndGame" data-uid="TheInvaders.MatchData.EndGame">EndGame()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async void LoadUser(LoginData data)</code></pre>
+    <pre><code class="lang-csharp hljs">public void EndGame()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  
+  
+  <a id="TheInvaders_MatchData_Receive_" data-uid="TheInvaders.MatchData.Receive*"></a>
+  <h4 id="TheInvaders_MatchData_Receive" data-uid="TheInvaders.MatchData.Receive">Receive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;bool&gt; Receive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">LoginData</span></td>
-        <td><span class="parametername">data</span></td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="TheInvaders_GameUUIDManager_UpdateUser_" data-uid="TheInvaders.GameUUIDManager.UpdateUser*"></a>
-  <h4 id="TheInvaders_GameUUIDManager_UpdateUser" data-uid="TheInvaders.GameUUIDManager.UpdateUser">UpdateUser()</h4>
+  <a id="TheInvaders_MatchData_Send_" data-uid="TheInvaders.MatchData.Send*"></a>
+  <h4 id="TheInvaders_MatchData_Send" data-uid="TheInvaders.MatchData.Send">Send()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UpdateUser()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Send()</code></pre>
   </div>
 </article>
           </div>
