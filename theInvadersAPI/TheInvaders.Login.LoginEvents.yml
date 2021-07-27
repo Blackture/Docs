@@ -16,7 +16,7 @@ items:
   source:
     id: LoginEvents
     path: ''
-    startLine: 4023
+    startLine: 2568
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Login
@@ -51,7 +51,7 @@ items:
   source:
     id: EndLogin
     path: ''
-    startLine: 4026
+    startLine: 2571
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Login

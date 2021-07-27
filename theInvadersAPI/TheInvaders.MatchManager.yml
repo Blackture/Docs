@@ -17,7 +17,7 @@ items:
   source:
     id: MatchManager
     path: ''
-    startLine: 2841
+    startLine: 1386
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -48,7 +48,7 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 2843
+    startLine: 1388
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -77,7 +77,7 @@ items:
   source:
     id: matchesCollection
     path: ''
-    startLine: 2845
+    startLine: 1390
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders

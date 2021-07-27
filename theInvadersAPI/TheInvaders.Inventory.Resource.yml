@@ -20,7 +20,7 @@ items:
   source:
     id: Resource
     path: ''
-    startLine: 3855
+    startLine: 2400
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -66,7 +66,7 @@ items:
   source:
     id: resources
     path: ''
-    startLine: 3866
+    startLine: 2411
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -95,7 +95,7 @@ items:
   source:
     id: Type
     path: ''
-    startLine: 3880
+    startLine: 2425
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -126,7 +126,7 @@ items:
   source:
     id: Loc
     path: ''
-    startLine: 3886
+    startLine: 2431
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -157,7 +157,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3891
+    startLine: 2436
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -186,7 +186,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3899
+    startLine: 2444
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory

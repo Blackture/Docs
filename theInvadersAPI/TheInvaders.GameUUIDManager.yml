@@ -23,7 +23,7 @@ items:
   source:
     id: GameUUIDManager
     path: ''
-    startLine: 2515
+    startLine: 1060
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -54,7 +54,7 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 2517
+    startLine: 1062
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -83,7 +83,7 @@ items:
   source:
     id: database
     path: ''
-    startLine: 2523
+    startLine: 1068
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -110,7 +110,7 @@ items:
   source:
     id: UsrData
     path: ''
-    startLine: 2527
+    startLine: 1072
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -141,7 +141,7 @@ items:
   source:
     id: UpdateUser
     path: ''
-    startLine: 2538
+    startLine: 1083
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -167,7 +167,7 @@ items:
   source:
     id: LoadUser
     path: ''
-    startLine: 2544
+    startLine: 1089
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -197,7 +197,7 @@ items:
   source:
     id: HasAccess
     path: ''
-    startLine: 2580
+    startLine: 1125
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -225,7 +225,7 @@ items:
   source:
     id: IsUserRegistered
     path: ''
-    startLine: 2614
+    startLine: 1159
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -257,7 +257,7 @@ items:
   source:
     id: GetUser
     path: ''
-    startLine: 2629
+    startLine: 1174
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders

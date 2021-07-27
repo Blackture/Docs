@@ -16,7 +16,7 @@ items:
   source:
     id: ResourcePool
     path: ''
-    startLine: 3964
+    startLine: 2509
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -53,7 +53,7 @@ items:
   source:
     id: SetResources
     path: ''
-    startLine: 3966
+    startLine: 2511
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory

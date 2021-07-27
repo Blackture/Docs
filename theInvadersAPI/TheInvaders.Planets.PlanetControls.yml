@@ -18,7 +18,7 @@ items:
   source:
     id: PlanetControls
     path: ''
-    startLine: 4583
+    startLine: 3128
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -49,7 +49,7 @@ items:
   source:
     id: parentOfHexagons
     path: ''
-    startLine: 4586
+    startLine: 3131
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -76,7 +76,7 @@ items:
   source:
     id: Zoom
     path: ''
-    startLine: 4606
+    startLine: 3151
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets
@@ -102,7 +102,7 @@ items:
   source:
     id: SetPivot
     path: ''
-    startLine: 4634
+    startLine: 3179
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets

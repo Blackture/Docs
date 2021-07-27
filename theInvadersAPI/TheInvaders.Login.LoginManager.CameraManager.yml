@@ -16,7 +16,7 @@ items:
   source:
     id: CameraManager
     path: ''
-    startLine: 4173
+    startLine: 2718
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Login
@@ -63,7 +63,7 @@ items:
   source:
     id: cam
     path: ''
-    startLine: 4176
+    startLine: 2721
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Login

@@ -30,7 +30,7 @@ items:
   source:
     id: SerializedMatchData
     path: ''
-    startLine: 3026
+    startLine: 1571
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -70,7 +70,7 @@ items:
   source:
     id: _id
     path: ''
-    startLine: 3030
+    startLine: 1575
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -97,7 +97,7 @@ items:
   source:
     id: matchTime
     path: ''
-    startLine: 3031
+    startLine: 1576
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -124,7 +124,7 @@ items:
   source:
     id: playerPositionsHF
     path: ''
-    startLine: 3033
+    startLine: 1578
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -151,7 +151,7 @@ items:
   source:
     id: playerPositionsBF
     path: ''
-    startLine: 3035
+    startLine: 1580
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -178,7 +178,7 @@ items:
   source:
     id: playerRotationsBF
     path: ''
-    startLine: 3036
+    startLine: 1581
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -205,7 +205,7 @@ items:
   source:
     id: unitPositions
     path: ''
-    startLine: 3038
+    startLine: 1583
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -232,7 +232,7 @@ items:
   source:
     id: unitRotations
     path: ''
-    startLine: 3039
+    startLine: 1584
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -259,7 +259,7 @@ items:
   source:
     id: isMatchActive
     path: ''
-    startLine: 3041
+    startLine: 1586
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -286,7 +286,7 @@ items:
   source:
     id: CreateInstance
     path: ''
-    startLine: 3043
+    startLine: 1588
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -326,7 +326,7 @@ items:
   source:
     id: Set
     path: ''
-    startLine: 3052
+    startLine: 1597
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -362,7 +362,7 @@ items:
   source:
     id: EndMatch
     path: ''
-    startLine: 3072
+    startLine: 1617
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -388,7 +388,7 @@ items:
   source:
     id: Send
     path: ''
-    startLine: 3078
+    startLine: 1623
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -414,7 +414,7 @@ items:
   source:
     id: Receive
     path: ''
-    startLine: 3086
+    startLine: 1631
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -443,7 +443,7 @@ items:
   source:
     id: Vector3ToData
     path: ''
-    startLine: 3151
+    startLine: 1696
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -480,7 +480,7 @@ items:
   source:
     id: QuaternionToData
     path: ''
-    startLine: 3160
+    startLine: 1705
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders

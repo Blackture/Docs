@@ -17,7 +17,7 @@ items:
   source:
     id: PlayerController
     path: ''
-    startLine: 3340
+    startLine: 1885
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -50,7 +50,7 @@ items:
   source:
     id: IsOnTurn
     path: ''
-    startLine: 3367
+    startLine: 1912
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -83,7 +83,7 @@ items:
   source:
     id: P
     path: ''
-    startLine: 3373
+    startLine: 1918
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield

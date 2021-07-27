@@ -19,7 +19,7 @@ items:
   source:
     id: Farm
     path: ''
-    startLine: 4729
+    startLine: 3274
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure
@@ -66,7 +66,7 @@ items:
   source:
     id: UnitsQuantity
     path: ''
-    startLine: 4736
+    startLine: 3281
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure
@@ -100,7 +100,7 @@ items:
   source:
     id: Traders
     path: ''
-    startLine: 4740
+    startLine: 3285
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure
@@ -134,7 +134,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4750
+    startLine: 3295
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure
@@ -160,7 +160,7 @@ items:
   source:
     id: SetTraderCount
     path: ''
-    startLine: 4757
+    startLine: 3302
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure.InhabitedStructure

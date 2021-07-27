@@ -1,39 +1,4 @@
 ### YamlMime:TableOfContent
-- uid: ParrelSync
-  name: ParrelSync
-  items:
-  - uid: ParrelSync.BoolPreference
-    name: BoolPreference
-  - uid: ParrelSync.ClonesManager
-    name: ClonesManager
-  - uid: ParrelSync.ClonesManagerWindow
-    name: ClonesManagerWindow
-  - uid: ParrelSync.EditorQuit
-    name: EditorQuit
-  - uid: ParrelSync.ExternalLinks
-    name: ExternalLinks
-  - uid: ParrelSync.FileUtilities
-    name: FileUtilities
-  - uid: ParrelSync.ParrelSyncAssetModificationProcessor
-    name: ParrelSyncAssetModificationProcessor
-  - uid: ParrelSync.Preferences
-    name: Preferences
-  - uid: ParrelSync.Project
-    name: Project
-- uid: ParrelSync.NonCore
-  name: ParrelSync.NonCore
-  items:
-  - uid: ParrelSync.NonCore.AskFeedbackDialog
-    name: AskFeedbackDialog
-  - uid: ParrelSync.NonCore.OtherMenuItem
-    name: OtherMenuItem
-  - uid: ParrelSync.NonCore.ValidateCopiedFoldersIntegrity
-    name: ValidateCopiedFoldersIntegrity
-- uid: ParrelSync.Update
-  name: ParrelSync.Update
-  items:
-  - uid: ParrelSync.Update.UpdateChecker
-    name: UpdateChecker
 - uid: TheInvaders
   name: TheInvaders
   items:

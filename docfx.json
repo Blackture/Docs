@@ -24,7 +24,8 @@
             "TextMesh Pro/**",
             "Standard Assets/**",
             "TutorialInfo/**",
-            "Scripts/Standards/SimpleCameraController.cs"
+            "Scripts/Standards/SimpleCameraController.cs",
+            "ParrelSync/**"
           ]
         }
       ],

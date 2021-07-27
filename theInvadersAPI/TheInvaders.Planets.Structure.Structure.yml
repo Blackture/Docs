@@ -17,7 +17,7 @@ items:
   source:
     id: Structure
     path: ''
-    startLine: 4687
+    startLine: 3232
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure
@@ -60,7 +60,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4698
+    startLine: 3243
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure
@@ -89,7 +89,7 @@ items:
   source:
     id: GetStructure
     path: ''
-    startLine: 4703
+    startLine: 3248
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Planets.Structure

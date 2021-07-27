@@ -19,7 +19,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 2910
+    startLine: 1455
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -67,7 +67,7 @@ items:
   source:
     id: inventory
     path: ''
-    startLine: 2912
+    startLine: 1457
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -94,7 +94,7 @@ items:
   source:
     id: PlayerName
     path: ''
-    startLine: 2915
+    startLine: 1460
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -125,7 +125,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2917
+    startLine: 1462
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders
@@ -160,7 +160,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2923
+    startLine: 1468
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders

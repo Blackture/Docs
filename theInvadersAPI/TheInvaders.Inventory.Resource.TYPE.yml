@@ -20,7 +20,7 @@ items:
   source:
     id: TYPE
     path: ''
-    startLine: 3857
+    startLine: 2402
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -47,7 +47,7 @@ items:
   source:
     id: ENERGY_CRYSTAL
     path: ''
-    startLine: 3859
+    startLine: 2404
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -75,7 +75,7 @@ items:
   source:
     id: GOLD_INGOT
     path: ''
-    startLine: 3860
+    startLine: 2405
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -103,7 +103,7 @@ items:
   source:
     id: IRON_INGOT
     path: ''
-    startLine: 3861
+    startLine: 2406
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -131,7 +131,7 @@ items:
   source:
     id: PELCEON_INGOT
     path: ''
-    startLine: 3862
+    startLine: 2407
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory
@@ -159,7 +159,7 @@ items:
   source:
     id: MAKMUSS
     path: ''
-    startLine: 3863
+    startLine: 2408
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Inventory

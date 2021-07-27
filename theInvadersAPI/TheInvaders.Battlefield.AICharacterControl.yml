@@ -22,7 +22,7 @@ items:
   source:
     id: AICharacterControl
     path: ''
-    startLine: 3267
+    startLine: 1812
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -53,7 +53,7 @@ items:
   source:
     id: agent
     path: ''
-    startLine: 3273
+    startLine: 1818
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -84,7 +84,7 @@ items:
   source:
     id: character
     path: ''
-    startLine: 3274
+    startLine: 1819
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -115,7 +115,7 @@ items:
   source:
     id: target
     path: ''
-    startLine: 3275
+    startLine: 1820
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -142,7 +142,7 @@ items:
   source:
     id: start
     path: ''
-    startLine: 3276
+    startLine: 1821
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -169,7 +169,7 @@ items:
   source:
     id: crouch
     path: ''
-    startLine: 3277
+    startLine: 1822
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -196,7 +196,7 @@ items:
   source:
     id: maxSpeed
     path: ''
-    startLine: 3278
+    startLine: 1823
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
@@ -223,7 +223,7 @@ items:
   source:
     id: SetTarget
     path: ''
-    startLine: 3320
+    startLine: 1865
   assemblies:
   - cs.temp.dll
   namespace: TheInvaders.Battlefield
