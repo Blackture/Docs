@@ -1,0 +1,719 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Players.Revenue
+  commentId: T:CardBattle.Core.Players.Revenue
+  id: Revenue
+  parent: CardBattle.Core.Players
+  children:
+  - CardBattle.Core.Players.Revenue.#ctor(CardBattle.Core.Players.PlayerStats)
+  - CardBattle.Core.Players.Revenue.additionalIncome
+  - CardBattle.Core.Players.Revenue.DoubleMultiplier
+  - CardBattle.Core.Players.Revenue.GetRevenue
+  - CardBattle.Core.Players.Revenue.influencers
+  - CardBattle.Core.Players.Revenue.QuadrupleMultiplier
+  - CardBattle.Core.Players.Revenue.ResetMultiplier
+  - CardBattle.Core.Players.Revenue.ZeroMultiplier
+  langs:
+  - csharp
+  - vb
+  name: Revenue
+  nameWithType: Revenue
+  fullName: CardBattle.Core.Players.Revenue
+  type: Class
+  source:
+    id: Revenue
+    path: ''
+    startLine: 535
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public class Revenue
+    content.vb: Public Class Revenue
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Players.Revenue.influencers
+  commentId: F:CardBattle.Core.Players.Revenue.influencers
+  id: influencers
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: influencers
+  nameWithType: Revenue.influencers
+  fullName: CardBattle.Core.Players.Revenue.influencers
+  type: Field
+  source:
+    id: influencers
+    path: ''
+    startLine: 538
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public Dictionary<PlayerStats, int> influencers
+    return:
+      type: System.Collections.Generic.Dictionary{CardBattle.Core.Players.PlayerStats,System.Int32}
+    content.vb: Public influencers As Dictionary(Of PlayerStats, Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Revenue.additionalIncome
+  commentId: F:CardBattle.Core.Players.Revenue.additionalIncome
+  id: additionalIncome
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: additionalIncome
+  nameWithType: Revenue.additionalIncome
+  fullName: CardBattle.Core.Players.Revenue.additionalIncome
+  type: Field
+  source:
+    id: additionalIncome
+    path: ''
+    startLine: 541
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int additionalIncome
+    return:
+      type: System.Int32
+    content.vb: Public additionalIncome As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Revenue.#ctor(CardBattle.Core.Players.PlayerStats)
+  commentId: M:CardBattle.Core.Players.Revenue.#ctor(CardBattle.Core.Players.PlayerStats)
+  id: '#ctor(CardBattle.Core.Players.PlayerStats)'
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: Revenue(PlayerStats)
+  nameWithType: Revenue.Revenue(PlayerStats)
+  fullName: CardBattle.Core.Players.Revenue.Revenue(CardBattle.Core.Players.PlayerStats)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 543
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public Revenue(PlayerStats player)
+    parameters:
+    - id: player
+      type: CardBattle.Core.Players.PlayerStats
+    content.vb: Public Sub New(player As PlayerStats)
+  overload: CardBattle.Core.Players.Revenue.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Revenue.DoubleMultiplier
+  commentId: M:CardBattle.Core.Players.Revenue.DoubleMultiplier
+  id: DoubleMultiplier
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: DoubleMultiplier()
+  nameWithType: Revenue.DoubleMultiplier()
+  fullName: CardBattle.Core.Players.Revenue.DoubleMultiplier()
+  type: Method
+  source:
+    id: DoubleMultiplier
+    path: ''
+    startLine: 548
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public void DoubleMultiplier()
+    content.vb: Public Sub DoubleMultiplier
+  overload: CardBattle.Core.Players.Revenue.DoubleMultiplier*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Revenue.QuadrupleMultiplier
+  commentId: M:CardBattle.Core.Players.Revenue.QuadrupleMultiplier
+  id: QuadrupleMultiplier
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: QuadrupleMultiplier()
+  nameWithType: Revenue.QuadrupleMultiplier()
+  fullName: CardBattle.Core.Players.Revenue.QuadrupleMultiplier()
+  type: Method
+  source:
+    id: QuadrupleMultiplier
+    path: ''
+    startLine: 549
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public void QuadrupleMultiplier()
+    content.vb: Public Sub QuadrupleMultiplier
+  overload: CardBattle.Core.Players.Revenue.QuadrupleMultiplier*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Revenue.ZeroMultiplier
+  commentId: M:CardBattle.Core.Players.Revenue.ZeroMultiplier
+  id: ZeroMultiplier
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: ZeroMultiplier()
+  nameWithType: Revenue.ZeroMultiplier()
+  fullName: CardBattle.Core.Players.Revenue.ZeroMultiplier()
+  type: Method
+  source:
+    id: ZeroMultiplier
+    path: ''
+    startLine: 550
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public void ZeroMultiplier()
+    content.vb: Public Sub ZeroMultiplier
+  overload: CardBattle.Core.Players.Revenue.ZeroMultiplier*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Revenue.ResetMultiplier
+  commentId: M:CardBattle.Core.Players.Revenue.ResetMultiplier
+  id: ResetMultiplier
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: ResetMultiplier()
+  nameWithType: Revenue.ResetMultiplier()
+  fullName: CardBattle.Core.Players.Revenue.ResetMultiplier()
+  type: Method
+  source:
+    id: ResetMultiplier
+    path: ''
+    startLine: 551
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public void ResetMultiplier()
+    content.vb: Public Sub ResetMultiplier
+  overload: CardBattle.Core.Players.Revenue.ResetMultiplier*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Revenue.GetRevenue
+  commentId: M:CardBattle.Core.Players.Revenue.GetRevenue
+  id: GetRevenue
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: GetRevenue()
+  nameWithType: Revenue.GetRevenue()
+  fullName: CardBattle.Core.Players.Revenue.GetRevenue()
+  type: Method
+  source:
+    id: GetRevenue
+    path: ''
+    startLine: 565
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int GetRevenue()
+    return:
+      type: System.Int32
+    content.vb: Public Function GetRevenue As Integer
+  overload: CardBattle.Core.Players.Revenue.GetRevenue*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Core.Players
+  commentId: N:CardBattle.Core.Players
+  name: CardBattle.Core.Players
+  nameWithType: CardBattle.Core.Players
+  fullName: CardBattle.Core.Players
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{CardBattle.Core.Players.PlayerStats,System.Int32}
+  commentId: T:System.Collections.Generic.Dictionary{CardBattle.Core.Players.PlayerStats,System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<PlayerStats, Int32>
+  nameWithType: Dictionary<PlayerStats, Int32>
+  fullName: System.Collections.Generic.Dictionary<CardBattle.Core.Players.PlayerStats, System.Int32>
+  nameWithType.vb: Dictionary(Of PlayerStats, Int32)
+  fullName.vb: System.Collections.Generic.Dictionary(Of CardBattle.Core.Players.PlayerStats, System.Int32)
+  name.vb: Dictionary(Of PlayerStats, Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CardBattle.Core.Players.PlayerStats
+    name: PlayerStats
+    nameWithType: PlayerStats
+    fullName: CardBattle.Core.Players.PlayerStats
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CardBattle.Core.Players.PlayerStats
+    name: PlayerStats
+    nameWithType: PlayerStats
+    fullName: CardBattle.Core.Players.PlayerStats
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardBattle.Core.Players.Revenue.#ctor*
+  commentId: Overload:CardBattle.Core.Players.Revenue.#ctor
+  name: Revenue
+  nameWithType: Revenue.Revenue
+  fullName: CardBattle.Core.Players.Revenue.Revenue
+- uid: CardBattle.Core.Players.PlayerStats
+  commentId: T:CardBattle.Core.Players.PlayerStats
+  parent: CardBattle.Core.Players
+  name: PlayerStats
+  nameWithType: PlayerStats
+  fullName: CardBattle.Core.Players.PlayerStats
+- uid: CardBattle.Core.Players.Revenue.DoubleMultiplier*
+  commentId: Overload:CardBattle.Core.Players.Revenue.DoubleMultiplier
+  name: DoubleMultiplier
+  nameWithType: Revenue.DoubleMultiplier
+  fullName: CardBattle.Core.Players.Revenue.DoubleMultiplier
+- uid: CardBattle.Core.Players.Revenue.QuadrupleMultiplier*
+  commentId: Overload:CardBattle.Core.Players.Revenue.QuadrupleMultiplier
+  name: QuadrupleMultiplier
+  nameWithType: Revenue.QuadrupleMultiplier
+  fullName: CardBattle.Core.Players.Revenue.QuadrupleMultiplier
+- uid: CardBattle.Core.Players.Revenue.ZeroMultiplier*
+  commentId: Overload:CardBattle.Core.Players.Revenue.ZeroMultiplier
+  name: ZeroMultiplier
+  nameWithType: Revenue.ZeroMultiplier
+  fullName: CardBattle.Core.Players.Revenue.ZeroMultiplier
+- uid: CardBattle.Core.Players.Revenue.ResetMultiplier*
+  commentId: Overload:CardBattle.Core.Players.Revenue.ResetMultiplier
+  name: ResetMultiplier
+  nameWithType: Revenue.ResetMultiplier
+  fullName: CardBattle.Core.Players.Revenue.ResetMultiplier
+- uid: CardBattle.Core.Players.Revenue.GetRevenue*
+  commentId: Overload:CardBattle.Core.Players.Revenue.GetRevenue
+  name: GetRevenue
+  nameWithType: Revenue.GetRevenue
+  fullName: CardBattle.Core.Players.Revenue.GetRevenue

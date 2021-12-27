@@ -22,7 +22,7 @@ items:
   source:
     id: Item
     path: ''
-    startLine: 1800
+    startLine: 1578
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -69,7 +69,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 1804
+    startLine: 1582
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -100,7 +100,7 @@ items:
   source:
     id: Effect
     path: ''
-    startLine: 1812
+    startLine: 1590
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -131,7 +131,7 @@ items:
   source:
     id: MoneyCosts
     path: ''
-    startLine: 1821
+    startLine: 1599
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -162,7 +162,7 @@ items:
   source:
     id: EpCosts
     path: ''
-    startLine: 1827
+    startLine: 1605
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -193,7 +193,7 @@ items:
   source:
     id: IsRobot
     path: ''
-    startLine: 1835
+    startLine: 1613
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -224,7 +224,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1842
+    startLine: 1620
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -259,7 +259,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 1851
+    startLine: 1629
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

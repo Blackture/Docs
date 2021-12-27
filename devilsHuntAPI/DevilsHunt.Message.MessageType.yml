@@ -19,7 +19,7 @@ items:
   source:
     id: MessageType
     path: ''
-    startLine: 1927
+    startLine: 1705
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -46,7 +46,7 @@ items:
   source:
     id: Error
     path: ''
-    startLine: 1929
+    startLine: 1707
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -74,7 +74,7 @@ items:
   source:
     id: Info
     path: ''
-    startLine: 1930
+    startLine: 1708
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -102,7 +102,7 @@ items:
   source:
     id: Warning
     path: ''
-    startLine: 1931
+    startLine: 1709
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -130,7 +130,7 @@ items:
   source:
     id: Success
     path: ''
-    startLine: 1932
+    startLine: 1710
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

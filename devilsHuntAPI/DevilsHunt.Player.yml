@@ -36,7 +36,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 2017
+    startLine: 1795
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -83,7 +83,7 @@ items:
   source:
     id: Money
     path: ''
-    startLine: 2021
+    startLine: 1799
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -114,7 +114,7 @@ items:
   source:
     id: Ep
     path: ''
-    startLine: 2030
+    startLine: 1808
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -145,7 +145,7 @@ items:
   source:
     id: Strength
     path: ''
-    startLine: 2039
+    startLine: 1817
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -176,7 +176,7 @@ items:
   source:
     id: Defense
     path: ''
-    startLine: 2048
+    startLine: 1826
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -207,7 +207,7 @@ items:
   source:
     id: WeaponCount
     path: ''
-    startLine: 2057
+    startLine: 1835
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -238,7 +238,7 @@ items:
   source:
     id: SuspendRounds
     path: ''
-    startLine: 2064
+    startLine: 1842
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -269,7 +269,7 @@ items:
   source:
     id: Kills
     path: ''
-    startLine: 2075
+    startLine: 1853
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -300,7 +300,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2086
+    startLine: 1864
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -337,7 +337,7 @@ items:
   source:
     id: DataBtn
     path: ''
-    startLine: 2088
+    startLine: 1866
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -374,7 +374,7 @@ items:
   source:
     id: PlayerName
     path: ''
-    startLine: 2091
+    startLine: 1869
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -405,7 +405,7 @@ items:
   source:
     id: PlayerCount
     path: ''
-    startLine: 2099
+    startLine: 1877
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -438,7 +438,7 @@ items:
   source:
     id: CanShop
     path: ''
-    startLine: 2113
+    startLine: 1891
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -469,7 +469,7 @@ items:
   source:
     id: SkillTree
     path: ''
-    startLine: 2124
+    startLine: 1902
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -500,7 +500,7 @@ items:
   source:
     id: Effects
     path: ''
-    startLine: 2132
+    startLine: 1910
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -531,7 +531,7 @@ items:
   source:
     id: PhotoCards
     path: ''
-    startLine: 2143
+    startLine: 1921
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -562,7 +562,7 @@ items:
   source:
     id: Inventory
     path: ''
-    startLine: 2154
+    startLine: 1932
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -593,7 +593,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2161
+    startLine: 1939
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -626,7 +626,7 @@ items:
   source:
     id: GetExpectedMoney
     path: ''
-    startLine: 2187
+    startLine: 1965
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -654,7 +654,7 @@ items:
   source:
     id: GetExpectedEp
     path: ''
-    startLine: 2207
+    startLine: 1985
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -682,7 +682,7 @@ items:
   source:
     id: GetRobots
     path: ''
-    startLine: 2227
+    startLine: 2005
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -710,7 +710,7 @@ items:
   source:
     id: GetWeaponCount
     path: ''
-    startLine: 2237
+    startLine: 2015
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

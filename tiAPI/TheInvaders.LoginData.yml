@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.LoginData
+  commentId: T:TheInvaders.LoginData
+  id: LoginData
+  parent: TheInvaders
+  children:
+  - TheInvaders.LoginData.accountLevel
+  - TheInvaders.LoginData.date
+  - TheInvaders.LoginData.id
+  - TheInvaders.LoginData.profileImg
+  - TheInvaders.LoginData.projectAccess
+  - TheInvaders.LoginData.title
+  - TheInvaders.LoginData.username
+  langs:
+  - csharp
+  - vb
+  name: LoginData
+  nameWithType: LoginData
+  fullName: TheInvaders.LoginData
+  type: Class
+  source:
+    id: LoginData
+    path: ''
+    startLine: 371
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LoginData : ScriptableObject
+    content.vb: >-
+      <Serializable>
+
+      Public Class LoginData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.LoginData.id
+  commentId: F:TheInvaders.LoginData.id
+  id: id
+  parent: TheInvaders.LoginData
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: LoginData.id
+  fullName: TheInvaders.LoginData.id
+  type: Field
+  source:
+    id: id
+    path: ''
+    startLine: 375
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public ObjectId id
+    return:
+      type: ObjectId
+    content.vb: Public id As ObjectId
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.LoginData.title
+  commentId: F:TheInvaders.LoginData.title
+  id: title
+  parent: TheInvaders.LoginData
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: LoginData.title
+  fullName: TheInvaders.LoginData.title
+  type: Field
+  source:
+    id: title
+    path: ''
+    startLine: 376
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public string title
+    return:
+      type: System.String
+    content.vb: Public title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.LoginData.profileImg
+  commentId: F:TheInvaders.LoginData.profileImg
+  id: profileImg
+  parent: TheInvaders.LoginData
+  langs:
+  - csharp
+  - vb
+  name: profileImg
+  nameWithType: LoginData.profileImg
+  fullName: TheInvaders.LoginData.profileImg
+  type: Field
+  source:
+    id: profileImg
+    path: ''
+    startLine: 377
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public string profileImg
+    return:
+      type: System.String
+    content.vb: Public profileImg As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.LoginData.username
+  commentId: F:TheInvaders.LoginData.username
+  id: username
+  parent: TheInvaders.LoginData
+  langs:
+  - csharp
+  - vb
+  name: username
+  nameWithType: LoginData.username
+  fullName: TheInvaders.LoginData.username
+  type: Field
+  source:
+    id: username
+    path: ''
+    startLine: 378
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public string username
+    return:
+      type: System.String
+    content.vb: Public username As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.LoginData.accountLevel
+  commentId: F:TheInvaders.LoginData.accountLevel
+  id: accountLevel
+  parent: TheInvaders.LoginData
+  langs:
+  - csharp
+  - vb
+  name: accountLevel
+  nameWithType: LoginData.accountLevel
+  fullName: TheInvaders.LoginData.accountLevel
+  type: Field
+  source:
+    id: accountLevel
+    path: ''
+    startLine: 379
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public int accountLevel
+    return:
+      type: System.Int32
+    content.vb: Public accountLevel As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.LoginData.projectAccess
+  commentId: F:TheInvaders.LoginData.projectAccess
+  id: projectAccess
+  parent: TheInvaders.LoginData
+  langs:
+  - csharp
+  - vb
+  name: projectAccess
+  nameWithType: LoginData.projectAccess
+  fullName: TheInvaders.LoginData.projectAccess
+  type: Field
+  source:
+    id: projectAccess
+    path: ''
+    startLine: 380
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public string projectAccess
+    return:
+      type: System.String
+    content.vb: Public projectAccess As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.LoginData.date
+  commentId: F:TheInvaders.LoginData.date
+  id: date
+  parent: TheInvaders.LoginData
+  langs:
+  - csharp
+  - vb
+  name: date
+  nameWithType: LoginData.date
+  fullName: TheInvaders.LoginData.date
+  type: Field
+  source:
+    id: date
+    path: ''
+    startLine: 381
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public DateTime date
+    return:
+      type: System.DateTime
+    content.vb: Public date As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ObjectId
+  isExternal: true
+  name: ObjectId
+  nameWithType: ObjectId
+  fullName: ObjectId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime

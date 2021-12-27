@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Structures.Structure.TYPE
+  commentId: T:TheInvaders.Planets.Structures.Structure.TYPE
+  id: Structure.TYPE
+  parent: TheInvaders.Planets.Structures
+  children:
+  - TheInvaders.Planets.Structures.Structure.TYPE.INHABITED_STRUCTURE
+  - TheInvaders.Planets.Structures.Structure.TYPE.OUTPOST
+  - TheInvaders.Planets.Structures.Structure.TYPE.RUIN
+  langs:
+  - csharp
+  - vb
+  name: Structure.TYPE
+  nameWithType: Structure.TYPE
+  fullName: TheInvaders.Planets.Structures.Structure.TYPE
+  type: Enum
+  source:
+    id: TYPE
+    path: ''
+    startLine: 2033
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures
+  syntax:
+    content: protected enum TYPE
+    content.vb: Protected Enum TYPE
+  modifiers.csharp:
+  - protected
+  - enum
+  modifiers.vb:
+  - Protected
+  - Enum
+- uid: TheInvaders.Planets.Structures.Structure.TYPE.RUIN
+  commentId: F:TheInvaders.Planets.Structures.Structure.TYPE.RUIN
+  id: RUIN
+  parent: TheInvaders.Planets.Structures.Structure.TYPE
+  langs:
+  - csharp
+  - vb
+  name: RUIN
+  nameWithType: Structure.TYPE.RUIN
+  fullName: TheInvaders.Planets.Structures.Structure.TYPE.RUIN
+  type: Field
+  source:
+    id: RUIN
+    path: ''
+    startLine: 2035
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures
+  syntax:
+    content: RUIN = 0
+    return:
+      type: TheInvaders.Planets.Structures.Structure.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Planets.Structures.Structure.TYPE.OUTPOST
+  commentId: F:TheInvaders.Planets.Structures.Structure.TYPE.OUTPOST
+  id: OUTPOST
+  parent: TheInvaders.Planets.Structures.Structure.TYPE
+  langs:
+  - csharp
+  - vb
+  name: OUTPOST
+  nameWithType: Structure.TYPE.OUTPOST
+  fullName: TheInvaders.Planets.Structures.Structure.TYPE.OUTPOST
+  type: Field
+  source:
+    id: OUTPOST
+    path: ''
+    startLine: 2036
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures
+  syntax:
+    content: OUTPOST = 1
+    return:
+      type: TheInvaders.Planets.Structures.Structure.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Planets.Structures.Structure.TYPE.INHABITED_STRUCTURE
+  commentId: F:TheInvaders.Planets.Structures.Structure.TYPE.INHABITED_STRUCTURE
+  id: INHABITED_STRUCTURE
+  parent: TheInvaders.Planets.Structures.Structure.TYPE
+  langs:
+  - csharp
+  - vb
+  name: INHABITED_STRUCTURE
+  nameWithType: Structure.TYPE.INHABITED_STRUCTURE
+  fullName: TheInvaders.Planets.Structures.Structure.TYPE.INHABITED_STRUCTURE
+  type: Field
+  source:
+    id: INHABITED_STRUCTURE
+    path: ''
+    startLine: 2037
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures
+  syntax:
+    content: INHABITED_STRUCTURE = 2
+    return:
+      type: TheInvaders.Planets.Structures.Structure.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TheInvaders.Planets.Structures
+  commentId: N:TheInvaders.Planets.Structures
+  name: TheInvaders.Planets.Structures
+  nameWithType: TheInvaders.Planets.Structures
+  fullName: TheInvaders.Planets.Structures
+- uid: TheInvaders.Planets.Structures.Structure.TYPE
+  commentId: T:TheInvaders.Planets.Structures.Structure.TYPE
+  parent: TheInvaders.Planets.Structures
+  name: Structure.TYPE
+  nameWithType: Structure.TYPE
+  fullName: TheInvaders.Planets.Structures.Structure.TYPE

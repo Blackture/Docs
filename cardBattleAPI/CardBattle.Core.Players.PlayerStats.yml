@@ -1,0 +1,400 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Players.PlayerStats
+  commentId: T:CardBattle.Core.Players.PlayerStats
+  id: PlayerStats
+  parent: CardBattle.Core.Players
+  children:
+  - CardBattle.Core.Players.PlayerStats.debts
+  - CardBattle.Core.Players.PlayerStats.Debts
+  - CardBattle.Core.Players.PlayerStats.Money
+  - CardBattle.Core.Players.PlayerStats.revenue
+  - CardBattle.Core.Players.PlayerStats.TownCount
+  - CardBattle.Core.Players.PlayerStats.VillageCount
+  langs:
+  - csharp
+  - vb
+  name: PlayerStats
+  nameWithType: PlayerStats
+  fullName: CardBattle.Core.Players.PlayerStats
+  type: Class
+  source:
+    id: PlayerStats
+    path: ''
+    startLine: 503
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: 'public class PlayerStats : MonoBehaviour, IPlayerStats'
+    content.vb: >-
+      Public Class PlayerStats
+          Inherits MonoBehaviour
+          Implements IPlayerStats
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CardBattle.Core.Players.Player
+  implements:
+  - CardBattle.Core.Players.IPlayerStats
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Players.PlayerStats.debts
+  commentId: F:CardBattle.Core.Players.PlayerStats.debts
+  id: debts
+  parent: CardBattle.Core.Players.PlayerStats
+  langs:
+  - csharp
+  - vb
+  name: debts
+  nameWithType: PlayerStats.debts
+  fullName: CardBattle.Core.Players.PlayerStats.debts
+  type: Field
+  source:
+    id: debts
+    path: ''
+    startLine: 506
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: protected List<Debt> debts
+    return:
+      type: System.Collections.Generic.List{CardBattle.Core.Players.Debt}
+    content.vb: Protected debts As List(Of Debt)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: CardBattle.Core.Players.PlayerStats.revenue
+  commentId: F:CardBattle.Core.Players.PlayerStats.revenue
+  id: revenue
+  parent: CardBattle.Core.Players.PlayerStats
+  langs:
+  - csharp
+  - vb
+  name: revenue
+  nameWithType: PlayerStats.revenue
+  fullName: CardBattle.Core.Players.PlayerStats.revenue
+  type: Field
+  source:
+    id: revenue
+    path: ''
+    startLine: 510
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public Revenue revenue
+    return:
+      type: CardBattle.Core.Players.Revenue
+    content.vb: Public revenue As Revenue
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.PlayerStats.Money
+  commentId: P:CardBattle.Core.Players.PlayerStats.Money
+  id: Money
+  parent: CardBattle.Core.Players.PlayerStats
+  langs:
+  - csharp
+  - vb
+  name: Money
+  nameWithType: PlayerStats.Money
+  fullName: CardBattle.Core.Players.PlayerStats.Money
+  type: Property
+  source:
+    id: Money
+    path: ''
+    startLine: 512
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int Money { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Money As Integer
+  overload: CardBattle.Core.Players.PlayerStats.Money*
+  implements:
+  - CardBattle.Core.Players.IPlayerStats.Money
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.PlayerStats.Debts
+  commentId: P:CardBattle.Core.Players.PlayerStats.Debts
+  id: Debts
+  parent: CardBattle.Core.Players.PlayerStats
+  langs:
+  - csharp
+  - vb
+  name: Debts
+  nameWithType: PlayerStats.Debts
+  fullName: CardBattle.Core.Players.PlayerStats.Debts
+  type: Property
+  source:
+    id: Debts
+    path: ''
+    startLine: 517
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public List<Debt> Debts { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{CardBattle.Core.Players.Debt}
+    content.vb: Public ReadOnly Property Debts As List(Of Debt)
+  overload: CardBattle.Core.Players.PlayerStats.Debts*
+  implements:
+  - CardBattle.Core.Players.IPlayerStats.Debts
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Players.PlayerStats.VillageCount
+  commentId: P:CardBattle.Core.Players.PlayerStats.VillageCount
+  id: VillageCount
+  parent: CardBattle.Core.Players.PlayerStats
+  langs:
+  - csharp
+  - vb
+  name: VillageCount
+  nameWithType: PlayerStats.VillageCount
+  fullName: CardBattle.Core.Players.PlayerStats.VillageCount
+  type: Property
+  source:
+    id: VillageCount
+    path: ''
+    startLine: 522
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int VillageCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property VillageCount As Integer
+  overload: CardBattle.Core.Players.PlayerStats.VillageCount*
+  implements:
+  - CardBattle.Core.Players.IPlayerStats.VillageCount
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Players.PlayerStats.TownCount
+  commentId: P:CardBattle.Core.Players.PlayerStats.TownCount
+  id: TownCount
+  parent: CardBattle.Core.Players.PlayerStats
+  langs:
+  - csharp
+  - vb
+  name: TownCount
+  nameWithType: PlayerStats.TownCount
+  fullName: CardBattle.Core.Players.PlayerStats.TownCount
+  type: Property
+  source:
+    id: TownCount
+    path: ''
+    startLine: 523
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int TownCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property TownCount As Integer
+  overload: CardBattle.Core.Players.PlayerStats.TownCount*
+  implements:
+  - CardBattle.Core.Players.IPlayerStats.TownCount
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CardBattle.Core.Players
+  commentId: N:CardBattle.Core.Players
+  name: CardBattle.Core.Players
+  nameWithType: CardBattle.Core.Players
+  fullName: CardBattle.Core.Players
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CardBattle.Core.Players.IPlayerStats
+  commentId: T:CardBattle.Core.Players.IPlayerStats
+  parent: CardBattle.Core.Players
+  name: IPlayerStats
+  nameWithType: IPlayerStats
+  fullName: CardBattle.Core.Players.IPlayerStats
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{CardBattle.Core.Players.Debt}
+  commentId: T:System.Collections.Generic.List{CardBattle.Core.Players.Debt}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Debt>
+  nameWithType: List<Debt>
+  fullName: System.Collections.Generic.List<CardBattle.Core.Players.Debt>
+  nameWithType.vb: List(Of Debt)
+  fullName.vb: System.Collections.Generic.List(Of CardBattle.Core.Players.Debt)
+  name.vb: List(Of Debt)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CardBattle.Core.Players.Debt
+    name: Debt
+    nameWithType: Debt
+    fullName: CardBattle.Core.Players.Debt
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CardBattle.Core.Players.Debt
+    name: Debt
+    nameWithType: Debt
+    fullName: CardBattle.Core.Players.Debt
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CardBattle.Core.Players.Revenue
+  commentId: T:CardBattle.Core.Players.Revenue
+  parent: CardBattle.Core.Players
+  name: Revenue
+  nameWithType: Revenue
+  fullName: CardBattle.Core.Players.Revenue
+- uid: CardBattle.Core.Players.PlayerStats.Money*
+  commentId: Overload:CardBattle.Core.Players.PlayerStats.Money
+  name: Money
+  nameWithType: PlayerStats.Money
+  fullName: CardBattle.Core.Players.PlayerStats.Money
+- uid: CardBattle.Core.Players.IPlayerStats.Money
+  commentId: P:CardBattle.Core.Players.IPlayerStats.Money
+  parent: CardBattle.Core.Players.IPlayerStats
+  name: Money
+  nameWithType: IPlayerStats.Money
+  fullName: CardBattle.Core.Players.IPlayerStats.Money
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardBattle.Core.Players.PlayerStats.Debts*
+  commentId: Overload:CardBattle.Core.Players.PlayerStats.Debts
+  name: Debts
+  nameWithType: PlayerStats.Debts
+  fullName: CardBattle.Core.Players.PlayerStats.Debts
+- uid: CardBattle.Core.Players.IPlayerStats.Debts
+  commentId: P:CardBattle.Core.Players.IPlayerStats.Debts
+  parent: CardBattle.Core.Players.IPlayerStats
+  name: Debts
+  nameWithType: IPlayerStats.Debts
+  fullName: CardBattle.Core.Players.IPlayerStats.Debts
+- uid: CardBattle.Core.Players.PlayerStats.VillageCount*
+  commentId: Overload:CardBattle.Core.Players.PlayerStats.VillageCount
+  name: VillageCount
+  nameWithType: PlayerStats.VillageCount
+  fullName: CardBattle.Core.Players.PlayerStats.VillageCount
+- uid: CardBattle.Core.Players.IPlayerStats.VillageCount
+  commentId: P:CardBattle.Core.Players.IPlayerStats.VillageCount
+  parent: CardBattle.Core.Players.IPlayerStats
+  name: VillageCount
+  nameWithType: IPlayerStats.VillageCount
+  fullName: CardBattle.Core.Players.IPlayerStats.VillageCount
+- uid: CardBattle.Core.Players.PlayerStats.TownCount*
+  commentId: Overload:CardBattle.Core.Players.PlayerStats.TownCount
+  name: TownCount
+  nameWithType: PlayerStats.TownCount
+  fullName: CardBattle.Core.Players.PlayerStats.TownCount
+- uid: CardBattle.Core.Players.IPlayerStats.TownCount
+  commentId: P:CardBattle.Core.Players.IPlayerStats.TownCount
+  parent: CardBattle.Core.Players.IPlayerStats
+  name: TownCount
+  nameWithType: IPlayerStats.TownCount
+  fullName: CardBattle.Core.Players.IPlayerStats.TownCount

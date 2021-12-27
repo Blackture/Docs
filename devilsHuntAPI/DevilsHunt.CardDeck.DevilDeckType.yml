@@ -17,7 +17,7 @@ items:
   source:
     id: DevilDeckType
     path: ''
-    startLine: 231
+    startLine: 9
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -44,7 +44,7 @@ items:
   source:
     id: Devils
     path: ''
-    startLine: 233
+    startLine: 11
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -72,7 +72,7 @@ items:
   source:
     id: HardDevils
     path: ''
-    startLine: 234
+    startLine: 12
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

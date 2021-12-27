@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Biome.TYPE
+  commentId: T:TheInvaders.Planets.Biome.TYPE
+  id: Biome.TYPE
+  parent: TheInvaders.Planets
+  children:
+  - TheInvaders.Planets.Biome.TYPE.DESERT
+  - TheInvaders.Planets.Biome.TYPE.FOREST
+  - TheInvaders.Planets.Biome.TYPE.MOUNTAIN
+  - TheInvaders.Planets.Biome.TYPE.PLAINS
+  - TheInvaders.Planets.Biome.TYPE.RIVER
+  - TheInvaders.Planets.Biome.TYPE.SAVANNA
+  - TheInvaders.Planets.Biome.TYPE.SWAMPS
+  langs:
+  - csharp
+  - vb
+  name: Biome.TYPE
+  nameWithType: Biome.TYPE
+  fullName: TheInvaders.Planets.Biome.TYPE
+  type: Enum
+  source:
+    id: TYPE
+    path: ''
+    startLine: 1537
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: public enum TYPE
+    content.vb: Public Enum TYPE
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TheInvaders.Planets.Biome.TYPE.MOUNTAIN
+  commentId: F:TheInvaders.Planets.Biome.TYPE.MOUNTAIN
+  id: MOUNTAIN
+  parent: TheInvaders.Planets.Biome.TYPE
+  langs:
+  - csharp
+  - vb
+  name: MOUNTAIN
+  nameWithType: Biome.TYPE.MOUNTAIN
+  fullName: TheInvaders.Planets.Biome.TYPE.MOUNTAIN
+  type: Field
+  source:
+    id: MOUNTAIN
+    path: ''
+    startLine: 1539
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: MOUNTAIN = 0
+    return:
+      type: TheInvaders.Planets.Biome.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Planets.Biome.TYPE.DESERT
+  commentId: F:TheInvaders.Planets.Biome.TYPE.DESERT
+  id: DESERT
+  parent: TheInvaders.Planets.Biome.TYPE
+  langs:
+  - csharp
+  - vb
+  name: DESERT
+  nameWithType: Biome.TYPE.DESERT
+  fullName: TheInvaders.Planets.Biome.TYPE.DESERT
+  type: Field
+  source:
+    id: DESERT
+    path: ''
+    startLine: 1540
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: DESERT = 1
+    return:
+      type: TheInvaders.Planets.Biome.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Planets.Biome.TYPE.FOREST
+  commentId: F:TheInvaders.Planets.Biome.TYPE.FOREST
+  id: FOREST
+  parent: TheInvaders.Planets.Biome.TYPE
+  langs:
+  - csharp
+  - vb
+  name: FOREST
+  nameWithType: Biome.TYPE.FOREST
+  fullName: TheInvaders.Planets.Biome.TYPE.FOREST
+  type: Field
+  source:
+    id: FOREST
+    path: ''
+    startLine: 1541
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: FOREST = 2
+    return:
+      type: TheInvaders.Planets.Biome.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Planets.Biome.TYPE.RIVER
+  commentId: F:TheInvaders.Planets.Biome.TYPE.RIVER
+  id: RIVER
+  parent: TheInvaders.Planets.Biome.TYPE
+  langs:
+  - csharp
+  - vb
+  name: RIVER
+  nameWithType: Biome.TYPE.RIVER
+  fullName: TheInvaders.Planets.Biome.TYPE.RIVER
+  type: Field
+  source:
+    id: RIVER
+    path: ''
+    startLine: 1542
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: RIVER = 3
+    return:
+      type: TheInvaders.Planets.Biome.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Planets.Biome.TYPE.PLAINS
+  commentId: F:TheInvaders.Planets.Biome.TYPE.PLAINS
+  id: PLAINS
+  parent: TheInvaders.Planets.Biome.TYPE
+  langs:
+  - csharp
+  - vb
+  name: PLAINS
+  nameWithType: Biome.TYPE.PLAINS
+  fullName: TheInvaders.Planets.Biome.TYPE.PLAINS
+  type: Field
+  source:
+    id: PLAINS
+    path: ''
+    startLine: 1543
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: PLAINS = 4
+    return:
+      type: TheInvaders.Planets.Biome.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Planets.Biome.TYPE.SWAMPS
+  commentId: F:TheInvaders.Planets.Biome.TYPE.SWAMPS
+  id: SWAMPS
+  parent: TheInvaders.Planets.Biome.TYPE
+  langs:
+  - csharp
+  - vb
+  name: SWAMPS
+  nameWithType: Biome.TYPE.SWAMPS
+  fullName: TheInvaders.Planets.Biome.TYPE.SWAMPS
+  type: Field
+  source:
+    id: SWAMPS
+    path: ''
+    startLine: 1544
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: SWAMPS = 5
+    return:
+      type: TheInvaders.Planets.Biome.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Planets.Biome.TYPE.SAVANNA
+  commentId: F:TheInvaders.Planets.Biome.TYPE.SAVANNA
+  id: SAVANNA
+  parent: TheInvaders.Planets.Biome.TYPE
+  langs:
+  - csharp
+  - vb
+  name: SAVANNA
+  nameWithType: Biome.TYPE.SAVANNA
+  fullName: TheInvaders.Planets.Biome.TYPE.SAVANNA
+  type: Field
+  source:
+    id: SAVANNA
+    path: ''
+    startLine: 1545
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: SAVANNA = 6
+    return:
+      type: TheInvaders.Planets.Biome.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TheInvaders.Planets
+  commentId: N:TheInvaders.Planets
+  name: TheInvaders.Planets
+  nameWithType: TheInvaders.Planets
+  fullName: TheInvaders.Planets
+- uid: TheInvaders.Planets.Biome.TYPE
+  commentId: T:TheInvaders.Planets.Biome.TYPE
+  parent: TheInvaders.Planets
+  name: Biome.TYPE
+  nameWithType: Biome.TYPE
+  fullName: TheInvaders.Planets.Biome.TYPE

@@ -23,7 +23,7 @@ items:
   source:
     id: Effect
     path: ''
-    startLine: 459
+    startLine: 237
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -70,7 +70,7 @@ items:
   source:
     id: HasUseLimit
     path: ''
-    startLine: 463
+    startLine: 241
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -101,7 +101,7 @@ items:
   source:
     id: Strength
     path: ''
-    startLine: 475
+    startLine: 253
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -132,7 +132,7 @@ items:
   source:
     id: Defense
     path: ''
-    startLine: 481
+    startLine: 259
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -163,7 +163,7 @@ items:
   source:
     id: UseLimit
     path: ''
-    startLine: 487
+    startLine: 265
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -194,7 +194,7 @@ items:
   source:
     id: AllTwoFights
     path: ''
-    startLine: 495
+    startLine: 273
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -225,7 +225,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 503
+    startLine: 281
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -264,7 +264,7 @@ items:
   source:
     id: Apply
     path: ''
-    startLine: 522
+    startLine: 300
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -297,7 +297,7 @@ items:
   source:
     id: Update
     path: ''
-    startLine: 540
+    startLine: 318
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

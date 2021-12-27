@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Inventories.IItem
+  commentId: T:TheInvaders.Inventories.IItem
+  id: IItem
+  parent: TheInvaders.Inventories
+  children:
+  - TheInvaders.Inventories.IItem.Count
+  - TheInvaders.Inventories.IItem.Icon
+  - TheInvaders.Inventories.IItem.Name
+  langs:
+  - csharp
+  - vb
+  name: IItem
+  nameWithType: IItem
+  fullName: TheInvaders.Inventories.IItem
+  type: Interface
+  source:
+    id: IItem
+    path: ''
+    startLine: 1095
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: public interface IItem
+    content.vb: Public Interface IItem
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: TheInvaders.Inventories.IItem.Icon
+  commentId: P:TheInvaders.Inventories.IItem.Icon
+  id: Icon
+  parent: TheInvaders.Inventories.IItem
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: IItem.Icon
+  fullName: TheInvaders.Inventories.IItem.Icon
+  type: Property
+  source:
+    id: Icon
+    path: ''
+    startLine: 1097
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: Sprite Icon { get; }
+    parameters: []
+    return:
+      type: Sprite
+    content.vb: ReadOnly Property Icon As Sprite
+  overload: TheInvaders.Inventories.IItem.Icon*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TheInvaders.Inventories.IItem.Name
+  commentId: P:TheInvaders.Inventories.IItem.Name
+  id: Name
+  parent: TheInvaders.Inventories.IItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IItem.Name
+  fullName: TheInvaders.Inventories.IItem.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 1098
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: TheInvaders.Inventories.IItem.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: TheInvaders.Inventories.IItem.Count
+  commentId: P:TheInvaders.Inventories.IItem.Count
+  id: Count
+  parent: TheInvaders.Inventories.IItem
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: IItem.Count
+  fullName: TheInvaders.Inventories.IItem.Count
+  type: Property
+  source:
+    id: Count
+    path: ''
+    startLine: 1099
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property Count As Integer
+  overload: TheInvaders.Inventories.IItem.Count*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: TheInvaders.Inventories
+  commentId: N:TheInvaders.Inventories
+  name: TheInvaders.Inventories
+  nameWithType: TheInvaders.Inventories
+  fullName: TheInvaders.Inventories
+- uid: TheInvaders.Inventories.IItem.Icon*
+  commentId: Overload:TheInvaders.Inventories.IItem.Icon
+  name: Icon
+  nameWithType: IItem.Icon
+  fullName: TheInvaders.Inventories.IItem.Icon
+- uid: Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: TheInvaders.Inventories.IItem.Name*
+  commentId: Overload:TheInvaders.Inventories.IItem.Name
+  name: Name
+  nameWithType: IItem.Name
+  fullName: TheInvaders.Inventories.IItem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.Inventories.IItem.Count*
+  commentId: Overload:TheInvaders.Inventories.IItem.Count
+  name: Count
+  nameWithType: IItem.Count
+  fullName: TheInvaders.Inventories.IItem.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

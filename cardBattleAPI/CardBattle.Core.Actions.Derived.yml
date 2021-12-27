@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Actions.Derived
+  commentId: N:CardBattle.Core.Actions.Derived
+  id: CardBattle.Core.Actions.Derived
+  children:
+  - CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core.Actions.Derived
+  nameWithType: CardBattle.Core.Actions.Derived
+  fullName: CardBattle.Core.Actions.Derived
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.Actions.Derived.FinanceAction
+  commentId: T:CardBattle.Core.Actions.Derived.FinanceAction
+  name: FinanceAction
+  nameWithType: FinanceAction
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction

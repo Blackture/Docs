@@ -26,7 +26,7 @@ items:
   source:
     id: FieldSelection
     path: ''
-    startLine: 701
+    startLine: 479
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -34,7 +34,6 @@ items:
     content: 'public class FieldSelection : MonoBehaviour'
     content.vb: >-
       Public Class FieldSelection
-
           Inherits MonoBehaviour
   inheritance:
   - System.Object
@@ -58,7 +57,7 @@ items:
   source:
     id: MessengerPrefab
     path: ''
-    startLine: 705
+    startLine: 483
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -85,7 +84,7 @@ items:
   source:
     id: HospitalPrefab
     path: ''
-    startLine: 706
+    startLine: 484
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -112,7 +111,7 @@ items:
   source:
     id: DevilGUI
     path: ''
-    startLine: 707
+    startLine: 485
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -139,7 +138,7 @@ items:
   source:
     id: EMarksGUI
     path: ''
-    startLine: 708
+    startLine: 486
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -166,7 +165,7 @@ items:
   source:
     id: PhotoGUI
     path: ''
-    startLine: 709
+    startLine: 487
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -193,7 +192,7 @@ items:
   source:
     id: RobotGUI
     path: ''
-    startLine: 710
+    startLine: 488
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -220,7 +219,7 @@ items:
   source:
     id: FieldQuestion
     path: ''
-    startLine: 711
+    startLine: 489
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -247,7 +246,7 @@ items:
   source:
     id: Finished
     path: ''
-    startLine: 713
+    startLine: 491
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -278,7 +277,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 732
+    startLine: 510
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -307,7 +306,7 @@ items:
   source:
     id: InitSkip
     path: ''
-    startLine: 747
+    startLine: 525
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -336,7 +335,7 @@ items:
   source:
     id: Select
     path: ''
-    startLine: 762
+    startLine: 540
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

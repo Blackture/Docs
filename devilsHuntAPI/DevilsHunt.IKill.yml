@@ -17,7 +17,7 @@ items:
   source:
     id: IKill
     path: ''
-    startLine: 1897
+    startLine: 1675
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -44,7 +44,7 @@ items:
   source:
     id: KillType
     path: ''
-    startLine: 1905
+    startLine: 1683
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -73,7 +73,7 @@ items:
   source:
     id: IsSold
     path: ''
-    startLine: 1910
+    startLine: 1688
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

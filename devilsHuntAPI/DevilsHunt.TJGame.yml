@@ -10,6 +10,7 @@ items:
   - DevilsHunt.TJGame.EasyDevils
   - DevilsHunt.TJGame.ExclamationMarks
   - DevilsHunt.TJGame.HardDevils
+  - DevilsHunt.TJGame.LastTurn
   - DevilsHunt.TJGame.NextTurn
   - DevilsHunt.TJGame.NextTurn(System.Boolean,System.Boolean)
   - DevilsHunt.TJGame.OpenInventory
@@ -17,10 +18,7 @@ items:
   - DevilsHunt.TJGame.OpenSecondarySkill
   - DevilsHunt.TJGame.OpenShop
   - DevilsHunt.TJGame.PhotoCards
-  - DevilsHunt.TJGame.Player1
-  - DevilsHunt.TJGame.Player2
-  - DevilsHunt.TJGame.Player3
-  - DevilsHunt.TJGame.Player4
+  - DevilsHunt.TJGame.Players
   - DevilsHunt.TJGame.Shop
   - DevilsHunt.TJGame.Turn
   langs:
@@ -33,7 +31,7 @@ items:
   source:
     id: TJGame
     path: ''
-    startLine: 3153
+    startLine: 2941
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -66,124 +64,31 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: DevilsHunt.TJGame.Player1
-  commentId: P:DevilsHunt.TJGame.Player1
-  id: Player1
+- uid: DevilsHunt.TJGame.Players
+  commentId: P:DevilsHunt.TJGame.Players
+  id: Players
   parent: DevilsHunt.TJGame
   langs:
   - csharp
   - vb
-  name: Player1
-  nameWithType: TJGame.Player1
-  fullName: DevilsHunt.TJGame.Player1
+  name: Players
+  nameWithType: TJGame.Players
+  fullName: DevilsHunt.TJGame.Players
   type: Property
   source:
-    id: Player1
+    id: Players
     path: ''
-    startLine: 3166
+    startLine: 2955
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
   syntax:
-    content: public Player Player1 { get; }
+    content: public Player[] Players { get; }
     parameters: []
     return:
-      type: DevilsHunt.Player
-    content.vb: Public ReadOnly Property Player1 As Player
-  overload: DevilsHunt.TJGame.Player1*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: DevilsHunt.TJGame.Player2
-  commentId: P:DevilsHunt.TJGame.Player2
-  id: Player2
-  parent: DevilsHunt.TJGame
-  langs:
-  - csharp
-  - vb
-  name: Player2
-  nameWithType: TJGame.Player2
-  fullName: DevilsHunt.TJGame.Player2
-  type: Property
-  source:
-    id: Player2
-    path: ''
-    startLine: 3172
-  assemblies:
-  - cs.temp.dll
-  namespace: DevilsHunt
-  syntax:
-    content: public Player Player2 { get; }
-    parameters: []
-    return:
-      type: DevilsHunt.Player
-    content.vb: Public ReadOnly Property Player2 As Player
-  overload: DevilsHunt.TJGame.Player2*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: DevilsHunt.TJGame.Player3
-  commentId: P:DevilsHunt.TJGame.Player3
-  id: Player3
-  parent: DevilsHunt.TJGame
-  langs:
-  - csharp
-  - vb
-  name: Player3
-  nameWithType: TJGame.Player3
-  fullName: DevilsHunt.TJGame.Player3
-  type: Property
-  source:
-    id: Player3
-    path: ''
-    startLine: 3178
-  assemblies:
-  - cs.temp.dll
-  namespace: DevilsHunt
-  syntax:
-    content: public Player Player3 { get; }
-    parameters: []
-    return:
-      type: DevilsHunt.Player
-    content.vb: Public ReadOnly Property Player3 As Player
-  overload: DevilsHunt.TJGame.Player3*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
-- uid: DevilsHunt.TJGame.Player4
-  commentId: P:DevilsHunt.TJGame.Player4
-  id: Player4
-  parent: DevilsHunt.TJGame
-  langs:
-  - csharp
-  - vb
-  name: Player4
-  nameWithType: TJGame.Player4
-  fullName: DevilsHunt.TJGame.Player4
-  type: Property
-  source:
-    id: Player4
-    path: ''
-    startLine: 3184
-  assemblies:
-  - cs.temp.dll
-  namespace: DevilsHunt
-  syntax:
-    content: public Player Player4 { get; }
-    parameters: []
-    return:
-      type: DevilsHunt.Player
-    content.vb: Public ReadOnly Property Player4 As Player
-  overload: DevilsHunt.TJGame.Player4*
+      type: DevilsHunt.Player[]
+    content.vb: Public ReadOnly Property Players As Player()
+  overload: DevilsHunt.TJGame.Players*
   modifiers.csharp:
   - public
   - get
@@ -204,7 +109,7 @@ items:
   source:
     id: EasyDevils
     path: ''
-    startLine: 3193
+    startLine: 2964
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -235,7 +140,7 @@ items:
   source:
     id: HardDevils
     path: ''
-    startLine: 3202
+    startLine: 2973
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -266,7 +171,7 @@ items:
   source:
     id: ExclamationMarks
     path: ''
-    startLine: 3213
+    startLine: 2984
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -297,7 +202,7 @@ items:
   source:
     id: PhotoCards
     path: ''
-    startLine: 3224
+    startLine: 2995
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -328,7 +233,7 @@ items:
   source:
     id: Shop
     path: ''
-    startLine: 3235
+    startLine: 3006
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -359,7 +264,7 @@ items:
   source:
     id: Turn
     path: ''
-    startLine: 3246
+    startLine: 3017
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -370,6 +275,37 @@ items:
       type: System.Int32
     content.vb: Public ReadOnly Property Turn As Integer
   overload: DevilsHunt.TJGame.Turn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: DevilsHunt.TJGame.LastTurn
+  commentId: P:DevilsHunt.TJGame.LastTurn
+  id: LastTurn
+  parent: DevilsHunt.TJGame
+  langs:
+  - csharp
+  - vb
+  name: LastTurn
+  nameWithType: TJGame.LastTurn
+  fullName: DevilsHunt.TJGame.LastTurn
+  type: Property
+  source:
+    id: LastTurn
+    path: ''
+    startLine: 3023
+  assemblies:
+  - cs.temp.dll
+  namespace: DevilsHunt
+  syntax:
+    content: public int LastTurn { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property LastTurn As Integer
+  overload: DevilsHunt.TJGame.LastTurn*
   modifiers.csharp:
   - public
   - get
@@ -390,7 +326,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3253
+    startLine: 3036
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -444,7 +380,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 3326
+    startLine: 3100
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -498,7 +434,7 @@ items:
   source:
     id: OpenPlayerFile
     path: ''
-    startLine: 3413
+    startLine: 3167
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -529,7 +465,7 @@ items:
   source:
     id: OpenSecondarySkill
     path: ''
-    startLine: 3565
+    startLine: 3216
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -555,7 +491,7 @@ items:
   source:
     id: OpenShop
     path: ''
-    startLine: 3571
+    startLine: 3222
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -581,7 +517,7 @@ items:
   source:
     id: OpenInventory
     path: ''
-    startLine: 3577
+    startLine: 3228
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -607,7 +543,7 @@ items:
   source:
     id: NextTurn
     path: ''
-    startLine: 3584
+    startLine: 3235
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -633,7 +569,7 @@ items:
   source:
     id: NextTurn
     path: ''
-    startLine: 3692
+    startLine: 3272
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -948,32 +884,35 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: DevilsHunt.TJGame.Player1*
-  commentId: Overload:DevilsHunt.TJGame.Player1
-  name: Player1
-  nameWithType: TJGame.Player1
-  fullName: DevilsHunt.TJGame.Player1
-- uid: DevilsHunt.Player
-  commentId: T:DevilsHunt.Player
-  parent: DevilsHunt
-  name: Player
-  nameWithType: Player
-  fullName: DevilsHunt.Player
-- uid: DevilsHunt.TJGame.Player2*
-  commentId: Overload:DevilsHunt.TJGame.Player2
-  name: Player2
-  nameWithType: TJGame.Player2
-  fullName: DevilsHunt.TJGame.Player2
-- uid: DevilsHunt.TJGame.Player3*
-  commentId: Overload:DevilsHunt.TJGame.Player3
-  name: Player3
-  nameWithType: TJGame.Player3
-  fullName: DevilsHunt.TJGame.Player3
-- uid: DevilsHunt.TJGame.Player4*
-  commentId: Overload:DevilsHunt.TJGame.Player4
-  name: Player4
-  nameWithType: TJGame.Player4
-  fullName: DevilsHunt.TJGame.Player4
+- uid: DevilsHunt.TJGame.Players*
+  commentId: Overload:DevilsHunt.TJGame.Players
+  name: Players
+  nameWithType: TJGame.Players
+  fullName: DevilsHunt.TJGame.Players
+- uid: DevilsHunt.Player[]
+  isExternal: true
+  name: Player[]
+  nameWithType: Player[]
+  fullName: DevilsHunt.Player[]
+  nameWithType.vb: Player()
+  fullName.vb: DevilsHunt.Player()
+  name.vb: Player()
+  spec.csharp:
+  - uid: DevilsHunt.Player
+    name: Player
+    nameWithType: Player
+    fullName: DevilsHunt.Player
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: DevilsHunt.Player
+    name: Player
+    nameWithType: Player
+    fullName: DevilsHunt.Player
+  - name: ()
+    nameWithType: ()
+    fullName: ()
 - uid: DevilsHunt.TJGame.EasyDevils*
   commentId: Overload:DevilsHunt.TJGame.EasyDevils
   name: EasyDevils
@@ -1188,6 +1127,11 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: DevilsHunt.TJGame.LastTurn*
+  commentId: Overload:DevilsHunt.TJGame.LastTurn
+  name: LastTurn
+  nameWithType: TJGame.LastTurn
+  fullName: DevilsHunt.TJGame.LastTurn
 - uid: DevilsHunt.TJGame.#ctor*
   commentId: Overload:DevilsHunt.TJGame.#ctor
   name: TJGame

@@ -1,0 +1,939 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  commentId: T:TheInvaders.Planets.Structures.InhabitedStructures.Town
+  id: Town
+  parent: TheInvaders.Planets.Structures.InhabitedStructures
+  children:
+  - TheInvaders.Planets.Structures.InhabitedStructures.Town.#ctor
+  - TheInvaders.Planets.Structures.InhabitedStructures.Town.Traders
+  - TheInvaders.Planets.Structures.InhabitedStructures.Town.UnitsQuantity
+  langs:
+  - csharp
+  - vb
+  name: Town
+  nameWithType: Town
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  type: Class
+  source:
+    id: Town
+    path: ''
+    startLine: 2188
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures.InhabitedStructures
+  syntax:
+    content: 'public class Town : InhabitedStructure<Town>, IInhabitedStructure<Town>'
+    content.vb: >-
+      Public Class Town
+          Inherits InhabitedStructure(Of Town)
+          Implements IInhabitedStructure(Of Town)
+  inheritance:
+  - System.Object
+  - TheInvaders.Planets.Structures.Structure
+  - TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  implements:
+  - TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  inheritedMembers:
+  - TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.numberOfInhabitants
+  - TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.SetTraderCount(System.Int32,System.Int32,System.Int32)
+  - TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.GetInhabitedStructure
+  - TheInvaders.Planets.Structures.Structure.GetStructure``1
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.Town.UnitsQuantity
+  commentId: P:TheInvaders.Planets.Structures.InhabitedStructures.Town.UnitsQuantity
+  id: UnitsQuantity
+  parent: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  langs:
+  - csharp
+  - vb
+  name: UnitsQuantity
+  nameWithType: Town.UnitsQuantity
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town.UnitsQuantity
+  type: Property
+  source:
+    id: UnitsQuantity
+    path: ''
+    startLine: 2195
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures.InhabitedStructures
+  syntax:
+    content: public override int UnitsQuantity { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property UnitsQuantity As Integer
+  overridden: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.UnitsQuantity
+  overload: TheInvaders.Planets.Structures.InhabitedStructures.Town.UnitsQuantity*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.Town.Traders
+  commentId: P:TheInvaders.Planets.Structures.InhabitedStructures.Town.Traders
+  id: Traders
+  parent: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  langs:
+  - csharp
+  - vb
+  name: Traders
+  nameWithType: Town.Traders
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town.Traders
+  type: Property
+  source:
+    id: Traders
+    path: ''
+    startLine: 2199
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures.InhabitedStructures
+  syntax:
+    content: public override Trader[] Traders { get; }
+    parameters: []
+    return:
+      type: TheInvaders.Trader[]
+    content.vb: Public Overrides ReadOnly Property Traders As Trader()
+  overridden: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.Traders
+  overload: TheInvaders.Planets.Structures.InhabitedStructures.Town.Traders*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.Town.#ctor
+  commentId: M:TheInvaders.Planets.Structures.InhabitedStructures.Town.#ctor
+  id: '#ctor'
+  parent: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  langs:
+  - csharp
+  - vb
+  name: Town()
+  nameWithType: Town.Town()
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town.Town()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2209
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures.InhabitedStructures
+  syntax:
+    content: public Town()
+    content.vb: Public Sub New
+  overload: TheInvaders.Planets.Structures.InhabitedStructures.Town.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders.Planets.Structures.InhabitedStructures
+  commentId: N:TheInvaders.Planets.Structures.InhabitedStructures
+  name: TheInvaders.Planets.Structures.InhabitedStructures
+  nameWithType: TheInvaders.Planets.Structures.InhabitedStructures
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: TheInvaders.Planets.Structures.Structure
+  commentId: T:TheInvaders.Planets.Structures.Structure
+  parent: TheInvaders.Planets.Structures
+  name: Structure
+  nameWithType: Structure
+  fullName: TheInvaders.Planets.Structures.Structure
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  commentId: T:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  parent: TheInvaders.Planets.Structures.InhabitedStructures
+  definition: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1
+  name: InhabitedStructure<Town>
+  nameWithType: InhabitedStructure<Town>
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>
+  nameWithType.vb: InhabitedStructure(Of Town)
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town)
+  name.vb: InhabitedStructure(Of Town)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1
+    name: InhabitedStructure
+    nameWithType: InhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.Town
+    name: Town
+    nameWithType: Town
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1
+    name: InhabitedStructure
+    nameWithType: InhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.Town
+    name: Town
+    nameWithType: Town
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  commentId: T:TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  parent: TheInvaders.Planets.Structures.InhabitedStructures
+  definition: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure`1
+  name: IInhabitedStructure<Town>
+  nameWithType: IInhabitedStructure<Town>
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>
+  nameWithType.vb: IInhabitedStructure(Of Town)
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town)
+  name.vb: IInhabitedStructure(Of Town)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure`1
+    name: IInhabitedStructure
+    nameWithType: IInhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.Town
+    name: Town
+    nameWithType: Town
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure`1
+    name: IInhabitedStructure
+    nameWithType: IInhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.Town
+    name: Town
+    nameWithType: Town
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.numberOfInhabitants
+  commentId: F:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.numberOfInhabitants
+  parent: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  definition: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.numberOfInhabitants
+  name: numberOfInhabitants
+  nameWithType: InhabitedStructure<Town>.numberOfInhabitants
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>.numberOfInhabitants
+  nameWithType.vb: InhabitedStructure(Of Town).numberOfInhabitants
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town).numberOfInhabitants
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.SetTraderCount(System.Int32,System.Int32,System.Int32)
+  commentId: M:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.SetTraderCount(System.Int32,System.Int32,System.Int32)
+  parent: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  definition: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.SetTraderCount(System.Int32,System.Int32,System.Int32)
+  name: SetTraderCount(Int32, Int32, Int32)
+  nameWithType: InhabitedStructure<Town>.SetTraderCount(Int32, Int32, Int32)
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>.SetTraderCount(System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: InhabitedStructure(Of Town).SetTraderCount(Int32, Int32, Int32)
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town).SetTraderCount(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.SetTraderCount(System.Int32,System.Int32,System.Int32)
+    name: SetTraderCount
+    nameWithType: InhabitedStructure<Town>.SetTraderCount
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>.SetTraderCount
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.SetTraderCount(System.Int32,System.Int32,System.Int32)
+    name: SetTraderCount
+    nameWithType: InhabitedStructure(Of Town).SetTraderCount
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town).SetTraderCount
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.GetInhabitedStructure
+  commentId: M:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.GetInhabitedStructure
+  parent: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  definition: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.GetInhabitedStructure
+  name: GetInhabitedStructure()
+  nameWithType: InhabitedStructure<Town>.GetInhabitedStructure()
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>.GetInhabitedStructure()
+  nameWithType.vb: InhabitedStructure(Of Town).GetInhabitedStructure()
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town).GetInhabitedStructure()
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.GetInhabitedStructure
+    name: GetInhabitedStructure
+    nameWithType: InhabitedStructure<Town>.GetInhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>.GetInhabitedStructure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.GetInhabitedStructure
+    name: GetInhabitedStructure
+    nameWithType: InhabitedStructure(Of Town).GetInhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town).GetInhabitedStructure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.Structure.GetStructure``1
+  commentId: M:TheInvaders.Planets.Structures.Structure.GetStructure``1
+  parent: TheInvaders.Planets.Structures.Structure
+  name: GetStructure<T>()
+  nameWithType: Structure.GetStructure<T>()
+  fullName: TheInvaders.Planets.Structures.Structure.GetStructure<T>()
+  nameWithType.vb: Structure.GetStructure(Of T)()
+  fullName.vb: TheInvaders.Planets.Structures.Structure.GetStructure(Of T)()
+  name.vb: GetStructure(Of T)()
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.Structure.GetStructure``1
+    name: GetStructure<T>
+    nameWithType: Structure.GetStructure<T>
+    fullName: TheInvaders.Planets.Structures.Structure.GetStructure<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.Structure.GetStructure``1
+    name: GetStructure(Of T)
+    nameWithType: Structure.GetStructure(Of T)
+    fullName: TheInvaders.Planets.Structures.Structure.GetStructure(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.Planets.Structures
+  commentId: N:TheInvaders.Planets.Structures
+  name: TheInvaders.Planets.Structures
+  nameWithType: TheInvaders.Planets.Structures
+  fullName: TheInvaders.Planets.Structures
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1
+  commentId: T:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1
+  name: InhabitedStructure<T>
+  nameWithType: InhabitedStructure<T>
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<T>
+  nameWithType.vb: InhabitedStructure(Of T)
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of T)
+  name.vb: InhabitedStructure(Of T)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1
+    name: InhabitedStructure
+    nameWithType: InhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1
+    name: InhabitedStructure
+    nameWithType: InhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure`1
+  commentId: T:TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure`1
+  name: IInhabitedStructure<T>
+  nameWithType: IInhabitedStructure<T>
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure<T>
+  nameWithType.vb: IInhabitedStructure(Of T)
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure(Of T)
+  name.vb: IInhabitedStructure(Of T)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure`1
+    name: IInhabitedStructure
+    nameWithType: IInhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure`1
+    name: IInhabitedStructure
+    nameWithType: IInhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.numberOfInhabitants
+  commentId: F:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.numberOfInhabitants
+  name: numberOfInhabitants
+  nameWithType: InhabitedStructure<T>.numberOfInhabitants
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<T>.numberOfInhabitants
+  nameWithType.vb: InhabitedStructure(Of T).numberOfInhabitants
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of T).numberOfInhabitants
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.SetTraderCount(System.Int32,System.Int32,System.Int32)
+  commentId: M:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.SetTraderCount(System.Int32,System.Int32,System.Int32)
+  isExternal: true
+  name: SetTraderCount(Int32, Int32, Int32)
+  nameWithType: InhabitedStructure<T>.SetTraderCount(Int32, Int32, Int32)
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<T>.SetTraderCount(System.Int32, System.Int32, System.Int32)
+  nameWithType.vb: InhabitedStructure(Of T).SetTraderCount(Int32, Int32, Int32)
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of T).SetTraderCount(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.SetTraderCount(System.Int32,System.Int32,System.Int32)
+    name: SetTraderCount
+    nameWithType: InhabitedStructure<T>.SetTraderCount
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<T>.SetTraderCount
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.SetTraderCount(System.Int32,System.Int32,System.Int32)
+    name: SetTraderCount
+    nameWithType: InhabitedStructure(Of T).SetTraderCount
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of T).SetTraderCount
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.GetInhabitedStructure
+  commentId: M:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.GetInhabitedStructure
+  name: GetInhabitedStructure()
+  nameWithType: InhabitedStructure<T>.GetInhabitedStructure()
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<T>.GetInhabitedStructure()
+  nameWithType.vb: InhabitedStructure(Of T).GetInhabitedStructure()
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of T).GetInhabitedStructure()
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.GetInhabitedStructure
+    name: GetInhabitedStructure
+    nameWithType: InhabitedStructure<T>.GetInhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<T>.GetInhabitedStructure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.GetInhabitedStructure
+    name: GetInhabitedStructure
+    nameWithType: InhabitedStructure(Of T).GetInhabitedStructure
+    fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of T).GetInhabitedStructure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.UnitsQuantity
+  commentId: P:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.UnitsQuantity
+  parent: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  definition: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.UnitsQuantity
+  name: UnitsQuantity
+  nameWithType: InhabitedStructure<Town>.UnitsQuantity
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>.UnitsQuantity
+  nameWithType.vb: InhabitedStructure(Of Town).UnitsQuantity
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town).UnitsQuantity
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.Town.UnitsQuantity*
+  commentId: Overload:TheInvaders.Planets.Structures.InhabitedStructures.Town.UnitsQuantity
+  name: UnitsQuantity
+  nameWithType: Town.UnitsQuantity
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town.UnitsQuantity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.UnitsQuantity
+  commentId: P:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.UnitsQuantity
+  name: UnitsQuantity
+  nameWithType: InhabitedStructure<T>.UnitsQuantity
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<T>.UnitsQuantity
+  nameWithType.vb: InhabitedStructure(Of T).UnitsQuantity
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of T).UnitsQuantity
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.Traders
+  commentId: P:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}.Traders
+  parent: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure{TheInvaders.Planets.Structures.InhabitedStructures.Town}
+  definition: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.Traders
+  name: Traders
+  nameWithType: InhabitedStructure<Town>.Traders
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<TheInvaders.Planets.Structures.InhabitedStructures.Town>.Traders
+  nameWithType.vb: InhabitedStructure(Of Town).Traders
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of TheInvaders.Planets.Structures.InhabitedStructures.Town).Traders
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.Town.Traders*
+  commentId: Overload:TheInvaders.Planets.Structures.InhabitedStructures.Town.Traders
+  name: Traders
+  nameWithType: Town.Traders
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town.Traders
+- uid: TheInvaders.Trader[]
+  isExternal: true
+  name: Trader[]
+  nameWithType: Trader[]
+  fullName: TheInvaders.Trader[]
+  nameWithType.vb: Trader()
+  fullName.vb: TheInvaders.Trader()
+  name.vb: Trader()
+  spec.csharp:
+  - uid: TheInvaders.Trader
+    name: Trader
+    nameWithType: Trader
+    fullName: TheInvaders.Trader
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: TheInvaders.Trader
+    name: Trader
+    nameWithType: Trader
+    fullName: TheInvaders.Trader
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.Traders
+  commentId: P:TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1.Traders
+  name: Traders
+  nameWithType: InhabitedStructure<T>.Traders
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure<T>.Traders
+  nameWithType.vb: InhabitedStructure(Of T).Traders
+  fullName.vb: TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure(Of T).Traders
+- uid: TheInvaders.Planets.Structures.InhabitedStructures.Town.#ctor*
+  commentId: Overload:TheInvaders.Planets.Structures.InhabitedStructures.Town.#ctor
+  name: Town
+  nameWithType: Town.Town
+  fullName: TheInvaders.Planets.Structures.InhabitedStructures.Town.Town

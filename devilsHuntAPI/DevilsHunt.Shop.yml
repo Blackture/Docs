@@ -25,7 +25,7 @@ items:
   source:
     id: Shop
     path: ''
-    startLine: 2421
+    startLine: 2199
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -72,7 +72,7 @@ items:
   source:
     id: ShopPrefab
     path: ''
-    startLine: 2425
+    startLine: 2203
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -109,7 +109,7 @@ items:
   source:
     id: Canvas
     path: ''
-    startLine: 2425
+    startLine: 2203
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -146,7 +146,7 @@ items:
   source:
     id: main
     path: ''
-    startLine: 2425
+    startLine: 2203
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -183,7 +183,7 @@ items:
   source:
     id: ItemPrefab
     path: ''
-    startLine: 2425
+    startLine: 2203
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -220,7 +220,7 @@ items:
   source:
     id: shop
     path: ''
-    startLine: 2425
+    startLine: 2203
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -257,7 +257,7 @@ items:
   source:
     id: Items
     path: ''
-    startLine: 2441
+    startLine: 2219
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -288,7 +288,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2528
+    startLine: 2306
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -314,7 +314,7 @@ items:
   source:
     id: Buy
     path: ''
-    startLine: 2533
+    startLine: 2311
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -343,7 +343,7 @@ items:
   source:
     id: UpdateShop
     path: ''
-    startLine: 2551
+    startLine: 2330
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -369,7 +369,7 @@ items:
   source:
     id: Open
     path: ''
-    startLine: 2601
+    startLine: 2389
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

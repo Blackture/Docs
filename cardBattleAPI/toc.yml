@@ -1,0 +1,60 @@
+### YamlMime:TableOfContent
+- uid: CardBattle.Core
+  name: CardBattle.Core
+  items:
+  - uid: CardBattle.Core.COLOR
+    name: COLOR
+  - uid: CardBattle.Core.GameController
+    name: GameController
+  - uid: CardBattle.Core.GameManager
+    name: GameManager
+  - uid: CardBattle.Core.MULTIPLIER
+    name: MULTIPLIER
+- uid: CardBattle.Core.Actions
+  name: CardBattle.Core.Actions
+  items:
+  - uid: CardBattle.Core.Actions.Action
+    name: Action
+- uid: CardBattle.Core.Actions.Derived
+  name: CardBattle.Core.Actions.Derived
+  items:
+  - uid: CardBattle.Core.Actions.Derived.FinanceAction
+    name: FinanceAction
+- uid: CardBattle.Core.Actions.Derived.Dice
+  name: CardBattle.Core.Actions.Derived.Dice
+  items:
+  - uid: CardBattle.Core.Actions.Derived.Dice.ColorDice
+    name: ColorDice
+- uid: CardBattle.Core.AI
+  name: CardBattle.Core.AI
+  items:
+  - uid: CardBattle.Core.AI.Bot
+    name: Bot
+- uid: CardBattle.Core.Cards
+  name: CardBattle.Core.Cards
+  items:
+  - uid: CardBattle.Core.Cards.Card
+    name: Card
+  - uid: CardBattle.Core.Cards.CardStack`1
+    name: CardStack<T>
+    name.vb: CardStack(Of T)
+- uid: CardBattle.Core.Players
+  name: CardBattle.Core.Players
+  items:
+  - uid: CardBattle.Core.Players.Debt
+    name: Debt
+  - uid: CardBattle.Core.Players.IPlayerStats
+    name: IPlayerStats
+  - uid: CardBattle.Core.Players.Player
+    name: Player
+  - uid: CardBattle.Core.Players.PlayerStats
+    name: PlayerStats
+  - uid: CardBattle.Core.Players.Revenue
+    name: Revenue
+- uid: CardBattle.Core.Turns
+  name: CardBattle.Core.Turns
+  items:
+  - uid: CardBattle.Core.Turns.Turn
+    name: Turn
+  - uid: CardBattle.Core.Turns.TurnManager
+    name: TurnManager

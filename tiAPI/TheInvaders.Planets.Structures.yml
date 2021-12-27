@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Structures
+  commentId: N:TheInvaders.Planets.Structures
+  id: TheInvaders.Planets.Structures
+  children:
+  - TheInvaders.Planets.Structures.Ruin
+  - TheInvaders.Planets.Structures.Structure
+  - TheInvaders.Planets.Structures.Structure.TYPE
+  langs:
+  - csharp
+  - vb
+  name: TheInvaders.Planets.Structures
+  nameWithType: TheInvaders.Planets.Structures
+  fullName: TheInvaders.Planets.Structures
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TheInvaders.Planets.Structures.Ruin
+  commentId: T:TheInvaders.Planets.Structures.Ruin
+  name: Ruin
+  nameWithType: Ruin
+  fullName: TheInvaders.Planets.Structures.Ruin
+- uid: TheInvaders.Planets.Structures.Structure
+  commentId: T:TheInvaders.Planets.Structures.Structure
+  parent: TheInvaders.Planets.Structures
+  name: Structure
+  nameWithType: Structure
+  fullName: TheInvaders.Planets.Structures.Structure
+- uid: TheInvaders.Planets.Structures.Structure.TYPE
+  commentId: T:TheInvaders.Planets.Structures.Structure.TYPE
+  parent: TheInvaders.Planets.Structures
+  name: Structure.TYPE
+  nameWithType: Structure.TYPE
+  fullName: TheInvaders.Planets.Structures.Structure.TYPE
+- uid: TheInvaders.Planets.Structures
+  commentId: N:TheInvaders.Planets.Structures
+  name: TheInvaders.Planets.Structures
+  nameWithType: TheInvaders.Planets.Structures
+  fullName: TheInvaders.Planets.Structures

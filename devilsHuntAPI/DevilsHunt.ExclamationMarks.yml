@@ -21,7 +21,7 @@ items:
   source:
     id: ExclamationMarks
     path: ''
-    startLine: 630
+    startLine: 408
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -68,7 +68,7 @@ items:
   source:
     id: Effect
     path: ''
-    startLine: 647
+    startLine: 425
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -99,7 +99,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 655
+    startLine: 433
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -130,7 +130,7 @@ items:
   source:
     id: Description
     path: ''
-    startLine: 663
+    startLine: 441
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -161,7 +161,7 @@ items:
   source:
     id: GoTO
     path: ''
-    startLine: 671
+    startLine: 449
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -192,7 +192,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 678
+    startLine: 456
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -227,7 +227,7 @@ items:
   source:
     id: ApplyEffect
     path: ''
-    startLine: 686
+    startLine: 464
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  commentId: T:TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  id: Outpost`1.TYPE
+  parent: TheInvaders.Planets.Structures.Outposts
+  children:
+  - TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE.MILITARY
+  - TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE.SCIENTIFIC
+  langs:
+  - csharp
+  - vb
+  name: Outpost<T>.TYPE
+  nameWithType: Outpost<T>.TYPE
+  fullName: TheInvaders.Planets.Structures.Outposts.Outpost<T>.TYPE
+  type: Enum
+  source:
+    id: TYPE
+    path: ''
+    startLine: 2286
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures.Outposts
+  syntax:
+    content: protected enum TYPE
+    content.vb: Protected Enum TYPE
+  nameWithType.vb: Outpost(Of T).TYPE
+  modifiers.csharp:
+  - protected
+  - enum
+  modifiers.vb:
+  - Protected
+  - Enum
+  fullName.vb: TheInvaders.Planets.Structures.Outposts.Outpost(Of T).TYPE
+  name.vb: Outpost(Of T).TYPE
+- uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE.SCIENTIFIC
+  commentId: F:TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE.SCIENTIFIC
+  id: SCIENTIFIC
+  parent: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  langs:
+  - csharp
+  - vb
+  name: SCIENTIFIC
+  nameWithType: Outpost<T>.TYPE.SCIENTIFIC
+  fullName: TheInvaders.Planets.Structures.Outposts.Outpost<T>.TYPE.SCIENTIFIC
+  type: Field
+  source:
+    id: SCIENTIFIC
+    path: ''
+    startLine: 2288
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures.Outposts
+  syntax:
+    content: SCIENTIFIC = 0
+    return:
+      type: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  nameWithType.vb: Outpost(Of T).TYPE.SCIENTIFIC
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: TheInvaders.Planets.Structures.Outposts.Outpost(Of T).TYPE.SCIENTIFIC
+- uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE.MILITARY
+  commentId: F:TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE.MILITARY
+  id: MILITARY
+  parent: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  langs:
+  - csharp
+  - vb
+  name: MILITARY
+  nameWithType: Outpost<T>.TYPE.MILITARY
+  fullName: TheInvaders.Planets.Structures.Outposts.Outpost<T>.TYPE.MILITARY
+  type: Field
+  source:
+    id: MILITARY
+    path: ''
+    startLine: 2289
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures.Outposts
+  syntax:
+    content: MILITARY = 1
+    return:
+      type: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  nameWithType.vb: Outpost(Of T).TYPE.MILITARY
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+  fullName.vb: TheInvaders.Planets.Structures.Outposts.Outpost(Of T).TYPE.MILITARY
+references:
+- uid: TheInvaders.Planets.Structures.Outposts
+  commentId: N:TheInvaders.Planets.Structures.Outposts
+  name: TheInvaders.Planets.Structures.Outposts
+  nameWithType: TheInvaders.Planets.Structures.Outposts
+  fullName: TheInvaders.Planets.Structures.Outposts
+- uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  commentId: T:TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  parent: TheInvaders.Planets.Structures.Outposts
+  name: Outpost.TYPE<>
+  nameWithType: Outpost.TYPE<>
+  fullName: TheInvaders.Planets.Structures.Outposts.Outpost.TYPE<>
+  nameWithType.vb: Outpost.TYPE(Of )
+  fullName.vb: TheInvaders.Planets.Structures.Outposts.Outpost.TYPE(Of )
+  name.vb: Outpost.TYPE(Of )
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+    name: Outpost.TYPE
+    nameWithType: Outpost.TYPE
+    fullName: TheInvaders.Planets.Structures.Outposts.Outpost.TYPE
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+    name: Outpost.TYPE
+    nameWithType: Outpost.TYPE
+    fullName: TheInvaders.Planets.Structures.Outposts.Outpost.TYPE
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )

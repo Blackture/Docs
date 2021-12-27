@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Turns
+  commentId: N:CardBattle.Core.Turns
+  id: CardBattle.Core.Turns
+  children:
+  - CardBattle.Core.Turns.Turn
+  - CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core.Turns
+  nameWithType: CardBattle.Core.Turns
+  fullName: CardBattle.Core.Turns
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.Turns.Turn
+  commentId: T:CardBattle.Core.Turns.Turn
+  name: Turn
+  nameWithType: Turn
+  fullName: CardBattle.Core.Turns.Turn
+- uid: CardBattle.Core.Turns.TurnManager
+  commentId: T:CardBattle.Core.Turns.TurnManager
+  name: TurnManager
+  nameWithType: TurnManager
+  fullName: CardBattle.Core.Turns.TurnManager

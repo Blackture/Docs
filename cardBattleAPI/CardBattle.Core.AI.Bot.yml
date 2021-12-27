@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.AI.Bot
+  commentId: T:CardBattle.Core.AI.Bot
+  id: Bot
+  parent: CardBattle.Core.AI
+  children:
+  - CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
+  langs:
+  - csharp
+  - vb
+  name: Bot
+  nameWithType: Bot
+  fullName: CardBattle.Core.AI.Bot
+  type: Class
+  source:
+    id: Bot
+    path: ''
+    startLine: 292
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.AI
+  syntax:
+    content: 'public class Bot : PlayerStats'
+    content.vb: >-
+      Public Class Bot
+          Inherits PlayerStats
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
+  commentId: M:CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
+  id: AddComponentTo(GameObject)
+  parent: CardBattle.Core.AI.Bot
+  langs:
+  - csharp
+  - vb
+  name: AddComponentTo(GameObject)
+  nameWithType: Bot.AddComponentTo(GameObject)
+  fullName: CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
+  type: Method
+  source:
+    id: AddComponentTo
+    path: ''
+    startLine: 295
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.AI
+  syntax:
+    content: public static Bot AddComponentTo(GameObject attachTo)
+    parameters:
+    - id: attachTo
+      type: GameObject
+    return:
+      type: CardBattle.Core.AI.Bot
+    content.vb: Public Shared Function AddComponentTo(attachTo As GameObject) As Bot
+  overload: CardBattle.Core.AI.Bot.AddComponentTo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CardBattle.Core.AI
+  commentId: N:CardBattle.Core.AI
+  name: CardBattle.Core.AI
+  nameWithType: CardBattle.Core.AI
+  fullName: CardBattle.Core.AI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.AI.Bot.AddComponentTo*
+  commentId: Overload:CardBattle.Core.AI.Bot.AddComponentTo
+  name: AddComponentTo
+  nameWithType: Bot.AddComponentTo
+  fullName: CardBattle.Core.AI.Bot.AddComponentTo
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: CardBattle.Core.AI.Bot
+  commentId: T:CardBattle.Core.AI.Bot
+  parent: CardBattle.Core.AI
+  name: Bot
+  nameWithType: Bot
+  fullName: CardBattle.Core.AI.Bot

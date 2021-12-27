@@ -23,7 +23,7 @@ items:
   source:
     id: Devil
     path: ''
-    startLine: 385
+    startLine: 163
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -70,7 +70,7 @@ items:
   source:
     id: isOpponentPlayer
     path: ''
-    startLine: 388
+    startLine: 166
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -99,7 +99,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 391
+    startLine: 169
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -130,7 +130,7 @@ items:
   source:
     id: IsHard
     path: ''
-    startLine: 408
+    startLine: 186
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -161,7 +161,7 @@ items:
   source:
     id: Strength
     path: ''
-    startLine: 414
+    startLine: 192
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -192,7 +192,7 @@ items:
   source:
     id: Defense
     path: ''
-    startLine: 421
+    startLine: 199
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -223,7 +223,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 428
+    startLine: 206
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -254,7 +254,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 436
+    startLine: 214
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -287,7 +287,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 445
+    startLine: 223
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

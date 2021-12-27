@@ -19,7 +19,7 @@ items:
   source:
     id: CardDeck
     path: ''
-    startLine: 228
+    startLine: 6
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -66,7 +66,7 @@ items:
   source:
     id: GetDevilCards
     path: ''
-    startLine: 237
+    startLine: 15
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -99,7 +99,7 @@ items:
   source:
     id: GetExclamationMarks
     path: ''
-    startLine: 281
+    startLine: 59
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -129,7 +129,7 @@ items:
   source:
     id: GetPhotoCards
     path: ''
-    startLine: 297
+    startLine: 75
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -159,7 +159,7 @@ items:
   source:
     id: Shuffle
     path: ''
-    startLine: 354
+    startLine: 132
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

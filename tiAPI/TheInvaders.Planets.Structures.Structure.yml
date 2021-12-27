@@ -1,0 +1,436 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Structures.Structure
+  commentId: T:TheInvaders.Planets.Structures.Structure
+  id: Structure
+  parent: TheInvaders.Planets.Structures
+  children:
+  - TheInvaders.Planets.Structures.Structure.#ctor(TheInvaders.Planets.Structures.Structure.TYPE)
+  - TheInvaders.Planets.Structures.Structure.GetStructure``1
+  langs:
+  - csharp
+  - vb
+  name: Structure
+  nameWithType: Structure
+  fullName: TheInvaders.Planets.Structures.Structure
+  type: Class
+  source:
+    id: Structure
+    path: ''
+    startLine: 2031
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures
+  syntax:
+    content: public abstract class Structure
+    content.vb: Public MustInherit Class Structure
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure`1
+  - TheInvaders.Planets.Structures.Outposts.Outpost`1
+  - TheInvaders.Planets.Structures.Ruin
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: TheInvaders.Planets.Structures.Structure.#ctor(TheInvaders.Planets.Structures.Structure.TYPE)
+  commentId: M:TheInvaders.Planets.Structures.Structure.#ctor(TheInvaders.Planets.Structures.Structure.TYPE)
+  id: '#ctor(TheInvaders.Planets.Structures.Structure.TYPE)'
+  parent: TheInvaders.Planets.Structures.Structure
+  langs:
+  - csharp
+  - vb
+  name: Structure(Structure.TYPE)
+  nameWithType: Structure.Structure(Structure.TYPE)
+  fullName: TheInvaders.Planets.Structures.Structure.Structure(TheInvaders.Planets.Structures.Structure.TYPE)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 2042
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures
+  syntax:
+    content: protected Structure(Structure.TYPE _type)
+    parameters:
+    - id: _type
+      type: TheInvaders.Planets.Structures.Structure.TYPE
+    content.vb: Protected Sub New(_type As  Structure .TYPE)
+  overload: TheInvaders.Planets.Structures.Structure.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TheInvaders.Planets.Structures.Structure.GetStructure``1
+  commentId: M:TheInvaders.Planets.Structures.Structure.GetStructure``1
+  id: GetStructure``1
+  parent: TheInvaders.Planets.Structures.Structure
+  langs:
+  - csharp
+  - vb
+  name: GetStructure<T>()
+  nameWithType: Structure.GetStructure<T>()
+  fullName: TheInvaders.Planets.Structures.Structure.GetStructure<T>()
+  type: Method
+  source:
+    id: GetStructure
+    path: ''
+    startLine: 2047
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets.Structures
+  syntax:
+    content: >-
+      public T GetStructure<T>()
+          where T : Structure, new()
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetStructure(Of T As { Structure, New}) As T
+  overload: TheInvaders.Planets.Structures.Structure.GetStructure*
+  nameWithType.vb: Structure.GetStructure(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TheInvaders.Planets.Structures.Structure.GetStructure(Of T)()
+  name.vb: GetStructure(Of T)()
+references:
+- uid: TheInvaders.Planets.Structures
+  commentId: N:TheInvaders.Planets.Structures
+  name: TheInvaders.Planets.Structures
+  nameWithType: TheInvaders.Planets.Structures
+  fullName: TheInvaders.Planets.Structures
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.Planets.Structures.Structure.#ctor*
+  commentId: Overload:TheInvaders.Planets.Structures.Structure.#ctor
+  name: Structure
+  nameWithType: Structure.Structure
+  fullName: TheInvaders.Planets.Structures.Structure.Structure
+- uid: TheInvaders.Planets.Structures.Structure.TYPE
+  commentId: T:TheInvaders.Planets.Structures.Structure.TYPE
+  parent: TheInvaders.Planets.Structures
+  name: Structure.TYPE
+  nameWithType: Structure.TYPE
+  fullName: TheInvaders.Planets.Structures.Structure.TYPE
+- uid: TheInvaders.Planets.Structures.Structure.GetStructure*
+  commentId: Overload:TheInvaders.Planets.Structures.Structure.GetStructure
+  name: GetStructure
+  nameWithType: Structure.GetStructure
+  fullName: TheInvaders.Planets.Structures.Structure.GetStructure
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

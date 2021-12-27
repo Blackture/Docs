@@ -182,6 +182,7 @@
   "DevilsHunt.TJGame.EasyDevils": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.ExclamationMarks": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.HardDevils": "DevilsHunt.TJGame.yml",
+  "DevilsHunt.TJGame.LastTurn": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.NextTurn": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.NextTurn(System.Boolean,System.Boolean)": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.OpenInventory": "DevilsHunt.TJGame.yml",
@@ -189,10 +190,7 @@
   "DevilsHunt.TJGame.OpenSecondarySkill": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.OpenShop": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.PhotoCards": "DevilsHunt.TJGame.yml",
-  "DevilsHunt.TJGame.Player1": "DevilsHunt.TJGame.yml",
-  "DevilsHunt.TJGame.Player2": "DevilsHunt.TJGame.yml",
-  "DevilsHunt.TJGame.Player3": "DevilsHunt.TJGame.yml",
-  "DevilsHunt.TJGame.Player4": "DevilsHunt.TJGame.yml",
+  "DevilsHunt.TJGame.Players": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.Shop": "DevilsHunt.TJGame.yml",
   "DevilsHunt.TJGame.Turn": "DevilsHunt.TJGame.yml"
 }

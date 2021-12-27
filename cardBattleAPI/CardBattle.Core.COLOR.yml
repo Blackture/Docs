@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.COLOR
+  commentId: T:CardBattle.Core.COLOR
+  id: COLOR
+  parent: CardBattle.Core
+  children:
+  - CardBattle.Core.COLOR.BLUE
+  - CardBattle.Core.COLOR.GREEN
+  - CardBattle.Core.COLOR.RED
+  - CardBattle.Core.COLOR.WHITE
+  langs:
+  - csharp
+  - vb
+  name: COLOR
+  nameWithType: COLOR
+  fullName: CardBattle.Core.COLOR
+  type: Enum
+  source:
+    id: COLOR
+    path: ''
+    startLine: 8
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public enum COLOR
+    content.vb: Public Enum COLOR
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardBattle.Core.COLOR.WHITE
+  commentId: F:CardBattle.Core.COLOR.WHITE
+  id: WHITE
+  parent: CardBattle.Core.COLOR
+  langs:
+  - csharp
+  - vb
+  name: WHITE
+  nameWithType: COLOR.WHITE
+  fullName: CardBattle.Core.COLOR.WHITE
+  type: Field
+  source:
+    id: WHITE
+    path: ''
+    startLine: 10
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: WHITE = 0
+    return:
+      type: CardBattle.Core.COLOR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.COLOR.RED
+  commentId: F:CardBattle.Core.COLOR.RED
+  id: RED
+  parent: CardBattle.Core.COLOR
+  langs:
+  - csharp
+  - vb
+  name: RED
+  nameWithType: COLOR.RED
+  fullName: CardBattle.Core.COLOR.RED
+  type: Field
+  source:
+    id: RED
+    path: ''
+    startLine: 11
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: RED = 1
+    return:
+      type: CardBattle.Core.COLOR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.COLOR.BLUE
+  commentId: F:CardBattle.Core.COLOR.BLUE
+  id: BLUE
+  parent: CardBattle.Core.COLOR
+  langs:
+  - csharp
+  - vb
+  name: BLUE
+  nameWithType: COLOR.BLUE
+  fullName: CardBattle.Core.COLOR.BLUE
+  type: Field
+  source:
+    id: BLUE
+    path: ''
+    startLine: 12
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: BLUE = 2
+    return:
+      type: CardBattle.Core.COLOR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.COLOR.GREEN
+  commentId: F:CardBattle.Core.COLOR.GREEN
+  id: GREEN
+  parent: CardBattle.Core.COLOR
+  langs:
+  - csharp
+  - vb
+  name: GREEN
+  nameWithType: COLOR.GREEN
+  fullName: CardBattle.Core.COLOR.GREEN
+  type: Field
+  source:
+    id: GREEN
+    path: ''
+    startLine: 13
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: GREEN = 3
+    return:
+      type: CardBattle.Core.COLOR
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: CardBattle.Core.COLOR
+  commentId: T:CardBattle.Core.COLOR
+  parent: CardBattle.Core
+  name: COLOR
+  nameWithType: COLOR
+  fullName: CardBattle.Core.COLOR

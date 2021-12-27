@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Turns.TurnManager
+  commentId: T:CardBattle.Core.Turns.TurnManager
+  id: TurnManager
+  parent: CardBattle.Core.Turns
+  children:
+  - CardBattle.Core.Turns.TurnManager.Bot
+  - CardBattle.Core.Turns.TurnManager.CurrentPlayer
+  - CardBattle.Core.Turns.TurnManager.financeCards
+  - CardBattle.Core.Turns.TurnManager.FirstTurn
+  - CardBattle.Core.Turns.TurnManager.Init(Bot)
+  - CardBattle.Core.Turns.TurnManager.NextTurn
+  - CardBattle.Core.Turns.TurnManager.OpponentPlayer
+  langs:
+  - csharp
+  - vb
+  name: TurnManager
+  nameWithType: TurnManager
+  fullName: CardBattle.Core.Turns.TurnManager
+  type: Class
+  source:
+    id: TurnManager
+    path: ''
+    startLine: 687
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: 'public class TurnManager : MonoBehaviour'
+    content.vb: >-
+      Public Class TurnManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Turns.TurnManager.financeCards
+  commentId: F:CardBattle.Core.Turns.TurnManager.financeCards
+  id: financeCards
+  parent: CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: financeCards
+  nameWithType: TurnManager.financeCards
+  fullName: CardBattle.Core.Turns.TurnManager.financeCards
+  type: Field
+  source:
+    id: financeCards
+    path: ''
+    startLine: 689
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public CardStack<Card> financeCards
+    return:
+      type: CardStack{Card}
+    content.vb: Public financeCards As CardStack(Of Card)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Turns.TurnManager.Init(Bot)
+  commentId: M:CardBattle.Core.Turns.TurnManager.Init(Bot)
+  id: Init(Bot)
+  parent: CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: Init(Bot)
+  nameWithType: TurnManager.Init(Bot)
+  fullName: CardBattle.Core.Turns.TurnManager.Init(Bot)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 691
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public void Init(Bot bot)
+    parameters:
+    - id: bot
+      type: Bot
+    content.vb: Public Sub Init(bot As Bot)
+  overload: CardBattle.Core.Turns.TurnManager.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Turns.TurnManager.CurrentPlayer
+  commentId: P:CardBattle.Core.Turns.TurnManager.CurrentPlayer
+  id: CurrentPlayer
+  parent: CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: CurrentPlayer
+  nameWithType: TurnManager.CurrentPlayer
+  fullName: CardBattle.Core.Turns.TurnManager.CurrentPlayer
+  type: Property
+  source:
+    id: CurrentPlayer
+    path: ''
+    startLine: 744
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public Player CurrentPlayer { get; }
+    parameters: []
+    return:
+      type: Player
+    content.vb: Public ReadOnly Property CurrentPlayer As Player
+  overload: CardBattle.Core.Turns.TurnManager.CurrentPlayer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Turns.TurnManager.OpponentPlayer
+  commentId: P:CardBattle.Core.Turns.TurnManager.OpponentPlayer
+  id: OpponentPlayer
+  parent: CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: OpponentPlayer
+  nameWithType: TurnManager.OpponentPlayer
+  fullName: CardBattle.Core.Turns.TurnManager.OpponentPlayer
+  type: Property
+  source:
+    id: OpponentPlayer
+    path: ''
+    startLine: 746
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public Player OpponentPlayer { get; }
+    parameters: []
+    return:
+      type: Player
+    content.vb: Public ReadOnly Property OpponentPlayer As Player
+  overload: CardBattle.Core.Turns.TurnManager.OpponentPlayer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Turns.TurnManager.Bot
+  commentId: P:CardBattle.Core.Turns.TurnManager.Bot
+  id: Bot
+  parent: CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: Bot
+  nameWithType: TurnManager.Bot
+  fullName: CardBattle.Core.Turns.TurnManager.Bot
+  type: Property
+  source:
+    id: Bot
+    path: ''
+    startLine: 748
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public Bot Bot { get; }
+    parameters: []
+    return:
+      type: Bot
+    content.vb: Public ReadOnly Property Bot As Bot
+  overload: CardBattle.Core.Turns.TurnManager.Bot*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Turns.TurnManager.FirstTurn
+  commentId: M:CardBattle.Core.Turns.TurnManager.FirstTurn
+  id: FirstTurn
+  parent: CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: FirstTurn()
+  nameWithType: TurnManager.FirstTurn()
+  fullName: CardBattle.Core.Turns.TurnManager.FirstTurn()
+  type: Method
+  source:
+    id: FirstTurn
+    path: ''
+    startLine: 750
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public Player FirstTurn()
+    return:
+      type: Player
+    content.vb: Public Function FirstTurn As Player
+  overload: CardBattle.Core.Turns.TurnManager.FirstTurn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Turns.TurnManager.NextTurn
+  commentId: M:CardBattle.Core.Turns.TurnManager.NextTurn
+  id: NextTurn
+  parent: CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: NextTurn()
+  nameWithType: TurnManager.NextTurn()
+  fullName: CardBattle.Core.Turns.TurnManager.NextTurn()
+  type: Method
+  source:
+    id: NextTurn
+    path: ''
+    startLine: 760
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public Player NextTurn()
+    return:
+      type: Player
+    content.vb: Public Function NextTurn As Player
+  overload: CardBattle.Core.Turns.TurnManager.NextTurn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Core.Turns
+  commentId: N:CardBattle.Core.Turns
+  name: CardBattle.Core.Turns
+  nameWithType: CardBattle.Core.Turns
+  fullName: CardBattle.Core.Turns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardStack{Card}
+  commentId: '!:CardStack{Card}'
+  definition: CardStack`1
+  name: CardStack<Card>
+  nameWithType: CardStack<Card>
+  fullName: CardStack<Card>
+  nameWithType.vb: CardStack(Of Card)
+  fullName.vb: CardStack(Of Card)
+  name.vb: CardStack(Of Card)
+  spec.csharp:
+  - uid: CardStack`1
+    name: CardStack
+    nameWithType: CardStack
+    fullName: CardStack
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Card
+    name: Card
+    nameWithType: Card
+    fullName: Card
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CardStack`1
+    name: CardStack
+    nameWithType: CardStack
+    fullName: CardStack
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Card
+    name: Card
+    nameWithType: Card
+    fullName: Card
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardStack`1
+  commentId: '!:CardStack`1'
+  isExternal: true
+  name: CardStack<>
+  nameWithType: CardStack<>
+  fullName: CardStack<>
+  nameWithType.vb: CardStack(Of )
+  fullName.vb: CardStack(Of )
+  name.vb: CardStack(Of )
+  spec.csharp:
+  - uid: CardStack`1
+    name: CardStack
+    nameWithType: CardStack
+    fullName: CardStack
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CardStack`1
+    name: CardStack
+    nameWithType: CardStack
+    fullName: CardStack
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Core.Turns.TurnManager.Init*
+  commentId: Overload:CardBattle.Core.Turns.TurnManager.Init
+  name: Init
+  nameWithType: TurnManager.Init
+  fullName: CardBattle.Core.Turns.TurnManager.Init
+- uid: Bot
+  isExternal: true
+  name: Bot
+  nameWithType: Bot
+  fullName: Bot
+- uid: CardBattle.Core.Turns.TurnManager.CurrentPlayer*
+  commentId: Overload:CardBattle.Core.Turns.TurnManager.CurrentPlayer
+  name: CurrentPlayer
+  nameWithType: TurnManager.CurrentPlayer
+  fullName: CardBattle.Core.Turns.TurnManager.CurrentPlayer
+- uid: Player
+  isExternal: true
+  name: Player
+  nameWithType: Player
+  fullName: Player
+- uid: CardBattle.Core.Turns.TurnManager.OpponentPlayer*
+  commentId: Overload:CardBattle.Core.Turns.TurnManager.OpponentPlayer
+  name: OpponentPlayer
+  nameWithType: TurnManager.OpponentPlayer
+  fullName: CardBattle.Core.Turns.TurnManager.OpponentPlayer
+- uid: CardBattle.Core.Turns.TurnManager.Bot*
+  commentId: Overload:CardBattle.Core.Turns.TurnManager.Bot
+  name: Bot
+  nameWithType: TurnManager.Bot
+  fullName: CardBattle.Core.Turns.TurnManager.Bot
+- uid: CardBattle.Core.Turns.TurnManager.FirstTurn*
+  commentId: Overload:CardBattle.Core.Turns.TurnManager.FirstTurn
+  name: FirstTurn
+  nameWithType: TurnManager.FirstTurn
+  fullName: CardBattle.Core.Turns.TurnManager.FirstTurn
+- uid: CardBattle.Core.Turns.TurnManager.NextTurn*
+  commentId: Overload:CardBattle.Core.Turns.TurnManager.NextTurn
+  name: NextTurn
+  nameWithType: TurnManager.NextTurn
+  fullName: CardBattle.Core.Turns.TurnManager.NextTurn

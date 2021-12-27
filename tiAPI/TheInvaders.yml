@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  id: TheInvaders
+  children:
+  - TheInvaders.AgentLinkMover
+  - TheInvaders.Character
+  - TheInvaders.ControlMapping
+  - TheInvaders.ControlMapping.UNIT_MODE
+  - TheInvaders.GameUUIDManager
+  - TheInvaders.LoginData
+  - TheInvaders.OffMeshLinkMoveMethod
+  - TheInvaders.Player
+  - TheInvaders.Storage`1
+  - TheInvaders.Trader
+  - TheInvaders.UserData
+  langs:
+  - csharp
+  - vb
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TheInvaders.OffMeshLinkMoveMethod
+  commentId: T:TheInvaders.OffMeshLinkMoveMethod
+  parent: TheInvaders
+  name: OffMeshLinkMoveMethod
+  nameWithType: OffMeshLinkMoveMethod
+  fullName: TheInvaders.OffMeshLinkMoveMethod
+- uid: TheInvaders.AgentLinkMover
+  commentId: T:TheInvaders.AgentLinkMover
+  name: AgentLinkMover
+  nameWithType: AgentLinkMover
+  fullName: TheInvaders.AgentLinkMover
+- uid: TheInvaders.Character
+  commentId: T:TheInvaders.Character
+  parent: TheInvaders
+  name: Character
+  nameWithType: Character
+  fullName: TheInvaders.Character
+- uid: TheInvaders.ControlMapping
+  commentId: T:TheInvaders.ControlMapping
+  name: ControlMapping
+  nameWithType: ControlMapping
+  fullName: TheInvaders.ControlMapping
+- uid: TheInvaders.ControlMapping.UNIT_MODE
+  commentId: T:TheInvaders.ControlMapping.UNIT_MODE
+  parent: TheInvaders
+  name: ControlMapping.UNIT_MODE
+  nameWithType: ControlMapping.UNIT_MODE
+  fullName: TheInvaders.ControlMapping.UNIT_MODE
+- uid: TheInvaders.GameUUIDManager
+  commentId: T:TheInvaders.GameUUIDManager
+  parent: TheInvaders
+  name: GameUUIDManager
+  nameWithType: GameUUIDManager
+  fullName: TheInvaders.GameUUIDManager
+- uid: TheInvaders.LoginData
+  commentId: T:TheInvaders.LoginData
+  parent: TheInvaders
+  name: LoginData
+  nameWithType: LoginData
+  fullName: TheInvaders.LoginData
+- uid: TheInvaders.Player
+  commentId: T:TheInvaders.Player
+  parent: TheInvaders
+  name: Player
+  nameWithType: Player
+  fullName: TheInvaders.Player
+- uid: TheInvaders.Storage`1
+  commentId: T:TheInvaders.Storage`1
+  name: Storage<T>
+  nameWithType: Storage<T>
+  fullName: TheInvaders.Storage<T>
+  nameWithType.vb: Storage(Of T)
+  fullName.vb: TheInvaders.Storage(Of T)
+  name.vb: Storage(Of T)
+  spec.csharp:
+  - uid: TheInvaders.Storage`1
+    name: Storage
+    nameWithType: Storage
+    fullName: TheInvaders.Storage
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Storage`1
+    name: Storage
+    nameWithType: Storage
+    fullName: TheInvaders.Storage
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Trader
+  commentId: T:TheInvaders.Trader
+  name: Trader
+  nameWithType: Trader
+  fullName: TheInvaders.Trader
+- uid: TheInvaders.UserData
+  commentId: T:TheInvaders.UserData
+  parent: TheInvaders
+  name: UserData
+  nameWithType: UserData
+  fullName: TheInvaders.UserData
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders

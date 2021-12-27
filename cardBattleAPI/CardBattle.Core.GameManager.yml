@@ -1,0 +1,427 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.GameManager
+  commentId: T:CardBattle.Core.GameManager
+  id: GameManager
+  parent: CardBattle.Core
+  children:
+  - CardBattle.Core.GameManager.Awake
+  - CardBattle.Core.GameManager.bot
+  - CardBattle.Core.GameManager.instance
+  - CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List{GameObject})
+  - CardBattle.Core.GameManager.players
+  - CardBattle.Core.GameManager.Start
+  - CardBattle.Core.GameManager.turnManager
+  langs:
+  - csharp
+  - vb
+  name: GameManager
+  nameWithType: GameManager
+  fullName: CardBattle.Core.GameManager
+  type: Class
+  source:
+    id: GameManager
+    path: ''
+    startLine: 32
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: 'public class GameManager : MonoBehaviour'
+    content.vb: >-
+      Public Class GameManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.GameManager.instance
+  commentId: F:CardBattle.Core.GameManager.instance
+  id: instance
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: GameManager.instance
+  fullName: CardBattle.Core.GameManager.instance
+  type: Field
+  source:
+    id: instance
+    path: ''
+    startLine: 35
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public static GameManager instance
+    return:
+      type: CardBattle.Core.GameManager
+    content.vb: Public Shared instance As GameManager
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardBattle.Core.GameManager.turnManager
+  commentId: F:CardBattle.Core.GameManager.turnManager
+  id: turnManager
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: turnManager
+  nameWithType: GameManager.turnManager
+  fullName: CardBattle.Core.GameManager.turnManager
+  type: Field
+  source:
+    id: turnManager
+    path: ''
+    startLine: 36
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public static TurnManager turnManager
+    return:
+      type: TurnManager
+    content.vb: Public Shared turnManager As TurnManager
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardBattle.Core.GameManager.players
+  commentId: F:CardBattle.Core.GameManager.players
+  id: players
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: players
+  nameWithType: GameManager.players
+  fullName: CardBattle.Core.GameManager.players
+  type: Field
+  source:
+    id: players
+    path: ''
+    startLine: 38
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public List<Player> players
+    return:
+      type: System.Collections.Generic.List{Player}
+    content.vb: Public players As List(Of Player)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.GameManager.bot
+  commentId: F:CardBattle.Core.GameManager.bot
+  id: bot
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: bot
+  nameWithType: GameManager.bot
+  fullName: CardBattle.Core.GameManager.bot
+  type: Field
+  source:
+    id: bot
+    path: ''
+    startLine: 39
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public Bot bot
+    return:
+      type: CardBattle.Core.AI.Bot
+    content.vb: Public bot As Bot
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.GameManager.Awake
+  commentId: M:CardBattle.Core.GameManager.Awake
+  id: Awake
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: GameManager.Awake()
+  fullName: CardBattle.Core.GameManager.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 41
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: CardBattle.Core.GameManager.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.GameManager.Start
+  commentId: M:CardBattle.Core.GameManager.Start
+  id: Start
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: GameManager.Start()
+  fullName: CardBattle.Core.GameManager.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 49
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: CardBattle.Core.GameManager.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List{GameObject})
+  commentId: M:CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List{GameObject})
+  id: InstantiatePlayers(System.Collections.Generic.List{GameObject})
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: InstantiatePlayers(List<GameObject>)
+  nameWithType: GameManager.InstantiatePlayers(List<GameObject>)
+  fullName: CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List<GameObject>)
+  type: Method
+  source:
+    id: InstantiatePlayers
+    path: ''
+    startLine: 54
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public void InstantiatePlayers(List<GameObject> attachTos)
+    parameters:
+    - id: attachTos
+      type: System.Collections.Generic.List{GameObject}
+    content.vb: Public Sub InstantiatePlayers(attachTos As List(Of GameObject))
+  overload: CardBattle.Core.GameManager.InstantiatePlayers*
+  nameWithType.vb: GameManager.InstantiatePlayers(List(Of GameObject))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List(Of GameObject))
+  name.vb: InstantiatePlayers(List(Of GameObject))
+references:
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.GameManager
+  commentId: T:CardBattle.Core.GameManager
+  parent: CardBattle.Core
+  name: GameManager
+  nameWithType: GameManager
+  fullName: CardBattle.Core.GameManager
+- uid: TurnManager
+  commentId: '!:TurnManager'
+  isExternal: true
+  name: TurnManager
+  nameWithType: TurnManager
+  fullName: TurnManager
+- uid: System.Collections.Generic.List{Player}
+  commentId: T:System.Collections.Generic.List{Player}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Player>
+  nameWithType: List<Player>
+  fullName: System.Collections.Generic.List<Player>
+  nameWithType.vb: List(Of Player)
+  fullName.vb: System.Collections.Generic.List(Of Player)
+  name.vb: List(Of Player)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Player
+    name: Player
+    nameWithType: Player
+    fullName: Player
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Player
+    name: Player
+    nameWithType: Player
+    fullName: Player
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CardBattle.Core.AI.Bot
+  commentId: T:CardBattle.Core.AI.Bot
+  parent: CardBattle.Core.AI
+  name: Bot
+  nameWithType: Bot
+  fullName: CardBattle.Core.AI.Bot
+- uid: CardBattle.Core.AI
+  commentId: N:CardBattle.Core.AI
+  name: CardBattle.Core.AI
+  nameWithType: CardBattle.Core.AI
+  fullName: CardBattle.Core.AI
+- uid: CardBattle.Core.GameManager.Awake*
+  commentId: Overload:CardBattle.Core.GameManager.Awake
+  name: Awake
+  nameWithType: GameManager.Awake
+  fullName: CardBattle.Core.GameManager.Awake
+- uid: CardBattle.Core.GameManager.Start*
+  commentId: Overload:CardBattle.Core.GameManager.Start
+  name: Start
+  nameWithType: GameManager.Start
+  fullName: CardBattle.Core.GameManager.Start
+- uid: CardBattle.Core.GameManager.InstantiatePlayers*
+  commentId: Overload:CardBattle.Core.GameManager.InstantiatePlayers
+  name: InstantiatePlayers
+  nameWithType: GameManager.InstantiatePlayers
+  fullName: CardBattle.Core.GameManager.InstantiatePlayers
+- uid: System.Collections.Generic.List{GameObject}
+  commentId: T:System.Collections.Generic.List{GameObject}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: System.Collections.Generic.List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: System.Collections.Generic.List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

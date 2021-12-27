@@ -1,0 +1,592 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Cards.CardStack`1
+  commentId: T:CardBattle.Core.Cards.CardStack`1
+  id: CardStack`1
+  parent: CardBattle.Core.Cards
+  children:
+  - CardBattle.Core.Cards.CardStack`1.#ctor(System.Collections.Generic.List{`0})
+  - CardBattle.Core.Cards.CardStack`1.DrawCard
+  - CardBattle.Core.Cards.CardStack`1.Shuffle
+  - CardBattle.Core.Cards.CardStack`1.Shuffle(System.Collections.Generic.List{`0})
+  langs:
+  - csharp
+  - vb
+  name: CardStack<T>
+  nameWithType: CardStack<T>
+  fullName: CardBattle.Core.Cards.CardStack<T>
+  type: Class
+  source:
+    id: CardStack
+    path: ''
+    startLine: 350
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Cards
+  syntax:
+    content: >-
+      public class CardStack<T>
+          where T : Card
+    typeParameters:
+    - id: T
+    content.vb: Public Class CardStack(Of T As Card)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  nameWithType.vb: CardStack(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: CardBattle.Core.Cards.CardStack(Of T)
+  name.vb: CardStack(Of T)
+- uid: CardBattle.Core.Cards.CardStack`1.#ctor(System.Collections.Generic.List{`0})
+  commentId: M:CardBattle.Core.Cards.CardStack`1.#ctor(System.Collections.Generic.List{`0})
+  id: '#ctor(System.Collections.Generic.List{`0})'
+  parent: CardBattle.Core.Cards.CardStack`1
+  langs:
+  - csharp
+  - vb
+  name: CardStack(List<T>)
+  nameWithType: CardStack<T>.CardStack(List<T>)
+  fullName: CardBattle.Core.Cards.CardStack<T>.CardStack(System.Collections.Generic.List<T>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 354
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Cards
+  syntax:
+    content: public CardStack(List<T> cards)
+    parameters:
+    - id: cards
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Sub New(cards As List(Of T))
+  overload: CardBattle.Core.Cards.CardStack`1.#ctor*
+  nameWithType.vb: CardStack(Of T).CardStack(List(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).CardStack(System.Collections.Generic.List(Of T))
+  name.vb: CardStack(List(Of T))
+- uid: CardBattle.Core.Cards.CardStack`1.Shuffle
+  commentId: M:CardBattle.Core.Cards.CardStack`1.Shuffle
+  id: Shuffle
+  parent: CardBattle.Core.Cards.CardStack`1
+  langs:
+  - csharp
+  - vb
+  name: Shuffle()
+  nameWithType: CardStack<T>.Shuffle()
+  fullName: CardBattle.Core.Cards.CardStack<T>.Shuffle()
+  type: Method
+  source:
+    id: Shuffle
+    path: ''
+    startLine: 359
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Cards
+  syntax:
+    content: public List<T> Shuffle()
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Function Shuffle As List(Of T)
+  overload: CardBattle.Core.Cards.CardStack`1.Shuffle*
+  nameWithType.vb: CardStack(Of T).Shuffle()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).Shuffle()
+- uid: CardBattle.Core.Cards.CardStack`1.Shuffle(System.Collections.Generic.List{`0})
+  commentId: M:CardBattle.Core.Cards.CardStack`1.Shuffle(System.Collections.Generic.List{`0})
+  id: Shuffle(System.Collections.Generic.List{`0})
+  parent: CardBattle.Core.Cards.CardStack`1
+  langs:
+  - csharp
+  - vb
+  name: Shuffle(List<T>)
+  nameWithType: CardStack<T>.Shuffle(List<T>)
+  fullName: CardBattle.Core.Cards.CardStack<T>.Shuffle(System.Collections.Generic.List<T>)
+  type: Method
+  source:
+    id: Shuffle
+    path: ''
+    startLine: 371
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Cards
+  syntax:
+    content: public List<T> Shuffle(List<T> cards)
+    parameters:
+    - id: cards
+      type: System.Collections.Generic.List{{T}}
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Function Shuffle(cards As List(Of T)) As List(Of T)
+  overload: CardBattle.Core.Cards.CardStack`1.Shuffle*
+  nameWithType.vb: CardStack(Of T).Shuffle(List(Of T))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).Shuffle(System.Collections.Generic.List(Of T))
+  name.vb: Shuffle(List(Of T))
+- uid: CardBattle.Core.Cards.CardStack`1.DrawCard
+  commentId: M:CardBattle.Core.Cards.CardStack`1.DrawCard
+  id: DrawCard
+  parent: CardBattle.Core.Cards.CardStack`1
+  langs:
+  - csharp
+  - vb
+  name: DrawCard()
+  nameWithType: CardStack<T>.DrawCard()
+  fullName: CardBattle.Core.Cards.CardStack<T>.DrawCard()
+  type: Method
+  source:
+    id: DrawCard
+    path: ''
+    startLine: 384
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Cards
+  syntax:
+    content: public T DrawCard()
+    return:
+      type: '{T}'
+    content.vb: Public Function DrawCard As T
+  overload: CardBattle.Core.Cards.CardStack`1.DrawCard*
+  nameWithType.vb: CardStack(Of T).DrawCard()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).DrawCard()
+references:
+- uid: CardBattle.Core.Cards
+  commentId: N:CardBattle.Core.Cards
+  name: CardBattle.Core.Cards
+  nameWithType: CardBattle.Core.Cards
+  fullName: CardBattle.Core.Cards
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.Cards.CardStack`1.#ctor*
+  commentId: Overload:CardBattle.Core.Cards.CardStack`1.#ctor
+  name: CardStack
+  nameWithType: CardStack<T>.CardStack
+  fullName: CardBattle.Core.Cards.CardStack<T>.CardStack
+  nameWithType.vb: CardStack(Of T).CardStack
+  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).CardStack
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CardBattle.Core.Cards.CardStack`1.Shuffle*
+  commentId: Overload:CardBattle.Core.Cards.CardStack`1.Shuffle
+  name: Shuffle
+  nameWithType: CardStack<T>.Shuffle
+  fullName: CardBattle.Core.Cards.CardStack<T>.Shuffle
+  nameWithType.vb: CardStack(Of T).Shuffle
+  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).Shuffle
+- uid: CardBattle.Core.Cards.CardStack`1.DrawCard*
+  commentId: Overload:CardBattle.Core.Cards.CardStack`1.DrawCard
+  name: DrawCard
+  nameWithType: CardStack<T>.DrawCard
+  fullName: CardBattle.Core.Cards.CardStack<T>.DrawCard
+  nameWithType.vb: CardStack(Of T).DrawCard
+  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).DrawCard
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T

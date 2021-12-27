@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Inventories.Resource.TYPE
+  commentId: T:TheInvaders.Inventories.Resource.TYPE
+  id: Resource.TYPE
+  parent: TheInvaders.Inventories
+  children:
+  - TheInvaders.Inventories.Resource.TYPE.ENERGY_CRYSTAL
+  - TheInvaders.Inventories.Resource.TYPE.GOLD_INGOT
+  - TheInvaders.Inventories.Resource.TYPE.IRON_INGOT
+  - TheInvaders.Inventories.Resource.TYPE.MAKMUSS
+  - TheInvaders.Inventories.Resource.TYPE.PELCEON_INGOT
+  langs:
+  - csharp
+  - vb
+  name: Resource.TYPE
+  nameWithType: Resource.TYPE
+  fullName: TheInvaders.Inventories.Resource.TYPE
+  type: Enum
+  source:
+    id: TYPE
+    path: ''
+    startLine: 1195
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: public enum TYPE
+    content.vb: Public Enum TYPE
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: TheInvaders.Inventories.Resource.TYPE.ENERGY_CRYSTAL
+  commentId: F:TheInvaders.Inventories.Resource.TYPE.ENERGY_CRYSTAL
+  id: ENERGY_CRYSTAL
+  parent: TheInvaders.Inventories.Resource.TYPE
+  langs:
+  - csharp
+  - vb
+  name: ENERGY_CRYSTAL
+  nameWithType: Resource.TYPE.ENERGY_CRYSTAL
+  fullName: TheInvaders.Inventories.Resource.TYPE.ENERGY_CRYSTAL
+  type: Field
+  source:
+    id: ENERGY_CRYSTAL
+    path: ''
+    startLine: 1197
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: ENERGY_CRYSTAL = 0
+    return:
+      type: TheInvaders.Inventories.Resource.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Inventories.Resource.TYPE.GOLD_INGOT
+  commentId: F:TheInvaders.Inventories.Resource.TYPE.GOLD_INGOT
+  id: GOLD_INGOT
+  parent: TheInvaders.Inventories.Resource.TYPE
+  langs:
+  - csharp
+  - vb
+  name: GOLD_INGOT
+  nameWithType: Resource.TYPE.GOLD_INGOT
+  fullName: TheInvaders.Inventories.Resource.TYPE.GOLD_INGOT
+  type: Field
+  source:
+    id: GOLD_INGOT
+    path: ''
+    startLine: 1198
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: GOLD_INGOT = 1
+    return:
+      type: TheInvaders.Inventories.Resource.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Inventories.Resource.TYPE.IRON_INGOT
+  commentId: F:TheInvaders.Inventories.Resource.TYPE.IRON_INGOT
+  id: IRON_INGOT
+  parent: TheInvaders.Inventories.Resource.TYPE
+  langs:
+  - csharp
+  - vb
+  name: IRON_INGOT
+  nameWithType: Resource.TYPE.IRON_INGOT
+  fullName: TheInvaders.Inventories.Resource.TYPE.IRON_INGOT
+  type: Field
+  source:
+    id: IRON_INGOT
+    path: ''
+    startLine: 1199
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: IRON_INGOT = 2
+    return:
+      type: TheInvaders.Inventories.Resource.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Inventories.Resource.TYPE.PELCEON_INGOT
+  commentId: F:TheInvaders.Inventories.Resource.TYPE.PELCEON_INGOT
+  id: PELCEON_INGOT
+  parent: TheInvaders.Inventories.Resource.TYPE
+  langs:
+  - csharp
+  - vb
+  name: PELCEON_INGOT
+  nameWithType: Resource.TYPE.PELCEON_INGOT
+  fullName: TheInvaders.Inventories.Resource.TYPE.PELCEON_INGOT
+  type: Field
+  source:
+    id: PELCEON_INGOT
+    path: ''
+    startLine: 1200
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: PELCEON_INGOT = 3
+    return:
+      type: TheInvaders.Inventories.Resource.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: TheInvaders.Inventories.Resource.TYPE.MAKMUSS
+  commentId: F:TheInvaders.Inventories.Resource.TYPE.MAKMUSS
+  id: MAKMUSS
+  parent: TheInvaders.Inventories.Resource.TYPE
+  langs:
+  - csharp
+  - vb
+  name: MAKMUSS
+  nameWithType: Resource.TYPE.MAKMUSS
+  fullName: TheInvaders.Inventories.Resource.TYPE.MAKMUSS
+  type: Field
+  source:
+    id: MAKMUSS
+    path: ''
+    startLine: 1201
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Inventories
+  syntax:
+    content: MAKMUSS = 4
+    return:
+      type: TheInvaders.Inventories.Resource.TYPE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: TheInvaders.Inventories
+  commentId: N:TheInvaders.Inventories
+  name: TheInvaders.Inventories
+  nameWithType: TheInvaders.Inventories
+  fullName: TheInvaders.Inventories
+- uid: TheInvaders.Inventories.Resource.TYPE
+  commentId: T:TheInvaders.Inventories.Resource.TYPE
+  parent: TheInvaders.Inventories
+  name: Resource.TYPE
+  nameWithType: Resource.TYPE
+  fullName: TheInvaders.Inventories.Resource.TYPE

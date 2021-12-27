@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Players.Player
+  commentId: T:CardBattle.Core.Players.Player
+  id: Player
+  parent: CardBattle.Core.Players
+  children:
+  - CardBattle.Core.Players.Player.AddComponentTo(GameObject)
+  - CardBattle.Core.Players.Player.isItHisTurn
+  - CardBattle.Core.Players.Player.PlayerIndex
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: Player
+  fullName: CardBattle.Core.Players.Player
+  type: Class
+  source:
+    id: Player
+    path: ''
+    startLine: 477
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: 'public class Player : PlayerStats, IPlayerStats'
+    content.vb: >-
+      Public Class Player
+          Inherits PlayerStats
+          Implements IPlayerStats
+  inheritance:
+  - System.Object
+  - CardBattle.Core.Players.PlayerStats
+  implements:
+  - CardBattle.Core.Players.IPlayerStats
+  inheritedMembers:
+  - CardBattle.Core.Players.PlayerStats.debts
+  - CardBattle.Core.Players.PlayerStats.revenue
+  - CardBattle.Core.Players.PlayerStats.Money
+  - CardBattle.Core.Players.PlayerStats.Debts
+  - CardBattle.Core.Players.PlayerStats.VillageCount
+  - CardBattle.Core.Players.PlayerStats.TownCount
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Players.Player.isItHisTurn
+  commentId: F:CardBattle.Core.Players.Player.isItHisTurn
+  id: isItHisTurn
+  parent: CardBattle.Core.Players.Player
+  langs:
+  - csharp
+  - vb
+  name: isItHisTurn
+  nameWithType: Player.isItHisTurn
+  fullName: CardBattle.Core.Players.Player.isItHisTurn
+  type: Field
+  source:
+    id: isItHisTurn
+    path: ''
+    startLine: 482
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public bool isItHisTurn
+    return:
+      type: System.Boolean
+    content.vb: Public isItHisTurn As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Player.PlayerIndex
+  commentId: P:CardBattle.Core.Players.Player.PlayerIndex
+  id: PlayerIndex
+  parent: CardBattle.Core.Players.Player
+  langs:
+  - csharp
+  - vb
+  name: PlayerIndex
+  nameWithType: Player.PlayerIndex
+  fullName: CardBattle.Core.Players.Player.PlayerIndex
+  type: Property
+  source:
+    id: PlayerIndex
+    path: ''
+    startLine: 484
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int PlayerIndex { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property PlayerIndex As Integer
+  overload: CardBattle.Core.Players.Player.PlayerIndex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Players.Player.AddComponentTo(GameObject)
+  commentId: M:CardBattle.Core.Players.Player.AddComponentTo(GameObject)
+  id: AddComponentTo(GameObject)
+  parent: CardBattle.Core.Players.Player
+  langs:
+  - csharp
+  - vb
+  name: AddComponentTo(GameObject)
+  nameWithType: Player.AddComponentTo(GameObject)
+  fullName: CardBattle.Core.Players.Player.AddComponentTo(GameObject)
+  type: Method
+  source:
+    id: AddComponentTo
+    path: ''
+    startLine: 486
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public static Player AddComponentTo(GameObject attachTo)
+    parameters:
+    - id: attachTo
+      type: GameObject
+    return:
+      type: CardBattle.Core.Players.Player
+    content.vb: Public Shared Function AddComponentTo(attachTo As GameObject) As Player
+  overload: CardBattle.Core.Players.Player.AddComponentTo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CardBattle.Core.Players
+  commentId: N:CardBattle.Core.Players
+  name: CardBattle.Core.Players
+  nameWithType: CardBattle.Core.Players
+  fullName: CardBattle.Core.Players
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CardBattle.Core.Players.PlayerStats
+  commentId: T:CardBattle.Core.Players.PlayerStats
+  parent: CardBattle.Core.Players
+  name: PlayerStats
+  nameWithType: PlayerStats
+  fullName: CardBattle.Core.Players.PlayerStats
+- uid: CardBattle.Core.Players.IPlayerStats
+  commentId: T:CardBattle.Core.Players.IPlayerStats
+  parent: CardBattle.Core.Players
+  name: IPlayerStats
+  nameWithType: IPlayerStats
+  fullName: CardBattle.Core.Players.IPlayerStats
+- uid: CardBattle.Core.Players.PlayerStats.debts
+  commentId: F:CardBattle.Core.Players.PlayerStats.debts
+  parent: CardBattle.Core.Players.PlayerStats
+  name: debts
+  nameWithType: PlayerStats.debts
+  fullName: CardBattle.Core.Players.PlayerStats.debts
+- uid: CardBattle.Core.Players.PlayerStats.revenue
+  commentId: F:CardBattle.Core.Players.PlayerStats.revenue
+  parent: CardBattle.Core.Players.PlayerStats
+  name: revenue
+  nameWithType: PlayerStats.revenue
+  fullName: CardBattle.Core.Players.PlayerStats.revenue
+- uid: CardBattle.Core.Players.PlayerStats.Money
+  commentId: P:CardBattle.Core.Players.PlayerStats.Money
+  parent: CardBattle.Core.Players.PlayerStats
+  name: Money
+  nameWithType: PlayerStats.Money
+  fullName: CardBattle.Core.Players.PlayerStats.Money
+- uid: CardBattle.Core.Players.PlayerStats.Debts
+  commentId: P:CardBattle.Core.Players.PlayerStats.Debts
+  parent: CardBattle.Core.Players.PlayerStats
+  name: Debts
+  nameWithType: PlayerStats.Debts
+  fullName: CardBattle.Core.Players.PlayerStats.Debts
+- uid: CardBattle.Core.Players.PlayerStats.VillageCount
+  commentId: P:CardBattle.Core.Players.PlayerStats.VillageCount
+  parent: CardBattle.Core.Players.PlayerStats
+  name: VillageCount
+  nameWithType: PlayerStats.VillageCount
+  fullName: CardBattle.Core.Players.PlayerStats.VillageCount
+- uid: CardBattle.Core.Players.PlayerStats.TownCount
+  commentId: P:CardBattle.Core.Players.PlayerStats.TownCount
+  parent: CardBattle.Core.Players.PlayerStats
+  name: TownCount
+  nameWithType: PlayerStats.TownCount
+  fullName: CardBattle.Core.Players.PlayerStats.TownCount
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CardBattle.Core.Players.Player.PlayerIndex*
+  commentId: Overload:CardBattle.Core.Players.Player.PlayerIndex
+  name: PlayerIndex
+  nameWithType: Player.PlayerIndex
+  fullName: CardBattle.Core.Players.Player.PlayerIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardBattle.Core.Players.Player.AddComponentTo*
+  commentId: Overload:CardBattle.Core.Players.Player.AddComponentTo
+  name: AddComponentTo
+  nameWithType: Player.AddComponentTo
+  fullName: CardBattle.Core.Players.Player.AddComponentTo
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: CardBattle.Core.Players.Player
+  commentId: T:CardBattle.Core.Players.Player
+  parent: CardBattle.Core.Players
+  name: Player
+  nameWithType: Player
+  fullName: CardBattle.Core.Players.Player

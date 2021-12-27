@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Actions.Derived.FinanceAction
+  commentId: T:CardBattle.Core.Actions.Derived.FinanceAction
+  id: FinanceAction
+  parent: CardBattle.Core.Actions.Derived
+  children:
+  - CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
+  - CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
+  - CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  langs:
+  - csharp
+  - vb
+  name: FinanceAction
+  nameWithType: FinanceAction
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction
+  type: Class
+  source:
+    id: FinanceAction
+    path: ''
+    startLine: 124
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: 'public class FinanceAction : Action'
+    content.vb: >-
+      Public Class FinanceAction
+          Inherits Action
+  inheritance:
+  - System.Object
+  - CardBattle.Core.Actions.Action
+  inheritedMembers:
+  - CardBattle.Core.Actions.Action.isOptional
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
+  id: '#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)'
+  parent: CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
+  nameWithType: FinanceAction.FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 141
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  summary: "\nEnemy as enemy\n"
+  example: []
+  syntax:
+    content: public FinanceAction(MULTIPLIER multiplier = MULTIPLIER.NONE, int additionalMoney = 0, int stealMoney = 0, MULTIPLIER enemyMultiplier = MULTIPLIER.NONE, int enemyAdditionalMoney = 0)
+    parameters:
+    - id: multiplier
+      type: CardBattle.Core.MULTIPLIER
+      description: ''
+    - id: additionalMoney
+      type: System.Int32
+      description: ''
+    - id: stealMoney
+      type: System.Int32
+      description: ''
+    - id: enemyMultiplier
+      type: CardBattle.Core.MULTIPLIER
+      description: ''
+    - id: enemyAdditionalMoney
+      type: System.Int32
+    content.vb: Public Sub New(multiplier As MULTIPLIER = MULTIPLIER.NONE, additionalMoney As Integer = 0, stealMoney As Integer = 0, enemyMultiplier As MULTIPLIER = MULTIPLIER.NONE, enemyAdditionalMoney As Integer = 0)
+  overload: CardBattle.Core.Actions.Derived.FinanceAction.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
+  id: '#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)'
+  parent: CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
+  nameWithType: FinanceAction.FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(Bot, CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 160
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  summary: "\nBot as enemy (Bot of the neutral villages)\n"
+  example: []
+  syntax:
+    content: public FinanceAction(Bot bot, MULTIPLIER multiplier = MULTIPLIER.NONE, int additionalMoney = 0, int stealMoney = 0, MULTIPLIER enemyMultiplier = MULTIPLIER.NONE, int enemyAdditionalMoney = 0)
+    parameters:
+    - id: bot
+      type: Bot
+      description: ''
+    - id: multiplier
+      type: CardBattle.Core.MULTIPLIER
+      description: ''
+    - id: additionalMoney
+      type: System.Int32
+      description: ''
+    - id: stealMoney
+      type: System.Int32
+      description: ''
+    - id: enemyMultiplier
+      type: CardBattle.Core.MULTIPLIER
+      description: ''
+    - id: enemyAdditionalMoney
+      type: System.Int32
+    content.vb: Public Sub New(bot As Bot, multiplier As MULTIPLIER = MULTIPLIER.NONE, additionalMoney As Integer = 0, stealMoney As Integer = 0, enemyMultiplier As MULTIPLIER = MULTIPLIER.NONE, enemyAdditionalMoney As Integer = 0)
+  overload: CardBattle.Core.Actions.Derived.FinanceAction.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  id: Execute
+  parent: CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: FinanceAction.Execute()
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.Execute()
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 171
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public override void Execute()
+    content.vb: Public Overrides Sub Execute
+  overridden: CardBattle.Core.Actions.Action.Execute
+  overload: CardBattle.Core.Actions.Derived.FinanceAction.Execute*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CardBattle.Core.Actions.Derived
+  commentId: N:CardBattle.Core.Actions.Derived
+  name: CardBattle.Core.Actions.Derived
+  nameWithType: CardBattle.Core.Actions.Derived
+  fullName: CardBattle.Core.Actions.Derived
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CardBattle.Core.Actions.Action
+  commentId: T:CardBattle.Core.Actions.Action
+  parent: CardBattle.Core.Actions
+  name: Action
+  nameWithType: Action
+  fullName: CardBattle.Core.Actions.Action
+- uid: CardBattle.Core.Actions.Action.isOptional
+  commentId: F:CardBattle.Core.Actions.Action.isOptional
+  parent: CardBattle.Core.Actions.Action
+  name: isOptional
+  nameWithType: Action.isOptional
+  fullName: CardBattle.Core.Actions.Action.isOptional
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.Actions
+  commentId: N:CardBattle.Core.Actions
+  name: CardBattle.Core.Actions
+  nameWithType: CardBattle.Core.Actions
+  fullName: CardBattle.Core.Actions
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor*
+  commentId: Overload:CardBattle.Core.Actions.Derived.FinanceAction.#ctor
+  name: FinanceAction
+  nameWithType: FinanceAction.FinanceAction
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction
+- uid: CardBattle.Core.MULTIPLIER
+  commentId: T:CardBattle.Core.MULTIPLIER
+  parent: CardBattle.Core
+  name: MULTIPLIER
+  nameWithType: MULTIPLIER
+  fullName: CardBattle.Core.MULTIPLIER
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: Bot
+  isExternal: true
+  name: Bot
+  nameWithType: Bot
+  fullName: Bot
+- uid: CardBattle.Core.Actions.Action.Execute
+  commentId: M:CardBattle.Core.Actions.Action.Execute
+  parent: CardBattle.Core.Actions.Action
+  name: Execute()
+  nameWithType: Action.Execute()
+  fullName: CardBattle.Core.Actions.Action.Execute()
+  spec.csharp:
+  - uid: CardBattle.Core.Actions.Action.Execute
+    name: Execute
+    nameWithType: Action.Execute
+    fullName: CardBattle.Core.Actions.Action.Execute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardBattle.Core.Actions.Action.Execute
+    name: Execute
+    nameWithType: Action.Execute
+    fullName: CardBattle.Core.Actions.Action.Execute
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.Execute*
+  commentId: Overload:CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  name: Execute
+  nameWithType: FinanceAction.Execute
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.Execute

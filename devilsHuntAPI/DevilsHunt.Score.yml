@@ -25,7 +25,7 @@ items:
   source:
     id: Score
     path: ''
-    startLine: 2258
+    startLine: 2036
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -62,7 +62,7 @@ items:
   source:
     id: Date
     path: ''
-    startLine: 2264
+    startLine: 2042
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -93,7 +93,7 @@ items:
   source:
     id: GetFile
     path: ''
-    startLine: 2271
+    startLine: 2049
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -124,7 +124,7 @@ items:
   source:
     id: main
     path: ''
-    startLine: 2277
+    startLine: 2055
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -153,7 +153,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 2279
+    startLine: 2057
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -184,7 +184,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2287
+    startLine: 2065
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -219,7 +219,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 2296
+    startLine: 2074
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -258,7 +258,7 @@ items:
   source:
     id: GetScores
     path: ''
-    startLine: 2306
+    startLine: 2084
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -288,7 +288,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 2341
+    startLine: 2119
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -314,7 +314,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 2369
+    startLine: 2147
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -340,7 +340,7 @@ items:
   source:
     id: Delete
     path: ''
-    startLine: 2399
+    startLine: 2177
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt

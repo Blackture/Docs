@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Battlefield.PlayerController
+  commentId: T:TheInvaders.Battlefield.PlayerController
+  id: PlayerController
+  parent: TheInvaders.Battlefield
+  children:
+  - TheInvaders.Battlefield.PlayerController.IsOnTurn
+  - TheInvaders.Battlefield.PlayerController.P
+  langs:
+  - csharp
+  - vb
+  name: PlayerController
+  nameWithType: PlayerController
+  fullName: TheInvaders.Battlefield.PlayerController
+  type: Class
+  source:
+    id: PlayerController
+    path: ''
+    startLine: 681
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Battlefield
+  summary: "\nThe cam and unit selection controller of the battlefields\n"
+  example: []
+  syntax:
+    content: 'public class PlayerController : MonoBehaviour'
+    content.vb: >-
+      Public Class PlayerController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.Battlefield.PlayerController.IsOnTurn
+  commentId: P:TheInvaders.Battlefield.PlayerController.IsOnTurn
+  id: IsOnTurn
+  parent: TheInvaders.Battlefield.PlayerController
+  langs:
+  - csharp
+  - vb
+  name: IsOnTurn
+  nameWithType: PlayerController.IsOnTurn
+  fullName: TheInvaders.Battlefield.PlayerController.IsOnTurn
+  type: Property
+  source:
+    id: IsOnTurn
+    path: ''
+    startLine: 708
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Battlefield
+  summary: "\nIs this player&apos;s turn?\n"
+  example: []
+  syntax:
+    content: public bool IsOnTurn { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsOnTurn As Boolean
+  overload: TheInvaders.Battlefield.PlayerController.IsOnTurn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TheInvaders.Battlefield.PlayerController.P
+  commentId: P:TheInvaders.Battlefield.PlayerController.P
+  id: P
+  parent: TheInvaders.Battlefield.PlayerController
+  langs:
+  - csharp
+  - vb
+  name: P
+  nameWithType: PlayerController.P
+  fullName: TheInvaders.Battlefield.PlayerController.P
+  type: Property
+  source:
+    id: P
+    path: ''
+    startLine: 714
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Battlefield
+  summary: "\nThe player who is using this camera\n"
+  example: []
+  syntax:
+    content: public Player P { get; }
+    parameters: []
+    return:
+      type: TheInvaders.Player
+    content.vb: Public ReadOnly Property P As Player
+  overload: TheInvaders.Battlefield.PlayerController.P*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: TheInvaders.Battlefield
+  commentId: N:TheInvaders.Battlefield
+  name: TheInvaders.Battlefield
+  nameWithType: TheInvaders.Battlefield
+  fullName: TheInvaders.Battlefield
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: TheInvaders.Battlefield.PlayerController.IsOnTurn*
+  commentId: Overload:TheInvaders.Battlefield.PlayerController.IsOnTurn
+  name: IsOnTurn
+  nameWithType: PlayerController.IsOnTurn
+  fullName: TheInvaders.Battlefield.PlayerController.IsOnTurn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TheInvaders.Battlefield.PlayerController.P*
+  commentId: Overload:TheInvaders.Battlefield.PlayerController.P
+  name: P
+  nameWithType: PlayerController.P
+  fullName: TheInvaders.Battlefield.PlayerController.P
+- uid: TheInvaders.Player
+  commentId: T:TheInvaders.Player
+  parent: TheInvaders
+  name: Player
+  nameWithType: Player
+  fullName: TheInvaders.Player
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders

@@ -1,0 +1,683 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Players.Debt
+  commentId: T:CardBattle.Core.Players.Debt
+  id: Debt
+  parent: CardBattle.Core.Players
+  children:
+  - CardBattle.Core.Players.Debt.#ctor(CardBattle.Core.Players.PlayerStats,CardBattle.Core.Players.PlayerStats)
+  - CardBattle.Core.Players.Debt.#ctor(System.Int32,System.Int32,CardBattle.Core.Players.PlayerStats,CardBattle.Core.Players.PlayerStats)
+  - CardBattle.Core.Players.Debt.AddDebt(System.Int32)
+  - CardBattle.Core.Players.Debt.Amount
+  - CardBattle.Core.Players.Debt.Creditor
+  - CardBattle.Core.Players.Debt.Debtor
+  - CardBattle.Core.Players.Debt.PayDebt
+  - CardBattle.Core.Players.Debt.Time
+  - CardBattle.Core.Players.Debt.UpdateTime
+  langs:
+  - csharp
+  - vb
+  name: Debt
+  nameWithType: Debt
+  fullName: CardBattle.Core.Players.Debt
+  type: Class
+  source:
+    id: Debt
+    path: ''
+    startLine: 399
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public class Debt
+    content.vb: Public Class Debt
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Players.Debt.Amount
+  commentId: P:CardBattle.Core.Players.Debt.Amount
+  id: Amount
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: Debt.Amount
+  fullName: CardBattle.Core.Players.Debt.Amount
+  type: Property
+  source:
+    id: Amount
+    path: ''
+    startLine: 406
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int Amount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Amount As Integer
+  overload: CardBattle.Core.Players.Debt.Amount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Players.Debt.Time
+  commentId: P:CardBattle.Core.Players.Debt.Time
+  id: Time
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: Debt.Time
+  fullName: CardBattle.Core.Players.Debt.Time
+  type: Property
+  source:
+    id: Time
+    path: ''
+    startLine: 407
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int Time { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Time As Integer
+  overload: CardBattle.Core.Players.Debt.Time*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Players.Debt.Creditor
+  commentId: P:CardBattle.Core.Players.Debt.Creditor
+  id: Creditor
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: Creditor
+  nameWithType: Debt.Creditor
+  fullName: CardBattle.Core.Players.Debt.Creditor
+  type: Property
+  source:
+    id: Creditor
+    path: ''
+    startLine: 408
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public PlayerStats Creditor { get; }
+    parameters: []
+    return:
+      type: CardBattle.Core.Players.PlayerStats
+    content.vb: Public ReadOnly Property Creditor As PlayerStats
+  overload: CardBattle.Core.Players.Debt.Creditor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Players.Debt.Debtor
+  commentId: P:CardBattle.Core.Players.Debt.Debtor
+  id: Debtor
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: Debtor
+  nameWithType: Debt.Debtor
+  fullName: CardBattle.Core.Players.Debt.Debtor
+  type: Property
+  source:
+    id: Debtor
+    path: ''
+    startLine: 409
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public PlayerStats Debtor { get; }
+    parameters: []
+    return:
+      type: CardBattle.Core.Players.PlayerStats
+    content.vb: Public ReadOnly Property Debtor As PlayerStats
+  overload: CardBattle.Core.Players.Debt.Debtor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Players.Debt.#ctor(System.Int32,System.Int32,CardBattle.Core.Players.PlayerStats,CardBattle.Core.Players.PlayerStats)
+  commentId: M:CardBattle.Core.Players.Debt.#ctor(System.Int32,System.Int32,CardBattle.Core.Players.PlayerStats,CardBattle.Core.Players.PlayerStats)
+  id: '#ctor(System.Int32,System.Int32,CardBattle.Core.Players.PlayerStats,CardBattle.Core.Players.PlayerStats)'
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: Debt(Int32, Int32, PlayerStats, PlayerStats)
+  nameWithType: Debt.Debt(Int32, Int32, PlayerStats, PlayerStats)
+  fullName: CardBattle.Core.Players.Debt.Debt(System.Int32, System.Int32, CardBattle.Core.Players.PlayerStats, CardBattle.Core.Players.PlayerStats)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 411
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public Debt(int amount, int time, PlayerStats creditor, PlayerStats debtor)
+    parameters:
+    - id: amount
+      type: System.Int32
+    - id: time
+      type: System.Int32
+    - id: creditor
+      type: CardBattle.Core.Players.PlayerStats
+    - id: debtor
+      type: CardBattle.Core.Players.PlayerStats
+    content.vb: Public Sub New(amount As Integer, time As Integer, creditor As PlayerStats, debtor As PlayerStats)
+  overload: CardBattle.Core.Players.Debt.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Debt.#ctor(CardBattle.Core.Players.PlayerStats,CardBattle.Core.Players.PlayerStats)
+  commentId: M:CardBattle.Core.Players.Debt.#ctor(CardBattle.Core.Players.PlayerStats,CardBattle.Core.Players.PlayerStats)
+  id: '#ctor(CardBattle.Core.Players.PlayerStats,CardBattle.Core.Players.PlayerStats)'
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: Debt(PlayerStats, PlayerStats)
+  nameWithType: Debt.Debt(PlayerStats, PlayerStats)
+  fullName: CardBattle.Core.Players.Debt.Debt(CardBattle.Core.Players.PlayerStats, CardBattle.Core.Players.PlayerStats)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 419
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public Debt(PlayerStats creditor, PlayerStats debtor)
+    parameters:
+    - id: creditor
+      type: CardBattle.Core.Players.PlayerStats
+    - id: debtor
+      type: CardBattle.Core.Players.PlayerStats
+    content.vb: Public Sub New(creditor As PlayerStats, debtor As PlayerStats)
+  overload: CardBattle.Core.Players.Debt.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Debt.UpdateTime
+  commentId: M:CardBattle.Core.Players.Debt.UpdateTime
+  id: UpdateTime
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: UpdateTime()
+  nameWithType: Debt.UpdateTime()
+  fullName: CardBattle.Core.Players.Debt.UpdateTime()
+  type: Method
+  source:
+    id: UpdateTime
+    path: ''
+    startLine: 426
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public void UpdateTime()
+    content.vb: Public Sub UpdateTime
+  overload: CardBattle.Core.Players.Debt.UpdateTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Debt.AddDebt(System.Int32)
+  commentId: M:CardBattle.Core.Players.Debt.AddDebt(System.Int32)
+  id: AddDebt(System.Int32)
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: AddDebt(Int32)
+  nameWithType: Debt.AddDebt(Int32)
+  fullName: CardBattle.Core.Players.Debt.AddDebt(System.Int32)
+  type: Method
+  source:
+    id: AddDebt
+    path: ''
+    startLine: 431
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public void AddDebt(int amount)
+    parameters:
+    - id: amount
+      type: System.Int32
+    content.vb: Public Sub AddDebt(amount As Integer)
+  overload: CardBattle.Core.Players.Debt.AddDebt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Players.Debt.PayDebt
+  commentId: M:CardBattle.Core.Players.Debt.PayDebt
+  id: PayDebt
+  parent: CardBattle.Core.Players.Debt
+  langs:
+  - csharp
+  - vb
+  name: PayDebt()
+  nameWithType: Debt.PayDebt()
+  fullName: CardBattle.Core.Players.Debt.PayDebt()
+  type: Method
+  source:
+    id: PayDebt
+    path: ''
+    startLine: 436
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  summary: "\nPays the debts\n"
+  example: []
+  syntax:
+    content: public bool PayDebt()
+    return:
+      type: System.Boolean
+      description: True if the payment was successful.
+    content.vb: Public Function PayDebt As Boolean
+  overload: CardBattle.Core.Players.Debt.PayDebt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Core.Players
+  commentId: N:CardBattle.Core.Players
+  name: CardBattle.Core.Players
+  nameWithType: CardBattle.Core.Players
+  fullName: CardBattle.Core.Players
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.Players.Debt.Amount*
+  commentId: Overload:CardBattle.Core.Players.Debt.Amount
+  name: Amount
+  nameWithType: Debt.Amount
+  fullName: CardBattle.Core.Players.Debt.Amount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardBattle.Core.Players.Debt.Time*
+  commentId: Overload:CardBattle.Core.Players.Debt.Time
+  name: Time
+  nameWithType: Debt.Time
+  fullName: CardBattle.Core.Players.Debt.Time
+- uid: CardBattle.Core.Players.Debt.Creditor*
+  commentId: Overload:CardBattle.Core.Players.Debt.Creditor
+  name: Creditor
+  nameWithType: Debt.Creditor
+  fullName: CardBattle.Core.Players.Debt.Creditor
+- uid: CardBattle.Core.Players.PlayerStats
+  commentId: T:CardBattle.Core.Players.PlayerStats
+  parent: CardBattle.Core.Players
+  name: PlayerStats
+  nameWithType: PlayerStats
+  fullName: CardBattle.Core.Players.PlayerStats
+- uid: CardBattle.Core.Players.Debt.Debtor*
+  commentId: Overload:CardBattle.Core.Players.Debt.Debtor
+  name: Debtor
+  nameWithType: Debt.Debtor
+  fullName: CardBattle.Core.Players.Debt.Debtor
+- uid: CardBattle.Core.Players.Debt.#ctor*
+  commentId: Overload:CardBattle.Core.Players.Debt.#ctor
+  name: Debt
+  nameWithType: Debt.Debt
+  fullName: CardBattle.Core.Players.Debt.Debt
+- uid: CardBattle.Core.Players.Debt.UpdateTime*
+  commentId: Overload:CardBattle.Core.Players.Debt.UpdateTime
+  name: UpdateTime
+  nameWithType: Debt.UpdateTime
+  fullName: CardBattle.Core.Players.Debt.UpdateTime
+- uid: CardBattle.Core.Players.Debt.AddDebt*
+  commentId: Overload:CardBattle.Core.Players.Debt.AddDebt
+  name: AddDebt
+  nameWithType: Debt.AddDebt
+  fullName: CardBattle.Core.Players.Debt.AddDebt
+- uid: CardBattle.Core.Players.Debt.PayDebt*
+  commentId: Overload:CardBattle.Core.Players.Debt.PayDebt
+  name: PayDebt
+  nameWithType: Debt.PayDebt
+  fullName: CardBattle.Core.Players.Debt.PayDebt
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

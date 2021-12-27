@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Actions.Action
+  commentId: T:CardBattle.Core.Actions.Action
+  id: Action
+  parent: CardBattle.Core.Actions
+  children:
+  - CardBattle.Core.Actions.Action.#ctor
+  - CardBattle.Core.Actions.Action.#ctor(System.Boolean)
+  - CardBattle.Core.Actions.Action.Execute
+  - CardBattle.Core.Actions.Action.isOptional
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: Action
+  fullName: CardBattle.Core.Actions.Action
+  type: Class
+  source:
+    id: Action
+    path: ''
+    startLine: 96
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions
+  syntax:
+    content: public abstract class Action
+    content.vb: Public MustInherit Class Action
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CardBattle.Core.Actions.Derived.Dice.ColorDice
+  - CardBattle.Core.Actions.Derived.FinanceAction
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CardBattle.Core.Actions.Action.isOptional
+  commentId: F:CardBattle.Core.Actions.Action.isOptional
+  id: isOptional
+  parent: CardBattle.Core.Actions.Action
+  langs:
+  - csharp
+  - vb
+  name: isOptional
+  nameWithType: Action.isOptional
+  fullName: CardBattle.Core.Actions.Action.isOptional
+  type: Field
+  source:
+    id: isOptional
+    path: ''
+    startLine: 98
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions
+  syntax:
+    content: public readonly bool isOptional
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly isOptional As Boolean
+  modifiers.csharp:
+  - public
+  - readonly
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Actions.Action.#ctor
+  commentId: M:CardBattle.Core.Actions.Action.#ctor
+  id: '#ctor'
+  parent: CardBattle.Core.Actions.Action
+  langs:
+  - csharp
+  - vb
+  name: Action()
+  nameWithType: Action.Action()
+  fullName: CardBattle.Core.Actions.Action.Action()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 103
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions
+  summary: "\nAutomatically sets the action&apos;s optionality to false\n"
+  example: []
+  syntax:
+    content: public Action()
+    content.vb: Public Sub New
+  overload: CardBattle.Core.Actions.Action.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Action.#ctor(System.Boolean)
+  commentId: M:CardBattle.Core.Actions.Action.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: CardBattle.Core.Actions.Action
+  langs:
+  - csharp
+  - vb
+  name: Action(Boolean)
+  nameWithType: Action.Action(Boolean)
+  fullName: CardBattle.Core.Actions.Action.Action(System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 107
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions
+  syntax:
+    content: public Action(bool isOptional)
+    parameters:
+    - id: isOptional
+      type: System.Boolean
+    content.vb: Public Sub New(isOptional As Boolean)
+  overload: CardBattle.Core.Actions.Action.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Action.Execute
+  commentId: M:CardBattle.Core.Actions.Action.Execute
+  id: Execute
+  parent: CardBattle.Core.Actions.Action
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: Action.Execute()
+  fullName: CardBattle.Core.Actions.Action.Execute()
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 112
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions
+  syntax:
+    content: public abstract void Execute()
+    content.vb: Public MustOverride Sub Execute
+  overload: CardBattle.Core.Actions.Action.Execute*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: CardBattle.Core.Actions
+  commentId: N:CardBattle.Core.Actions
+  name: CardBattle.Core.Actions
+  nameWithType: CardBattle.Core.Actions
+  fullName: CardBattle.Core.Actions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CardBattle.Core.Actions.Action.#ctor*
+  commentId: Overload:CardBattle.Core.Actions.Action.#ctor
+  name: Action
+  nameWithType: Action.Action
+  fullName: CardBattle.Core.Actions.Action.Action
+- uid: CardBattle.Core.Actions.Action.Execute*
+  commentId: Overload:CardBattle.Core.Actions.Action.Execute
+  name: Execute
+  nameWithType: Action.Execute
+  fullName: CardBattle.Core.Actions.Action.Execute

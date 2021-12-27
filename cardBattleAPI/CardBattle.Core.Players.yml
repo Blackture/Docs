@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Players
+  commentId: N:CardBattle.Core.Players
+  id: CardBattle.Core.Players
+  children:
+  - CardBattle.Core.Players.Debt
+  - CardBattle.Core.Players.IPlayerStats
+  - CardBattle.Core.Players.Player
+  - CardBattle.Core.Players.PlayerStats
+  - CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core.Players
+  nameWithType: CardBattle.Core.Players
+  fullName: CardBattle.Core.Players
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.Players.Debt
+  commentId: T:CardBattle.Core.Players.Debt
+  name: Debt
+  nameWithType: Debt
+  fullName: CardBattle.Core.Players.Debt
+- uid: CardBattle.Core.Players.IPlayerStats
+  commentId: T:CardBattle.Core.Players.IPlayerStats
+  parent: CardBattle.Core.Players
+  name: IPlayerStats
+  nameWithType: IPlayerStats
+  fullName: CardBattle.Core.Players.IPlayerStats
+- uid: CardBattle.Core.Players.Player
+  commentId: T:CardBattle.Core.Players.Player
+  parent: CardBattle.Core.Players
+  name: Player
+  nameWithType: Player
+  fullName: CardBattle.Core.Players.Player
+- uid: CardBattle.Core.Players.PlayerStats
+  commentId: T:CardBattle.Core.Players.PlayerStats
+  parent: CardBattle.Core.Players
+  name: PlayerStats
+  nameWithType: PlayerStats
+  fullName: CardBattle.Core.Players.PlayerStats
+- uid: CardBattle.Core.Players.Revenue
+  commentId: T:CardBattle.Core.Players.Revenue
+  parent: CardBattle.Core.Players
+  name: Revenue
+  nameWithType: Revenue
+  fullName: CardBattle.Core.Players.Revenue
+- uid: CardBattle.Core.Players
+  commentId: N:CardBattle.Core.Players
+  name: CardBattle.Core.Players
+  nameWithType: CardBattle.Core.Players
+  fullName: CardBattle.Core.Players

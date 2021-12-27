@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  id: CardBattle.Core
+  children:
+  - CardBattle.Core.COLOR
+  - CardBattle.Core.GameController
+  - CardBattle.Core.GameManager
+  - CardBattle.Core.MULTIPLIER
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.COLOR
+  commentId: T:CardBattle.Core.COLOR
+  parent: CardBattle.Core
+  name: COLOR
+  nameWithType: COLOR
+  fullName: CardBattle.Core.COLOR
+- uid: CardBattle.Core.MULTIPLIER
+  commentId: T:CardBattle.Core.MULTIPLIER
+  parent: CardBattle.Core
+  name: MULTIPLIER
+  nameWithType: MULTIPLIER
+  fullName: CardBattle.Core.MULTIPLIER
+- uid: CardBattle.Core.GameManager
+  commentId: T:CardBattle.Core.GameManager
+  parent: CardBattle.Core
+  name: GameManager
+  nameWithType: GameManager
+  fullName: CardBattle.Core.GameManager
+- uid: CardBattle.Core.GameController
+  commentId: T:CardBattle.Core.GameController
+  name: GameController
+  nameWithType: GameController
+  fullName: CardBattle.Core.GameController
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core

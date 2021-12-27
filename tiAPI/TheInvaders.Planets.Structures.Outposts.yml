@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Structures.Outposts
+  commentId: N:TheInvaders.Planets.Structures.Outposts
+  id: TheInvaders.Planets.Structures.Outposts
+  children:
+  - TheInvaders.Planets.Structures.Outposts.IOutpost`1
+  - TheInvaders.Planets.Structures.Outposts.MilitaryOutpost
+  - TheInvaders.Planets.Structures.Outposts.Outpost`1
+  - TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  - TheInvaders.Planets.Structures.Outposts.ScientificOutpost
+  langs:
+  - csharp
+  - vb
+  name: TheInvaders.Planets.Structures.Outposts
+  nameWithType: TheInvaders.Planets.Structures.Outposts
+  fullName: TheInvaders.Planets.Structures.Outposts
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TheInvaders.Planets.Structures.Outposts.IOutpost`1
+  commentId: T:TheInvaders.Planets.Structures.Outposts.IOutpost`1
+  name: IOutpost<T>
+  nameWithType: IOutpost<T>
+  fullName: TheInvaders.Planets.Structures.Outposts.IOutpost<T>
+  nameWithType.vb: IOutpost(Of T)
+  fullName.vb: TheInvaders.Planets.Structures.Outposts.IOutpost(Of T)
+  name.vb: IOutpost(Of T)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.Outposts.IOutpost`1
+    name: IOutpost
+    nameWithType: IOutpost
+    fullName: TheInvaders.Planets.Structures.Outposts.IOutpost
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.Outposts.IOutpost`1
+    name: IOutpost
+    nameWithType: IOutpost
+    fullName: TheInvaders.Planets.Structures.Outposts.IOutpost
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.Outposts.MilitaryOutpost
+  commentId: T:TheInvaders.Planets.Structures.Outposts.MilitaryOutpost
+  name: MilitaryOutpost
+  nameWithType: MilitaryOutpost
+  fullName: TheInvaders.Planets.Structures.Outposts.MilitaryOutpost
+- uid: TheInvaders.Planets.Structures.Outposts.Outpost`1
+  commentId: T:TheInvaders.Planets.Structures.Outposts.Outpost`1
+  name: Outpost<T>
+  nameWithType: Outpost<T>
+  fullName: TheInvaders.Planets.Structures.Outposts.Outpost<T>
+  nameWithType.vb: Outpost(Of T)
+  fullName.vb: TheInvaders.Planets.Structures.Outposts.Outpost(Of T)
+  name.vb: Outpost(Of T)
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.Outposts.Outpost`1
+    name: Outpost
+    nameWithType: Outpost
+    fullName: TheInvaders.Planets.Structures.Outposts.Outpost
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.Outposts.Outpost`1
+    name: Outpost
+    nameWithType: Outpost
+    fullName: TheInvaders.Planets.Structures.Outposts.Outpost
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  commentId: T:TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+  parent: TheInvaders.Planets.Structures.Outposts
+  name: Outpost.TYPE<>
+  nameWithType: Outpost.TYPE<>
+  fullName: TheInvaders.Planets.Structures.Outposts.Outpost.TYPE<>
+  nameWithType.vb: Outpost.TYPE(Of )
+  fullName.vb: TheInvaders.Planets.Structures.Outposts.Outpost.TYPE(Of )
+  name.vb: Outpost.TYPE(Of )
+  spec.csharp:
+  - uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+    name: Outpost.TYPE
+    nameWithType: Outpost.TYPE
+    fullName: TheInvaders.Planets.Structures.Outposts.Outpost.TYPE
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: TheInvaders.Planets.Structures.Outposts.Outpost`1.TYPE
+    name: Outpost.TYPE
+    nameWithType: Outpost.TYPE
+    fullName: TheInvaders.Planets.Structures.Outposts.Outpost.TYPE
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: TheInvaders.Planets.Structures.Outposts.ScientificOutpost
+  commentId: T:TheInvaders.Planets.Structures.Outposts.ScientificOutpost
+  name: ScientificOutpost
+  nameWithType: ScientificOutpost
+  fullName: TheInvaders.Planets.Structures.Outposts.ScientificOutpost
+- uid: TheInvaders.Planets.Structures.Outposts
+  commentId: N:TheInvaders.Planets.Structures.Outposts
+  name: TheInvaders.Planets.Structures.Outposts
+  nameWithType: TheInvaders.Planets.Structures.Outposts
+  fullName: TheInvaders.Planets.Structures.Outposts

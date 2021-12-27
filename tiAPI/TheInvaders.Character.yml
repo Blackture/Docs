@@ -1,0 +1,618 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Character
+  commentId: T:TheInvaders.Character
+  id: Character
+  parent: TheInvaders
+  children:
+  - TheInvaders.Character.#ctor(System.Single,System.Single,System.Single)
+  - TheInvaders.Character.#ctor(TheInvaders.Character)
+  - TheInvaders.Character.armor
+  - TheInvaders.Character.Armor
+  - TheInvaders.Character.health
+  - TheInvaders.Character.Health
+  - TheInvaders.Character.maxMoveDistance
+  - TheInvaders.Character.MaxMoveDistance
+  langs:
+  - csharp
+  - vb
+  name: Character
+  nameWithType: Character
+  fullName: TheInvaders.Character
+  type: Class
+  source:
+    id: Character
+    path: ''
+    startLine: 85
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public class Character
+    content.vb: Public Class Character
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - TheInvaders.Player
+  - TheInvaders.Trader
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.Character.armor
+  commentId: F:TheInvaders.Character.armor
+  id: armor
+  parent: TheInvaders.Character
+  langs:
+  - csharp
+  - vb
+  name: armor
+  nameWithType: Character.armor
+  fullName: TheInvaders.Character.armor
+  type: Field
+  source:
+    id: armor
+    path: ''
+    startLine: 87
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: protected float armor
+    return:
+      type: System.Single
+    content.vb: Protected armor As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TheInvaders.Character.health
+  commentId: F:TheInvaders.Character.health
+  id: health
+  parent: TheInvaders.Character
+  langs:
+  - csharp
+  - vb
+  name: health
+  nameWithType: Character.health
+  fullName: TheInvaders.Character.health
+  type: Field
+  source:
+    id: health
+    path: ''
+    startLine: 88
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: protected float health
+    return:
+      type: System.Single
+    content.vb: Protected health As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TheInvaders.Character.maxMoveDistance
+  commentId: F:TheInvaders.Character.maxMoveDistance
+  id: maxMoveDistance
+  parent: TheInvaders.Character
+  langs:
+  - csharp
+  - vb
+  name: maxMoveDistance
+  nameWithType: Character.maxMoveDistance
+  fullName: TheInvaders.Character.maxMoveDistance
+  type: Field
+  source:
+    id: maxMoveDistance
+    path: ''
+    startLine: 89
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: protected float maxMoveDistance
+    return:
+      type: System.Single
+    content.vb: Protected maxMoveDistance As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: TheInvaders.Character.Armor
+  commentId: P:TheInvaders.Character.Armor
+  id: Armor
+  parent: TheInvaders.Character
+  langs:
+  - csharp
+  - vb
+  name: Armor
+  nameWithType: Character.Armor
+  fullName: TheInvaders.Character.Armor
+  type: Property
+  source:
+    id: Armor
+    path: ''
+    startLine: 91
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public float Armor { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Armor As Single
+  overload: TheInvaders.Character.Armor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TheInvaders.Character.Health
+  commentId: P:TheInvaders.Character.Health
+  id: Health
+  parent: TheInvaders.Character
+  langs:
+  - csharp
+  - vb
+  name: Health
+  nameWithType: Character.Health
+  fullName: TheInvaders.Character.Health
+  type: Property
+  source:
+    id: Health
+    path: ''
+    startLine: 92
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public float Health { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property Health As Single
+  overload: TheInvaders.Character.Health*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TheInvaders.Character.MaxMoveDistance
+  commentId: P:TheInvaders.Character.MaxMoveDistance
+  id: MaxMoveDistance
+  parent: TheInvaders.Character
+  langs:
+  - csharp
+  - vb
+  name: MaxMoveDistance
+  nameWithType: Character.MaxMoveDistance
+  fullName: TheInvaders.Character.MaxMoveDistance
+  type: Property
+  source:
+    id: MaxMoveDistance
+    path: ''
+    startLine: 93
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public float MaxMoveDistance { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property MaxMoveDistance As Single
+  overload: TheInvaders.Character.MaxMoveDistance*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TheInvaders.Character.#ctor(System.Single,System.Single,System.Single)
+  commentId: M:TheInvaders.Character.#ctor(System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single)'
+  parent: TheInvaders.Character
+  langs:
+  - csharp
+  - vb
+  name: Character(Single, Single, Single)
+  nameWithType: Character.Character(Single, Single, Single)
+  fullName: TheInvaders.Character.Character(System.Single, System.Single, System.Single)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 95
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public Character(float _armor, float _health, float _maxMoveDistance)
+    parameters:
+    - id: _armor
+      type: System.Single
+    - id: _health
+      type: System.Single
+    - id: _maxMoveDistance
+      type: System.Single
+    content.vb: Public Sub New(_armor As Single, _health As Single, _maxMoveDistance As Single)
+  overload: TheInvaders.Character.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: TheInvaders.Character.#ctor(TheInvaders.Character)
+  commentId: M:TheInvaders.Character.#ctor(TheInvaders.Character)
+  id: '#ctor(TheInvaders.Character)'
+  parent: TheInvaders.Character
+  langs:
+  - csharp
+  - vb
+  name: Character(Character)
+  nameWithType: Character.Character(Character)
+  fullName: TheInvaders.Character.Character(TheInvaders.Character)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 102
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders
+  syntax:
+    content: public Character(Character c)
+    parameters:
+    - id: c
+      type: TheInvaders.Character
+    content.vb: Public Sub New(c As Character)
+  overload: TheInvaders.Character.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders
+  commentId: N:TheInvaders
+  name: TheInvaders
+  nameWithType: TheInvaders
+  fullName: TheInvaders
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: TheInvaders.Character.Armor*
+  commentId: Overload:TheInvaders.Character.Armor
+  name: Armor
+  nameWithType: Character.Armor
+  fullName: TheInvaders.Character.Armor
+- uid: TheInvaders.Character.Health*
+  commentId: Overload:TheInvaders.Character.Health
+  name: Health
+  nameWithType: Character.Health
+  fullName: TheInvaders.Character.Health
+- uid: TheInvaders.Character.MaxMoveDistance*
+  commentId: Overload:TheInvaders.Character.MaxMoveDistance
+  name: MaxMoveDistance
+  nameWithType: Character.MaxMoveDistance
+  fullName: TheInvaders.Character.MaxMoveDistance
+- uid: TheInvaders.Character.#ctor*
+  commentId: Overload:TheInvaders.Character.#ctor
+  name: Character
+  nameWithType: Character.Character
+  fullName: TheInvaders.Character.Character
+- uid: TheInvaders.Character
+  commentId: T:TheInvaders.Character
+  parent: TheInvaders
+  name: Character
+  nameWithType: Character
+  fullName: TheInvaders.Character

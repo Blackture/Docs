@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.MULTIPLIER
+  commentId: T:CardBattle.Core.MULTIPLIER
+  id: MULTIPLIER
+  parent: CardBattle.Core
+  children:
+  - CardBattle.Core.MULTIPLIER.DOUBLE
+  - CardBattle.Core.MULTIPLIER.NONE
+  - CardBattle.Core.MULTIPLIER.QUADRUPLE
+  - CardBattle.Core.MULTIPLIER.ZERO
+  langs:
+  - csharp
+  - vb
+  name: MULTIPLIER
+  nameWithType: MULTIPLIER
+  fullName: CardBattle.Core.MULTIPLIER
+  type: Enum
+  source:
+    id: MULTIPLIER
+    path: ''
+    startLine: 16
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public enum MULTIPLIER
+    content.vb: Public Enum MULTIPLIER
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardBattle.Core.MULTIPLIER.ZERO
+  commentId: F:CardBattle.Core.MULTIPLIER.ZERO
+  id: ZERO
+  parent: CardBattle.Core.MULTIPLIER
+  langs:
+  - csharp
+  - vb
+  name: ZERO
+  nameWithType: MULTIPLIER.ZERO
+  fullName: CardBattle.Core.MULTIPLIER.ZERO
+  type: Field
+  source:
+    id: ZERO
+    path: ''
+    startLine: 18
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: ZERO = 0
+    return:
+      type: CardBattle.Core.MULTIPLIER
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.MULTIPLIER.NONE
+  commentId: F:CardBattle.Core.MULTIPLIER.NONE
+  id: NONE
+  parent: CardBattle.Core.MULTIPLIER
+  langs:
+  - csharp
+  - vb
+  name: NONE
+  nameWithType: MULTIPLIER.NONE
+  fullName: CardBattle.Core.MULTIPLIER.NONE
+  type: Field
+  source:
+    id: NONE
+    path: ''
+    startLine: 19
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: NONE = 1
+    return:
+      type: CardBattle.Core.MULTIPLIER
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.MULTIPLIER.DOUBLE
+  commentId: F:CardBattle.Core.MULTIPLIER.DOUBLE
+  id: DOUBLE
+  parent: CardBattle.Core.MULTIPLIER
+  langs:
+  - csharp
+  - vb
+  name: DOUBLE
+  nameWithType: MULTIPLIER.DOUBLE
+  fullName: CardBattle.Core.MULTIPLIER.DOUBLE
+  type: Field
+  source:
+    id: DOUBLE
+    path: ''
+    startLine: 20
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: DOUBLE = 2
+    return:
+      type: CardBattle.Core.MULTIPLIER
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.MULTIPLIER.QUADRUPLE
+  commentId: F:CardBattle.Core.MULTIPLIER.QUADRUPLE
+  id: QUADRUPLE
+  parent: CardBattle.Core.MULTIPLIER
+  langs:
+  - csharp
+  - vb
+  name: QUADRUPLE
+  nameWithType: MULTIPLIER.QUADRUPLE
+  fullName: CardBattle.Core.MULTIPLIER.QUADRUPLE
+  type: Field
+  source:
+    id: QUADRUPLE
+    path: ''
+    startLine: 21
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: QUADRUPLE = 3
+    return:
+      type: CardBattle.Core.MULTIPLIER
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: CardBattle.Core.MULTIPLIER
+  commentId: T:CardBattle.Core.MULTIPLIER
+  parent: CardBattle.Core
+  name: MULTIPLIER
+  nameWithType: MULTIPLIER
+  fullName: CardBattle.Core.MULTIPLIER

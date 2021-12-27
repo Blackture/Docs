@@ -1,0 +1,545 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Planets.Biome
+  commentId: T:TheInvaders.Planets.Biome
+  id: Biome
+  parent: TheInvaders.Planets
+  children:
+  - TheInvaders.Planets.Biome.#ctor(TheInvaders.Planets.Biome.TYPE)
+  - TheInvaders.Planets.Biome.count
+  - TheInvaders.Planets.Biome.Item(System.Int32)
+  - TheInvaders.Planets.Biome.Prefab
+  - TheInvaders.Planets.Biome.Type
+  langs:
+  - csharp
+  - vb
+  name: Biome
+  nameWithType: Biome
+  fullName: TheInvaders.Planets.Biome
+  type: Class
+  source:
+    id: Biome
+    path: ''
+    startLine: 1535
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: public class Biome
+    content.vb: Public Class Biome
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: TheInvaders.Planets.Biome.count
+  commentId: F:TheInvaders.Planets.Biome.count
+  id: count
+  parent: TheInvaders.Planets.Biome
+  langs:
+  - csharp
+  - vb
+  name: count
+  nameWithType: Biome.count
+  fullName: TheInvaders.Planets.Biome.count
+  type: Field
+  source:
+    id: count
+    path: ''
+    startLine: 1547
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: public static readonly int count
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly count As Integer
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: TheInvaders.Planets.Biome.Item(System.Int32)
+  commentId: P:TheInvaders.Planets.Biome.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: TheInvaders.Planets.Biome
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: Biome.Item[Int32]
+  fullName: TheInvaders.Planets.Biome.Item[System.Int32]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 1549
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: public Resource this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Resource
+    content.vb: Public ReadOnly Property Item(index As Integer) As Resource
+  overload: TheInvaders.Planets.Biome.Item*
+  nameWithType.vb: Biome.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: TheInvaders.Planets.Biome.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: TheInvaders.Planets.Biome.Prefab
+  commentId: P:TheInvaders.Planets.Biome.Prefab
+  id: Prefab
+  parent: TheInvaders.Planets.Biome
+  langs:
+  - csharp
+  - vb
+  name: Prefab
+  nameWithType: Biome.Prefab
+  fullName: TheInvaders.Planets.Biome.Prefab
+  type: Property
+  source:
+    id: Prefab
+    path: ''
+    startLine: 1559
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: public GameObject Prefab { get; }
+    parameters: []
+    return:
+      type: GameObject
+    content.vb: Public ReadOnly Property Prefab As GameObject
+  overload: TheInvaders.Planets.Biome.Prefab*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TheInvaders.Planets.Biome.Type
+  commentId: P:TheInvaders.Planets.Biome.Type
+  id: Type
+  parent: TheInvaders.Planets.Biome
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Biome.Type
+  fullName: TheInvaders.Planets.Biome.Type
+  type: Property
+  source:
+    id: Type
+    path: ''
+    startLine: 1568
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: public Biome.TYPE Type { get; }
+    parameters: []
+    return:
+      type: TheInvaders.Planets.Biome.TYPE
+    content.vb: Public ReadOnly Property Type As Biome.TYPE
+  overload: TheInvaders.Planets.Biome.Type*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: TheInvaders.Planets.Biome.#ctor(TheInvaders.Planets.Biome.TYPE)
+  commentId: M:TheInvaders.Planets.Biome.#ctor(TheInvaders.Planets.Biome.TYPE)
+  id: '#ctor(TheInvaders.Planets.Biome.TYPE)'
+  parent: TheInvaders.Planets.Biome
+  langs:
+  - csharp
+  - vb
+  name: Biome(Biome.TYPE)
+  nameWithType: Biome.Biome(Biome.TYPE)
+  fullName: TheInvaders.Planets.Biome.Biome(TheInvaders.Planets.Biome.TYPE)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 1575
+  assemblies:
+  - cs.temp.dll
+  namespace: TheInvaders.Planets
+  syntax:
+    content: public Biome(Biome.TYPE _type)
+    parameters:
+    - id: _type
+      type: TheInvaders.Planets.Biome.TYPE
+    content.vb: Public Sub New(_type As Biome.TYPE)
+  overload: TheInvaders.Planets.Biome.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: TheInvaders.Planets
+  commentId: N:TheInvaders.Planets
+  name: TheInvaders.Planets
+  nameWithType: TheInvaders.Planets
+  fullName: TheInvaders.Planets
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: TheInvaders.Planets.Biome.Item*
+  commentId: Overload:TheInvaders.Planets.Biome.Item
+  name: Item
+  nameWithType: Biome.Item
+  fullName: TheInvaders.Planets.Biome.Item
+- uid: Resource
+  commentId: '!:Resource'
+  isExternal: true
+  name: Resource
+  nameWithType: Resource
+  fullName: Resource
+- uid: TheInvaders.Planets.Biome.Prefab*
+  commentId: Overload:TheInvaders.Planets.Biome.Prefab
+  name: Prefab
+  nameWithType: Biome.Prefab
+  fullName: TheInvaders.Planets.Biome.Prefab
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: TheInvaders.Planets.Biome.Type*
+  commentId: Overload:TheInvaders.Planets.Biome.Type
+  name: Type
+  nameWithType: Biome.Type
+  fullName: TheInvaders.Planets.Biome.Type
+- uid: TheInvaders.Planets.Biome.TYPE
+  commentId: T:TheInvaders.Planets.Biome.TYPE
+  parent: TheInvaders.Planets
+  name: Biome.TYPE
+  nameWithType: Biome.TYPE
+  fullName: TheInvaders.Planets.Biome.TYPE
+- uid: TheInvaders.Planets.Biome.#ctor*
+  commentId: Overload:TheInvaders.Planets.Biome.#ctor
+  name: Biome
+  nameWithType: Biome.Biome
+  fullName: TheInvaders.Planets.Biome.Biome

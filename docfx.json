@@ -16,9 +16,28 @@
     {
       "src": [
         {
-          "src": "C:/Users/patri/Desktop/TheInvaders/Assets",
+          "src": "C:/Users/patri/Desktop/Devils-Hunt/Assets",
           "files": [
             "**.cs"
+          ],
+          "exclude": [
+            "TextMesh Pro/**",
+            "Standard Assets/**",
+            "TutorialInfo/**",
+            "EffectExamples/**"
+          ]
+        }
+      ],
+      "dest": "devilsHuntAPI",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "src": "C:/Users/patri/Desktop/Card Battle/Assets",
+          "files": [
+            "Scripts/**.cs"
           ],
           "exclude": [
             "TextMesh Pro/**",
@@ -29,25 +48,27 @@
           ]
         }
       ],
-      "dest": "theInvadersAPI",
+      "dest": "cardBattleAPI",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     },
     {
       "src": [
         {
-          "src": "C:/Users/patri/Desktop/Devils-Hunt/Assets",
+          "src": "C:/Users/patri/Desktop/TheInvaders/Assets",
           "files": [
-            "**.cs"
+            "Scripts/**.cs"
           ],
           "exclude": [
             "TextMesh Pro/**",
             "Standard Assets/**",
-            "TutorialInfo/**"
+            "TutorialInfo/**",
+            "Scripts/Standards/SimpleCameraController.cs",
+            "ParrelSync/**"
           ]
         }
       ],
-      "dest": "devilsHuntAPI",
+      "dest": "tiAPI",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }
@@ -60,8 +81,9 @@
           "toc.yml",
           "*.md",
           "planningToolAPI/**",
-          "theInvadersAPI/**",
           "devilsHuntAPI/**",
+          "cardBattleAPI/**",
+          "tiAPI/**",
           "References/**"
         ]
       }

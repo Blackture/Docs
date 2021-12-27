@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Actions.Derived.Dice
+  commentId: N:CardBattle.Core.Actions.Derived.Dice
+  id: CardBattle.Core.Actions.Derived.Dice
+  children:
+  - CardBattle.Core.Actions.Derived.Dice.ColorDice
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core.Actions.Derived.Dice
+  nameWithType: CardBattle.Core.Actions.Derived.Dice
+  fullName: CardBattle.Core.Actions.Derived.Dice
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice
+  commentId: T:CardBattle.Core.Actions.Derived.Dice.ColorDice
+  name: ColorDice
+  nameWithType: ColorDice
+  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice

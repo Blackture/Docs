@@ -49,7 +49,7 @@ items:
   source:
     id: Game
     path: ''
-    startLine: 1476
+    startLine: 1254
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -57,7 +57,6 @@ items:
     content: 'public class Game : MonoBehaviour'
     content.vb: >-
       Public Class Game
-
           Inherits MonoBehaviour
   inheritance:
   - System.Object
@@ -81,7 +80,7 @@ items:
   source:
     id: playerToggle1
     path: ''
-    startLine: 1479
+    startLine: 1257
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -108,7 +107,7 @@ items:
   source:
     id: playerToggle2
     path: ''
-    startLine: 1480
+    startLine: 1258
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -135,7 +134,7 @@ items:
   source:
     id: playerToggle3
     path: ''
-    startLine: 1481
+    startLine: 1259
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -162,7 +161,7 @@ items:
   source:
     id: playerToggle4
     path: ''
-    startLine: 1482
+    startLine: 1260
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -189,7 +188,7 @@ items:
   source:
     id: name1
     path: ''
-    startLine: 1484
+    startLine: 1262
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -216,7 +215,7 @@ items:
   source:
     id: name2
     path: ''
-    startLine: 1485
+    startLine: 1263
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -243,7 +242,7 @@ items:
   source:
     id: name3
     path: ''
-    startLine: 1486
+    startLine: 1264
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -270,7 +269,7 @@ items:
   source:
     id: name4
     path: ''
-    startLine: 1487
+    startLine: 1265
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -297,7 +296,7 @@ items:
   source:
     id: start
     path: ''
-    startLine: 1489
+    startLine: 1267
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -324,7 +323,7 @@ items:
   source:
     id: data
     path: ''
-    startLine: 1491
+    startLine: 1269
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -351,7 +350,7 @@ items:
   source:
     id: next
     path: ''
-    startLine: 1493
+    startLine: 1271
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -378,7 +377,7 @@ items:
   source:
     id: ExitQuestion
     path: ''
-    startLine: 1495
+    startLine: 1273
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -405,7 +404,7 @@ items:
   source:
     id: fileObject
     path: ''
-    startLine: 1497
+    startLine: 1275
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -432,7 +431,7 @@ items:
   source:
     id: inventory
     path: ''
-    startLine: 1498
+    startLine: 1276
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -459,7 +458,7 @@ items:
   source:
     id: shopObject
     path: ''
-    startLine: 1500
+    startLine: 1278
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -486,7 +485,7 @@ items:
   source:
     id: itemPrefab
     path: ''
-    startLine: 1501
+    startLine: 1279
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -513,7 +512,7 @@ items:
   source:
     id: secondarySkillsObject
     path: ''
-    startLine: 1503
+    startLine: 1281
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -540,7 +539,7 @@ items:
   source:
     id: newTurn
     path: ''
-    startLine: 1505
+    startLine: 1283
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -567,7 +566,7 @@ items:
   source:
     id: messenger
     path: ''
-    startLine: 1507
+    startLine: 1285
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -594,7 +593,7 @@ items:
   source:
     id: scorePrefab
     path: ''
-    startLine: 1509
+    startLine: 1287
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -621,7 +620,7 @@ items:
   source:
     id: loadPrefab
     path: ''
-    startLine: 1510
+    startLine: 1288
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -648,7 +647,7 @@ items:
   source:
     id: savePrefab
     path: ''
-    startLine: 1511
+    startLine: 1289
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -675,7 +674,7 @@ items:
   source:
     id: EndGUI
     path: ''
-    startLine: 1513
+    startLine: 1291
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -702,7 +701,7 @@ items:
   source:
     id: TJGame
     path: ''
-    startLine: 1516
+    startLine: 1294
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -729,7 +728,7 @@ items:
   source:
     id: StartGame
     path: ''
-    startLine: 1557
+    startLine: 1335
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -755,7 +754,7 @@ items:
   source:
     id: StartGame
     path: ''
-    startLine: 1584
+    startLine: 1362
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -786,7 +785,7 @@ items:
   source:
     id: OpenSavePanel
     path: ''
-    startLine: 1611
+    startLine: 1389
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -812,7 +811,7 @@ items:
   source:
     id: OpenLoad
     path: ''
-    startLine: 1630
+    startLine: 1408
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -838,7 +837,7 @@ items:
   source:
     id: Load
     path: ''
-    startLine: 1651
+    startLine: 1429
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -867,7 +866,7 @@ items:
   source:
     id: Save
     path: ''
-    startLine: 1656
+    startLine: 1434
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -896,7 +895,7 @@ items:
   source:
     id: ExitButton
     path: ''
-    startLine: 1678
+    startLine: 1456
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -922,7 +921,7 @@ items:
   source:
     id: Exit
     path: ''
-    startLine: 1686
+    startLine: 1464
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -948,7 +947,7 @@ items:
   source:
     id: ReloadButton
     path: ''
-    startLine: 1691
+    startLine: 1469
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
@@ -974,7 +973,7 @@ items:
   source:
     id: EndGame
     path: ''
-    startLine: 1704
+    startLine: 1482
   assemblies:
   - cs.temp.dll
   namespace: DevilsHunt
