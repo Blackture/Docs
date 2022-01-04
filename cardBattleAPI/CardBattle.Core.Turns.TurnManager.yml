@@ -22,7 +22,7 @@ items:
   source:
     id: TurnManager
     path: ''
-    startLine: 687
+    startLine: 924
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -53,7 +53,7 @@ items:
   source:
     id: financeCards
     path: ''
-    startLine: 689
+    startLine: 926
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -80,7 +80,7 @@ items:
   source:
     id: Init
     path: ''
-    startLine: 691
+    startLine: 928
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -109,7 +109,7 @@ items:
   source:
     id: CurrentPlayer
     path: ''
-    startLine: 744
+    startLine: 981
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -140,7 +140,7 @@ items:
   source:
     id: OpponentPlayer
     path: ''
-    startLine: 746
+    startLine: 983
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -171,7 +171,7 @@ items:
   source:
     id: Bot
     path: ''
-    startLine: 748
+    startLine: 985
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -202,7 +202,7 @@ items:
   source:
     id: FirstTurn
     path: ''
-    startLine: 750
+    startLine: 987
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -230,7 +230,7 @@ items:
   source:
     id: NextTurn
     path: ''
-    startLine: 760
+    startLine: 997
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns

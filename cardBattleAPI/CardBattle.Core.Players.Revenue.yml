@@ -10,6 +10,7 @@ items:
   - CardBattle.Core.Players.Revenue.DoubleMultiplier
   - CardBattle.Core.Players.Revenue.GetRevenue
   - CardBattle.Core.Players.Revenue.influencers
+  - CardBattle.Core.Players.Revenue.Multiplier
   - CardBattle.Core.Players.Revenue.QuadrupleMultiplier
   - CardBattle.Core.Players.Revenue.ResetMultiplier
   - CardBattle.Core.Players.Revenue.ZeroMultiplier
@@ -23,7 +24,7 @@ items:
   source:
     id: Revenue
     path: ''
-    startLine: 535
+    startLine: 770
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -60,7 +61,7 @@ items:
   source:
     id: influencers
     path: ''
-    startLine: 538
+    startLine: 773
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -87,7 +88,7 @@ items:
   source:
     id: additionalIncome
     path: ''
-    startLine: 541
+    startLine: 776
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -100,6 +101,37 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: CardBattle.Core.Players.Revenue.Multiplier
+  commentId: P:CardBattle.Core.Players.Revenue.Multiplier
+  id: Multiplier
+  parent: CardBattle.Core.Players.Revenue
+  langs:
+  - csharp
+  - vb
+  name: Multiplier
+  nameWithType: Revenue.Multiplier
+  fullName: CardBattle.Core.Players.Revenue.Multiplier
+  type: Property
+  source:
+    id: Multiplier
+    path: ''
+    startLine: 778
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public int Multiplier { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Multiplier As Integer
+  overload: CardBattle.Core.Players.Revenue.Multiplier*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: CardBattle.Core.Players.Revenue.#ctor(CardBattle.Core.Players.PlayerStats)
   commentId: M:CardBattle.Core.Players.Revenue.#ctor(CardBattle.Core.Players.PlayerStats)
   id: '#ctor(CardBattle.Core.Players.PlayerStats)'
@@ -114,7 +146,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 543
+    startLine: 780
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -143,7 +175,7 @@ items:
   source:
     id: DoubleMultiplier
     path: ''
-    startLine: 548
+    startLine: 785
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -169,7 +201,7 @@ items:
   source:
     id: QuadrupleMultiplier
     path: ''
-    startLine: 549
+    startLine: 786
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -195,7 +227,7 @@ items:
   source:
     id: ZeroMultiplier
     path: ''
-    startLine: 550
+    startLine: 787
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -221,7 +253,7 @@ items:
   source:
     id: ResetMultiplier
     path: ''
-    startLine: 551
+    startLine: 788
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -247,7 +279,7 @@ items:
   source:
     id: GetRevenue
     path: ''
-    startLine: 565
+    startLine: 802
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -681,6 +713,11 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: CardBattle.Core.Players.Revenue.Multiplier*
+  commentId: Overload:CardBattle.Core.Players.Revenue.Multiplier
+  name: Multiplier
+  nameWithType: Revenue.Multiplier
+  fullName: CardBattle.Core.Players.Revenue.Multiplier
 - uid: CardBattle.Core.Players.Revenue.#ctor*
   commentId: Overload:CardBattle.Core.Players.Revenue.#ctor
   name: Revenue

@@ -6,6 +6,7 @@ items:
   parent: CardBattle.Core.AI
   children:
   - CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
+  - CardBattle.Core.AI.Bot.StartTurn
   langs:
   - csharp
   - vb
@@ -16,7 +17,7 @@ items:
   source:
     id: Bot
     path: ''
-    startLine: 292
+    startLine: 618
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.AI
@@ -47,7 +48,7 @@ items:
   source:
     id: AddComponentTo
     path: ''
-    startLine: 295
+    startLine: 621
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.AI
@@ -66,6 +67,32 @@ items:
   modifiers.vb:
   - Public
   - Shared
+- uid: CardBattle.Core.AI.Bot.StartTurn
+  commentId: M:CardBattle.Core.AI.Bot.StartTurn
+  id: StartTurn
+  parent: CardBattle.Core.AI.Bot
+  langs:
+  - csharp
+  - vb
+  name: StartTurn()
+  nameWithType: Bot.StartTurn()
+  fullName: CardBattle.Core.AI.Bot.StartTurn()
+  type: Method
+  source:
+    id: StartTurn
+    path: ''
+    startLine: 629
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.AI
+  syntax:
+    content: public void StartTurn()
+    content.vb: Public Sub StartTurn
+  overload: CardBattle.Core.AI.Bot.StartTurn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: CardBattle.Core.AI
   commentId: N:CardBattle.Core.AI
@@ -101,3 +128,8 @@ references:
   name: Bot
   nameWithType: Bot
   fullName: CardBattle.Core.AI.Bot
+- uid: CardBattle.Core.AI.Bot.StartTurn*
+  commentId: Overload:CardBattle.Core.AI.Bot.StartTurn
+  name: StartTurn
+  nameWithType: Bot.StartTurn
+  fullName: CardBattle.Core.AI.Bot.StartTurn

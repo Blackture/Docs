@@ -19,7 +19,7 @@ items:
   source:
     id: Action
     path: ''
-    startLine: 96
+    startLine: 185
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions
@@ -29,8 +29,12 @@ items:
   inheritance:
   - System.Object
   derivedClasses:
-  - CardBattle.Core.Actions.Derived.Dice.ColorDice
+  - CardBattle.Core.Actions.Derived.CardStack`1
+  - CardBattle.Core.Actions.Derived.ColorDice
+  - CardBattle.Core.Actions.Derived.Dice
+  - CardBattle.Core.Actions.Derived.DiceBox
   - CardBattle.Core.Actions.Derived.FinanceAction
+  - CardBattle.Core.Actions.Derived.FinanceBox
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -61,7 +65,7 @@ items:
   source:
     id: isOptional
     path: ''
-    startLine: 98
+    startLine: 187
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions
@@ -90,7 +94,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 103
+    startLine: 192
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions
@@ -118,7 +122,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 107
+    startLine: 196
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions
@@ -147,7 +151,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 112
+    startLine: 201
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions

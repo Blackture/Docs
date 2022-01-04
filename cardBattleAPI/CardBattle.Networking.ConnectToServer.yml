@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Networking.ConnectToServer
+  commentId: T:CardBattle.Networking.ConnectToServer
+  id: ConnectToServer
+  parent: CardBattle.Networking
+  children:
+  - CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+  - CardBattle.Networking.ConnectToServer.OnJoinedLobby
+  langs:
+  - csharp
+  - vb
+  name: ConnectToServer
+  nameWithType: ConnectToServer
+  fullName: CardBattle.Networking.ConnectToServer
+  type: Class
+  source:
+    id: ConnectToServer
+    path: ''
+    startLine: 1092
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: 'public class ConnectToServer : MonoBehaviourPunCallbacks'
+    content.vb: >-
+      Public Class ConnectToServer
+          Inherits MonoBehaviourPunCallbacks
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+  commentId: M:CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+  id: OnConnectedToMaster
+  parent: CardBattle.Networking.ConnectToServer
+  langs:
+  - csharp
+  - vb
+  name: OnConnectedToMaster()
+  nameWithType: ConnectToServer.OnConnectedToMaster()
+  fullName: CardBattle.Networking.ConnectToServer.OnConnectedToMaster()
+  type: Method
+  source:
+    id: OnConnectedToMaster
+    path: ''
+    startLine: 1100
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnConnectedToMaster()
+    content.vb: Public Overrides Sub OnConnectedToMaster
+  overload: CardBattle.Networking.ConnectToServer.OnConnectedToMaster*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardBattle.Networking.ConnectToServer.OnJoinedLobby
+  commentId: M:CardBattle.Networking.ConnectToServer.OnJoinedLobby
+  id: OnJoinedLobby
+  parent: CardBattle.Networking.ConnectToServer
+  langs:
+  - csharp
+  - vb
+  name: OnJoinedLobby()
+  nameWithType: ConnectToServer.OnJoinedLobby()
+  fullName: CardBattle.Networking.ConnectToServer.OnJoinedLobby()
+  type: Method
+  source:
+    id: OnJoinedLobby
+    path: ''
+    startLine: 1106
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnJoinedLobby()
+    content.vb: Public Overrides Sub OnJoinedLobby
+  overload: CardBattle.Networking.ConnectToServer.OnJoinedLobby*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CardBattle.Networking
+  commentId: N:CardBattle.Networking
+  name: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+  fullName: CardBattle.Networking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Networking.ConnectToServer.OnConnectedToMaster*
+  commentId: Overload:CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+  name: OnConnectedToMaster
+  nameWithType: ConnectToServer.OnConnectedToMaster
+  fullName: CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+- uid: CardBattle.Networking.ConnectToServer.OnJoinedLobby*
+  commentId: Overload:CardBattle.Networking.ConnectToServer.OnJoinedLobby
+  name: OnJoinedLobby
+  nameWithType: ConnectToServer.OnJoinedLobby
+  fullName: CardBattle.Networking.ConnectToServer.OnJoinedLobby

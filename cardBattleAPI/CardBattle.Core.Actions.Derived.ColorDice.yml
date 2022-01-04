@@ -1,26 +1,26 @@
 ### YamlMime:ManagedReference
 items:
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice
-  commentId: T:CardBattle.Core.Actions.Derived.Dice.ColorDice
+- uid: CardBattle.Core.Actions.Derived.ColorDice
+  commentId: T:CardBattle.Core.Actions.Derived.ColorDice
   id: ColorDice
-  parent: CardBattle.Core.Actions.Derived.Dice
+  parent: CardBattle.Core.Actions.Derived
   children:
-  - CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor
-  - CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
+  - CardBattle.Core.Actions.Derived.ColorDice.#ctor
+  - CardBattle.Core.Actions.Derived.ColorDice.Execute
   langs:
   - csharp
   - vb
   name: ColorDice
   nameWithType: ColorDice
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice
+  fullName: CardBattle.Core.Actions.Derived.ColorDice
   type: Class
   source:
     id: ColorDice
     path: ''
-    startLine: 224
+    startLine: 325
   assemblies:
   - cs.temp.dll
-  namespace: CardBattle.Core.Actions.Derived.Dice
+  namespace: CardBattle.Core.Actions.Derived
   syntax:
     content: 'public class ColorDice : Action'
     content.vb: >-
@@ -44,55 +44,55 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor
-  commentId: M:CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor
+- uid: CardBattle.Core.Actions.Derived.ColorDice.#ctor
+  commentId: M:CardBattle.Core.Actions.Derived.ColorDice.#ctor
   id: '#ctor'
-  parent: CardBattle.Core.Actions.Derived.Dice.ColorDice
+  parent: CardBattle.Core.Actions.Derived.ColorDice
   langs:
   - csharp
   - vb
   name: ColorDice()
   nameWithType: ColorDice.ColorDice()
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice.ColorDice()
+  fullName: CardBattle.Core.Actions.Derived.ColorDice.ColorDice()
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 228
+    startLine: 330
   assemblies:
   - cs.temp.dll
-  namespace: CardBattle.Core.Actions.Derived.Dice
+  namespace: CardBattle.Core.Actions.Derived
   syntax:
     content: public ColorDice()
     content.vb: Public Sub New
-  overload: CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor*
+  overload: CardBattle.Core.Actions.Derived.ColorDice.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
-  commentId: M:CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
+- uid: CardBattle.Core.Actions.Derived.ColorDice.Execute
+  commentId: M:CardBattle.Core.Actions.Derived.ColorDice.Execute
   id: Execute
-  parent: CardBattle.Core.Actions.Derived.Dice.ColorDice
+  parent: CardBattle.Core.Actions.Derived.ColorDice
   langs:
   - csharp
   - vb
   name: Execute()
   nameWithType: ColorDice.Execute()
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute()
+  fullName: CardBattle.Core.Actions.Derived.ColorDice.Execute()
   type: Method
   source:
     id: Execute
     path: ''
-    startLine: 238
+    startLine: 337
   assemblies:
   - cs.temp.dll
-  namespace: CardBattle.Core.Actions.Derived.Dice
+  namespace: CardBattle.Core.Actions.Derived
   syntax:
     content: public override void Execute()
     content.vb: Public Overrides Sub Execute
   overridden: CardBattle.Core.Actions.Action.Execute
-  overload: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute*
+  overload: CardBattle.Core.Actions.Derived.ColorDice.Execute*
   modifiers.csharp:
   - public
   - override
@@ -100,11 +100,11 @@ items:
   - Public
   - Overrides
 references:
-- uid: CardBattle.Core.Actions.Derived.Dice
-  commentId: N:CardBattle.Core.Actions.Derived.Dice
-  name: CardBattle.Core.Actions.Derived.Dice
-  nameWithType: CardBattle.Core.Actions.Derived.Dice
-  fullName: CardBattle.Core.Actions.Derived.Dice
+- uid: CardBattle.Core.Actions.Derived
+  commentId: N:CardBattle.Core.Actions.Derived
+  name: CardBattle.Core.Actions.Derived
+  nameWithType: CardBattle.Core.Actions.Derived
+  fullName: CardBattle.Core.Actions.Derived
 - uid: System.Object
   commentId: T:System.Object
   parent: System
@@ -414,11 +414,11 @@ references:
   name: CardBattle.Core.Actions
   nameWithType: CardBattle.Core.Actions
   fullName: CardBattle.Core.Actions
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor*
-  commentId: Overload:CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor
+- uid: CardBattle.Core.Actions.Derived.ColorDice.#ctor*
+  commentId: Overload:CardBattle.Core.Actions.Derived.ColorDice.#ctor
   name: ColorDice
   nameWithType: ColorDice.ColorDice
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice.ColorDice
+  fullName: CardBattle.Core.Actions.Derived.ColorDice.ColorDice
 - uid: CardBattle.Core.Actions.Action.Execute
   commentId: M:CardBattle.Core.Actions.Action.Execute
   parent: CardBattle.Core.Actions.Action
@@ -447,8 +447,8 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute*
-  commentId: Overload:CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
+- uid: CardBattle.Core.Actions.Derived.ColorDice.Execute*
+  commentId: Overload:CardBattle.Core.Actions.Derived.ColorDice.Execute
   name: Execute
   nameWithType: ColorDice.Execute
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
+  fullName: CardBattle.Core.Actions.Derived.ColorDice.Execute

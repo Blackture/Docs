@@ -1,0 +1,630 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Actions.Derived.Card
+  commentId: T:CardBattle.Core.Actions.Derived.Card
+  id: Card
+  parent: CardBattle.Core.Actions.Derived
+  children:
+  - CardBattle.Core.Actions.Derived.Card.#ctor(System.String,CardBattle.Core.Actions.Action,System.Collections.Generic.List{Material})
+  - CardBattle.Core.Actions.Derived.Card.CardTitle
+  - CardBattle.Core.Actions.Derived.Card.Description
+  - CardBattle.Core.Actions.Derived.Card.Execute
+  - CardBattle.Core.Actions.Derived.Card.Materials
+  langs:
+  - csharp
+  - vb
+  name: Card
+  nameWithType: Card
+  fullName: CardBattle.Core.Actions.Derived.Card
+  type: Class
+  source:
+    id: Card
+    path: ''
+    startLine: 211
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public class Card
+    content.vb: Public Class Card
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Actions.Derived.Card.CardTitle
+  commentId: P:CardBattle.Core.Actions.Derived.Card.CardTitle
+  id: CardTitle
+  parent: CardBattle.Core.Actions.Derived.Card
+  langs:
+  - csharp
+  - vb
+  name: CardTitle
+  nameWithType: Card.CardTitle
+  fullName: CardBattle.Core.Actions.Derived.Card.CardTitle
+  type: Property
+  source:
+    id: CardTitle
+    path: ''
+    startLine: 218
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public string CardTitle { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CardTitle As String
+  overload: CardBattle.Core.Actions.Derived.Card.CardTitle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Actions.Derived.Card.Description
+  commentId: P:CardBattle.Core.Actions.Derived.Card.Description
+  id: Description
+  parent: CardBattle.Core.Actions.Derived.Card
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Card.Description
+  fullName: CardBattle.Core.Actions.Derived.Card.Description
+  type: Property
+  source:
+    id: Description
+    path: ''
+    startLine: 219
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Description As String
+  overload: CardBattle.Core.Actions.Derived.Card.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Actions.Derived.Card.Materials
+  commentId: P:CardBattle.Core.Actions.Derived.Card.Materials
+  id: Materials
+  parent: CardBattle.Core.Actions.Derived.Card
+  langs:
+  - csharp
+  - vb
+  name: Materials
+  nameWithType: Card.Materials
+  fullName: CardBattle.Core.Actions.Derived.Card.Materials
+  type: Property
+  source:
+    id: Materials
+    path: ''
+    startLine: 221
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public List<Material> Materials { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Material}
+    content.vb: Public ReadOnly Property Materials As List(Of Material)
+  overload: CardBattle.Core.Actions.Derived.Card.Materials*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Actions.Derived.Card.#ctor(System.String,CardBattle.Core.Actions.Action,System.Collections.Generic.List{Material})
+  commentId: M:CardBattle.Core.Actions.Derived.Card.#ctor(System.String,CardBattle.Core.Actions.Action,System.Collections.Generic.List{Material})
+  id: '#ctor(System.String,CardBattle.Core.Actions.Action,System.Collections.Generic.List{Material})'
+  parent: CardBattle.Core.Actions.Derived.Card
+  langs:
+  - csharp
+  - vb
+  name: Card(String, Action, List<Material>)
+  nameWithType: Card.Card(String, Action, List<Material>)
+  fullName: CardBattle.Core.Actions.Derived.Card.Card(System.String, CardBattle.Core.Actions.Action, System.Collections.Generic.List<Material>)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 233
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public Card(string cardTitle, Action action, List<Material> materials)
+    parameters:
+    - id: cardTitle
+      type: System.String
+    - id: action
+      type: CardBattle.Core.Actions.Action
+    - id: materials
+      type: System.Collections.Generic.List{Material}
+    content.vb: Public Sub New(cardTitle As String, action As Action, materials As List(Of Material))
+  overload: CardBattle.Core.Actions.Derived.Card.#ctor*
+  nameWithType.vb: Card.Card(String, Action, List(Of Material))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Actions.Derived.Card.Card(System.String, CardBattle.Core.Actions.Action, System.Collections.Generic.List(Of Material))
+  name.vb: Card(String, Action, List(Of Material))
+- uid: CardBattle.Core.Actions.Derived.Card.Execute
+  commentId: M:CardBattle.Core.Actions.Derived.Card.Execute
+  id: Execute
+  parent: CardBattle.Core.Actions.Derived.Card
+  langs:
+  - csharp
+  - vb
+  name: Execute()
+  nameWithType: Card.Execute()
+  fullName: CardBattle.Core.Actions.Derived.Card.Execute()
+  type: Method
+  source:
+    id: Execute
+    path: ''
+    startLine: 240
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public void Execute()
+    content.vb: Public Sub Execute
+  overload: CardBattle.Core.Actions.Derived.Card.Execute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Core.Actions.Derived
+  commentId: N:CardBattle.Core.Actions.Derived
+  name: CardBattle.Core.Actions.Derived
+  nameWithType: CardBattle.Core.Actions.Derived
+  fullName: CardBattle.Core.Actions.Derived
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.Actions.Derived.Card.CardTitle*
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.CardTitle
+  name: CardTitle
+  nameWithType: Card.CardTitle
+  fullName: CardBattle.Core.Actions.Derived.Card.CardTitle
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CardBattle.Core.Actions.Derived.Card.Description*
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.Description
+  name: Description
+  nameWithType: Card.Description
+  fullName: CardBattle.Core.Actions.Derived.Card.Description
+- uid: CardBattle.Core.Actions.Derived.Card.Materials*
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.Materials
+  name: Materials
+  nameWithType: Card.Materials
+  fullName: CardBattle.Core.Actions.Derived.Card.Materials
+- uid: System.Collections.Generic.List{Material}
+  commentId: T:System.Collections.Generic.List{Material}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Material>
+  nameWithType: List<Material>
+  fullName: System.Collections.Generic.List<Material>
+  nameWithType.vb: List(Of Material)
+  fullName.vb: System.Collections.Generic.List(Of Material)
+  name.vb: List(Of Material)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Material
+    name: Material
+    nameWithType: Material
+    fullName: Material
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Material
+    name: Material
+    nameWithType: Material
+    fullName: Material
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CardBattle.Core.Actions.Derived.Card.#ctor*
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.#ctor
+  name: Card
+  nameWithType: Card.Card
+  fullName: CardBattle.Core.Actions.Derived.Card.Card
+- uid: CardBattle.Core.Actions.Action
+  commentId: T:CardBattle.Core.Actions.Action
+  parent: CardBattle.Core.Actions
+  name: Action
+  nameWithType: Action
+  fullName: CardBattle.Core.Actions.Action
+- uid: CardBattle.Core.Actions
+  commentId: N:CardBattle.Core.Actions
+  name: CardBattle.Core.Actions
+  nameWithType: CardBattle.Core.Actions
+  fullName: CardBattle.Core.Actions
+- uid: CardBattle.Core.Actions.Derived.Card.Execute*
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.Execute
+  name: Execute
+  nameWithType: Card.Execute
+  fullName: CardBattle.Core.Actions.Derived.Card.Execute

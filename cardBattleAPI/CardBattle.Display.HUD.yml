@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Display.HUD
+  commentId: T:CardBattle.Display.HUD
+  id: HUD
+  parent: CardBattle.Display
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: HUD
+  nameWithType: HUD
+  fullName: CardBattle.Display.HUD
+  type: Class
+  source:
+    id: HUD
+    path: ''
+    startLine: 1026
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: 'public class HUD : MonoBehaviour'
+    content.vb: >-
+      Public Class HUD
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: CardBattle.Display
+  commentId: N:CardBattle.Display
+  name: CardBattle.Display
+  nameWithType: CardBattle.Display
+  fullName: CardBattle.Display
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Networking
+  commentId: N:CardBattle.Networking
+  id: CardBattle.Networking
+  children:
+  - CardBattle.Networking.ConnectToServer
+  - CardBattle.Networking.Quit
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+  fullName: CardBattle.Networking
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Networking.Quit
+  commentId: T:CardBattle.Networking.Quit
+  name: Quit
+  nameWithType: Quit
+  fullName: CardBattle.Networking.Quit
+- uid: CardBattle.Networking.ConnectToServer
+  commentId: T:CardBattle.Networking.ConnectToServer
+  name: ConnectToServer
+  nameWithType: ConnectToServer
+  fullName: CardBattle.Networking.ConnectToServer

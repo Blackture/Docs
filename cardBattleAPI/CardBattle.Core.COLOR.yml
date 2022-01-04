@@ -19,7 +19,7 @@ items:
   source:
     id: COLOR
     path: ''
-    startLine: 8
+    startLine: 96
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -46,7 +46,7 @@ items:
   source:
     id: WHITE
     path: ''
-    startLine: 10
+    startLine: 98
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -74,7 +74,7 @@ items:
   source:
     id: RED
     path: ''
-    startLine: 11
+    startLine: 99
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -102,7 +102,7 @@ items:
   source:
     id: BLUE
     path: ''
-    startLine: 12
+    startLine: 100
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -130,7 +130,7 @@ items:
   source:
     id: GREEN
     path: ''
-    startLine: 13
+    startLine: 101
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core

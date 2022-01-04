@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "References/toc.html",
-          "hash": "dfK0pQyAcMvVv9u3qcdh8hy66EcfnnZIlsvKuTO8BF4="
+          "hash": "aUVhOrw8pPHWvYbiuXXzbuMerCGB1uJzPnrLVVjF8Ug="
         }
       },
       "is_incremental": false,
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.AI.Bot.html",
-          "hash": "V02Mu2bGMUz6gIH0RwW3Llhta47FH6xVITZb2vvEgsM="
+          "hash": "lnGusOXZpONFDwGjPZvoe8C5tuwY0jINPhXnrpngehk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "nHN4x4plQpIn5Goj2TXDlmgqJVCVJQIVphoRrdlQ0wI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,22 +105,46 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Action.html",
-          "hash": "ssLhTpkH+N7tOQDryeZjaNMfFJL6p3fLk4VJCNX0s90="
+          "hash": "zTF++o2Ge2xQaTCwVvCwGVQm2JbOk8oKo6mBcugi0QI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.ColorDice.yml",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.Card.yml",
       "output": {
         ".html": {
-          "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.ColorDice.html",
-          "hash": "kF6QAStjCKcIzOMF0uRV4/8FUEHc87jcmSqjRq1avas="
+          "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html",
+          "hash": "FTpPzuc/6iXzb/Pf8orHEfjF0DFMTJZ5L8yG3Szjxa0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html",
+          "hash": "8iAbvkM4xxL5RS3mB5OJLQdDm9QKSSGxOLrfyf7mVnM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.ColorDice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.ColorDice.html",
+          "hash": "DPyTJSJTsu2V1gwS4lkmqUGvXhQCGhYEEpdpF6CheGg="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +153,22 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html",
-          "hash": "Tkf7tGrP7RMB/5Rlcz+dCABFRad735e2uRQ1gYebH34="
+          "hash": "Z74phmpMi3ct4iRk51HC83OSelyXF+pjEepHJ5XgbNk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html",
+          "hash": "dnJJ2qK/2qAS5rHAGodWY0+pcJ8oEkxY064xs7CJIwo="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -141,10 +177,22 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html",
-          "hash": "+wMH6opkue/CMvk41+BYx0C9hluNmo1vlpmzOyvYwX8="
+          "hash": "vZwax/6cO0aG6vQKafJmMIkDc35g+QYjTOxEa1f9PBg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.html",
+          "hash": "tXCtvXVbxUC0i+UZ2Ezo4HG6FqobTa8uSU1kMVo44yg="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +201,10 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Actions.Derived.html",
-          "hash": "CsXLilzakykrAiGadSYYChqEYeeVtMeYZkgZItiVamE="
+          "hash": "VIl3PxZ8BM4VFmEkOuUBDrvIqFTwR2Yqd2QQJ0HcrkY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -168,7 +216,7 @@
           "hash": "Tq0SHfdBZpB2HCzN6RlEjrpY6THjlab+bMNPqcAgXVk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -180,43 +228,7 @@
           "hash": "4NhRWDr9svhbYyFJx2yd6sDOGoyZHXvcSFo7cr8ucMQ="
         }
       },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "cardBattleAPI/CardBattle.Core.Cards.Card.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cardBattleAPI/CardBattle.Core.Cards.Card.html",
-          "hash": "EcC9zSB+e3saln3N9yYS1XxEx9dwsvVssYKd/JhNI3M="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "cardBattleAPI/CardBattle.Core.Cards.CardStack-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html",
-          "hash": "K/7QykyHPRCLFrq1xvrOCOJBkKt/BYOXK1Oqe3ndvp0="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "cardBattleAPI/CardBattle.Core.Cards.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cardBattleAPI/CardBattle.Core.Cards.html",
-          "hash": "cnQTBfetjpdjbtJq/D+K0tupjOCzFTBoJt6kWSZCXyM="
-        }
-      },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -228,7 +240,7 @@
           "hash": "Z3wbx0BiZrtqeYPQeEvOIZn8LuWF/lXUAlNeljRAjuE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -240,7 +252,7 @@
           "hash": "iPtC6q6pVXWuW9A6cu1y6NgFnFhqKdngnFIsdEDuypI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -252,7 +264,7 @@
           "hash": "qGSkam83xj+tmcFIuaIJzEvdXay6vZhdXajL6WelWqg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +276,7 @@
           "hash": "f7q0awsU8G/FyENxx5VlDN+aI4EuLC7Tvw53eDfpQKE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -276,7 +288,7 @@
           "hash": "18J7eBINKGtGLC0R+EYBPrWKkJz091VTjCofog1om+Q="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -288,7 +300,7 @@
           "hash": "RYXtasu+BGkYBpMGhZ8Bh/KEaciGT0YnpmmgjYmDc44="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -300,7 +312,7 @@
           "hash": "C+aEMTp5Q+rTRruZ25ELxSIh8ro1OmEywRIm7hipn0U="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -309,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Players.Revenue.html",
-          "hash": "W60dYXZAVOOO/CPg2ArNZ6YZktERq8GwnKAr18QhseE="
+          "hash": "Tn1PkF+eAbzJ5gdtFG0q+QyYzDYAjjcuOYwIyd82aCQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -324,7 +336,7 @@
           "hash": "roOyBPuv4xECQ39SsEDf2pxvF22h3Y12pNZNkmPXfGA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Turns.Turn.html",
-          "hash": "OgIfi0BsqNY3RKYNYMLcCon6ZewA5D8SnGJ/J3kk9iQ="
+          "hash": "euGObWKddGlhyjeLYo8KNROuVettjRkneyPpFh2VdLs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -348,7 +360,7 @@
           "hash": "dv/gURwdAVHY8F+cdBotQn31FGwzDzFeR1vMb4XQJHk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -360,7 +372,7 @@
           "hash": "kIokFTaizClbKOBVPaAoWv3YzRLtvWOwNrDXMQHZgKg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -372,7 +384,79 @@
           "hash": "1n+d+52R4ERhBLWZKl8dHTu0MGs8KkdXN0qWswUebDQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Display.HUD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Display.HUD.html",
+          "hash": "3ENO4mILzB4N6JAjLUyqDLQmspteupeR2WYyM8zOmAs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Display.ReplaceWith.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Display.ReplaceWith.html",
+          "hash": "+a9L61Yr6IafmibUTZMK+33GuHM93QBOAmFGFaXm9P4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Display.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Display.html",
+          "hash": "Io1AqrE+VTTQztt2GM7GcEUP8Fuo26NUXu66t8QdS+I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.ConnectToServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.ConnectToServer.html",
+          "hash": "Y5nTzPYscymhUNzFs5PmK6s8dK6W/HF6ED3p1NmXCQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.Quit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.Quit.html",
+          "hash": "lTf1pafZUUgJwwN3UaNw2aJphGXClFSxbqhL4FzxaZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.html",
+          "hash": "7ku+YAbjmsJoGNo1TQOETaoxDhKUp9FG41mdP5L0JMM="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1534,8 +1618,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 117,
-          "skipped_file_count": 117
+          "total_file_count": 124,
+          "skipped_file_count": 97
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

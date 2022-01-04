@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Networking.Quit
+  commentId: T:CardBattle.Networking.Quit
+  id: Quit
+  parent: CardBattle.Networking
+  children:
+  - CardBattle.Networking.Quit.Exit
+  - CardBattle.Networking.Quit.ExitRoom
+  - CardBattle.Networking.Quit.OnDisconnected(DisconnectCause)
+  - CardBattle.Networking.Quit.OnLeftLobby
+  - CardBattle.Networking.Quit.OnLeftRoom
+  langs:
+  - csharp
+  - vb
+  name: Quit
+  nameWithType: Quit
+  fullName: CardBattle.Networking.Quit
+  type: Class
+  source:
+    id: Quit
+    path: ''
+    startLine: 9
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: 'public class Quit : MonoBehaviourPunCallbacks'
+    content.vb: >-
+      Public Class Quit
+          Inherits MonoBehaviourPunCallbacks
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Networking.Quit.ExitRoom
+  commentId: M:CardBattle.Networking.Quit.ExitRoom
+  id: ExitRoom
+  parent: CardBattle.Networking.Quit
+  langs:
+  - csharp
+  - vb
+  name: ExitRoom()
+  nameWithType: Quit.ExitRoom()
+  fullName: CardBattle.Networking.Quit.ExitRoom()
+  type: Method
+  source:
+    id: ExitRoom
+    path: ''
+    startLine: 14
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void ExitRoom()
+    content.vb: Public Sub ExitRoom
+  overload: CardBattle.Networking.Quit.ExitRoom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.Quit.Exit
+  commentId: M:CardBattle.Networking.Quit.Exit
+  id: Exit
+  parent: CardBattle.Networking.Quit
+  langs:
+  - csharp
+  - vb
+  name: Exit()
+  nameWithType: Quit.Exit()
+  fullName: CardBattle.Networking.Quit.Exit()
+  type: Method
+  source:
+    id: Exit
+    path: ''
+    startLine: 37
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void Exit()
+    content.vb: Public Sub Exit
+  overload: CardBattle.Networking.Quit.Exit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.Quit.OnLeftRoom
+  commentId: M:CardBattle.Networking.Quit.OnLeftRoom
+  id: OnLeftRoom
+  parent: CardBattle.Networking.Quit
+  langs:
+  - csharp
+  - vb
+  name: OnLeftRoom()
+  nameWithType: Quit.OnLeftRoom()
+  fullName: CardBattle.Networking.Quit.OnLeftRoom()
+  type: Method
+  source:
+    id: OnLeftRoom
+    path: ''
+    startLine: 52
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnLeftRoom()
+    content.vb: Public Overrides Sub OnLeftRoom
+  overload: CardBattle.Networking.Quit.OnLeftRoom*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardBattle.Networking.Quit.OnLeftLobby
+  commentId: M:CardBattle.Networking.Quit.OnLeftLobby
+  id: OnLeftLobby
+  parent: CardBattle.Networking.Quit
+  langs:
+  - csharp
+  - vb
+  name: OnLeftLobby()
+  nameWithType: Quit.OnLeftLobby()
+  fullName: CardBattle.Networking.Quit.OnLeftLobby()
+  type: Method
+  source:
+    id: OnLeftLobby
+    path: ''
+    startLine: 58
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnLeftLobby()
+    content.vb: Public Overrides Sub OnLeftLobby
+  overload: CardBattle.Networking.Quit.OnLeftLobby*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardBattle.Networking.Quit.OnDisconnected(DisconnectCause)
+  commentId: M:CardBattle.Networking.Quit.OnDisconnected(DisconnectCause)
+  id: OnDisconnected(DisconnectCause)
+  parent: CardBattle.Networking.Quit
+  langs:
+  - csharp
+  - vb
+  name: OnDisconnected(DisconnectCause)
+  nameWithType: Quit.OnDisconnected(DisconnectCause)
+  fullName: CardBattle.Networking.Quit.OnDisconnected(DisconnectCause)
+  type: Method
+  source:
+    id: OnDisconnected
+    path: ''
+    startLine: 65
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnDisconnected(DisconnectCause cause)
+    parameters:
+    - id: cause
+      type: DisconnectCause
+    content.vb: Public Overrides Sub OnDisconnected(cause As DisconnectCause)
+  overload: CardBattle.Networking.Quit.OnDisconnected*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CardBattle.Networking
+  commentId: N:CardBattle.Networking
+  name: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+  fullName: CardBattle.Networking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Networking.Quit.ExitRoom*
+  commentId: Overload:CardBattle.Networking.Quit.ExitRoom
+  name: ExitRoom
+  nameWithType: Quit.ExitRoom
+  fullName: CardBattle.Networking.Quit.ExitRoom
+- uid: CardBattle.Networking.Quit.Exit*
+  commentId: Overload:CardBattle.Networking.Quit.Exit
+  name: Exit
+  nameWithType: Quit.Exit
+  fullName: CardBattle.Networking.Quit.Exit
+- uid: CardBattle.Networking.Quit.OnLeftRoom*
+  commentId: Overload:CardBattle.Networking.Quit.OnLeftRoom
+  name: OnLeftRoom
+  nameWithType: Quit.OnLeftRoom
+  fullName: CardBattle.Networking.Quit.OnLeftRoom
+- uid: CardBattle.Networking.Quit.OnLeftLobby*
+  commentId: Overload:CardBattle.Networking.Quit.OnLeftLobby
+  name: OnLeftLobby
+  nameWithType: Quit.OnLeftLobby
+  fullName: CardBattle.Networking.Quit.OnLeftLobby
+- uid: CardBattle.Networking.Quit.OnDisconnected*
+  commentId: Overload:CardBattle.Networking.Quit.OnDisconnected
+  name: OnDisconnected
+  nameWithType: Quit.OnDisconnected
+  fullName: CardBattle.Networking.Quit.OnDisconnected
+- uid: DisconnectCause
+  commentId: '!:DisconnectCause'
+  isExternal: true
+  name: DisconnectCause
+  nameWithType: DisconnectCause
+  fullName: DisconnectCause

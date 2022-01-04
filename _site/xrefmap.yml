@@ -63,62 +63,315 @@ references:
   commentId: N:CardBattle.Core.Actions.Derived
   fullName: CardBattle.Core.Actions.Derived
   nameWithType: CardBattle.Core.Actions.Derived
-- uid: CardBattle.Core.Actions.Derived.Dice
-  name: CardBattle.Core.Actions.Derived.Dice
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html
-  commentId: N:CardBattle.Core.Actions.Derived.Dice
-  fullName: CardBattle.Core.Actions.Derived.Dice
-  nameWithType: CardBattle.Core.Actions.Derived.Dice
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice
-  name: ColorDice
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.ColorDice.html
-  commentId: T:CardBattle.Core.Actions.Derived.Dice.ColorDice
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice
-  nameWithType: ColorDice
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor
-  name: ColorDice()
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.ColorDice.html#CardBattle_Core_Actions_Derived_Dice_ColorDice__ctor
-  commentId: M:CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice.ColorDice()
-  nameWithType: ColorDice.ColorDice()
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor*
-  name: ColorDice
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.ColorDice.html#CardBattle_Core_Actions_Derived_Dice_ColorDice__ctor_
-  commentId: Overload:CardBattle.Core.Actions.Derived.Dice.ColorDice.#ctor
+- uid: CardBattle.Core.Actions.Derived.Card
+  name: Card
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html
+  commentId: T:CardBattle.Core.Actions.Derived.Card
+  fullName: CardBattle.Core.Actions.Derived.Card
+  nameWithType: Card
+- uid: CardBattle.Core.Actions.Derived.Card.#ctor(System.String,CardBattle.Core.Actions.Action,System.Collections.Generic.List{Material})
+  name: Card(String, Action, List<Material>)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card__ctor_System_String_CardBattle_Core_Actions_Action_System_Collections_Generic_List_Material__
+  commentId: M:CardBattle.Core.Actions.Derived.Card.#ctor(System.String,CardBattle.Core.Actions.Action,System.Collections.Generic.List{Material})
+  name.vb: Card(String, Action, List(Of Material))
+  fullName: CardBattle.Core.Actions.Derived.Card.Card(System.String, CardBattle.Core.Actions.Action, System.Collections.Generic.List<Material>)
+  fullName.vb: CardBattle.Core.Actions.Derived.Card.Card(System.String, CardBattle.Core.Actions.Action, System.Collections.Generic.List(Of Material))
+  nameWithType: Card.Card(String, Action, List<Material>)
+  nameWithType.vb: Card.Card(String, Action, List(Of Material))
+- uid: CardBattle.Core.Actions.Derived.Card.#ctor*
+  name: Card
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card__ctor_
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.#ctor
   isSpec: "True"
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice.ColorDice
-  nameWithType: ColorDice.ColorDice
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
+  fullName: CardBattle.Core.Actions.Derived.Card.Card
+  nameWithType: Card.Card
+- uid: CardBattle.Core.Actions.Derived.Card.CardTitle
+  name: CardTitle
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card_CardTitle
+  commentId: P:CardBattle.Core.Actions.Derived.Card.CardTitle
+  fullName: CardBattle.Core.Actions.Derived.Card.CardTitle
+  nameWithType: Card.CardTitle
+- uid: CardBattle.Core.Actions.Derived.Card.CardTitle*
+  name: CardTitle
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card_CardTitle_
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.CardTitle
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.Card.CardTitle
+  nameWithType: Card.CardTitle
+- uid: CardBattle.Core.Actions.Derived.Card.Description
+  name: Description
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card_Description
+  commentId: P:CardBattle.Core.Actions.Derived.Card.Description
+  fullName: CardBattle.Core.Actions.Derived.Card.Description
+  nameWithType: Card.Description
+- uid: CardBattle.Core.Actions.Derived.Card.Description*
+  name: Description
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card_Description_
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.Description
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.Card.Description
+  nameWithType: Card.Description
+- uid: CardBattle.Core.Actions.Derived.Card.Execute
   name: Execute()
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.ColorDice.html#CardBattle_Core_Actions_Derived_Dice_ColorDice_Execute
-  commentId: M:CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute()
-  nameWithType: ColorDice.Execute()
-- uid: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute*
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card_Execute
+  commentId: M:CardBattle.Core.Actions.Derived.Card.Execute
+  fullName: CardBattle.Core.Actions.Derived.Card.Execute()
+  nameWithType: Card.Execute()
+- uid: CardBattle.Core.Actions.Derived.Card.Execute*
   name: Execute
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.ColorDice.html#CardBattle_Core_Actions_Derived_Dice_ColorDice_Execute_
-  commentId: Overload:CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card_Execute_
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.Execute
   isSpec: "True"
-  fullName: CardBattle.Core.Actions.Derived.Dice.ColorDice.Execute
+  fullName: CardBattle.Core.Actions.Derived.Card.Execute
+  nameWithType: Card.Execute
+- uid: CardBattle.Core.Actions.Derived.Card.Materials
+  name: Materials
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card_Materials
+  commentId: P:CardBattle.Core.Actions.Derived.Card.Materials
+  fullName: CardBattle.Core.Actions.Derived.Card.Materials
+  nameWithType: Card.Materials
+- uid: CardBattle.Core.Actions.Derived.Card.Materials*
+  name: Materials
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html#CardBattle_Core_Actions_Derived_Card_Materials_
+  commentId: Overload:CardBattle.Core.Actions.Derived.Card.Materials
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.Card.Materials
+  nameWithType: Card.Materials
+- uid: CardBattle.Core.Actions.Derived.CardStack`1
+  name: CardStack<T>
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html
+  commentId: T:CardBattle.Core.Actions.Derived.CardStack`1
+  name.vb: CardStack(Of T)
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T)
+  nameWithType: CardStack<T>
+  nameWithType.vb: CardStack(Of T)
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.#ctor(System.Collections.Generic.List{`0},System.Boolean)
+  name: CardStack(List<T>, Boolean)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1__ctor_System_Collections_Generic_List__0__System_Boolean_
+  commentId: M:CardBattle.Core.Actions.Derived.CardStack`1.#ctor(System.Collections.Generic.List{`0},System.Boolean)
+  name.vb: CardStack(List(Of T), Boolean)
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.CardStack(System.Collections.Generic.List<T>, System.Boolean)
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).CardStack(System.Collections.Generic.List(Of T), System.Boolean)
+  nameWithType: CardStack<T>.CardStack(List<T>, Boolean)
+  nameWithType.vb: CardStack(Of T).CardStack(List(Of T), Boolean)
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.#ctor*
+  name: CardStack
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1__ctor_
+  commentId: Overload:CardBattle.Core.Actions.Derived.CardStack`1.#ctor
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.CardStack
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).CardStack
+  nameWithType: CardStack<T>.CardStack
+  nameWithType.vb: CardStack(Of T).CardStack
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.DrawCard
+  name: DrawCard()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1_DrawCard
+  commentId: M:CardBattle.Core.Actions.Derived.CardStack`1.DrawCard
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.DrawCard()
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).DrawCard()
+  nameWithType: CardStack<T>.DrawCard()
+  nameWithType.vb: CardStack(Of T).DrawCard()
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.DrawCard*
+  name: DrawCard
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1_DrawCard_
+  commentId: Overload:CardBattle.Core.Actions.Derived.CardStack`1.DrawCard
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.DrawCard
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).DrawCard
+  nameWithType: CardStack<T>.DrawCard
+  nameWithType.vb: CardStack(Of T).DrawCard
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.Execute
+  name: Execute()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1_Execute
+  commentId: M:CardBattle.Core.Actions.Derived.CardStack`1.Execute
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.Execute()
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).Execute()
+  nameWithType: CardStack<T>.Execute()
+  nameWithType.vb: CardStack(Of T).Execute()
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.Execute*
+  name: Execute
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1_Execute_
+  commentId: Overload:CardBattle.Core.Actions.Derived.CardStack`1.Execute
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.Execute
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).Execute
+  nameWithType: CardStack<T>.Execute
+  nameWithType.vb: CardStack(Of T).Execute
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.Shuffle
+  name: Shuffle()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1_Shuffle
+  commentId: M:CardBattle.Core.Actions.Derived.CardStack`1.Shuffle
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.Shuffle()
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).Shuffle()
+  nameWithType: CardStack<T>.Shuffle()
+  nameWithType.vb: CardStack(Of T).Shuffle()
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.Shuffle(System.Collections.Generic.List{`0})
+  name: Shuffle(List<T>)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1_Shuffle_System_Collections_Generic_List__0__
+  commentId: M:CardBattle.Core.Actions.Derived.CardStack`1.Shuffle(System.Collections.Generic.List{`0})
+  name.vb: Shuffle(List(Of T))
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.Shuffle(System.Collections.Generic.List<T>)
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).Shuffle(System.Collections.Generic.List(Of T))
+  nameWithType: CardStack<T>.Shuffle(List<T>)
+  nameWithType.vb: CardStack(Of T).Shuffle(List(Of T))
+- uid: CardBattle.Core.Actions.Derived.CardStack`1.Shuffle*
+  name: Shuffle
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html#CardBattle_Core_Actions_Derived_CardStack_1_Shuffle_
+  commentId: Overload:CardBattle.Core.Actions.Derived.CardStack`1.Shuffle
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>.Shuffle
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T).Shuffle
+  nameWithType: CardStack<T>.Shuffle
+  nameWithType.vb: CardStack(Of T).Shuffle
+- uid: CardBattle.Core.Actions.Derived.ColorDice
+  name: ColorDice
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.ColorDice.html
+  commentId: T:CardBattle.Core.Actions.Derived.ColorDice
+  fullName: CardBattle.Core.Actions.Derived.ColorDice
+  nameWithType: ColorDice
+- uid: CardBattle.Core.Actions.Derived.ColorDice.#ctor
+  name: ColorDice()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.ColorDice.html#CardBattle_Core_Actions_Derived_ColorDice__ctor
+  commentId: M:CardBattle.Core.Actions.Derived.ColorDice.#ctor
+  fullName: CardBattle.Core.Actions.Derived.ColorDice.ColorDice()
+  nameWithType: ColorDice.ColorDice()
+- uid: CardBattle.Core.Actions.Derived.ColorDice.#ctor*
+  name: ColorDice
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.ColorDice.html#CardBattle_Core_Actions_Derived_ColorDice__ctor_
+  commentId: Overload:CardBattle.Core.Actions.Derived.ColorDice.#ctor
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.ColorDice.ColorDice
+  nameWithType: ColorDice.ColorDice
+- uid: CardBattle.Core.Actions.Derived.ColorDice.Execute
+  name: Execute()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.ColorDice.html#CardBattle_Core_Actions_Derived_ColorDice_Execute
+  commentId: M:CardBattle.Core.Actions.Derived.ColorDice.Execute
+  fullName: CardBattle.Core.Actions.Derived.ColorDice.Execute()
+  nameWithType: ColorDice.Execute()
+- uid: CardBattle.Core.Actions.Derived.ColorDice.Execute*
+  name: Execute
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.ColorDice.html#CardBattle_Core_Actions_Derived_ColorDice_Execute_
+  commentId: Overload:CardBattle.Core.Actions.Derived.ColorDice.Execute
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.ColorDice.Execute
   nameWithType: ColorDice.Execute
+- uid: CardBattle.Core.Actions.Derived.Dice
+  name: Dice
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html
+  commentId: T:CardBattle.Core.Actions.Derived.Dice
+  fullName: CardBattle.Core.Actions.Derived.Dice
+  nameWithType: Dice
+- uid: CardBattle.Core.Actions.Derived.Dice.#ctor(CardBattle.Core.Actions.Action[],System.Boolean)
+  name: Dice(Action[], Boolean)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice__ctor_CardBattle_Core_Actions_Action___System_Boolean_
+  commentId: M:CardBattle.Core.Actions.Derived.Dice.#ctor(CardBattle.Core.Actions.Action[],System.Boolean)
+  name.vb: Dice(Action(), Boolean)
+  fullName: CardBattle.Core.Actions.Derived.Dice.Dice(CardBattle.Core.Actions.Action[], System.Boolean)
+  fullName.vb: CardBattle.Core.Actions.Derived.Dice.Dice(CardBattle.Core.Actions.Action(), System.Boolean)
+  nameWithType: Dice.Dice(Action[], Boolean)
+  nameWithType.vb: Dice.Dice(Action(), Boolean)
+- uid: CardBattle.Core.Actions.Derived.Dice.#ctor(System.Boolean)
+  name: Dice(Boolean)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice__ctor_System_Boolean_
+  commentId: M:CardBattle.Core.Actions.Derived.Dice.#ctor(System.Boolean)
+  fullName: CardBattle.Core.Actions.Derived.Dice.Dice(System.Boolean)
+  nameWithType: Dice.Dice(Boolean)
+- uid: CardBattle.Core.Actions.Derived.Dice.#ctor*
+  name: Dice
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice__ctor_
+  commentId: Overload:CardBattle.Core.Actions.Derived.Dice.#ctor
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.Dice.Dice
+  nameWithType: Dice.Dice
+- uid: CardBattle.Core.Actions.Derived.Dice.actions
+  name: actions
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice_actions
+  commentId: F:CardBattle.Core.Actions.Derived.Dice.actions
+  fullName: CardBattle.Core.Actions.Derived.Dice.actions
+  nameWithType: Dice.actions
+- uid: CardBattle.Core.Actions.Derived.Dice.Execute
+  name: Execute()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice_Execute
+  commentId: M:CardBattle.Core.Actions.Derived.Dice.Execute
+  fullName: CardBattle.Core.Actions.Derived.Dice.Execute()
+  nameWithType: Dice.Execute()
+- uid: CardBattle.Core.Actions.Derived.Dice.Execute*
+  name: Execute
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice_Execute_
+  commentId: Overload:CardBattle.Core.Actions.Derived.Dice.Execute
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.Dice.Execute
+  nameWithType: Dice.Execute
+- uid: CardBattle.Core.Actions.Derived.Dice.Throw
+  name: Throw()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice_Throw
+  commentId: M:CardBattle.Core.Actions.Derived.Dice.Throw
+  fullName: CardBattle.Core.Actions.Derived.Dice.Throw()
+  nameWithType: Dice.Throw()
+- uid: CardBattle.Core.Actions.Derived.Dice.Throw*
+  name: Throw
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice_Throw_
+  commentId: Overload:CardBattle.Core.Actions.Derived.Dice.Throw
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.Dice.Throw
+  nameWithType: Dice.Throw
+- uid: CardBattle.Core.Actions.Derived.DiceBox
+  name: DiceBox
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html
+  commentId: T:CardBattle.Core.Actions.Derived.DiceBox
+  fullName: CardBattle.Core.Actions.Derived.DiceBox
+  nameWithType: DiceBox
+- uid: CardBattle.Core.Actions.Derived.DiceBox.#ctor(System.Int32,System.Boolean)
+  name: DiceBox(Int32, Boolean)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html#CardBattle_Core_Actions_Derived_DiceBox__ctor_System_Int32_System_Boolean_
+  commentId: M:CardBattle.Core.Actions.Derived.DiceBox.#ctor(System.Int32,System.Boolean)
+  fullName: CardBattle.Core.Actions.Derived.DiceBox.DiceBox(System.Int32, System.Boolean)
+  nameWithType: DiceBox.DiceBox(Int32, Boolean)
+- uid: CardBattle.Core.Actions.Derived.DiceBox.#ctor*
+  name: DiceBox
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html#CardBattle_Core_Actions_Derived_DiceBox__ctor_
+  commentId: Overload:CardBattle.Core.Actions.Derived.DiceBox.#ctor
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.DiceBox.DiceBox
+  nameWithType: DiceBox.DiceBox
+- uid: CardBattle.Core.Actions.Derived.DiceBox.Execute
+  name: Execute()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html#CardBattle_Core_Actions_Derived_DiceBox_Execute
+  commentId: M:CardBattle.Core.Actions.Derived.DiceBox.Execute
+  fullName: CardBattle.Core.Actions.Derived.DiceBox.Execute()
+  nameWithType: DiceBox.Execute()
+- uid: CardBattle.Core.Actions.Derived.DiceBox.Execute*
+  name: Execute
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html#CardBattle_Core_Actions_Derived_DiceBox_Execute_
+  commentId: Overload:CardBattle.Core.Actions.Derived.DiceBox.Execute
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.DiceBox.Execute
+  nameWithType: DiceBox.Execute
+- uid: CardBattle.Core.Actions.Derived.DiceBox.OnThrow
+  name: OnThrow
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html#CardBattle_Core_Actions_Derived_DiceBox_OnThrow
+  commentId: F:CardBattle.Core.Actions.Derived.DiceBox.OnThrow
+  fullName: CardBattle.Core.Actions.Derived.DiceBox.OnThrow
+  nameWithType: DiceBox.OnThrow
 - uid: CardBattle.Core.Actions.Derived.FinanceAction
   name: FinanceAction
   href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html
   commentId: T:CardBattle.Core.Actions.Derived.FinanceAction
   fullName: CardBattle.Core.Actions.Derived.FinanceAction
   nameWithType: FinanceAction
-- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  name: FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction__ctor_Bot_CardBattle_Core_MULTIPLIER_System_Int32_System_Int32_CardBattle_Core_MULTIPLIER_System_Int32_
-  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(Bot, CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32)
-  nameWithType: FinanceAction.FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
-- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  name: FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction__ctor_CardBattle_Core_MULTIPLIER_System_Int32_System_Int32_CardBattle_Core_MULTIPLIER_System_Int32_
-  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32)
-  nameWithType: FinanceAction.FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  name: FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32, Boolean)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction__ctor_Bot_CardBattle_Core_MULTIPLIER_System_Int32_System_Int32_CardBattle_Core_MULTIPLIER_System_Int32_System_Boolean_
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(Bot, CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32, System.Boolean)
+  nameWithType: FinanceAction.FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32, Boolean)
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  name: FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32, Boolean)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction__ctor_CardBattle_Core_MULTIPLIER_System_Int32_System_Int32_CardBattle_Core_MULTIPLIER_System_Int32_System_Boolean_
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32, System.Boolean)
+  nameWithType: FinanceAction.FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32, Boolean)
 - uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor*
   name: FinanceAction
   href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction__ctor_
@@ -126,6 +379,24 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction
   nameWithType: FinanceAction.FinanceAction
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.additionalMoney
+  name: additionalMoney
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_additionalMoney
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.additionalMoney
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.additionalMoney
+  nameWithType: FinanceAction.additionalMoney
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.enemyAdditionalMoney
+  name: enemyAdditionalMoney
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_enemyAdditionalMoney
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.enemyAdditionalMoney
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.enemyAdditionalMoney
+  nameWithType: FinanceAction.enemyAdditionalMoney
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
+  name: enemyMultiplier
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_enemyMultiplier
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
+  nameWithType: FinanceAction.enemyMultiplier
 - uid: CardBattle.Core.Actions.Derived.FinanceAction.Execute
   name: Execute()
   href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_Execute
@@ -139,6 +410,56 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Actions.Derived.FinanceAction.Execute
   nameWithType: FinanceAction.Execute
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.multiplier
+  name: multiplier
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_multiplier
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.multiplier
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.multiplier
+  nameWithType: FinanceAction.multiplier
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.stealMoney
+  name: stealMoney
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_stealMoney
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.stealMoney
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.stealMoney
+  nameWithType: FinanceAction.stealMoney
+- uid: CardBattle.Core.Actions.Derived.FinanceBox
+  name: FinanceBox
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.html
+  commentId: T:CardBattle.Core.Actions.Derived.FinanceBox
+  fullName: CardBattle.Core.Actions.Derived.FinanceBox
+  nameWithType: FinanceBox
+- uid: CardBattle.Core.Actions.Derived.FinanceBox.#ctor(CardBattle.Core.Actions.Derived.FinanceAction,System.Boolean)
+  name: FinanceBox(FinanceAction, Boolean)
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.html#CardBattle_Core_Actions_Derived_FinanceBox__ctor_CardBattle_Core_Actions_Derived_FinanceAction_System_Boolean_
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceBox.#ctor(CardBattle.Core.Actions.Derived.FinanceAction,System.Boolean)
+  fullName: CardBattle.Core.Actions.Derived.FinanceBox.FinanceBox(CardBattle.Core.Actions.Derived.FinanceAction, System.Boolean)
+  nameWithType: FinanceBox.FinanceBox(FinanceAction, Boolean)
+- uid: CardBattle.Core.Actions.Derived.FinanceBox.#ctor*
+  name: FinanceBox
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.html#CardBattle_Core_Actions_Derived_FinanceBox__ctor_
+  commentId: Overload:CardBattle.Core.Actions.Derived.FinanceBox.#ctor
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.FinanceBox.FinanceBox
+  nameWithType: FinanceBox.FinanceBox
+- uid: CardBattle.Core.Actions.Derived.FinanceBox.Execute
+  name: Execute()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.html#CardBattle_Core_Actions_Derived_FinanceBox_Execute
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceBox.Execute
+  fullName: CardBattle.Core.Actions.Derived.FinanceBox.Execute()
+  nameWithType: FinanceBox.Execute()
+- uid: CardBattle.Core.Actions.Derived.FinanceBox.Execute*
+  name: Execute
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.html#CardBattle_Core_Actions_Derived_FinanceBox_Execute_
+  commentId: Overload:CardBattle.Core.Actions.Derived.FinanceBox.Execute
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.FinanceBox.Execute
+  nameWithType: FinanceBox.Execute
+- uid: CardBattle.Core.Actions.Derived.FinanceBox.financeAction
+  name: financeAction
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.html#CardBattle_Core_Actions_Derived_FinanceBox_financeAction
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceBox.financeAction
+  fullName: CardBattle.Core.Actions.Derived.FinanceBox.financeAction
+  nameWithType: FinanceBox.financeAction
 - uid: CardBattle.Core.AI
   name: CardBattle.Core.AI
   href: cardBattleAPI/CardBattle.Core.AI.html
@@ -164,156 +485,19 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.AI.Bot.AddComponentTo
   nameWithType: Bot.AddComponentTo
-- uid: CardBattle.Core.Cards
-  name: CardBattle.Core.Cards
-  href: cardBattleAPI/CardBattle.Core.Cards.html
-  commentId: N:CardBattle.Core.Cards
-  fullName: CardBattle.Core.Cards
-  nameWithType: CardBattle.Core.Cards
-- uid: CardBattle.Core.Cards.Card
-  name: Card
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html
-  commentId: T:CardBattle.Core.Cards.Card
-  fullName: CardBattle.Core.Cards.Card
-  nameWithType: Card
-- uid: CardBattle.Core.Cards.Card.#ctor(System.String,System.Action,System.Collections.Generic.List{Material})
-  name: Card(String, Action, List<Material>)
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card__ctor_System_String_System_Action_System_Collections_Generic_List_Material__
-  commentId: M:CardBattle.Core.Cards.Card.#ctor(System.String,System.Action,System.Collections.Generic.List{Material})
-  name.vb: Card(String, Action, List(Of Material))
-  fullName: CardBattle.Core.Cards.Card.Card(System.String, System.Action, System.Collections.Generic.List<Material>)
-  fullName.vb: CardBattle.Core.Cards.Card.Card(System.String, System.Action, System.Collections.Generic.List(Of Material))
-  nameWithType: Card.Card(String, Action, List<Material>)
-  nameWithType.vb: Card.Card(String, Action, List(Of Material))
-- uid: CardBattle.Core.Cards.Card.#ctor*
-  name: Card
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card__ctor_
-  commentId: Overload:CardBattle.Core.Cards.Card.#ctor
+- uid: CardBattle.Core.AI.Bot.StartTurn
+  name: StartTurn()
+  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_StartTurn
+  commentId: M:CardBattle.Core.AI.Bot.StartTurn
+  fullName: CardBattle.Core.AI.Bot.StartTurn()
+  nameWithType: Bot.StartTurn()
+- uid: CardBattle.Core.AI.Bot.StartTurn*
+  name: StartTurn
+  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_StartTurn_
+  commentId: Overload:CardBattle.Core.AI.Bot.StartTurn
   isSpec: "True"
-  fullName: CardBattle.Core.Cards.Card.Card
-  nameWithType: Card.Card
-- uid: CardBattle.Core.Cards.Card.CardTitle
-  name: CardTitle
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card_CardTitle
-  commentId: P:CardBattle.Core.Cards.Card.CardTitle
-  fullName: CardBattle.Core.Cards.Card.CardTitle
-  nameWithType: Card.CardTitle
-- uid: CardBattle.Core.Cards.Card.CardTitle*
-  name: CardTitle
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card_CardTitle_
-  commentId: Overload:CardBattle.Core.Cards.Card.CardTitle
-  isSpec: "True"
-  fullName: CardBattle.Core.Cards.Card.CardTitle
-  nameWithType: Card.CardTitle
-- uid: CardBattle.Core.Cards.Card.Description
-  name: Description
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card_Description
-  commentId: P:CardBattle.Core.Cards.Card.Description
-  fullName: CardBattle.Core.Cards.Card.Description
-  nameWithType: Card.Description
-- uid: CardBattle.Core.Cards.Card.Description*
-  name: Description
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card_Description_
-  commentId: Overload:CardBattle.Core.Cards.Card.Description
-  isSpec: "True"
-  fullName: CardBattle.Core.Cards.Card.Description
-  nameWithType: Card.Description
-- uid: CardBattle.Core.Cards.Card.Execute
-  name: Execute()
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card_Execute
-  commentId: M:CardBattle.Core.Cards.Card.Execute
-  fullName: CardBattle.Core.Cards.Card.Execute()
-  nameWithType: Card.Execute()
-- uid: CardBattle.Core.Cards.Card.Execute*
-  name: Execute
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card_Execute_
-  commentId: Overload:CardBattle.Core.Cards.Card.Execute
-  isSpec: "True"
-  fullName: CardBattle.Core.Cards.Card.Execute
-  nameWithType: Card.Execute
-- uid: CardBattle.Core.Cards.Card.Materials
-  name: Materials
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card_Materials
-  commentId: P:CardBattle.Core.Cards.Card.Materials
-  fullName: CardBattle.Core.Cards.Card.Materials
-  nameWithType: Card.Materials
-- uid: CardBattle.Core.Cards.Card.Materials*
-  name: Materials
-  href: cardBattleAPI/CardBattle.Core.Cards.Card.html#CardBattle_Core_Cards_Card_Materials_
-  commentId: Overload:CardBattle.Core.Cards.Card.Materials
-  isSpec: "True"
-  fullName: CardBattle.Core.Cards.Card.Materials
-  nameWithType: Card.Materials
-- uid: CardBattle.Core.Cards.CardStack`1
-  name: CardStack<T>
-  href: cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html
-  commentId: T:CardBattle.Core.Cards.CardStack`1
-  name.vb: CardStack(Of T)
-  fullName: CardBattle.Core.Cards.CardStack<T>
-  fullName.vb: CardBattle.Core.Cards.CardStack(Of T)
-  nameWithType: CardStack<T>
-  nameWithType.vb: CardStack(Of T)
-- uid: CardBattle.Core.Cards.CardStack`1.#ctor(System.Collections.Generic.List{`0})
-  name: CardStack(List<T>)
-  href: cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html#CardBattle_Core_Cards_CardStack_1__ctor_System_Collections_Generic_List__0__
-  commentId: M:CardBattle.Core.Cards.CardStack`1.#ctor(System.Collections.Generic.List{`0})
-  name.vb: CardStack(List(Of T))
-  fullName: CardBattle.Core.Cards.CardStack<T>.CardStack(System.Collections.Generic.List<T>)
-  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).CardStack(System.Collections.Generic.List(Of T))
-  nameWithType: CardStack<T>.CardStack(List<T>)
-  nameWithType.vb: CardStack(Of T).CardStack(List(Of T))
-- uid: CardBattle.Core.Cards.CardStack`1.#ctor*
-  name: CardStack
-  href: cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html#CardBattle_Core_Cards_CardStack_1__ctor_
-  commentId: Overload:CardBattle.Core.Cards.CardStack`1.#ctor
-  isSpec: "True"
-  fullName: CardBattle.Core.Cards.CardStack<T>.CardStack
-  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).CardStack
-  nameWithType: CardStack<T>.CardStack
-  nameWithType.vb: CardStack(Of T).CardStack
-- uid: CardBattle.Core.Cards.CardStack`1.DrawCard
-  name: DrawCard()
-  href: cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html#CardBattle_Core_Cards_CardStack_1_DrawCard
-  commentId: M:CardBattle.Core.Cards.CardStack`1.DrawCard
-  fullName: CardBattle.Core.Cards.CardStack<T>.DrawCard()
-  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).DrawCard()
-  nameWithType: CardStack<T>.DrawCard()
-  nameWithType.vb: CardStack(Of T).DrawCard()
-- uid: CardBattle.Core.Cards.CardStack`1.DrawCard*
-  name: DrawCard
-  href: cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html#CardBattle_Core_Cards_CardStack_1_DrawCard_
-  commentId: Overload:CardBattle.Core.Cards.CardStack`1.DrawCard
-  isSpec: "True"
-  fullName: CardBattle.Core.Cards.CardStack<T>.DrawCard
-  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).DrawCard
-  nameWithType: CardStack<T>.DrawCard
-  nameWithType.vb: CardStack(Of T).DrawCard
-- uid: CardBattle.Core.Cards.CardStack`1.Shuffle
-  name: Shuffle()
-  href: cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html#CardBattle_Core_Cards_CardStack_1_Shuffle
-  commentId: M:CardBattle.Core.Cards.CardStack`1.Shuffle
-  fullName: CardBattle.Core.Cards.CardStack<T>.Shuffle()
-  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).Shuffle()
-  nameWithType: CardStack<T>.Shuffle()
-  nameWithType.vb: CardStack(Of T).Shuffle()
-- uid: CardBattle.Core.Cards.CardStack`1.Shuffle(System.Collections.Generic.List{`0})
-  name: Shuffle(List<T>)
-  href: cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html#CardBattle_Core_Cards_CardStack_1_Shuffle_System_Collections_Generic_List__0__
-  commentId: M:CardBattle.Core.Cards.CardStack`1.Shuffle(System.Collections.Generic.List{`0})
-  name.vb: Shuffle(List(Of T))
-  fullName: CardBattle.Core.Cards.CardStack<T>.Shuffle(System.Collections.Generic.List<T>)
-  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).Shuffle(System.Collections.Generic.List(Of T))
-  nameWithType: CardStack<T>.Shuffle(List<T>)
-  nameWithType.vb: CardStack(Of T).Shuffle(List(Of T))
-- uid: CardBattle.Core.Cards.CardStack`1.Shuffle*
-  name: Shuffle
-  href: cardBattleAPI/CardBattle.Core.Cards.CardStack-1.html#CardBattle_Core_Cards_CardStack_1_Shuffle_
-  commentId: Overload:CardBattle.Core.Cards.CardStack`1.Shuffle
-  isSpec: "True"
-  fullName: CardBattle.Core.Cards.CardStack<T>.Shuffle
-  fullName.vb: CardBattle.Core.Cards.CardStack(Of T).Shuffle
-  nameWithType: CardStack<T>.Shuffle
-  nameWithType.vb: CardStack(Of T).Shuffle
+  fullName: CardBattle.Core.AI.Bot.StartTurn
+  nameWithType: Bot.StartTurn
 - uid: CardBattle.Core.COLOR
   name: COLOR
   href: cardBattleAPI/CardBattle.Core.COLOR.html
@@ -797,6 +981,19 @@ references:
   commentId: F:CardBattle.Core.Players.Revenue.influencers
   fullName: CardBattle.Core.Players.Revenue.influencers
   nameWithType: Revenue.influencers
+- uid: CardBattle.Core.Players.Revenue.Multiplier
+  name: Multiplier
+  href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_Multiplier
+  commentId: P:CardBattle.Core.Players.Revenue.Multiplier
+  fullName: CardBattle.Core.Players.Revenue.Multiplier
+  nameWithType: Revenue.Multiplier
+- uid: CardBattle.Core.Players.Revenue.Multiplier*
+  name: Multiplier
+  href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_Multiplier_
+  commentId: Overload:CardBattle.Core.Players.Revenue.Multiplier
+  isSpec: "True"
+  fullName: CardBattle.Core.Players.Revenue.Multiplier
+  nameWithType: Revenue.Multiplier
 - uid: CardBattle.Core.Players.Revenue.QuadrupleMultiplier
   name: QuadrupleMultiplier()
   href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_QuadrupleMultiplier
@@ -970,6 +1167,133 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Turns.TurnManager.OpponentPlayer
   nameWithType: TurnManager.OpponentPlayer
+- uid: CardBattle.Display
+  name: CardBattle.Display
+  href: cardBattleAPI/CardBattle.Display.html
+  commentId: N:CardBattle.Display
+  fullName: CardBattle.Display
+  nameWithType: CardBattle.Display
+- uid: CardBattle.Display.HUD
+  name: HUD
+  href: cardBattleAPI/CardBattle.Display.HUD.html
+  commentId: T:CardBattle.Display.HUD
+  fullName: CardBattle.Display.HUD
+  nameWithType: HUD
+- uid: CardBattle.Display.ReplaceWith
+  name: ReplaceWith
+  href: cardBattleAPI/CardBattle.Display.ReplaceWith.html
+  commentId: T:CardBattle.Display.ReplaceWith
+  fullName: CardBattle.Display.ReplaceWith
+  nameWithType: ReplaceWith
+- uid: CardBattle.Networking
+  name: CardBattle.Networking
+  href: cardBattleAPI/CardBattle.Networking.html
+  commentId: N:CardBattle.Networking
+  fullName: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+- uid: CardBattle.Networking.ConnectToServer
+  name: ConnectToServer
+  href: cardBattleAPI/CardBattle.Networking.ConnectToServer.html
+  commentId: T:CardBattle.Networking.ConnectToServer
+  fullName: CardBattle.Networking.ConnectToServer
+  nameWithType: ConnectToServer
+- uid: CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+  name: OnConnectedToMaster()
+  href: cardBattleAPI/CardBattle.Networking.ConnectToServer.html#CardBattle_Networking_ConnectToServer_OnConnectedToMaster
+  commentId: M:CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+  fullName: CardBattle.Networking.ConnectToServer.OnConnectedToMaster()
+  nameWithType: ConnectToServer.OnConnectedToMaster()
+- uid: CardBattle.Networking.ConnectToServer.OnConnectedToMaster*
+  name: OnConnectedToMaster
+  href: cardBattleAPI/CardBattle.Networking.ConnectToServer.html#CardBattle_Networking_ConnectToServer_OnConnectedToMaster_
+  commentId: Overload:CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+  isSpec: "True"
+  fullName: CardBattle.Networking.ConnectToServer.OnConnectedToMaster
+  nameWithType: ConnectToServer.OnConnectedToMaster
+- uid: CardBattle.Networking.ConnectToServer.OnJoinedLobby
+  name: OnJoinedLobby()
+  href: cardBattleAPI/CardBattle.Networking.ConnectToServer.html#CardBattle_Networking_ConnectToServer_OnJoinedLobby
+  commentId: M:CardBattle.Networking.ConnectToServer.OnJoinedLobby
+  fullName: CardBattle.Networking.ConnectToServer.OnJoinedLobby()
+  nameWithType: ConnectToServer.OnJoinedLobby()
+- uid: CardBattle.Networking.ConnectToServer.OnJoinedLobby*
+  name: OnJoinedLobby
+  href: cardBattleAPI/CardBattle.Networking.ConnectToServer.html#CardBattle_Networking_ConnectToServer_OnJoinedLobby_
+  commentId: Overload:CardBattle.Networking.ConnectToServer.OnJoinedLobby
+  isSpec: "True"
+  fullName: CardBattle.Networking.ConnectToServer.OnJoinedLobby
+  nameWithType: ConnectToServer.OnJoinedLobby
+- uid: CardBattle.Networking.Quit
+  name: Quit
+  href: cardBattleAPI/CardBattle.Networking.Quit.html
+  commentId: T:CardBattle.Networking.Quit
+  fullName: CardBattle.Networking.Quit
+  nameWithType: Quit
+- uid: CardBattle.Networking.Quit.Exit
+  name: Exit()
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_Exit
+  commentId: M:CardBattle.Networking.Quit.Exit
+  fullName: CardBattle.Networking.Quit.Exit()
+  nameWithType: Quit.Exit()
+- uid: CardBattle.Networking.Quit.Exit*
+  name: Exit
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_Exit_
+  commentId: Overload:CardBattle.Networking.Quit.Exit
+  isSpec: "True"
+  fullName: CardBattle.Networking.Quit.Exit
+  nameWithType: Quit.Exit
+- uid: CardBattle.Networking.Quit.ExitRoom
+  name: ExitRoom()
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_ExitRoom
+  commentId: M:CardBattle.Networking.Quit.ExitRoom
+  fullName: CardBattle.Networking.Quit.ExitRoom()
+  nameWithType: Quit.ExitRoom()
+- uid: CardBattle.Networking.Quit.ExitRoom*
+  name: ExitRoom
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_ExitRoom_
+  commentId: Overload:CardBattle.Networking.Quit.ExitRoom
+  isSpec: "True"
+  fullName: CardBattle.Networking.Quit.ExitRoom
+  nameWithType: Quit.ExitRoom
+- uid: CardBattle.Networking.Quit.OnDisconnected(DisconnectCause)
+  name: OnDisconnected(DisconnectCause)
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_OnDisconnected_DisconnectCause_
+  commentId: M:CardBattle.Networking.Quit.OnDisconnected(DisconnectCause)
+  fullName: CardBattle.Networking.Quit.OnDisconnected(DisconnectCause)
+  nameWithType: Quit.OnDisconnected(DisconnectCause)
+- uid: CardBattle.Networking.Quit.OnDisconnected*
+  name: OnDisconnected
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_OnDisconnected_
+  commentId: Overload:CardBattle.Networking.Quit.OnDisconnected
+  isSpec: "True"
+  fullName: CardBattle.Networking.Quit.OnDisconnected
+  nameWithType: Quit.OnDisconnected
+- uid: CardBattle.Networking.Quit.OnLeftLobby
+  name: OnLeftLobby()
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_OnLeftLobby
+  commentId: M:CardBattle.Networking.Quit.OnLeftLobby
+  fullName: CardBattle.Networking.Quit.OnLeftLobby()
+  nameWithType: Quit.OnLeftLobby()
+- uid: CardBattle.Networking.Quit.OnLeftLobby*
+  name: OnLeftLobby
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_OnLeftLobby_
+  commentId: Overload:CardBattle.Networking.Quit.OnLeftLobby
+  isSpec: "True"
+  fullName: CardBattle.Networking.Quit.OnLeftLobby
+  nameWithType: Quit.OnLeftLobby
+- uid: CardBattle.Networking.Quit.OnLeftRoom
+  name: OnLeftRoom()
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_OnLeftRoom
+  commentId: M:CardBattle.Networking.Quit.OnLeftRoom
+  fullName: CardBattle.Networking.Quit.OnLeftRoom()
+  nameWithType: Quit.OnLeftRoom()
+- uid: CardBattle.Networking.Quit.OnLeftRoom*
+  name: OnLeftRoom
+  href: cardBattleAPI/CardBattle.Networking.Quit.html#CardBattle_Networking_Quit_OnLeftRoom_
+  commentId: Overload:CardBattle.Networking.Quit.OnLeftRoom
+  isSpec: "True"
+  fullName: CardBattle.Networking.Quit.OnLeftRoom
+  nameWithType: Quit.OnLeftRoom
 - uid: DevilsHunt
   name: DevilsHunt
   href: devilsHuntAPI/DevilsHunt.html

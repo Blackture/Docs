@@ -4,7 +4,13 @@ items:
   commentId: N:CardBattle.Core.Actions.Derived
   id: CardBattle.Core.Actions.Derived
   children:
+  - CardBattle.Core.Actions.Derived.Card
+  - CardBattle.Core.Actions.Derived.CardStack`1
+  - CardBattle.Core.Actions.Derived.ColorDice
+  - CardBattle.Core.Actions.Derived.Dice
+  - CardBattle.Core.Actions.Derived.DiceBox
   - CardBattle.Core.Actions.Derived.FinanceAction
+  - CardBattle.Core.Actions.Derived.FinanceBox
   langs:
   - csharp
   - vb
@@ -15,8 +21,75 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: CardBattle.Core.Actions.Derived.Card
+  commentId: T:CardBattle.Core.Actions.Derived.Card
+  name: Card
+  nameWithType: Card
+  fullName: CardBattle.Core.Actions.Derived.Card
+- uid: CardBattle.Core.Actions.Derived.CardStack`1
+  commentId: T:CardBattle.Core.Actions.Derived.CardStack`1
+  name: CardStack<T>
+  nameWithType: CardStack<T>
+  fullName: CardBattle.Core.Actions.Derived.CardStack<T>
+  nameWithType.vb: CardStack(Of T)
+  fullName.vb: CardBattle.Core.Actions.Derived.CardStack(Of T)
+  name.vb: CardStack(Of T)
+  spec.csharp:
+  - uid: CardBattle.Core.Actions.Derived.CardStack`1
+    name: CardStack
+    nameWithType: CardStack
+    fullName: CardBattle.Core.Actions.Derived.CardStack
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CardBattle.Core.Actions.Derived.CardStack`1
+    name: CardStack
+    nameWithType: CardStack
+    fullName: CardBattle.Core.Actions.Derived.CardStack
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Core.Actions.Derived.ColorDice
+  commentId: T:CardBattle.Core.Actions.Derived.ColorDice
+  name: ColorDice
+  nameWithType: ColorDice
+  fullName: CardBattle.Core.Actions.Derived.ColorDice
+- uid: CardBattle.Core.Actions.Derived.Dice
+  commentId: T:CardBattle.Core.Actions.Derived.Dice
+  name: Dice
+  nameWithType: Dice
+  fullName: CardBattle.Core.Actions.Derived.Dice
+- uid: CardBattle.Core.Actions.Derived.DiceBox
+  commentId: T:CardBattle.Core.Actions.Derived.DiceBox
+  name: DiceBox
+  nameWithType: DiceBox
+  fullName: CardBattle.Core.Actions.Derived.DiceBox
 - uid: CardBattle.Core.Actions.Derived.FinanceAction
   commentId: T:CardBattle.Core.Actions.Derived.FinanceAction
+  parent: CardBattle.Core.Actions.Derived
   name: FinanceAction
   nameWithType: FinanceAction
   fullName: CardBattle.Core.Actions.Derived.FinanceAction
+- uid: CardBattle.Core.Actions.Derived.FinanceBox
+  commentId: T:CardBattle.Core.Actions.Derived.FinanceBox
+  name: FinanceBox
+  nameWithType: FinanceBox
+  fullName: CardBattle.Core.Actions.Derived.FinanceBox
+- uid: CardBattle.Core.Actions.Derived
+  commentId: N:CardBattle.Core.Actions.Derived
+  name: CardBattle.Core.Actions.Derived
+  nameWithType: CardBattle.Core.Actions.Derived
+  fullName: CardBattle.Core.Actions.Derived

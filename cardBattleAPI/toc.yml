@@ -18,26 +18,26 @@
 - uid: CardBattle.Core.Actions.Derived
   name: CardBattle.Core.Actions.Derived
   items:
+  - uid: CardBattle.Core.Actions.Derived.Card
+    name: Card
+  - uid: CardBattle.Core.Actions.Derived.CardStack`1
+    name: CardStack<T>
+    name.vb: CardStack(Of T)
+  - uid: CardBattle.Core.Actions.Derived.ColorDice
+    name: ColorDice
+  - uid: CardBattle.Core.Actions.Derived.Dice
+    name: Dice
+  - uid: CardBattle.Core.Actions.Derived.DiceBox
+    name: DiceBox
   - uid: CardBattle.Core.Actions.Derived.FinanceAction
     name: FinanceAction
-- uid: CardBattle.Core.Actions.Derived.Dice
-  name: CardBattle.Core.Actions.Derived.Dice
-  items:
-  - uid: CardBattle.Core.Actions.Derived.Dice.ColorDice
-    name: ColorDice
+  - uid: CardBattle.Core.Actions.Derived.FinanceBox
+    name: FinanceBox
 - uid: CardBattle.Core.AI
   name: CardBattle.Core.AI
   items:
   - uid: CardBattle.Core.AI.Bot
     name: Bot
-- uid: CardBattle.Core.Cards
-  name: CardBattle.Core.Cards
-  items:
-  - uid: CardBattle.Core.Cards.Card
-    name: Card
-  - uid: CardBattle.Core.Cards.CardStack`1
-    name: CardStack<T>
-    name.vb: CardStack(Of T)
 - uid: CardBattle.Core.Players
   name: CardBattle.Core.Players
   items:
@@ -58,3 +58,17 @@
     name: Turn
   - uid: CardBattle.Core.Turns.TurnManager
     name: TurnManager
+- uid: CardBattle.Display
+  name: CardBattle.Display
+  items:
+  - uid: CardBattle.Display.HUD
+    name: HUD
+  - uid: CardBattle.Display.ReplaceWith
+    name: ReplaceWith
+- uid: CardBattle.Networking
+  name: CardBattle.Networking
+  items:
+  - uid: CardBattle.Networking.ConnectToServer
+    name: ConnectToServer
+  - uid: CardBattle.Networking.Quit
+    name: Quit

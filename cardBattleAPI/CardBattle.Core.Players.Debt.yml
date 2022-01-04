@@ -24,7 +24,7 @@ items:
   source:
     id: Debt
     path: ''
-    startLine: 399
+    startLine: 637
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -61,7 +61,7 @@ items:
   source:
     id: Amount
     path: ''
-    startLine: 406
+    startLine: 644
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -92,7 +92,7 @@ items:
   source:
     id: Time
     path: ''
-    startLine: 407
+    startLine: 645
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -123,7 +123,7 @@ items:
   source:
     id: Creditor
     path: ''
-    startLine: 408
+    startLine: 646
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -154,7 +154,7 @@ items:
   source:
     id: Debtor
     path: ''
-    startLine: 409
+    startLine: 647
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -185,7 +185,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 411
+    startLine: 649
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -220,7 +220,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 419
+    startLine: 657
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -251,7 +251,7 @@ items:
   source:
     id: UpdateTime
     path: ''
-    startLine: 426
+    startLine: 664
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -277,7 +277,7 @@ items:
   source:
     id: AddDebt
     path: ''
-    startLine: 431
+    startLine: 669
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -306,7 +306,7 @@ items:
   source:
     id: PayDebt
     path: ''
-    startLine: 436
+    startLine: 674
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players

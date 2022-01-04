@@ -22,7 +22,7 @@ items:
   source:
     id: GameManager
     path: ''
-    startLine: 32
+    startLine: 121
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -53,7 +53,7 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 35
+    startLine: 124
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -82,7 +82,7 @@ items:
   source:
     id: turnManager
     path: ''
-    startLine: 36
+    startLine: 125
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -111,7 +111,7 @@ items:
   source:
     id: players
     path: ''
-    startLine: 38
+    startLine: 127
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -138,7 +138,7 @@ items:
   source:
     id: bot
     path: ''
-    startLine: 39
+    startLine: 128
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -165,7 +165,7 @@ items:
   source:
     id: Awake
     path: ''
-    startLine: 41
+    startLine: 130
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -191,7 +191,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 49
+    startLine: 138
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -217,7 +217,7 @@ items:
   source:
     id: InstantiatePlayers
     path: ''
-    startLine: 54
+    startLine: 143
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core

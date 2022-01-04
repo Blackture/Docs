@@ -5,9 +5,14 @@ items:
   id: FinanceAction
   parent: CardBattle.Core.Actions.Derived
   children:
-  - CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  - CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
+  - CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  - CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  - CardBattle.Core.Actions.Derived.FinanceAction.additionalMoney
+  - CardBattle.Core.Actions.Derived.FinanceAction.enemyAdditionalMoney
+  - CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
   - CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  - CardBattle.Core.Actions.Derived.FinanceAction.multiplier
+  - CardBattle.Core.Actions.Derived.FinanceAction.stealMoney
   langs:
   - csharp
   - vb
@@ -18,7 +23,7 @@ items:
   source:
     id: FinanceAction
     path: ''
-    startLine: 124
+    startLine: 463
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -45,28 +50,163 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  id: '#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)'
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.multiplier
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.multiplier
+  id: multiplier
   parent: CardBattle.Core.Actions.Derived.FinanceAction
   langs:
   - csharp
   - vb
-  name: FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
-  nameWithType: FinanceAction.FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
-  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32)
+  name: multiplier
+  nameWithType: FinanceAction.multiplier
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.multiplier
+  type: Field
+  source:
+    id: multiplier
+    path: ''
+    startLine: 465
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public MULTIPLIER multiplier
+    return:
+      type: CardBattle.Core.MULTIPLIER
+    content.vb: Public multiplier As MULTIPLIER
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.additionalMoney
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.additionalMoney
+  id: additionalMoney
+  parent: CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: additionalMoney
+  nameWithType: FinanceAction.additionalMoney
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.additionalMoney
+  type: Field
+  source:
+    id: additionalMoney
+    path: ''
+    startLine: 466
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public int additionalMoney
+    return:
+      type: System.Int32
+    content.vb: Public additionalMoney As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.enemyAdditionalMoney
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.enemyAdditionalMoney
+  id: enemyAdditionalMoney
+  parent: CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: enemyAdditionalMoney
+  nameWithType: FinanceAction.enemyAdditionalMoney
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.enemyAdditionalMoney
+  type: Field
+  source:
+    id: enemyAdditionalMoney
+    path: ''
+    startLine: 467
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public int enemyAdditionalMoney
+    return:
+      type: System.Int32
+    content.vb: Public enemyAdditionalMoney As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.stealMoney
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.stealMoney
+  id: stealMoney
+  parent: CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: stealMoney
+  nameWithType: FinanceAction.stealMoney
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.stealMoney
+  type: Field
+  source:
+    id: stealMoney
+    path: ''
+    startLine: 468
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public int stealMoney
+    return:
+      type: System.Int32
+    content.vb: Public stealMoney As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
+  commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
+  id: enemyMultiplier
+  parent: CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: enemyMultiplier
+  nameWithType: FinanceAction.enemyMultiplier
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
+  type: Field
+  source:
+    id: enemyMultiplier
+    path: ''
+    startLine: 469
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Actions.Derived
+  syntax:
+    content: public MULTIPLIER enemyMultiplier
+    return:
+      type: CardBattle.Core.MULTIPLIER
+    content.vb: Public enemyMultiplier As MULTIPLIER
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  id: '#ctor(CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)'
+  parent: CardBattle.Core.Actions.Derived.FinanceAction
+  langs:
+  - csharp
+  - vb
+  name: FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32, Boolean)
+  nameWithType: FinanceAction.FinanceAction(MULTIPLIER, Int32, Int32, MULTIPLIER, Int32, Boolean)
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32, System.Boolean)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 141
+    startLine: 480
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
-  summary: "\nEnemy as enemy\n"
+  summary: "\nOpponent player as enemy\n"
   example: []
   syntax:
-    content: public FinanceAction(MULTIPLIER multiplier = MULTIPLIER.NONE, int additionalMoney = 0, int stealMoney = 0, MULTIPLIER enemyMultiplier = MULTIPLIER.NONE, int enemyAdditionalMoney = 0)
+    content: public FinanceAction(MULTIPLIER multiplier = MULTIPLIER.NONE, int additionalMoney = 0, int stealMoney = 0, MULTIPLIER enemyMultiplier = MULTIPLIER.NONE, int enemyAdditionalMoney = 0, bool isOptional = false)
     parameters:
     - id: multiplier
       type: CardBattle.Core.MULTIPLIER
@@ -82,34 +222,36 @@ items:
       description: ''
     - id: enemyAdditionalMoney
       type: System.Int32
-    content.vb: Public Sub New(multiplier As MULTIPLIER = MULTIPLIER.NONE, additionalMoney As Integer = 0, stealMoney As Integer = 0, enemyMultiplier As MULTIPLIER = MULTIPLIER.NONE, enemyAdditionalMoney As Integer = 0)
+    - id: isOptional
+      type: System.Boolean
+    content.vb: Public Sub New(multiplier As MULTIPLIER = MULTIPLIER.NONE, additionalMoney As Integer = 0, stealMoney As Integer = 0, enemyMultiplier As MULTIPLIER = MULTIPLIER.NONE, enemyAdditionalMoney As Integer = 0, isOptional As Boolean = False)
   overload: CardBattle.Core.Actions.Derived.FinanceAction.#ctor*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)
-  id: '#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32)'
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)
+  id: '#ctor(Bot,CardBattle.Core.MULTIPLIER,System.Int32,System.Int32,CardBattle.Core.MULTIPLIER,System.Int32,System.Boolean)'
   parent: CardBattle.Core.Actions.Derived.FinanceAction
   langs:
   - csharp
   - vb
-  name: FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
-  nameWithType: FinanceAction.FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32)
-  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(Bot, CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32)
+  name: FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32, Boolean)
+  nameWithType: FinanceAction.FinanceAction(Bot, MULTIPLIER, Int32, Int32, MULTIPLIER, Int32, Boolean)
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction(Bot, CardBattle.Core.MULTIPLIER, System.Int32, System.Int32, CardBattle.Core.MULTIPLIER, System.Int32, System.Boolean)
   type: Constructor
   source:
     id: .ctor
     path: ''
-    startLine: 160
+    startLine: 499
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
   summary: "\nBot as enemy (Bot of the neutral villages)\n"
   example: []
   syntax:
-    content: public FinanceAction(Bot bot, MULTIPLIER multiplier = MULTIPLIER.NONE, int additionalMoney = 0, int stealMoney = 0, MULTIPLIER enemyMultiplier = MULTIPLIER.NONE, int enemyAdditionalMoney = 0)
+    content: public FinanceAction(Bot bot, MULTIPLIER multiplier = MULTIPLIER.NONE, int additionalMoney = 0, int stealMoney = 0, MULTIPLIER enemyMultiplier = MULTIPLIER.NONE, int enemyAdditionalMoney = 0, bool isOptional = false)
     parameters:
     - id: bot
       type: Bot
@@ -128,7 +270,9 @@ items:
       description: ''
     - id: enemyAdditionalMoney
       type: System.Int32
-    content.vb: Public Sub New(bot As Bot, multiplier As MULTIPLIER = MULTIPLIER.NONE, additionalMoney As Integer = 0, stealMoney As Integer = 0, enemyMultiplier As MULTIPLIER = MULTIPLIER.NONE, enemyAdditionalMoney As Integer = 0)
+    - id: isOptional
+      type: System.Boolean
+    content.vb: Public Sub New(bot As Bot, multiplier As MULTIPLIER = MULTIPLIER.NONE, additionalMoney As Integer = 0, stealMoney As Integer = 0, enemyMultiplier As MULTIPLIER = MULTIPLIER.NONE, enemyAdditionalMoney As Integer = 0, isOptional As Boolean = False)
   overload: CardBattle.Core.Actions.Derived.FinanceAction.#ctor*
   modifiers.csharp:
   - public
@@ -148,7 +292,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 171
+    startLine: 510
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -478,17 +622,17 @@ references:
   name: CardBattle.Core.Actions
   nameWithType: CardBattle.Core.Actions
   fullName: CardBattle.Core.Actions
-- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor*
-  commentId: Overload:CardBattle.Core.Actions.Derived.FinanceAction.#ctor
-  name: FinanceAction
-  nameWithType: FinanceAction.FinanceAction
-  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction
 - uid: CardBattle.Core.MULTIPLIER
   commentId: T:CardBattle.Core.MULTIPLIER
   parent: CardBattle.Core
   name: MULTIPLIER
   nameWithType: MULTIPLIER
   fullName: CardBattle.Core.MULTIPLIER
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -496,11 +640,18 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
-- uid: CardBattle.Core
-  commentId: N:CardBattle.Core
-  name: CardBattle.Core
-  nameWithType: CardBattle.Core
-  fullName: CardBattle.Core
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.#ctor*
+  commentId: Overload:CardBattle.Core.Actions.Derived.FinanceAction.#ctor
+  name: FinanceAction
+  nameWithType: FinanceAction.FinanceAction
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
 - uid: Bot
   isExternal: true
   name: Bot

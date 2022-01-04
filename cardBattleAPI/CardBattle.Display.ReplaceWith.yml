@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Display.ReplaceWith
+  commentId: T:CardBattle.Display.ReplaceWith
+  id: ReplaceWith
+  parent: CardBattle.Display
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ReplaceWith
+  nameWithType: ReplaceWith
+  fullName: CardBattle.Display.ReplaceWith
+  type: Class
+  source:
+    id: ReplaceWith
+    path: ''
+    startLine: 1050
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: 'public class ReplaceWith : MonoBehaviour'
+    content.vb: >-
+      Public Class ReplaceWith
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: CardBattle.Display
+  commentId: N:CardBattle.Display
+  name: CardBattle.Display
+  nameWithType: CardBattle.Display
+  fullName: CardBattle.Display
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -18,7 +18,7 @@ items:
   source:
     id: Turn
     path: ''
-    startLine: 658
+    startLine: 894
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -55,14 +55,14 @@ items:
   source:
     id: turnActions
     path: ''
-    startLine: 661
+    startLine: 897
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
   syntax:
     content: public static readonly List<Action> turnActions
     return:
-      type: System.Collections.Generic.List{System.Action}
+      type: System.Collections.Generic.List{Action}
     content.vb: Public Shared ReadOnly turnActions As List(Of Action)
   modifiers.csharp:
   - public
@@ -86,7 +86,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 663
+    startLine: 899
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -115,7 +115,7 @@ items:
   source:
     id: Reset
     path: ''
-    startLine: 668
+    startLine: 905
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -425,15 +425,15 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: System.Collections.Generic.List{System.Action}
-  commentId: T:System.Collections.Generic.List{System.Action}
+- uid: System.Collections.Generic.List{Action}
+  commentId: T:System.Collections.Generic.List{Action}
   parent: System.Collections.Generic
   definition: System.Collections.Generic.List`1
   name: List<Action>
   nameWithType: List<Action>
-  fullName: System.Collections.Generic.List<System.Action>
+  fullName: System.Collections.Generic.List<Action>
   nameWithType.vb: List(Of Action)
-  fullName.vb: System.Collections.Generic.List(Of System.Action)
+  fullName.vb: System.Collections.Generic.List(Of Action)
   name.vb: List(Of Action)
   spec.csharp:
   - uid: System.Collections.Generic.List`1
@@ -444,10 +444,10 @@ references:
   - name: <
     nameWithType: <
     fullName: <
-  - uid: System.Action
+  - uid: Action
     name: Action
     nameWithType: Action
-    fullName: System.Action
+    fullName: Action
     isExternal: true
   - name: '>'
     nameWithType: '>'
@@ -461,10 +461,10 @@ references:
   - name: '(Of '
     nameWithType: '(Of '
     fullName: '(Of '
-  - uid: System.Action
+  - uid: Action
     name: Action
     nameWithType: Action
-    fullName: System.Action
+    fullName: Action
     isExternal: true
   - name: )
     nameWithType: )
