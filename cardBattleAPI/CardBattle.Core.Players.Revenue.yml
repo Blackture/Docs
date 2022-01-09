@@ -24,7 +24,7 @@ items:
   source:
     id: Revenue
     path: ''
-    startLine: 770
+    startLine: 769
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -61,7 +61,7 @@ items:
   source:
     id: influencers
     path: ''
-    startLine: 773
+    startLine: 772
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -88,7 +88,7 @@ items:
   source:
     id: additionalIncome
     path: ''
-    startLine: 776
+    startLine: 775
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -115,7 +115,7 @@ items:
   source:
     id: Multiplier
     path: ''
-    startLine: 778
+    startLine: 777
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -146,7 +146,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 780
+    startLine: 779
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -175,7 +175,7 @@ items:
   source:
     id: DoubleMultiplier
     path: ''
-    startLine: 785
+    startLine: 784
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -201,7 +201,7 @@ items:
   source:
     id: QuadrupleMultiplier
     path: ''
-    startLine: 786
+    startLine: 785
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -227,7 +227,7 @@ items:
   source:
     id: ZeroMultiplier
     path: ''
-    startLine: 787
+    startLine: 786
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -253,7 +253,7 @@ items:
   source:
     id: ResetMultiplier
     path: ''
-    startLine: 788
+    startLine: 787
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -279,7 +279,7 @@ items:
   source:
     id: GetRevenue
     path: ''
-    startLine: 802
+    startLine: 801
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players

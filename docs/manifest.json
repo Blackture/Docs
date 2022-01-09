@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "References/toc.html",
-          "hash": "aUVhOrw8pPHWvYbiuXXzbuMerCGB1uJzPnrLVVjF8Ug="
+          "hash": "egGbfs+JddsKubO3RSDnuyuC5LoPjUSZDcg4nD2T8ms="
         }
       },
       "is_incremental": false,
@@ -276,7 +276,7 @@
           "hash": "f7q0awsU8G/FyENxx5VlDN+aI4EuLC7Tvw53eDfpQKE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -300,7 +300,7 @@
           "hash": "RYXtasu+BGkYBpMGhZ8Bh/KEaciGT0YnpmmgjYmDc44="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -312,7 +312,7 @@
           "hash": "C+aEMTp5Q+rTRruZ25ELxSIh8ro1OmEywRIm7hipn0U="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -324,7 +324,7 @@
           "hash": "Tn1PkF+eAbzJ5gdtFG0q+QyYzDYAjjcuOYwIyd82aCQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -336,7 +336,7 @@
           "hash": "roOyBPuv4xECQ39SsEDf2pxvF22h3Y12pNZNkmPXfGA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -348,7 +348,7 @@
           "hash": "euGObWKddGlhyjeLYo8KNROuVettjRkneyPpFh2VdLs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -360,7 +360,7 @@
           "hash": "dv/gURwdAVHY8F+cdBotQn31FGwzDzFeR1vMb4XQJHk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -372,7 +372,7 @@
           "hash": "kIokFTaizClbKOBVPaAoWv3YzRLtvWOwNrDXMQHZgKg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -396,7 +396,7 @@
           "hash": "3ENO4mILzB4N6JAjLUyqDLQmspteupeR2WYyM8zOmAs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -408,7 +408,7 @@
           "hash": "+a9L61Yr6IafmibUTZMK+33GuHM93QBOAmFGFaXm9P4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -420,7 +420,7 @@
           "hash": "Io1AqrE+VTTQztt2GM7GcEUP8Fuo26NUXu66t8QdS+I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -432,7 +432,31 @@
           "hash": "Y5nTzPYscymhUNzFs5PmK6s8dK6W/HF6ED3p1NmXCQk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.CreateAndJoinRooms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.CreateAndJoinRooms.html",
+          "hash": "6Kl+vBFIfgQzZMdNdFbLJYteSLrBORngXM+ruEGQoi0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.LevelChanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.LevelChanger.html",
+          "hash": "PbnHLfmrn7EJczz0LBJJv3HmmTuIEwMnB/fzJFhOkVk="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -444,7 +468,19 @@
           "hash": "lTf1pafZUUgJwwN3UaNw2aJphGXClFSxbqhL4FzxaZc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.SpawnPlayers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.SpawnPlayers.html",
+          "hash": "80GrID/6GZ1W5AwtAuSIqn3lOd4NkGvffXOlQlXAG4I="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -453,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Networking.html",
-          "hash": "7ku+YAbjmsJoGNo1TQOETaoxDhKUp9FG41mdP5L0JMM="
+          "hash": "SOaEywza49HMVVaqpdJ9F+BMsiH6sRWFA4ip/ksEqOc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1618,8 +1654,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 124,
-          "skipped_file_count": 124
+          "total_file_count": 127,
+          "skipped_file_count": 115
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

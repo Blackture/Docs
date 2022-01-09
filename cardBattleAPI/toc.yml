@@ -70,5 +70,11 @@
   items:
   - uid: CardBattle.Networking.ConnectToServer
     name: ConnectToServer
+  - uid: CardBattle.Networking.CreateAndJoinRooms
+    name: CreateAndJoinRooms
+  - uid: CardBattle.Networking.LevelChanger
+    name: LevelChanger
   - uid: CardBattle.Networking.Quit
     name: Quit
+  - uid: CardBattle.Networking.SpawnPlayers
+    name: SpawnPlayers

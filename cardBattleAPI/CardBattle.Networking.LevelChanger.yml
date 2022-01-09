@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Networking.LevelChanger
+  commentId: T:CardBattle.Networking.LevelChanger
+  id: LevelChanger
+  parent: CardBattle.Networking
+  children:
+  - CardBattle.Networking.LevelChanger.anim
+  - CardBattle.Networking.LevelChanger.FadeToLevel(System.String)
+  - CardBattle.Networking.LevelChanger.OnFadeComplete
+  - CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork
+  langs:
+  - csharp
+  - vb
+  name: LevelChanger
+  nameWithType: LevelChanger
+  fullName: CardBattle.Networking.LevelChanger
+  type: Class
+  source:
+    id: LevelChanger
+    path: ''
+    startLine: 1282
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: 'public class LevelChanger : MonoBehaviour'
+    content.vb: >-
+      Public Class LevelChanger
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Networking.LevelChanger.anim
+  commentId: F:CardBattle.Networking.LevelChanger.anim
+  id: anim
+  parent: CardBattle.Networking.LevelChanger
+  langs:
+  - csharp
+  - vb
+  name: anim
+  nameWithType: LevelChanger.anim
+  fullName: CardBattle.Networking.LevelChanger.anim
+  type: Field
+  source:
+    id: anim
+    path: ''
+    startLine: 1284
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public Animator anim
+    return:
+      type: Animator
+    content.vb: Public anim As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.LevelChanger.FadeToLevel(System.String)
+  commentId: M:CardBattle.Networking.LevelChanger.FadeToLevel(System.String)
+  id: FadeToLevel(System.String)
+  parent: CardBattle.Networking.LevelChanger
+  langs:
+  - csharp
+  - vb
+  name: FadeToLevel(String)
+  nameWithType: LevelChanger.FadeToLevel(String)
+  fullName: CardBattle.Networking.LevelChanger.FadeToLevel(System.String)
+  type: Method
+  source:
+    id: FadeToLevel
+    path: ''
+    startLine: 1288
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void FadeToLevel(string levelName)
+    parameters:
+    - id: levelName
+      type: System.String
+    content.vb: Public Sub FadeToLevel(levelName As String)
+  overload: CardBattle.Networking.LevelChanger.FadeToLevel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.LevelChanger.OnFadeComplete
+  commentId: M:CardBattle.Networking.LevelChanger.OnFadeComplete
+  id: OnFadeComplete
+  parent: CardBattle.Networking.LevelChanger
+  langs:
+  - csharp
+  - vb
+  name: OnFadeComplete()
+  nameWithType: LevelChanger.OnFadeComplete()
+  fullName: CardBattle.Networking.LevelChanger.OnFadeComplete()
+  type: Method
+  source:
+    id: OnFadeComplete
+    path: ''
+    startLine: 1294
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void OnFadeComplete()
+    content.vb: Public Sub OnFadeComplete
+  overload: CardBattle.Networking.LevelChanger.OnFadeComplete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork
+  commentId: M:CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork
+  id: OnFadeCompleteNetwork
+  parent: CardBattle.Networking.LevelChanger
+  langs:
+  - csharp
+  - vb
+  name: OnFadeCompleteNetwork()
+  nameWithType: LevelChanger.OnFadeCompleteNetwork()
+  fullName: CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork()
+  type: Method
+  source:
+    id: OnFadeCompleteNetwork
+    path: ''
+    startLine: 1299
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void OnFadeCompleteNetwork()
+    content.vb: Public Sub OnFadeCompleteNetwork
+  overload: CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Networking
+  commentId: N:CardBattle.Networking
+  name: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+  fullName: CardBattle.Networking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Animator
+  commentId: '!:Animator'
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: CardBattle.Networking.LevelChanger.FadeToLevel*
+  commentId: Overload:CardBattle.Networking.LevelChanger.FadeToLevel
+  name: FadeToLevel
+  nameWithType: LevelChanger.FadeToLevel
+  fullName: CardBattle.Networking.LevelChanger.FadeToLevel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CardBattle.Networking.LevelChanger.OnFadeComplete*
+  commentId: Overload:CardBattle.Networking.LevelChanger.OnFadeComplete
+  name: OnFadeComplete
+  nameWithType: LevelChanger.OnFadeComplete
+  fullName: CardBattle.Networking.LevelChanger.OnFadeComplete
+- uid: CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork*
+  commentId: Overload:CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork
+  name: OnFadeCompleteNetwork
+  nameWithType: LevelChanger.OnFadeCompleteNetwork
+  fullName: CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork

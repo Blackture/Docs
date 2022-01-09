@@ -17,7 +17,7 @@ items:
   source:
     id: ConnectToServer
     path: ''
-    startLine: 1092
+    startLine: 1091
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -48,7 +48,7 @@ items:
   source:
     id: OnConnectedToMaster
     path: ''
-    startLine: 1100
+    startLine: 1099
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -76,7 +76,7 @@ items:
   source:
     id: OnJoinedLobby
     path: ''
-    startLine: 1106
+    startLine: 1105
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking

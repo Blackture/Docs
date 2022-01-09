@@ -15,7 +15,7 @@ items:
   source:
     id: HUD
     path: ''
-    startLine: 1026
+    startLine: 1025
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Display

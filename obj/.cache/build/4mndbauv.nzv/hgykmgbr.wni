@@ -1,0 +1,551 @@
+
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>Articles</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="../articles/intro.html" name="" title="Introduction">Introduction</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>The Invaders</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="../articles/theInvaders/get_started.html" name="" title="Get Started">Get Started</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Planning Tool</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="../articles/planningTool/get_started.html" name="" title="Get Started">Get Started</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Devils Hunt</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="../articles/devilsHunt/get_started.html" name="" title="Get Started">Get Started</a>
+                                    </li>
+                              </ul>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a>References</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>The Invaders API</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../tiAPI/TheInvaders.html" name="" title="TheInvaders">TheInvaders</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.AgentLinkMover.html" name="" title="AgentLinkMover">AgentLinkMover</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Character.html" name="" title="Character">Character</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.ControlMapping.html" name="" title="ControlMapping">ControlMapping</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.ControlMapping.UNIT_MODE.html" name="" title="ControlMapping.UNIT_MODE">ControlMapping.UNIT_MODE</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.GameUUIDManager.html" name="" title="GameUUIDManager">GameUUIDManager</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.LoginData.html" name="" title="LoginData">LoginData</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.OffMeshLinkMoveMethod.html" name="" title="OffMeshLinkMoveMethod">OffMeshLinkMoveMethod</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Player.html" name="" title="Player">Player</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Storage-1.html" name="" title="Storage&lt;T&gt;">Storage&lt;T&gt;</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Trader.html" name="" title="Trader">Trader</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.UserData.html" name="" title="UserData">UserData</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../tiAPI/TheInvaders.Battlefield.html" name="" title="TheInvaders.Battlefield">TheInvaders.Battlefield</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Battlefield.AICharacterControl.html" name="" title="AICharacterControl">AICharacterControl</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Battlefield.PlayerController.html" name="" title="PlayerController">PlayerController</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Battlefield.UnitController.html" name="" title="UnitController">UnitController</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../tiAPI/TheInvaders.Inventories.html" name="" title="TheInvaders.Inventories">TheInvaders.Inventories</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Inventories.IItem.html" name="" title="IItem">IItem</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Inventories.InventoryDisplay.html" name="" title="InventoryDisplay">InventoryDisplay</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Inventories.Item.html" name="" title="Item">Item</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Inventories.ItemDisplay.html" name="" title="ItemDisplay">ItemDisplay</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Inventories.Resource.html" name="" title="Resource">Resource</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Inventories.Resource.TYPE.html" name="" title="Resource.TYPE">Resource.TYPE</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Inventories.ResourcePool.html" name="" title="ResourcePool">ResourcePool</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../tiAPI/TheInvaders.Planets.html" name="" title="TheInvaders.Planets">TheInvaders.Planets</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Biome.html" name="" title="Biome">Biome</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Biome.TYPE.html" name="" title="Biome.TYPE">Biome.TYPE</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.HexagonalField.html" name="" title="HexagonalField">HexagonalField</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Planet.html" name="" title="Planet">Planet</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.PlanetControls.html" name="" title="PlanetControls">PlanetControls</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../tiAPI/TheInvaders.Planets.Structures.html" name="" title="TheInvaders.Planets.Structures">TheInvaders.Planets.Structures</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.Ruin.html" name="" title="Ruin">Ruin</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.Structure.html" name="" title="Structure">Structure</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.Structure.TYPE.html" name="" title="Structure.TYPE">Structure.TYPE</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.html" name="" title="TheInvaders.Planets.Structures.InhabitedStructures">TheInvaders.Planets.Structures.InhabitedStructures</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Farm.html" name="" title="Farm">Farm</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure-1.html" name="" title="IInhabitedStructure&lt;T&gt;">IInhabitedStructure&lt;T&gt;</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure-1.html" name="" title="InhabitedStructure&lt;T&gt;">InhabitedStructure&lt;T&gt;</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure-1.TYPE.html" name="" title="InhabitedStructure&lt;T&gt;.TYPE">InhabitedStructure&lt;T&gt;.TYPE</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Town.html" name="" title="Town">Town</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Village.html" name="" title="Village">Village</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../tiAPI/TheInvaders.Planets.Structures.Outposts.html" name="" title="TheInvaders.Planets.Structures.Outposts">TheInvaders.Planets.Structures.Outposts</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.Outposts.IOutpost-1.html" name="" title="IOutpost&lt;T&gt;">IOutpost&lt;T&gt;</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.Outposts.MilitaryOutpost.html" name="" title="MilitaryOutpost">MilitaryOutpost</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.Outposts.Outpost-1.html" name="" title="Outpost&lt;T&gt;">Outpost&lt;T&gt;</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.Outposts.Outpost-1.TYPE.html" name="" title="Outpost&lt;T&gt;.TYPE">Outpost&lt;T&gt;.TYPE</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../tiAPI/TheInvaders.Planets.Structures.Outposts.ScientificOutpost.html" name="" title="ScientificOutpost">ScientificOutpost</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Planning Tool</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../planningToolAPI/PlanningTool.html" name="" title="PlanningTool">PlanningTool</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Form1.html" name="" title="Form1">Form1</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Form1.TYPE.html" name="" title="Form1.TYPE">Form1.TYPE</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Saver-1.html" name="" title="Saver&lt;T&gt;">Saver&lt;T&gt;</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../planningToolAPI/PlanningTool.Licenses.html" name="" title="PlanningTool.Licenses">PlanningTool.Licenses</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Licenses.AddLicense.html" name="" title="AddLicense">AddLicense</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Licenses.EditLicense.html" name="" title="EditLicense">EditLicense</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Licenses.License.html" name="" title="License">License</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Licenses.Login.html" name="" title="Login">Login</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Licenses.Project.html" name="" title="Project">Project</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Licenses.RemoveLicense.html" name="" title="RemoveLicense">RemoveLicense</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Licenses.User.html" name="" title="User">User</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../planningToolAPI/PlanningTool.Storage.html" name="" title="PlanningTool.Storage">PlanningTool.Storage</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.AddFilm.html" name="" title="AddFilm">AddFilm</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.AddGenre.html" name="" title="AddGenre">AddGenre</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.EditByID.html" name="" title="EditByID">EditByID</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.Film.html" name="" title="Film">Film</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.Film.F_GENRE.html" name="" title="Film.F_GENRE">Film.F_GENRE</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.RemFilm.html" name="" title="RemFilm">RemFilm</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.RemGenre.html" name="" title="RemGenre">RemGenre</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.Storage.html" name="" title="Storage">Storage</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../planningToolAPI/PlanningTool.Storage.StorageItem.html" name="" title="StorageItem">StorageItem</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Devils Hunt API</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../devilsHuntAPI/DevilsHunt.html" name="" title="DevilsHunt">DevilsHunt</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.CardDeck.html" name="" title="CardDeck">CardDeck</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.CardDeck.DevilDeckType.html" name="" title="CardDeck.DevilDeckType">CardDeck.DevilDeckType</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Devil.html" name="" title="Devil">Devil</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Effect.html" name="" title="Effect">Effect</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.ExclamationMarks.html" name="" title="ExclamationMarks">ExclamationMarks</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.FieldSelection.html" name="" title="FieldSelection">FieldSelection</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Game.html" name="" title="Game">Game</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.IKill.html" name="" title="IKill">IKill</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.IKill.KillTypes.html" name="" title="IKill.KillTypes">IKill.KillTypes</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Inventory.html" name="" title="Inventory">Inventory</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Item.html" name="" title="Item">Item</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Kill.html" name="" title="Kill">Kill</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Message.html" name="" title="Message">Message</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Message.MessageType.html" name="" title="Message.MessageType">Message.MessageType</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.PhotoCard.html" name="" title="PhotoCard">PhotoCard</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Player.html" name="" title="Player">Player</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Score.html" name="" title="Score">Score</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Shop.html" name="" title="Shop">Shop</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.Skill.html" name="" title="Skill">Skill</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.SkillTree.html" name="" title="SkillTree">SkillTree</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.SkillTreePanel.html" name="" title="SkillTreePanel">SkillTreePanel</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../devilsHuntAPI/DevilsHunt.TJGame.html" name="" title="TJGame">TJGame</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a>Card Battle API</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../cardBattleAPI/CardBattle.Core.html" name="" title="CardBattle.Core">CardBattle.Core</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.COLOR.html" name="" title="COLOR">COLOR</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.GameController.html" name="" title="GameController">GameController</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.GameManager.html" name="" title="GameManager">GameManager</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.MULTIPLIER.html" name="" title="MULTIPLIER">MULTIPLIER</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../cardBattleAPI/CardBattle.Core.Actions.html" name="" title="CardBattle.Core.Actions">CardBattle.Core.Actions</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Actions.Action.html" name="" title="Action">Action</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../cardBattleAPI/CardBattle.Core.Actions.Derived.html" name="" title="CardBattle.Core.Actions.Derived">CardBattle.Core.Actions.Derived</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Actions.Derived.Card.html" name="" title="Card">Card</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Actions.Derived.CardStack-1.html" name="" title="CardStack&lt;T&gt;">CardStack&lt;T&gt;</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Actions.Derived.ColorDice.html" name="" title="ColorDice">ColorDice</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html" name="" title="Dice">Dice</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html" name="" title="DiceBox">DiceBox</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html" name="" title="FinanceAction">FinanceAction</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceBox.html" name="" title="FinanceBox">FinanceBox</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../cardBattleAPI/CardBattle.Core.AI.html" name="" title="CardBattle.Core.AI">CardBattle.Core.AI</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.AI.Bot.html" name="" title="Bot">Bot</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../cardBattleAPI/CardBattle.Core.Players.html" name="" title="CardBattle.Core.Players">CardBattle.Core.Players</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Players.Debt.html" name="" title="Debt">Debt</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Players.IPlayerStats.html" name="" title="IPlayerStats">IPlayerStats</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Players.Player.html" name="" title="Player">Player</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Players.PlayerStats.html" name="" title="PlayerStats">PlayerStats</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Players.Revenue.html" name="" title="Revenue">Revenue</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../cardBattleAPI/CardBattle.Core.Turns.html" name="" title="CardBattle.Core.Turns">CardBattle.Core.Turns</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Turns.Turn.html" name="" title="Turn">Turn</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Core.Turns.TurnManager.html" name="" title="TurnManager">TurnManager</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../cardBattleAPI/CardBattle.Display.html" name="" title="CardBattle.Display">CardBattle.Display</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Display.HUD.html" name="" title="HUD">HUD</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Display.ReplaceWith.html" name="" title="ReplaceWith">ReplaceWith</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="../cardBattleAPI/CardBattle.Networking.html" name="" title="CardBattle.Networking">CardBattle.Networking</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Networking.ConnectToServer.html" name="" title="ConnectToServer">ConnectToServer</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Networking.CreateAndJoinRooms.html" name="" title="CreateAndJoinRooms">CreateAndJoinRooms</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Networking.LevelChanger.html" name="" title="LevelChanger">LevelChanger</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Networking.Quit.html" name="" title="Quit">Quit</a>
+                                              </li>
+                                              <li>
+                                                  <a href="../cardBattleAPI/CardBattle.Networking.SpawnPlayers.html" name="" title="SpawnPlayers">SpawnPlayers</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                              </ul>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

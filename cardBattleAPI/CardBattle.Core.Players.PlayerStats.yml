@@ -21,7 +21,7 @@ items:
   source:
     id: PlayerStats
     path: ''
-    startLine: 741
+    startLine: 740
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -57,7 +57,7 @@ items:
   source:
     id: debts
     path: ''
-    startLine: 744
+    startLine: 743
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -84,7 +84,7 @@ items:
   source:
     id: revenue
     path: ''
-    startLine: 748
+    startLine: 747
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -111,7 +111,7 @@ items:
   source:
     id: Money
     path: ''
-    startLine: 750
+    startLine: 749
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -144,7 +144,7 @@ items:
   source:
     id: Debts
     path: ''
-    startLine: 755
+    startLine: 754
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -177,7 +177,7 @@ items:
   source:
     id: VillageCount
     path: ''
-    startLine: 760
+    startLine: 759
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -210,7 +210,7 @@ items:
   source:
     id: TownCount
     path: ''
-    startLine: 761
+    startLine: 760
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
