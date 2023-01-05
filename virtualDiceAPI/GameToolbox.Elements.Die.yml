@@ -27,10 +27,12 @@ items:
   source:
     id: Die
     path: ''
-    startLine: 520
+    startLine: 523
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
+  summary: "\nThis is a Die class that represents a die with a certain number of sides.\n"
+  example: []
   syntax:
     content: public class Die
     content.vb: Public Class Die
@@ -64,10 +66,12 @@ items:
   source:
     id: Sides
     path: ''
-    startLine: 528
+    startLine: 534
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
+  summary: "\na uint that gets or sets the number of sides on the die. When it is set, it calls the Setup() method to initialize the chances list.\n"
+  example: []
   syntax:
     content: public uint Sides { get; set; }
     parameters: []
@@ -95,10 +99,12 @@ items:
   source:
     id: IsZeroIndexed
     path: ''
-    startLine: 529
+    startLine: 538
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
+  summary: "\na bool that gets or sets a value indicating whether the die is zero-indexed or not.\n"
+  example: []
   syntax:
     content: public bool IsZeroIndexed { get; set; }
     parameters: []
@@ -126,10 +132,12 @@ items:
   source:
     id: ChancePerSide
     path: ''
-    startLine: 530
+    startLine: 542
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
+  summary: "\na readonly float that represents the chance of rolling any particular side of the die, calculated as 1.0f / sides * 100.\n"
+  example: []
   syntax:
     content: public float ChancePerSide { get; }
     parameters: []
@@ -157,19 +165,24 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 532
+    startLine: 550
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
+  summary: "\na constructor that initializes a new instance of the Die class with the specified number of sides and optional seed and zero-indexed flag.\n"
+  example: []
   syntax:
     content: public Die(uint sides, int seed = 0, bool isZeroIndexed = false)
     parameters:
     - id: sides
       type: System.UInt32
+      description: ''
     - id: seed
       type: System.Int32
+      description: ''
     - id: isZeroIndexed
       type: System.Boolean
+      description: ''
     content.vb: Public Sub New(sides As UInteger, seed As Integer = 0, isZeroIndexed As Boolean = False)
   overload: GameToolbox.Elements.Die.#ctor*
   modifiers.csharp:
@@ -190,11 +203,11 @@ items:
   source:
     id: Roll
     path: ''
-    startLine: 557
+    startLine: 578
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
-  summary: "\nRolls the die once.\n"
+  summary: "\nrolls the die once and outputs the result in the roll parameter. It returns a bool indicating whether the roll was valid.\n"
   example: []
   syntax:
     content: public bool Roll(out int roll)
@@ -228,14 +241,17 @@ items:
   source:
     id: Roll
     path: ''
-    startLine: 571
+    startLine: 597
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
+  summary: "\nrolls the die once and returns the result as an int.\n"
+  example: []
   syntax:
     content: public int Roll()
     return:
       type: System.Int32
+      description: ''
     content.vb: Public Function Roll As Integer
   overload: GameToolbox.Elements.Die.Roll*
   modifiers.csharp:
@@ -256,7 +272,7 @@ items:
   source:
     id: op_Addition
     path: ''
-    startLine: 587
+    startLine: 613
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
@@ -291,7 +307,7 @@ items:
   source:
     id: op_Multiply
     path: ''
-    startLine: 600
+    startLine: 626
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
@@ -326,7 +342,7 @@ items:
   source:
     id: op_Division
     path: ''
-    startLine: 613
+    startLine: 639
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
@@ -361,7 +377,7 @@ items:
   source:
     id: op_Subtraction
     path: ''
-    startLine: 626
+    startLine: 652
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
@@ -396,7 +412,7 @@ items:
   source:
     id: op_Modulus
     path: ''
-    startLine: 639
+    startLine: 665
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
@@ -431,7 +447,7 @@ items:
   source:
     id: op_Implicit
     path: ''
-    startLine: 652
+    startLine: 678
   assemblies:
   - cs.temp.dll
   namespace: GameToolbox.Elements
