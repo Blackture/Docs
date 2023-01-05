@@ -3,7 +3,7 @@
     {
       "src": [
         {
-          "src": "C:/Users/patri/Desktop/PlanningToolWF/PlanningTool",
+          "src": "D:/Users/patri/Desktop/PlanningToolWF/PlanningTool",
           "files": [
             "**.csproj"
           ]
@@ -16,7 +16,7 @@
     {
       "src": [
         {
-          "src": "C:/Users/patri/Desktop/Devils-Hunt/Assets",
+          "src": "D:/Users/patri/Desktop/Devils-Hunt/Assets",
           "files": [
             "**.cs"
           ],
@@ -35,7 +35,7 @@
     {
       "src": [
         {
-          "src": "C:/Users/patri/Desktop/Card Battle/Assets",
+          "src": "D:/Users/patri/Desktop/Card Battle/Assets",
           "files": [
             "Scripts/**.cs"
           ],
@@ -55,7 +55,7 @@
     {
       "src": [
         {
-          "src": "C:/Users/patri/Desktop/TheInvaders/Assets",
+          "src": "D:/Users/patri/Desktop/TheInvaders/Assets",
           "files": [
             "Scripts/**.cs"
           ],
@@ -71,6 +71,19 @@
       "dest": "tiAPI",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
+    },
+    {
+      "src": [
+        {
+          "src": "D:/Users/patri/Documents/GitHub/virtual-dice",
+          "files": [
+            "GameToolbox.sln"
+          ]
+        }
+      ],
+      "dest": "virtualDiceAPI",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
     }
   ],
   "build": {
@@ -84,6 +97,7 @@
           "devilsHuntAPI/**",
           "cardBattleAPI/**",
           "tiAPI/**",
+          "virtualDiceAPI/**",
           "References/**"
         ]
       }
