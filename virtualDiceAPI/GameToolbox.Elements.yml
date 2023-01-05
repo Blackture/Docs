@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: GameToolbox.Elements
+  commentId: N:GameToolbox.Elements
+  id: GameToolbox.Elements
+  children:
+  - GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: GameToolbox.Elements
+  nameWithType: GameToolbox.Elements
+  fullName: GameToolbox.Elements
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: GameToolbox.Elements.Die
+  commentId: T:GameToolbox.Elements.Die
+  parent: GameToolbox.Elements
+  name: Die
+  nameWithType: Die
+  fullName: GameToolbox.Elements.Die
+- uid: GameToolbox.Elements
+  commentId: N:GameToolbox.Elements
+  name: GameToolbox.Elements
+  nameWithType: GameToolbox.Elements
+  fullName: GameToolbox.Elements

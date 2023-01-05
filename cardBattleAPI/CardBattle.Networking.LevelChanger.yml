@@ -19,7 +19,7 @@ items:
   source:
     id: LevelChanger
     path: ''
-    startLine: 1282
+    startLine: 1840
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -50,7 +50,7 @@ items:
   source:
     id: anim
     path: ''
-    startLine: 1284
+    startLine: 1842
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -77,7 +77,7 @@ items:
   source:
     id: FadeToLevel
     path: ''
-    startLine: 1288
+    startLine: 1846
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -106,7 +106,7 @@ items:
   source:
     id: OnFadeComplete
     path: ''
-    startLine: 1294
+    startLine: 1852
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -132,7 +132,7 @@ items:
   source:
     id: OnFadeCompleteNetwork
     path: ''
-    startLine: 1299
+    startLine: 1857
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking

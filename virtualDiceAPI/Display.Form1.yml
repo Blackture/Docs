@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Display.Form1
+  commentId: T:Display.Form1
+  id: Form1
+  parent: Display
+  children:
+  - Display.Form1.#ctor
+  - Display.Form1.Dispose(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Form1
+  nameWithType: Form1
+  fullName: Display.Form1
+  type: Class
+  source:
+    id: Form1
+    path: ''
+    startLine: 93
+  assemblies:
+  - cs.temp.dll
+  namespace: Display
+  syntax:
+    content: 'public class Form1 : Form'
+    content.vb: >-
+      Public Class Form1
+          Inherits Form
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Display.Form1.#ctor
+  commentId: M:Display.Form1.#ctor
+  id: '#ctor'
+  parent: Display.Form1
+  langs:
+  - csharp
+  - vb
+  name: Form1()
+  nameWithType: Form1.Form1()
+  fullName: Display.Form1.Form1()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17
+  assemblies:
+  - cs.temp.dll
+  namespace: Display
+  syntax:
+    content: public Form1()
+    content.vb: Public Sub New
+  overload: Display.Form1.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Display.Form1.Dispose(System.Boolean)
+  commentId: M:Display.Form1.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: Display.Form1
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: Form1.Dispose(Boolean)
+  fullName: Display.Form1.Dispose(System.Boolean)
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 104
+  assemblies:
+  - cs.temp.dll
+  namespace: Display
+  summary: "\nVerwendete Ressourcen bereinigen.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overload: Display.Form1.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Display
+  commentId: N:Display
+  name: Display
+  nameWithType: Display
+  fullName: Display
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Display.Form1.#ctor*
+  commentId: Overload:Display.Form1.#ctor
+  name: Form1
+  nameWithType: Form1.Form1
+  fullName: Display.Form1.Form1
+- uid: Display.Form1.Dispose*
+  commentId: Overload:Display.Form1.Dispose
+  name: Dispose
+  nameWithType: Form1.Dispose
+  fullName: Display.Form1.Dispose
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

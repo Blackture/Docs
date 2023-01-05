@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Networking.GeneralMatchController
+  commentId: T:Assets.Scripts.Networking.GeneralMatchController
+  id: GeneralMatchController
+  parent: Assets.Scripts.Networking
+  children:
+  - Assets.Scripts.Networking.GeneralMatchController.CurrentPlayerId
+  - Assets.Scripts.Networking.GeneralMatchController.EndTurn
+  - Assets.Scripts.Networking.GeneralMatchController.StartTurn
+  - Assets.Scripts.Networking.GeneralMatchController.Turn
+  - Assets.Scripts.Networking.GeneralMatchController.turnTimeLimit
+  langs:
+  - csharp
+  - vb
+  name: GeneralMatchController
+  nameWithType: GeneralMatchController
+  fullName: Assets.Scripts.Networking.GeneralMatchController
+  type: Class
+  source:
+    id: GeneralMatchController
+    path: ''
+    startLine: 1689
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Networking
+  syntax:
+    content: 'public class GeneralMatchController : MonoBehaviourPunCallbacks'
+    content.vb: >-
+      Public Class GeneralMatchController
+          Inherits MonoBehaviourPunCallbacks
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Assets.Scripts.Networking.GeneralMatchController.turnTimeLimit
+  commentId: F:Assets.Scripts.Networking.GeneralMatchController.turnTimeLimit
+  id: turnTimeLimit
+  parent: Assets.Scripts.Networking.GeneralMatchController
+  langs:
+  - csharp
+  - vb
+  name: turnTimeLimit
+  nameWithType: GeneralMatchController.turnTimeLimit
+  fullName: Assets.Scripts.Networking.GeneralMatchController.turnTimeLimit
+  type: Field
+  source:
+    id: turnTimeLimit
+    path: ''
+    startLine: 1692
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Networking
+  syntax:
+    content: public float turnTimeLimit
+    return:
+      type: System.Single
+    content.vb: Public turnTimeLimit As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Networking.GeneralMatchController.Turn
+  commentId: P:Assets.Scripts.Networking.GeneralMatchController.Turn
+  id: Turn
+  parent: Assets.Scripts.Networking.GeneralMatchController
+  langs:
+  - csharp
+  - vb
+  name: Turn
+  nameWithType: GeneralMatchController.Turn
+  fullName: Assets.Scripts.Networking.GeneralMatchController.Turn
+  type: Property
+  source:
+    id: Turn
+    path: ''
+    startLine: 1706
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Networking
+  syntax:
+    content: public int Turn { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Turn As Integer
+  overload: Assets.Scripts.Networking.GeneralMatchController.Turn*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Assets.Scripts.Networking.GeneralMatchController.CurrentPlayerId
+  commentId: P:Assets.Scripts.Networking.GeneralMatchController.CurrentPlayerId
+  id: CurrentPlayerId
+  parent: Assets.Scripts.Networking.GeneralMatchController
+  langs:
+  - csharp
+  - vb
+  name: CurrentPlayerId
+  nameWithType: GeneralMatchController.CurrentPlayerId
+  fullName: Assets.Scripts.Networking.GeneralMatchController.CurrentPlayerId
+  type: Property
+  source:
+    id: CurrentPlayerId
+    path: ''
+    startLine: 1707
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Networking
+  syntax:
+    content: public int CurrentPlayerId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property CurrentPlayerId As Integer
+  overload: Assets.Scripts.Networking.GeneralMatchController.CurrentPlayerId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Assets.Scripts.Networking.GeneralMatchController.StartTurn
+  commentId: M:Assets.Scripts.Networking.GeneralMatchController.StartTurn
+  id: StartTurn
+  parent: Assets.Scripts.Networking.GeneralMatchController
+  langs:
+  - csharp
+  - vb
+  name: StartTurn()
+  nameWithType: GeneralMatchController.StartTurn()
+  fullName: Assets.Scripts.Networking.GeneralMatchController.StartTurn()
+  type: Method
+  source:
+    id: StartTurn
+    path: ''
+    startLine: 1727
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Networking
+  syntax:
+    content: public void StartTurn()
+    content.vb: Public Sub StartTurn
+  overload: Assets.Scripts.Networking.GeneralMatchController.StartTurn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Assets.Scripts.Networking.GeneralMatchController.EndTurn
+  commentId: M:Assets.Scripts.Networking.GeneralMatchController.EndTurn
+  id: EndTurn
+  parent: Assets.Scripts.Networking.GeneralMatchController
+  langs:
+  - csharp
+  - vb
+  name: EndTurn()
+  nameWithType: GeneralMatchController.EndTurn()
+  fullName: Assets.Scripts.Networking.GeneralMatchController.EndTurn()
+  type: Method
+  source:
+    id: EndTurn
+    path: ''
+    startLine: 1743
+  assemblies:
+  - cs.temp.dll
+  namespace: Assets.Scripts.Networking
+  syntax:
+    content: public void EndTurn()
+    content.vb: Public Sub
+  overload: Assets.Scripts.Networking.GeneralMatchController.EndTurn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Assets.Scripts.Networking
+  commentId: N:Assets.Scripts.Networking
+  name: Assets.Scripts.Networking
+  nameWithType: Assets.Scripts.Networking
+  fullName: Assets.Scripts.Networking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Assets.Scripts.Networking.GeneralMatchController.Turn*
+  commentId: Overload:Assets.Scripts.Networking.GeneralMatchController.Turn
+  name: Turn
+  nameWithType: GeneralMatchController.Turn
+  fullName: Assets.Scripts.Networking.GeneralMatchController.Turn
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Assets.Scripts.Networking.GeneralMatchController.CurrentPlayerId*
+  commentId: Overload:Assets.Scripts.Networking.GeneralMatchController.CurrentPlayerId
+  name: CurrentPlayerId
+  nameWithType: GeneralMatchController.CurrentPlayerId
+  fullName: Assets.Scripts.Networking.GeneralMatchController.CurrentPlayerId
+- uid: Assets.Scripts.Networking.GeneralMatchController.StartTurn*
+  commentId: Overload:Assets.Scripts.Networking.GeneralMatchController.StartTurn
+  name: StartTurn
+  nameWithType: GeneralMatchController.StartTurn
+  fullName: Assets.Scripts.Networking.GeneralMatchController.StartTurn
+- uid: Assets.Scripts.Networking.GeneralMatchController.EndTurn*
+  commentId: Overload:Assets.Scripts.Networking.GeneralMatchController.EndTurn
+  name: EndTurn
+  nameWithType: GeneralMatchController.EndTurn
+  fullName: Assets.Scripts.Networking.GeneralMatchController.EndTurn

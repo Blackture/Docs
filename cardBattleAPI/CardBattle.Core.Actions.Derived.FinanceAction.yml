@@ -23,7 +23,7 @@ items:
   source:
     id: FinanceAction
     path: ''
-    startLine: 463
+    startLine: 512
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -64,7 +64,7 @@ items:
   source:
     id: multiplier
     path: ''
-    startLine: 465
+    startLine: 514
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -91,7 +91,7 @@ items:
   source:
     id: additionalMoney
     path: ''
-    startLine: 466
+    startLine: 515
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -118,7 +118,7 @@ items:
   source:
     id: enemyAdditionalMoney
     path: ''
-    startLine: 467
+    startLine: 516
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -145,7 +145,7 @@ items:
   source:
     id: stealMoney
     path: ''
-    startLine: 468
+    startLine: 517
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -172,7 +172,7 @@ items:
   source:
     id: enemyMultiplier
     path: ''
-    startLine: 469
+    startLine: 518
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -199,7 +199,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 480
+    startLine: 529
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -244,7 +244,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 499
+    startLine: 548
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -292,7 +292,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 510
+    startLine: 559
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived

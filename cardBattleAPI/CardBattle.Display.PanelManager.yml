@@ -1,0 +1,231 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Display.PanelManager
+  commentId: T:CardBattle.Display.PanelManager
+  id: PanelManager
+  parent: CardBattle.Display
+  children:
+  - CardBattle.Display.PanelManager.ClosePanel(System.String)
+  - CardBattle.Display.PanelManager.GetPanel(System.String)
+  - CardBattle.Display.PanelManager.GetPanel``1(System.String)
+  - CardBattle.Display.PanelManager.OpenPanel(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PanelManager
+  nameWithType: PanelManager
+  fullName: CardBattle.Display.PanelManager
+  type: Class
+  source:
+    id: PanelManager
+    path: ''
+    startLine: 1444
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class PanelManager : MonoBehaviour
+    content.vb: >-
+      <Serializable>
+
+      Public Class PanelManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Display.PanelManager.GetPanel(System.String)
+  commentId: M:CardBattle.Display.PanelManager.GetPanel(System.String)
+  id: GetPanel(System.String)
+  parent: CardBattle.Display.PanelManager
+  langs:
+  - csharp
+  - vb
+  name: GetPanel(String)
+  nameWithType: PanelManager.GetPanel(String)
+  fullName: CardBattle.Display.PanelManager.GetPanel(System.String)
+  type: Method
+  source:
+    id: GetPanel
+    path: ''
+    startLine: 1476
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public Panel GetPanel(string panelName)
+    parameters:
+    - id: panelName
+      type: System.String
+    return:
+      type: CardBattle.Display.Panel
+    content.vb: Public Function GetPanel(panelName As String) As Panel
+  overload: CardBattle.Display.PanelManager.GetPanel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Display.PanelManager.GetPanel``1(System.String)
+  commentId: M:CardBattle.Display.PanelManager.GetPanel``1(System.String)
+  id: GetPanel``1(System.String)
+  parent: CardBattle.Display.PanelManager
+  langs:
+  - csharp
+  - vb
+  name: GetPanel<T>(String)
+  nameWithType: PanelManager.GetPanel<T>(String)
+  fullName: CardBattle.Display.PanelManager.GetPanel<T>(System.String)
+  type: Method
+  source:
+    id: GetPanel
+    path: ''
+    startLine: 1477
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: >-
+      public T GetPanel<T>(string panelName)
+          where T : Panel
+    parameters:
+    - id: panelName
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetPanel(Of T As Panel)(panelName As String) As T
+  overload: CardBattle.Display.PanelManager.GetPanel*
+  nameWithType.vb: PanelManager.GetPanel(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Display.PanelManager.GetPanel(Of T)(System.String)
+  name.vb: GetPanel(Of T)(String)
+- uid: CardBattle.Display.PanelManager.OpenPanel(System.String)
+  commentId: M:CardBattle.Display.PanelManager.OpenPanel(System.String)
+  id: OpenPanel(System.String)
+  parent: CardBattle.Display.PanelManager
+  langs:
+  - csharp
+  - vb
+  name: OpenPanel(String)
+  nameWithType: PanelManager.OpenPanel(String)
+  fullName: CardBattle.Display.PanelManager.OpenPanel(System.String)
+  type: Method
+  source:
+    id: OpenPanel
+    path: ''
+    startLine: 1479
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public void OpenPanel(string panelName)
+    parameters:
+    - id: panelName
+      type: System.String
+    content.vb: Public Sub OpenPanel(panelName As String)
+  overload: CardBattle.Display.PanelManager.OpenPanel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Display.PanelManager.ClosePanel(System.String)
+  commentId: M:CardBattle.Display.PanelManager.ClosePanel(System.String)
+  id: ClosePanel(System.String)
+  parent: CardBattle.Display.PanelManager
+  langs:
+  - csharp
+  - vb
+  name: ClosePanel(String)
+  nameWithType: PanelManager.ClosePanel(String)
+  fullName: CardBattle.Display.PanelManager.ClosePanel(System.String)
+  type: Method
+  source:
+    id: ClosePanel
+    path: ''
+    startLine: 1480
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public void ClosePanel(string panelName)
+    parameters:
+    - id: panelName
+      type: System.String
+    content.vb: Public Sub ClosePanel(panelName As String)
+  overload: CardBattle.Display.PanelManager.ClosePanel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Display
+  commentId: N:CardBattle.Display
+  name: CardBattle.Display
+  nameWithType: CardBattle.Display
+  fullName: CardBattle.Display
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Display.PanelManager.GetPanel*
+  commentId: Overload:CardBattle.Display.PanelManager.GetPanel
+  name: GetPanel
+  nameWithType: PanelManager.GetPanel
+  fullName: CardBattle.Display.PanelManager.GetPanel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CardBattle.Display.Panel
+  commentId: T:CardBattle.Display.Panel
+  parent: CardBattle.Display
+  name: Panel
+  nameWithType: Panel
+  fullName: CardBattle.Display.Panel
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CardBattle.Display.PanelManager.OpenPanel*
+  commentId: Overload:CardBattle.Display.PanelManager.OpenPanel
+  name: OpenPanel
+  nameWithType: PanelManager.OpenPanel
+  fullName: CardBattle.Display.PanelManager.OpenPanel
+- uid: CardBattle.Display.PanelManager.ClosePanel*
+  commentId: Overload:CardBattle.Display.PanelManager.ClosePanel
+  name: ClosePanel
+  nameWithType: PanelManager.ClosePanel
+  fullName: CardBattle.Display.PanelManager.ClosePanel

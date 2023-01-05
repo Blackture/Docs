@@ -22,7 +22,7 @@ items:
   source:
     id: TurnManager
     path: ''
-    startLine: 923
+    startLine: 1269
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -53,7 +53,7 @@ items:
   source:
     id: financeCards
     path: ''
-    startLine: 925
+    startLine: 1271
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -62,35 +62,6 @@ items:
     return:
       type: CardStack{Card}
     content.vb: Public financeCards As CardStack(Of Card)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: CardBattle.Core.Turns.TurnManager.Init(Bot)
-  commentId: M:CardBattle.Core.Turns.TurnManager.Init(Bot)
-  id: Init(Bot)
-  parent: CardBattle.Core.Turns.TurnManager
-  langs:
-  - csharp
-  - vb
-  name: Init(Bot)
-  nameWithType: TurnManager.Init(Bot)
-  fullName: CardBattle.Core.Turns.TurnManager.Init(Bot)
-  type: Method
-  source:
-    id: Init
-    path: ''
-    startLine: 927
-  assemblies:
-  - cs.temp.dll
-  namespace: CardBattle.Core.Turns
-  syntax:
-    content: public void Init(Bot bot)
-    parameters:
-    - id: bot
-      type: Bot
-    content.vb: Public Sub Init(bot As Bot)
-  overload: CardBattle.Core.Turns.TurnManager.Init*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -109,7 +80,7 @@ items:
   source:
     id: CurrentPlayer
     path: ''
-    startLine: 980
+    startLine: 1275
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -140,7 +111,7 @@ items:
   source:
     id: OpponentPlayer
     path: ''
-    startLine: 982
+    startLine: 1277
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -171,7 +142,7 @@ items:
   source:
     id: Bot
     path: ''
-    startLine: 984
+    startLine: 1279
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -188,6 +159,35 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: CardBattle.Core.Turns.TurnManager.Init(Bot)
+  commentId: M:CardBattle.Core.Turns.TurnManager.Init(Bot)
+  id: Init(Bot)
+  parent: CardBattle.Core.Turns.TurnManager
+  langs:
+  - csharp
+  - vb
+  name: Init(Bot)
+  nameWithType: TurnManager.Init(Bot)
+  fullName: CardBattle.Core.Turns.TurnManager.Init(Bot)
+  type: Method
+  source:
+    id: Init
+    path: ''
+    startLine: 1281
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public void Init(Bot bot)
+    parameters:
+    - id: bot
+      type: Bot
+    content.vb: Public Sub Init(bot As Bot)
+  overload: CardBattle.Core.Turns.TurnManager.Init*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: CardBattle.Core.Turns.TurnManager.FirstTurn
   commentId: M:CardBattle.Core.Turns.TurnManager.FirstTurn
   id: FirstTurn
@@ -202,7 +202,7 @@ items:
   source:
     id: FirstTurn
     path: ''
-    startLine: 986
+    startLine: 1332
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -230,7 +230,7 @@ items:
   source:
     id: NextTurn
     path: ''
-    startLine: 996
+    startLine: 1342
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Turns
@@ -345,16 +345,6 @@ references:
   - name: )
     nameWithType: )
     fullName: )
-- uid: CardBattle.Core.Turns.TurnManager.Init*
-  commentId: Overload:CardBattle.Core.Turns.TurnManager.Init
-  name: Init
-  nameWithType: TurnManager.Init
-  fullName: CardBattle.Core.Turns.TurnManager.Init
-- uid: Bot
-  isExternal: true
-  name: Bot
-  nameWithType: Bot
-  fullName: Bot
 - uid: CardBattle.Core.Turns.TurnManager.CurrentPlayer*
   commentId: Overload:CardBattle.Core.Turns.TurnManager.CurrentPlayer
   name: CurrentPlayer
@@ -375,6 +365,16 @@ references:
   name: Bot
   nameWithType: TurnManager.Bot
   fullName: CardBattle.Core.Turns.TurnManager.Bot
+- uid: Bot
+  isExternal: true
+  name: Bot
+  nameWithType: Bot
+  fullName: Bot
+- uid: CardBattle.Core.Turns.TurnManager.Init*
+  commentId: Overload:CardBattle.Core.Turns.TurnManager.Init
+  name: Init
+  nameWithType: TurnManager.Init
+  fullName: CardBattle.Core.Turns.TurnManager.Init
 - uid: CardBattle.Core.Turns.TurnManager.FirstTurn*
   commentId: Overload:CardBattle.Core.Turns.TurnManager.FirstTurn
   name: FirstTurn

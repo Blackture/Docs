@@ -142,6 +142,31 @@
   </h3>
   
   
+  <a id="CardBattle_Core_Players_Player_NetworkPlayer_" data-uid="CardBattle.Core.Players.Player.NetworkPlayer*"></a>
+  <h4 id="CardBattle_Core_Players_Player_NetworkPlayer" data-uid="CardBattle.Core.Players.Player.NetworkPlayer">NetworkPlayer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Photon.Realtime.Player NetworkPlayer { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Photon.Realtime.Player</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="CardBattle_Core_Players_Player_PlayerIndex_" data-uid="CardBattle.Core.Players.Player.PlayerIndex*"></a>
   <h4 id="CardBattle_Core_Players_Player_PlayerIndex" data-uid="CardBattle.Core.Players.Player.PlayerIndex">PlayerIndex</h4>
   <div class="markdown level1 summary"></div>
@@ -170,12 +195,12 @@
   
   
   <a id="CardBattle_Core_Players_Player_AddComponentTo_" data-uid="CardBattle.Core.Players.Player.AddComponentTo*"></a>
-  <h4 id="CardBattle_Core_Players_Player_AddComponentTo_GameObject_" data-uid="CardBattle.Core.Players.Player.AddComponentTo(GameObject)">AddComponentTo(GameObject)</h4>
+  <h4 id="CardBattle_Core_Players_Player_AddComponentTo_GameObject_Photon_Realtime_Player_" data-uid="CardBattle.Core.Players.Player.AddComponentTo(GameObject,Photon.Realtime.Player)">AddComponentTo(GameObject, Photon.Realtime.Player)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Player AddComponentTo(GameObject attachTo)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Player AddComponentTo(GameObject attachTo, Photon.Realtime.Player networkPlayer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,6 +215,11 @@
       <tr>
         <td><span class="xref">GameObject</span></td>
         <td><span class="parametername">attachTo</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Photon.Realtime.Player</span></td>
+        <td><span class="parametername">networkPlayer</span></td>
         <td></td>
       </tr>
     </tbody>

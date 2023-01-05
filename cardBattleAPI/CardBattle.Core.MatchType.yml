@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.MatchType
+  commentId: T:CardBattle.Core.MatchType
+  id: MatchType
+  parent: CardBattle.Core
+  children:
+  - CardBattle.Core.MatchType.Normal
+  - CardBattle.Core.MatchType.Quickmatch
+  langs:
+  - csharp
+  - vb
+  name: MatchType
+  nameWithType: MatchType
+  fullName: CardBattle.Core.MatchType
+  type: Enum
+  source:
+    id: MatchType
+    path: ''
+    startLine: 47
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public enum MatchType
+    content.vb: Public Enum MatchType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardBattle.Core.MatchType.Quickmatch
+  commentId: F:CardBattle.Core.MatchType.Quickmatch
+  id: Quickmatch
+  parent: CardBattle.Core.MatchType
+  langs:
+  - csharp
+  - vb
+  name: Quickmatch
+  nameWithType: MatchType.Quickmatch
+  fullName: CardBattle.Core.MatchType.Quickmatch
+  type: Field
+  source:
+    id: Quickmatch
+    path: ''
+    startLine: 49
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: Quickmatch = 0
+    return:
+      type: CardBattle.Core.MatchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.MatchType.Normal
+  commentId: F:CardBattle.Core.MatchType.Normal
+  id: Normal
+  parent: CardBattle.Core.MatchType
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: MatchType.Normal
+  fullName: CardBattle.Core.MatchType.Normal
+  type: Field
+  source:
+    id: Normal
+    path: ''
+    startLine: 50
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: Normal = 1
+    return:
+      type: CardBattle.Core.MatchType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: CardBattle.Core.MatchType
+  commentId: T:CardBattle.Core.MatchType
+  parent: CardBattle.Core
+  name: MatchType
+  nameWithType: MatchType
+  fullName: CardBattle.Core.MatchType

@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Collections
+  commentId: N:CardBattle.Core.Collections
+  id: CardBattle.Core.Collections
+  children:
+  - CardBattle.Core.Collections.Dictionary`2
+  - CardBattle.Core.Collections.DictionaryPair`2
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core.Collections
+  nameWithType: CardBattle.Core.Collections
+  fullName: CardBattle.Core.Collections
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.Collections.Dictionary`2
+  commentId: T:CardBattle.Core.Collections.Dictionary`2
+  name: Dictionary<T0, T1>
+  nameWithType: Dictionary<T0, T1>
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>
+  nameWithType.vb: Dictionary(Of T0, T1)
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1)
+  name.vb: Dictionary(Of T0, T1)
+  spec.csharp:
+  - uid: CardBattle.Core.Collections.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: CardBattle.Core.Collections.Dictionary
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CardBattle.Core.Collections.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: CardBattle.Core.Collections.Dictionary
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Core.Collections.DictionaryPair`2
+  commentId: T:CardBattle.Core.Collections.DictionaryPair`2
+  name: DictionaryPair<T0, T1>
+  nameWithType: DictionaryPair<T0, T1>
+  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>
+  nameWithType.vb: DictionaryPair(Of T0, T1)
+  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1)
+  name.vb: DictionaryPair(Of T0, T1)
+  spec.csharp:
+  - uid: CardBattle.Core.Collections.DictionaryPair`2
+    name: DictionaryPair
+    nameWithType: DictionaryPair
+    fullName: CardBattle.Core.Collections.DictionaryPair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CardBattle.Core.Collections.DictionaryPair`2
+    name: DictionaryPair
+    nameWithType: DictionaryPair
+    fullName: CardBattle.Core.Collections.DictionaryPair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: )
+    nameWithType: )
+    fullName: )

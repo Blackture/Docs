@@ -17,7 +17,7 @@ items:
   source:
     id: Bot
     path: ''
-    startLine: 618
+    startLine: 668
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.AI
@@ -48,7 +48,7 @@ items:
   source:
     id: AddComponentTo
     path: ''
-    startLine: 621
+    startLine: 671
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.AI
@@ -81,7 +81,7 @@ items:
   source:
     id: StartTurn
     path: ''
-    startLine: 629
+    startLine: 679
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.AI

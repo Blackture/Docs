@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  commentId: T:CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  id: ControlMapping.UNIT_MODE
+  parent: CardBattle.Core.Controls
+  children:
+  - CardBattle.Core.Controls.ControlMapping.UNIT_MODE.DESELECT
+  - CardBattle.Core.Controls.ControlMapping.UNIT_MODE.NONE
+  - CardBattle.Core.Controls.ControlMapping.UNIT_MODE.SELECT
+  langs:
+  - csharp
+  - vb
+  name: ControlMapping.UNIT_MODE
+  nameWithType: ControlMapping.UNIT_MODE
+  fullName: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  type: Enum
+  source:
+    id: UNIT_MODE
+    path: ''
+    startLine: 750
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Controls
+  syntax:
+    content: public enum UNIT_MODE
+    content.vb: Public Enum UNIT_MODE
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardBattle.Core.Controls.ControlMapping.UNIT_MODE.NONE
+  commentId: F:CardBattle.Core.Controls.ControlMapping.UNIT_MODE.NONE
+  id: NONE
+  parent: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  langs:
+  - csharp
+  - vb
+  name: NONE
+  nameWithType: ControlMapping.UNIT_MODE.NONE
+  fullName: CardBattle.Core.Controls.ControlMapping.UNIT_MODE.NONE
+  type: Field
+  source:
+    id: NONE
+    path: ''
+    startLine: 752
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Controls
+  syntax:
+    content: NONE = 0
+    return:
+      type: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.Controls.ControlMapping.UNIT_MODE.SELECT
+  commentId: F:CardBattle.Core.Controls.ControlMapping.UNIT_MODE.SELECT
+  id: SELECT
+  parent: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  langs:
+  - csharp
+  - vb
+  name: SELECT
+  nameWithType: ControlMapping.UNIT_MODE.SELECT
+  fullName: CardBattle.Core.Controls.ControlMapping.UNIT_MODE.SELECT
+  type: Field
+  source:
+    id: SELECT
+    path: ''
+    startLine: 753
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Controls
+  syntax:
+    content: SELECT = 1
+    return:
+      type: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.Controls.ControlMapping.UNIT_MODE.DESELECT
+  commentId: F:CardBattle.Core.Controls.ControlMapping.UNIT_MODE.DESELECT
+  id: DESELECT
+  parent: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  langs:
+  - csharp
+  - vb
+  name: DESELECT
+  nameWithType: ControlMapping.UNIT_MODE.DESELECT
+  fullName: CardBattle.Core.Controls.ControlMapping.UNIT_MODE.DESELECT
+  type: Field
+  source:
+    id: DESELECT
+    path: ''
+    startLine: 754
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Controls
+  syntax:
+    content: DESELECT = 2
+    return:
+      type: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardBattle.Core.Controls
+  commentId: N:CardBattle.Core.Controls
+  name: CardBattle.Core.Controls
+  nameWithType: CardBattle.Core.Controls
+  fullName: CardBattle.Core.Controls
+- uid: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  commentId: T:CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  parent: CardBattle.Core.Controls
+  name: ControlMapping.UNIT_MODE
+  nameWithType: ControlMapping.UNIT_MODE
+  fullName: CardBattle.Core.Controls.ControlMapping.UNIT_MODE

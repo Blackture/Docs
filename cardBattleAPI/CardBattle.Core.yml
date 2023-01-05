@@ -5,9 +5,12 @@ items:
   id: CardBattle.Core
   children:
   - CardBattle.Core.COLOR
-  - CardBattle.Core.GameController
+  - CardBattle.Core.DIFFICULTY
+  - CardBattle.Core.DIRECTION
   - CardBattle.Core.GameManager
+  - CardBattle.Core.MatchType
   - CardBattle.Core.MULTIPLIER
+  - CardBattle.Core.Slider
   langs:
   - csharp
   - vb
@@ -30,17 +33,35 @@ references:
   name: MULTIPLIER
   nameWithType: MULTIPLIER
   fullName: CardBattle.Core.MULTIPLIER
+- uid: CardBattle.Core.DIRECTION
+  commentId: T:CardBattle.Core.DIRECTION
+  parent: CardBattle.Core
+  name: DIRECTION
+  nameWithType: DIRECTION
+  fullName: CardBattle.Core.DIRECTION
+- uid: CardBattle.Core.MatchType
+  commentId: T:CardBattle.Core.MatchType
+  parent: CardBattle.Core
+  name: MatchType
+  nameWithType: MatchType
+  fullName: CardBattle.Core.MatchType
+- uid: CardBattle.Core.DIFFICULTY
+  commentId: T:CardBattle.Core.DIFFICULTY
+  parent: CardBattle.Core
+  name: DIFFICULTY
+  nameWithType: DIFFICULTY
+  fullName: CardBattle.Core.DIFFICULTY
 - uid: CardBattle.Core.GameManager
   commentId: T:CardBattle.Core.GameManager
   parent: CardBattle.Core
   name: GameManager
   nameWithType: GameManager
   fullName: CardBattle.Core.GameManager
-- uid: CardBattle.Core.GameController
-  commentId: T:CardBattle.Core.GameController
-  name: GameController
-  nameWithType: GameController
-  fullName: CardBattle.Core.GameController
+- uid: CardBattle.Core.Slider
+  commentId: T:CardBattle.Core.Slider
+  name: Slider
+  nameWithType: Slider
+  fullName: CardBattle.Core.Slider
 - uid: CardBattle.Core
   commentId: N:CardBattle.Core
   name: CardBattle.Core

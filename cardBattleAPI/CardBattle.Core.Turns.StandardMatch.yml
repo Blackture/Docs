@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Turns.StandardMatch
+  commentId: T:CardBattle.Core.Turns.StandardMatch
+  id: StandardMatch
+  parent: CardBattle.Core.Turns
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: StandardMatch
+  nameWithType: StandardMatch
+  fullName: CardBattle.Core.Turns.StandardMatch
+  type: Class
+  source:
+    id: StandardMatch
+    path: ''
+    startLine: 219
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: 'public class StandardMatch : MonoBehaviour'
+    content.vb: >-
+      Public Class StandardMatch
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: CardBattle.Core.Turns
+  commentId: N:CardBattle.Core.Turns
+  name: CardBattle.Core.Turns
+  nameWithType: CardBattle.Core.Turns
+  fullName: CardBattle.Core.Turns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

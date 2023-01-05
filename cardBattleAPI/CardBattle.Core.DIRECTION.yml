@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.DIRECTION
+  commentId: T:CardBattle.Core.DIRECTION
+  id: DIRECTION
+  parent: CardBattle.Core
+  children:
+  - CardBattle.Core.DIRECTION.E
+  - CardBattle.Core.DIRECTION.N
+  - CardBattle.Core.DIRECTION.NE
+  - CardBattle.Core.DIRECTION.NW
+  - CardBattle.Core.DIRECTION.S
+  - CardBattle.Core.DIRECTION.SE
+  - CardBattle.Core.DIRECTION.SW
+  - CardBattle.Core.DIRECTION.W
+  langs:
+  - csharp
+  - vb
+  name: DIRECTION
+  nameWithType: DIRECTION
+  fullName: CardBattle.Core.DIRECTION
+  type: Enum
+  source:
+    id: DIRECTION
+    path: ''
+    startLine: 35
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  summary: "\n<ul><li></li><li></li></ul>\n\n"
+  example: []
+  syntax:
+    content: public enum DIRECTION
+    content.vb: Public Enum DIRECTION
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardBattle.Core.DIRECTION.NE
+  commentId: F:CardBattle.Core.DIRECTION.NE
+  id: NE
+  parent: CardBattle.Core.DIRECTION
+  langs:
+  - csharp
+  - vb
+  name: NE
+  nameWithType: DIRECTION.NE
+  fullName: CardBattle.Core.DIRECTION.NE
+  type: Field
+  source:
+    id: NE
+    path: ''
+    startLine: 37
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: NE = 0
+    return:
+      type: CardBattle.Core.DIRECTION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIRECTION.E
+  commentId: F:CardBattle.Core.DIRECTION.E
+  id: E
+  parent: CardBattle.Core.DIRECTION
+  langs:
+  - csharp
+  - vb
+  name: E
+  nameWithType: DIRECTION.E
+  fullName: CardBattle.Core.DIRECTION.E
+  type: Field
+  source:
+    id: E
+    path: ''
+    startLine: 38
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: E = 1
+    return:
+      type: CardBattle.Core.DIRECTION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIRECTION.SE
+  commentId: F:CardBattle.Core.DIRECTION.SE
+  id: SE
+  parent: CardBattle.Core.DIRECTION
+  langs:
+  - csharp
+  - vb
+  name: SE
+  nameWithType: DIRECTION.SE
+  fullName: CardBattle.Core.DIRECTION.SE
+  type: Field
+  source:
+    id: SE
+    path: ''
+    startLine: 39
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: SE = 2
+    return:
+      type: CardBattle.Core.DIRECTION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIRECTION.SW
+  commentId: F:CardBattle.Core.DIRECTION.SW
+  id: SW
+  parent: CardBattle.Core.DIRECTION
+  langs:
+  - csharp
+  - vb
+  name: SW
+  nameWithType: DIRECTION.SW
+  fullName: CardBattle.Core.DIRECTION.SW
+  type: Field
+  source:
+    id: SW
+    path: ''
+    startLine: 40
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: SW = 3
+    return:
+      type: CardBattle.Core.DIRECTION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIRECTION.W
+  commentId: F:CardBattle.Core.DIRECTION.W
+  id: W
+  parent: CardBattle.Core.DIRECTION
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: DIRECTION.W
+  fullName: CardBattle.Core.DIRECTION.W
+  type: Field
+  source:
+    id: W
+    path: ''
+    startLine: 41
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: W = 4
+    return:
+      type: CardBattle.Core.DIRECTION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIRECTION.NW
+  commentId: F:CardBattle.Core.DIRECTION.NW
+  id: NW
+  parent: CardBattle.Core.DIRECTION
+  langs:
+  - csharp
+  - vb
+  name: NW
+  nameWithType: DIRECTION.NW
+  fullName: CardBattle.Core.DIRECTION.NW
+  type: Field
+  source:
+    id: NW
+    path: ''
+    startLine: 42
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: NW = 5
+    return:
+      type: CardBattle.Core.DIRECTION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIRECTION.N
+  commentId: F:CardBattle.Core.DIRECTION.N
+  id: N
+  parent: CardBattle.Core.DIRECTION
+  langs:
+  - csharp
+  - vb
+  name: N
+  nameWithType: DIRECTION.N
+  fullName: CardBattle.Core.DIRECTION.N
+  type: Field
+  source:
+    id: N
+    path: ''
+    startLine: 43
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: N = 6
+    return:
+      type: CardBattle.Core.DIRECTION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIRECTION.S
+  commentId: F:CardBattle.Core.DIRECTION.S
+  id: S
+  parent: CardBattle.Core.DIRECTION
+  langs:
+  - csharp
+  - vb
+  name: S
+  nameWithType: DIRECTION.S
+  fullName: CardBattle.Core.DIRECTION.S
+  type: Field
+  source:
+    id: S
+    path: ''
+    startLine: 44
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: S = 7
+    return:
+      type: CardBattle.Core.DIRECTION
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: CardBattle.Core.DIRECTION
+  commentId: T:CardBattle.Core.DIRECTION
+  parent: CardBattle.Core
+  name: DIRECTION
+  nameWithType: DIRECTION
+  fullName: CardBattle.Core.DIRECTION

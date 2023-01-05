@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Display.MenuManager
+  commentId: T:CardBattle.Display.MenuManager
+  id: MenuManager
+  parent: CardBattle.Display
+  children:
+  - CardBattle.Display.MenuManager.Instance
+  - CardBattle.Display.MenuManager.panelManager
+  langs:
+  - csharp
+  - vb
+  name: MenuManager
+  nameWithType: MenuManager
+  fullName: CardBattle.Display.MenuManager
+  type: Class
+  source:
+    id: MenuManager
+    path: ''
+    startLine: 1391
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: 'public class MenuManager : MonoBehaviour'
+    content.vb: >-
+      Public Class MenuManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Display.MenuManager.Instance
+  commentId: F:CardBattle.Display.MenuManager.Instance
+  id: Instance
+  parent: CardBattle.Display.MenuManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: MenuManager.Instance
+  fullName: CardBattle.Display.MenuManager.Instance
+  type: Field
+  source:
+    id: Instance
+    path: ''
+    startLine: 1395
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public static MenuManager Instance
+    return:
+      type: CardBattle.Display.MenuManager
+    content.vb: Public Shared Instance As MenuManager
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardBattle.Display.MenuManager.panelManager
+  commentId: F:CardBattle.Display.MenuManager.panelManager
+  id: panelManager
+  parent: CardBattle.Display.MenuManager
+  langs:
+  - csharp
+  - vb
+  name: panelManager
+  nameWithType: MenuManager.panelManager
+  fullName: CardBattle.Display.MenuManager.panelManager
+  type: Field
+  source:
+    id: panelManager
+    path: ''
+    startLine: 1396
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public PanelManager panelManager
+    return:
+      type: CardBattle.Display.PanelManager
+    content.vb: Public panelManager As PanelManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Display
+  commentId: N:CardBattle.Display
+  name: CardBattle.Display
+  nameWithType: CardBattle.Display
+  fullName: CardBattle.Display
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Display.MenuManager
+  commentId: T:CardBattle.Display.MenuManager
+  parent: CardBattle.Display
+  name: MenuManager
+  nameWithType: MenuManager
+  fullName: CardBattle.Display.MenuManager
+- uid: CardBattle.Display.PanelManager
+  commentId: T:CardBattle.Display.PanelManager
+  parent: CardBattle.Display
+  name: PanelManager
+  nameWithType: PanelManager
+  fullName: CardBattle.Display.PanelManager

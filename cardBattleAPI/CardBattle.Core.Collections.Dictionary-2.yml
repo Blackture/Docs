@@ -1,0 +1,864 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Collections.Dictionary`2
+  commentId: T:CardBattle.Core.Collections.Dictionary`2
+  id: Dictionary`2
+  parent: CardBattle.Core.Collections
+  children:
+  - CardBattle.Core.Collections.Dictionary`2.Add(`0,`1)
+  - CardBattle.Core.Collections.Dictionary`2.Find(`0)
+  - CardBattle.Core.Collections.Dictionary`2.Find(`1)
+  - CardBattle.Core.Collections.Dictionary`2.GetDictionaryPair(System.Int32)
+  - CardBattle.Core.Collections.Dictionary`2.Item(`0)
+  - CardBattle.Core.Collections.Dictionary`2.Item(`1)
+  - CardBattle.Core.Collections.Dictionary`2.pairs
+  langs:
+  - csharp
+  - vb
+  name: Dictionary<T0, T1>
+  nameWithType: Dictionary<T0, T1>
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>
+  type: Class
+  source:
+    id: Dictionary
+    path: ''
+    startLine: 687
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Collections
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Dictionary<T0, T1>
+    typeParameters:
+    - id: T0
+    - id: T1
+    content.vb: >-
+      <Serializable>
+
+      Public Class Dictionary(Of T0, T1)
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  nameWithType.vb: Dictionary(Of T0, T1)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1)
+  name.vb: Dictionary(Of T0, T1)
+- uid: CardBattle.Core.Collections.Dictionary`2.Item(`0)
+  commentId: P:CardBattle.Core.Collections.Dictionary`2.Item(`0)
+  id: Item(`0)
+  parent: CardBattle.Core.Collections.Dictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Item[T0]
+  nameWithType: Dictionary<T0, T1>.Item[T0]
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.Item[T0]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 690
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Collections
+  syntax:
+    content: public T1 this[T0 term] { get; }
+    parameters:
+    - id: term
+      type: '{T0}'
+    return:
+      type: '{T1}'
+    content.vb: Public ReadOnly Property Item(term As T0) As T1
+  overload: CardBattle.Core.Collections.Dictionary`2.Item*
+  nameWithType.vb: Dictionary(Of T0, T1).Item(T0)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).Item(T0)
+  name.vb: Item(T0)
+- uid: CardBattle.Core.Collections.Dictionary`2.Item(`1)
+  commentId: P:CardBattle.Core.Collections.Dictionary`2.Item(`1)
+  id: Item(`1)
+  parent: CardBattle.Core.Collections.Dictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Item[T1]
+  nameWithType: Dictionary<T0, T1>.Item[T1]
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.Item[T1]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 691
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Collections
+  syntax:
+    content: public T0 this[T1 term] { get; }
+    parameters:
+    - id: term
+      type: '{T1}'
+    return:
+      type: '{T0}'
+    content.vb: Public ReadOnly Property Item(term As T1) As T0
+  overload: CardBattle.Core.Collections.Dictionary`2.Item*
+  nameWithType.vb: Dictionary(Of T0, T1).Item(T1)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).Item(T1)
+  name.vb: Item(T1)
+- uid: CardBattle.Core.Collections.Dictionary`2.pairs
+  commentId: F:CardBattle.Core.Collections.Dictionary`2.pairs
+  id: pairs
+  parent: CardBattle.Core.Collections.Dictionary`2
+  langs:
+  - csharp
+  - vb
+  name: pairs
+  nameWithType: Dictionary<T0, T1>.pairs
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.pairs
+  type: Field
+  source:
+    id: pairs
+    path: ''
+    startLine: 693
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Collections
+  syntax:
+    content: public List<DictionaryPair<T0, T1>> pairs
+    return:
+      type: System.Collections.Generic.List{CardBattle.Core.Collections.DictionaryPair{{T0},{T1}}}
+    content.vb: Public pairs As List(Of DictionaryPair(Of T0, T1))
+  nameWithType.vb: Dictionary(Of T0, T1).pairs
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).pairs
+- uid: CardBattle.Core.Collections.Dictionary`2.Find(`0)
+  commentId: M:CardBattle.Core.Collections.Dictionary`2.Find(`0)
+  id: Find(`0)
+  parent: CardBattle.Core.Collections.Dictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Find(T0)
+  nameWithType: Dictionary<T0, T1>.Find(T0)
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.Find(T0)
+  type: Method
+  source:
+    id: Find
+    path: ''
+    startLine: 695
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Collections
+  syntax:
+    content: public T1 Find(T0 term)
+    parameters:
+    - id: term
+      type: '{T0}'
+    return:
+      type: '{T1}'
+    content.vb: Public Function Find(term As T0) As T1
+  overload: CardBattle.Core.Collections.Dictionary`2.Find*
+  nameWithType.vb: Dictionary(Of T0, T1).Find(T0)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).Find(T0)
+- uid: CardBattle.Core.Collections.Dictionary`2.Find(`1)
+  commentId: M:CardBattle.Core.Collections.Dictionary`2.Find(`1)
+  id: Find(`1)
+  parent: CardBattle.Core.Collections.Dictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Find(T1)
+  nameWithType: Dictionary<T0, T1>.Find(T1)
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.Find(T1)
+  type: Method
+  source:
+    id: Find
+    path: ''
+    startLine: 708
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Collections
+  syntax:
+    content: public T0 Find(T1 term)
+    parameters:
+    - id: term
+      type: '{T1}'
+    return:
+      type: '{T0}'
+    content.vb: Public Function Find(term As T1) As T0
+  overload: CardBattle.Core.Collections.Dictionary`2.Find*
+  nameWithType.vb: Dictionary(Of T0, T1).Find(T1)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).Find(T1)
+- uid: CardBattle.Core.Collections.Dictionary`2.GetDictionaryPair(System.Int32)
+  commentId: M:CardBattle.Core.Collections.Dictionary`2.GetDictionaryPair(System.Int32)
+  id: GetDictionaryPair(System.Int32)
+  parent: CardBattle.Core.Collections.Dictionary`2
+  langs:
+  - csharp
+  - vb
+  name: GetDictionaryPair(Int32)
+  nameWithType: Dictionary<T0, T1>.GetDictionaryPair(Int32)
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.GetDictionaryPair(System.Int32)
+  type: Method
+  source:
+    id: GetDictionaryPair
+    path: ''
+    startLine: 721
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Collections
+  syntax:
+    content: public DictionaryPair<T0, T1> GetDictionaryPair(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: CardBattle.Core.Collections.DictionaryPair{{T0},{T1}}
+    content.vb: Public Function GetDictionaryPair(index As Integer) As DictionaryPair(Of T0, T1)
+  overload: CardBattle.Core.Collections.Dictionary`2.GetDictionaryPair*
+  nameWithType.vb: Dictionary(Of T0, T1).GetDictionaryPair(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).GetDictionaryPair(System.Int32)
+- uid: CardBattle.Core.Collections.Dictionary`2.Add(`0,`1)
+  commentId: M:CardBattle.Core.Collections.Dictionary`2.Add(`0,`1)
+  id: Add(`0,`1)
+  parent: CardBattle.Core.Collections.Dictionary`2
+  langs:
+  - csharp
+  - vb
+  name: Add(T0, T1)
+  nameWithType: Dictionary<T0, T1>.Add(T0, T1)
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.Add(T0, T1)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 723
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Collections
+  syntax:
+    content: public void Add(T0 t0, T1 t1)
+    parameters:
+    - id: t0
+      type: '{T0}'
+    - id: t1
+      type: '{T1}'
+    content.vb: Public Sub Add(t0 As T0, t1 As T1)
+  overload: CardBattle.Core.Collections.Dictionary`2.Add*
+  nameWithType.vb: Dictionary(Of T0, T1).Add(T0, T1)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).Add(T0, T1)
+references:
+- uid: CardBattle.Core.Collections
+  commentId: N:CardBattle.Core.Collections
+  name: CardBattle.Core.Collections
+  nameWithType: CardBattle.Core.Collections
+  fullName: CardBattle.Core.Collections
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.Collections.Dictionary`2.Item*
+  commentId: Overload:CardBattle.Core.Collections.Dictionary`2.Item
+  name: Item
+  nameWithType: Dictionary<T0, T1>.Item
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.Item
+  nameWithType.vb: Dictionary(Of T0, T1).Item
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).Item
+- uid: '{T0}'
+  commentId: '!:T0'
+  definition: T0
+  name: T0
+  nameWithType: T0
+  fullName: T0
+- uid: '{T1}'
+  commentId: '!:T1'
+  definition: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: T0
+  name: T0
+  nameWithType: T0
+  fullName: T0
+- uid: T1
+  name: T1
+  nameWithType: T1
+  fullName: T1
+- uid: System.Collections.Generic.List{CardBattle.Core.Collections.DictionaryPair{{T0},{T1}}}
+  commentId: T:System.Collections.Generic.List{CardBattle.Core.Collections.DictionaryPair{`0,`1}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DictionaryPair<T0, T1>>
+  nameWithType: List<DictionaryPair<T0, T1>>
+  fullName: System.Collections.Generic.List<CardBattle.Core.Collections.DictionaryPair<T0, T1>>
+  nameWithType.vb: List(Of DictionaryPair(Of T0, T1))
+  fullName.vb: System.Collections.Generic.List(Of CardBattle.Core.Collections.DictionaryPair(Of T0, T1))
+  name.vb: List(Of DictionaryPair(Of T0, T1))
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CardBattle.Core.Collections.DictionaryPair`2
+    name: DictionaryPair
+    nameWithType: DictionaryPair
+    fullName: CardBattle.Core.Collections.DictionaryPair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CardBattle.Core.Collections.DictionaryPair`2
+    name: DictionaryPair
+    nameWithType: DictionaryPair
+    fullName: CardBattle.Core.Collections.DictionaryPair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CardBattle.Core.Collections.Dictionary`2.Find*
+  commentId: Overload:CardBattle.Core.Collections.Dictionary`2.Find
+  name: Find
+  nameWithType: Dictionary<T0, T1>.Find
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.Find
+  nameWithType.vb: Dictionary(Of T0, T1).Find
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).Find
+- uid: CardBattle.Core.Collections.Dictionary`2.GetDictionaryPair*
+  commentId: Overload:CardBattle.Core.Collections.Dictionary`2.GetDictionaryPair
+  name: GetDictionaryPair
+  nameWithType: Dictionary<T0, T1>.GetDictionaryPair
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.GetDictionaryPair
+  nameWithType.vb: Dictionary(Of T0, T1).GetDictionaryPair
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).GetDictionaryPair
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardBattle.Core.Collections.DictionaryPair{{T0},{T1}}
+  commentId: T:CardBattle.Core.Collections.DictionaryPair{`0,`1}
+  parent: CardBattle.Core.Collections
+  definition: CardBattle.Core.Collections.DictionaryPair`2
+  name: DictionaryPair<T0, T1>
+  nameWithType: DictionaryPair<T0, T1>
+  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>
+  nameWithType.vb: DictionaryPair(Of T0, T1)
+  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1)
+  name.vb: DictionaryPair(Of T0, T1)
+  spec.csharp:
+  - uid: CardBattle.Core.Collections.DictionaryPair`2
+    name: DictionaryPair
+    nameWithType: DictionaryPair
+    fullName: CardBattle.Core.Collections.DictionaryPair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CardBattle.Core.Collections.DictionaryPair`2
+    name: DictionaryPair
+    nameWithType: DictionaryPair
+    fullName: CardBattle.Core.Collections.DictionaryPair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Core.Collections.DictionaryPair`2
+  commentId: T:CardBattle.Core.Collections.DictionaryPair`2
+  name: DictionaryPair<T0, T1>
+  nameWithType: DictionaryPair<T0, T1>
+  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>
+  nameWithType.vb: DictionaryPair(Of T0, T1)
+  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1)
+  name.vb: DictionaryPair(Of T0, T1)
+  spec.csharp:
+  - uid: CardBattle.Core.Collections.DictionaryPair`2
+    name: DictionaryPair
+    nameWithType: DictionaryPair
+    fullName: CardBattle.Core.Collections.DictionaryPair
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: CardBattle.Core.Collections.DictionaryPair`2
+    name: DictionaryPair
+    nameWithType: DictionaryPair
+    fullName: CardBattle.Core.Collections.DictionaryPair
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T0
+    nameWithType: T0
+    fullName: T0
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Core.Collections.Dictionary`2.Add*
+  commentId: Overload:CardBattle.Core.Collections.Dictionary`2.Add
+  name: Add
+  nameWithType: Dictionary<T0, T1>.Add
+  fullName: CardBattle.Core.Collections.Dictionary<T0, T1>.Add
+  nameWithType.vb: Dictionary(Of T0, T1).Add
+  fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).Add

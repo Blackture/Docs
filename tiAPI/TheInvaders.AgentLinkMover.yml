@@ -94,19 +94,6 @@ references:
   name: TheInvaders
   nameWithType: TheInvaders
   fullName: TheInvaders
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
 - uid: TheInvaders.OffMeshLinkMoveMethod
   commentId: T:TheInvaders.OffMeshLinkMoveMethod
   parent: TheInvaders

@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.DIFFICULTY
+  commentId: T:CardBattle.Core.DIFFICULTY
+  id: DIFFICULTY
+  parent: CardBattle.Core
+  children:
+  - CardBattle.Core.DIFFICULTY.EASY
+  - CardBattle.Core.DIFFICULTY.HARD
+  - CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
+  - CardBattle.Core.DIFFICULTY.NORMAL
+  - CardBattle.Core.DIFFICULTY.SERIOUSLY_INSANE
+  - CardBattle.Core.DIFFICULTY.TRAINING
+  - CardBattle.Core.DIFFICULTY.WHAT_THE_HELL_ARE_YOU_DOING
+  langs:
+  - csharp
+  - vb
+  name: DIFFICULTY
+  nameWithType: DIFFICULTY
+  fullName: CardBattle.Core.DIFFICULTY
+  type: Enum
+  source:
+    id: DIFFICULTY
+    path: ''
+    startLine: 53
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public enum DIFFICULTY
+    content.vb: Public Enum DIFFICULTY
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardBattle.Core.DIFFICULTY.TRAINING
+  commentId: F:CardBattle.Core.DIFFICULTY.TRAINING
+  id: TRAINING
+  parent: CardBattle.Core.DIFFICULTY
+  langs:
+  - csharp
+  - vb
+  name: TRAINING
+  nameWithType: DIFFICULTY.TRAINING
+  fullName: CardBattle.Core.DIFFICULTY.TRAINING
+  type: Field
+  source:
+    id: TRAINING
+    path: ''
+    startLine: 55
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: TRAINING = 0
+    return:
+      type: CardBattle.Core.DIFFICULTY
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
+  commentId: F:CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
+  id: NO_CHALLENGE_AT_ALL
+  parent: CardBattle.Core.DIFFICULTY
+  langs:
+  - csharp
+  - vb
+  name: NO_CHALLENGE_AT_ALL
+  nameWithType: DIFFICULTY.NO_CHALLENGE_AT_ALL
+  fullName: CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
+  type: Field
+  source:
+    id: NO_CHALLENGE_AT_ALL
+    path: ''
+    startLine: 56
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: NO_CHALLENGE_AT_ALL = 1
+    return:
+      type: CardBattle.Core.DIFFICULTY
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIFFICULTY.EASY
+  commentId: F:CardBattle.Core.DIFFICULTY.EASY
+  id: EASY
+  parent: CardBattle.Core.DIFFICULTY
+  langs:
+  - csharp
+  - vb
+  name: EASY
+  nameWithType: DIFFICULTY.EASY
+  fullName: CardBattle.Core.DIFFICULTY.EASY
+  type: Field
+  source:
+    id: EASY
+    path: ''
+    startLine: 57
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: EASY = 2
+    return:
+      type: CardBattle.Core.DIFFICULTY
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIFFICULTY.NORMAL
+  commentId: F:CardBattle.Core.DIFFICULTY.NORMAL
+  id: NORMAL
+  parent: CardBattle.Core.DIFFICULTY
+  langs:
+  - csharp
+  - vb
+  name: NORMAL
+  nameWithType: DIFFICULTY.NORMAL
+  fullName: CardBattle.Core.DIFFICULTY.NORMAL
+  type: Field
+  source:
+    id: NORMAL
+    path: ''
+    startLine: 58
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: NORMAL = 3
+    return:
+      type: CardBattle.Core.DIFFICULTY
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIFFICULTY.HARD
+  commentId: F:CardBattle.Core.DIFFICULTY.HARD
+  id: HARD
+  parent: CardBattle.Core.DIFFICULTY
+  langs:
+  - csharp
+  - vb
+  name: HARD
+  nameWithType: DIFFICULTY.HARD
+  fullName: CardBattle.Core.DIFFICULTY.HARD
+  type: Field
+  source:
+    id: HARD
+    path: ''
+    startLine: 59
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: HARD = 4
+    return:
+      type: CardBattle.Core.DIFFICULTY
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIFFICULTY.SERIOUSLY_INSANE
+  commentId: F:CardBattle.Core.DIFFICULTY.SERIOUSLY_INSANE
+  id: SERIOUSLY_INSANE
+  parent: CardBattle.Core.DIFFICULTY
+  langs:
+  - csharp
+  - vb
+  name: SERIOUSLY_INSANE
+  nameWithType: DIFFICULTY.SERIOUSLY_INSANE
+  fullName: CardBattle.Core.DIFFICULTY.SERIOUSLY_INSANE
+  type: Field
+  source:
+    id: SERIOUSLY_INSANE
+    path: ''
+    startLine: 60
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: SERIOUSLY_INSANE = 5
+    return:
+      type: CardBattle.Core.DIFFICULTY
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardBattle.Core.DIFFICULTY.WHAT_THE_HELL_ARE_YOU_DOING
+  commentId: F:CardBattle.Core.DIFFICULTY.WHAT_THE_HELL_ARE_YOU_DOING
+  id: WHAT_THE_HELL_ARE_YOU_DOING
+  parent: CardBattle.Core.DIFFICULTY
+  langs:
+  - csharp
+  - vb
+  name: WHAT_THE_HELL_ARE_YOU_DOING
+  nameWithType: DIFFICULTY.WHAT_THE_HELL_ARE_YOU_DOING
+  fullName: CardBattle.Core.DIFFICULTY.WHAT_THE_HELL_ARE_YOU_DOING
+  type: Field
+  source:
+    id: WHAT_THE_HELL_ARE_YOU_DOING
+    path: ''
+    startLine: 61
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: WHAT_THE_HELL_ARE_YOU_DOING = 6
+    return:
+      type: CardBattle.Core.DIFFICULTY
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: CardBattle.Core.DIFFICULTY
+  commentId: T:CardBattle.Core.DIFFICULTY
+  parent: CardBattle.Core
+  name: DIFFICULTY
+  nameWithType: DIFFICULTY
+  fullName: CardBattle.Core.DIFFICULTY

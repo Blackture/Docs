@@ -7,8 +7,13 @@ items:
   children:
   - CardBattle.Core.GameManager.Awake
   - CardBattle.Core.GameManager.bot
+  - CardBattle.Core.GameManager.difficulty
+  - CardBattle.Core.GameManager.gamemode
+  - CardBattle.Core.GameManager.Initiate
+  - CardBattle.Core.GameManager.Initiate(CardBattle.Core.DIFFICULTY)
+  - CardBattle.Core.GameManager.Initiate(CardBattle.Core.MatchType)
+  - CardBattle.Core.GameManager.Initiate(System.Collections.Generic.List{GameObject},System.Collections.Generic.List{Photon.Realtime.Player})
   - CardBattle.Core.GameManager.instance
-  - CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List{GameObject})
   - CardBattle.Core.GameManager.players
   - CardBattle.Core.GameManager.Start
   - CardBattle.Core.GameManager.turnManager
@@ -22,7 +27,7 @@ items:
   source:
     id: GameManager
     path: ''
-    startLine: 121
+    startLine: 74
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -53,7 +58,7 @@ items:
   source:
     id: instance
     path: ''
-    startLine: 124
+    startLine: 77
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -82,7 +87,7 @@ items:
   source:
     id: turnManager
     path: ''
-    startLine: 125
+    startLine: 78
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -111,7 +116,7 @@ items:
   source:
     id: players
     path: ''
-    startLine: 127
+    startLine: 80
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -138,7 +143,7 @@ items:
   source:
     id: bot
     path: ''
-    startLine: 128
+    startLine: 81
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -147,6 +152,60 @@ items:
     return:
       type: CardBattle.Core.AI.Bot
     content.vb: Public bot As Bot
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.GameManager.gamemode
+  commentId: F:CardBattle.Core.GameManager.gamemode
+  id: gamemode
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: gamemode
+  nameWithType: GameManager.gamemode
+  fullName: CardBattle.Core.GameManager.gamemode
+  type: Field
+  source:
+    id: gamemode
+    path: ''
+    startLine: 83
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public MatchType gamemode
+    return:
+      type: CardBattle.Core.MatchType
+    content.vb: Public gamemode As MatchType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.GameManager.difficulty
+  commentId: F:CardBattle.Core.GameManager.difficulty
+  id: difficulty
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: difficulty
+  nameWithType: GameManager.difficulty
+  fullName: CardBattle.Core.GameManager.difficulty
+  type: Field
+  source:
+    id: difficulty
+    path: ''
+    startLine: 84
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public DIFFICULTY difficulty
+    return:
+      type: CardBattle.Core.DIFFICULTY
+    content.vb: Public difficulty As DIFFICULTY
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -165,7 +224,7 @@ items:
   source:
     id: Awake
     path: ''
-    startLine: 130
+    startLine: 86
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -191,7 +250,7 @@ items:
   source:
     id: Start
     path: ''
-    startLine: 138
+    startLine: 94
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
@@ -203,38 +262,124 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List{GameObject})
-  commentId: M:CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List{GameObject})
-  id: InstantiatePlayers(System.Collections.Generic.List{GameObject})
+- uid: CardBattle.Core.GameManager.Initiate
+  commentId: M:CardBattle.Core.GameManager.Initiate
+  id: Initiate
   parent: CardBattle.Core.GameManager
   langs:
   - csharp
   - vb
-  name: InstantiatePlayers(List<GameObject>)
-  nameWithType: GameManager.InstantiatePlayers(List<GameObject>)
-  fullName: CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List<GameObject>)
+  name: Initiate()
+  nameWithType: GameManager.Initiate()
+  fullName: CardBattle.Core.GameManager.Initiate()
   type: Method
   source:
-    id: InstantiatePlayers
+    id: Initiate
     path: ''
-    startLine: 143
+    startLine: 99
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core
   syntax:
-    content: public void InstantiatePlayers(List<GameObject> attachTos)
-    parameters:
-    - id: attachTos
-      type: System.Collections.Generic.List{GameObject}
-    content.vb: Public Sub InstantiatePlayers(attachTos As List(Of GameObject))
-  overload: CardBattle.Core.GameManager.InstantiatePlayers*
-  nameWithType.vb: GameManager.InstantiatePlayers(List(Of GameObject))
+    content: public void Initiate()
+    content.vb: Public Sub Initiate
+  overload: CardBattle.Core.GameManager.Initiate*
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-  fullName.vb: CardBattle.Core.GameManager.InstantiatePlayers(System.Collections.Generic.List(Of GameObject))
-  name.vb: InstantiatePlayers(List(Of GameObject))
+- uid: CardBattle.Core.GameManager.Initiate(CardBattle.Core.MatchType)
+  commentId: M:CardBattle.Core.GameManager.Initiate(CardBattle.Core.MatchType)
+  id: Initiate(CardBattle.Core.MatchType)
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Initiate(MatchType)
+  nameWithType: GameManager.Initiate(MatchType)
+  fullName: CardBattle.Core.GameManager.Initiate(CardBattle.Core.MatchType)
+  type: Method
+  source:
+    id: Initiate
+    path: ''
+    startLine: 105
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public void Initiate(MatchType gamemode)
+    parameters:
+    - id: gamemode
+      type: CardBattle.Core.MatchType
+    content.vb: Public Sub Initiate(gamemode As MatchType)
+  overload: CardBattle.Core.GameManager.Initiate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.GameManager.Initiate(CardBattle.Core.DIFFICULTY)
+  commentId: M:CardBattle.Core.GameManager.Initiate(CardBattle.Core.DIFFICULTY)
+  id: Initiate(CardBattle.Core.DIFFICULTY)
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Initiate(DIFFICULTY)
+  nameWithType: GameManager.Initiate(DIFFICULTY)
+  fullName: CardBattle.Core.GameManager.Initiate(CardBattle.Core.DIFFICULTY)
+  type: Method
+  source:
+    id: Initiate
+    path: ''
+    startLine: 110
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public void Initiate(DIFFICULTY difficulty)
+    parameters:
+    - id: difficulty
+      type: CardBattle.Core.DIFFICULTY
+    content.vb: Public Sub Initiate(difficulty As DIFFICULTY)
+  overload: CardBattle.Core.GameManager.Initiate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.GameManager.Initiate(System.Collections.Generic.List{GameObject},System.Collections.Generic.List{Photon.Realtime.Player})
+  commentId: M:CardBattle.Core.GameManager.Initiate(System.Collections.Generic.List{GameObject},System.Collections.Generic.List{Photon.Realtime.Player})
+  id: Initiate(System.Collections.Generic.List{GameObject},System.Collections.Generic.List{Photon.Realtime.Player})
+  parent: CardBattle.Core.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Initiate(List<GameObject>, List<Photon.Realtime.Player>)
+  nameWithType: GameManager.Initiate(List<GameObject>, List<Photon.Realtime.Player>)
+  fullName: CardBattle.Core.GameManager.Initiate(System.Collections.Generic.List<GameObject>, System.Collections.Generic.List<Photon.Realtime.Player>)
+  type: Method
+  source:
+    id: Initiate
+    path: ''
+    startLine: 115
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public void Initiate(List<GameObject> attachTos, List<Photon.Realtime.Player> networkPlayers)
+    parameters:
+    - id: attachTos
+      type: System.Collections.Generic.List{GameObject}
+    - id: networkPlayers
+      type: System.Collections.Generic.List{Photon.Realtime.Player}
+    content.vb: Public Sub Initiate(attachTos As List(Of GameObject), networkPlayers As List(Of Photon.Realtime.Player))
+  overload: CardBattle.Core.GameManager.Initiate*
+  nameWithType.vb: GameManager.Initiate(List(Of GameObject), List(Of Photon.Realtime.Player))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.GameManager.Initiate(System.Collections.Generic.List(Of GameObject), System.Collections.Generic.List(Of Photon.Realtime.Player))
+  name.vb: Initiate(List(Of GameObject), List(Of Photon.Realtime.Player))
 references:
 - uid: CardBattle.Core
   commentId: N:CardBattle.Core
@@ -366,6 +511,18 @@ references:
   name: CardBattle.Core.AI
   nameWithType: CardBattle.Core.AI
   fullName: CardBattle.Core.AI
+- uid: CardBattle.Core.MatchType
+  commentId: T:CardBattle.Core.MatchType
+  parent: CardBattle.Core
+  name: MatchType
+  nameWithType: MatchType
+  fullName: CardBattle.Core.MatchType
+- uid: CardBattle.Core.DIFFICULTY
+  commentId: T:CardBattle.Core.DIFFICULTY
+  parent: CardBattle.Core
+  name: DIFFICULTY
+  nameWithType: DIFFICULTY
+  fullName: CardBattle.Core.DIFFICULTY
 - uid: CardBattle.Core.GameManager.Awake*
   commentId: Overload:CardBattle.Core.GameManager.Awake
   name: Awake
@@ -376,11 +533,11 @@ references:
   name: Start
   nameWithType: GameManager.Start
   fullName: CardBattle.Core.GameManager.Start
-- uid: CardBattle.Core.GameManager.InstantiatePlayers*
-  commentId: Overload:CardBattle.Core.GameManager.InstantiatePlayers
-  name: InstantiatePlayers
-  nameWithType: GameManager.InstantiatePlayers
-  fullName: CardBattle.Core.GameManager.InstantiatePlayers
+- uid: CardBattle.Core.GameManager.Initiate*
+  commentId: Overload:CardBattle.Core.GameManager.Initiate
+  name: Initiate
+  nameWithType: GameManager.Initiate
+  fullName: CardBattle.Core.GameManager.Initiate
 - uid: System.Collections.Generic.List{GameObject}
   commentId: T:System.Collections.Generic.List{GameObject}
   parent: System.Collections.Generic
@@ -421,6 +578,50 @@ references:
     name: GameObject
     nameWithType: GameObject
     fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{Photon.Realtime.Player}
+  commentId: T:System.Collections.Generic.List{Photon.Realtime.Player}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Photon.Realtime.Player>
+  nameWithType: List<Photon.Realtime.Player>
+  fullName: System.Collections.Generic.List<Photon.Realtime.Player>
+  nameWithType.vb: List(Of Photon.Realtime.Player)
+  fullName.vb: System.Collections.Generic.List(Of Photon.Realtime.Player)
+  name.vb: List(Of Photon.Realtime.Player)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Photon.Realtime.Player
+    name: Photon.Realtime.Player
+    nameWithType: Photon.Realtime.Player
+    fullName: Photon.Realtime.Player
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Photon.Realtime.Player
+    name: Photon.Realtime.Player
+    nameWithType: Photon.Realtime.Player
+    fullName: Photon.Realtime.Player
     isExternal: true
   - name: )
     nameWithType: )

@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Elements
+  commentId: N:CardBattle.Core.Elements
+  id: CardBattle.Core.Elements
+  children:
+  - CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core.Elements
+  nameWithType: CardBattle.Core.Elements
+  fullName: CardBattle.Core.Elements
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.Elements.HexagonalField
+  commentId: T:CardBattle.Core.Elements.HexagonalField
+  parent: CardBattle.Core.Elements
+  name: HexagonalField
+  nameWithType: HexagonalField
+  fullName: CardBattle.Core.Elements.HexagonalField
+- uid: CardBattle.Core.Elements
+  commentId: N:CardBattle.Core.Elements
+  name: CardBattle.Core.Elements
+  nameWithType: CardBattle.Core.Elements
+  fullName: CardBattle.Core.Elements

@@ -20,7 +20,7 @@ items:
   source:
     id: CardStack
     path: ''
-    startLine: 251
+    startLine: 300
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -66,7 +66,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 255
+    startLine: 304
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -100,7 +100,7 @@ items:
   source:
     id: Shuffle
     path: ''
-    startLine: 264
+    startLine: 313
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -133,7 +133,7 @@ items:
   source:
     id: Shuffle
     path: ''
-    startLine: 281
+    startLine: 330
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -171,7 +171,7 @@ items:
   source:
     id: DrawCard
     path: ''
-    startLine: 298
+    startLine: 347
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -204,7 +204,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 309
+    startLine: 358
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -658,7 +658,6 @@ references:
   nameWithType: T
   fullName: T
 - uid: T
-  commentId: '!:T'
   name: T
   nameWithType: T
   fullName: T

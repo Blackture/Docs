@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Networking.HexagonalFieldController
+  commentId: T:CardBattle.Networking.HexagonalFieldController
+  id: HexagonalFieldController
+  parent: CardBattle.Networking
+  children:
+  - CardBattle.Networking.HexagonalFieldController.GetNeighbor(DIRECTION)
+  - CardBattle.Networking.HexagonalFieldController.GetNeighbors
+  - CardBattle.Networking.HexagonalFieldController.Initialize(System.Int32,Vector2,Vector3,CardBattle.Networking.MapGeneration)
+  - CardBattle.Networking.HexagonalFieldController.IsLerped
+  - CardBattle.Networking.HexagonalFieldController.Lerp
+  - CardBattle.Networking.HexagonalFieldController.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  langs:
+  - csharp
+  - vb
+  name: HexagonalFieldController
+  nameWithType: HexagonalFieldController
+  fullName: CardBattle.Networking.HexagonalFieldController
+  type: Class
+  source:
+    id: HexagonalFieldController
+    path: ''
+    startLine: 1763
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: 'public class HexagonalFieldController : MonoBehaviourPunCallbacks, IPunObservable'
+    content.vb: >-
+      Public Class HexagonalFieldController
+          Inherits MonoBehaviourPunCallbacks
+          Implements IPunObservable
+  inheritance:
+  - System.Object
+  implements:
+  - IPunObservable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Networking.HexagonalFieldController.IsLerped
+  commentId: P:CardBattle.Networking.HexagonalFieldController.IsLerped
+  id: IsLerped
+  parent: CardBattle.Networking.HexagonalFieldController
+  langs:
+  - csharp
+  - vb
+  name: IsLerped
+  nameWithType: HexagonalFieldController.IsLerped
+  fullName: CardBattle.Networking.HexagonalFieldController.IsLerped
+  type: Property
+  source:
+    id: IsLerped
+    path: ''
+    startLine: 1772
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public bool IsLerped { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsLerped As Boolean
+  overload: CardBattle.Networking.HexagonalFieldController.IsLerped*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Networking.HexagonalFieldController.Initialize(System.Int32,Vector2,Vector3,CardBattle.Networking.MapGeneration)
+  commentId: M:CardBattle.Networking.HexagonalFieldController.Initialize(System.Int32,Vector2,Vector3,CardBattle.Networking.MapGeneration)
+  id: Initialize(System.Int32,Vector2,Vector3,CardBattle.Networking.MapGeneration)
+  parent: CardBattle.Networking.HexagonalFieldController
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Int32, Vector2, Vector3, MapGeneration)
+  nameWithType: HexagonalFieldController.Initialize(Int32, Vector2, Vector3, MapGeneration)
+  fullName: CardBattle.Networking.HexagonalFieldController.Initialize(System.Int32, Vector2, Vector3, CardBattle.Networking.MapGeneration)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 1790
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void Initialize(int index, Vector2 axialCoordinates, Vector3 coordinates, MapGeneration indexedBy)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: axialCoordinates
+      type: Vector2
+    - id: coordinates
+      type: Vector3
+    - id: indexedBy
+      type: CardBattle.Networking.MapGeneration
+    content.vb: Public Sub Initialize(index As Integer, axialCoordinates As Vector2, coordinates As Vector3, indexedBy As MapGeneration)
+  overload: CardBattle.Networking.HexagonalFieldController.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.HexagonalFieldController.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  commentId: M:CardBattle.Networking.HexagonalFieldController.OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  id: OnPhotonSerializeView(PhotonStream,PhotonMessageInfo)
+  parent: CardBattle.Networking.HexagonalFieldController
+  langs:
+  - csharp
+  - vb
+  name: OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  nameWithType: HexagonalFieldController.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  fullName: CardBattle.Networking.HexagonalFieldController.OnPhotonSerializeView(PhotonStream, PhotonMessageInfo)
+  type: Method
+  source:
+    id: OnPhotonSerializeView
+    path: ''
+    startLine: 1798
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    parameters:
+    - id: stream
+      type: PhotonStream
+    - id: info
+      type: PhotonMessageInfo
+    content.vb: Public Sub OnPhotonSerializeView(stream As PhotonStream, info As PhotonMessageInfo)
+  overload: CardBattle.Networking.HexagonalFieldController.OnPhotonSerializeView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.HexagonalFieldController.GetNeighbor(DIRECTION)
+  commentId: M:CardBattle.Networking.HexagonalFieldController.GetNeighbor(DIRECTION)
+  id: GetNeighbor(DIRECTION)
+  parent: CardBattle.Networking.HexagonalFieldController
+  langs:
+  - csharp
+  - vb
+  name: GetNeighbor(DIRECTION)
+  nameWithType: HexagonalFieldController.GetNeighbor(DIRECTION)
+  fullName: CardBattle.Networking.HexagonalFieldController.GetNeighbor(DIRECTION)
+  type: Method
+  source:
+    id: GetNeighbor
+    path: ''
+    startLine: 1803
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public HexagonalField GetNeighbor(DIRECTION direction)
+    parameters:
+    - id: direction
+      type: DIRECTION
+    return:
+      type: HexagonalField
+    content.vb: Public Function GetNeighbor(direction As DIRECTION) As HexagonalField
+  overload: CardBattle.Networking.HexagonalFieldController.GetNeighbor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.HexagonalFieldController.GetNeighbors
+  commentId: M:CardBattle.Networking.HexagonalFieldController.GetNeighbors
+  id: GetNeighbors
+  parent: CardBattle.Networking.HexagonalFieldController
+  langs:
+  - csharp
+  - vb
+  name: GetNeighbors()
+  nameWithType: HexagonalFieldController.GetNeighbors()
+  fullName: CardBattle.Networking.HexagonalFieldController.GetNeighbors()
+  type: Method
+  source:
+    id: GetNeighbors
+    path: ''
+    startLine: 1808
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void GetNeighbors()
+    content.vb: Public Sub GetNeighbors
+  overload: CardBattle.Networking.HexagonalFieldController.GetNeighbors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.HexagonalFieldController.Lerp
+  commentId: M:CardBattle.Networking.HexagonalFieldController.Lerp
+  id: Lerp
+  parent: CardBattle.Networking.HexagonalFieldController
+  langs:
+  - csharp
+  - vb
+  name: Lerp()
+  nameWithType: HexagonalFieldController.Lerp()
+  fullName: CardBattle.Networking.HexagonalFieldController.Lerp()
+  type: Method
+  source:
+    id: Lerp
+    path: ''
+    startLine: 1813
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void Lerp()
+    content.vb: Public Sub Lerp
+  overload: CardBattle.Networking.HexagonalFieldController.Lerp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Networking
+  commentId: N:CardBattle.Networking
+  name: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+  fullName: CardBattle.Networking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: IPunObservable
+  commentId: '!:IPunObservable'
+  isExternal: true
+  name: IPunObservable
+  nameWithType: IPunObservable
+  fullName: IPunObservable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Networking.HexagonalFieldController.IsLerped*
+  commentId: Overload:CardBattle.Networking.HexagonalFieldController.IsLerped
+  name: IsLerped
+  nameWithType: HexagonalFieldController.IsLerped
+  fullName: CardBattle.Networking.HexagonalFieldController.IsLerped
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CardBattle.Networking.HexagonalFieldController.Initialize*
+  commentId: Overload:CardBattle.Networking.HexagonalFieldController.Initialize
+  name: Initialize
+  nameWithType: HexagonalFieldController.Initialize
+  fullName: CardBattle.Networking.HexagonalFieldController.Initialize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: CardBattle.Networking.MapGeneration
+  commentId: T:CardBattle.Networking.MapGeneration
+  parent: CardBattle.Networking
+  name: MapGeneration
+  nameWithType: MapGeneration
+  fullName: CardBattle.Networking.MapGeneration
+- uid: CardBattle.Networking.HexagonalFieldController.OnPhotonSerializeView*
+  commentId: Overload:CardBattle.Networking.HexagonalFieldController.OnPhotonSerializeView
+  name: OnPhotonSerializeView
+  nameWithType: HexagonalFieldController.OnPhotonSerializeView
+  fullName: CardBattle.Networking.HexagonalFieldController.OnPhotonSerializeView
+- uid: PhotonStream
+  commentId: '!:PhotonStream'
+  isExternal: true
+  name: PhotonStream
+  nameWithType: PhotonStream
+  fullName: PhotonStream
+- uid: PhotonMessageInfo
+  commentId: '!:PhotonMessageInfo'
+  isExternal: true
+  name: PhotonMessageInfo
+  nameWithType: PhotonMessageInfo
+  fullName: PhotonMessageInfo
+- uid: CardBattle.Networking.HexagonalFieldController.GetNeighbor*
+  commentId: Overload:CardBattle.Networking.HexagonalFieldController.GetNeighbor
+  name: GetNeighbor
+  nameWithType: HexagonalFieldController.GetNeighbor
+  fullName: CardBattle.Networking.HexagonalFieldController.GetNeighbor
+- uid: DIRECTION
+  commentId: '!:DIRECTION'
+  isExternal: true
+  name: DIRECTION
+  nameWithType: DIRECTION
+  fullName: DIRECTION
+- uid: HexagonalField
+  commentId: '!:HexagonalField'
+  isExternal: true
+  name: HexagonalField
+  nameWithType: HexagonalField
+  fullName: HexagonalField
+- uid: CardBattle.Networking.HexagonalFieldController.GetNeighbors*
+  commentId: Overload:CardBattle.Networking.HexagonalFieldController.GetNeighbors
+  name: GetNeighbors
+  nameWithType: HexagonalFieldController.GetNeighbors
+  fullName: CardBattle.Networking.HexagonalFieldController.GetNeighbors
+- uid: CardBattle.Networking.HexagonalFieldController.Lerp*
+  commentId: Overload:CardBattle.Networking.HexagonalFieldController.Lerp
+  name: Lerp
+  nameWithType: HexagonalFieldController.Lerp
+  fullName: CardBattle.Networking.HexagonalFieldController.Lerp

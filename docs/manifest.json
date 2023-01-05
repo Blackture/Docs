@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/patri/Desktop/docfx/~Desktop/Docs",
+  "source_base_path": "D:/Users/patri/Desktop/docfx/~Desktop/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "oEJOhvjEZ0V7PDk/irmw5IDfV7YEd2bzZumifkGz1hc="
+          "hash": "C0wwl9oPXlOsSwBnkFsOkqNZkOJJW8wmlxQTFBOFHPk="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "References/toc.html",
-          "hash": "egGbfs+JddsKubO3RSDnuyuC5LoPjUSZDcg4nD2T8ms="
+          "hash": "3ccGkzInHE6QUwKJnOgWoj/eFmBi2nio/9pW0rBf2d0="
         }
       },
       "is_incremental": false,
@@ -70,6 +70,30 @@
         ".html": {
           "relative_path": "articles/theInvaders/get_started.html",
           "hash": "ohaSgH68pkvf9R0Ar/0/IIlox+simYpi7XE8uT56MNw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/Assets.Scripts.Networking.GeneralMatchController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/Assets.Scripts.Networking.GeneralMatchController.html",
+          "hash": "4owl13xoHrPqIZqY3Fdb0ACSum8HU/QBhZqniMGhdW0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/Assets.Scripts.Networking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/Assets.Scripts.Networking.html",
+          "hash": "zaUBLNrRu/WCjtKypNRRKDNy/QPf3sj/VdOWirVGAcw="
         }
       },
       "is_incremental": true,
@@ -233,11 +257,119 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "cardBattleAPI/CardBattle.Core.GameController.yml",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Collections.Dictionary-2.yml",
       "output": {
         ".html": {
-          "relative_path": "cardBattleAPI/CardBattle.Core.GameController.html",
-          "hash": "Z3wbx0BiZrtqeYPQeEvOIZn8LuWF/lXUAlNeljRAjuE="
+          "relative_path": "cardBattleAPI/CardBattle.Core.Collections.Dictionary-2.html",
+          "hash": "GbfqJX7XJ72RzikFI0R3bhVbivblfIbcCgDqW4mufgI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Collections.DictionaryPair-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Collections.DictionaryPair-2.html",
+          "hash": "wTQ7vEdqRxpaZ9Osm6RWm51qyIMXjn2tgKgWMll6Rcc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Collections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Collections.html",
+          "hash": "Mm5YSQpoH48hopDuZAZxxlBvtl7sIZ7iIf2offHh5vM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Controls.ControlMapping.UNIT_MODE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Controls.ControlMapping.UNIT_MODE.html",
+          "hash": "aI+RnHnHZEM+Sa9c16gjRNt9QsrUO6tn+qRDSgqVA4Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Controls.ControlMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Controls.ControlMapping.html",
+          "hash": "gAK70uxvXGkSEZ93mF2uqyQYLhPv/yW/i+zEpNUblEY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Controls.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Controls.html",
+          "hash": "dIlLWEEaL7Zgx8cASjmoY17z1tE0PbKzvoCgGtNXSkE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.DIFFICULTY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.DIFFICULTY.html",
+          "hash": "taj2y/pbIzjfwLW4PcqrAIxuUybDHvFSj1QUMWb0tuk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.DIRECTION.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.DIRECTION.html",
+          "hash": "fRIjDV+FT0CmWOPtFTUhKpeTSsB2De/3lCdGwZRlOIA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Elements.HexagonalField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Elements.HexagonalField.html",
+          "hash": "0NKYZ85tJuPhiS4nzOEZNiHFoYSeCopjE4RjmKvEl0w="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Elements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Elements.html",
+          "hash": "RzJ0JXdBN8bnRBEDcrTpEDH3x+L9nDFBaFsg+T8wMCE="
         }
       },
       "is_incremental": true,
@@ -249,7 +381,31 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.GameManager.html",
-          "hash": "iPtC6q6pVXWuW9A6cu1y6NgFnFhqKdngnFIsdEDuypI="
+          "hash": "If3RTyp2lXuoSDITU62x9bj1n8gSpSKre0BrozhQRfY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Generation.Biome.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Generation.Biome.html",
+          "hash": "pZubm2+Xb4FHveThPr+VDpIt7bXZlMuX/HM/Yr/82iY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Generation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Generation.html",
+          "hash": "Uwm33moXXd3RRIV0eY5i9M95rYDbWY1B+VWpXZqPW4k="
         }
       },
       "is_incremental": true,
@@ -269,6 +425,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.MatchType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.MatchType.html",
+          "hash": "+j6nayXvqooCMYaa+/v5JiUDJYLFu1gkRHrhhAoLcpg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "cardBattleAPI/CardBattle.Core.Players.Debt.yml",
       "output": {
         ".html": {
@@ -276,7 +444,7 @@
           "hash": "f7q0awsU8G/FyENxx5VlDN+aI4EuLC7Tvw53eDfpQKE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -297,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Players.Player.html",
-          "hash": "RYXtasu+BGkYBpMGhZ8Bh/KEaciGT0YnpmmgjYmDc44="
+          "hash": "E8yYgPvbKBvURT/Gd4lJewz3vFk6+eUVj+6iLDvG7OU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -312,7 +480,7 @@
           "hash": "C+aEMTp5Q+rTRruZ25ELxSIh8ro1OmEywRIm7hipn0U="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -324,7 +492,7 @@
           "hash": "Tn1PkF+eAbzJ5gdtFG0q+QyYzDYAjjcuOYwIyd82aCQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -336,7 +504,43 @@
           "hash": "roOyBPuv4xECQ39SsEDf2pxvF22h3Y12pNZNkmPXfGA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Slider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Slider.html",
+          "hash": "802Nfa+WlasXDN4EhhnbQt33voD5xIor75z/AM01+Oo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Turns.QuickMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Turns.QuickMatch.html",
+          "hash": "xqHtDau/arKzlEvi9STSyJRN+OqnlJQH/9lo28FiWiA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Core.Turns.StandardMatch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Core.Turns.StandardMatch.html",
+          "hash": "bqr6nTuInclCyhbJWfsDxqLYZwNrdf+87hl4ltwOV3o="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Turns.Turn.html",
-          "hash": "euGObWKddGlhyjeLYo8KNROuVettjRkneyPpFh2VdLs="
+          "hash": "OgIfi0BsqNY3RKYNYMLcCon6ZewA5D8SnGJ/J3kk9iQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -360,7 +564,7 @@
           "hash": "dv/gURwdAVHY8F+cdBotQn31FGwzDzFeR1vMb4XQJHk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.Turns.html",
-          "hash": "kIokFTaizClbKOBVPaAoWv3YzRLtvWOwNrDXMQHZgKg="
+          "hash": "E9kVIufakJZN4rO/vM2i6zHQnr3jLvzPvl9tAh3ReMo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Core.html",
-          "hash": "1n+d+52R4ERhBLWZKl8dHTu0MGs8KkdXN0qWswUebDQ="
+          "hash": "QN9YjxcB3VVQoRnejPOubi2c/W8w1nqadmWA7YKh4VY="
         }
       },
       "is_incremental": true,
@@ -396,7 +600,67 @@
           "hash": "3ENO4mILzB4N6JAjLUyqDLQmspteupeR2WYyM8zOmAs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Display.MenuManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Display.MenuManager.html",
+          "hash": "yZAAza0n8D+RVZH0gAZjXs9xk7YQJayVPQ9RTYSc2PI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Display.Panel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Display.Panel.html",
+          "hash": "mOrP96Hl2TgsqcI99bop9oqZmVfKKbRsQy9l+KQ8oIo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Display.PanelManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Display.PanelManager.html",
+          "hash": "zjTNNVCJSGKi0JxqznCXDo1d3Gk1MC5f2sdPWDV4b90="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Display.Panels.StandardPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Display.Panels.StandardPanel.html",
+          "hash": "n+Dakv5MLdFDWSekA3PaANM/P33twMzNPXdKi0NVW4Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Display.Panels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Display.Panels.html",
+          "hash": "BazPk8sNtZv0kUgtI93urU+Kv4ZgJrDABoEOGzZyd0Q="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -408,7 +672,7 @@
           "hash": "+a9L61Yr6IafmibUTZMK+33GuHM93QBOAmFGFaXm9P4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -417,34 +681,22 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Display.html",
-          "hash": "Io1AqrE+VTTQztt2GM7GcEUP8Fuo26NUXu66t8QdS+I="
+          "hash": "jHqXpcY7r90ivUcH/XqJVmSB3CSVk2aS2I02dYWspLo="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "cardBattleAPI/CardBattle.Networking.ConnectToServer.yml",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.HexagonalFieldController.yml",
       "output": {
         ".html": {
-          "relative_path": "cardBattleAPI/CardBattle.Networking.ConnectToServer.html",
-          "hash": "Y5nTzPYscymhUNzFs5PmK6s8dK6W/HF6ED3p1NmXCQk="
+          "relative_path": "cardBattleAPI/CardBattle.Networking.HexagonalFieldController.html",
+          "hash": "atnCzJFUcEEcXZNoR9CnYWApgAiTsJgLLRzbq8kosKI="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "cardBattleAPI/CardBattle.Networking.CreateAndJoinRooms.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cardBattleAPI/CardBattle.Networking.CreateAndJoinRooms.html",
-          "hash": "6Kl+vBFIfgQzZMdNdFbLJYteSLrBORngXM+ruEGQoi0="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -456,7 +708,79 @@
           "hash": "PbnHLfmrn7EJczz0LBJJv3HmmTuIEwMnB/fzJFhOkVk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.MapGeneration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.MapGeneration.html",
+          "hash": "xLp+Cb3YUlL4nr8D0MN/TAikKrdDYaVPJw6KBekwTiU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.NetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.NetworkManager.html",
+          "hash": "Cdk6SwtAwNoRudE/X+3itbdU87FZ7HGcZ8MKiHUr1SU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.NetworkManagers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.NetworkManagers.html",
+          "hash": "hp66L0ruDLUMPXiOaq0YOlW49F3FHSGv/ooopkUQR1g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.NetworkSceneManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.NetworkSceneManager.html",
+          "hash": "lypSlbhX0PGgJFU5VQLTKDW0LZqgmAZG0SfoifvVFpA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.PlayerSync.EndTurnButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.PlayerSync.EndTurnButton.html",
+          "hash": "NxbKoRopouaNTtAE+YvQ6SqceuEPlP6U1W0ajjNWClI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.Networking.PlayerSync.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.Networking.PlayerSync.html",
+          "hash": "DX7CoWdaXBwyd72Ydmd6MpeGA0hiK3Mp5QXKRmOFSUQ="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -468,19 +792,7 @@
           "hash": "lTf1pafZUUgJwwN3UaNw2aJphGXClFSxbqhL4FzxaZc="
         }
       },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "cardBattleAPI/CardBattle.Networking.SpawnPlayers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "cardBattleAPI/CardBattle.Networking.SpawnPlayers.html",
-          "hash": "80GrID/6GZ1W5AwtAuSIqn3lOd4NkGvffXOlQlXAG4I="
-        }
-      },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -489,10 +801,82 @@
       "output": {
         ".html": {
           "relative_path": "cardBattleAPI/CardBattle.Networking.html",
-          "hash": "SOaEywza49HMVVaqpdJ9F+BMsiH6sRWFA4ip/ksEqOc="
+          "hash": "8wPMylTMO4IW5+uGGQVYmBJJgnD7GD2gsg0pSEtW6R4="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.RemoteConfig.Configs.appAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.RemoteConfig.Configs.appAttributes.html",
+          "hash": "Ffi2MpUGBFfQwXUeL2Iriag/jCf+St4vHEVEZPwTZWI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.RemoteConfig.Configs.userAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.RemoteConfig.Configs.userAttributes.html",
+          "hash": "Zg4b8UQhvjQpf56SeQKNbLLy41KWtV5I30SXMMM5Rxw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.RemoteConfig.Configs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.RemoteConfig.Configs.html",
+          "hash": "ekuCHYJVP9roe/d7F+Cbr8hR1Yazg9FoBtRrElh9E+g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/CardBattle.RemoteConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/CardBattle.RemoteConfig.html",
+          "hash": "7WRndzIF0DNMgbznLLpavfw9ZiJirD6jLZlH7iTR20Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/TheInvaders.Battlefield.PlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/TheInvaders.Battlefield.PlayerController.html",
+          "hash": "4016Wmej0Qw3nhsb/uptGxFI+bWiyTrHwwZmbeWMwJg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "cardBattleAPI/TheInvaders.Battlefield.yml",
+      "output": {
+        ".html": {
+          "relative_path": "cardBattleAPI/TheInvaders.Battlefield.html",
+          "hash": "Rx9XBiFI5/MokSAy9un6M6lle1VyEHVugRYdSniQoJA="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -789,7 +1173,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Form1.TYPE.html",
-          "hash": "ugSJh27VGpGsWGspfVsa+Dt1gto6YVv+uErBIFltQJM="
+          "hash": "zLw0DAUUmqv3DWSMFwzrlYSyFv4/JFpw5a4QFOJBWco="
         }
       },
       "is_incremental": true,
@@ -801,7 +1185,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Form1.html",
-          "hash": "0CBrCmq5VEsNqCjq39JLIV1Wl60SBaDNxjG+IqYNd3g="
+          "hash": "CECTOC+VZFFvDVrHuYL5VWlQZH0QdEvtFnJ6tVNkBGE="
         }
       },
       "is_incremental": true,
@@ -813,7 +1197,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.AddLicense.html",
-          "hash": "sRRTmur5od0ZsCl2zsZOnborTxyssa9DXwEqPGtTqCM="
+          "hash": "jvEjeJlGR5WHi0Lg3u7PQTYCmBk1CTEqiFNvYPzVP7E="
         }
       },
       "is_incremental": true,
@@ -825,7 +1209,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.EditLicense.html",
-          "hash": "RzsgDKoGQQL8kZPYcEqLz7Dkb6qMNgP6mXp3PclCesk="
+          "hash": "ePs3i7I40tVQ5eNl3uAZWzse9y9nWrHGw02PruBzuwE="
         }
       },
       "is_incremental": true,
@@ -837,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.License.html",
-          "hash": "dy/+Q4uQLDp6qjYV7xpkan0mMnPkcQu+0NwtFxALk9o="
+          "hash": "bmRVPwxdDTULK1DpJ3H7XKaytT5BeUEerrQTEoY7vSU="
         }
       },
       "is_incremental": true,
@@ -849,7 +1233,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.Login.html",
-          "hash": "6r+m8Aii1l6KxwrGvge+RNg/J1101Ed7b5acntWHhms="
+          "hash": "N4GZlNKWGdFb5yDORf4rR76hoE5TBTfnt8OkPFT/xOU="
         }
       },
       "is_incremental": true,
@@ -861,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.Project.html",
-          "hash": "6np+1tcjQaz3O7XhrZCkp8PT8x//O+e/wp+OKU77uQ4="
+          "hash": "O1UWHHLOCDIE2b6htWkZfRQuiBbXky2RLV0hhKHNoRQ="
         }
       },
       "is_incremental": true,
@@ -873,7 +1257,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.RemoveLicense.html",
-          "hash": "BqgFBZBCtx3nR3TtHbH315FPbNfDnbU5EmEDLRHGx8s="
+          "hash": "9IZwmKpOCWDgoewdJn7gbh6zMA04lJj36CkZJMQfYVo="
         }
       },
       "is_incremental": true,
@@ -885,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Licenses.User.html",
-          "hash": "TJ6EnWeJpDYHDoZEILVYjTvNx052UcSIqyEsiVeD3UA="
+          "hash": "utlvBBtsT4tM8rVw+P9+3PB1lw35JsF8T/5MsmjmdKw="
         }
       },
       "is_incremental": true,
@@ -909,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Saver-1.html",
-          "hash": "gCUeTRudZUOTuM1u5iVtli+75VvNkoy1vk5zSkf9rE0="
+          "hash": "x2YhqXxyyCrOd4YVaIPV3wuwj5vadgke3GHZf4UZdlw="
         }
       },
       "is_incremental": true,
@@ -921,7 +1305,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.AddFilm.html",
-          "hash": "xyo/61LcrrTcbg05aUewA7bvR2i4oOeNjxHs+G9nK3Y="
+          "hash": "abpVGcfHTJxZOLRF5SbypDMEDSA9onMttp2gI1pL3ao="
         }
       },
       "is_incremental": true,
@@ -933,7 +1317,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.AddGenre.html",
-          "hash": "9CaZYrWbODdEXVJ3PiUonPFvywkvMt6sGz1Cu8+OlIE="
+          "hash": "LQe1XMT1gANUaTNpbm19pbftzsqPjkSfg4122l3LcUQ="
         }
       },
       "is_incremental": true,
@@ -945,7 +1329,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.EditByID.html",
-          "hash": "m6uozi13qxLbqyBMUesrqkHbVOm3UDQSSXE0BG1Ot00="
+          "hash": "hgluWE/mqbuf2wMJ0utf4RsY0X87ALVa/FyfSWbF3po="
         }
       },
       "is_incremental": true,
@@ -957,7 +1341,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.Film.F_GENRE.html",
-          "hash": "ZeTT4JUGJgjNG0/pgVmwVwi18a8vhQOkxvgnIegbJn4="
+          "hash": "I2F5EC3QRex5DDaI8C+eIhnc6OX06b7k4sW5mbkOTgo="
         }
       },
       "is_incremental": true,
@@ -969,7 +1353,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.Film.html",
-          "hash": "FFlOifOmn4AkR8R67TO0xjSEucmyzhJC05VkRZcyI2w="
+          "hash": "CuSd/SktvcmoPRD+X8xfiDo8iP2kzdk92+aJEB/gEKU="
         }
       },
       "is_incremental": true,
@@ -981,7 +1365,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.RemFilm.html",
-          "hash": "62hSZa5QgHfPN7epDz0GVZi9DbuyMwr01NeKPwSzBHA="
+          "hash": "ZR6tmZrnIOVtWqdzvaaj0LU6bCIFRtnvabyBHmsNOnA="
         }
       },
       "is_incremental": true,
@@ -993,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.RemGenre.html",
-          "hash": "2CbVs1CGfRon/u5Yi90ae9lEZ9JRKvhSrTCOHHJSEV8="
+          "hash": "ivFj4CP0EJAPw+AzZAK136joiwUTHmlBVkXXKXJ8fGg="
         }
       },
       "is_incremental": true,
@@ -1005,7 +1389,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.Storage.html",
-          "hash": "wwoSOnQ7/0HrdfGaUeS6fw3k1oAWg4eM9xUrs+AIwpg="
+          "hash": "LZciHVHo/wF9i4vni+qb1+GQ1CyBBTaMaa2Oe1u/h30="
         }
       },
       "is_incremental": true,
@@ -1017,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "planningToolAPI/PlanningTool.Storage.StorageItem.html",
-          "hash": "jorERkIsM7FIfWwkVBmQOaVnKilIu9Ri6jqUOH2WXHc="
+          "hash": "KhbQVVsXWpoE63ZZ35kxdJErzif6FJZBIBkjrdvnCrA="
         }
       },
       "is_incremental": true,
@@ -1073,210 +1457,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Battlefield.AICharacterControl.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Battlefield.AICharacterControl.html",
-          "hash": "ZYbkJ6jmiXTRSSaDLk8aCIPk1GzYEWyj+LDfCFLUCoo="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Battlefield.PlayerController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Battlefield.PlayerController.html",
-          "hash": "ELHJK7OgT+ui7OtTlS7df+AHQXOodTer6fgZMRpDsgs="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Battlefield.UnitController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Battlefield.UnitController.html",
-          "hash": "+HN6Rjv5EepDJM2QkI3bb4eIp40CbNqbgxvqB56IO0c="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Battlefield.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Battlefield.html",
-          "hash": "OExfYVuBODPqueSuxW4Nmbl8HbaXC9tSvMX2E4tZirE="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Character.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Character.html",
-          "hash": "tgwjdSVTQ/0/BU7dm6ckLOc9boVoltNDs6D51M5c+jY="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.ControlMapping.UNIT_MODE.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.ControlMapping.UNIT_MODE.html",
-          "hash": "AoAbplBGIDijVLRRH3wXJmHlTp5+rEQxHOjbpwYnX6k="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.ControlMapping.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.ControlMapping.html",
-          "hash": "ACXfpEeoxxc4BvJnl6IhkR10A4o2FWqPuBO5nZItck0="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.GameUUIDManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.GameUUIDManager.html",
-          "hash": "CkpNL9S6q7RcX/N4gm9nS5FpjzUGdJt4GHzdgvyP82c="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Inventories.IItem.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Inventories.IItem.html",
-          "hash": "dIUpSwmb+7ScAYvgM5NNF/27HqKsjkXdKYx4xbNPoD0="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Inventories.InventoryDisplay.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Inventories.InventoryDisplay.html",
-          "hash": "2MWZzxJMUbxRWsQbVDkoq1gDqCSup11I4bAFi2MpvAk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Inventories.Item.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Inventories.Item.html",
-          "hash": "Vk0SjeywJksRn3sYT/bwz/PyxCZxoR0mGU9b4cBuGAU="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Inventories.ItemDisplay.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Inventories.ItemDisplay.html",
-          "hash": "X9GyZBXSL2UOrvRkEcg93LRb0rG2HeRsY/qRlF7dW+E="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Inventories.Resource.TYPE.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Inventories.Resource.TYPE.html",
-          "hash": "MlfZJrkC/XXZ0epQ1wdHouNNpPnUUb0E6XO0+ZxcCjk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Inventories.Resource.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Inventories.Resource.html",
-          "hash": "wuFi+FnVfbpI2cXimCirczavNRzFWxB5jhF6Ky6ZNGI="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Inventories.ResourcePool.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Inventories.ResourcePool.html",
-          "hash": "E/A278kiigOruSRhSWQugo6KNnI10zSgYD/UyJ8SjyE="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Inventories.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Inventories.html",
-          "hash": "dNKrpujrRTuh2jlgwOrema/z/H78o6qmLUchFdL8h+s="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.LoginData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.LoginData.html",
-          "hash": "2rdXO+npBQQ0ZKRroQaRKP47iREcKsYfQDiztg1Z1mU="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "tiAPI/TheInvaders.OffMeshLinkMoveMethod.yml",
       "output": {
         ".html": {
@@ -1289,335 +1469,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Biome.TYPE.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Biome.TYPE.html",
-          "hash": "mYRmx1TCyhFP2cCrCVQCyCbg0pbl38t3PmYF9x+6ZRY="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Biome.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Biome.html",
-          "hash": "YH7Xc2JRcdkumQY3lDwkYgQ3Nd4gVbG8KY3uo1ypl1o="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.HexagonalField.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.HexagonalField.html",
-          "hash": "xQqPlaXkvOy+SSZQkgAv+jcjDm5z7q/d0VtdSHwF6RU="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Planet.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Planet.html",
-          "hash": "P2xqvXs5SLN0AFm4wXIRHl5drTcSkOJZekLqYuk+khw="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.PlanetControls.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.PlanetControls.html",
-          "hash": "6dXBV6jde2+IWrNYlNRulmQf+Yw8IGJF0UvuxalEr8U="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Farm.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Farm.html",
-          "hash": "308uqaJGLS4l7oAoMXftz6oZ6oddW3GJxC55UFF0MCg="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.IInhabitedStructure-1.html",
-          "hash": "f5LR69w7MAnsx7JYkAjhBUQu++LdhNmgfzdbEBGvcYI="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure-1.TYPE.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure-1.TYPE.html",
-          "hash": "I0IMPFM6+KV8r4n7xEjHzBijw9cOgmvwKZ2wfZv8Y00="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.InhabitedStructure-1.html",
-          "hash": "JO7PC3I0ZdfVprQjes/2MWDtHTfqAzYQxLlQBb0Bo5Q="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Town.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Town.html",
-          "hash": "ynT/EqVcyclwowpuFaJfXyE4ng04VlGOutAJpqpdT34="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Village.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.Village.html",
-          "hash": "UkTqt2XB6JNY48vUjH+TXiOtnqm7TGwYoaj3HNiz/go="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.InhabitedStructures.html",
-          "hash": "KAqffD0qaBQ1WFGJ4sGrHuDED3hcODo5cmgrz8WmYhI="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.IOutpost-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.IOutpost-1.html",
-          "hash": "FgMLlEkOZSCwj6z+7zTaBlCAceaEoo0oIQjQszsUFSk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.MilitaryOutpost.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.MilitaryOutpost.html",
-          "hash": "Mqlhl0yFxmt+rjCQem50sgMVpN0iFC4Slu2qPFX4b3s="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.Outpost-1.TYPE.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.Outpost-1.TYPE.html",
-          "hash": "OBWoGzbTpEYY14ntDD/i44zzkyIRKy9aS4w2CltiM7M="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.Outpost-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.Outpost-1.html",
-          "hash": "OPgOgEh0gmcCgwJZt6HZ7GiYfm9QtC6tJUVihPMh2Pk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.ScientificOutpost.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.ScientificOutpost.html",
-          "hash": "St5jxn8TC9QclH6p5rwipFpE6ljkiMdLD6BDUX4jccw="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Outposts.html",
-          "hash": "IZU6tsPOLo6eYaHCubeQ2uv0xe45bhrGehg8cQ3Gdaw="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Ruin.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Ruin.html",
-          "hash": "K7VubOjLqwZw8MzsrMNuCShi9PvarXBYFTE+bCQoL0s="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Structure.TYPE.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Structure.TYPE.html",
-          "hash": "FSoVsflDa51a9VdB/Sfn0UTcnu2OhcT9VSYHhdzPtrU="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.Structure.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.Structure.html",
-          "hash": "KMOV0RXN6kSvzN4wrFCwxxRUF0Poe9eoev7B5K8jpEc="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.Structures.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.Structures.html",
-          "hash": "drzDMkMWbz5v75Ll8YH9ovfzL2HaAcB/UT77VST3HiM="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Planets.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Planets.html",
-          "hash": "segsrKb4oKCsBP5M4PE5k0nyIpEixZecZymj06MW5mo="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Player.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Player.html",
-          "hash": "s8wgQE/hyq1YcYIw2gS59Dq0vSa21xfjHUlkoBVn4/g="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Storage-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Storage-1.html",
-          "hash": "baqsN95HqPDJHZWG/1M9tndc0qFEIhSMYsFzo6DazvE="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.Trader.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.Trader.html",
-          "hash": "K464OUBhGGaucRbv0kiOkhrsv6OrwmUt68CK/WYw/Rk="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "tiAPI/TheInvaders.UserData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "tiAPI/TheInvaders.UserData.html",
-          "hash": "rUFp0LusFcMJtxPhHPeL4IIlWc1bnB+cIVyjaV8R7CM="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "tiAPI/TheInvaders.yml",
       "output": {
         ".html": {
           "relative_path": "tiAPI/TheInvaders.html",
-          "hash": "wYr1M/Ua95fNut8riLinqOE6Z/mkfKscA6qY+si15zw="
+          "hash": "+HZ8Cc3hShj686CWcdVx/N6ylPIE+r50OaTTtp7wWbk="
         }
       },
       "is_incremental": true,
@@ -1633,6 +1489,54 @@
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "virtualDiceAPI/Display.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "virtualDiceAPI/Display.Form1.html",
+          "hash": "fkPMEeAmZ0JN2t/jCCwnIn6P779Zexx+o9etYgpIFGg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "virtualDiceAPI/Display.yml",
+      "output": {
+        ".html": {
+          "relative_path": "virtualDiceAPI/Display.html",
+          "hash": "y0STXfUVnqMTuY6W5+Vg1W2SoetQOwVzx38jN9fBKGU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "virtualDiceAPI/GameToolbox.Elements.Die.yml",
+      "output": {
+        ".html": {
+          "relative_path": "virtualDiceAPI/GameToolbox.Elements.Die.html",
+          "hash": "q3TbbWWSo2b8kD+lHKlrfB8Eg9c77ZL3emSAj0rRgkc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "virtualDiceAPI/GameToolbox.Elements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "virtualDiceAPI/GameToolbox.Elements.html",
+          "hash": "8foN6V/ay60DdtSJ466j0Ykdp39xrrq+sFR0f8VV2aU="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     }
   ],
@@ -1654,8 +1558,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 127,
-          "skipped_file_count": 115
+          "total_file_count": 119,
+          "skipped_file_count": 119
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

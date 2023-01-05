@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Elements.HexagonalField
+  commentId: T:CardBattle.Core.Elements.HexagonalField
+  id: HexagonalField
+  parent: CardBattle.Core.Elements
+  children:
+  - CardBattle.Core.Elements.HexagonalField.AxialCoordinates
+  - CardBattle.Core.Elements.HexagonalField.controller
+  - CardBattle.Core.Elements.HexagonalField.Coordinates
+  - CardBattle.Core.Elements.HexagonalField.CubeCoordinates
+  - CardBattle.Core.Elements.HexagonalField.GetNeighbors
+  - CardBattle.Core.Elements.HexagonalField.IndexedBy
+  - CardBattle.Core.Elements.HexagonalField.Initialize(System.Int32,Vector2,Vector3,MapGeneration)
+  - CardBattle.Core.Elements.HexagonalField.Item(CardBattle.Core.DIRECTION)
+  langs:
+  - csharp
+  - vb
+  name: HexagonalField
+  nameWithType: HexagonalField
+  fullName: CardBattle.Core.Elements.HexagonalField
+  type: Class
+  source:
+    id: HexagonalField
+    path: ''
+    startLine: 890
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  syntax:
+    content: 'public class HexagonalField : MonoBehaviour'
+    content.vb: >-
+      Public Class HexagonalField
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Elements.HexagonalField.controller
+  commentId: F:CardBattle.Core.Elements.HexagonalField.controller
+  id: controller
+  parent: CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: controller
+  nameWithType: HexagonalField.controller
+  fullName: CardBattle.Core.Elements.HexagonalField.controller
+  type: Field
+  source:
+    id: controller
+    path: ''
+    startLine: 897
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  syntax:
+    content: public HexagonalFieldController controller
+    return:
+      type: HexagonalFieldController
+    content.vb: Public controller As HexagonalFieldController
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Elements.HexagonalField.AxialCoordinates
+  commentId: P:CardBattle.Core.Elements.HexagonalField.AxialCoordinates
+  id: AxialCoordinates
+  parent: CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: AxialCoordinates
+  nameWithType: HexagonalField.AxialCoordinates
+  fullName: CardBattle.Core.Elements.HexagonalField.AxialCoordinates
+  type: Property
+  source:
+    id: AxialCoordinates
+    path: ''
+    startLine: 902
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  summary: "\nq = x; r = y\n"
+  example: []
+  syntax:
+    content: public Vector2 AxialCoordinates { get; }
+    parameters: []
+    return:
+      type: Vector2
+    content.vb: Public ReadOnly Property AxialCoordinates As Vector2
+  overload: CardBattle.Core.Elements.HexagonalField.AxialCoordinates*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Elements.HexagonalField.CubeCoordinates
+  commentId: P:CardBattle.Core.Elements.HexagonalField.CubeCoordinates
+  id: CubeCoordinates
+  parent: CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: CubeCoordinates
+  nameWithType: HexagonalField.CubeCoordinates
+  fullName: CardBattle.Core.Elements.HexagonalField.CubeCoordinates
+  type: Property
+  source:
+    id: CubeCoordinates
+    path: ''
+    startLine: 906
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  summary: "\nq = x; r = y; s = z\n"
+  example: []
+  syntax:
+    content: public Vector3 CubeCoordinates { get; }
+    parameters: []
+    return:
+      type: Vector3
+    content.vb: Public ReadOnly Property CubeCoordinates As Vector3
+  overload: CardBattle.Core.Elements.HexagonalField.CubeCoordinates*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Elements.HexagonalField.Coordinates
+  commentId: P:CardBattle.Core.Elements.HexagonalField.Coordinates
+  id: Coordinates
+  parent: CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: Coordinates
+  nameWithType: HexagonalField.Coordinates
+  fullName: CardBattle.Core.Elements.HexagonalField.Coordinates
+  type: Property
+  source:
+    id: Coordinates
+    path: ''
+    startLine: 907
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  syntax:
+    content: public Vector3 Coordinates { get; }
+    parameters: []
+    return:
+      type: Vector3
+    content.vb: Public ReadOnly Property Coordinates As Vector3
+  overload: CardBattle.Core.Elements.HexagonalField.Coordinates*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Elements.HexagonalField.IndexedBy
+  commentId: P:CardBattle.Core.Elements.HexagonalField.IndexedBy
+  id: IndexedBy
+  parent: CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: IndexedBy
+  nameWithType: HexagonalField.IndexedBy
+  fullName: CardBattle.Core.Elements.HexagonalField.IndexedBy
+  type: Property
+  source:
+    id: IndexedBy
+    path: ''
+    startLine: 908
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  syntax:
+    content: public MapGeneration IndexedBy { get; }
+    parameters: []
+    return:
+      type: MapGeneration
+    content.vb: Public ReadOnly Property IndexedBy As MapGeneration
+  overload: CardBattle.Core.Elements.HexagonalField.IndexedBy*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Elements.HexagonalField.Item(CardBattle.Core.DIRECTION)
+  commentId: P:CardBattle.Core.Elements.HexagonalField.Item(CardBattle.Core.DIRECTION)
+  id: Item(CardBattle.Core.DIRECTION)
+  parent: CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: Item[DIRECTION]
+  nameWithType: HexagonalField.Item[DIRECTION]
+  fullName: CardBattle.Core.Elements.HexagonalField.Item[CardBattle.Core.DIRECTION]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 910
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  syntax:
+    content: public HexagonalField this[DIRECTION direction] { get; }
+    parameters:
+    - id: direction
+      type: CardBattle.Core.DIRECTION
+    return:
+      type: CardBattle.Core.Elements.HexagonalField
+    content.vb: Public ReadOnly Property Item(direction As DIRECTION) As HexagonalField
+  overload: CardBattle.Core.Elements.HexagonalField.Item*
+  nameWithType.vb: HexagonalField.Item(DIRECTION)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: CardBattle.Core.Elements.HexagonalField.Item(CardBattle.Core.DIRECTION)
+  name.vb: Item(DIRECTION)
+- uid: CardBattle.Core.Elements.HexagonalField.Initialize(System.Int32,Vector2,Vector3,MapGeneration)
+  commentId: M:CardBattle.Core.Elements.HexagonalField.Initialize(System.Int32,Vector2,Vector3,MapGeneration)
+  id: Initialize(System.Int32,Vector2,Vector3,MapGeneration)
+  parent: CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: Initialize(Int32, Vector2, Vector3, MapGeneration)
+  nameWithType: HexagonalField.Initialize(Int32, Vector2, Vector3, MapGeneration)
+  fullName: CardBattle.Core.Elements.HexagonalField.Initialize(System.Int32, Vector2, Vector3, MapGeneration)
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 912
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  syntax:
+    content: public void Initialize(int index, Vector2 axialCoordinates, Vector3 coordinates, MapGeneration indexedBy)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: axialCoordinates
+      type: Vector2
+    - id: coordinates
+      type: Vector3
+    - id: indexedBy
+      type: MapGeneration
+    content.vb: Public Sub Initialize(index As Integer, axialCoordinates As Vector2, coordinates As Vector3, indexedBy As MapGeneration)
+  overload: CardBattle.Core.Elements.HexagonalField.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Elements.HexagonalField.GetNeighbors
+  commentId: M:CardBattle.Core.Elements.HexagonalField.GetNeighbors
+  id: GetNeighbors
+  parent: CardBattle.Core.Elements.HexagonalField
+  langs:
+  - csharp
+  - vb
+  name: GetNeighbors()
+  nameWithType: HexagonalField.GetNeighbors()
+  fullName: CardBattle.Core.Elements.HexagonalField.GetNeighbors()
+  type: Method
+  source:
+    id: GetNeighbors
+    path: ''
+    startLine: 920
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Elements
+  syntax:
+    content: public void GetNeighbors()
+    content.vb: Public Sub GetNeighbors
+  overload: CardBattle.Core.Elements.HexagonalField.GetNeighbors*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Core.Elements
+  commentId: N:CardBattle.Core.Elements
+  name: CardBattle.Core.Elements
+  nameWithType: CardBattle.Core.Elements
+  fullName: CardBattle.Core.Elements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: HexagonalFieldController
+  commentId: '!:HexagonalFieldController'
+  isExternal: true
+  name: HexagonalFieldController
+  nameWithType: HexagonalFieldController
+  fullName: HexagonalFieldController
+- uid: CardBattle.Core.Elements.HexagonalField.AxialCoordinates*
+  commentId: Overload:CardBattle.Core.Elements.HexagonalField.AxialCoordinates
+  name: AxialCoordinates
+  nameWithType: HexagonalField.AxialCoordinates
+  fullName: CardBattle.Core.Elements.HexagonalField.AxialCoordinates
+- uid: Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: CardBattle.Core.Elements.HexagonalField.CubeCoordinates*
+  commentId: Overload:CardBattle.Core.Elements.HexagonalField.CubeCoordinates
+  name: CubeCoordinates
+  nameWithType: HexagonalField.CubeCoordinates
+  fullName: CardBattle.Core.Elements.HexagonalField.CubeCoordinates
+- uid: Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: CardBattle.Core.Elements.HexagonalField.Coordinates*
+  commentId: Overload:CardBattle.Core.Elements.HexagonalField.Coordinates
+  name: Coordinates
+  nameWithType: HexagonalField.Coordinates
+  fullName: CardBattle.Core.Elements.HexagonalField.Coordinates
+- uid: CardBattle.Core.Elements.HexagonalField.IndexedBy*
+  commentId: Overload:CardBattle.Core.Elements.HexagonalField.IndexedBy
+  name: IndexedBy
+  nameWithType: HexagonalField.IndexedBy
+  fullName: CardBattle.Core.Elements.HexagonalField.IndexedBy
+- uid: MapGeneration
+  isExternal: true
+  name: MapGeneration
+  nameWithType: MapGeneration
+  fullName: MapGeneration
+- uid: CardBattle.Core.Elements.HexagonalField.Item*
+  commentId: Overload:CardBattle.Core.Elements.HexagonalField.Item
+  name: Item
+  nameWithType: HexagonalField.Item
+  fullName: CardBattle.Core.Elements.HexagonalField.Item
+- uid: CardBattle.Core.DIRECTION
+  commentId: T:CardBattle.Core.DIRECTION
+  parent: CardBattle.Core
+  name: DIRECTION
+  nameWithType: DIRECTION
+  fullName: CardBattle.Core.DIRECTION
+- uid: CardBattle.Core.Elements.HexagonalField
+  commentId: T:CardBattle.Core.Elements.HexagonalField
+  parent: CardBattle.Core.Elements
+  name: HexagonalField
+  nameWithType: HexagonalField
+  fullName: CardBattle.Core.Elements.HexagonalField
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: CardBattle.Core.Elements.HexagonalField.Initialize*
+  commentId: Overload:CardBattle.Core.Elements.HexagonalField.Initialize
+  name: Initialize
+  nameWithType: HexagonalField.Initialize
+  fullName: CardBattle.Core.Elements.HexagonalField.Initialize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardBattle.Core.Elements.HexagonalField.GetNeighbors*
+  commentId: Overload:CardBattle.Core.Elements.HexagonalField.GetNeighbors
+  name: GetNeighbors
+  nameWithType: HexagonalField.GetNeighbors
+  fullName: CardBattle.Core.Elements.HexagonalField.GetNeighbors

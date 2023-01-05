@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: TheInvaders.Battlefield
+  commentId: N:TheInvaders.Battlefield
+  id: TheInvaders.Battlefield
+  children:
+  - TheInvaders.Battlefield.PlayerController
+  langs:
+  - csharp
+  - vb
+  name: TheInvaders.Battlefield
+  nameWithType: TheInvaders.Battlefield
+  fullName: TheInvaders.Battlefield
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: TheInvaders.Battlefield.PlayerController
+  commentId: T:TheInvaders.Battlefield.PlayerController
+  name: PlayerController
+  nameWithType: PlayerController
+  fullName: TheInvaders.Battlefield.PlayerController

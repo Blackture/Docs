@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.RemoteConfig.Configs
+  commentId: T:CardBattle.RemoteConfig.Configs
+  id: Configs
+  parent: CardBattle.RemoteConfig
+  children:
+  - CardBattle.RemoteConfig.Configs.ConfigVersion
+  - CardBattle.RemoteConfig.Configs.Debt_Interest
+  - CardBattle.RemoteConfig.Configs.Fetched
+  - CardBattle.RemoteConfig.Configs.FinanceBox_DiceAmount
+  - CardBattle.RemoteConfig.Configs.GameManager_InitialMoney
+  - CardBattle.RemoteConfig.Configs.Instance
+  - CardBattle.RemoteConfig.Configs.PlayerController_Speed
+  - CardBattle.RemoteConfig.Configs.Revenue_TownFactor
+  - CardBattle.RemoteConfig.Configs.Revenue_VillageFactor
+  langs:
+  - csharp
+  - vb
+  name: Configs
+  nameWithType: Configs
+  fullName: CardBattle.RemoteConfig.Configs
+  type: Class
+  source:
+    id: Configs
+    path: ''
+    startLine: 2675
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: 'public class Configs : MonoBehaviour'
+    content.vb: >-
+      Public Class Configs
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.RemoteConfig.Configs.Instance
+  commentId: F:CardBattle.RemoteConfig.Configs.Instance
+  id: Instance
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: Configs.Instance
+  fullName: CardBattle.RemoteConfig.Configs.Instance
+  type: Field
+  source:
+    id: Instance
+    path: ''
+    startLine: 2677
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public static Configs Instance
+    return:
+      type: CardBattle.RemoteConfig.Configs
+    content.vb: Public Shared Instance As Configs
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardBattle.RemoteConfig.Configs.Fetched
+  commentId: P:CardBattle.RemoteConfig.Configs.Fetched
+  id: Fetched
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: Fetched
+  nameWithType: Configs.Fetched
+  fullName: CardBattle.RemoteConfig.Configs.Fetched
+  type: Property
+  source:
+    id: Fetched
+    path: ''
+    startLine: 2684
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public bool Fetched { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property Fetched As Boolean
+  overload: CardBattle.RemoteConfig.Configs.Fetched*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.RemoteConfig.Configs.FinanceBox_DiceAmount
+  commentId: P:CardBattle.RemoteConfig.Configs.FinanceBox_DiceAmount
+  id: FinanceBox_DiceAmount
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: FinanceBox_DiceAmount
+  nameWithType: Configs.FinanceBox_DiceAmount
+  fullName: CardBattle.RemoteConfig.Configs.FinanceBox_DiceAmount
+  type: Property
+  source:
+    id: FinanceBox_DiceAmount
+    path: ''
+    startLine: 2687
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public static int FinanceBox_DiceAmount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property FinanceBox_DiceAmount As Integer
+  overload: CardBattle.RemoteConfig.Configs.FinanceBox_DiceAmount*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: CardBattle.RemoteConfig.Configs.Debt_Interest
+  commentId: P:CardBattle.RemoteConfig.Configs.Debt_Interest
+  id: Debt_Interest
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: Debt_Interest
+  nameWithType: Configs.Debt_Interest
+  fullName: CardBattle.RemoteConfig.Configs.Debt_Interest
+  type: Property
+  source:
+    id: Debt_Interest
+    path: ''
+    startLine: 2690
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public static float Debt_Interest { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property Debt_Interest As Single
+  overload: CardBattle.RemoteConfig.Configs.Debt_Interest*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: CardBattle.RemoteConfig.Configs.Revenue_TownFactor
+  commentId: P:CardBattle.RemoteConfig.Configs.Revenue_TownFactor
+  id: Revenue_TownFactor
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: Revenue_TownFactor
+  nameWithType: Configs.Revenue_TownFactor
+  fullName: CardBattle.RemoteConfig.Configs.Revenue_TownFactor
+  type: Property
+  source:
+    id: Revenue_TownFactor
+    path: ''
+    startLine: 2693
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public static float Revenue_TownFactor { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property Revenue_TownFactor As Single
+  overload: CardBattle.RemoteConfig.Configs.Revenue_TownFactor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: CardBattle.RemoteConfig.Configs.Revenue_VillageFactor
+  commentId: P:CardBattle.RemoteConfig.Configs.Revenue_VillageFactor
+  id: Revenue_VillageFactor
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: Revenue_VillageFactor
+  nameWithType: Configs.Revenue_VillageFactor
+  fullName: CardBattle.RemoteConfig.Configs.Revenue_VillageFactor
+  type: Property
+  source:
+    id: Revenue_VillageFactor
+    path: ''
+    startLine: 2696
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public static float Revenue_VillageFactor { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property Revenue_VillageFactor As Single
+  overload: CardBattle.RemoteConfig.Configs.Revenue_VillageFactor*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: CardBattle.RemoteConfig.Configs.GameManager_InitialMoney
+  commentId: P:CardBattle.RemoteConfig.Configs.GameManager_InitialMoney
+  id: GameManager_InitialMoney
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: GameManager_InitialMoney
+  nameWithType: Configs.GameManager_InitialMoney
+  fullName: CardBattle.RemoteConfig.Configs.GameManager_InitialMoney
+  type: Property
+  source:
+    id: GameManager_InitialMoney
+    path: ''
+    startLine: 2699
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public static int GameManager_InitialMoney { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property GameManager_InitialMoney As Integer
+  overload: CardBattle.RemoteConfig.Configs.GameManager_InitialMoney*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: CardBattle.RemoteConfig.Configs.PlayerController_Speed
+  commentId: P:CardBattle.RemoteConfig.Configs.PlayerController_Speed
+  id: PlayerController_Speed
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: PlayerController_Speed
+  nameWithType: Configs.PlayerController_Speed
+  fullName: CardBattle.RemoteConfig.Configs.PlayerController_Speed
+  type: Property
+  source:
+    id: PlayerController_Speed
+    path: ''
+    startLine: 2702
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public static float PlayerController_Speed { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property PlayerController_Speed As Single
+  overload: CardBattle.RemoteConfig.Configs.PlayerController_Speed*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: CardBattle.RemoteConfig.Configs.ConfigVersion
+  commentId: P:CardBattle.RemoteConfig.Configs.ConfigVersion
+  id: ConfigVersion
+  parent: CardBattle.RemoteConfig.Configs
+  langs:
+  - csharp
+  - vb
+  name: ConfigVersion
+  nameWithType: Configs.ConfigVersion
+  fullName: CardBattle.RemoteConfig.Configs.ConfigVersion
+  type: Property
+  source:
+    id: ConfigVersion
+    path: ''
+    startLine: 2705
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.RemoteConfig
+  syntax:
+    content: public int ConfigVersion { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ConfigVersion As Integer
+  overload: CardBattle.RemoteConfig.Configs.ConfigVersion*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CardBattle.RemoteConfig
+  commentId: N:CardBattle.RemoteConfig
+  name: CardBattle.RemoteConfig
+  nameWithType: CardBattle.RemoteConfig
+  fullName: CardBattle.RemoteConfig
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.RemoteConfig.Configs
+  commentId: T:CardBattle.RemoteConfig.Configs
+  parent: CardBattle.RemoteConfig
+  name: Configs
+  nameWithType: Configs
+  fullName: CardBattle.RemoteConfig.Configs
+- uid: CardBattle.RemoteConfig.Configs.Fetched*
+  commentId: Overload:CardBattle.RemoteConfig.Configs.Fetched
+  name: Fetched
+  nameWithType: Configs.Fetched
+  fullName: CardBattle.RemoteConfig.Configs.Fetched
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CardBattle.RemoteConfig.Configs.FinanceBox_DiceAmount*
+  commentId: Overload:CardBattle.RemoteConfig.Configs.FinanceBox_DiceAmount
+  name: FinanceBox_DiceAmount
+  nameWithType: Configs.FinanceBox_DiceAmount
+  fullName: CardBattle.RemoteConfig.Configs.FinanceBox_DiceAmount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardBattle.RemoteConfig.Configs.Debt_Interest*
+  commentId: Overload:CardBattle.RemoteConfig.Configs.Debt_Interest
+  name: Debt_Interest
+  nameWithType: Configs.Debt_Interest
+  fullName: CardBattle.RemoteConfig.Configs.Debt_Interest
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: CardBattle.RemoteConfig.Configs.Revenue_TownFactor*
+  commentId: Overload:CardBattle.RemoteConfig.Configs.Revenue_TownFactor
+  name: Revenue_TownFactor
+  nameWithType: Configs.Revenue_TownFactor
+  fullName: CardBattle.RemoteConfig.Configs.Revenue_TownFactor
+- uid: CardBattle.RemoteConfig.Configs.Revenue_VillageFactor*
+  commentId: Overload:CardBattle.RemoteConfig.Configs.Revenue_VillageFactor
+  name: Revenue_VillageFactor
+  nameWithType: Configs.Revenue_VillageFactor
+  fullName: CardBattle.RemoteConfig.Configs.Revenue_VillageFactor
+- uid: CardBattle.RemoteConfig.Configs.GameManager_InitialMoney*
+  commentId: Overload:CardBattle.RemoteConfig.Configs.GameManager_InitialMoney
+  name: GameManager_InitialMoney
+  nameWithType: Configs.GameManager_InitialMoney
+  fullName: CardBattle.RemoteConfig.Configs.GameManager_InitialMoney
+- uid: CardBattle.RemoteConfig.Configs.PlayerController_Speed*
+  commentId: Overload:CardBattle.RemoteConfig.Configs.PlayerController_Speed
+  name: PlayerController_Speed
+  nameWithType: Configs.PlayerController_Speed
+  fullName: CardBattle.RemoteConfig.Configs.PlayerController_Speed
+- uid: CardBattle.RemoteConfig.Configs.ConfigVersion*
+  commentId: Overload:CardBattle.RemoteConfig.Configs.ConfigVersion
+  name: ConfigVersion
+  nameWithType: Configs.ConfigVersion
+  fullName: CardBattle.RemoteConfig.Configs.ConfigVersion

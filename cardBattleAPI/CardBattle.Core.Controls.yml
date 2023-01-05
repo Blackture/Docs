@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Controls
+  commentId: N:CardBattle.Core.Controls
+  id: CardBattle.Core.Controls
+  children:
+  - CardBattle.Core.Controls.ControlMapping
+  - CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core.Controls
+  nameWithType: CardBattle.Core.Controls
+  fullName: CardBattle.Core.Controls
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.Controls.ControlMapping
+  commentId: T:CardBattle.Core.Controls.ControlMapping
+  name: ControlMapping
+  nameWithType: ControlMapping
+  fullName: CardBattle.Core.Controls.ControlMapping
+- uid: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  commentId: T:CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+  parent: CardBattle.Core.Controls
+  name: ControlMapping.UNIT_MODE
+  nameWithType: ControlMapping.UNIT_MODE
+  fullName: CardBattle.Core.Controls.ControlMapping.UNIT_MODE
+- uid: CardBattle.Core.Controls
+  commentId: N:CardBattle.Core.Controls
+  name: CardBattle.Core.Controls
+  nameWithType: CardBattle.Core.Controls
+  fullName: CardBattle.Core.Controls

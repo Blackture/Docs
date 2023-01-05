@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Networking.NetworkManager
+  commentId: T:CardBattle.Networking.NetworkManager
+  id: NetworkManager
+  parent: CardBattle.Networking
+  children:
+  - CardBattle.Networking.NetworkManager.canvas
+  - CardBattle.Networking.NetworkManager.countdownText
+  - CardBattle.Networking.NetworkManager.JoinSpecificMatch(System.String)
+  - CardBattle.Networking.NetworkManager.LeaveMatch
+  - CardBattle.Networking.NetworkManager.levelChanger
+  - CardBattle.Networking.NetworkManager.lobbyName
+  - CardBattle.Networking.NetworkManager.OnConnectedToMaster
+  - CardBattle.Networking.NetworkManager.OnDisconnected(DisconnectCause)
+  - CardBattle.Networking.NetworkManager.OnJoinedLobby
+  - CardBattle.Networking.NetworkManager.OnJoinedRoom
+  - CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed
+  - CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed(TMP_InputField)
+  - CardBattle.Networking.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)
+  - CardBattle.Networking.NetworkManager.selectedMatchType
+  - CardBattle.Networking.NetworkManager.SetPlayersNickName(System.String)
+  - CardBattle.Networking.NetworkManager.SetSelectedMatchType(System.String)
+  langs:
+  - csharp
+  - vb
+  name: NetworkManager
+  nameWithType: NetworkManager
+  fullName: CardBattle.Networking.NetworkManager
+  type: Class
+  source:
+    id: NetworkManager
+    path: ''
+    startLine: 2046
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: 'public class NetworkManager : MonoBehaviourPunCallbacks'
+    content.vb: >-
+      Public Class NetworkManager
+          Inherits MonoBehaviourPunCallbacks
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Networking.NetworkManager.selectedMatchType
+  commentId: F:CardBattle.Networking.NetworkManager.selectedMatchType
+  id: selectedMatchType
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: selectedMatchType
+  nameWithType: NetworkManager.selectedMatchType
+  fullName: CardBattle.Networking.NetworkManager.selectedMatchType
+  type: Field
+  source:
+    id: selectedMatchType
+    path: ''
+    startLine: 2048
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public MatchType selectedMatchType
+    return:
+      type: CardBattle.Core.MatchType
+    content.vb: Public selectedMatchType As MatchType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.countdownText
+  commentId: F:CardBattle.Networking.NetworkManager.countdownText
+  id: countdownText
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: countdownText
+  nameWithType: NetworkManager.countdownText
+  fullName: CardBattle.Networking.NetworkManager.countdownText
+  type: Field
+  source:
+    id: countdownText
+    path: ''
+    startLine: 2049
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public TMP_Text countdownText
+    return:
+      type: TMP_Text
+    content.vb: Public countdownText As TMP_Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.levelChanger
+  commentId: F:CardBattle.Networking.NetworkManager.levelChanger
+  id: levelChanger
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: levelChanger
+  nameWithType: NetworkManager.levelChanger
+  fullName: CardBattle.Networking.NetworkManager.levelChanger
+  type: Field
+  source:
+    id: levelChanger
+    path: ''
+    startLine: 2050
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public LevelChanger levelChanger
+    return:
+      type: CardBattle.Networking.LevelChanger
+    content.vb: Public levelChanger As LevelChanger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.lobbyName
+  commentId: F:CardBattle.Networking.NetworkManager.lobbyName
+  id: lobbyName
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: lobbyName
+  nameWithType: NetworkManager.lobbyName
+  fullName: CardBattle.Networking.NetworkManager.lobbyName
+  type: Field
+  source:
+    id: lobbyName
+    path: ''
+    startLine: 2051
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public string lobbyName
+    return:
+      type: System.String
+    content.vb: Public lobbyName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.canvas
+  commentId: F:CardBattle.Networking.NetworkManager.canvas
+  id: canvas
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: canvas
+  nameWithType: NetworkManager.canvas
+  fullName: CardBattle.Networking.NetworkManager.canvas
+  type: Field
+  source:
+    id: canvas
+    path: ''
+    startLine: 2052
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public GameObject canvas
+    return:
+      type: GameObject
+    content.vb: Public canvas As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.SetSelectedMatchType(System.String)
+  commentId: M:CardBattle.Networking.NetworkManager.SetSelectedMatchType(System.String)
+  id: SetSelectedMatchType(System.String)
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedMatchType(String)
+  nameWithType: NetworkManager.SetSelectedMatchType(String)
+  fullName: CardBattle.Networking.NetworkManager.SetSelectedMatchType(System.String)
+  type: Method
+  source:
+    id: SetSelectedMatchType
+    path: ''
+    startLine: 2063
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void SetSelectedMatchType(string s)
+    parameters:
+    - id: s
+      type: System.String
+    content.vb: Public Sub SetSelectedMatchType(s As String)
+  overload: CardBattle.Networking.NetworkManager.SetSelectedMatchType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.SetPlayersNickName(System.String)
+  commentId: M:CardBattle.Networking.NetworkManager.SetPlayersNickName(System.String)
+  id: SetPlayersNickName(System.String)
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: SetPlayersNickName(String)
+  nameWithType: NetworkManager.SetPlayersNickName(String)
+  fullName: CardBattle.Networking.NetworkManager.SetPlayersNickName(System.String)
+  type: Method
+  source:
+    id: SetPlayersNickName
+    path: ''
+    startLine: 2076
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void SetPlayersNickName(string s)
+    parameters:
+    - id: s
+      type: System.String
+    content.vb: Public Sub SetPlayersNickName(s As String)
+  overload: CardBattle.Networking.NetworkManager.SetPlayersNickName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.OnConnectedToMaster
+  commentId: M:CardBattle.Networking.NetworkManager.OnConnectedToMaster
+  id: OnConnectedToMaster
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: OnConnectedToMaster()
+  nameWithType: NetworkManager.OnConnectedToMaster()
+  fullName: CardBattle.Networking.NetworkManager.OnConnectedToMaster()
+  type: Method
+  source:
+    id: OnConnectedToMaster
+    path: ''
+    startLine: 2107
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnConnectedToMaster()
+    content.vb: Public Overrides Sub OnConnectedToMaster
+  overload: CardBattle.Networking.NetworkManager.OnConnectedToMaster*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardBattle.Networking.NetworkManager.OnDisconnected(DisconnectCause)
+  commentId: M:CardBattle.Networking.NetworkManager.OnDisconnected(DisconnectCause)
+  id: OnDisconnected(DisconnectCause)
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: OnDisconnected(DisconnectCause)
+  nameWithType: NetworkManager.OnDisconnected(DisconnectCause)
+  fullName: CardBattle.Networking.NetworkManager.OnDisconnected(DisconnectCause)
+  type: Method
+  source:
+    id: OnDisconnected
+    path: ''
+    startLine: 2113
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnDisconnected(DisconnectCause cause)
+    parameters:
+    - id: cause
+      type: DisconnectCause
+    content.vb: Public Overrides Sub OnDisconnected(cause As DisconnectCause)
+  overload: CardBattle.Networking.NetworkManager.OnDisconnected*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardBattle.Networking.NetworkManager.OnJoinedLobby
+  commentId: M:CardBattle.Networking.NetworkManager.OnJoinedLobby
+  id: OnJoinedLobby
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: OnJoinedLobby()
+  nameWithType: NetworkManager.OnJoinedLobby()
+  fullName: CardBattle.Networking.NetworkManager.OnJoinedLobby()
+  type: Method
+  source:
+    id: OnJoinedLobby
+    path: ''
+    startLine: 2121
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnJoinedLobby()
+    content.vb: Public Overrides Sub OnJoinedLobby
+  overload: CardBattle.Networking.NetworkManager.OnJoinedLobby*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed(TMP_InputField)
+  commentId: M:CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed(TMP_InputField)
+  id: OnJoinMatchButtonPressed(TMP_InputField)
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: OnJoinMatchButtonPressed(TMP_InputField)
+  nameWithType: NetworkManager.OnJoinMatchButtonPressed(TMP_InputField)
+  fullName: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed(TMP_InputField)
+  type: Method
+  source:
+    id: OnJoinMatchButtonPressed
+    path: ''
+    startLine: 2129
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void OnJoinMatchButtonPressed(TMP_InputField matchName)
+    parameters:
+    - id: matchName
+      type: TMP_InputField
+    content.vb: Public Sub OnJoinMatchButtonPressed(matchName As TMP_InputField)
+  overload: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed
+  commentId: M:CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed
+  id: OnJoinMatchButtonPressed
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: OnJoinMatchButtonPressed()
+  nameWithType: NetworkManager.OnJoinMatchButtonPressed()
+  fullName: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed()
+  type: Method
+  source:
+    id: OnJoinMatchButtonPressed
+    path: ''
+    startLine: 2135
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void OnJoinMatchButtonPressed()
+    content.vb: Public Sub OnJoinMatchButtonPressed
+  overload: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.JoinSpecificMatch(System.String)
+  commentId: M:CardBattle.Networking.NetworkManager.JoinSpecificMatch(System.String)
+  id: JoinSpecificMatch(System.String)
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: JoinSpecificMatch(String)
+  nameWithType: NetworkManager.JoinSpecificMatch(String)
+  fullName: CardBattle.Networking.NetworkManager.JoinSpecificMatch(System.String)
+  type: Method
+  source:
+    id: JoinSpecificMatch
+    path: ''
+    startLine: 2146
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void JoinSpecificMatch(string matchName)
+    parameters:
+    - id: matchName
+      type: System.String
+    content.vb: Public Sub JoinSpecificMatch(matchName As String)
+  overload: CardBattle.Networking.NetworkManager.JoinSpecificMatch*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)
+  commentId: M:CardBattle.Networking.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)
+  id: OnJoinRandomFailed(System.Int16,System.String)
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: OnJoinRandomFailed(Int16, String)
+  nameWithType: NetworkManager.OnJoinRandomFailed(Int16, String)
+  fullName: CardBattle.Networking.NetworkManager.OnJoinRandomFailed(System.Int16, System.String)
+  type: Method
+  source:
+    id: OnJoinRandomFailed
+    path: ''
+    startLine: 2179
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnJoinRandomFailed(short returnCode, string message)
+    parameters:
+    - id: returnCode
+      type: System.Int16
+    - id: message
+      type: System.String
+    content.vb: Public Overrides Sub OnJoinRandomFailed(returnCode As Short, message As String)
+  overload: CardBattle.Networking.NetworkManager.OnJoinRandomFailed*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardBattle.Networking.NetworkManager.OnJoinedRoom
+  commentId: M:CardBattle.Networking.NetworkManager.OnJoinedRoom
+  id: OnJoinedRoom
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: OnJoinedRoom()
+  nameWithType: NetworkManager.OnJoinedRoom()
+  fullName: CardBattle.Networking.NetworkManager.OnJoinedRoom()
+  type: Method
+  source:
+    id: OnJoinedRoom
+    path: ''
+    startLine: 2185
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public override void OnJoinedRoom()
+    content.vb: Public Overrides Sub OnJoinedRoom
+  overload: CardBattle.Networking.NetworkManager.OnJoinedRoom*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardBattle.Networking.NetworkManager.LeaveMatch
+  commentId: M:CardBattle.Networking.NetworkManager.LeaveMatch
+  id: LeaveMatch
+  parent: CardBattle.Networking.NetworkManager
+  langs:
+  - csharp
+  - vb
+  name: LeaveMatch()
+  nameWithType: NetworkManager.LeaveMatch()
+  fullName: CardBattle.Networking.NetworkManager.LeaveMatch()
+  type: Method
+  source:
+    id: LeaveMatch
+    path: ''
+    startLine: 2235
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void LeaveMatch()
+    content.vb: Public Sub LeaveMatch
+  overload: CardBattle.Networking.NetworkManager.LeaveMatch*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Networking
+  commentId: N:CardBattle.Networking
+  name: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+  fullName: CardBattle.Networking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.MatchType
+  commentId: T:CardBattle.Core.MatchType
+  parent: CardBattle.Core
+  name: MatchType
+  nameWithType: MatchType
+  fullName: CardBattle.Core.MatchType
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: TMP_Text
+  commentId: '!:TMP_Text'
+  isExternal: true
+  name: TMP_Text
+  nameWithType: TMP_Text
+  fullName: TMP_Text
+- uid: CardBattle.Networking.LevelChanger
+  commentId: T:CardBattle.Networking.LevelChanger
+  parent: CardBattle.Networking
+  name: LevelChanger
+  nameWithType: LevelChanger
+  fullName: CardBattle.Networking.LevelChanger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: CardBattle.Networking.NetworkManager.SetSelectedMatchType*
+  commentId: Overload:CardBattle.Networking.NetworkManager.SetSelectedMatchType
+  name: SetSelectedMatchType
+  nameWithType: NetworkManager.SetSelectedMatchType
+  fullName: CardBattle.Networking.NetworkManager.SetSelectedMatchType
+- uid: CardBattle.Networking.NetworkManager.SetPlayersNickName*
+  commentId: Overload:CardBattle.Networking.NetworkManager.SetPlayersNickName
+  name: SetPlayersNickName
+  nameWithType: NetworkManager.SetPlayersNickName
+  fullName: CardBattle.Networking.NetworkManager.SetPlayersNickName
+- uid: CardBattle.Networking.NetworkManager.OnConnectedToMaster*
+  commentId: Overload:CardBattle.Networking.NetworkManager.OnConnectedToMaster
+  name: OnConnectedToMaster
+  nameWithType: NetworkManager.OnConnectedToMaster
+  fullName: CardBattle.Networking.NetworkManager.OnConnectedToMaster
+- uid: CardBattle.Networking.NetworkManager.OnDisconnected*
+  commentId: Overload:CardBattle.Networking.NetworkManager.OnDisconnected
+  name: OnDisconnected
+  nameWithType: NetworkManager.OnDisconnected
+  fullName: CardBattle.Networking.NetworkManager.OnDisconnected
+- uid: DisconnectCause
+  isExternal: true
+  name: DisconnectCause
+  nameWithType: DisconnectCause
+  fullName: DisconnectCause
+- uid: CardBattle.Networking.NetworkManager.OnJoinedLobby*
+  commentId: Overload:CardBattle.Networking.NetworkManager.OnJoinedLobby
+  name: OnJoinedLobby
+  nameWithType: NetworkManager.OnJoinedLobby
+  fullName: CardBattle.Networking.NetworkManager.OnJoinedLobby
+- uid: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed*
+  commentId: Overload:CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed
+  name: OnJoinMatchButtonPressed
+  nameWithType: NetworkManager.OnJoinMatchButtonPressed
+  fullName: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed
+- uid: TMP_InputField
+  commentId: '!:TMP_InputField'
+  isExternal: true
+  name: TMP_InputField
+  nameWithType: TMP_InputField
+  fullName: TMP_InputField
+- uid: CardBattle.Networking.NetworkManager.JoinSpecificMatch*
+  commentId: Overload:CardBattle.Networking.NetworkManager.JoinSpecificMatch
+  name: JoinSpecificMatch
+  nameWithType: NetworkManager.JoinSpecificMatch
+  fullName: CardBattle.Networking.NetworkManager.JoinSpecificMatch
+- uid: CardBattle.Networking.NetworkManager.OnJoinRandomFailed*
+  commentId: Overload:CardBattle.Networking.NetworkManager.OnJoinRandomFailed
+  name: OnJoinRandomFailed
+  nameWithType: NetworkManager.OnJoinRandomFailed
+  fullName: CardBattle.Networking.NetworkManager.OnJoinRandomFailed
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: CardBattle.Networking.NetworkManager.OnJoinedRoom*
+  commentId: Overload:CardBattle.Networking.NetworkManager.OnJoinedRoom
+  name: OnJoinedRoom
+  nameWithType: NetworkManager.OnJoinedRoom
+  fullName: CardBattle.Networking.NetworkManager.OnJoinedRoom
+- uid: CardBattle.Networking.NetworkManager.LeaveMatch*
+  commentId: Overload:CardBattle.Networking.NetworkManager.LeaveMatch
+  name: LeaveMatch
+  nameWithType: NetworkManager.LeaveMatch
+  fullName: CardBattle.Networking.NetworkManager.LeaveMatch

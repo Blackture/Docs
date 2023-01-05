@@ -5,6 +5,9 @@ items:
   id: CardBattle.Display
   children:
   - CardBattle.Display.HUD
+  - CardBattle.Display.MenuManager
+  - CardBattle.Display.Panel
+  - CardBattle.Display.PanelManager
   - CardBattle.Display.ReplaceWith
   langs:
   - csharp
@@ -21,8 +24,31 @@ references:
   name: HUD
   nameWithType: HUD
   fullName: CardBattle.Display.HUD
+- uid: CardBattle.Display.MenuManager
+  commentId: T:CardBattle.Display.MenuManager
+  parent: CardBattle.Display
+  name: MenuManager
+  nameWithType: MenuManager
+  fullName: CardBattle.Display.MenuManager
+- uid: CardBattle.Display.Panel
+  commentId: T:CardBattle.Display.Panel
+  parent: CardBattle.Display
+  name: Panel
+  nameWithType: Panel
+  fullName: CardBattle.Display.Panel
+- uid: CardBattle.Display.PanelManager
+  commentId: T:CardBattle.Display.PanelManager
+  parent: CardBattle.Display
+  name: PanelManager
+  nameWithType: PanelManager
+  fullName: CardBattle.Display.PanelManager
 - uid: CardBattle.Display.ReplaceWith
   commentId: T:CardBattle.Display.ReplaceWith
   name: ReplaceWith
   nameWithType: ReplaceWith
   fullName: CardBattle.Display.ReplaceWith
+- uid: CardBattle.Display
+  commentId: N:CardBattle.Display
+  name: CardBattle.Display
+  nameWithType: CardBattle.Display
+  fullName: CardBattle.Display

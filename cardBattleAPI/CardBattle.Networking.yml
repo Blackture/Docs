@@ -4,11 +4,13 @@ items:
   commentId: N:CardBattle.Networking
   id: CardBattle.Networking
   children:
-  - CardBattle.Networking.ConnectToServer
-  - CardBattle.Networking.CreateAndJoinRooms
+  - CardBattle.Networking.HexagonalFieldController
   - CardBattle.Networking.LevelChanger
+  - CardBattle.Networking.MapGeneration
+  - CardBattle.Networking.NetworkManager
+  - CardBattle.Networking.NetworkManagers
+  - CardBattle.Networking.NetworkSceneManager
   - CardBattle.Networking.Quit
-  - CardBattle.Networking.SpawnPlayers
   langs:
   - csharp
   - vb
@@ -19,28 +21,46 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: CardBattle.Networking.HexagonalFieldController
+  commentId: T:CardBattle.Networking.HexagonalFieldController
+  name: HexagonalFieldController
+  nameWithType: HexagonalFieldController
+  fullName: CardBattle.Networking.HexagonalFieldController
+- uid: CardBattle.Networking.LevelChanger
+  commentId: T:CardBattle.Networking.LevelChanger
+  parent: CardBattle.Networking
+  name: LevelChanger
+  nameWithType: LevelChanger
+  fullName: CardBattle.Networking.LevelChanger
+- uid: CardBattle.Networking.MapGeneration
+  commentId: T:CardBattle.Networking.MapGeneration
+  parent: CardBattle.Networking
+  name: MapGeneration
+  nameWithType: MapGeneration
+  fullName: CardBattle.Networking.MapGeneration
+- uid: CardBattle.Networking.NetworkManager
+  commentId: T:CardBattle.Networking.NetworkManager
+  name: NetworkManager
+  nameWithType: NetworkManager
+  fullName: CardBattle.Networking.NetworkManager
+- uid: CardBattle.Networking.NetworkManagers
+  commentId: T:CardBattle.Networking.NetworkManagers
+  parent: CardBattle.Networking
+  name: NetworkManagers
+  nameWithType: NetworkManagers
+  fullName: CardBattle.Networking.NetworkManagers
+- uid: CardBattle.Networking.NetworkSceneManager
+  commentId: T:CardBattle.Networking.NetworkSceneManager
+  name: NetworkSceneManager
+  nameWithType: NetworkSceneManager
+  fullName: CardBattle.Networking.NetworkSceneManager
 - uid: CardBattle.Networking.Quit
   commentId: T:CardBattle.Networking.Quit
   name: Quit
   nameWithType: Quit
   fullName: CardBattle.Networking.Quit
-- uid: CardBattle.Networking.ConnectToServer
-  commentId: T:CardBattle.Networking.ConnectToServer
-  name: ConnectToServer
-  nameWithType: ConnectToServer
-  fullName: CardBattle.Networking.ConnectToServer
-- uid: CardBattle.Networking.CreateAndJoinRooms
-  commentId: T:CardBattle.Networking.CreateAndJoinRooms
-  name: CreateAndJoinRooms
-  nameWithType: CreateAndJoinRooms
-  fullName: CardBattle.Networking.CreateAndJoinRooms
-- uid: CardBattle.Networking.LevelChanger
-  commentId: T:CardBattle.Networking.LevelChanger
-  name: LevelChanger
-  nameWithType: LevelChanger
-  fullName: CardBattle.Networking.LevelChanger
-- uid: CardBattle.Networking.SpawnPlayers
-  commentId: T:CardBattle.Networking.SpawnPlayers
-  name: SpawnPlayers
-  nameWithType: SpawnPlayers
-  fullName: CardBattle.Networking.SpawnPlayers
+- uid: CardBattle.Networking
+  commentId: N:CardBattle.Networking
+  name: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+  fullName: CardBattle.Networking

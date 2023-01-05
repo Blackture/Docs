@@ -20,7 +20,7 @@ items:
   source:
     id: Quit
     path: ''
-    startLine: 9
+    startLine: 2430
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -51,7 +51,7 @@ items:
   source:
     id: ExitRoom
     path: ''
-    startLine: 14
+    startLine: 2435
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -77,7 +77,7 @@ items:
   source:
     id: Exit
     path: ''
-    startLine: 37
+    startLine: 2462
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -103,7 +103,7 @@ items:
   source:
     id: OnLeftRoom
     path: ''
-    startLine: 52
+    startLine: 2477
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -131,7 +131,7 @@ items:
   source:
     id: OnLeftLobby
     path: ''
-    startLine: 58
+    startLine: 2483
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -159,7 +159,7 @@ items:
   source:
     id: OnDisconnected
     path: ''
-    startLine: 65
+    startLine: 2490
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Networking
@@ -221,7 +221,6 @@ references:
   nameWithType: Quit.OnDisconnected
   fullName: CardBattle.Networking.Quit.OnDisconnected
 - uid: DisconnectCause
-  commentId: '!:DisconnectCause'
   isExternal: true
   name: DisconnectCause
   nameWithType: DisconnectCause

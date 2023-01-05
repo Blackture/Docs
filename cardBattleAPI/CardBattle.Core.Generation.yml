@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Generation
+  commentId: N:CardBattle.Core.Generation
+  id: CardBattle.Core.Generation
+  children:
+  - CardBattle.Core.Generation.Biome
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Core.Generation
+  nameWithType: CardBattle.Core.Generation
+  fullName: CardBattle.Core.Generation
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Core.Generation.Biome
+  commentId: T:CardBattle.Core.Generation.Biome
+  name: Biome
+  nameWithType: Biome
+  fullName: CardBattle.Core.Generation.Biome

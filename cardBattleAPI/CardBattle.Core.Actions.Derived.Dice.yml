@@ -20,7 +20,7 @@ items:
   source:
     id: Dice
     path: ''
-    startLine: 397
+    startLine: 446
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -61,7 +61,7 @@ items:
   source:
     id: actions
     path: ''
-    startLine: 399
+    startLine: 448
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -88,7 +88,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 401
+    startLine: 450
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -117,7 +117,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 406
+    startLine: 455
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -151,7 +151,7 @@ items:
   source:
     id: Throw
     path: ''
-    startLine: 412
+    startLine: 461
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -179,7 +179,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 418
+    startLine: 467
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived

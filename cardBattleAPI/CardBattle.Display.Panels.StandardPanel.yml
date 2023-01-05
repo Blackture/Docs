@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Display.Panels.StandardPanel
+  commentId: T:CardBattle.Display.Panels.StandardPanel
+  id: StandardPanel
+  parent: CardBattle.Display.Panels
+  children:
+  - CardBattle.Display.Panels.StandardPanel.Load
+  langs:
+  - csharp
+  - vb
+  name: StandardPanel
+  nameWithType: StandardPanel
+  fullName: CardBattle.Display.Panels.StandardPanel
+  type: Class
+  source:
+    id: StandardPanel
+    path: ''
+    startLine: 1669
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display.Panels
+  syntax:
+    content: 'public class StandardPanel : Panel'
+    content.vb: >-
+      Public Class StandardPanel
+          Inherits Panel
+  inheritance:
+  - System.Object
+  - CardBattle.Display.Panel
+  inheritedMembers:
+  - CardBattle.Display.Panel.panelName
+  - CardBattle.Display.Panel.interactables
+  - CardBattle.Display.Panel.Open
+  - CardBattle.Display.Panel.Close
+  - CardBattle.Display.Panel.Update
+  - CardBattle.Display.Panel.Start
+  - CardBattle.Display.Panel.Awake
+  - CardBattle.Display.Panel.Set(System.Boolean)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Display.Panels.StandardPanel.Load
+  commentId: M:CardBattle.Display.Panels.StandardPanel.Load
+  id: Load
+  parent: CardBattle.Display.Panels.StandardPanel
+  langs:
+  - csharp
+  - vb
+  name: Load()
+  nameWithType: StandardPanel.Load()
+  fullName: CardBattle.Display.Panels.StandardPanel.Load()
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 1672
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display.Panels
+  syntax:
+    content: protected override void Load()
+    content.vb: Protected Overrides Sub Load
+  overridden: CardBattle.Display.Panel.Load
+  overload: CardBattle.Display.Panels.StandardPanel.Load*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: CardBattle.Display.Panels
+  commentId: N:CardBattle.Display.Panels
+  name: CardBattle.Display.Panels
+  nameWithType: CardBattle.Display.Panels
+  fullName: CardBattle.Display.Panels
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CardBattle.Display.Panel
+  commentId: T:CardBattle.Display.Panel
+  parent: CardBattle.Display
+  name: Panel
+  nameWithType: Panel
+  fullName: CardBattle.Display.Panel
+- uid: CardBattle.Display.Panel.panelName
+  commentId: F:CardBattle.Display.Panel.panelName
+  parent: CardBattle.Display.Panel
+  name: panelName
+  nameWithType: Panel.panelName
+  fullName: CardBattle.Display.Panel.panelName
+- uid: CardBattle.Display.Panel.interactables
+  commentId: F:CardBattle.Display.Panel.interactables
+  parent: CardBattle.Display.Panel
+  name: interactables
+  nameWithType: Panel.interactables
+  fullName: CardBattle.Display.Panel.interactables
+- uid: CardBattle.Display.Panel.Open
+  commentId: M:CardBattle.Display.Panel.Open
+  parent: CardBattle.Display.Panel
+  name: Open()
+  nameWithType: Panel.Open()
+  fullName: CardBattle.Display.Panel.Open()
+  spec.csharp:
+  - uid: CardBattle.Display.Panel.Open
+    name: Open
+    nameWithType: Panel.Open
+    fullName: CardBattle.Display.Panel.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardBattle.Display.Panel.Open
+    name: Open
+    nameWithType: Panel.Open
+    fullName: CardBattle.Display.Panel.Open
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Display.Panel.Close
+  commentId: M:CardBattle.Display.Panel.Close
+  parent: CardBattle.Display.Panel
+  name: Close()
+  nameWithType: Panel.Close()
+  fullName: CardBattle.Display.Panel.Close()
+  spec.csharp:
+  - uid: CardBattle.Display.Panel.Close
+    name: Close
+    nameWithType: Panel.Close
+    fullName: CardBattle.Display.Panel.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardBattle.Display.Panel.Close
+    name: Close
+    nameWithType: Panel.Close
+    fullName: CardBattle.Display.Panel.Close
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Display.Panel.Update
+  commentId: M:CardBattle.Display.Panel.Update
+  parent: CardBattle.Display.Panel
+  name: Update()
+  nameWithType: Panel.Update()
+  fullName: CardBattle.Display.Panel.Update()
+  spec.csharp:
+  - uid: CardBattle.Display.Panel.Update
+    name: Update
+    nameWithType: Panel.Update
+    fullName: CardBattle.Display.Panel.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardBattle.Display.Panel.Update
+    name: Update
+    nameWithType: Panel.Update
+    fullName: CardBattle.Display.Panel.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Display.Panel.Start
+  commentId: M:CardBattle.Display.Panel.Start
+  parent: CardBattle.Display.Panel
+  name: Start()
+  nameWithType: Panel.Start()
+  fullName: CardBattle.Display.Panel.Start()
+  spec.csharp:
+  - uid: CardBattle.Display.Panel.Start
+    name: Start
+    nameWithType: Panel.Start
+    fullName: CardBattle.Display.Panel.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardBattle.Display.Panel.Start
+    name: Start
+    nameWithType: Panel.Start
+    fullName: CardBattle.Display.Panel.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Display.Panel.Awake
+  commentId: M:CardBattle.Display.Panel.Awake
+  parent: CardBattle.Display.Panel
+  name: Awake()
+  nameWithType: Panel.Awake()
+  fullName: CardBattle.Display.Panel.Awake()
+  spec.csharp:
+  - uid: CardBattle.Display.Panel.Awake
+    name: Awake
+    nameWithType: Panel.Awake
+    fullName: CardBattle.Display.Panel.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardBattle.Display.Panel.Awake
+    name: Awake
+    nameWithType: Panel.Awake
+    fullName: CardBattle.Display.Panel.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Display.Panel.Set(System.Boolean)
+  commentId: M:CardBattle.Display.Panel.Set(System.Boolean)
+  parent: CardBattle.Display.Panel
+  isExternal: true
+  name: Set(Boolean)
+  nameWithType: Panel.Set(Boolean)
+  fullName: CardBattle.Display.Panel.Set(System.Boolean)
+  spec.csharp:
+  - uid: CardBattle.Display.Panel.Set(System.Boolean)
+    name: Set
+    nameWithType: Panel.Set
+    fullName: CardBattle.Display.Panel.Set
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardBattle.Display.Panel.Set(System.Boolean)
+    name: Set
+    nameWithType: Panel.Set
+    fullName: CardBattle.Display.Panel.Set
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Display
+  commentId: N:CardBattle.Display
+  name: CardBattle.Display
+  nameWithType: CardBattle.Display
+  fullName: CardBattle.Display
+- uid: CardBattle.Display.Panel.Load
+  commentId: M:CardBattle.Display.Panel.Load
+  parent: CardBattle.Display.Panel
+  name: Load()
+  nameWithType: Panel.Load()
+  fullName: CardBattle.Display.Panel.Load()
+  spec.csharp:
+  - uid: CardBattle.Display.Panel.Load
+    name: Load
+    nameWithType: Panel.Load
+    fullName: CardBattle.Display.Panel.Load
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardBattle.Display.Panel.Load
+    name: Load
+    nameWithType: Panel.Load
+    fullName: CardBattle.Display.Panel.Load
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardBattle.Display.Panels.StandardPanel.Load*
+  commentId: Overload:CardBattle.Display.Panels.StandardPanel.Load
+  name: Load
+  nameWithType: StandardPanel.Load
+  fullName: CardBattle.Display.Panels.StandardPanel.Load

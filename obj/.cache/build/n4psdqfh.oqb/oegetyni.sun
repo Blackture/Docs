@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetworkManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetworkManager
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../References/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CardBattle.Networking.NetworkManager">
+  
+  
+  <h1 id="CardBattle_Networking_NetworkManager" data-uid="CardBattle.Networking.NetworkManager" class="text-break">Class NetworkManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">NetworkManager</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="CardBattle.Networking.html">CardBattle.Networking</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="CardBattle_Networking_NetworkManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NetworkManager : MonoBehaviourPunCallbacks</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="CardBattle_Networking_NetworkManager_canvas" data-uid="CardBattle.Networking.NetworkManager.canvas">canvas</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GameObject canvas</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CardBattle_Networking_NetworkManager_countdownText" data-uid="CardBattle.Networking.NetworkManager.countdownText">countdownText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TMP_Text countdownText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TMP_Text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CardBattle_Networking_NetworkManager_levelChanger" data-uid="CardBattle.Networking.NetworkManager.levelChanger">levelChanger</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LevelChanger levelChanger</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CardBattle.Networking.LevelChanger.html">LevelChanger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CardBattle_Networking_NetworkManager_lobbyName" data-uid="CardBattle.Networking.NetworkManager.lobbyName">lobbyName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string lobbyName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="CardBattle_Networking_NetworkManager_selectedMatchType" data-uid="CardBattle.Networking.NetworkManager.selectedMatchType">selectedMatchType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MatchType selectedMatchType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="CardBattle.Core.MatchType.html">MatchType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_JoinSpecificMatch_" data-uid="CardBattle.Networking.NetworkManager.JoinSpecificMatch*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_JoinSpecificMatch_System_String_" data-uid="CardBattle.Networking.NetworkManager.JoinSpecificMatch(System.String)">JoinSpecificMatch(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void JoinSpecificMatch(string matchName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">matchName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_LeaveMatch_" data-uid="CardBattle.Networking.NetworkManager.LeaveMatch*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_LeaveMatch" data-uid="CardBattle.Networking.NetworkManager.LeaveMatch">LeaveMatch()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LeaveMatch()</code></pre>
+  </div>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_OnConnectedToMaster_" data-uid="CardBattle.Networking.NetworkManager.OnConnectedToMaster*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_OnConnectedToMaster" data-uid="CardBattle.Networking.NetworkManager.OnConnectedToMaster">OnConnectedToMaster()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnConnectedToMaster()</code></pre>
+  </div>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_OnDisconnected_" data-uid="CardBattle.Networking.NetworkManager.OnDisconnected*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_OnDisconnected_DisconnectCause_" data-uid="CardBattle.Networking.NetworkManager.OnDisconnected(DisconnectCause)">OnDisconnected(DisconnectCause)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDisconnected(DisconnectCause cause)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DisconnectCause</span></td>
+        <td><span class="parametername">cause</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_OnJoinedLobby_" data-uid="CardBattle.Networking.NetworkManager.OnJoinedLobby*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_OnJoinedLobby" data-uid="CardBattle.Networking.NetworkManager.OnJoinedLobby">OnJoinedLobby()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnJoinedLobby()</code></pre>
+  </div>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_OnJoinedRoom_" data-uid="CardBattle.Networking.NetworkManager.OnJoinedRoom*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_OnJoinedRoom" data-uid="CardBattle.Networking.NetworkManager.OnJoinedRoom">OnJoinedRoom()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnJoinedRoom()</code></pre>
+  </div>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_OnJoinMatchButtonPressed_" data-uid="CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_OnJoinMatchButtonPressed" data-uid="CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed">OnJoinMatchButtonPressed()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnJoinMatchButtonPressed()</code></pre>
+  </div>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_OnJoinMatchButtonPressed_" data-uid="CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_OnJoinMatchButtonPressed_TMP_InputField_" data-uid="CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed(TMP_InputField)">OnJoinMatchButtonPressed(TMP_InputField)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnJoinMatchButtonPressed(TMP_InputField matchName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TMP_InputField</span></td>
+        <td><span class="parametername">matchName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_OnJoinRandomFailed_" data-uid="CardBattle.Networking.NetworkManager.OnJoinRandomFailed*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_OnJoinRandomFailed_System_Int16_System_String_" data-uid="CardBattle.Networking.NetworkManager.OnJoinRandomFailed(System.Int16,System.String)">OnJoinRandomFailed(Int16, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnJoinRandomFailed(short returnCode, string message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">returnCode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">message</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_SetPlayersNickName_" data-uid="CardBattle.Networking.NetworkManager.SetPlayersNickName*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_SetPlayersNickName_System_String_" data-uid="CardBattle.Networking.NetworkManager.SetPlayersNickName(System.String)">SetPlayersNickName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPlayersNickName(string s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="CardBattle_Networking_NetworkManager_SetSelectedMatchType_" data-uid="CardBattle.Networking.NetworkManager.SetSelectedMatchType*"></a>
+  <h4 id="CardBattle_Networking_NetworkManager_SetSelectedMatchType_System_String_" data-uid="CardBattle.Networking.NetworkManager.SetSelectedMatchType(System.String)">SetSelectedMatchType(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetSelectedMatchType(string s)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

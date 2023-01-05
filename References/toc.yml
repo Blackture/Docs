@@ -10,3 +10,5 @@
     href: ../devilsHuntAPI/toc.yml
   - name: Card Battle API
     href: ../cardBattleAPI/toc.yml
+  - name: Virtual Dice API
+    href: ../virtualDiceAPI/toc.yml

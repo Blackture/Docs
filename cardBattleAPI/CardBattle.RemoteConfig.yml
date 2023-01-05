@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.RemoteConfig
+  commentId: N:CardBattle.RemoteConfig
+  id: CardBattle.RemoteConfig
+  children:
+  - CardBattle.RemoteConfig.Configs
+  - CardBattle.RemoteConfig.Configs.appAttributes
+  - CardBattle.RemoteConfig.Configs.userAttributes
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.RemoteConfig
+  nameWithType: CardBattle.RemoteConfig
+  fullName: CardBattle.RemoteConfig
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.RemoteConfig.Configs
+  commentId: T:CardBattle.RemoteConfig.Configs
+  parent: CardBattle.RemoteConfig
+  name: Configs
+  nameWithType: Configs
+  fullName: CardBattle.RemoteConfig.Configs
+- uid: CardBattle.RemoteConfig.Configs.userAttributes
+  commentId: T:CardBattle.RemoteConfig.Configs.userAttributes
+  name: Configs.userAttributes
+  nameWithType: Configs.userAttributes
+  fullName: CardBattle.RemoteConfig.Configs.userAttributes
+- uid: CardBattle.RemoteConfig.Configs.appAttributes
+  commentId: T:CardBattle.RemoteConfig.Configs.appAttributes
+  name: Configs.appAttributes
+  nameWithType: Configs.appAttributes
+  fullName: CardBattle.RemoteConfig.Configs.appAttributes
+- uid: CardBattle.RemoteConfig
+  commentId: N:CardBattle.RemoteConfig
+  name: CardBattle.RemoteConfig
+  nameWithType: CardBattle.RemoteConfig
+  fullName: CardBattle.RemoteConfig

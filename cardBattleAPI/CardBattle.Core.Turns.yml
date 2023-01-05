@@ -4,6 +4,8 @@ items:
   commentId: N:CardBattle.Core.Turns
   id: CardBattle.Core.Turns
   children:
+  - CardBattle.Core.Turns.QuickMatch
+  - CardBattle.Core.Turns.StandardMatch
   - CardBattle.Core.Turns.Turn
   - CardBattle.Core.Turns.TurnManager
   langs:
@@ -16,6 +18,16 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: CardBattle.Core.Turns.QuickMatch
+  commentId: T:CardBattle.Core.Turns.QuickMatch
+  name: QuickMatch
+  nameWithType: QuickMatch
+  fullName: CardBattle.Core.Turns.QuickMatch
+- uid: CardBattle.Core.Turns.StandardMatch
+  commentId: T:CardBattle.Core.Turns.StandardMatch
+  name: StandardMatch
+  nameWithType: StandardMatch
+  fullName: CardBattle.Core.Turns.StandardMatch
 - uid: CardBattle.Core.Turns.Turn
   commentId: T:CardBattle.Core.Turns.Turn
   name: Turn

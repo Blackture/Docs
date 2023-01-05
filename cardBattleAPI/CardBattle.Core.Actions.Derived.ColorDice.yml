@@ -17,7 +17,7 @@ items:
   source:
     id: ColorDice
     path: ''
-    startLine: 325
+    startLine: 374
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -58,7 +58,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 330
+    startLine: 379
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived
@@ -84,7 +84,7 @@ items:
   source:
     id: Execute
     path: ''
-    startLine: 337
+    startLine: 386
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Actions.Derived

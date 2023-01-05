@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Slider
+  commentId: T:CardBattle.Core.Slider
+  id: Slider
+  parent: CardBattle.Core
+  children:
+  - CardBattle.Core.Slider.GetCurrent``1
+  - CardBattle.Core.Slider.onValueChangedI
+  - CardBattle.Core.Slider.onValueChangedS
+  - CardBattle.Core.Slider.textArea
+  langs:
+  - csharp
+  - vb
+  name: Slider
+  nameWithType: Slider
+  fullName: CardBattle.Core.Slider
+  type: Class
+  source:
+    id: Slider
+    path: ''
+    startLine: 156
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: 'public class Slider : MonoBehaviour'
+    content.vb: >-
+      Public Class Slider
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Slider.textArea
+  commentId: F:CardBattle.Core.Slider.textArea
+  id: textArea
+  parent: CardBattle.Core.Slider
+  langs:
+  - csharp
+  - vb
+  name: textArea
+  nameWithType: Slider.textArea
+  fullName: CardBattle.Core.Slider.textArea
+  type: Field
+  source:
+    id: textArea
+    path: ''
+    startLine: 160
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public Transform textArea
+    return:
+      type: Transform
+    content.vb: Public textArea As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Slider.onValueChangedS
+  commentId: F:CardBattle.Core.Slider.onValueChangedS
+  id: onValueChangedS
+  parent: CardBattle.Core.Slider
+  langs:
+  - csharp
+  - vb
+  name: onValueChangedS
+  nameWithType: Slider.onValueChangedS
+  fullName: CardBattle.Core.Slider.onValueChangedS
+  type: Field
+  source:
+    id: onValueChangedS
+    path: ''
+    startLine: 165
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public UnityEvent<string> onValueChangedS
+    return:
+      type: UnityEvent{System.String}
+    content.vb: Public onValueChangedS As UnityEvent(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Slider.onValueChangedI
+  commentId: F:CardBattle.Core.Slider.onValueChangedI
+  id: onValueChangedI
+  parent: CardBattle.Core.Slider
+  langs:
+  - csharp
+  - vb
+  name: onValueChangedI
+  nameWithType: Slider.onValueChangedI
+  fullName: CardBattle.Core.Slider.onValueChangedI
+  type: Field
+  source:
+    id: onValueChangedI
+    path: ''
+    startLine: 166
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  syntax:
+    content: public UnityEvent<int> onValueChangedI
+    return:
+      type: UnityEvent{System.Int32}
+    content.vb: Public onValueChangedI As UnityEvent(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Core.Slider.GetCurrent``1
+  commentId: M:CardBattle.Core.Slider.GetCurrent``1
+  id: GetCurrent``1
+  parent: CardBattle.Core.Slider
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent<T>()
+  nameWithType: Slider.GetCurrent<T>()
+  fullName: CardBattle.Core.Slider.GetCurrent<T>()
+  type: Method
+  source:
+    id: GetCurrent
+    path: ''
+    startLine: 202
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core
+  summary: "\nConverts the current index to an enum value\n"
+  example: []
+  syntax:
+    content: >-
+      public T GetCurrent<T>()
+          where T : struct, IConvertible
+    typeParameters:
+    - id: T
+      description: The specific enum
+    return:
+      type: '{T}'
+      description: returns the current value in form of a specific enum
+    content.vb: Public Function GetCurrent(Of T As {Structure, IConvertible}) As T
+  overload: CardBattle.Core.Slider.GetCurrent*
+  exceptions:
+  - type: System.Exception
+    commentId: T:System.Exception
+  nameWithType.vb: Slider.GetCurrent(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Core.Slider.GetCurrent(Of T)()
+  name.vb: GetCurrent(Of T)()
+references:
+- uid: CardBattle.Core
+  commentId: N:CardBattle.Core
+  name: CardBattle.Core
+  nameWithType: CardBattle.Core
+  fullName: CardBattle.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Transform
+  commentId: '!:Transform'
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: UnityEvent{System.String}
+  commentId: '!:UnityEvent{System.String}'
+  definition: UnityEvent`1
+  name: UnityEvent<String>
+  nameWithType: UnityEvent<String>
+  fullName: UnityEvent<System.String>
+  nameWithType.vb: UnityEvent(Of String)
+  fullName.vb: UnityEvent(Of System.String)
+  name.vb: UnityEvent(Of String)
+  spec.csharp:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEvent`1
+  isExternal: true
+  name: UnityEvent<>
+  nameWithType: UnityEvent<>
+  fullName: UnityEvent<>
+  nameWithType.vb: UnityEvent(Of )
+  fullName.vb: UnityEvent(Of )
+  name.vb: UnityEvent(Of )
+  spec.csharp:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: UnityEvent{System.Int32}
+  commentId: '!:UnityEvent{System.Int32}'
+  definition: UnityEvent`1
+  name: UnityEvent<Int32>
+  nameWithType: UnityEvent<Int32>
+  fullName: UnityEvent<System.Int32>
+  nameWithType.vb: UnityEvent(Of Int32)
+  fullName.vb: UnityEvent(Of System.Int32)
+  name.vb: UnityEvent(Of Int32)
+  spec.csharp:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception
+  commentId: T:System.Exception
+  isExternal: true
+- uid: CardBattle.Core.Slider.GetCurrent*
+  commentId: Overload:CardBattle.Core.Slider.GetCurrent
+  name: GetCurrent
+  nameWithType: Slider.GetCurrent
+  fullName: CardBattle.Core.Slider.GetCurrent
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

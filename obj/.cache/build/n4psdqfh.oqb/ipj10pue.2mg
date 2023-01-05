@@ -1,0 +1,1 @@
+{"References/toc.yml":[{"File":"References/toc.yml","LogLevel":"error","Message":"Referenced TOC file D:\\Users\\patri\\Desktop\\docfx\\~Desktop\\Docs\\virtualDiceAPI\\toc.yml does not exist.","Phase":"BuildCore.Build Document.CompilePhaseHandlerWithIncremental.TocDocumentProcessor.Prebuild.BuildTocDocument","Code":"InvalidTocInclude"}]}

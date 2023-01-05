@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Display.Panels
+  commentId: N:CardBattle.Display.Panels
+  id: CardBattle.Display.Panels
+  children:
+  - CardBattle.Display.Panels.StandardPanel
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Display.Panels
+  nameWithType: CardBattle.Display.Panels
+  fullName: CardBattle.Display.Panels
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Display.Panels.StandardPanel
+  commentId: T:CardBattle.Display.Panels.StandardPanel
+  name: StandardPanel
+  nameWithType: StandardPanel
+  fullName: CardBattle.Display.Panels.StandardPanel

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Assets.Scripts.Networking
+  commentId: N:Assets.Scripts.Networking
+  id: Assets.Scripts.Networking
+  children:
+  - Assets.Scripts.Networking.GeneralMatchController
+  langs:
+  - csharp
+  - vb
+  name: Assets.Scripts.Networking
+  nameWithType: Assets.Scripts.Networking
+  fullName: Assets.Scripts.Networking
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Assets.Scripts.Networking.GeneralMatchController
+  commentId: T:Assets.Scripts.Networking.GeneralMatchController
+  name: GeneralMatchController
+  nameWithType: GeneralMatchController
+  fullName: Assets.Scripts.Networking.GeneralMatchController

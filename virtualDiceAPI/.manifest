@@ -1,0 +1,20 @@
+{
+  "Display": "Display.yml",
+  "Display.Form1": "Display.Form1.yml",
+  "Display.Form1.#ctor": "Display.Form1.yml",
+  "Display.Form1.Dispose(System.Boolean)": "Display.Form1.yml",
+  "GameToolbox.Elements": "GameToolbox.Elements.yml",
+  "GameToolbox.Elements.Die": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.ChancePerSide": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.IsZeroIndexed": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.Roll": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.Roll(System.Int32@)": "GameToolbox.Elements.Die.yml",
+  "GameToolbox.Elements.Die.Sides": "GameToolbox.Elements.Die.yml"
+}

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Display
+  commentId: N:Display
+  id: Display
+  children:
+  - Display.Form1
+  langs:
+  - csharp
+  - vb
+  name: Display
+  nameWithType: Display
+  fullName: Display
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Display.Form1
+  commentId: T:Display.Form1
+  name: Form1
+  nameWithType: Form1
+  fullName: Display.Form1

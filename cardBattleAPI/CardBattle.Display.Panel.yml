@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Display.Panel
+  commentId: T:CardBattle.Display.Panel
+  id: Panel
+  parent: CardBattle.Display
+  children:
+  - CardBattle.Display.Panel.Awake
+  - CardBattle.Display.Panel.Close
+  - CardBattle.Display.Panel.interactables
+  - CardBattle.Display.Panel.Load
+  - CardBattle.Display.Panel.Open
+  - CardBattle.Display.Panel.panelName
+  - CardBattle.Display.Panel.Set(System.Boolean)
+  - CardBattle.Display.Panel.Start
+  - CardBattle.Display.Panel.Update
+  langs:
+  - csharp
+  - vb
+  name: Panel
+  nameWithType: Panel
+  fullName: CardBattle.Display.Panel
+  type: Class
+  source:
+    id: Panel
+    path: ''
+    startLine: 1412
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: 'public abstract class Panel : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class Panel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CardBattle.Display.Panels.StandardPanel
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CardBattle.Display.Panel.panelName
+  commentId: F:CardBattle.Display.Panel.panelName
+  id: panelName
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: panelName
+  nameWithType: Panel.panelName
+  fullName: CardBattle.Display.Panel.panelName
+  type: Field
+  source:
+    id: panelName
+    path: ''
+    startLine: 1414
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public string panelName
+    return:
+      type: System.String
+    content.vb: Public panelName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Display.Panel.interactables
+  commentId: F:CardBattle.Display.Panel.interactables
+  id: interactables
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: interactables
+  nameWithType: Panel.interactables
+  fullName: CardBattle.Display.Panel.interactables
+  type: Field
+  source:
+    id: interactables
+    path: ''
+    startLine: 1415
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public List<Selectable> interactables
+    return:
+      type: System.Collections.Generic.List{Selectable}
+    content.vb: Public interactables As List(Of Selectable)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Display.Panel.Open
+  commentId: M:CardBattle.Display.Panel.Open
+  id: Open
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: Open()
+  nameWithType: Panel.Open()
+  fullName: CardBattle.Display.Panel.Open()
+  type: Method
+  source:
+    id: Open
+    path: ''
+    startLine: 1417
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public void Open()
+    content.vb: Public Sub Open
+  overload: CardBattle.Display.Panel.Open*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Display.Panel.Close
+  commentId: M:CardBattle.Display.Panel.Close
+  id: Close
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: Panel.Close()
+  fullName: CardBattle.Display.Panel.Close()
+  type: Method
+  source:
+    id: Close
+    path: ''
+    startLine: 1423
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: CardBattle.Display.Panel.Close*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Display.Panel.Load
+  commentId: M:CardBattle.Display.Panel.Load
+  id: Load
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: Load()
+  nameWithType: Panel.Load()
+  fullName: CardBattle.Display.Panel.Load()
+  type: Method
+  source:
+    id: Load
+    path: ''
+    startLine: 1425
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: protected abstract void Load()
+    content.vb: Protected MustOverride Sub Load
+  overload: CardBattle.Display.Panel.Load*
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+- uid: CardBattle.Display.Panel.Update
+  commentId: M:CardBattle.Display.Panel.Update
+  id: Update
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: Panel.Update()
+  fullName: CardBattle.Display.Panel.Update()
+  type: Method
+  source:
+    id: Update
+    path: ''
+    startLine: 1426
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: protected virtual void Update()
+    content.vb: Protected Overridable Sub Update
+  overload: CardBattle.Display.Panel.Update*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: CardBattle.Display.Panel.Start
+  commentId: M:CardBattle.Display.Panel.Start
+  id: Start
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: Panel.Start()
+  fullName: CardBattle.Display.Panel.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 1427
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: protected virtual void Start()
+    content.vb: Protected Overridable Sub Start
+  overload: CardBattle.Display.Panel.Start*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: CardBattle.Display.Panel.Awake
+  commentId: M:CardBattle.Display.Panel.Awake
+  id: Awake
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Panel.Awake()
+  fullName: CardBattle.Display.Panel.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 1428
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: CardBattle.Display.Panel.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: CardBattle.Display.Panel.Set(System.Boolean)
+  commentId: M:CardBattle.Display.Panel.Set(System.Boolean)
+  id: Set(System.Boolean)
+  parent: CardBattle.Display.Panel
+  langs:
+  - csharp
+  - vb
+  name: Set(Boolean)
+  nameWithType: Panel.Set(Boolean)
+  fullName: CardBattle.Display.Panel.Set(System.Boolean)
+  type: Method
+  source:
+    id: Set
+    path: ''
+    startLine: 1429
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Display
+  syntax:
+    content: public virtual void Set(bool interactable)
+    parameters:
+    - id: interactable
+      type: System.Boolean
+    content.vb: Public Overridable Sub Set(interactable As Boolean)
+  overload: CardBattle.Display.Panel.Set*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: CardBattle.Display
+  commentId: N:CardBattle.Display
+  name: CardBattle.Display
+  nameWithType: CardBattle.Display
+  fullName: CardBattle.Display
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{Selectable}
+  commentId: T:System.Collections.Generic.List{Selectable}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Selectable>
+  nameWithType: List<Selectable>
+  fullName: System.Collections.Generic.List<Selectable>
+  nameWithType.vb: List(Of Selectable)
+  fullName.vb: System.Collections.Generic.List(Of Selectable)
+  name.vb: List(Of Selectable)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Selectable
+    name: Selectable
+    nameWithType: Selectable
+    fullName: Selectable
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Selectable
+    name: Selectable
+    nameWithType: Selectable
+    fullName: Selectable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: CardBattle.Display.Panel.Open*
+  commentId: Overload:CardBattle.Display.Panel.Open
+  name: Open
+  nameWithType: Panel.Open
+  fullName: CardBattle.Display.Panel.Open
+- uid: CardBattle.Display.Panel.Close*
+  commentId: Overload:CardBattle.Display.Panel.Close
+  name: Close
+  nameWithType: Panel.Close
+  fullName: CardBattle.Display.Panel.Close
+- uid: CardBattle.Display.Panel.Load*
+  commentId: Overload:CardBattle.Display.Panel.Load
+  name: Load
+  nameWithType: Panel.Load
+  fullName: CardBattle.Display.Panel.Load
+- uid: CardBattle.Display.Panel.Update*
+  commentId: Overload:CardBattle.Display.Panel.Update
+  name: Update
+  nameWithType: Panel.Update
+  fullName: CardBattle.Display.Panel.Update
+- uid: CardBattle.Display.Panel.Start*
+  commentId: Overload:CardBattle.Display.Panel.Start
+  name: Start
+  nameWithType: Panel.Start
+  fullName: CardBattle.Display.Panel.Start
+- uid: CardBattle.Display.Panel.Awake*
+  commentId: Overload:CardBattle.Display.Panel.Awake
+  name: Awake
+  nameWithType: Panel.Awake
+  fullName: CardBattle.Display.Panel.Awake
+- uid: CardBattle.Display.Panel.Set*
+  commentId: Overload:CardBattle.Display.Panel.Set
+  name: Set
+  nameWithType: Panel.Set
+  fullName: CardBattle.Display.Panel.Set
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

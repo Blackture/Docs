@@ -1,0 +1,845 @@
+### YamlMime:ManagedReference
+items:
+- uid: GameToolbox.Elements.Die
+  commentId: T:GameToolbox.Elements.Die
+  id: Die
+  parent: GameToolbox.Elements
+  children:
+  - GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)
+  - GameToolbox.Elements.Die.ChancePerSide
+  - GameToolbox.Elements.Die.IsZeroIndexed
+  - GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  - GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  - GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
+  - GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  - GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  - GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  - GameToolbox.Elements.Die.Roll
+  - GameToolbox.Elements.Die.Roll(System.Int32@)
+  - GameToolbox.Elements.Die.Sides
+  langs:
+  - csharp
+  - vb
+  name: Die
+  nameWithType: Die
+  fullName: GameToolbox.Elements.Die
+  type: Class
+  source:
+    id: Die
+    path: ''
+    startLine: 520
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public class Die
+    content.vb: Public Class Die
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GameToolbox.Elements.Die.Sides
+  commentId: P:GameToolbox.Elements.Die.Sides
+  id: Sides
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Sides
+  nameWithType: Die.Sides
+  fullName: GameToolbox.Elements.Die.Sides
+  type: Property
+  source:
+    id: Sides
+    path: ''
+    startLine: 528
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public uint Sides { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Sides As UInteger
+  overload: GameToolbox.Elements.Die.Sides*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GameToolbox.Elements.Die.IsZeroIndexed
+  commentId: P:GameToolbox.Elements.Die.IsZeroIndexed
+  id: IsZeroIndexed
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: IsZeroIndexed
+  nameWithType: Die.IsZeroIndexed
+  fullName: GameToolbox.Elements.Die.IsZeroIndexed
+  type: Property
+  source:
+    id: IsZeroIndexed
+    path: ''
+    startLine: 529
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public bool IsZeroIndexed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsZeroIndexed As Boolean
+  overload: GameToolbox.Elements.Die.IsZeroIndexed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GameToolbox.Elements.Die.ChancePerSide
+  commentId: P:GameToolbox.Elements.Die.ChancePerSide
+  id: ChancePerSide
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: ChancePerSide
+  nameWithType: Die.ChancePerSide
+  fullName: GameToolbox.Elements.Die.ChancePerSide
+  type: Property
+  source:
+    id: ChancePerSide
+    path: ''
+    startLine: 530
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public float ChancePerSide { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property ChancePerSide As Single
+  overload: GameToolbox.Elements.Die.ChancePerSide*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)
+  commentId: M:GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)
+  id: '#ctor(System.UInt32,System.Int32,System.Boolean)'
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Die(UInt32, Int32, Boolean)
+  nameWithType: Die.Die(UInt32, Int32, Boolean)
+  fullName: GameToolbox.Elements.Die.Die(System.UInt32, System.Int32, System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 532
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public Die(uint sides, int seed = 0, bool isZeroIndexed = false)
+    parameters:
+    - id: sides
+      type: System.UInt32
+    - id: seed
+      type: System.Int32
+    - id: isZeroIndexed
+      type: System.Boolean
+    content.vb: Public Sub New(sides As UInteger, seed As Integer = 0, isZeroIndexed As Boolean = False)
+  overload: GameToolbox.Elements.Die.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GameToolbox.Elements.Die.Roll(System.Int32@)
+  commentId: M:GameToolbox.Elements.Die.Roll(System.Int32@)
+  id: Roll(System.Int32@)
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Roll(out Int32)
+  nameWithType: Die.Roll(out Int32)
+  fullName: GameToolbox.Elements.Die.Roll(out System.Int32)
+  type: Method
+  source:
+    id: Roll
+    path: ''
+    startLine: 557
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  summary: "\nRolls the die once.\n"
+  example: []
+  syntax:
+    content: public bool Roll(out int roll)
+    parameters:
+    - id: roll
+      type: System.Int32
+      description: Outputs the rolled value.
+    return:
+      type: System.Boolean
+      description: Returns a boolean indentifying if the roll was valid.
+    content.vb: Public Function Roll(ByRef roll As Integer) As Boolean
+  overload: GameToolbox.Elements.Die.Roll*
+  nameWithType.vb: Die.Roll(ByRef Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: GameToolbox.Elements.Die.Roll(ByRef System.Int32)
+  name.vb: Roll(ByRef Int32)
+- uid: GameToolbox.Elements.Die.Roll
+  commentId: M:GameToolbox.Elements.Die.Roll
+  id: Roll
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Roll()
+  nameWithType: Die.Roll()
+  fullName: GameToolbox.Elements.Die.Roll()
+  type: Method
+  source:
+    id: Roll
+    path: ''
+    startLine: 571
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public int Roll()
+    return:
+      type: System.Int32
+    content.vb: Public Function Roll As Integer
+  overload: GameToolbox.Elements.Die.Roll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  commentId: M:GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  id: op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Addition(Die, Die)
+  nameWithType: Die.Addition(Die, Die)
+  fullName: GameToolbox.Elements.Die.Addition(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  type: Operator
+  source:
+    id: op_Addition
+    path: ''
+    startLine: 587
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public static int operator +(Die d1, Die d2)
+    parameters:
+    - id: d1
+      type: GameToolbox.Elements.Die
+    - id: d2
+      type: GameToolbox.Elements.Die
+    return:
+      type: System.Int32
+    content.vb: Public Shared Operator +(d1 As Die, d2 As Die) As Integer
+  overload: GameToolbox.Elements.Die.op_Addition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  commentId: M:GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  id: op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Die, Die)
+  nameWithType: Die.Multiply(Die, Die)
+  fullName: GameToolbox.Elements.Die.Multiply(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  type: Operator
+  source:
+    id: op_Multiply
+    path: ''
+    startLine: 600
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public static int operator *(Die d1, Die d2)
+    parameters:
+    - id: d1
+      type: GameToolbox.Elements.Die
+    - id: d2
+      type: GameToolbox.Elements.Die
+    return:
+      type: System.Int32
+    content.vb: Public Shared Operator *(d1 As Die, d2 As Die) As Integer
+  overload: GameToolbox.Elements.Die.op_Multiply*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  commentId: M:GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  id: op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Division(Die, Die)
+  nameWithType: Die.Division(Die, Die)
+  fullName: GameToolbox.Elements.Die.Division(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  type: Operator
+  source:
+    id: op_Division
+    path: ''
+    startLine: 613
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public static int operator /(Die d1, Die d2)
+    parameters:
+    - id: d1
+      type: GameToolbox.Elements.Die
+    - id: d2
+      type: GameToolbox.Elements.Die
+    return:
+      type: System.Int32
+    content.vb: Public Shared Operator /(d1 As Die, d2 As Die) As Integer
+  overload: GameToolbox.Elements.Die.op_Division*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  commentId: M:GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  id: op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Subtraction(Die, Die)
+  nameWithType: Die.Subtraction(Die, Die)
+  fullName: GameToolbox.Elements.Die.Subtraction(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  type: Operator
+  source:
+    id: op_Subtraction
+    path: ''
+    startLine: 626
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public static int operator -(Die d1, Die d2)
+    parameters:
+    - id: d1
+      type: GameToolbox.Elements.Die
+    - id: d2
+      type: GameToolbox.Elements.Die
+    return:
+      type: System.Int32
+    content.vb: Public Shared Operator -(d1 As Die, d2 As Die) As Integer
+  overload: GameToolbox.Elements.Die.op_Subtraction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  commentId: M:GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  id: op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Modulus(Die, Die)
+  nameWithType: Die.Modulus(Die, Die)
+  fullName: GameToolbox.Elements.Die.Modulus(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  type: Operator
+  source:
+    id: op_Modulus
+    path: ''
+    startLine: 639
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public static int operator %(Die d1, Die d2)
+    parameters:
+    - id: d1
+      type: GameToolbox.Elements.Die
+    - id: d2
+      type: GameToolbox.Elements.Die
+    return:
+      type: System.Int32
+    content.vb: Public Shared Operator Mod(d1 As Die, d2 As Die) As Integer
+  overload: GameToolbox.Elements.Die.op_Modulus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
+  commentId: M:GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
+  id: op_Implicit(GameToolbox.Elements.Die)~System.Int32
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Die to Int32)
+  nameWithType: Die.Implicit(Die to Int32)
+  fullName: GameToolbox.Elements.Die.Implicit(GameToolbox.Elements.Die to System.Int32)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 652
+  assemblies:
+  - cs.temp.dll
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public static implicit operator int (Die d1)
+    parameters:
+    - id: d1
+      type: GameToolbox.Elements.Die
+    return:
+      type: System.Int32
+    content.vb: Public Shared Widening Operator CType(d1 As Die) As Integer
+  overload: GameToolbox.Elements.Die.op_Implicit*
+  nameWithType.vb: Die.Widening(Die to Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: GameToolbox.Elements.Die.Widening(GameToolbox.Elements.Die to System.Int32)
+  name.vb: Widening(Die to Int32)
+references:
+- uid: GameToolbox.Elements
+  commentId: N:GameToolbox.Elements
+  name: GameToolbox.Elements
+  nameWithType: GameToolbox.Elements
+  fullName: GameToolbox.Elements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GameToolbox.Elements.Die.Sides*
+  commentId: Overload:GameToolbox.Elements.Die.Sides
+  name: Sides
+  nameWithType: Die.Sides
+  fullName: GameToolbox.Elements.Die.Sides
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: GameToolbox.Elements.Die.IsZeroIndexed*
+  commentId: Overload:GameToolbox.Elements.Die.IsZeroIndexed
+  name: IsZeroIndexed
+  nameWithType: Die.IsZeroIndexed
+  fullName: GameToolbox.Elements.Die.IsZeroIndexed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GameToolbox.Elements.Die.ChancePerSide*
+  commentId: Overload:GameToolbox.Elements.Die.ChancePerSide
+  name: ChancePerSide
+  nameWithType: Die.ChancePerSide
+  fullName: GameToolbox.Elements.Die.ChancePerSide
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: GameToolbox.Elements.Die.#ctor*
+  commentId: Overload:GameToolbox.Elements.Die.#ctor
+  name: Die
+  nameWithType: Die.Die
+  fullName: GameToolbox.Elements.Die.Die
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GameToolbox.Elements.Die.Roll*
+  commentId: Overload:GameToolbox.Elements.Die.Roll
+  name: Roll
+  nameWithType: Die.Roll
+  fullName: GameToolbox.Elements.Die.Roll
+- uid: GameToolbox.Elements.Die.op_Addition*
+  commentId: Overload:GameToolbox.Elements.Die.op_Addition
+  name: Addition
+  nameWithType: Die.Addition
+  fullName: GameToolbox.Elements.Die.Addition
+- uid: GameToolbox.Elements.Die
+  commentId: T:GameToolbox.Elements.Die
+  parent: GameToolbox.Elements
+  name: Die
+  nameWithType: Die
+  fullName: GameToolbox.Elements.Die
+- uid: GameToolbox.Elements.Die.op_Multiply*
+  commentId: Overload:GameToolbox.Elements.Die.op_Multiply
+  name: Multiply
+  nameWithType: Die.Multiply
+  fullName: GameToolbox.Elements.Die.Multiply
+- uid: GameToolbox.Elements.Die.op_Division*
+  commentId: Overload:GameToolbox.Elements.Die.op_Division
+  name: Division
+  nameWithType: Die.Division
+  fullName: GameToolbox.Elements.Die.Division
+- uid: GameToolbox.Elements.Die.op_Subtraction*
+  commentId: Overload:GameToolbox.Elements.Die.op_Subtraction
+  name: Subtraction
+  nameWithType: Die.Subtraction
+  fullName: GameToolbox.Elements.Die.Subtraction
+- uid: GameToolbox.Elements.Die.op_Modulus*
+  commentId: Overload:GameToolbox.Elements.Die.op_Modulus
+  name: Modulus
+  nameWithType: Die.Modulus
+  fullName: GameToolbox.Elements.Die.Modulus
+- uid: GameToolbox.Elements.Die.op_Implicit*
+  commentId: Overload:GameToolbox.Elements.Die.op_Implicit
+  name: Implicit
+  nameWithType: Die.Implicit
+  fullName: GameToolbox.Elements.Die.Implicit
+  nameWithType.vb: Die.Widening
+  fullName.vb: GameToolbox.Elements.Die.Widening
+  name.vb: Widening

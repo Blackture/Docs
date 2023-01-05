@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Core.Turns.QuickMatch
+  commentId: T:CardBattle.Core.Turns.QuickMatch
+  id: QuickMatch
+  parent: CardBattle.Core.Turns
+  children:
+  - CardBattle.Core.Turns.QuickMatch.FinishTurn
+  langs:
+  - csharp
+  - vb
+  name: QuickMatch
+  nameWithType: QuickMatch
+  fullName: CardBattle.Core.Turns.QuickMatch
+  type: Class
+  source:
+    id: QuickMatch
+    path: ''
+    startLine: 135
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: 'public class QuickMatch : MonoBehaviour'
+    content.vb: >-
+      Public Class QuickMatch
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Core.Turns.QuickMatch.FinishTurn
+  commentId: M:CardBattle.Core.Turns.QuickMatch.FinishTurn
+  id: FinishTurn
+  parent: CardBattle.Core.Turns.QuickMatch
+  langs:
+  - csharp
+  - vb
+  name: FinishTurn()
+  nameWithType: QuickMatch.FinishTurn()
+  fullName: CardBattle.Core.Turns.QuickMatch.FinishTurn()
+  type: Method
+  source:
+    id: FinishTurn
+    path: ''
+    startLine: 139
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Turns
+  syntax:
+    content: public void FinishTurn()
+    content.vb: Public Sub FinishTurn
+  overload: CardBattle.Core.Turns.QuickMatch.FinishTurn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardBattle.Core.Turns
+  commentId: N:CardBattle.Core.Turns
+  name: CardBattle.Core.Turns
+  nameWithType: CardBattle.Core.Turns
+  fullName: CardBattle.Core.Turns
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Core.Turns.QuickMatch.FinishTurn*
+  commentId: Overload:CardBattle.Core.Turns.QuickMatch.FinishTurn
+  name: FinishTurn
+  nameWithType: QuickMatch.FinishTurn
+  fullName: CardBattle.Core.Turns.QuickMatch.FinishTurn

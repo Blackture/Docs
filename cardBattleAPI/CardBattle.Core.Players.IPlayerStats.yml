@@ -19,7 +19,7 @@ items:
   source:
     id: IPlayerStats
     path: ''
-    startLine: 700
+    startLine: 1042
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -46,7 +46,7 @@ items:
   source:
     id: Money
     path: ''
-    startLine: 702
+    startLine: 1044
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -74,7 +74,7 @@ items:
   source:
     id: Debts
     path: ''
-    startLine: 703
+    startLine: 1045
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -103,7 +103,7 @@ items:
   source:
     id: VillageCount
     path: ''
-    startLine: 704
+    startLine: 1046
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -132,7 +132,7 @@ items:
   source:
     id: TownCount
     path: ''
-    startLine: 705
+    startLine: 1047
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players

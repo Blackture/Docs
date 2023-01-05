@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Networking.PlayerSync
+  commentId: N:CardBattle.Networking.PlayerSync
+  id: CardBattle.Networking.PlayerSync
+  children:
+  - CardBattle.Networking.PlayerSync.EndTurnButton
+  langs:
+  - csharp
+  - vb
+  name: CardBattle.Networking.PlayerSync
+  nameWithType: CardBattle.Networking.PlayerSync
+  fullName: CardBattle.Networking.PlayerSync
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: CardBattle.Networking.PlayerSync.EndTurnButton
+  commentId: T:CardBattle.Networking.PlayerSync.EndTurnButton
+  name: EndTurnButton
+  nameWithType: EndTurnButton
+  fullName: CardBattle.Networking.PlayerSync.EndTurnButton

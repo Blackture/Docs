@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardBattle.Networking.NetworkManagers
+  commentId: T:CardBattle.Networking.NetworkManagers
+  id: NetworkManagers
+  parent: CardBattle.Networking
+  children:
+  - CardBattle.Networking.NetworkManagers.instance
+  - CardBattle.Networking.NetworkManagers.Send(System.Object)
+  - CardBattle.Networking.NetworkManagers.Send``1(``0)
+  - CardBattle.Networking.NetworkManagers.SendSecure(System.Object)
+  - CardBattle.Networking.NetworkManagers.SendSecure``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: NetworkManagers
+  nameWithType: NetworkManagers
+  fullName: CardBattle.Networking.NetworkManagers
+  type: Class
+  source:
+    id: NetworkManagers
+    path: ''
+    startLine: 2251
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: 'public class NetworkManagers : MonoBehaviourPunCallbacks'
+    content.vb: >-
+      Public Class NetworkManagers
+          Inherits MonoBehaviourPunCallbacks
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardBattle.Networking.NetworkManagers.instance
+  commentId: F:CardBattle.Networking.NetworkManagers.instance
+  id: instance
+  parent: CardBattle.Networking.NetworkManagers
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: NetworkManagers.instance
+  fullName: CardBattle.Networking.NetworkManagers.instance
+  type: Field
+  source:
+    id: instance
+    path: ''
+    startLine: 2254
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public static NetworkManagers instance
+    return:
+      type: CardBattle.Networking.NetworkManagers
+    content.vb: Public Shared instance As NetworkManagers
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardBattle.Networking.NetworkManagers.Send(System.Object)
+  commentId: M:CardBattle.Networking.NetworkManagers.Send(System.Object)
+  id: Send(System.Object)
+  parent: CardBattle.Networking.NetworkManagers
+  langs:
+  - csharp
+  - vb
+  name: Send(Object)
+  nameWithType: NetworkManagers.Send(Object)
+  fullName: CardBattle.Networking.NetworkManagers.Send(System.Object)
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 2262
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void Send(object o)
+    parameters:
+    - id: o
+      type: System.Object
+    content.vb: Public Sub Send(o As Object)
+  overload: CardBattle.Networking.NetworkManagers.Send*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManagers.Send``1(``0)
+  commentId: M:CardBattle.Networking.NetworkManagers.Send``1(``0)
+  id: Send``1(``0)
+  parent: CardBattle.Networking.NetworkManagers
+  langs:
+  - csharp
+  - vb
+  name: Send<T>(T)
+  nameWithType: NetworkManagers.Send<T>(T)
+  fullName: CardBattle.Networking.NetworkManagers.Send<T>(T)
+  type: Method
+  source:
+    id: Send
+    path: ''
+    startLine: 2267
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void Send<T>(T o)
+    parameters:
+    - id: o
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub Send(Of T)(o As T)
+  overload: CardBattle.Networking.NetworkManagers.Send*
+  nameWithType.vb: NetworkManagers.Send(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Networking.NetworkManagers.Send(Of T)(T)
+  name.vb: Send(Of T)(T)
+- uid: CardBattle.Networking.NetworkManagers.SendSecure(System.Object)
+  commentId: M:CardBattle.Networking.NetworkManagers.SendSecure(System.Object)
+  id: SendSecure(System.Object)
+  parent: CardBattle.Networking.NetworkManagers
+  langs:
+  - csharp
+  - vb
+  name: SendSecure(Object)
+  nameWithType: NetworkManagers.SendSecure(Object)
+  fullName: CardBattle.Networking.NetworkManagers.SendSecure(System.Object)
+  type: Method
+  source:
+    id: SendSecure
+    path: ''
+    startLine: 2285
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void SendSecure(object o)
+    parameters:
+    - id: o
+      type: System.Object
+    content.vb: Public Sub SendSecure(o As Object)
+  overload: CardBattle.Networking.NetworkManagers.SendSecure*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardBattle.Networking.NetworkManagers.SendSecure``1(``0)
+  commentId: M:CardBattle.Networking.NetworkManagers.SendSecure``1(``0)
+  id: SendSecure``1(``0)
+  parent: CardBattle.Networking.NetworkManagers
+  langs:
+  - csharp
+  - vb
+  name: SendSecure<T>(T)
+  nameWithType: NetworkManagers.SendSecure<T>(T)
+  fullName: CardBattle.Networking.NetworkManagers.SendSecure<T>(T)
+  type: Method
+  source:
+    id: SendSecure
+    path: ''
+    startLine: 2290
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Networking
+  syntax:
+    content: public void SendSecure<T>(T o)
+    parameters:
+    - id: o
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub SendSecure(Of T)(o As T)
+  overload: CardBattle.Networking.NetworkManagers.SendSecure*
+  nameWithType.vb: NetworkManagers.SendSecure(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardBattle.Networking.NetworkManagers.SendSecure(Of T)(T)
+  name.vb: SendSecure(Of T)(T)
+references:
+- uid: CardBattle.Networking
+  commentId: N:CardBattle.Networking
+  name: CardBattle.Networking
+  nameWithType: CardBattle.Networking
+  fullName: CardBattle.Networking
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardBattle.Networking.NetworkManagers
+  commentId: T:CardBattle.Networking.NetworkManagers
+  parent: CardBattle.Networking
+  name: NetworkManagers
+  nameWithType: NetworkManagers
+  fullName: CardBattle.Networking.NetworkManagers
+- uid: CardBattle.Networking.NetworkManagers.Send*
+  commentId: Overload:CardBattle.Networking.NetworkManagers.Send
+  name: Send
+  nameWithType: NetworkManagers.Send
+  fullName: CardBattle.Networking.NetworkManagers.Send
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CardBattle.Networking.NetworkManagers.SendSecure*
+  commentId: Overload:CardBattle.Networking.NetworkManagers.SendSecure
+  name: SendSecure
+  nameWithType: NetworkManagers.SendSecure
+  fullName: CardBattle.Networking.NetworkManagers.SendSecure

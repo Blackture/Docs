@@ -5,8 +5,9 @@ items:
   id: Player
   parent: CardBattle.Core.Players
   children:
-  - CardBattle.Core.Players.Player.AddComponentTo(GameObject)
+  - CardBattle.Core.Players.Player.AddComponentTo(GameObject,Photon.Realtime.Player)
   - CardBattle.Core.Players.Player.isItHisTurn
+  - CardBattle.Core.Players.Player.NetworkPlayer
   - CardBattle.Core.Players.Player.PlayerIndex
   langs:
   - csharp
@@ -18,7 +19,7 @@ items:
   source:
     id: Player
     path: ''
-    startLine: 715
+    startLine: 1057
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -60,7 +61,7 @@ items:
   source:
     id: isItHisTurn
     path: ''
-    startLine: 719
+    startLine: 1062
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -87,7 +88,7 @@ items:
   source:
     id: PlayerIndex
     path: ''
-    startLine: 721
+    startLine: 1064
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
@@ -104,32 +105,65 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
-- uid: CardBattle.Core.Players.Player.AddComponentTo(GameObject)
-  commentId: M:CardBattle.Core.Players.Player.AddComponentTo(GameObject)
-  id: AddComponentTo(GameObject)
+- uid: CardBattle.Core.Players.Player.NetworkPlayer
+  commentId: P:CardBattle.Core.Players.Player.NetworkPlayer
+  id: NetworkPlayer
   parent: CardBattle.Core.Players.Player
   langs:
   - csharp
   - vb
-  name: AddComponentTo(GameObject)
-  nameWithType: Player.AddComponentTo(GameObject)
-  fullName: CardBattle.Core.Players.Player.AddComponentTo(GameObject)
-  type: Method
+  name: NetworkPlayer
+  nameWithType: Player.NetworkPlayer
+  fullName: CardBattle.Core.Players.Player.NetworkPlayer
+  type: Property
   source:
-    id: AddComponentTo
+    id: NetworkPlayer
     path: ''
-    startLine: 723
+    startLine: 1065
   assemblies:
   - cs.temp.dll
   namespace: CardBattle.Core.Players
   syntax:
-    content: public static Player AddComponentTo(GameObject attachTo)
+    content: public Photon.Realtime.Player NetworkPlayer { get; }
+    parameters: []
+    return:
+      type: Photon.Realtime.Player
+    content.vb: Public ReadOnly Property NetworkPlayer As Photon.Realtime.Player
+  overload: CardBattle.Core.Players.Player.NetworkPlayer*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardBattle.Core.Players.Player.AddComponentTo(GameObject,Photon.Realtime.Player)
+  commentId: M:CardBattle.Core.Players.Player.AddComponentTo(GameObject,Photon.Realtime.Player)
+  id: AddComponentTo(GameObject,Photon.Realtime.Player)
+  parent: CardBattle.Core.Players.Player
+  langs:
+  - csharp
+  - vb
+  name: AddComponentTo(GameObject, Photon.Realtime.Player)
+  nameWithType: Player.AddComponentTo(GameObject, Photon.Realtime.Player)
+  fullName: CardBattle.Core.Players.Player.AddComponentTo(GameObject, Photon.Realtime.Player)
+  type: Method
+  source:
+    id: AddComponentTo
+    path: ''
+    startLine: 1067
+  assemblies:
+  - cs.temp.dll
+  namespace: CardBattle.Core.Players
+  syntax:
+    content: public static Player AddComponentTo(GameObject attachTo, Photon.Realtime.Player networkPlayer)
     parameters:
     - id: attachTo
       type: GameObject
+    - id: networkPlayer
+      type: Photon.Realtime.Player
     return:
       type: CardBattle.Core.Players.Player
-    content.vb: Public Shared Function AddComponentTo(attachTo As GameObject) As Player
+    content.vb: Public Shared Function AddComponentTo(attachTo As GameObject, networkPlayer As Photon.Realtime.Player) As Player
   overload: CardBattle.Core.Players.Player.AddComponentTo*
   modifiers.csharp:
   - public
@@ -223,6 +257,16 @@ references:
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: CardBattle.Core.Players.Player.NetworkPlayer*
+  commentId: Overload:CardBattle.Core.Players.Player.NetworkPlayer
+  name: NetworkPlayer
+  nameWithType: Player.NetworkPlayer
+  fullName: CardBattle.Core.Players.Player.NetworkPlayer
+- uid: Photon.Realtime.Player
+  isExternal: true
+  name: Photon.Realtime.Player
+  nameWithType: Photon.Realtime.Player
+  fullName: Photon.Realtime.Player
 - uid: CardBattle.Core.Players.Player.AddComponentTo*
   commentId: Overload:CardBattle.Core.Players.Player.AddComponentTo
   name: AddComponentTo
