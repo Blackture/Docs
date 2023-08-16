@@ -1,2 +1,2 @@
 # Docs
-BlaXrew Studios © 2015-2022
+BlaXrew Studios © 2015-2023
