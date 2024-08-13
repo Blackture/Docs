@@ -1,4 +1,5 @@
 ### YamlMime:TableOfContent
+items:
 - uid: Display
   name: Display
   items:
@@ -9,3 +10,4 @@
   items:
   - uid: GameToolbox.Elements.Die
     name: Die
+memberLayout: SamePage

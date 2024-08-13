@@ -13,10 +13,11 @@ items:
   fullName: Display
   type: Namespace
   assemblies:
-  - cs.temp.dll
+  - Display
 references:
 - uid: Display.Form1
   commentId: T:Display.Form1
+  href: Display.Form1.html
   name: Form1
   nameWithType: Form1
   fullName: Display.Form1

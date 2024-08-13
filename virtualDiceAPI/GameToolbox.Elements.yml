@@ -13,16 +13,34 @@ items:
   fullName: GameToolbox.Elements
   type: Namespace
   assemblies:
-  - cs.temp.dll
+  - Elements
 references:
 - uid: GameToolbox.Elements.Die
   commentId: T:GameToolbox.Elements.Die
   parent: GameToolbox.Elements
+  href: GameToolbox.Elements.Die.html
   name: Die
   nameWithType: Die
   fullName: GameToolbox.Elements.Die
 - uid: GameToolbox.Elements
   commentId: N:GameToolbox.Elements
+  href: GameToolbox.html
   name: GameToolbox.Elements
   nameWithType: GameToolbox.Elements
   fullName: GameToolbox.Elements
+  spec.csharp:
+  - uid: GameToolbox
+    name: GameToolbox
+    href: GameToolbox.html
+  - name: .
+  - uid: GameToolbox.Elements
+    name: Elements
+    href: GameToolbox.Elements.html
+  spec.vb:
+  - uid: GameToolbox
+    name: GameToolbox
+    href: GameToolbox.html
+  - name: .
+  - uid: GameToolbox.Elements
+    name: Elements
+    href: GameToolbox.Elements.html

@@ -5,9 +5,7 @@
         {
           "src": "D:/Users/patri/Desktop/PlanningToolWF/PlanningTool",
           "files": [
-            "**.cs",
-            "**/**.cs",
-            "**/**/**.cs"
+            "**.csproj"
           ],
           "exclude": [
             "**/bin/**",
@@ -23,9 +21,10 @@
     {
       "src": [
         {
-          "src": "D:/Users/patri/Desktop/Devils-Hunt/Assets",
+          "src": "G:/Devils-Hunt/Assets",
           "files": [
-            "**.cs"
+            "*.cs",
+            "**/*.cs"
           ],
           "exclude": [
             "TextMesh Pro/**",
@@ -44,7 +43,8 @@
         {
           "src": "D:/Users/patri/Desktop/Card Battle/Assets",
           "files": [
-            "Scripts/**.cs"
+            "*.cs",
+            "**/*.cs"
           ],
           "exclude": [
             "TextMesh Pro/**",
@@ -52,9 +52,17 @@
             "TutorialInfo/**",
             "Scripts/Standards/SimpleCameraController.cs",
             "ParrelSync/**"
+          ],
+          "references": [
+            "./Libs/Unity/UnityEngine.dll",
+            "./Libs/Unity/UnityEditor.dll",
+            "./Libs/Unity/UnityEngine.CoreModule.dll",
+            "./Libs/Unity/UnityEngine.UI.dll"
           ]
         }
       ],
+      "globalNamespaceId": "Global",
+      "filter": "filterConfig.yml",
       "dest": "cardBattleAPI",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
@@ -64,7 +72,8 @@
         {
           "src": "D:/Users/patri/Desktop/TheInvaders/Assets",
           "files": [
-            "Scripts/**.cs"
+            "*.cs",
+            "**/*.cs"
           ],
           "exclude": [
             "TextMesh Pro/**",
@@ -72,9 +81,17 @@
             "TutorialInfo/**",
             "Scripts/Standards/SimpleCameraController.cs",
             "ParrelSync/**"
+          ],
+          "references": [
+            "./Libs/Unity/UnityEngine.dll",
+            "./Libs/Unity/UnityEditor.dll",
+            "./Libs/Unity/UnityEngine.CoreModule.dll",
+            "./Libs/Unity/UnityEngine.UI.dll"
           ]
         }
       ],
+      "globalNamespaceId": "Global",
+      "filter": "filterConfig.yml",
       "dest": "tiAPI",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
@@ -84,9 +101,7 @@
         {
           "src": "D:/Users/patri/Documents/GitHub/virtual-dice",
           "files": [
-            "**.cs",
-            "**/**.cs",
-            "**/**/**.cs"
+            "**.csproj"
           ],
           "exclude": [
             "**/bin/**",
@@ -104,49 +119,31 @@
     "content": [
       {
         "files": [
-          "articles/**",
-          "toc.yml",
-          "*.md",
-          "planningToolAPI/**",
-          "devilsHuntAPI/**",
-          "cardBattleAPI/**",
-          "tiAPI/**",
-          "virtualDiceAPI/**",
-          "References/**"
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "docs/**"
         ]
       }
     ],
     "resource": [
       {
         "files": [
+          "images/**"
         ]
       }
     ],
-    "overwrite": [
-      {
-        "files": [
-          "apidoc/**.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "docs/**"
-        ]
-      }
-    ],
-    "xref": [
-
-    ],
-    "dest": "docs",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
+    "output": "docs",
     "template": [
-      "default"
+      "default",
+      "modern"
     ],
-    "postProcessors": [],
-    "markdownEngineName": "markdig",
-    "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    "globalMetadata": {
+      "_appName": "",
+      "_appTitle": "",
+      "_enableSearch": true,
+      "pdf": true
+    },
+    "allowCompilationErrors": true
   }
 }

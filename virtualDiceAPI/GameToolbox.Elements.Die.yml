@@ -6,17 +6,21 @@ items:
   parent: GameToolbox.Elements
   children:
   - GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)
+  - GameToolbox.Elements.Die.Advantage
   - GameToolbox.Elements.Die.ChancePerSide
+  - GameToolbox.Elements.Die.Disadvantage
   - GameToolbox.Elements.Die.IsZeroIndexed
+  - GameToolbox.Elements.Die.Roll
+  - GameToolbox.Elements.Die.Roll(System.Boolean,System.Boolean)
+  - GameToolbox.Elements.Die.Roll(System.Int32@)
+  - GameToolbox.Elements.Die.Roll(System.Int32@,System.Boolean,System.Boolean)
+  - GameToolbox.Elements.Die.Sides
   - GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   - GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   - GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
   - GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   - GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   - GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  - GameToolbox.Elements.Die.Roll
-  - GameToolbox.Elements.Die.Roll(System.Int32@)
-  - GameToolbox.Elements.Die.Sides
   langs:
   - csharp
   - vb
@@ -25,13 +29,17 @@ items:
   fullName: GameToolbox.Elements.Die
   type: Class
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: Die
-    path: ''
-    startLine: 523
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 11
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
-  summary: "\nThis is a Die class that represents a die with a certain number of sides.\n"
+  summary: This is a Die class that represents a die with a certain number of sides.
   example: []
   syntax:
     content: public class Die
@@ -46,12 +54,6 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: GameToolbox.Elements.Die.Sides
   commentId: P:GameToolbox.Elements.Die.Sides
   id: Sides
@@ -64,13 +66,17 @@ items:
   fullName: GameToolbox.Elements.Die.Sides
   type: Property
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: Sides
-    path: ''
-    startLine: 534
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 24
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
-  summary: "\na uint that gets or sets the number of sides on the die. When it is set, it calls the Setup() method to initialize the chances list.\n"
+  summary: a uint that gets or sets the number of sides on the die. When it is set, it calls the Setup() method to initialize the chances list.
   example: []
   syntax:
     content: public uint Sides { get; set; }
@@ -79,12 +85,6 @@ items:
       type: System.UInt32
     content.vb: Public Property Sides As UInteger
   overload: GameToolbox.Elements.Die.Sides*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: GameToolbox.Elements.Die.IsZeroIndexed
   commentId: P:GameToolbox.Elements.Die.IsZeroIndexed
   id: IsZeroIndexed
@@ -97,13 +97,17 @@ items:
   fullName: GameToolbox.Elements.Die.IsZeroIndexed
   type: Property
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: IsZeroIndexed
-    path: ''
-    startLine: 538
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 28
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
-  summary: "\na bool that gets or sets a value indicating whether the die is zero-indexed or not.\n"
+  summary: a bool that gets or sets a value indicating whether the die is zero-indexed or not.
   example: []
   syntax:
     content: public bool IsZeroIndexed { get; set; }
@@ -112,12 +116,6 @@ items:
       type: System.Boolean
     content.vb: Public Property IsZeroIndexed As Boolean
   overload: GameToolbox.Elements.Die.IsZeroIndexed*
-  modifiers.csharp:
-  - public
-  - get
-  - set
-  modifiers.vb:
-  - Public
 - uid: GameToolbox.Elements.Die.ChancePerSide
   commentId: P:GameToolbox.Elements.Die.ChancePerSide
   id: ChancePerSide
@@ -130,13 +128,17 @@ items:
   fullName: GameToolbox.Elements.Die.ChancePerSide
   type: Property
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: ChancePerSide
-    path: ''
-    startLine: 542
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 32
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
-  summary: "\na readonly float that represents the chance of rolling any particular side of the die, calculated as 1.0f / sides * 100.\n"
+  summary: a readonly float that represents the chance of rolling any particular side of the die, calculated as 1.0f / sides * 100.
   example: []
   syntax:
     content: public float ChancePerSide { get; }
@@ -145,12 +147,68 @@ items:
       type: System.Single
     content.vb: Public ReadOnly Property ChancePerSide As Single
   overload: GameToolbox.Elements.Die.ChancePerSide*
-  modifiers.csharp:
-  - public
-  - get
-  modifiers.vb:
-  - Public
-  - ReadOnly
+- uid: GameToolbox.Elements.Die.Advantage
+  commentId: P:GameToolbox.Elements.Die.Advantage
+  id: Advantage
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Advantage
+  nameWithType: Die.Advantage
+  fullName: GameToolbox.Elements.Die.Advantage
+  type: Property
+  source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
+    id: Advantage
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 36
+  assemblies:
+  - Elements
+  namespace: GameToolbox.Elements
+  summary: If advantage is true, all rolls by this object will have advantage until it' set to false again.
+  example: []
+  syntax:
+    content: public bool Advantage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Advantage As Boolean
+  overload: GameToolbox.Elements.Die.Advantage*
+- uid: GameToolbox.Elements.Die.Disadvantage
+  commentId: P:GameToolbox.Elements.Die.Disadvantage
+  id: Disadvantage
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Disadvantage
+  nameWithType: Die.Disadvantage
+  fullName: GameToolbox.Elements.Die.Disadvantage
+  type: Property
+  source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
+    id: Disadvantage
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 51
+  assemblies:
+  - Elements
+  namespace: GameToolbox.Elements
+  summary: If disadvantage is true, all rolls by this object will have disadvantage until it' set to false again
+  example: []
+  syntax:
+    content: public bool Disadvantage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Disadvantage As Boolean
+  overload: GameToolbox.Elements.Die.Disadvantage*
 - uid: GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)
   commentId: M:GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)
   id: '#ctor(System.UInt32,System.Int32,System.Boolean)'
@@ -158,18 +216,22 @@ items:
   langs:
   - csharp
   - vb
-  name: Die(UInt32, Int32, Boolean)
-  nameWithType: Die.Die(UInt32, Int32, Boolean)
-  fullName: GameToolbox.Elements.Die.Die(System.UInt32, System.Int32, System.Boolean)
+  name: Die(uint, int, bool)
+  nameWithType: Die.Die(uint, int, bool)
+  fullName: GameToolbox.Elements.Die.Die(uint, int, bool)
   type: Constructor
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: .ctor
-    path: ''
-    startLine: 550
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 70
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
-  summary: "\na constructor that initializes a new instance of the Die class with the specified number of sides and optional seed and zero-indexed flag.\n"
+  summary: a constructor that initializes a new instance of the Die class with the specified number of sides and optional seed and zero-indexed flag.
   example: []
   syntax:
     content: public Die(uint sides, int seed = 0, bool isZeroIndexed = false)
@@ -185,10 +247,47 @@ items:
       description: ''
     content.vb: Public Sub New(sides As UInteger, seed As Integer = 0, isZeroIndexed As Boolean = False)
   overload: GameToolbox.Elements.Die.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+  nameWithType.vb: Die.New(UInteger, Integer, Boolean)
+  fullName.vb: GameToolbox.Elements.Die.New(UInteger, Integer, Boolean)
+  name.vb: New(UInteger, Integer, Boolean)
+- uid: GameToolbox.Elements.Die.Roll(System.Int32@,System.Boolean,System.Boolean)
+  commentId: M:GameToolbox.Elements.Die.Roll(System.Int32@,System.Boolean,System.Boolean)
+  id: Roll(System.Int32@,System.Boolean,System.Boolean)
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Roll(out int, bool, bool)
+  nameWithType: Die.Roll(out int, bool, bool)
+  fullName: GameToolbox.Elements.Die.Roll(out int, bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
+    id: Roll
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 93
+  assemblies:
+  - Elements
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public bool Roll(out int roll, bool advantage = false, bool disadvantage = false)
+    parameters:
+    - id: roll
+      type: System.Int32
+    - id: advantage
+      type: System.Boolean
+    - id: disadvantage
+      type: System.Boolean
+    return:
+      type: System.Boolean
+    content.vb: Public Function Roll(roll As Integer, advantage As Boolean = False, disadvantage As Boolean = False) As Boolean
+  overload: GameToolbox.Elements.Die.Roll*
+  nameWithType.vb: Die.Roll(Integer, Boolean, Boolean)
+  fullName.vb: GameToolbox.Elements.Die.Roll(Integer, Boolean, Boolean)
+  name.vb: Roll(Integer, Boolean, Boolean)
 - uid: GameToolbox.Elements.Die.Roll(System.Int32@)
   commentId: M:GameToolbox.Elements.Die.Roll(System.Int32@)
   id: Roll(System.Int32@)
@@ -196,18 +295,22 @@ items:
   langs:
   - csharp
   - vb
-  name: Roll(out Int32)
-  nameWithType: Die.Roll(out Int32)
-  fullName: GameToolbox.Elements.Die.Roll(out System.Int32)
+  name: Roll(out int)
+  nameWithType: Die.Roll(out int)
+  fullName: GameToolbox.Elements.Die.Roll(out int)
   type: Method
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: Roll
-    path: ''
-    startLine: 578
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 118
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
-  summary: "\nrolls the die once and outputs the result in the roll parameter. It returns a bool indicating whether the roll was valid.\n"
+  summary: Rolls the die once.
   example: []
   syntax:
     content: public bool Roll(out int roll)
@@ -218,15 +321,47 @@ items:
     return:
       type: System.Boolean
       description: Returns a boolean indentifying if the roll was valid.
-    content.vb: Public Function Roll(ByRef roll As Integer) As Boolean
+    content.vb: Public Function Roll(roll As Integer) As Boolean
   overload: GameToolbox.Elements.Die.Roll*
-  nameWithType.vb: Die.Roll(ByRef Int32)
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-  fullName.vb: GameToolbox.Elements.Die.Roll(ByRef System.Int32)
-  name.vb: Roll(ByRef Int32)
+  nameWithType.vb: Die.Roll(Integer)
+  fullName.vb: GameToolbox.Elements.Die.Roll(Integer)
+  name.vb: Roll(Integer)
+- uid: GameToolbox.Elements.Die.Roll(System.Boolean,System.Boolean)
+  commentId: M:GameToolbox.Elements.Die.Roll(System.Boolean,System.Boolean)
+  id: Roll(System.Boolean,System.Boolean)
+  parent: GameToolbox.Elements.Die
+  langs:
+  - csharp
+  - vb
+  name: Roll(bool, bool)
+  nameWithType: Die.Roll(bool, bool)
+  fullName: GameToolbox.Elements.Die.Roll(bool, bool)
+  type: Method
+  source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
+    id: Roll
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 133
+  assemblies:
+  - Elements
+  namespace: GameToolbox.Elements
+  syntax:
+    content: public int Roll(bool advantage = false, bool disadvantage = false)
+    parameters:
+    - id: advantage
+      type: System.Boolean
+    - id: disadvantage
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Public Function Roll(advantage As Boolean = False, disadvantage As Boolean = False) As Integer
+  overload: GameToolbox.Elements.Die.Roll*
+  nameWithType.vb: Die.Roll(Boolean, Boolean)
+  fullName.vb: GameToolbox.Elements.Die.Roll(Boolean, Boolean)
+  name.vb: Roll(Boolean, Boolean)
 - uid: GameToolbox.Elements.Die.Roll
   commentId: M:GameToolbox.Elements.Die.Roll
   id: Roll
@@ -239,25 +374,25 @@ items:
   fullName: GameToolbox.Elements.Die.Roll()
   type: Method
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: Roll
-    path: ''
-    startLine: 597
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 155
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
-  summary: "\nrolls the die once and returns the result as an int.\n"
+  summary: rolls the die once and returns the result as an int.
   example: []
   syntax:
     content: public int Roll()
     return:
       type: System.Int32
       description: ''
-    content.vb: Public Function Roll As Integer
+    content.vb: Public Function Roll() As Integer
   overload: GameToolbox.Elements.Die.Roll*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   commentId: M:GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   id: op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
@@ -265,16 +400,20 @@ items:
   langs:
   - csharp
   - vb
-  name: Addition(Die, Die)
-  nameWithType: Die.Addition(Die, Die)
-  fullName: GameToolbox.Elements.Die.Addition(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name: operator +(Die, Die)
+  nameWithType: Die.operator +(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator +(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
   type: Operator
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: op_Addition
-    path: ''
-    startLine: 613
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 171
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
   syntax:
     content: public static int operator +(Die d1, Die d2)
@@ -287,12 +426,9 @@ items:
       type: System.Int32
     content.vb: Public Shared Operator +(d1 As Die, d2 As Die) As Integer
   overload: GameToolbox.Elements.Die.op_Addition*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: Die.+(Die, Die)
+  fullName.vb: GameToolbox.Elements.Die.+(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name.vb: +(Die, Die)
 - uid: GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   commentId: M:GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   id: op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
@@ -300,16 +436,20 @@ items:
   langs:
   - csharp
   - vb
-  name: Multiply(Die, Die)
-  nameWithType: Die.Multiply(Die, Die)
-  fullName: GameToolbox.Elements.Die.Multiply(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name: operator *(Die, Die)
+  nameWithType: Die.operator *(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator *(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
   type: Operator
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: op_Multiply
-    path: ''
-    startLine: 626
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 184
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
   syntax:
     content: public static int operator *(Die d1, Die d2)
@@ -322,12 +462,9 @@ items:
       type: System.Int32
     content.vb: Public Shared Operator *(d1 As Die, d2 As Die) As Integer
   overload: GameToolbox.Elements.Die.op_Multiply*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: Die.*(Die, Die)
+  fullName.vb: GameToolbox.Elements.Die.*(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name.vb: '*(Die, Die)'
 - uid: GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   commentId: M:GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   id: op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
@@ -335,16 +472,20 @@ items:
   langs:
   - csharp
   - vb
-  name: Division(Die, Die)
-  nameWithType: Die.Division(Die, Die)
-  fullName: GameToolbox.Elements.Die.Division(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name: operator /(Die, Die)
+  nameWithType: Die.operator /(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator /(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
   type: Operator
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: op_Division
-    path: ''
-    startLine: 639
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 197
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
   syntax:
     content: public static int operator /(Die d1, Die d2)
@@ -357,12 +498,9 @@ items:
       type: System.Int32
     content.vb: Public Shared Operator /(d1 As Die, d2 As Die) As Integer
   overload: GameToolbox.Elements.Die.op_Division*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: Die./(Die, Die)
+  fullName.vb: GameToolbox.Elements.Die./(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name.vb: /(Die, Die)
 - uid: GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   commentId: M:GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   id: op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
@@ -370,16 +508,20 @@ items:
   langs:
   - csharp
   - vb
-  name: Subtraction(Die, Die)
-  nameWithType: Die.Subtraction(Die, Die)
-  fullName: GameToolbox.Elements.Die.Subtraction(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name: operator -(Die, Die)
+  nameWithType: Die.operator -(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator -(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
   type: Operator
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: op_Subtraction
-    path: ''
-    startLine: 652
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 210
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
   syntax:
     content: public static int operator -(Die d1, Die d2)
@@ -392,12 +534,9 @@ items:
       type: System.Int32
     content.vb: Public Shared Operator -(d1 As Die, d2 As Die) As Integer
   overload: GameToolbox.Elements.Die.op_Subtraction*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: Die.-(Die, Die)
+  fullName.vb: GameToolbox.Elements.Die.-(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name.vb: -(Die, Die)
 - uid: GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   commentId: M:GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
   id: op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
@@ -405,16 +544,20 @@ items:
   langs:
   - csharp
   - vb
-  name: Modulus(Die, Die)
-  nameWithType: Die.Modulus(Die, Die)
-  fullName: GameToolbox.Elements.Die.Modulus(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name: operator %(Die, Die)
+  nameWithType: Die.operator %(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator %(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
   type: Operator
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: op_Modulus
-    path: ''
-    startLine: 665
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 223
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
   syntax:
     content: public static int operator %(Die d1, Die d2)
@@ -427,12 +570,9 @@ items:
       type: System.Int32
     content.vb: Public Shared Operator Mod(d1 As Die, d2 As Die) As Integer
   overload: GameToolbox.Elements.Die.op_Modulus*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
+  nameWithType.vb: Die.Mod(Die, Die)
+  fullName.vb: GameToolbox.Elements.Die.Mod(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  name.vb: Mod(Die, Die)
 - uid: GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
   commentId: M:GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
   id: op_Implicit(GameToolbox.Elements.Die)~System.Int32
@@ -440,19 +580,23 @@ items:
   langs:
   - csharp
   - vb
-  name: Implicit(Die to Int32)
-  nameWithType: Die.Implicit(Die to Int32)
-  fullName: GameToolbox.Elements.Die.Implicit(GameToolbox.Elements.Die to System.Int32)
+  name: implicit operator int(Die)
+  nameWithType: Die.implicit operator int(Die)
+  fullName: GameToolbox.Elements.Die.implicit operator int(GameToolbox.Elements.Die)
   type: Operator
   source:
+    remote:
+      path: Elements/Die.cs
+      branch: main
+      repo: https://github.com/Blackture/virtual-dice.git
     id: op_Implicit
-    path: ''
-    startLine: 678
+    path: ../../../../Documents/GitHub/virtual-dice/Elements/Die.cs
+    startLine: 236
   assemblies:
-  - cs.temp.dll
+  - Elements
   namespace: GameToolbox.Elements
   syntax:
-    content: public static implicit operator int (Die d1)
+    content: public static implicit operator int(Die d1)
     parameters:
     - id: d1
       type: GameToolbox.Elements.Die
@@ -460,315 +604,272 @@ items:
       type: System.Int32
     content.vb: Public Shared Widening Operator CType(d1 As Die) As Integer
   overload: GameToolbox.Elements.Die.op_Implicit*
-  nameWithType.vb: Die.Widening(Die to Int32)
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-  fullName.vb: GameToolbox.Elements.Die.Widening(GameToolbox.Elements.Die to System.Int32)
-  name.vb: Widening(Die to Int32)
+  nameWithType.vb: Die.CType(Die)
+  fullName.vb: GameToolbox.Elements.Die.CType(GameToolbox.Elements.Die)
+  name.vb: CType(Die)
 references:
 - uid: GameToolbox.Elements
   commentId: N:GameToolbox.Elements
+  href: GameToolbox.html
   name: GameToolbox.Elements
   nameWithType: GameToolbox.Elements
   fullName: GameToolbox.Elements
+  spec.csharp:
+  - uid: GameToolbox
+    name: GameToolbox
+    href: GameToolbox.html
+  - name: .
+  - uid: GameToolbox.Elements
+    name: Elements
+    href: GameToolbox.Elements.html
+  spec.vb:
+  - uid: GameToolbox
+    name: GameToolbox
+    href: GameToolbox.html
+  - name: .
+  - uid: GameToolbox.Elements
+    name: Elements
+    href: GameToolbox.Elements.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: GameToolbox.Elements.Die.Sides*
   commentId: Overload:GameToolbox.Elements.Die.Sides
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Sides
   name: Sides
   nameWithType: Die.Sides
   fullName: GameToolbox.Elements.Die.Sides
@@ -776,11 +877,16 @@ references:
   commentId: T:System.UInt32
   parent: System
   isExternal: true
-  name: UInt32
-  nameWithType: UInt32
-  fullName: System.UInt32
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: GameToolbox.Elements.Die.IsZeroIndexed*
   commentId: Overload:GameToolbox.Elements.Die.IsZeroIndexed
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_IsZeroIndexed
   name: IsZeroIndexed
   nameWithType: Die.IsZeroIndexed
   fullName: GameToolbox.Elements.Die.IsZeroIndexed
@@ -788,11 +894,16 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: GameToolbox.Elements.Die.ChancePerSide*
   commentId: Overload:GameToolbox.Elements.Die.ChancePerSide
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_ChancePerSide
   name: ChancePerSide
   nameWithType: Die.ChancePerSide
   fullName: GameToolbox.Elements.Die.ChancePerSide
@@ -800,62 +911,142 @@ references:
   commentId: T:System.Single
   parent: System
   isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: GameToolbox.Elements.Die.Advantage*
+  commentId: Overload:GameToolbox.Elements.Die.Advantage
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Advantage
+  name: Advantage
+  nameWithType: Die.Advantage
+  fullName: GameToolbox.Elements.Die.Advantage
+- uid: GameToolbox.Elements.Die.Disadvantage*
+  commentId: Overload:GameToolbox.Elements.Die.Disadvantage
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Disadvantage
+  name: Disadvantage
+  nameWithType: Die.Disadvantage
+  fullName: GameToolbox.Elements.Die.Disadvantage
 - uid: GameToolbox.Elements.Die.#ctor*
   commentId: Overload:GameToolbox.Elements.Die.#ctor
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die__ctor_System_UInt32_System_Int32_System_Boolean_
   name: Die
   nameWithType: Die.Die
   fullName: GameToolbox.Elements.Die.Die
+  nameWithType.vb: Die.New
+  fullName.vb: GameToolbox.Elements.Die.New
+  name.vb: New
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: GameToolbox.Elements.Die.Roll*
   commentId: Overload:GameToolbox.Elements.Die.Roll
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Roll_System_Int32__System_Boolean_System_Boolean_
   name: Roll
   nameWithType: Die.Roll
   fullName: GameToolbox.Elements.Die.Roll
 - uid: GameToolbox.Elements.Die.op_Addition*
   commentId: Overload:GameToolbox.Elements.Die.op_Addition
-  name: Addition
-  nameWithType: Die.Addition
-  fullName: GameToolbox.Elements.Die.Addition
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Addition_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  name: operator +
+  nameWithType: Die.operator +
+  fullName: GameToolbox.Elements.Die.operator +
+  nameWithType.vb: Die.+
+  fullName.vb: GameToolbox.Elements.Die.+
+  name.vb: +
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GameToolbox.Elements.Die.op_Addition*
+    name: +
+    href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Addition_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
 - uid: GameToolbox.Elements.Die
   commentId: T:GameToolbox.Elements.Die
   parent: GameToolbox.Elements
+  href: GameToolbox.Elements.Die.html
   name: Die
   nameWithType: Die
   fullName: GameToolbox.Elements.Die
 - uid: GameToolbox.Elements.Die.op_Multiply*
   commentId: Overload:GameToolbox.Elements.Die.op_Multiply
-  name: Multiply
-  nameWithType: Die.Multiply
-  fullName: GameToolbox.Elements.Die.Multiply
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Multiply_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  name: operator *
+  nameWithType: Die.operator *
+  fullName: GameToolbox.Elements.Die.operator *
+  nameWithType.vb: Die.*
+  fullName.vb: GameToolbox.Elements.Die.*
+  name.vb: '*'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GameToolbox.Elements.Die.op_Multiply*
+    name: '*'
+    href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Multiply_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
 - uid: GameToolbox.Elements.Die.op_Division*
   commentId: Overload:GameToolbox.Elements.Die.op_Division
-  name: Division
-  nameWithType: Die.Division
-  fullName: GameToolbox.Elements.Die.Division
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Division_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  name: operator /
+  nameWithType: Die.operator /
+  fullName: GameToolbox.Elements.Die.operator /
+  nameWithType.vb: Die./
+  fullName.vb: GameToolbox.Elements.Die./
+  name.vb: /
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GameToolbox.Elements.Die.op_Division*
+    name: /
+    href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Division_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
 - uid: GameToolbox.Elements.Die.op_Subtraction*
   commentId: Overload:GameToolbox.Elements.Die.op_Subtraction
-  name: Subtraction
-  nameWithType: Die.Subtraction
-  fullName: GameToolbox.Elements.Die.Subtraction
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Subtraction_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  name: operator -
+  nameWithType: Die.operator -
+  fullName: GameToolbox.Elements.Die.operator -
+  nameWithType.vb: Die.-
+  fullName.vb: GameToolbox.Elements.Die.-
+  name.vb: '-'
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GameToolbox.Elements.Die.op_Subtraction*
+    name: '-'
+    href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Subtraction_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
 - uid: GameToolbox.Elements.Die.op_Modulus*
   commentId: Overload:GameToolbox.Elements.Die.op_Modulus
-  name: Modulus
-  nameWithType: Die.Modulus
-  fullName: GameToolbox.Elements.Die.Modulus
+  href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Modulus_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  name: operator %
+  nameWithType: Die.operator %
+  fullName: GameToolbox.Elements.Die.operator %
+  nameWithType.vb: Die.Mod
+  fullName.vb: GameToolbox.Elements.Die.Mod
+  name.vb: Mod
+  spec.csharp:
+  - name: operator
+  - name: " "
+  - uid: GameToolbox.Elements.Die.op_Modulus*
+    name: '%'
+    href: GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Modulus_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
 - uid: GameToolbox.Elements.Die.op_Implicit*
   commentId: Overload:GameToolbox.Elements.Die.op_Implicit
-  name: Implicit
-  nameWithType: Die.Implicit
-  fullName: GameToolbox.Elements.Die.Implicit
-  nameWithType.vb: Die.Widening
-  fullName.vb: GameToolbox.Elements.Die.Widening
-  name.vb: Widening
+  name: implicit operator
+  nameWithType: Die.implicit operator
+  fullName: GameToolbox.Elements.Die.implicit operator
+  nameWithType.vb: Die.CType
+  fullName.vb: GameToolbox.Elements.Die.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator

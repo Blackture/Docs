@@ -77,6 +77,44 @@ references:
   commentId: N:CardBattle.Core
   fullName: CardBattle.Core
   nameWithType: CardBattle.Core
+- uid: CardBattle.Core.AI
+  name: CardBattle.Core.AI
+  href: cardBattleAPI/CardBattle.Core.AI.html
+  commentId: N:CardBattle.Core.AI
+  fullName: CardBattle.Core.AI
+  nameWithType: CardBattle.Core.AI
+- uid: CardBattle.Core.AI.Bot
+  name: Bot
+  href: cardBattleAPI/CardBattle.Core.AI.Bot.html
+  commentId: T:CardBattle.Core.AI.Bot
+  fullName: CardBattle.Core.AI.Bot
+  nameWithType: Bot
+- uid: CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
+  name: AddComponentTo(GameObject)
+  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_AddComponentTo_GameObject_
+  commentId: M:CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
+  fullName: CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
+  nameWithType: Bot.AddComponentTo(GameObject)
+- uid: CardBattle.Core.AI.Bot.AddComponentTo*
+  name: AddComponentTo
+  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_AddComponentTo_
+  commentId: Overload:CardBattle.Core.AI.Bot.AddComponentTo
+  isSpec: "True"
+  fullName: CardBattle.Core.AI.Bot.AddComponentTo
+  nameWithType: Bot.AddComponentTo
+- uid: CardBattle.Core.AI.Bot.StartTurn
+  name: StartTurn()
+  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_StartTurn
+  commentId: M:CardBattle.Core.AI.Bot.StartTurn
+  fullName: CardBattle.Core.AI.Bot.StartTurn()
+  nameWithType: Bot.StartTurn()
+- uid: CardBattle.Core.AI.Bot.StartTurn*
+  name: StartTurn
+  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_StartTurn_
+  commentId: Overload:CardBattle.Core.AI.Bot.StartTurn
+  isSpec: "True"
+  fullName: CardBattle.Core.AI.Bot.StartTurn
+  nameWithType: Bot.StartTurn
 - uid: CardBattle.Core.Actions
   name: CardBattle.Core.Actions
   href: cardBattleAPI/CardBattle.Core.Actions.html
@@ -354,12 +392,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Actions.Derived.Dice.Dice
   nameWithType: Dice.Dice
-- uid: CardBattle.Core.Actions.Derived.Dice.actions
-  name: actions
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice_actions
-  commentId: F:CardBattle.Core.Actions.Derived.Dice.actions
-  fullName: CardBattle.Core.Actions.Derived.Dice.actions
-  nameWithType: Dice.actions
 - uid: CardBattle.Core.Actions.Derived.Dice.Execute
   name: Execute()
   href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice_Execute
@@ -386,6 +418,12 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Actions.Derived.Dice.Throw
   nameWithType: Dice.Throw
+- uid: CardBattle.Core.Actions.Derived.Dice.actions
+  name: actions
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.Dice.html#CardBattle_Core_Actions_Derived_Dice_actions
+  commentId: F:CardBattle.Core.Actions.Derived.Dice.actions
+  fullName: CardBattle.Core.Actions.Derived.Dice.actions
+  nameWithType: Dice.actions
 - uid: CardBattle.Core.Actions.Derived.DiceBox
   name: DiceBox
   href: cardBattleAPI/CardBattle.Core.Actions.Derived.DiceBox.html
@@ -449,6 +487,19 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Actions.Derived.FinanceAction.FinanceAction
   nameWithType: FinanceAction.FinanceAction
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  name: Execute()
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_Execute
+  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.Execute()
+  nameWithType: FinanceAction.Execute()
+- uid: CardBattle.Core.Actions.Derived.FinanceAction.Execute*
+  name: Execute
+  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_Execute_
+  commentId: Overload:CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  isSpec: "True"
+  fullName: CardBattle.Core.Actions.Derived.FinanceAction.Execute
+  nameWithType: FinanceAction.Execute
 - uid: CardBattle.Core.Actions.Derived.FinanceAction.additionalMoney
   name: additionalMoney
   href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_additionalMoney
@@ -467,19 +518,6 @@ references:
   commentId: F:CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
   fullName: CardBattle.Core.Actions.Derived.FinanceAction.enemyMultiplier
   nameWithType: FinanceAction.enemyMultiplier
-- uid: CardBattle.Core.Actions.Derived.FinanceAction.Execute
-  name: Execute()
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_Execute
-  commentId: M:CardBattle.Core.Actions.Derived.FinanceAction.Execute
-  fullName: CardBattle.Core.Actions.Derived.FinanceAction.Execute()
-  nameWithType: FinanceAction.Execute()
-- uid: CardBattle.Core.Actions.Derived.FinanceAction.Execute*
-  name: Execute
-  href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_Execute_
-  commentId: Overload:CardBattle.Core.Actions.Derived.FinanceAction.Execute
-  isSpec: "True"
-  fullName: CardBattle.Core.Actions.Derived.FinanceAction.Execute
-  nameWithType: FinanceAction.Execute
 - uid: CardBattle.Core.Actions.Derived.FinanceAction.multiplier
   name: multiplier
   href: cardBattleAPI/CardBattle.Core.Actions.Derived.FinanceAction.html#CardBattle_Core_Actions_Derived_FinanceAction_multiplier
@@ -530,50 +568,67 @@ references:
   commentId: F:CardBattle.Core.Actions.Derived.FinanceBox.financeAction
   fullName: CardBattle.Core.Actions.Derived.FinanceBox.financeAction
   nameWithType: FinanceBox.financeAction
-- uid: CardBattle.Core.AI
-  name: CardBattle.Core.AI
-  href: cardBattleAPI/CardBattle.Core.AI.html
-  commentId: N:CardBattle.Core.AI
-  fullName: CardBattle.Core.AI
-  nameWithType: CardBattle.Core.AI
-- uid: CardBattle.Core.AI.Bot
-  name: Bot
-  href: cardBattleAPI/CardBattle.Core.AI.Bot.html
-  commentId: T:CardBattle.Core.AI.Bot
-  fullName: CardBattle.Core.AI.Bot
-  nameWithType: Bot
-- uid: CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
-  name: AddComponentTo(GameObject)
-  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_AddComponentTo_GameObject_
-  commentId: M:CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
-  fullName: CardBattle.Core.AI.Bot.AddComponentTo(GameObject)
-  nameWithType: Bot.AddComponentTo(GameObject)
-- uid: CardBattle.Core.AI.Bot.AddComponentTo*
-  name: AddComponentTo
-  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_AddComponentTo_
-  commentId: Overload:CardBattle.Core.AI.Bot.AddComponentTo
-  isSpec: "True"
-  fullName: CardBattle.Core.AI.Bot.AddComponentTo
-  nameWithType: Bot.AddComponentTo
-- uid: CardBattle.Core.AI.Bot.StartTurn
-  name: StartTurn()
-  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_StartTurn
-  commentId: M:CardBattle.Core.AI.Bot.StartTurn
-  fullName: CardBattle.Core.AI.Bot.StartTurn()
-  nameWithType: Bot.StartTurn()
-- uid: CardBattle.Core.AI.Bot.StartTurn*
-  name: StartTurn
-  href: cardBattleAPI/CardBattle.Core.AI.Bot.html#CardBattle_Core_AI_Bot_StartTurn_
-  commentId: Overload:CardBattle.Core.AI.Bot.StartTurn
-  isSpec: "True"
-  fullName: CardBattle.Core.AI.Bot.StartTurn
-  nameWithType: Bot.StartTurn
+- uid: CardBattle.Core.COLOR
+  name: COLOR
+  href: cardBattleAPI/CardBattle.Core.COLOR.html
+  commentId: T:CardBattle.Core.COLOR
+  fullName: CardBattle.Core.COLOR
+  nameWithType: COLOR
+- uid: CardBattle.Core.COLOR.BLUE
+  name: BLUE
+  href: cardBattleAPI/CardBattle.Core.COLOR.html#CardBattle_Core_COLOR_BLUE
+  commentId: F:CardBattle.Core.COLOR.BLUE
+  fullName: CardBattle.Core.COLOR.BLUE
+  nameWithType: COLOR.BLUE
+- uid: CardBattle.Core.COLOR.GREEN
+  name: GREEN
+  href: cardBattleAPI/CardBattle.Core.COLOR.html#CardBattle_Core_COLOR_GREEN
+  commentId: F:CardBattle.Core.COLOR.GREEN
+  fullName: CardBattle.Core.COLOR.GREEN
+  nameWithType: COLOR.GREEN
+- uid: CardBattle.Core.COLOR.RED
+  name: RED
+  href: cardBattleAPI/CardBattle.Core.COLOR.html#CardBattle_Core_COLOR_RED
+  commentId: F:CardBattle.Core.COLOR.RED
+  fullName: CardBattle.Core.COLOR.RED
+  nameWithType: COLOR.RED
+- uid: CardBattle.Core.COLOR.WHITE
+  name: WHITE
+  href: cardBattleAPI/CardBattle.Core.COLOR.html#CardBattle_Core_COLOR_WHITE
+  commentId: F:CardBattle.Core.COLOR.WHITE
+  fullName: CardBattle.Core.COLOR.WHITE
+  nameWithType: COLOR.WHITE
 - uid: CardBattle.Core.Collections
   name: CardBattle.Core.Collections
   href: cardBattleAPI/CardBattle.Core.Collections.html
   commentId: N:CardBattle.Core.Collections
   fullName: CardBattle.Core.Collections
   nameWithType: CardBattle.Core.Collections
+- uid: CardBattle.Core.Collections.DictionaryPair`2
+  name: DictionaryPair<T0, T1>
+  href: cardBattleAPI/CardBattle.Core.Collections.DictionaryPair-2.html
+  commentId: T:CardBattle.Core.Collections.DictionaryPair`2
+  name.vb: DictionaryPair(Of T0, T1)
+  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>
+  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1)
+  nameWithType: DictionaryPair<T0, T1>
+  nameWithType.vb: DictionaryPair(Of T0, T1)
+- uid: CardBattle.Core.Collections.DictionaryPair`2.item0
+  name: item0
+  href: cardBattleAPI/CardBattle.Core.Collections.DictionaryPair-2.html#CardBattle_Core_Collections_DictionaryPair_2_item0
+  commentId: F:CardBattle.Core.Collections.DictionaryPair`2.item0
+  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>.item0
+  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1).item0
+  nameWithType: DictionaryPair<T0, T1>.item0
+  nameWithType.vb: DictionaryPair(Of T0, T1).item0
+- uid: CardBattle.Core.Collections.DictionaryPair`2.item1
+  name: item1
+  href: cardBattleAPI/CardBattle.Core.Collections.DictionaryPair-2.html#CardBattle_Core_Collections_DictionaryPair_2_item1
+  commentId: F:CardBattle.Core.Collections.DictionaryPair`2.item1
+  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>.item1
+  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1).item1
+  nameWithType: DictionaryPair<T0, T1>.item1
+  nameWithType.vb: DictionaryPair(Of T0, T1).item1
 - uid: CardBattle.Core.Collections.Dictionary`2
   name: Dictionary<T0, T1>
   href: cardBattleAPI/CardBattle.Core.Collections.Dictionary-2.html
@@ -677,61 +732,6 @@ references:
   fullName.vb: CardBattle.Core.Collections.Dictionary(Of T0, T1).pairs
   nameWithType: Dictionary<T0, T1>.pairs
   nameWithType.vb: Dictionary(Of T0, T1).pairs
-- uid: CardBattle.Core.Collections.DictionaryPair`2
-  name: DictionaryPair<T0, T1>
-  href: cardBattleAPI/CardBattle.Core.Collections.DictionaryPair-2.html
-  commentId: T:CardBattle.Core.Collections.DictionaryPair`2
-  name.vb: DictionaryPair(Of T0, T1)
-  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>
-  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1)
-  nameWithType: DictionaryPair<T0, T1>
-  nameWithType.vb: DictionaryPair(Of T0, T1)
-- uid: CardBattle.Core.Collections.DictionaryPair`2.item0
-  name: item0
-  href: cardBattleAPI/CardBattle.Core.Collections.DictionaryPair-2.html#CardBattle_Core_Collections_DictionaryPair_2_item0
-  commentId: F:CardBattle.Core.Collections.DictionaryPair`2.item0
-  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>.item0
-  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1).item0
-  nameWithType: DictionaryPair<T0, T1>.item0
-  nameWithType.vb: DictionaryPair(Of T0, T1).item0
-- uid: CardBattle.Core.Collections.DictionaryPair`2.item1
-  name: item1
-  href: cardBattleAPI/CardBattle.Core.Collections.DictionaryPair-2.html#CardBattle_Core_Collections_DictionaryPair_2_item1
-  commentId: F:CardBattle.Core.Collections.DictionaryPair`2.item1
-  fullName: CardBattle.Core.Collections.DictionaryPair<T0, T1>.item1
-  fullName.vb: CardBattle.Core.Collections.DictionaryPair(Of T0, T1).item1
-  nameWithType: DictionaryPair<T0, T1>.item1
-  nameWithType.vb: DictionaryPair(Of T0, T1).item1
-- uid: CardBattle.Core.COLOR
-  name: COLOR
-  href: cardBattleAPI/CardBattle.Core.COLOR.html
-  commentId: T:CardBattle.Core.COLOR
-  fullName: CardBattle.Core.COLOR
-  nameWithType: COLOR
-- uid: CardBattle.Core.COLOR.BLUE
-  name: BLUE
-  href: cardBattleAPI/CardBattle.Core.COLOR.html#CardBattle_Core_COLOR_BLUE
-  commentId: F:CardBattle.Core.COLOR.BLUE
-  fullName: CardBattle.Core.COLOR.BLUE
-  nameWithType: COLOR.BLUE
-- uid: CardBattle.Core.COLOR.GREEN
-  name: GREEN
-  href: cardBattleAPI/CardBattle.Core.COLOR.html#CardBattle_Core_COLOR_GREEN
-  commentId: F:CardBattle.Core.COLOR.GREEN
-  fullName: CardBattle.Core.COLOR.GREEN
-  nameWithType: COLOR.GREEN
-- uid: CardBattle.Core.COLOR.RED
-  name: RED
-  href: cardBattleAPI/CardBattle.Core.COLOR.html#CardBattle_Core_COLOR_RED
-  commentId: F:CardBattle.Core.COLOR.RED
-  fullName: CardBattle.Core.COLOR.RED
-  nameWithType: COLOR.RED
-- uid: CardBattle.Core.COLOR.WHITE
-  name: WHITE
-  href: cardBattleAPI/CardBattle.Core.COLOR.html#CardBattle_Core_COLOR_WHITE
-  commentId: F:CardBattle.Core.COLOR.WHITE
-  fullName: CardBattle.Core.COLOR.WHITE
-  nameWithType: COLOR.WHITE
 - uid: CardBattle.Core.Controls
   name: CardBattle.Core.Controls
   href: cardBattleAPI/CardBattle.Core.Controls.html
@@ -845,12 +845,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Controls.ControlMapping.Zoom
   nameWithType: ControlMapping.Zoom
-- uid: CardBattle.Core.Controls.ControlMapping.zoom01
-  name: zoom01
-  href: cardBattleAPI/CardBattle.Core.Controls.ControlMapping.html#CardBattle_Core_Controls_ControlMapping_zoom01
-  commentId: F:CardBattle.Core.Controls.ControlMapping.zoom01
-  fullName: CardBattle.Core.Controls.ControlMapping.zoom01
-  nameWithType: ControlMapping.zoom01
 - uid: CardBattle.Core.Controls.ControlMapping.Zoom02
   name: Zoom02
   href: cardBattleAPI/CardBattle.Core.Controls.ControlMapping.html#CardBattle_Core_Controls_ControlMapping_Zoom02
@@ -877,6 +871,12 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Controls.ControlMapping.ZoomAxis
   nameWithType: ControlMapping.ZoomAxis
+- uid: CardBattle.Core.Controls.ControlMapping.zoom01
+  name: zoom01
+  href: cardBattleAPI/CardBattle.Core.Controls.ControlMapping.html#CardBattle_Core_Controls_ControlMapping_zoom01
+  commentId: F:CardBattle.Core.Controls.ControlMapping.zoom01
+  fullName: CardBattle.Core.Controls.ControlMapping.zoom01
+  nameWithType: ControlMapping.zoom01
 - uid: CardBattle.Core.Controls.ControlMapping.zoomViaAxis
   name: zoomViaAxis
   href: cardBattleAPI/CardBattle.Core.Controls.ControlMapping.html#CardBattle_Core_Controls_ControlMapping_zoomViaAxis
@@ -901,18 +901,18 @@ references:
   commentId: F:CardBattle.Core.DIFFICULTY.HARD
   fullName: CardBattle.Core.DIFFICULTY.HARD
   nameWithType: DIFFICULTY.HARD
-- uid: CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
-  name: NO_CHALLENGE_AT_ALL
-  href: cardBattleAPI/CardBattle.Core.DIFFICULTY.html#CardBattle_Core_DIFFICULTY_NO_CHALLENGE_AT_ALL
-  commentId: F:CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
-  fullName: CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
-  nameWithType: DIFFICULTY.NO_CHALLENGE_AT_ALL
 - uid: CardBattle.Core.DIFFICULTY.NORMAL
   name: NORMAL
   href: cardBattleAPI/CardBattle.Core.DIFFICULTY.html#CardBattle_Core_DIFFICULTY_NORMAL
   commentId: F:CardBattle.Core.DIFFICULTY.NORMAL
   fullName: CardBattle.Core.DIFFICULTY.NORMAL
   nameWithType: DIFFICULTY.NORMAL
+- uid: CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
+  name: NO_CHALLENGE_AT_ALL
+  href: cardBattleAPI/CardBattle.Core.DIFFICULTY.html#CardBattle_Core_DIFFICULTY_NO_CHALLENGE_AT_ALL
+  commentId: F:CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
+  fullName: CardBattle.Core.DIFFICULTY.NO_CHALLENGE_AT_ALL
+  nameWithType: DIFFICULTY.NO_CHALLENGE_AT_ALL
 - uid: CardBattle.Core.DIFFICULTY.SERIOUSLY_INSANE
   name: SERIOUSLY_INSANE
   href: cardBattleAPI/CardBattle.Core.DIFFICULTY.html#CardBattle_Core_DIFFICULTY_SERIOUSLY_INSANE
@@ -1010,12 +1010,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Elements.HexagonalField.AxialCoordinates
   nameWithType: HexagonalField.AxialCoordinates
-- uid: CardBattle.Core.Elements.HexagonalField.controller
-  name: controller
-  href: cardBattleAPI/CardBattle.Core.Elements.HexagonalField.html#CardBattle_Core_Elements_HexagonalField_controller
-  commentId: F:CardBattle.Core.Elements.HexagonalField.controller
-  fullName: CardBattle.Core.Elements.HexagonalField.controller
-  nameWithType: HexagonalField.controller
 - uid: CardBattle.Core.Elements.HexagonalField.Coordinates
   name: Coordinates
   href: cardBattleAPI/CardBattle.Core.Elements.HexagonalField.html#CardBattle_Core_Elements_HexagonalField_Coordinates
@@ -1097,6 +1091,12 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Elements.HexagonalField.Item
   nameWithType: HexagonalField.Item
+- uid: CardBattle.Core.Elements.HexagonalField.controller
+  name: controller
+  href: cardBattleAPI/CardBattle.Core.Elements.HexagonalField.html#CardBattle_Core_Elements_HexagonalField_controller
+  commentId: F:CardBattle.Core.Elements.HexagonalField.controller
+  fullName: CardBattle.Core.Elements.HexagonalField.controller
+  nameWithType: HexagonalField.controller
 - uid: CardBattle.Core.GameManager
   name: GameManager
   href: cardBattleAPI/CardBattle.Core.GameManager.html
@@ -1116,24 +1116,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.GameManager.Awake
   nameWithType: GameManager.Awake
-- uid: CardBattle.Core.GameManager.bot
-  name: bot
-  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_bot
-  commentId: F:CardBattle.Core.GameManager.bot
-  fullName: CardBattle.Core.GameManager.bot
-  nameWithType: GameManager.bot
-- uid: CardBattle.Core.GameManager.difficulty
-  name: difficulty
-  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_difficulty
-  commentId: F:CardBattle.Core.GameManager.difficulty
-  fullName: CardBattle.Core.GameManager.difficulty
-  nameWithType: GameManager.difficulty
-- uid: CardBattle.Core.GameManager.gamemode
-  name: gamemode
-  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_gamemode
-  commentId: F:CardBattle.Core.GameManager.gamemode
-  fullName: CardBattle.Core.GameManager.gamemode
-  nameWithType: GameManager.gamemode
 - uid: CardBattle.Core.GameManager.Initiate
   name: Initiate()
   href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_Initiate
@@ -1168,18 +1150,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.GameManager.Initiate
   nameWithType: GameManager.Initiate
-- uid: CardBattle.Core.GameManager.instance
-  name: instance
-  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_instance
-  commentId: F:CardBattle.Core.GameManager.instance
-  fullName: CardBattle.Core.GameManager.instance
-  nameWithType: GameManager.instance
-- uid: CardBattle.Core.GameManager.players
-  name: players
-  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_players
-  commentId: F:CardBattle.Core.GameManager.players
-  fullName: CardBattle.Core.GameManager.players
-  nameWithType: GameManager.players
 - uid: CardBattle.Core.GameManager.Start
   name: Start()
   href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_Start
@@ -1193,6 +1163,36 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.GameManager.Start
   nameWithType: GameManager.Start
+- uid: CardBattle.Core.GameManager.bot
+  name: bot
+  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_bot
+  commentId: F:CardBattle.Core.GameManager.bot
+  fullName: CardBattle.Core.GameManager.bot
+  nameWithType: GameManager.bot
+- uid: CardBattle.Core.GameManager.difficulty
+  name: difficulty
+  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_difficulty
+  commentId: F:CardBattle.Core.GameManager.difficulty
+  fullName: CardBattle.Core.GameManager.difficulty
+  nameWithType: GameManager.difficulty
+- uid: CardBattle.Core.GameManager.gamemode
+  name: gamemode
+  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_gamemode
+  commentId: F:CardBattle.Core.GameManager.gamemode
+  fullName: CardBattle.Core.GameManager.gamemode
+  nameWithType: GameManager.gamemode
+- uid: CardBattle.Core.GameManager.instance
+  name: instance
+  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_instance
+  commentId: F:CardBattle.Core.GameManager.instance
+  fullName: CardBattle.Core.GameManager.instance
+  nameWithType: GameManager.instance
+- uid: CardBattle.Core.GameManager.players
+  name: players
+  href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_players
+  commentId: F:CardBattle.Core.GameManager.players
+  fullName: CardBattle.Core.GameManager.players
+  nameWithType: GameManager.players
 - uid: CardBattle.Core.GameManager.turnManager
   name: turnManager
   href: cardBattleAPI/CardBattle.Core.GameManager.html#CardBattle_Core_GameManager_turnManager
@@ -1224,12 +1224,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Generation.Biome.Biome
   nameWithType: Biome.Biome
-- uid: CardBattle.Core.Generation.Biome.biomes
-  name: biomes
-  href: cardBattleAPI/CardBattle.Core.Generation.Biome.html#CardBattle_Core_Generation_Biome_biomes
-  commentId: F:CardBattle.Core.Generation.Biome.biomes
-  fullName: CardBattle.Core.Generation.Biome.biomes
-  nameWithType: Biome.biomes
 - uid: CardBattle.Core.Generation.Biome.HeightMultiplier
   name: HeightMultiplier
   href: cardBattleAPI/CardBattle.Core.Generation.Biome.html#CardBattle_Core_Generation_Biome_HeightMultiplier
@@ -1269,24 +1263,12 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Generation.Biome.Name
   nameWithType: Biome.Name
-- uid: CardBattle.Core.MatchType
-  name: MatchType
-  href: cardBattleAPI/CardBattle.Core.MatchType.html
-  commentId: T:CardBattle.Core.MatchType
-  fullName: CardBattle.Core.MatchType
-  nameWithType: MatchType
-- uid: CardBattle.Core.MatchType.Normal
-  name: Normal
-  href: cardBattleAPI/CardBattle.Core.MatchType.html#CardBattle_Core_MatchType_Normal
-  commentId: F:CardBattle.Core.MatchType.Normal
-  fullName: CardBattle.Core.MatchType.Normal
-  nameWithType: MatchType.Normal
-- uid: CardBattle.Core.MatchType.Quickmatch
-  name: Quickmatch
-  href: cardBattleAPI/CardBattle.Core.MatchType.html#CardBattle_Core_MatchType_Quickmatch
-  commentId: F:CardBattle.Core.MatchType.Quickmatch
-  fullName: CardBattle.Core.MatchType.Quickmatch
-  nameWithType: MatchType.Quickmatch
+- uid: CardBattle.Core.Generation.Biome.biomes
+  name: biomes
+  href: cardBattleAPI/CardBattle.Core.Generation.Biome.html#CardBattle_Core_Generation_Biome_biomes
+  commentId: F:CardBattle.Core.Generation.Biome.biomes
+  fullName: CardBattle.Core.Generation.Biome.biomes
+  nameWithType: Biome.biomes
 - uid: CardBattle.Core.MULTIPLIER
   name: MULTIPLIER
   href: cardBattleAPI/CardBattle.Core.MULTIPLIER.html
@@ -1317,6 +1299,24 @@ references:
   commentId: F:CardBattle.Core.MULTIPLIER.ZERO
   fullName: CardBattle.Core.MULTIPLIER.ZERO
   nameWithType: MULTIPLIER.ZERO
+- uid: CardBattle.Core.MatchType
+  name: MatchType
+  href: cardBattleAPI/CardBattle.Core.MatchType.html
+  commentId: T:CardBattle.Core.MatchType
+  fullName: CardBattle.Core.MatchType
+  nameWithType: MatchType
+- uid: CardBattle.Core.MatchType.Normal
+  name: Normal
+  href: cardBattleAPI/CardBattle.Core.MatchType.html#CardBattle_Core_MatchType_Normal
+  commentId: F:CardBattle.Core.MatchType.Normal
+  fullName: CardBattle.Core.MatchType.Normal
+  nameWithType: MatchType.Normal
+- uid: CardBattle.Core.MatchType.Quickmatch
+  name: Quickmatch
+  href: cardBattleAPI/CardBattle.Core.MatchType.html#CardBattle_Core_MatchType_Quickmatch
+  commentId: F:CardBattle.Core.MatchType.Quickmatch
+  fullName: CardBattle.Core.MatchType.Quickmatch
+  nameWithType: MatchType.Quickmatch
 - uid: CardBattle.Core.Players
   name: CardBattle.Core.Players
   href: cardBattleAPI/CardBattle.Core.Players.html
@@ -1516,12 +1516,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Players.Player.AddComponentTo
   nameWithType: Player.AddComponentTo
-- uid: CardBattle.Core.Players.Player.isItHisTurn
-  name: isItHisTurn
-  href: cardBattleAPI/CardBattle.Core.Players.Player.html#CardBattle_Core_Players_Player_isItHisTurn
-  commentId: F:CardBattle.Core.Players.Player.isItHisTurn
-  fullName: CardBattle.Core.Players.Player.isItHisTurn
-  nameWithType: Player.isItHisTurn
 - uid: CardBattle.Core.Players.Player.NetworkPlayer
   name: NetworkPlayer
   href: cardBattleAPI/CardBattle.Core.Players.Player.html#CardBattle_Core_Players_Player_NetworkPlayer
@@ -1548,18 +1542,18 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Players.Player.PlayerIndex
   nameWithType: Player.PlayerIndex
+- uid: CardBattle.Core.Players.Player.isItHisTurn
+  name: isItHisTurn
+  href: cardBattleAPI/CardBattle.Core.Players.Player.html#CardBattle_Core_Players_Player_isItHisTurn
+  commentId: F:CardBattle.Core.Players.Player.isItHisTurn
+  fullName: CardBattle.Core.Players.Player.isItHisTurn
+  nameWithType: Player.isItHisTurn
 - uid: CardBattle.Core.Players.PlayerStats
   name: PlayerStats
   href: cardBattleAPI/CardBattle.Core.Players.PlayerStats.html
   commentId: T:CardBattle.Core.Players.PlayerStats
   fullName: CardBattle.Core.Players.PlayerStats
   nameWithType: PlayerStats
-- uid: CardBattle.Core.Players.PlayerStats.debts
-  name: debts
-  href: cardBattleAPI/CardBattle.Core.Players.PlayerStats.html#CardBattle_Core_Players_PlayerStats_debts
-  commentId: F:CardBattle.Core.Players.PlayerStats.debts
-  fullName: CardBattle.Core.Players.PlayerStats.debts
-  nameWithType: PlayerStats.debts
 - uid: CardBattle.Core.Players.PlayerStats.Debts
   name: Debts
   href: cardBattleAPI/CardBattle.Core.Players.PlayerStats.html#CardBattle_Core_Players_PlayerStats_Debts
@@ -1586,12 +1580,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Players.PlayerStats.Money
   nameWithType: PlayerStats.Money
-- uid: CardBattle.Core.Players.PlayerStats.revenue
-  name: revenue
-  href: cardBattleAPI/CardBattle.Core.Players.PlayerStats.html#CardBattle_Core_Players_PlayerStats_revenue
-  commentId: F:CardBattle.Core.Players.PlayerStats.revenue
-  fullName: CardBattle.Core.Players.PlayerStats.revenue
-  nameWithType: PlayerStats.revenue
 - uid: CardBattle.Core.Players.PlayerStats.TownCount
   name: TownCount
   href: cardBattleAPI/CardBattle.Core.Players.PlayerStats.html#CardBattle_Core_Players_PlayerStats_TownCount
@@ -1618,6 +1606,18 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Players.PlayerStats.VillageCount
   nameWithType: PlayerStats.VillageCount
+- uid: CardBattle.Core.Players.PlayerStats.debts
+  name: debts
+  href: cardBattleAPI/CardBattle.Core.Players.PlayerStats.html#CardBattle_Core_Players_PlayerStats_debts
+  commentId: F:CardBattle.Core.Players.PlayerStats.debts
+  fullName: CardBattle.Core.Players.PlayerStats.debts
+  nameWithType: PlayerStats.debts
+- uid: CardBattle.Core.Players.PlayerStats.revenue
+  name: revenue
+  href: cardBattleAPI/CardBattle.Core.Players.PlayerStats.html#CardBattle_Core_Players_PlayerStats_revenue
+  commentId: F:CardBattle.Core.Players.PlayerStats.revenue
+  fullName: CardBattle.Core.Players.PlayerStats.revenue
+  nameWithType: PlayerStats.revenue
 - uid: CardBattle.Core.Players.Revenue
   name: Revenue
   href: cardBattleAPI/CardBattle.Core.Players.Revenue.html
@@ -1637,12 +1637,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Players.Revenue.Revenue
   nameWithType: Revenue.Revenue
-- uid: CardBattle.Core.Players.Revenue.additionalIncome
-  name: additionalIncome
-  href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_additionalIncome
-  commentId: F:CardBattle.Core.Players.Revenue.additionalIncome
-  fullName: CardBattle.Core.Players.Revenue.additionalIncome
-  nameWithType: Revenue.additionalIncome
 - uid: CardBattle.Core.Players.Revenue.DoubleMultiplier
   name: DoubleMultiplier()
   href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_DoubleMultiplier
@@ -1669,12 +1663,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Players.Revenue.GetRevenue
   nameWithType: Revenue.GetRevenue
-- uid: CardBattle.Core.Players.Revenue.influencers
-  name: influencers
-  href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_influencers
-  commentId: F:CardBattle.Core.Players.Revenue.influencers
-  fullName: CardBattle.Core.Players.Revenue.influencers
-  nameWithType: Revenue.influencers
 - uid: CardBattle.Core.Players.Revenue.Multiplier
   name: Multiplier
   href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_Multiplier
@@ -1727,6 +1715,18 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Players.Revenue.ZeroMultiplier
   nameWithType: Revenue.ZeroMultiplier
+- uid: CardBattle.Core.Players.Revenue.additionalIncome
+  name: additionalIncome
+  href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_additionalIncome
+  commentId: F:CardBattle.Core.Players.Revenue.additionalIncome
+  fullName: CardBattle.Core.Players.Revenue.additionalIncome
+  nameWithType: Revenue.additionalIncome
+- uid: CardBattle.Core.Players.Revenue.influencers
+  name: influencers
+  href: cardBattleAPI/CardBattle.Core.Players.Revenue.html#CardBattle_Core_Players_Revenue_influencers
+  commentId: F:CardBattle.Core.Players.Revenue.influencers
+  fullName: CardBattle.Core.Players.Revenue.influencers
+  nameWithType: Revenue.influencers
 - uid: CardBattle.Core.Slider
   name: Slider
   href: cardBattleAPI/CardBattle.Core.Slider.html
@@ -1868,12 +1868,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Turns.TurnManager.CurrentPlayer
   nameWithType: TurnManager.CurrentPlayer
-- uid: CardBattle.Core.Turns.TurnManager.financeCards
-  name: financeCards
-  href: cardBattleAPI/CardBattle.Core.Turns.TurnManager.html#CardBattle_Core_Turns_TurnManager_financeCards
-  commentId: F:CardBattle.Core.Turns.TurnManager.financeCards
-  fullName: CardBattle.Core.Turns.TurnManager.financeCards
-  nameWithType: TurnManager.financeCards
 - uid: CardBattle.Core.Turns.TurnManager.FirstTurn
   name: FirstTurn()
   href: cardBattleAPI/CardBattle.Core.Turns.TurnManager.html#CardBattle_Core_Turns_TurnManager_FirstTurn
@@ -1926,6 +1920,12 @@ references:
   isSpec: "True"
   fullName: CardBattle.Core.Turns.TurnManager.OpponentPlayer
   nameWithType: TurnManager.OpponentPlayer
+- uid: CardBattle.Core.Turns.TurnManager.financeCards
+  name: financeCards
+  href: cardBattleAPI/CardBattle.Core.Turns.TurnManager.html#CardBattle_Core_Turns_TurnManager_financeCards
+  commentId: F:CardBattle.Core.Turns.TurnManager.financeCards
+  fullName: CardBattle.Core.Turns.TurnManager.financeCards
+  nameWithType: TurnManager.financeCards
 - uid: CardBattle.Display
   name: CardBattle.Display
   href: cardBattleAPI/CardBattle.Display.html
@@ -1988,12 +1988,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Display.Panel.Close
   nameWithType: Panel.Close
-- uid: CardBattle.Display.Panel.interactables
-  name: interactables
-  href: cardBattleAPI/CardBattle.Display.Panel.html#CardBattle_Display_Panel_interactables
-  commentId: F:CardBattle.Display.Panel.interactables
-  fullName: CardBattle.Display.Panel.interactables
-  nameWithType: Panel.interactables
 - uid: CardBattle.Display.Panel.Load
   name: Load()
   href: cardBattleAPI/CardBattle.Display.Panel.html#CardBattle_Display_Panel_Load
@@ -2020,12 +2014,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Display.Panel.Open
   nameWithType: Panel.Open
-- uid: CardBattle.Display.Panel.panelName
-  name: panelName
-  href: cardBattleAPI/CardBattle.Display.Panel.html#CardBattle_Display_Panel_panelName
-  commentId: F:CardBattle.Display.Panel.panelName
-  fullName: CardBattle.Display.Panel.panelName
-  nameWithType: Panel.panelName
 - uid: CardBattle.Display.Panel.Set(System.Boolean)
   name: Set(Boolean)
   href: cardBattleAPI/CardBattle.Display.Panel.html#CardBattle_Display_Panel_Set_System_Boolean_
@@ -2065,6 +2053,18 @@ references:
   isSpec: "True"
   fullName: CardBattle.Display.Panel.Update
   nameWithType: Panel.Update
+- uid: CardBattle.Display.Panel.interactables
+  name: interactables
+  href: cardBattleAPI/CardBattle.Display.Panel.html#CardBattle_Display_Panel_interactables
+  commentId: F:CardBattle.Display.Panel.interactables
+  fullName: CardBattle.Display.Panel.interactables
+  nameWithType: Panel.interactables
+- uid: CardBattle.Display.Panel.panelName
+  name: panelName
+  href: cardBattleAPI/CardBattle.Display.Panel.html#CardBattle_Display_Panel_panelName
+  commentId: F:CardBattle.Display.Panel.panelName
+  fullName: CardBattle.Display.Panel.panelName
+  nameWithType: Panel.panelName
 - uid: CardBattle.Display.PanelManager
   name: PanelManager
   href: cardBattleAPI/CardBattle.Display.PanelManager.html
@@ -2246,12 +2246,6 @@ references:
   commentId: T:CardBattle.Networking.LevelChanger
   fullName: CardBattle.Networking.LevelChanger
   nameWithType: LevelChanger
-- uid: CardBattle.Networking.LevelChanger.anim
-  name: anim
-  href: cardBattleAPI/CardBattle.Networking.LevelChanger.html#CardBattle_Networking_LevelChanger_anim
-  commentId: F:CardBattle.Networking.LevelChanger.anim
-  fullName: CardBattle.Networking.LevelChanger.anim
-  nameWithType: LevelChanger.anim
 - uid: CardBattle.Networking.LevelChanger.FadeToLevel(System.String)
   name: FadeToLevel(String)
   href: cardBattleAPI/CardBattle.Networking.LevelChanger.html#CardBattle_Networking_LevelChanger_FadeToLevel_System_String_
@@ -2291,6 +2285,12 @@ references:
   isSpec: "True"
   fullName: CardBattle.Networking.LevelChanger.OnFadeCompleteNetwork
   nameWithType: LevelChanger.OnFadeCompleteNetwork
+- uid: CardBattle.Networking.LevelChanger.anim
+  name: anim
+  href: cardBattleAPI/CardBattle.Networking.LevelChanger.html#CardBattle_Networking_LevelChanger_anim
+  commentId: F:CardBattle.Networking.LevelChanger.anim
+  fullName: CardBattle.Networking.LevelChanger.anim
+  nameWithType: LevelChanger.anim
 - uid: CardBattle.Networking.MapGeneration
   name: MapGeneration
   href: cardBattleAPI/CardBattle.Networking.MapGeneration.html
@@ -2340,18 +2340,6 @@ references:
   commentId: T:CardBattle.Networking.NetworkManager
   fullName: CardBattle.Networking.NetworkManager
   nameWithType: NetworkManager
-- uid: CardBattle.Networking.NetworkManager.canvas
-  name: canvas
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_canvas
-  commentId: F:CardBattle.Networking.NetworkManager.canvas
-  fullName: CardBattle.Networking.NetworkManager.canvas
-  nameWithType: NetworkManager.canvas
-- uid: CardBattle.Networking.NetworkManager.countdownText
-  name: countdownText
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_countdownText
-  commentId: F:CardBattle.Networking.NetworkManager.countdownText
-  fullName: CardBattle.Networking.NetworkManager.countdownText
-  nameWithType: NetworkManager.countdownText
 - uid: CardBattle.Networking.NetworkManager.JoinSpecificMatch(System.String)
   name: JoinSpecificMatch(String)
   href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_JoinSpecificMatch_System_String_
@@ -2378,18 +2366,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Networking.NetworkManager.LeaveMatch
   nameWithType: NetworkManager.LeaveMatch
-- uid: CardBattle.Networking.NetworkManager.levelChanger
-  name: levelChanger
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_levelChanger
-  commentId: F:CardBattle.Networking.NetworkManager.levelChanger
-  fullName: CardBattle.Networking.NetworkManager.levelChanger
-  nameWithType: NetworkManager.levelChanger
-- uid: CardBattle.Networking.NetworkManager.lobbyName
-  name: lobbyName
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_lobbyName
-  commentId: F:CardBattle.Networking.NetworkManager.lobbyName
-  fullName: CardBattle.Networking.NetworkManager.lobbyName
-  nameWithType: NetworkManager.lobbyName
 - uid: CardBattle.Networking.NetworkManager.OnConnectedToMaster
   name: OnConnectedToMaster()
   href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnConnectedToMaster
@@ -2416,32 +2392,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Networking.NetworkManager.OnDisconnected
   nameWithType: NetworkManager.OnDisconnected
-- uid: CardBattle.Networking.NetworkManager.OnJoinedLobby
-  name: OnJoinedLobby()
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinedLobby
-  commentId: M:CardBattle.Networking.NetworkManager.OnJoinedLobby
-  fullName: CardBattle.Networking.NetworkManager.OnJoinedLobby()
-  nameWithType: NetworkManager.OnJoinedLobby()
-- uid: CardBattle.Networking.NetworkManager.OnJoinedLobby*
-  name: OnJoinedLobby
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinedLobby_
-  commentId: Overload:CardBattle.Networking.NetworkManager.OnJoinedLobby
-  isSpec: "True"
-  fullName: CardBattle.Networking.NetworkManager.OnJoinedLobby
-  nameWithType: NetworkManager.OnJoinedLobby
-- uid: CardBattle.Networking.NetworkManager.OnJoinedRoom
-  name: OnJoinedRoom()
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinedRoom
-  commentId: M:CardBattle.Networking.NetworkManager.OnJoinedRoom
-  fullName: CardBattle.Networking.NetworkManager.OnJoinedRoom()
-  nameWithType: NetworkManager.OnJoinedRoom()
-- uid: CardBattle.Networking.NetworkManager.OnJoinedRoom*
-  name: OnJoinedRoom
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinedRoom_
-  commentId: Overload:CardBattle.Networking.NetworkManager.OnJoinedRoom
-  isSpec: "True"
-  fullName: CardBattle.Networking.NetworkManager.OnJoinedRoom
-  nameWithType: NetworkManager.OnJoinedRoom
 - uid: CardBattle.Networking.NetworkManager.OnJoinMatchButtonPressed
   name: OnJoinMatchButtonPressed()
   href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinMatchButtonPressed
@@ -2474,12 +2424,32 @@ references:
   isSpec: "True"
   fullName: CardBattle.Networking.NetworkManager.OnJoinRandomFailed
   nameWithType: NetworkManager.OnJoinRandomFailed
-- uid: CardBattle.Networking.NetworkManager.selectedMatchType
-  name: selectedMatchType
-  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_selectedMatchType
-  commentId: F:CardBattle.Networking.NetworkManager.selectedMatchType
-  fullName: CardBattle.Networking.NetworkManager.selectedMatchType
-  nameWithType: NetworkManager.selectedMatchType
+- uid: CardBattle.Networking.NetworkManager.OnJoinedLobby
+  name: OnJoinedLobby()
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinedLobby
+  commentId: M:CardBattle.Networking.NetworkManager.OnJoinedLobby
+  fullName: CardBattle.Networking.NetworkManager.OnJoinedLobby()
+  nameWithType: NetworkManager.OnJoinedLobby()
+- uid: CardBattle.Networking.NetworkManager.OnJoinedLobby*
+  name: OnJoinedLobby
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinedLobby_
+  commentId: Overload:CardBattle.Networking.NetworkManager.OnJoinedLobby
+  isSpec: "True"
+  fullName: CardBattle.Networking.NetworkManager.OnJoinedLobby
+  nameWithType: NetworkManager.OnJoinedLobby
+- uid: CardBattle.Networking.NetworkManager.OnJoinedRoom
+  name: OnJoinedRoom()
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinedRoom
+  commentId: M:CardBattle.Networking.NetworkManager.OnJoinedRoom
+  fullName: CardBattle.Networking.NetworkManager.OnJoinedRoom()
+  nameWithType: NetworkManager.OnJoinedRoom()
+- uid: CardBattle.Networking.NetworkManager.OnJoinedRoom*
+  name: OnJoinedRoom
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_OnJoinedRoom_
+  commentId: Overload:CardBattle.Networking.NetworkManager.OnJoinedRoom
+  isSpec: "True"
+  fullName: CardBattle.Networking.NetworkManager.OnJoinedRoom
+  nameWithType: NetworkManager.OnJoinedRoom
 - uid: CardBattle.Networking.NetworkManager.SetPlayersNickName(System.String)
   name: SetPlayersNickName(String)
   href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_SetPlayersNickName_System_String_
@@ -2506,18 +2476,42 @@ references:
   isSpec: "True"
   fullName: CardBattle.Networking.NetworkManager.SetSelectedMatchType
   nameWithType: NetworkManager.SetSelectedMatchType
+- uid: CardBattle.Networking.NetworkManager.canvas
+  name: canvas
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_canvas
+  commentId: F:CardBattle.Networking.NetworkManager.canvas
+  fullName: CardBattle.Networking.NetworkManager.canvas
+  nameWithType: NetworkManager.canvas
+- uid: CardBattle.Networking.NetworkManager.countdownText
+  name: countdownText
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_countdownText
+  commentId: F:CardBattle.Networking.NetworkManager.countdownText
+  fullName: CardBattle.Networking.NetworkManager.countdownText
+  nameWithType: NetworkManager.countdownText
+- uid: CardBattle.Networking.NetworkManager.levelChanger
+  name: levelChanger
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_levelChanger
+  commentId: F:CardBattle.Networking.NetworkManager.levelChanger
+  fullName: CardBattle.Networking.NetworkManager.levelChanger
+  nameWithType: NetworkManager.levelChanger
+- uid: CardBattle.Networking.NetworkManager.lobbyName
+  name: lobbyName
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_lobbyName
+  commentId: F:CardBattle.Networking.NetworkManager.lobbyName
+  fullName: CardBattle.Networking.NetworkManager.lobbyName
+  nameWithType: NetworkManager.lobbyName
+- uid: CardBattle.Networking.NetworkManager.selectedMatchType
+  name: selectedMatchType
+  href: cardBattleAPI/CardBattle.Networking.NetworkManager.html#CardBattle_Networking_NetworkManager_selectedMatchType
+  commentId: F:CardBattle.Networking.NetworkManager.selectedMatchType
+  fullName: CardBattle.Networking.NetworkManager.selectedMatchType
+  nameWithType: NetworkManager.selectedMatchType
 - uid: CardBattle.Networking.NetworkManagers
   name: NetworkManagers
   href: cardBattleAPI/CardBattle.Networking.NetworkManagers.html
   commentId: T:CardBattle.Networking.NetworkManagers
   fullName: CardBattle.Networking.NetworkManagers
   nameWithType: NetworkManagers
-- uid: CardBattle.Networking.NetworkManagers.instance
-  name: instance
-  href: cardBattleAPI/CardBattle.Networking.NetworkManagers.html#CardBattle_Networking_NetworkManagers_instance
-  commentId: F:CardBattle.Networking.NetworkManagers.instance
-  fullName: CardBattle.Networking.NetworkManagers.instance
-  nameWithType: NetworkManagers.instance
 - uid: CardBattle.Networking.NetworkManagers.Send(System.Object)
   name: Send(Object)
   href: cardBattleAPI/CardBattle.Networking.NetworkManagers.html#CardBattle_Networking_NetworkManagers_Send_System_Object_
@@ -2531,15 +2525,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Networking.NetworkManagers.Send
   nameWithType: NetworkManagers.Send
-- uid: CardBattle.Networking.NetworkManagers.Send``1(``0)
-  name: Send<T>(T)
-  href: cardBattleAPI/CardBattle.Networking.NetworkManagers.html#CardBattle_Networking_NetworkManagers_Send__1___0_
-  commentId: M:CardBattle.Networking.NetworkManagers.Send``1(``0)
-  name.vb: Send(Of T)(T)
-  fullName: CardBattle.Networking.NetworkManagers.Send<T>(T)
-  fullName.vb: CardBattle.Networking.NetworkManagers.Send(Of T)(T)
-  nameWithType: NetworkManagers.Send<T>(T)
-  nameWithType.vb: NetworkManagers.Send(Of T)(T)
 - uid: CardBattle.Networking.NetworkManagers.SendSecure(System.Object)
   name: SendSecure(Object)
   href: cardBattleAPI/CardBattle.Networking.NetworkManagers.html#CardBattle_Networking_NetworkManagers_SendSecure_System_Object_
@@ -2562,12 +2547,40 @@ references:
   fullName.vb: CardBattle.Networking.NetworkManagers.SendSecure(Of T)(T)
   nameWithType: NetworkManagers.SendSecure<T>(T)
   nameWithType.vb: NetworkManagers.SendSecure(Of T)(T)
+- uid: CardBattle.Networking.NetworkManagers.Send``1(``0)
+  name: Send<T>(T)
+  href: cardBattleAPI/CardBattle.Networking.NetworkManagers.html#CardBattle_Networking_NetworkManagers_Send__1___0_
+  commentId: M:CardBattle.Networking.NetworkManagers.Send``1(``0)
+  name.vb: Send(Of T)(T)
+  fullName: CardBattle.Networking.NetworkManagers.Send<T>(T)
+  fullName.vb: CardBattle.Networking.NetworkManagers.Send(Of T)(T)
+  nameWithType: NetworkManagers.Send<T>(T)
+  nameWithType.vb: NetworkManagers.Send(Of T)(T)
+- uid: CardBattle.Networking.NetworkManagers.instance
+  name: instance
+  href: cardBattleAPI/CardBattle.Networking.NetworkManagers.html#CardBattle_Networking_NetworkManagers_instance
+  commentId: F:CardBattle.Networking.NetworkManagers.instance
+  fullName: CardBattle.Networking.NetworkManagers.instance
+  nameWithType: NetworkManagers.instance
 - uid: CardBattle.Networking.NetworkSceneManager
   name: NetworkSceneManager
   href: cardBattleAPI/CardBattle.Networking.NetworkSceneManager.html
   commentId: T:CardBattle.Networking.NetworkSceneManager
   fullName: CardBattle.Networking.NetworkSceneManager
   nameWithType: NetworkSceneManager
+- uid: CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
+  name: IsSceneLoaded
+  href: cardBattleAPI/CardBattle.Networking.NetworkSceneManager.html#CardBattle_Networking_NetworkSceneManager_IsSceneLoaded
+  commentId: P:CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
+  fullName: CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
+  nameWithType: NetworkSceneManager.IsSceneLoaded
+- uid: CardBattle.Networking.NetworkSceneManager.IsSceneLoaded*
+  name: IsSceneLoaded
+  href: cardBattleAPI/CardBattle.Networking.NetworkSceneManager.html#CardBattle_Networking_NetworkSceneManager_IsSceneLoaded_
+  commentId: Overload:CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
+  isSpec: "True"
+  fullName: CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
+  nameWithType: NetworkSceneManager.IsSceneLoaded
 - uid: CardBattle.Networking.NetworkSceneManager.currentIndex
   name: currentIndex
   href: cardBattleAPI/CardBattle.Networking.NetworkSceneManager.html#CardBattle_Networking_NetworkSceneManager_currentIndex
@@ -2594,19 +2607,6 @@ references:
   isSpec: "True"
   fullName: CardBattle.Networking.NetworkSceneManager.currentName
   nameWithType: NetworkSceneManager.currentName
-- uid: CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
-  name: IsSceneLoaded
-  href: cardBattleAPI/CardBattle.Networking.NetworkSceneManager.html#CardBattle_Networking_NetworkSceneManager_IsSceneLoaded
-  commentId: P:CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
-  fullName: CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
-  nameWithType: NetworkSceneManager.IsSceneLoaded
-- uid: CardBattle.Networking.NetworkSceneManager.IsSceneLoaded*
-  name: IsSceneLoaded
-  href: cardBattleAPI/CardBattle.Networking.NetworkSceneManager.html#CardBattle_Networking_NetworkSceneManager_IsSceneLoaded_
-  commentId: Overload:CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
-  isSpec: "True"
-  fullName: CardBattle.Networking.NetworkSceneManager.IsSceneLoaded
-  nameWithType: NetworkSceneManager.IsSceneLoaded
 - uid: CardBattle.Networking.PlayerSync
   name: CardBattle.Networking.PlayerSync
   href: cardBattleAPI/CardBattle.Networking.PlayerSync.html
@@ -2708,12 +2708,6 @@ references:
   commentId: T:CardBattle.RemoteConfig.Configs
   fullName: CardBattle.RemoteConfig.Configs
   nameWithType: Configs
-- uid: CardBattle.RemoteConfig.Configs.appAttributes
-  name: Configs.appAttributes
-  href: cardBattleAPI/CardBattle.RemoteConfig.Configs.appAttributes.html
-  commentId: T:CardBattle.RemoteConfig.Configs.appAttributes
-  fullName: CardBattle.RemoteConfig.Configs.appAttributes
-  nameWithType: Configs.appAttributes
 - uid: CardBattle.RemoteConfig.Configs.ConfigVersion
   name: ConfigVersion
   href: cardBattleAPI/CardBattle.RemoteConfig.Configs.html#CardBattle_RemoteConfig_Configs_ConfigVersion
@@ -2824,6 +2818,12 @@ references:
   isSpec: "True"
   fullName: CardBattle.RemoteConfig.Configs.Revenue_VillageFactor
   nameWithType: Configs.Revenue_VillageFactor
+- uid: CardBattle.RemoteConfig.Configs.appAttributes
+  name: Configs.appAttributes
+  href: cardBattleAPI/CardBattle.RemoteConfig.Configs.appAttributes.html
+  commentId: T:CardBattle.RemoteConfig.Configs.appAttributes
+  fullName: CardBattle.RemoteConfig.Configs.appAttributes
+  nameWithType: Configs.appAttributes
 - uid: CardBattle.RemoteConfig.Configs.userAttributes
   name: Configs.userAttributes
   href: cardBattleAPI/CardBattle.RemoteConfig.Configs.userAttributes.html
@@ -2966,12 +2966,6 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.Devil.IsHard
   nameWithType: Devil.IsHard
-- uid: DevilsHunt.Devil.isOpponentPlayer
-  name: isOpponentPlayer
-  href: devilsHuntAPI/DevilsHunt.Devil.html#DevilsHunt_Devil_isOpponentPlayer
-  commentId: F:DevilsHunt.Devil.isOpponentPlayer
-  fullName: DevilsHunt.Devil.isOpponentPlayer
-  nameWithType: Devil.isOpponentPlayer
 - uid: DevilsHunt.Devil.Name
   name: Name
   href: devilsHuntAPI/DevilsHunt.Devil.html#DevilsHunt_Devil_Name
@@ -3011,6 +3005,12 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.Devil.Strength
   nameWithType: Devil.Strength
+- uid: DevilsHunt.Devil.isOpponentPlayer
+  name: isOpponentPlayer
+  href: devilsHuntAPI/DevilsHunt.Devil.html#DevilsHunt_Devil_isOpponentPlayer
+  commentId: F:DevilsHunt.Devil.isOpponentPlayer
+  fullName: DevilsHunt.Devil.isOpponentPlayer
+  nameWithType: Devil.isOpponentPlayer
 - uid: DevilsHunt.Effect
   name: Effect
   href: devilsHuntAPI/DevilsHunt.Effect.html
@@ -3311,12 +3311,12 @@ references:
   commentId: T:DevilsHunt.Game
   fullName: DevilsHunt.Game
   nameWithType: Game
-- uid: DevilsHunt.Game.data
-  name: data
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_data
-  commentId: F:DevilsHunt.Game.data
-  fullName: DevilsHunt.Game.data
-  nameWithType: Game.data
+- uid: DevilsHunt.Game.EndGUI
+  name: EndGUI
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_EndGUI
+  commentId: F:DevilsHunt.Game.EndGUI
+  fullName: DevilsHunt.Game.EndGUI
+  nameWithType: Game.EndGUI
 - uid: DevilsHunt.Game.EndGame(System.String,System.String[])
   name: EndGame(String, String[])
   href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_EndGame_System_String_System_String___
@@ -3333,12 +3333,6 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.Game.EndGame
   nameWithType: Game.EndGame
-- uid: DevilsHunt.Game.EndGUI
-  name: EndGUI
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_EndGUI
-  commentId: F:DevilsHunt.Game.EndGUI
-  fullName: DevilsHunt.Game.EndGUI
-  nameWithType: Game.EndGUI
 - uid: DevilsHunt.Game.Exit
   name: Exit()
   href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Exit
@@ -3371,6 +3365,102 @@ references:
   commentId: F:DevilsHunt.Game.ExitQuestion
   fullName: DevilsHunt.Game.ExitQuestion
   nameWithType: Game.ExitQuestion
+- uid: DevilsHunt.Game.Load(DevilsHunt.Score)
+  name: Load(Score)
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Load_DevilsHunt_Score_
+  commentId: M:DevilsHunt.Game.Load(DevilsHunt.Score)
+  fullName: DevilsHunt.Game.Load(DevilsHunt.Score)
+  nameWithType: Game.Load(Score)
+- uid: DevilsHunt.Game.Load*
+  name: Load
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Load_
+  commentId: Overload:DevilsHunt.Game.Load
+  isSpec: "True"
+  fullName: DevilsHunt.Game.Load
+  nameWithType: Game.Load
+- uid: DevilsHunt.Game.OpenLoad
+  name: OpenLoad()
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_OpenLoad
+  commentId: M:DevilsHunt.Game.OpenLoad
+  fullName: DevilsHunt.Game.OpenLoad()
+  nameWithType: Game.OpenLoad()
+- uid: DevilsHunt.Game.OpenLoad*
+  name: OpenLoad
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_OpenLoad_
+  commentId: Overload:DevilsHunt.Game.OpenLoad
+  isSpec: "True"
+  fullName: DevilsHunt.Game.OpenLoad
+  nameWithType: Game.OpenLoad
+- uid: DevilsHunt.Game.OpenSavePanel
+  name: OpenSavePanel()
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_OpenSavePanel
+  commentId: M:DevilsHunt.Game.OpenSavePanel
+  fullName: DevilsHunt.Game.OpenSavePanel()
+  nameWithType: Game.OpenSavePanel()
+- uid: DevilsHunt.Game.OpenSavePanel*
+  name: OpenSavePanel
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_OpenSavePanel_
+  commentId: Overload:DevilsHunt.Game.OpenSavePanel
+  isSpec: "True"
+  fullName: DevilsHunt.Game.OpenSavePanel
+  nameWithType: Game.OpenSavePanel
+- uid: DevilsHunt.Game.ReloadButton
+  name: ReloadButton()
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_ReloadButton
+  commentId: M:DevilsHunt.Game.ReloadButton
+  fullName: DevilsHunt.Game.ReloadButton()
+  nameWithType: Game.ReloadButton()
+- uid: DevilsHunt.Game.ReloadButton*
+  name: ReloadButton
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_ReloadButton_
+  commentId: Overload:DevilsHunt.Game.ReloadButton
+  isSpec: "True"
+  fullName: DevilsHunt.Game.ReloadButton
+  nameWithType: Game.ReloadButton
+- uid: DevilsHunt.Game.Save(System.String)
+  name: Save(String)
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Save_System_String_
+  commentId: M:DevilsHunt.Game.Save(System.String)
+  fullName: DevilsHunt.Game.Save(System.String)
+  nameWithType: Game.Save(String)
+- uid: DevilsHunt.Game.Save*
+  name: Save
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Save_
+  commentId: Overload:DevilsHunt.Game.Save
+  isSpec: "True"
+  fullName: DevilsHunt.Game.Save
+  nameWithType: Game.Save
+- uid: DevilsHunt.Game.StartGame
+  name: StartGame()
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_StartGame
+  commentId: M:DevilsHunt.Game.StartGame
+  fullName: DevilsHunt.Game.StartGame()
+  nameWithType: Game.StartGame()
+- uid: DevilsHunt.Game.StartGame(DevilsHunt.TJGame,System.Boolean)
+  name: StartGame(TJGame, Boolean)
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_StartGame_DevilsHunt_TJGame_System_Boolean_
+  commentId: M:DevilsHunt.Game.StartGame(DevilsHunt.TJGame,System.Boolean)
+  fullName: DevilsHunt.Game.StartGame(DevilsHunt.TJGame, System.Boolean)
+  nameWithType: Game.StartGame(TJGame, Boolean)
+- uid: DevilsHunt.Game.StartGame*
+  name: StartGame
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_StartGame_
+  commentId: Overload:DevilsHunt.Game.StartGame
+  isSpec: "True"
+  fullName: DevilsHunt.Game.StartGame
+  nameWithType: Game.StartGame
+- uid: DevilsHunt.Game.TJGame
+  name: TJGame
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_TJGame
+  commentId: F:DevilsHunt.Game.TJGame
+  fullName: DevilsHunt.Game.TJGame
+  nameWithType: Game.TJGame
+- uid: DevilsHunt.Game.data
+  name: data
+  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_data
+  commentId: F:DevilsHunt.Game.data
+  fullName: DevilsHunt.Game.data
+  nameWithType: Game.data
 - uid: DevilsHunt.Game.fileObject
   name: fileObject
   href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_fileObject
@@ -3389,19 +3479,6 @@ references:
   commentId: F:DevilsHunt.Game.itemPrefab
   fullName: DevilsHunt.Game.itemPrefab
   nameWithType: Game.itemPrefab
-- uid: DevilsHunt.Game.Load(DevilsHunt.Score)
-  name: Load(Score)
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Load_DevilsHunt_Score_
-  commentId: M:DevilsHunt.Game.Load(DevilsHunt.Score)
-  fullName: DevilsHunt.Game.Load(DevilsHunt.Score)
-  nameWithType: Game.Load(Score)
-- uid: DevilsHunt.Game.Load*
-  name: Load
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Load_
-  commentId: Overload:DevilsHunt.Game.Load
-  isSpec: "True"
-  fullName: DevilsHunt.Game.Load
-  nameWithType: Game.Load
 - uid: DevilsHunt.Game.loadPrefab
   name: loadPrefab
   href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_loadPrefab
@@ -3450,32 +3527,6 @@ references:
   commentId: F:DevilsHunt.Game.next
   fullName: DevilsHunt.Game.next
   nameWithType: Game.next
-- uid: DevilsHunt.Game.OpenLoad
-  name: OpenLoad()
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_OpenLoad
-  commentId: M:DevilsHunt.Game.OpenLoad
-  fullName: DevilsHunt.Game.OpenLoad()
-  nameWithType: Game.OpenLoad()
-- uid: DevilsHunt.Game.OpenLoad*
-  name: OpenLoad
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_OpenLoad_
-  commentId: Overload:DevilsHunt.Game.OpenLoad
-  isSpec: "True"
-  fullName: DevilsHunt.Game.OpenLoad
-  nameWithType: Game.OpenLoad
-- uid: DevilsHunt.Game.OpenSavePanel
-  name: OpenSavePanel()
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_OpenSavePanel
-  commentId: M:DevilsHunt.Game.OpenSavePanel
-  fullName: DevilsHunt.Game.OpenSavePanel()
-  nameWithType: Game.OpenSavePanel()
-- uid: DevilsHunt.Game.OpenSavePanel*
-  name: OpenSavePanel
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_OpenSavePanel_
-  commentId: Overload:DevilsHunt.Game.OpenSavePanel
-  isSpec: "True"
-  fullName: DevilsHunt.Game.OpenSavePanel
-  nameWithType: Game.OpenSavePanel
 - uid: DevilsHunt.Game.playerToggle1
   name: playerToggle1
   href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_playerToggle1
@@ -3500,32 +3551,6 @@ references:
   commentId: F:DevilsHunt.Game.playerToggle4
   fullName: DevilsHunt.Game.playerToggle4
   nameWithType: Game.playerToggle4
-- uid: DevilsHunt.Game.ReloadButton
-  name: ReloadButton()
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_ReloadButton
-  commentId: M:DevilsHunt.Game.ReloadButton
-  fullName: DevilsHunt.Game.ReloadButton()
-  nameWithType: Game.ReloadButton()
-- uid: DevilsHunt.Game.ReloadButton*
-  name: ReloadButton
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_ReloadButton_
-  commentId: Overload:DevilsHunt.Game.ReloadButton
-  isSpec: "True"
-  fullName: DevilsHunt.Game.ReloadButton
-  nameWithType: Game.ReloadButton
-- uid: DevilsHunt.Game.Save(System.String)
-  name: Save(String)
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Save_System_String_
-  commentId: M:DevilsHunt.Game.Save(System.String)
-  fullName: DevilsHunt.Game.Save(System.String)
-  nameWithType: Game.Save(String)
-- uid: DevilsHunt.Game.Save*
-  name: Save
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_Save_
-  commentId: Overload:DevilsHunt.Game.Save
-  isSpec: "True"
-  fullName: DevilsHunt.Game.Save
-  nameWithType: Game.Save
 - uid: DevilsHunt.Game.savePrefab
   name: savePrefab
   href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_savePrefab
@@ -3556,31 +3581,6 @@ references:
   commentId: F:DevilsHunt.Game.start
   fullName: DevilsHunt.Game.start
   nameWithType: Game.start
-- uid: DevilsHunt.Game.StartGame
-  name: StartGame()
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_StartGame
-  commentId: M:DevilsHunt.Game.StartGame
-  fullName: DevilsHunt.Game.StartGame()
-  nameWithType: Game.StartGame()
-- uid: DevilsHunt.Game.StartGame(DevilsHunt.TJGame,System.Boolean)
-  name: StartGame(TJGame, Boolean)
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_StartGame_DevilsHunt_TJGame_System_Boolean_
-  commentId: M:DevilsHunt.Game.StartGame(DevilsHunt.TJGame,System.Boolean)
-  fullName: DevilsHunt.Game.StartGame(DevilsHunt.TJGame, System.Boolean)
-  nameWithType: Game.StartGame(TJGame, Boolean)
-- uid: DevilsHunt.Game.StartGame*
-  name: StartGame
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_StartGame_
-  commentId: Overload:DevilsHunt.Game.StartGame
-  isSpec: "True"
-  fullName: DevilsHunt.Game.StartGame
-  nameWithType: Game.StartGame
-- uid: DevilsHunt.Game.TJGame
-  name: TJGame
-  href: devilsHuntAPI/DevilsHunt.Game.html#DevilsHunt_Game_TJGame
-  commentId: F:DevilsHunt.Game.TJGame
-  fullName: DevilsHunt.Game.TJGame
-  nameWithType: Game.TJGame
 - uid: DevilsHunt.IKill
   name: IKill
   href: devilsHuntAPI/DevilsHunt.IKill.html
@@ -4238,12 +4238,6 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.Score.Load
   nameWithType: Score.Load
-- uid: DevilsHunt.Score.main
-  name: main
-  href: devilsHuntAPI/DevilsHunt.Score.html#DevilsHunt_Score_main
-  commentId: F:DevilsHunt.Score.main
-  fullName: DevilsHunt.Score.main
-  nameWithType: Score.main
 - uid: DevilsHunt.Score.Name
   name: Name
   href: devilsHuntAPI/DevilsHunt.Score.html#DevilsHunt_Score_Name
@@ -4270,6 +4264,12 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.Score.Save
   nameWithType: Score.Save
+- uid: DevilsHunt.Score.main
+  name: main
+  href: devilsHuntAPI/DevilsHunt.Score.html#DevilsHunt_Score_main
+  commentId: F:DevilsHunt.Score.main
+  fullName: DevilsHunt.Score.main
+  nameWithType: Score.main
 - uid: DevilsHunt.Shop
   name: Shop
   href: devilsHuntAPI/DevilsHunt.Shop.html
@@ -4327,12 +4327,6 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.Shop.Items
   nameWithType: Shop.Items
-- uid: DevilsHunt.Shop.main
-  name: main
-  href: devilsHuntAPI/DevilsHunt.Shop.html#DevilsHunt_Shop_main
-  commentId: F:DevilsHunt.Shop.main
-  fullName: DevilsHunt.Shop.main
-  nameWithType: Shop.main
 - uid: DevilsHunt.Shop.Open
   name: Open()
   href: devilsHuntAPI/DevilsHunt.Shop.html#DevilsHunt_Shop_Open
@@ -4346,12 +4340,6 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.Shop.Open
   nameWithType: Shop.Open
-- uid: DevilsHunt.Shop.shop
-  name: shop
-  href: devilsHuntAPI/DevilsHunt.Shop.html#DevilsHunt_Shop_shop
-  commentId: F:DevilsHunt.Shop.shop
-  fullName: DevilsHunt.Shop.shop
-  nameWithType: Shop.shop
 - uid: DevilsHunt.Shop.ShopPrefab
   name: ShopPrefab
   href: devilsHuntAPI/DevilsHunt.Shop.html#DevilsHunt_Shop_ShopPrefab
@@ -4371,6 +4359,18 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.Shop.UpdateShop
   nameWithType: Shop.UpdateShop
+- uid: DevilsHunt.Shop.main
+  name: main
+  href: devilsHuntAPI/DevilsHunt.Shop.html#DevilsHunt_Shop_main
+  commentId: F:DevilsHunt.Shop.main
+  fullName: DevilsHunt.Shop.main
+  nameWithType: Shop.main
+- uid: DevilsHunt.Shop.shop
+  name: shop
+  href: devilsHuntAPI/DevilsHunt.Shop.html#DevilsHunt_Shop_shop
+  commentId: F:DevilsHunt.Shop.shop
+  fullName: DevilsHunt.Shop.shop
+  nameWithType: Shop.shop
 - uid: DevilsHunt.Skill
   name: Skill
   href: devilsHuntAPI/DevilsHunt.Skill.html
@@ -4493,19 +4493,6 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.SkillTree.BuySkill
   nameWithType: SkillTree.BuySkill
-- uid: DevilsHunt.SkillTree.Skilled
-  name: Skilled()
-  href: devilsHuntAPI/DevilsHunt.SkillTree.html#DevilsHunt_SkillTree_Skilled
-  commentId: M:DevilsHunt.SkillTree.Skilled
-  fullName: DevilsHunt.SkillTree.Skilled()
-  nameWithType: SkillTree.Skilled()
-- uid: DevilsHunt.SkillTree.Skilled*
-  name: Skilled
-  href: devilsHuntAPI/DevilsHunt.SkillTree.html#DevilsHunt_SkillTree_Skilled_
-  commentId: Overload:DevilsHunt.SkillTree.Skilled
-  isSpec: "True"
-  fullName: DevilsHunt.SkillTree.Skilled
-  nameWithType: SkillTree.Skilled
 - uid: DevilsHunt.SkillTree.SkillLevel
   name: SkillLevel
   href: devilsHuntAPI/DevilsHunt.SkillTree.html#DevilsHunt_SkillTree_SkillLevel
@@ -4532,6 +4519,19 @@ references:
   isSpec: "True"
   fullName: DevilsHunt.SkillTree.SkillName
   nameWithType: SkillTree.SkillName
+- uid: DevilsHunt.SkillTree.Skilled
+  name: Skilled()
+  href: devilsHuntAPI/DevilsHunt.SkillTree.html#DevilsHunt_SkillTree_Skilled
+  commentId: M:DevilsHunt.SkillTree.Skilled
+  fullName: DevilsHunt.SkillTree.Skilled()
+  nameWithType: SkillTree.Skilled()
+- uid: DevilsHunt.SkillTree.Skilled*
+  name: Skilled
+  href: devilsHuntAPI/DevilsHunt.SkillTree.html#DevilsHunt_SkillTree_Skilled_
+  commentId: Overload:DevilsHunt.SkillTree.Skilled
+  isSpec: "True"
+  fullName: DevilsHunt.SkillTree.Skilled
+  nameWithType: SkillTree.Skilled
 - uid: DevilsHunt.SkillTreePanel
   name: SkillTreePanel
   href: devilsHuntAPI/DevilsHunt.SkillTreePanel.html
@@ -4792,21 +4792,30 @@ references:
   name: Form1()
   href: virtualDiceAPI/Display.Form1.html#Display_Form1__ctor
   commentId: M:Display.Form1.#ctor
+  name.vb: New()
   fullName: Display.Form1.Form1()
+  fullName.vb: Display.Form1.New()
   nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
 - uid: Display.Form1.#ctor*
   name: Form1
   href: virtualDiceAPI/Display.Form1.html#Display_Form1__ctor_
   commentId: Overload:Display.Form1.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: Display.Form1.Form1
+  fullName.vb: Display.Form1.New
   nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
 - uid: Display.Form1.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: virtualDiceAPI/Display.Form1.html#Display_Form1_Dispose_System_Boolean_
   commentId: M:Display.Form1.Dispose(System.Boolean)
-  fullName: Display.Form1.Dispose(System.Boolean)
-  nameWithType: Form1.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Display.Form1.Dispose(bool)
+  fullName.vb: Display.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
 - uid: Display.Form1.Dispose*
   name: Dispose
   href: virtualDiceAPI/Display.Form1.html#Display_Form1_Dispose_
@@ -4827,18 +4836,37 @@ references:
   fullName: GameToolbox.Elements.Die
   nameWithType: Die
 - uid: GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)
-  name: Die(UInt32, Int32, Boolean)
+  name: Die(uint, int, bool)
   href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die__ctor_System_UInt32_System_Int32_System_Boolean_
   commentId: M:GameToolbox.Elements.Die.#ctor(System.UInt32,System.Int32,System.Boolean)
-  fullName: GameToolbox.Elements.Die.Die(System.UInt32, System.Int32, System.Boolean)
-  nameWithType: Die.Die(UInt32, Int32, Boolean)
+  name.vb: New(UInteger, Integer, Boolean)
+  fullName: GameToolbox.Elements.Die.Die(uint, int, bool)
+  fullName.vb: GameToolbox.Elements.Die.New(UInteger, Integer, Boolean)
+  nameWithType: Die.Die(uint, int, bool)
+  nameWithType.vb: Die.New(UInteger, Integer, Boolean)
 - uid: GameToolbox.Elements.Die.#ctor*
   name: Die
   href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die__ctor_
   commentId: Overload:GameToolbox.Elements.Die.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: GameToolbox.Elements.Die.Die
+  fullName.vb: GameToolbox.Elements.Die.New
   nameWithType: Die.Die
+  nameWithType.vb: Die.New
+- uid: GameToolbox.Elements.Die.Advantage
+  name: Advantage
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Advantage
+  commentId: P:GameToolbox.Elements.Die.Advantage
+  fullName: GameToolbox.Elements.Die.Advantage
+  nameWithType: Die.Advantage
+- uid: GameToolbox.Elements.Die.Advantage*
+  name: Advantage
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Advantage_
+  commentId: Overload:GameToolbox.Elements.Die.Advantage
+  isSpec: "True"
+  fullName: GameToolbox.Elements.Die.Advantage
+  nameWithType: Die.Advantage
 - uid: GameToolbox.Elements.Die.ChancePerSide
   name: ChancePerSide
   href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_ChancePerSide
@@ -4852,6 +4880,19 @@ references:
   isSpec: "True"
   fullName: GameToolbox.Elements.Die.ChancePerSide
   nameWithType: Die.ChancePerSide
+- uid: GameToolbox.Elements.Die.Disadvantage
+  name: Disadvantage
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Disadvantage
+  commentId: P:GameToolbox.Elements.Die.Disadvantage
+  fullName: GameToolbox.Elements.Die.Disadvantage
+  nameWithType: Die.Disadvantage
+- uid: GameToolbox.Elements.Die.Disadvantage*
+  name: Disadvantage
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Disadvantage_
+  commentId: Overload:GameToolbox.Elements.Die.Disadvantage
+  isSpec: "True"
+  fullName: GameToolbox.Elements.Die.Disadvantage
+  nameWithType: Die.Disadvantage
 - uid: GameToolbox.Elements.Die.IsZeroIndexed
   name: IsZeroIndexed
   href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_IsZeroIndexed
@@ -4865,105 +4906,39 @@ references:
   isSpec: "True"
   fullName: GameToolbox.Elements.Die.IsZeroIndexed
   nameWithType: Die.IsZeroIndexed
-- uid: GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  name: Addition(Die, Die)
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Addition_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
-  commentId: M:GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  fullName: GameToolbox.Elements.Die.Addition(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
-  nameWithType: Die.Addition(Die, Die)
-- uid: GameToolbox.Elements.Die.op_Addition*
-  name: Addition
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Addition_
-  commentId: Overload:GameToolbox.Elements.Die.op_Addition
-  isSpec: "True"
-  fullName: GameToolbox.Elements.Die.Addition
-  nameWithType: Die.Addition
-- uid: GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  name: Division(Die, Die)
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Division_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
-  commentId: M:GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  fullName: GameToolbox.Elements.Die.Division(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
-  nameWithType: Die.Division(Die, Die)
-- uid: GameToolbox.Elements.Die.op_Division*
-  name: Division
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Division_
-  commentId: Overload:GameToolbox.Elements.Die.op_Division
-  isSpec: "True"
-  fullName: GameToolbox.Elements.Die.Division
-  nameWithType: Die.Division
-- uid: GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
-  name: Implicit(Die to Int32)
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Implicit_GameToolbox_Elements_Die__System_Int32
-  commentId: M:GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
-  name.vb: Widening(Die to Int32)
-  fullName: GameToolbox.Elements.Die.Implicit(GameToolbox.Elements.Die to System.Int32)
-  fullName.vb: GameToolbox.Elements.Die.Widening(GameToolbox.Elements.Die to System.Int32)
-  nameWithType: Die.Implicit(Die to Int32)
-  nameWithType.vb: Die.Widening(Die to Int32)
-- uid: GameToolbox.Elements.Die.op_Implicit*
-  name: Implicit
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Implicit_
-  commentId: Overload:GameToolbox.Elements.Die.op_Implicit
-  isSpec: "True"
-  name.vb: Widening
-  fullName: GameToolbox.Elements.Die.Implicit
-  fullName.vb: GameToolbox.Elements.Die.Widening
-  nameWithType: Die.Implicit
-  nameWithType.vb: Die.Widening
-- uid: GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  name: Modulus(Die, Die)
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Modulus_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
-  commentId: M:GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  fullName: GameToolbox.Elements.Die.Modulus(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
-  nameWithType: Die.Modulus(Die, Die)
-- uid: GameToolbox.Elements.Die.op_Modulus*
-  name: Modulus
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Modulus_
-  commentId: Overload:GameToolbox.Elements.Die.op_Modulus
-  isSpec: "True"
-  fullName: GameToolbox.Elements.Die.Modulus
-  nameWithType: Die.Modulus
-- uid: GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  name: Multiply(Die, Die)
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Multiply_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
-  commentId: M:GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  fullName: GameToolbox.Elements.Die.Multiply(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
-  nameWithType: Die.Multiply(Die, Die)
-- uid: GameToolbox.Elements.Die.op_Multiply*
-  name: Multiply
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Multiply_
-  commentId: Overload:GameToolbox.Elements.Die.op_Multiply
-  isSpec: "True"
-  fullName: GameToolbox.Elements.Die.Multiply
-  nameWithType: Die.Multiply
-- uid: GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  name: Subtraction(Die, Die)
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Subtraction_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
-  commentId: M:GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
-  fullName: GameToolbox.Elements.Die.Subtraction(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
-  nameWithType: Die.Subtraction(Die, Die)
-- uid: GameToolbox.Elements.Die.op_Subtraction*
-  name: Subtraction
-  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Subtraction_
-  commentId: Overload:GameToolbox.Elements.Die.op_Subtraction
-  isSpec: "True"
-  fullName: GameToolbox.Elements.Die.Subtraction
-  nameWithType: Die.Subtraction
 - uid: GameToolbox.Elements.Die.Roll
   name: Roll()
   href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Roll
   commentId: M:GameToolbox.Elements.Die.Roll
   fullName: GameToolbox.Elements.Die.Roll()
   nameWithType: Die.Roll()
+- uid: GameToolbox.Elements.Die.Roll(System.Boolean,System.Boolean)
+  name: Roll(bool, bool)
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Roll_System_Boolean_System_Boolean_
+  commentId: M:GameToolbox.Elements.Die.Roll(System.Boolean,System.Boolean)
+  name.vb: Roll(Boolean, Boolean)
+  fullName: GameToolbox.Elements.Die.Roll(bool, bool)
+  fullName.vb: GameToolbox.Elements.Die.Roll(Boolean, Boolean)
+  nameWithType: Die.Roll(bool, bool)
+  nameWithType.vb: Die.Roll(Boolean, Boolean)
 - uid: GameToolbox.Elements.Die.Roll(System.Int32@)
-  name: Roll(out Int32)
+  name: Roll(out int)
   href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Roll_System_Int32__
   commentId: M:GameToolbox.Elements.Die.Roll(System.Int32@)
-  name.vb: Roll(ByRef Int32)
-  fullName: GameToolbox.Elements.Die.Roll(out System.Int32)
-  fullName.vb: GameToolbox.Elements.Die.Roll(ByRef System.Int32)
-  nameWithType: Die.Roll(out Int32)
-  nameWithType.vb: Die.Roll(ByRef Int32)
+  name.vb: Roll(Integer)
+  fullName: GameToolbox.Elements.Die.Roll(out int)
+  fullName.vb: GameToolbox.Elements.Die.Roll(Integer)
+  nameWithType: Die.Roll(out int)
+  nameWithType.vb: Die.Roll(Integer)
+- uid: GameToolbox.Elements.Die.Roll(System.Int32@,System.Boolean,System.Boolean)
+  name: Roll(out int, bool, bool)
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Roll_System_Int32__System_Boolean_System_Boolean_
+  commentId: M:GameToolbox.Elements.Die.Roll(System.Int32@,System.Boolean,System.Boolean)
+  name.vb: Roll(Integer, Boolean, Boolean)
+  fullName: GameToolbox.Elements.Die.Roll(out int, bool, bool)
+  fullName.vb: GameToolbox.Elements.Die.Roll(Integer, Boolean, Boolean)
+  nameWithType: Die.Roll(out int, bool, bool)
+  nameWithType.vb: Die.Roll(Integer, Boolean, Boolean)
 - uid: GameToolbox.Elements.Die.Roll*
   name: Roll
   href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_Roll_
@@ -4984,6 +4959,120 @@ references:
   isSpec: "True"
   fullName: GameToolbox.Elements.Die.Sides
   nameWithType: Die.Sides
+- uid: GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name: operator +(Die, Die)
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Addition_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  commentId: M:GameToolbox.Elements.Die.op_Addition(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name.vb: +(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator +(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  fullName.vb: GameToolbox.Elements.Die.+(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  nameWithType: Die.operator +(Die, Die)
+  nameWithType.vb: Die.+(Die, Die)
+- uid: GameToolbox.Elements.Die.op_Addition*
+  name: operator +
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Addition_
+  commentId: Overload:GameToolbox.Elements.Die.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: GameToolbox.Elements.Die.operator +
+  fullName.vb: GameToolbox.Elements.Die.+
+  nameWithType: Die.operator +
+  nameWithType.vb: Die.+
+- uid: GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name: operator /(Die, Die)
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Division_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  commentId: M:GameToolbox.Elements.Die.op_Division(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name.vb: /(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator /(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  fullName.vb: GameToolbox.Elements.Die./(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  nameWithType: Die.operator /(Die, Die)
+  nameWithType.vb: Die./(Die, Die)
+- uid: GameToolbox.Elements.Die.op_Division*
+  name: operator /
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Division_
+  commentId: Overload:GameToolbox.Elements.Die.op_Division
+  isSpec: "True"
+  name.vb: /
+  fullName: GameToolbox.Elements.Die.operator /
+  fullName.vb: GameToolbox.Elements.Die./
+  nameWithType: Die.operator /
+  nameWithType.vb: Die./
+- uid: GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
+  name: implicit operator int(Die)
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Implicit_GameToolbox_Elements_Die__System_Int32
+  commentId: M:GameToolbox.Elements.Die.op_Implicit(GameToolbox.Elements.Die)~System.Int32
+  name.vb: CType(Die)
+  fullName: GameToolbox.Elements.Die.implicit operator int(GameToolbox.Elements.Die)
+  fullName.vb: GameToolbox.Elements.Die.CType(GameToolbox.Elements.Die)
+  nameWithType: Die.implicit operator int(Die)
+  nameWithType.vb: Die.CType(Die)
+- uid: GameToolbox.Elements.Die.op_Implicit*
+  name: implicit operator
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Implicit_
+  commentId: Overload:GameToolbox.Elements.Die.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: GameToolbox.Elements.Die.implicit operator
+  fullName.vb: GameToolbox.Elements.Die.CType
+  nameWithType: Die.implicit operator
+  nameWithType.vb: Die.CType
+- uid: GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name: operator %(Die, Die)
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Modulus_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  commentId: M:GameToolbox.Elements.Die.op_Modulus(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name.vb: Mod(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator %(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  fullName.vb: GameToolbox.Elements.Die.Mod(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  nameWithType: Die.operator %(Die, Die)
+  nameWithType.vb: Die.Mod(Die, Die)
+- uid: GameToolbox.Elements.Die.op_Modulus*
+  name: operator %
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Modulus_
+  commentId: Overload:GameToolbox.Elements.Die.op_Modulus
+  isSpec: "True"
+  name.vb: Mod
+  fullName: GameToolbox.Elements.Die.operator %
+  fullName.vb: GameToolbox.Elements.Die.Mod
+  nameWithType: Die.operator %
+  nameWithType.vb: Die.Mod
+- uid: GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name: operator *(Die, Die)
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Multiply_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  commentId: M:GameToolbox.Elements.Die.op_Multiply(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name.vb: '*(Die, Die)'
+  fullName: GameToolbox.Elements.Die.operator *(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  fullName.vb: GameToolbox.Elements.Die.*(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  nameWithType: Die.operator *(Die, Die)
+  nameWithType.vb: Die.*(Die, Die)
+- uid: GameToolbox.Elements.Die.op_Multiply*
+  name: operator *
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Multiply_
+  commentId: Overload:GameToolbox.Elements.Die.op_Multiply
+  isSpec: "True"
+  name.vb: '*'
+  fullName: GameToolbox.Elements.Die.operator *
+  fullName.vb: GameToolbox.Elements.Die.*
+  nameWithType: Die.operator *
+  nameWithType.vb: Die.*
+- uid: GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name: operator -(Die, Die)
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Subtraction_GameToolbox_Elements_Die_GameToolbox_Elements_Die_
+  commentId: M:GameToolbox.Elements.Die.op_Subtraction(GameToolbox.Elements.Die,GameToolbox.Elements.Die)
+  name.vb: -(Die, Die)
+  fullName: GameToolbox.Elements.Die.operator -(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  fullName.vb: GameToolbox.Elements.Die.-(GameToolbox.Elements.Die, GameToolbox.Elements.Die)
+  nameWithType: Die.operator -(Die, Die)
+  nameWithType.vb: Die.-(Die, Die)
+- uid: GameToolbox.Elements.Die.op_Subtraction*
+  name: operator -
+  href: virtualDiceAPI/GameToolbox.Elements.Die.html#GameToolbox_Elements_Die_op_Subtraction_
+  commentId: Overload:GameToolbox.Elements.Die.op_Subtraction
+  isSpec: "True"
+  name.vb: '-'
+  fullName: GameToolbox.Elements.Die.operator -
+  fullName.vb: GameToolbox.Elements.Die.-
+  nameWithType: Die.operator -
+  nameWithType.vb: Die.-
 - uid: PlanningTool
   name: PlanningTool
   href: planningToolAPI/PlanningTool.html
@@ -5000,21 +5089,30 @@ references:
   name: Form1()
   href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1__ctor
   commentId: M:PlanningTool.Form1.#ctor
+  name.vb: New()
   fullName: PlanningTool.Form1.Form1()
+  fullName.vb: PlanningTool.Form1.New()
   nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
 - uid: PlanningTool.Form1.#ctor*
   name: Form1
   href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1__ctor_
   commentId: Overload:PlanningTool.Form1.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Form1.Form1
+  fullName.vb: PlanningTool.Form1.New
   nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
 - uid: PlanningTool.Form1.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_Dispose_System_Boolean_
   commentId: M:PlanningTool.Form1.Dispose(System.Boolean)
-  fullName: PlanningTool.Form1.Dispose(System.Boolean)
-  nameWithType: Form1.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Form1.Dispose(bool)
+  fullName.vb: PlanningTool.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
 - uid: PlanningTool.Form1.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_Dispose_
@@ -5022,30 +5120,6 @@ references:
   isSpec: "True"
   fullName: PlanningTool.Form1.Dispose
   nameWithType: Form1.Dispose
-- uid: PlanningTool.Form1.f_dt
-  name: f_dt
-  href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_f_dt
-  commentId: F:PlanningTool.Form1.f_dt
-  fullName: PlanningTool.Form1.f_dt
-  nameWithType: Form1.f_dt
-- uid: PlanningTool.Form1.isUserAdmin
-  name: isUserAdmin
-  href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_isUserAdmin
-  commentId: F:PlanningTool.Form1.isUserAdmin
-  fullName: PlanningTool.Form1.isUserAdmin
-  nameWithType: Form1.isUserAdmin
-- uid: PlanningTool.Form1.storage
-  name: storage
-  href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_storage
-  commentId: F:PlanningTool.Form1.storage
-  fullName: PlanningTool.Form1.storage
-  nameWithType: Form1.storage
-- uid: PlanningTool.Form1.type
-  name: type
-  href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_type
-  commentId: F:PlanningTool.Form1.type
-  fullName: PlanningTool.Form1.type
-  nameWithType: Form1.type
 - uid: PlanningTool.Form1.TYPE
   name: Form1.TYPE
   href: planningToolAPI/PlanningTool.Form1.TYPE.html
@@ -5070,6 +5144,30 @@ references:
   commentId: F:PlanningTool.Form1.TYPE.STORAGE
   fullName: PlanningTool.Form1.TYPE.STORAGE
   nameWithType: Form1.TYPE.STORAGE
+- uid: PlanningTool.Form1.f_dt
+  name: f_dt
+  href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_f_dt
+  commentId: F:PlanningTool.Form1.f_dt
+  fullName: PlanningTool.Form1.f_dt
+  nameWithType: Form1.f_dt
+- uid: PlanningTool.Form1.isUserAdmin
+  name: isUserAdmin
+  href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_isUserAdmin
+  commentId: F:PlanningTool.Form1.isUserAdmin
+  fullName: PlanningTool.Form1.isUserAdmin
+  nameWithType: Form1.isUserAdmin
+- uid: PlanningTool.Form1.storage
+  name: storage
+  href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_storage
+  commentId: F:PlanningTool.Form1.storage
+  fullName: PlanningTool.Form1.storage
+  nameWithType: Form1.storage
+- uid: PlanningTool.Form1.type
+  name: type
+  href: planningToolAPI/PlanningTool.Form1.html#PlanningTool_Form1_type
+  commentId: F:PlanningTool.Form1.type
+  fullName: PlanningTool.Form1.type
+  nameWithType: Form1.type
 - uid: PlanningTool.Licenses
   name: PlanningTool.Licenses
   href: planningToolAPI/PlanningTool.Licenses.html
@@ -5086,21 +5184,30 @@ references:
   name: AddLicense()
   href: planningToolAPI/PlanningTool.Licenses.AddLicense.html#PlanningTool_Licenses_AddLicense__ctor
   commentId: M:PlanningTool.Licenses.AddLicense.#ctor
+  name.vb: New()
   fullName: PlanningTool.Licenses.AddLicense.AddLicense()
+  fullName.vb: PlanningTool.Licenses.AddLicense.New()
   nameWithType: AddLicense.AddLicense()
+  nameWithType.vb: AddLicense.New()
 - uid: PlanningTool.Licenses.AddLicense.#ctor*
   name: AddLicense
   href: planningToolAPI/PlanningTool.Licenses.AddLicense.html#PlanningTool_Licenses_AddLicense__ctor_
   commentId: Overload:PlanningTool.Licenses.AddLicense.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Licenses.AddLicense.AddLicense
+  fullName.vb: PlanningTool.Licenses.AddLicense.New
   nameWithType: AddLicense.AddLicense
+  nameWithType.vb: AddLicense.New
 - uid: PlanningTool.Licenses.AddLicense.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Licenses.AddLicense.html#PlanningTool_Licenses_AddLicense_Dispose_System_Boolean_
   commentId: M:PlanningTool.Licenses.AddLicense.Dispose(System.Boolean)
-  fullName: PlanningTool.Licenses.AddLicense.Dispose(System.Boolean)
-  nameWithType: AddLicense.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Licenses.AddLicense.Dispose(bool)
+  fullName.vb: PlanningTool.Licenses.AddLicense.Dispose(Boolean)
+  nameWithType: AddLicense.Dispose(bool)
+  nameWithType.vb: AddLicense.Dispose(Boolean)
 - uid: PlanningTool.Licenses.AddLicense.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Licenses.AddLicense.html#PlanningTool_Licenses_AddLicense_Dispose_
@@ -5118,21 +5225,30 @@ references:
   name: EditLicense()
   href: planningToolAPI/PlanningTool.Licenses.EditLicense.html#PlanningTool_Licenses_EditLicense__ctor
   commentId: M:PlanningTool.Licenses.EditLicense.#ctor
+  name.vb: New()
   fullName: PlanningTool.Licenses.EditLicense.EditLicense()
+  fullName.vb: PlanningTool.Licenses.EditLicense.New()
   nameWithType: EditLicense.EditLicense()
+  nameWithType.vb: EditLicense.New()
 - uid: PlanningTool.Licenses.EditLicense.#ctor*
   name: EditLicense
   href: planningToolAPI/PlanningTool.Licenses.EditLicense.html#PlanningTool_Licenses_EditLicense__ctor_
   commentId: Overload:PlanningTool.Licenses.EditLicense.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Licenses.EditLicense.EditLicense
+  fullName.vb: PlanningTool.Licenses.EditLicense.New
   nameWithType: EditLicense.EditLicense
+  nameWithType.vb: EditLicense.New
 - uid: PlanningTool.Licenses.EditLicense.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Licenses.EditLicense.html#PlanningTool_Licenses_EditLicense_Dispose_System_Boolean_
   commentId: M:PlanningTool.Licenses.EditLicense.Dispose(System.Boolean)
-  fullName: PlanningTool.Licenses.EditLicense.Dispose(System.Boolean)
-  nameWithType: EditLicense.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Licenses.EditLicense.Dispose(bool)
+  fullName.vb: PlanningTool.Licenses.EditLicense.Dispose(Boolean)
+  nameWithType: EditLicense.Dispose(bool)
+  nameWithType.vb: EditLicense.Dispose(Boolean)
 - uid: PlanningTool.Licenses.EditLicense.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Licenses.EditLicense.html#PlanningTool_Licenses_EditLicense_Dispose_
@@ -5186,21 +5302,30 @@ references:
   name: Login()
   href: planningToolAPI/PlanningTool.Licenses.Login.html#PlanningTool_Licenses_Login__ctor
   commentId: M:PlanningTool.Licenses.Login.#ctor
+  name.vb: New()
   fullName: PlanningTool.Licenses.Login.Login()
+  fullName.vb: PlanningTool.Licenses.Login.New()
   nameWithType: Login.Login()
+  nameWithType.vb: Login.New()
 - uid: PlanningTool.Licenses.Login.#ctor*
   name: Login
   href: planningToolAPI/PlanningTool.Licenses.Login.html#PlanningTool_Licenses_Login__ctor_
   commentId: Overload:PlanningTool.Licenses.Login.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Licenses.Login.Login
+  fullName.vb: PlanningTool.Licenses.Login.New
   nameWithType: Login.Login
+  nameWithType.vb: Login.New
 - uid: PlanningTool.Licenses.Login.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Licenses.Login.html#PlanningTool_Licenses_Login_Dispose_System_Boolean_
   commentId: M:PlanningTool.Licenses.Login.Dispose(System.Boolean)
-  fullName: PlanningTool.Licenses.Login.Dispose(System.Boolean)
-  nameWithType: Login.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Licenses.Login.Dispose(bool)
+  fullName.vb: PlanningTool.Licenses.Login.Dispose(Boolean)
+  nameWithType: Login.Dispose(bool)
+  nameWithType.vb: Login.Dispose(Boolean)
 - uid: PlanningTool.Licenses.Login.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Licenses.Login.html#PlanningTool_Licenses_Login_Dispose_
@@ -5209,11 +5334,14 @@ references:
   fullName: PlanningTool.Licenses.Login.Dispose
   nameWithType: Login.Dispose
 - uid: PlanningTool.Licenses.Login.GetUser(System.String,System.String)
-  name: GetUser(String, String)
+  name: GetUser(string, string)
   href: planningToolAPI/PlanningTool.Licenses.Login.html#PlanningTool_Licenses_Login_GetUser_System_String_System_String_
   commentId: M:PlanningTool.Licenses.Login.GetUser(System.String,System.String)
-  fullName: PlanningTool.Licenses.Login.GetUser(System.String, System.String)
-  nameWithType: Login.GetUser(String, String)
+  name.vb: GetUser(String, String)
+  fullName: PlanningTool.Licenses.Login.GetUser(string, string)
+  fullName.vb: PlanningTool.Licenses.Login.GetUser(String, String)
+  nameWithType: Login.GetUser(string, string)
+  nameWithType.vb: Login.GetUser(String, String)
 - uid: PlanningTool.Licenses.Login.GetUser*
   name: GetUser
   href: planningToolAPI/PlanningTool.Licenses.Login.html#PlanningTool_Licenses_Login_GetUser_
@@ -5222,11 +5350,14 @@ references:
   fullName: PlanningTool.Licenses.Login.GetUser
   nameWithType: Login.GetUser
 - uid: PlanningTool.Licenses.Login.SignIn(System.String,System.String)
-  name: SignIn(String, String)
+  name: SignIn(string, string)
   href: planningToolAPI/PlanningTool.Licenses.Login.html#PlanningTool_Licenses_Login_SignIn_System_String_System_String_
   commentId: M:PlanningTool.Licenses.Login.SignIn(System.String,System.String)
-  fullName: PlanningTool.Licenses.Login.SignIn(System.String, System.String)
-  nameWithType: Login.SignIn(String, String)
+  name.vb: SignIn(String, String)
+  fullName: PlanningTool.Licenses.Login.SignIn(string, string)
+  fullName.vb: PlanningTool.Licenses.Login.SignIn(String, String)
+  nameWithType: Login.SignIn(string, string)
+  nameWithType.vb: Login.SignIn(String, String)
 - uid: PlanningTool.Licenses.Login.SignIn*
   name: SignIn
   href: planningToolAPI/PlanningTool.Licenses.Login.html#PlanningTool_Licenses_Login_SignIn_
@@ -5310,21 +5441,30 @@ references:
   name: RemoveLicense()
   href: planningToolAPI/PlanningTool.Licenses.RemoveLicense.html#PlanningTool_Licenses_RemoveLicense__ctor
   commentId: M:PlanningTool.Licenses.RemoveLicense.#ctor
+  name.vb: New()
   fullName: PlanningTool.Licenses.RemoveLicense.RemoveLicense()
+  fullName.vb: PlanningTool.Licenses.RemoveLicense.New()
   nameWithType: RemoveLicense.RemoveLicense()
+  nameWithType.vb: RemoveLicense.New()
 - uid: PlanningTool.Licenses.RemoveLicense.#ctor*
   name: RemoveLicense
   href: planningToolAPI/PlanningTool.Licenses.RemoveLicense.html#PlanningTool_Licenses_RemoveLicense__ctor_
   commentId: Overload:PlanningTool.Licenses.RemoveLicense.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Licenses.RemoveLicense.RemoveLicense
+  fullName.vb: PlanningTool.Licenses.RemoveLicense.New
   nameWithType: RemoveLicense.RemoveLicense
+  nameWithType.vb: RemoveLicense.New
 - uid: PlanningTool.Licenses.RemoveLicense.AddText(System.Object,System.EventArgs)
-  name: AddText(Object, EventArgs)
+  name: AddText(object, EventArgs)
   href: planningToolAPI/PlanningTool.Licenses.RemoveLicense.html#PlanningTool_Licenses_RemoveLicense_AddText_System_Object_System_EventArgs_
   commentId: M:PlanningTool.Licenses.RemoveLicense.AddText(System.Object,System.EventArgs)
-  fullName: PlanningTool.Licenses.RemoveLicense.AddText(System.Object, System.EventArgs)
-  nameWithType: RemoveLicense.AddText(Object, EventArgs)
+  name.vb: AddText(Object, EventArgs)
+  fullName: PlanningTool.Licenses.RemoveLicense.AddText(object, System.EventArgs)
+  fullName.vb: PlanningTool.Licenses.RemoveLicense.AddText(Object, System.EventArgs)
+  nameWithType: RemoveLicense.AddText(object, EventArgs)
+  nameWithType.vb: RemoveLicense.AddText(Object, EventArgs)
 - uid: PlanningTool.Licenses.RemoveLicense.AddText*
   name: AddText
   href: planningToolAPI/PlanningTool.Licenses.RemoveLicense.html#PlanningTool_Licenses_RemoveLicense_AddText_
@@ -5333,11 +5473,14 @@ references:
   fullName: PlanningTool.Licenses.RemoveLicense.AddText
   nameWithType: RemoveLicense.AddText
 - uid: PlanningTool.Licenses.RemoveLicense.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Licenses.RemoveLicense.html#PlanningTool_Licenses_RemoveLicense_Dispose_System_Boolean_
   commentId: M:PlanningTool.Licenses.RemoveLicense.Dispose(System.Boolean)
-  fullName: PlanningTool.Licenses.RemoveLicense.Dispose(System.Boolean)
-  nameWithType: RemoveLicense.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Licenses.RemoveLicense.Dispose(bool)
+  fullName.vb: PlanningTool.Licenses.RemoveLicense.Dispose(Boolean)
+  nameWithType: RemoveLicense.Dispose(bool)
+  nameWithType.vb: RemoveLicense.Dispose(Boolean)
 - uid: PlanningTool.Licenses.RemoveLicense.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Licenses.RemoveLicense.html#PlanningTool_Licenses_RemoveLicense_Dispose_
@@ -5346,11 +5489,14 @@ references:
   fullName: PlanningTool.Licenses.RemoveLicense.Dispose
   nameWithType: RemoveLicense.Dispose
 - uid: PlanningTool.Licenses.RemoveLicense.RemoveText(System.Object,System.EventArgs)
-  name: RemoveText(Object, EventArgs)
+  name: RemoveText(object, EventArgs)
   href: planningToolAPI/PlanningTool.Licenses.RemoveLicense.html#PlanningTool_Licenses_RemoveLicense_RemoveText_System_Object_System_EventArgs_
   commentId: M:PlanningTool.Licenses.RemoveLicense.RemoveText(System.Object,System.EventArgs)
-  fullName: PlanningTool.Licenses.RemoveLicense.RemoveText(System.Object, System.EventArgs)
-  nameWithType: RemoveLicense.RemoveText(Object, EventArgs)
+  name.vb: RemoveText(Object, EventArgs)
+  fullName: PlanningTool.Licenses.RemoveLicense.RemoveText(object, System.EventArgs)
+  fullName.vb: PlanningTool.Licenses.RemoveLicense.RemoveText(Object, System.EventArgs)
+  nameWithType: RemoveLicense.RemoveText(object, EventArgs)
+  nameWithType.vb: RemoveLicense.RemoveText(Object, EventArgs)
 - uid: PlanningTool.Licenses.RemoveLicense.RemoveText*
   name: RemoveText
   href: planningToolAPI/PlanningTool.Licenses.RemoveLicense.html#PlanningTool_Licenses_RemoveLicense_RemoveText_
@@ -5476,31 +5622,33 @@ references:
   nameWithType: Saver<T>
   nameWithType.vb: Saver(Of T)
 - uid: PlanningTool.Saver`1.#ctor(`0,System.String)
-  name: Saver(T, String)
+  name: Saver(T, string)
   href: planningToolAPI/PlanningTool.Saver-1.html#PlanningTool_Saver_1__ctor__0_System_String_
   commentId: M:PlanningTool.Saver`1.#ctor(`0,System.String)
-  fullName: PlanningTool.Saver<T>.Saver(T, System.String)
-  fullName.vb: PlanningTool.Saver(Of T).Saver(T, System.String)
-  nameWithType: Saver<T>.Saver(T, String)
-  nameWithType.vb: Saver(Of T).Saver(T, String)
+  name.vb: New(T, String)
+  fullName: PlanningTool.Saver<T>.Saver(T, string)
+  fullName.vb: PlanningTool.Saver(Of T).New(T, String)
+  nameWithType: Saver<T>.Saver(T, string)
+  nameWithType.vb: Saver(Of T).New(T, String)
 - uid: PlanningTool.Saver`1.#ctor*
   name: Saver
   href: planningToolAPI/PlanningTool.Saver-1.html#PlanningTool_Saver_1__ctor_
   commentId: Overload:PlanningTool.Saver`1.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Saver<T>.Saver
-  fullName.vb: PlanningTool.Saver(Of T).Saver
+  fullName.vb: PlanningTool.Saver(Of T).New
   nameWithType: Saver<T>.Saver
-  nameWithType.vb: Saver(Of T).Saver
+  nameWithType.vb: Saver(Of T).New
 - uid: PlanningTool.Saver`1.Open(System.String,System.String@,System.DateTime@)
-  name: Open(String, out String, out DateTime)
+  name: Open(string, out string, out DateTime)
   href: planningToolAPI/PlanningTool.Saver-1.html#PlanningTool_Saver_1_Open_System_String_System_String__System_DateTime__
   commentId: M:PlanningTool.Saver`1.Open(System.String,System.String@,System.DateTime@)
-  name.vb: Open(String, ByRef String, ByRef DateTime)
-  fullName: PlanningTool.Saver<T>.Open(System.String, out System.String, out System.DateTime)
-  fullName.vb: PlanningTool.Saver(Of T).Open(System.String, ByRef System.String, ByRef System.DateTime)
-  nameWithType: Saver<T>.Open(String, out String, out DateTime)
-  nameWithType.vb: Saver(Of T).Open(String, ByRef String, ByRef DateTime)
+  name.vb: Open(String, String, Date)
+  fullName: PlanningTool.Saver<T>.Open(string, out string, out System.DateTime)
+  fullName.vb: PlanningTool.Saver(Of T).Open(String, String, Date)
+  nameWithType: Saver<T>.Open(string, out string, out DateTime)
+  nameWithType.vb: Saver(Of T).Open(String, String, Date)
 - uid: PlanningTool.Saver`1.Open*
   name: Open
   href: planningToolAPI/PlanningTool.Saver-1.html#PlanningTool_Saver_1_Open_
@@ -5511,12 +5659,13 @@ references:
   nameWithType: Saver<T>.Open
   nameWithType.vb: Saver(Of T).Open
 - uid: PlanningTool.Saver`1.Save(System.String)
-  name: Save(String)
+  name: Save(string)
   href: planningToolAPI/PlanningTool.Saver-1.html#PlanningTool_Saver_1_Save_System_String_
   commentId: M:PlanningTool.Saver`1.Save(System.String)
-  fullName: PlanningTool.Saver<T>.Save(System.String)
-  fullName.vb: PlanningTool.Saver(Of T).Save(System.String)
-  nameWithType: Saver<T>.Save(String)
+  name.vb: Save(String)
+  fullName: PlanningTool.Saver<T>.Save(string)
+  fullName.vb: PlanningTool.Saver(Of T).Save(String)
+  nameWithType: Saver<T>.Save(string)
   nameWithType.vb: Saver(Of T).Save(String)
 - uid: PlanningTool.Saver`1.Save*
   name: Save
@@ -5543,21 +5692,30 @@ references:
   name: AddFilm()
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm__ctor
   commentId: M:PlanningTool.Storage.AddFilm.#ctor
+  name.vb: New()
   fullName: PlanningTool.Storage.AddFilm.AddFilm()
+  fullName.vb: PlanningTool.Storage.AddFilm.New()
   nameWithType: AddFilm.AddFilm()
+  nameWithType.vb: AddFilm.New()
 - uid: PlanningTool.Storage.AddFilm.#ctor*
   name: AddFilm
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm__ctor_
   commentId: Overload:PlanningTool.Storage.AddFilm.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Storage.AddFilm.AddFilm
+  fullName.vb: PlanningTool.Storage.AddFilm.New
   nameWithType: AddFilm.AddFilm
+  nameWithType.vb: AddFilm.New
 - uid: PlanningTool.Storage.AddFilm.Add(System.Object,System.EventArgs)
-  name: Add(Object, EventArgs)
+  name: Add(object, EventArgs)
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_Add_System_Object_System_EventArgs_
   commentId: M:PlanningTool.Storage.AddFilm.Add(System.Object,System.EventArgs)
-  fullName: PlanningTool.Storage.AddFilm.Add(System.Object, System.EventArgs)
-  nameWithType: AddFilm.Add(Object, EventArgs)
+  name.vb: Add(Object, EventArgs)
+  fullName: PlanningTool.Storage.AddFilm.Add(object, System.EventArgs)
+  fullName.vb: PlanningTool.Storage.AddFilm.Add(Object, System.EventArgs)
+  nameWithType: AddFilm.Add(object, EventArgs)
+  nameWithType.vb: AddFilm.Add(Object, EventArgs)
 - uid: PlanningTool.Storage.AddFilm.Add*
   name: Add
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_Add_
@@ -5566,11 +5724,14 @@ references:
   fullName: PlanningTool.Storage.AddFilm.Add
   nameWithType: AddFilm.Add
 - uid: PlanningTool.Storage.AddFilm.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_Dispose_System_Boolean_
   commentId: M:PlanningTool.Storage.AddFilm.Dispose(System.Boolean)
-  fullName: PlanningTool.Storage.AddFilm.Dispose(System.Boolean)
-  nameWithType: AddFilm.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Storage.AddFilm.Dispose(bool)
+  fullName.vb: PlanningTool.Storage.AddFilm.Dispose(Boolean)
+  nameWithType: AddFilm.Dispose(bool)
+  nameWithType.vb: AddFilm.Dispose(Boolean)
 - uid: PlanningTool.Storage.AddFilm.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_Dispose_
@@ -5578,24 +5739,12 @@ references:
   isSpec: "True"
   fullName: PlanningTool.Storage.AddFilm.Dispose
   nameWithType: AddFilm.Dispose
-- uid: PlanningTool.Storage.AddFilm.form1
-  name: form1
-  href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_form1
-  commentId: F:PlanningTool.Storage.AddFilm.form1
-  fullName: PlanningTool.Storage.AddFilm.form1
-  nameWithType: AddFilm.form1
 - uid: PlanningTool.Storage.AddFilm.ID
   name: ID
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_ID
   commentId: F:PlanningTool.Storage.AddFilm.ID
   fullName: PlanningTool.Storage.AddFilm.ID
   nameWithType: AddFilm.ID
-- uid: PlanningTool.Storage.AddFilm.index
-  name: index
-  href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_index
-  commentId: F:PlanningTool.Storage.AddFilm.index
-  fullName: PlanningTool.Storage.AddFilm.index
-  nameWithType: AddFilm.index
 - uid: PlanningTool.Storage.AddFilm.LoadVars
   name: LoadVars()
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_LoadVars
@@ -5609,6 +5758,18 @@ references:
   isSpec: "True"
   fullName: PlanningTool.Storage.AddFilm.LoadVars
   nameWithType: AddFilm.LoadVars
+- uid: PlanningTool.Storage.AddFilm.form1
+  name: form1
+  href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_form1
+  commentId: F:PlanningTool.Storage.AddFilm.form1
+  fullName: PlanningTool.Storage.AddFilm.form1
+  nameWithType: AddFilm.form1
+- uid: PlanningTool.Storage.AddFilm.index
+  name: index
+  href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_index
+  commentId: F:PlanningTool.Storage.AddFilm.index
+  fullName: PlanningTool.Storage.AddFilm.index
+  nameWithType: AddFilm.index
 - uid: PlanningTool.Storage.AddFilm.tmp_genres
   name: tmp_genres
   href: planningToolAPI/PlanningTool.Storage.AddFilm.html#PlanningTool_Storage_AddFilm_tmp_genres
@@ -5631,21 +5792,30 @@ references:
   name: AddGenre()
   href: planningToolAPI/PlanningTool.Storage.AddGenre.html#PlanningTool_Storage_AddGenre__ctor
   commentId: M:PlanningTool.Storage.AddGenre.#ctor
+  name.vb: New()
   fullName: PlanningTool.Storage.AddGenre.AddGenre()
+  fullName.vb: PlanningTool.Storage.AddGenre.New()
   nameWithType: AddGenre.AddGenre()
+  nameWithType.vb: AddGenre.New()
 - uid: PlanningTool.Storage.AddGenre.#ctor*
   name: AddGenre
   href: planningToolAPI/PlanningTool.Storage.AddGenre.html#PlanningTool_Storage_AddGenre__ctor_
   commentId: Overload:PlanningTool.Storage.AddGenre.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Storage.AddGenre.AddGenre
+  fullName.vb: PlanningTool.Storage.AddGenre.New
   nameWithType: AddGenre.AddGenre
+  nameWithType.vb: AddGenre.New
 - uid: PlanningTool.Storage.AddGenre.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Storage.AddGenre.html#PlanningTool_Storage_AddGenre_Dispose_System_Boolean_
   commentId: M:PlanningTool.Storage.AddGenre.Dispose(System.Boolean)
-  fullName: PlanningTool.Storage.AddGenre.Dispose(System.Boolean)
-  nameWithType: AddGenre.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Storage.AddGenre.Dispose(bool)
+  fullName.vb: PlanningTool.Storage.AddGenre.Dispose(Boolean)
+  nameWithType: AddGenre.Dispose(bool)
+  nameWithType.vb: AddGenre.Dispose(Boolean)
 - uid: PlanningTool.Storage.AddGenre.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Storage.AddGenre.html#PlanningTool_Storage_AddGenre_Dispose_
@@ -5663,21 +5833,30 @@ references:
   name: EditByID()
   href: planningToolAPI/PlanningTool.Storage.EditByID.html#PlanningTool_Storage_EditByID__ctor
   commentId: M:PlanningTool.Storage.EditByID.#ctor
+  name.vb: New()
   fullName: PlanningTool.Storage.EditByID.EditByID()
+  fullName.vb: PlanningTool.Storage.EditByID.New()
   nameWithType: EditByID.EditByID()
+  nameWithType.vb: EditByID.New()
 - uid: PlanningTool.Storage.EditByID.#ctor*
   name: EditByID
   href: planningToolAPI/PlanningTool.Storage.EditByID.html#PlanningTool_Storage_EditByID__ctor_
   commentId: Overload:PlanningTool.Storage.EditByID.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Storage.EditByID.EditByID
+  fullName.vb: PlanningTool.Storage.EditByID.New
   nameWithType: EditByID.EditByID
+  nameWithType.vb: EditByID.New
 - uid: PlanningTool.Storage.EditByID.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Storage.EditByID.html#PlanningTool_Storage_EditByID_Dispose_System_Boolean_
   commentId: M:PlanningTool.Storage.EditByID.Dispose(System.Boolean)
-  fullName: PlanningTool.Storage.EditByID.Dispose(System.Boolean)
-  nameWithType: EditByID.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Storage.EditByID.Dispose(bool)
+  fullName.vb: PlanningTool.Storage.EditByID.Dispose(Boolean)
+  nameWithType: EditByID.Dispose(bool)
+  nameWithType.vb: EditByID.Dispose(Boolean)
 - uid: PlanningTool.Storage.EditByID.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Storage.EditByID.html#PlanningTool_Storage_EditByID_Dispose_
@@ -5691,31 +5870,34 @@ references:
   commentId: T:PlanningTool.Storage.Film
   fullName: PlanningTool.Storage.Film
   nameWithType: Film
-- uid: PlanningTool.Storage.Film.#ctor(List{PlanningTool.Storage.Film.F_GENRE})
-  name: Film(List<Film.F_GENRE>)
-  href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film__ctor_List_PlanningTool_Storage_Film_F_GENRE__
-  commentId: M:PlanningTool.Storage.Film.#ctor(List{PlanningTool.Storage.Film.F_GENRE})
-  name.vb: Film(List(Of Film.F_GENRE))
-  fullName: PlanningTool.Storage.Film.Film(List<PlanningTool.Storage.Film.F_GENRE>)
-  fullName.vb: PlanningTool.Storage.Film.Film(List(Of PlanningTool.Storage.Film.F_GENRE))
+- uid: PlanningTool.Storage.Film.#ctor(System.Collections.Generic.List{PlanningTool.Storage.Film.F_GENRE})
+  name: Film(List<F_GENRE>)
+  href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film__ctor_System_Collections_Generic_List_PlanningTool_Storage_Film_F_GENRE__
+  commentId: M:PlanningTool.Storage.Film.#ctor(System.Collections.Generic.List{PlanningTool.Storage.Film.F_GENRE})
+  name.vb: New(List(Of F_GENRE))
+  fullName: PlanningTool.Storage.Film.Film(System.Collections.Generic.List<PlanningTool.Storage.Film.F_GENRE>)
+  fullName.vb: PlanningTool.Storage.Film.New(System.Collections.Generic.List(Of PlanningTool.Storage.Film.F_GENRE))
   nameWithType: Film.Film(List<Film.F_GENRE>)
-  nameWithType.vb: Film.Film(List(Of Film.F_GENRE))
-- uid: PlanningTool.Storage.Film.#ctor(List{PlanningTool.Storage.Film.F_GENRE},System.String)
-  name: Film(List<Film.F_GENRE>, String)
-  href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film__ctor_List_PlanningTool_Storage_Film_F_GENRE__System_String_
-  commentId: M:PlanningTool.Storage.Film.#ctor(List{PlanningTool.Storage.Film.F_GENRE},System.String)
-  name.vb: Film(List(Of Film.F_GENRE), String)
-  fullName: PlanningTool.Storage.Film.Film(List<PlanningTool.Storage.Film.F_GENRE>, System.String)
-  fullName.vb: PlanningTool.Storage.Film.Film(List(Of PlanningTool.Storage.Film.F_GENRE), System.String)
-  nameWithType: Film.Film(List<Film.F_GENRE>, String)
-  nameWithType.vb: Film.Film(List(Of Film.F_GENRE), String)
+  nameWithType.vb: Film.New(List(Of Film.F_GENRE))
+- uid: PlanningTool.Storage.Film.#ctor(System.Collections.Generic.List{PlanningTool.Storage.Film.F_GENRE},System.String)
+  name: Film(List<F_GENRE>, string)
+  href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film__ctor_System_Collections_Generic_List_PlanningTool_Storage_Film_F_GENRE__System_String_
+  commentId: M:PlanningTool.Storage.Film.#ctor(System.Collections.Generic.List{PlanningTool.Storage.Film.F_GENRE},System.String)
+  name.vb: New(List(Of F_GENRE), String)
+  fullName: PlanningTool.Storage.Film.Film(System.Collections.Generic.List<PlanningTool.Storage.Film.F_GENRE>, string)
+  fullName.vb: PlanningTool.Storage.Film.New(System.Collections.Generic.List(Of PlanningTool.Storage.Film.F_GENRE), String)
+  nameWithType: Film.Film(List<Film.F_GENRE>, string)
+  nameWithType.vb: Film.New(List(Of Film.F_GENRE), String)
 - uid: PlanningTool.Storage.Film.#ctor*
   name: Film
   href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film__ctor_
   commentId: Overload:PlanningTool.Storage.Film.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Storage.Film.Film
+  fullName.vb: PlanningTool.Storage.Film.New
   nameWithType: Film.Film
+  nameWithType.vb: Film.New
 - uid: PlanningTool.Storage.Film.Duration
   name: Duration
   href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film_Duration
@@ -5729,12 +5911,6 @@ references:
   isSpec: "True"
   fullName: PlanningTool.Storage.Film.Duration
   nameWithType: Film.Duration
-- uid: PlanningTool.Storage.Film.edited
-  name: edited
-  href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film_edited
-  commentId: F:PlanningTool.Storage.Film.edited
-  fullName: PlanningTool.Storage.Film.edited
-  nameWithType: Film.edited
 - uid: PlanningTool.Storage.Film.F_GENRE
   name: Film.F_GENRE
   href: planningToolAPI/PlanningTool.Storage.Film.F_GENRE.html
@@ -5849,12 +6025,6 @@ references:
   commentId: F:PlanningTool.Storage.Film.F_GENRE.Western
   fullName: PlanningTool.Storage.Film.F_GENRE.Western
   nameWithType: Film.F_GENRE.Western
-- uid: PlanningTool.Storage.Film.genres
-  name: genres
-  href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film_genres
-  commentId: F:PlanningTool.Storage.Film.genres
-  fullName: PlanningTool.Storage.Film.genres
-  nameWithType: Film.genres
 - uid: PlanningTool.Storage.Film.GetGenres
   name: GetGenres()
   href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film_GetGenres
@@ -5881,6 +6051,18 @@ references:
   isSpec: "True"
   fullName: PlanningTool.Storage.Film.Tags
   nameWithType: Film.Tags
+- uid: PlanningTool.Storage.Film.edited
+  name: edited
+  href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film_edited
+  commentId: F:PlanningTool.Storage.Film.edited
+  fullName: PlanningTool.Storage.Film.edited
+  nameWithType: Film.edited
+- uid: PlanningTool.Storage.Film.genres
+  name: genres
+  href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film_genres
+  commentId: F:PlanningTool.Storage.Film.genres
+  fullName: PlanningTool.Storage.Film.genres
+  nameWithType: Film.genres
 - uid: PlanningTool.Storage.Film.tagsAllowed
   name: tagsAllowed
   href: planningToolAPI/PlanningTool.Storage.Film.html#PlanningTool_Storage_Film_tagsAllowed
@@ -5897,21 +6079,30 @@ references:
   name: RemFilm()
   href: planningToolAPI/PlanningTool.Storage.RemFilm.html#PlanningTool_Storage_RemFilm__ctor
   commentId: M:PlanningTool.Storage.RemFilm.#ctor
+  name.vb: New()
   fullName: PlanningTool.Storage.RemFilm.RemFilm()
+  fullName.vb: PlanningTool.Storage.RemFilm.New()
   nameWithType: RemFilm.RemFilm()
+  nameWithType.vb: RemFilm.New()
 - uid: PlanningTool.Storage.RemFilm.#ctor*
   name: RemFilm
   href: planningToolAPI/PlanningTool.Storage.RemFilm.html#PlanningTool_Storage_RemFilm__ctor_
   commentId: Overload:PlanningTool.Storage.RemFilm.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Storage.RemFilm.RemFilm
+  fullName.vb: PlanningTool.Storage.RemFilm.New
   nameWithType: RemFilm.RemFilm
+  nameWithType.vb: RemFilm.New
 - uid: PlanningTool.Storage.RemFilm.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Storage.RemFilm.html#PlanningTool_Storage_RemFilm_Dispose_System_Boolean_
   commentId: M:PlanningTool.Storage.RemFilm.Dispose(System.Boolean)
-  fullName: PlanningTool.Storage.RemFilm.Dispose(System.Boolean)
-  nameWithType: RemFilm.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Storage.RemFilm.Dispose(bool)
+  fullName.vb: PlanningTool.Storage.RemFilm.Dispose(Boolean)
+  nameWithType: RemFilm.Dispose(bool)
+  nameWithType.vb: RemFilm.Dispose(Boolean)
 - uid: PlanningTool.Storage.RemFilm.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Storage.RemFilm.html#PlanningTool_Storage_RemFilm_Dispose_
@@ -5929,21 +6120,30 @@ references:
   name: RemGenre()
   href: planningToolAPI/PlanningTool.Storage.RemGenre.html#PlanningTool_Storage_RemGenre__ctor
   commentId: M:PlanningTool.Storage.RemGenre.#ctor
+  name.vb: New()
   fullName: PlanningTool.Storage.RemGenre.RemGenre()
+  fullName.vb: PlanningTool.Storage.RemGenre.New()
   nameWithType: RemGenre.RemGenre()
+  nameWithType.vb: RemGenre.New()
 - uid: PlanningTool.Storage.RemGenre.#ctor*
   name: RemGenre
   href: planningToolAPI/PlanningTool.Storage.RemGenre.html#PlanningTool_Storage_RemGenre__ctor_
   commentId: Overload:PlanningTool.Storage.RemGenre.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Storage.RemGenre.RemGenre
+  fullName.vb: PlanningTool.Storage.RemGenre.New
   nameWithType: RemGenre.RemGenre
+  nameWithType.vb: RemGenre.New
 - uid: PlanningTool.Storage.RemGenre.Dispose(System.Boolean)
-  name: Dispose(Boolean)
+  name: Dispose(bool)
   href: planningToolAPI/PlanningTool.Storage.RemGenre.html#PlanningTool_Storage_RemGenre_Dispose_System_Boolean_
   commentId: M:PlanningTool.Storage.RemGenre.Dispose(System.Boolean)
-  fullName: PlanningTool.Storage.RemGenre.Dispose(System.Boolean)
-  nameWithType: RemGenre.Dispose(Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: PlanningTool.Storage.RemGenre.Dispose(bool)
+  fullName.vb: PlanningTool.Storage.RemGenre.Dispose(Boolean)
+  nameWithType: RemGenre.Dispose(bool)
+  nameWithType.vb: RemGenre.Dispose(Boolean)
 - uid: PlanningTool.Storage.RemGenre.Dispose*
   name: Dispose
   href: planningToolAPI/PlanningTool.Storage.RemGenre.html#PlanningTool_Storage_RemGenre_Dispose_
@@ -5986,34 +6186,30 @@ references:
   name: StorageItem()
   href: planningToolAPI/PlanningTool.Storage.StorageItem.html#PlanningTool_Storage_StorageItem__ctor
   commentId: M:PlanningTool.Storage.StorageItem.#ctor
+  name.vb: New()
   fullName: PlanningTool.Storage.StorageItem.StorageItem()
+  fullName.vb: PlanningTool.Storage.StorageItem.New()
   nameWithType: StorageItem.StorageItem()
+  nameWithType.vb: StorageItem.New()
 - uid: PlanningTool.Storage.StorageItem.#ctor(System.String)
-  name: StorageItem(String)
+  name: StorageItem(string)
   href: planningToolAPI/PlanningTool.Storage.StorageItem.html#PlanningTool_Storage_StorageItem__ctor_System_String_
   commentId: M:PlanningTool.Storage.StorageItem.#ctor(System.String)
-  fullName: PlanningTool.Storage.StorageItem.StorageItem(System.String)
-  nameWithType: StorageItem.StorageItem(String)
+  name.vb: New(String)
+  fullName: PlanningTool.Storage.StorageItem.StorageItem(string)
+  fullName.vb: PlanningTool.Storage.StorageItem.New(String)
+  nameWithType: StorageItem.StorageItem(string)
+  nameWithType.vb: StorageItem.New(String)
 - uid: PlanningTool.Storage.StorageItem.#ctor*
   name: StorageItem
   href: planningToolAPI/PlanningTool.Storage.StorageItem.html#PlanningTool_Storage_StorageItem__ctor_
   commentId: Overload:PlanningTool.Storage.StorageItem.#ctor
   isSpec: "True"
+  name.vb: New
   fullName: PlanningTool.Storage.StorageItem.StorageItem
+  fullName.vb: PlanningTool.Storage.StorageItem.New
   nameWithType: StorageItem.StorageItem
-- uid: PlanningTool.Storage.StorageItem.generateID
-  name: generateID()
-  href: planningToolAPI/PlanningTool.Storage.StorageItem.html#PlanningTool_Storage_StorageItem_generateID
-  commentId: M:PlanningTool.Storage.StorageItem.generateID
-  fullName: PlanningTool.Storage.StorageItem.generateID()
-  nameWithType: StorageItem.generateID()
-- uid: PlanningTool.Storage.StorageItem.generateID*
-  name: generateID
-  href: planningToolAPI/PlanningTool.Storage.StorageItem.html#PlanningTool_Storage_StorageItem_generateID_
-  commentId: Overload:PlanningTool.Storage.StorageItem.generateID
-  isSpec: "True"
-  fullName: PlanningTool.Storage.StorageItem.generateID
-  nameWithType: StorageItem.generateID
+  nameWithType.vb: StorageItem.New
 - uid: PlanningTool.Storage.StorageItem.GetGenres
   name: GetGenres()
   href: planningToolAPI/PlanningTool.Storage.StorageItem.html#PlanningTool_Storage_StorageItem_GetGenres
@@ -6079,6 +6275,19 @@ references:
   isSpec: "True"
   fullName: PlanningTool.Storage.StorageItem.Title
   nameWithType: StorageItem.Title
+- uid: PlanningTool.Storage.StorageItem.generateID
+  name: generateID()
+  href: planningToolAPI/PlanningTool.Storage.StorageItem.html#PlanningTool_Storage_StorageItem_generateID
+  commentId: M:PlanningTool.Storage.StorageItem.generateID
+  fullName: PlanningTool.Storage.StorageItem.generateID()
+  nameWithType: StorageItem.generateID()
+- uid: PlanningTool.Storage.StorageItem.generateID*
+  name: generateID
+  href: planningToolAPI/PlanningTool.Storage.StorageItem.html#PlanningTool_Storage_StorageItem_generateID_
+  commentId: Overload:PlanningTool.Storage.StorageItem.generateID
+  isSpec: "True"
+  fullName: PlanningTool.Storage.StorageItem.generateID
+  nameWithType: StorageItem.generateID
 - uid: TheInvaders
   name: TheInvaders
   href: tiAPI/TheInvaders.html
